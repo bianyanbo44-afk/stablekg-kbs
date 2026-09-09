@@ -1,0 +1,3 @@
+StableKG couples calibrated selective prediction with explicit evidence stability certificates for evolving temporal knowledge graphs.
+Evidence-deletion diagnostics reduce selective risk across ICEWS14 and ICEWS05-15 while preserving a transparent acceptance rule.
+Dependency-closure updates reduce recomputation work and preserve exact agreement with full refresh on public event archives.

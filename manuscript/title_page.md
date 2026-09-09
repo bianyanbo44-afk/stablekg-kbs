@@ -11,6 +11,6 @@
 
 **CRediT contribution:** Yanbo Bian: Conceptualization, Methodology, Software, Data curation, Formal analysis, Validation, Visualization, Writing - original draft, Writing - review and editing.
 
-**Funding:** To be confirmed by the author before submission.
+**Funding:** This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.
 
 **Data and code:** Public archives, hashes, source tables, figures, scripts and tests are included in the submission package. See `Data Availability` and `Code Availability` in the manuscript.

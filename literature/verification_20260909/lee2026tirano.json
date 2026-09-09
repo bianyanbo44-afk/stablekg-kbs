@@ -1,0 +1,638 @@
+{
+  "key": "lee2026tirano",
+  "url": "https://api.crossref.org/works/10.1145%2F3770855.3817784",
+  "retrieved_utc": "2026-09-09T03:16:56.844464+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            7
+          ]
+        ],
+        "date-time": "2026-08-07T16:40:30Z",
+        "timestamp": 1786120830794,
+        "version": "build-2736575974"
+      },
+      "publisher-location": "New York, NY, USA",
+      "reference-count": 61,
+      "publisher": "ACM",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                8
+              ]
+            ],
+            "date-time": "2026-08-08T00:00:00Z",
+            "timestamp": 1786147200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            9
+          ]
+        ]
+      },
+      "DOI": "10.1145/3770855.3817784",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            6
+          ]
+        ],
+        "date-time": "2026-08-06T17:15:37Z",
+        "timestamp": 1786036537000
+      },
+      "page": "2497-2508",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "TiRano: Tensorized Relation-aware Temporal Reasoning for Accurate Knowledge Graph Completion"
+      ],
+      "prefix": "10.1145",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-2657-411X",
+          "authenticated-orcid": false,
+          "given": "SeungJoo",
+          "family": "Lee",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Seoul National University, Seoul, Republic of Korea"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-3489-9717",
+          "authenticated-orcid": false,
+          "given": "Yong-chan",
+          "family": "Park",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Seoul National University, Seoul, Republic of Korea"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8774-6950",
+          "authenticated-orcid": false,
+          "given": "U",
+          "family": "Kang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Seoul National University, Seoul, Republic of Korea"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            8
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_1_1_1",
+          "volume-title": "V26",
+          "author": "Bordes Antoine",
+          "year": "2013",
+          "unstructured": "Antoine Bordes, Nicolas Usunier, Alberto Garcia-Duran, Jason Weston, and Oksana Yakhnenko. 2013. Translating embeddings for modeling multi-relational data. NeurIPS, V26 (2013)."
+        },
+        {
+          "key": "e_1_3_2_1_2_1",
+          "first-page": "5843",
+          "article-title": "RotateQVS: Representing Temporal Information as Rotations in Quaternion Vector Space for Temporal Knowledge Graph Completion",
+          "author": "Chen Kai",
+          "year": "2022",
+          "unstructured": "Kai Chen, Ye Wang, Yitong Li, and Aiping Li. 2022a. RotateQVS: Representing Temporal Information as Rotations in Quaternion Vector Space for Temporal Knowledge Graph Completion. In ACL. 5843-5857.",
+          "journal-title": "ACL."
+        },
+        {
+          "key": "e_1_3_2_1_3_1",
+          "first-page": "117",
+          "article-title": "A Unified Temporal Knowledge Graph Reasoning Model Towards Interpolation and Extrapolation",
+          "author": "Chen Kai",
+          "year": "2024",
+          "unstructured": "Kai Chen, Ye Wang, Yitong Li, Aiping Li, Han Yu, and Xin Song. 2024c. A Unified Temporal Knowledge Graph Reasoning Model Towards Interpolation and Extrapolation. In ACL. 117-132.",
+          "journal-title": "ACL."
+        },
+        {
+          "key": "e_1_3_2_1_4_1",
+          "first-page": "4056",
+          "article-title": "Htccn: Temporal causal convolutional networks with hawkes process for extrapolation reasoning in temporal knowledge graphs",
+          "author": "Chen Tingxuan",
+          "year": "2024",
+          "unstructured": "Tingxuan Chen, Jun Long, Liu Yang, Zidong Wang, Yongheng Wang, and Xiongnan Jin. 2024a. Htccn: Temporal causal convolutional networks with hawkes process for extrapolation reasoning in temporal knowledge graphs. In NAACL. 4056-4066.",
+          "journal-title": "NAACL."
+        },
+        {
+          "key": "e_1_3_2_1_5_1",
+          "first-page": "733",
+          "article-title": "Local-global history-aware contrastive learning for temporal knowledge graph reasoning",
+          "author": "Chen Wei",
+          "year": "2024",
+          "unstructured": "Wei Chen, Huaiyu Wan, Yuting Wu, Shuyuan Zhao, Jiayaqi Cheng, Yuxin Li, and Youfang Lin. 2024b. Local-global history-aware contrastive learning for temporal knowledge graph reasoning. In ICDE. IEEE, 733-746.",
+          "journal-title": "ICDE. IEEE"
+        },
+        {
+          "key": "e_1_3_2_1_6_1",
+          "volume-title": "V251",
+          "author": "Chen Ziyang",
+          "year": "2022",
+          "unstructured": "Ziyang Chen, Xiang Zhao, Jinzhi Liao, Xinyi Li, and Evangelos Kanoulas. 2022b. Temporal knowledge graph question answering via subgraph reasoning. KBS, V251 (2022), 109134."
+        },
+        {
+          "key": "e_1_3_2_1_7_1",
+          "volume-title": "V14, 6",
+          "author": "Choi Dongjin",
+          "year": "2019",
+          "unstructured": "Dongjin Choi, Jun-Gi Jang, and U Kang. 2019. S3 CMTF: Fast, accurate, and scalable method for incomplete coupled matrix-tensor factorization. PloS one, V14, 6 (2019)."
+        },
+        {
+          "key": "e_1_3_2_1_8_1",
+          "volume-title": "Swayambhu Nath Ray, and Partha Talukdar",
+          "author": "Dasgupta Shib Sankar",
+          "year": "2018",
+          "unstructured": "Shib Sankar Dasgupta, Swayambhu Nath Ray, and Partha Talukdar. 2018. Hyte: Hyperplane-based temporally aware knowledge graph embedding. In EMNLP."
+        },
+        {
+          "key": "e_1_3_2_1_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-031-47715-7_49"
+        },
+        {
+          "key": "e_1_3_2_1_10_1",
+          "volume-title": "Flow to Candidate: Temporal Knowledge Graph Reasoning With Candidate-Oriented Relational Graph",
+          "author": "Fan Shiqi",
+          "year": "2024",
+          "unstructured": "Shiqi Fan, Guoxi Fan, Hongyi Nie, Quanming Yao, Yang Liu, Xuelong Li, and Zhen Wang. 2024. Flow to Candidate: Temporal Knowledge Graph Reasoning With Candidate-Oriented Relational Graph. IEEE Transactions on Neural Networks and Learning Systems (2024)."
+        },
+        {
+          "key": "e_1_3_2_1_11_1",
+          "volume-title": "Learning sequence encoders for temporal knowledge graph completion. arXiv preprint arXiv:1809.03202",
+          "author": "García-Durán Alberto",
+          "year": "2018",
+          "unstructured": "Alberto García-Durán, Sebastijan Dumančić, and Mathias Niepert. 2018. Learning sequence encoders for temporal knowledge graph completion. arXiv preprint arXiv:1809.03202 (2018)."
+        },
+        {
+          "key": "e_1_3_2_1_12_1",
+          "volume-title": "Marcus Brubaker, and Pascal Poupart.",
+          "author": "Goel Rishab",
+          "year": "2020",
+          "unstructured": "Rishab Goel, Seyed Mehran Kazemi, Marcus Brubaker, and Pascal Poupart. 2020. Diachronic embedding for temporal knowledge graph completion. In AAAI."
+        },
+        {
+          "key": "e_1_3_2_1_13_1",
+          "volume-title": "V20, 10",
+          "author": "Park Ka Hyun",
+          "year": "2025",
+          "unstructured": "Ka Hyun Park, Junghun Kim, and U Kang. 2025. Accurate semi-supervised automatic speech recognition for ordinary and characterized speeches via multi-hypotheses-based curriculum learning. PLOS One, V20, 10 (2025)."
+        },
+        {
+          "key": "e_1_3_2_1_14_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jun-Gi Jang Yong-chan Park and U Kang. 2024. Fast and accurate parafac2 decomposition for time range queries on irregular tensors. In CIKM.",
+          "DOI": "10.1145/3627673.3679735"
+        },
+        {
+          "key": "e_1_3_2_1_15_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jihyeong Jeon Jiwon Lee Cheol Ryu and U Kang. 2025. Entity-Aware Generative Retrieval for Personalized Contexts. In CIKM.",
+          "DOI": "10.1145/3746252.3761211"
+        },
+        {
+          "key": "e_1_3_2_1_16_1",
+          "first-page": "687",
+          "article-title": "Knowledge graph embedding via dynamic mapping matrix",
+          "author": "Ji Guoliang",
+          "year": "2015",
+          "unstructured": "Guoliang Ji, Shizhu He, Liheng Xu, Kang Liu, and Jun Zhao. 2015. Knowledge graph embedding via dynamic mapping matrix. In IJCNLP. 687-696.",
+          "journal-title": "IJCNLP."
+        },
+        {
+          "key": "e_1_3_2_1_17_1",
+          "unstructured": "Tingsong Jiang Tianyu Liu Tao Ge Lei Sha Baobao Chang Sujian Li and Zhifang Sui. 2016. Towards time-aware knowledge graph completion. In COLING."
+        },
+        {
+          "key": "e_1_3_2_1_18_1",
+          "unstructured": "Woojeong Jin Meng Qu Xisen Jin and Xiang Ren. 2020. Recurrent Event Network: Autoregressive Structure Inference over Temporal Knowledge Graphs. In EMNLP."
+        },
+        {
+          "key": "e_1_3_2_1_19_1",
+          "first-page": "786",
+          "article-title": "Learning to walk across time for interpretable temporal knowledge graph completion",
+          "author": "Jung Jaehun",
+          "year": "2021",
+          "unstructured": "Jaehun Jung, Jinhong Jung, and U Kang. 2021. Learning to walk across time for interpretable temporal knowledge graph completion. In KDD. 786-795.",
+          "journal-title": "KDD."
+        },
+        {
+          "key": "e_1_3_2_1_20_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nam Kyu Kang Yong-chan Park and U Kang. 2026. Fast and Accurate Temporal Super-Resolution Via Residual-Aware Coupled Tensor Factorization. In ICASSP.",
+          "DOI": "10.1109/ICASSP55912.2026.11460966"
+        },
+        {
+          "key": "e_1_3_2_1_21_1",
+          "volume-title": "Jun-Gi Jang, and U Kang.",
+          "author": "Kim Junghun",
+          "year": "2024",
+          "unstructured": "Junghun Kim, Ka Hyun Park, Jun-Gi Jang, and U Kang. 2024b. Fast and accurate domain adaptation for irregular tensor decomposition. In KDD."
+        },
+        {
+          "key": "e_1_3_2_1_22_1",
+          "volume-title": "Jun-Gi Jang, and U Kang. 2026 b. Fast and Accurate Domain Adaptation for Irregular and Regular Tensor Decomposition. TKDE",
+          "author": "Kim Junghun",
+          "year": "2026",
+          "unstructured": "Junghun Kim, Ka Hyun Park, Jun-Gi Jang, and U Kang. 2026 b. Fast and Accurate Domain Adaptation for Irregular and Regular Tensor Decomposition. TKDE (2026)."
+        },
+        {
+          "key": "e_1_3_2_1_23_1",
+          "volume-title": "Ka Hyun Park, and U Kang",
+          "author": "Kim Junghun",
+          "year": "2024",
+          "unstructured": "Junghun Kim, Ka Hyun Park, and U Kang. 2024a. Accurate semi-supervised automatic speech recognition via multi-hypotheses-based curriculum learning. In PAKDD."
+        },
+        {
+          "key": "e_1_3_2_1_24_1",
+          "unstructured": "Junghun Kim Shihyung Park and U Kang. 2026 a. Dual-level Reweighting for Positive-Unlabeled Graph Classification. In WWW."
+        },
+        {
+          "key": "e_1_3_2_1_25_1",
+          "volume-title": "Ka Hyun Park, and U Kang",
+          "author": "Kim Junghun",
+          "year": "2025",
+          "unstructured": "Junghun Kim, Hoyoung Yoon, Ka Hyun Park, and U Kang. 2025. Accurate graph-based multi-positive unlabeled learning via disentangled multi-view feature propagation. In KDD."
+        },
+        {
+          "key": "e_1_3_2_1_26_1",
+          "volume-title": "Tensor decompositions for temporal knowledge base completion. arXiv preprint arXiv:2004.04926",
+          "author": "Lacroix Timothée",
+          "year": "2020",
+          "unstructured": "Timothée Lacroix, Guillaume Obozinski, and Nicolas Usunier. 2020. Tensor decompositions for temporal knowledge base completion. arXiv preprint arXiv:2004.04926 (2020)."
+        },
+        {
+          "key": "e_1_3_2_1_27_1",
+          "unstructured": "Jeongyoung Lee SeungJoo Lee and U Kang. 2026. Fast and Accurate Element-Level Streaming CP Decomposition for Higher-Order Tensors. In ICDE."
+        },
+        {
+          "key": "e_1_3_2_1_28_1",
+          "unstructured": "SeungJoo Lee Yong-chan Park and U Kang. 2024. Accurate coupled tensor factorization with knowledge graph. In BigData."
+        },
+        {
+          "key": "e_1_3_2_1_29_1",
+          "volume-title": "V20, 11",
+          "author": "Lee SeungJoo",
+          "year": "2025",
+          "unstructured": "SeungJoo Lee, Yong-chan Park, and U Kang. 2025a. Offline and online coupled tensor factorization with knowledge graph. PLOS One, V20, 11 (2025)."
+        },
+        {
+          "key": "e_1_3_2_1_30_1",
+          "unstructured": "SeungJoo Lee Yong-chan Park and U Kang. 2025b. SwaGNER: Leveraging Span-aware Grid Transformers for Accurate Nested Named Entity Recognition. In CIKM."
+        },
+        {
+          "key": "e_1_3_2_1_31_1",
+          "first-page": "15460",
+          "article-title": "Teast: Temporal knowledge graph embedding via archimedean spiral timeline",
+          "author": "Li Jiang",
+          "year": "2023",
+          "unstructured": "Jiang Li, Xiangdong Su, and Guanglai Gao. 2023. Teast: Temporal knowledge graph embedding via archimedean spiral timeline. In ACL. 15460-15474.",
+          "journal-title": "ACL."
+        },
+        {
+          "key": "e_1_3_2_1_32_1",
+          "first-page": "2152",
+          "article-title": "Tirgn: Time-guided recurrent graph network with local-global historical patterns for temporal knowledge graph reasoning",
+          "author": "Li Yujia",
+          "year": "2022",
+          "unstructured": "Yujia Li, Shiliang Sun, and Jing Zhao. 2022. Tirgn: Time-guided recurrent graph network with local-global historical patterns for temporal knowledge graph reasoning. In IJCAI. 2152-2158.",
+          "journal-title": "IJCAI."
+        },
+        {
+          "key": "e_1_3_2_1_33_1",
+          "first-page": "408",
+          "article-title": "Temporal knowledge graph reasoning based on evolutional representation learning",
+          "author": "Li Zixuan",
+          "year": "2021",
+          "unstructured": "Zixuan Li, Xiaolong Jin, Wei Li, Saiping Guan, Jiafeng Guo, Huawei Shen, Yuanzhuo Wang, and Xueqi Cheng. 2021. Temporal knowledge graph reasoning based on evolutional representation learning. In SIGIR. 408-417.",
+          "journal-title": "SIGIR."
+        },
+        {
+          "key": "e_1_3_2_1_34_1",
+          "first-page": "1559",
+          "article-title": "Learn from relational correlations and periodic events for temporal knowledge graph reasoning",
+          "author": "Liang Ke",
+          "year": "2023",
+          "unstructured": "Ke Liang, Lingyuan Meng, Meng Liu, Yue Liu, Wenxuan Tu, Siwei Wang, Sihang Zhou, and Xinwang Liu. 2023. Learn from relational correlations and periodic events for temporal knowledge graph reasoning. In SIGIR. 1559-1568.",
+          "journal-title": "SIGIR."
+        },
+        {
+          "key": "e_1_3_2_1_35_1",
+          "first-page": "15742",
+          "article-title": "Temporal knowledge graph reasoning with dynamic hypergraph embedding",
+          "author": "Liu Xinyue",
+          "year": "2024",
+          "unstructured": "Xinyue Liu, Jianan Zhang, Chi Ma, Wenxin Liang, Bo Xu, and Linlin Zong. 2024. Temporal knowledge graph reasoning with dynamic hypergraph embedding. In COLING. 15742-15751.",
+          "journal-title": "COLING."
+        },
+        {
+          "key": "e_1_3_2_1_36_1",
+          "volume-title": "Terdy: Temporal relation dynamics through frequency decomposition for temporal knowledge graph completion. In ACL.",
+          "author": "Liu Ziyang",
+          "year": "2025",
+          "unstructured": "Ziyang Liu and Chaokun Wang. 2025. Terdy: Temporal relation dynamics through frequency decomposition for temporal knowledge graph completion. In ACL."
+        },
+        {
+          "key": "e_1_3_2_1_37_1",
+          "volume-title": "V59",
+          "author": "Ma Yunpu",
+          "year": "2019",
+          "unstructured": "Yunpu Ma, Volker Tresp, and Erik A Daxberger. 2019. Embedding models for episodic knowledge graphs. JWS, V59 (2019), 100490."
+        },
+        {
+          "key": "e_1_3_2_1_38_1",
+          "volume-title": "Learning attention-based embeddings for relation prediction in knowledge graphs. arXiv preprint arXiv:1906.01195",
+          "author": "Nathani Deepak",
+          "year": "2019",
+          "unstructured": "Deepak Nathani, Jatin Chauhan, Charu Sharma, and Manohar Kaul. 2019. Learning attention-based embeddings for relation prediction in knowledge graphs. arXiv preprint arXiv:1906.01195 (2019)."
+        },
+        {
+          "key": "e_1_3_2_1_39_1",
+          "volume-title": "ICML",
+          "volume": "11",
+          "author": "Nickel Maximilian",
+          "year": "2011",
+          "unstructured": "Maximilian Nickel, Volker Tresp, Hans-Peter Kriegel, et al., 2011. A three-way model for collective learning on multi-relational data. In ICML, Vol. V11."
+        },
+        {
+          "key": "e_1_3_2_1_40_1",
+          "volume-title": "V143",
+          "author": "Nie Haojie",
+          "year": "2023",
+          "unstructured": "Haojie Nie, Xiangguo Zhao, Xin Yao, Qingling Jiang, Xin Bi, Yuliang Ma, and Yongjiao Sun. 2023. Temporal-structural importance weighted graph convolutional network for temporal knowledge graph completion. FGCS, V143 (2023)."
+        },
+        {
+          "key": "e_1_3_2_1_41_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ka Hyun Park Junghun Kim Jinhong Jung and U Kang. 2025b. PiGLeT: Probabilistic Message Passing for Semi-supervised Link Sign Prediction. In ICDM.",
+          "DOI": "10.1109/ICDM65498.2025.00158"
+        },
+        {
+          "key": "e_1_3_2_1_42_1",
+          "unstructured": "Yong-chan Park Jun-Gi Jang and U Kang. 2021. Fast and accurate partial fourier transform for time series data. In KDD."
+        },
+        {
+          "key": "e_1_3_2_1_43_1",
+          "unstructured": "Yong-chan Park Jongjin Kim and U Kang. 2024. Fast multidimensional partial fourier transform with automatic hyperparameter selection. In KDD."
+        },
+        {
+          "key": "e_1_3_2_1_44_1",
+          "unstructured": "Yong-chan Park Kisoo Kim and U Kang. 2025a. PuzzleTensor: a method-agnostic data transformation for compact tensor factorization. In KDD."
+        },
+        {
+          "key": "e_1_3_2_1_45_1",
+          "unstructured": "Yong-chan Park SeungJoo Lee and U Kang. 2026. Fast and Accurate Online Coupled Matrix-Tensor Factorization via Frequency Regularization. In KDD."
+        },
+        {
+          "key": "e_1_3_2_1_46_1",
+          "first-page": "373",
+          "article-title": "Neo-TKGC",
+          "author": "Qiu Zihan",
+          "year": "2025",
+          "unstructured": "Zihan Qiu, Xiaoling Zhou, Chunyan An, Qiang Yang, and Zhixu Li. 2025. Neo-TKGC: Enhancing Temporal Knowledge Graph Completion with Integrated Node Weights and Future Information. In WSDM. 373-381.",
+          "journal-title": "In WSDM."
+        },
+        {
+          "key": "e_1_3_2_1_47_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0267091"
+        },
+        {
+          "key": "e_1_3_2_1_48_1",
+          "first-page": "4632",
+          "article-title": "AnRe",
+          "author": "Tang Guo",
+          "year": "2025",
+          "unstructured": "Guo Tang, Zheng Chu, Wenxiang Zheng, Junjia Xiang, Yizhuo Li, Weihao Zhang, Ming Liu, and Bing Qin. 2025. AnRe: Analogical Replay for Temporal Knowledge Graph Forecasting. In ACL. 4632-4650.",
+          "journal-title": "Analogical Replay for Temporal Knowledge Graph Forecasting. In ACL."
+        },
+        {
+          "key": "e_1_3_2_1_49_1",
+          "unstructured": "Théo Trouillon Johannes Welbl Sebastian Riedel Éric Gaussier and Guillaume Bouchard. 2016. Complex embeddings for simple link prediction. In ICML. PMLR."
+        },
+        {
+          "key": "e_1_3_2_1_50_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v28i1.8870"
+        },
+        {
+          "key": "e_1_3_2_1_51_1",
+          "volume-title": "Jackie Chi Kit Cheung, and William L Hamilton",
+          "author": "Wu Jiapeng",
+          "year": "2020",
+          "unstructured": "Jiapeng Wu, Meng Cao, Jackie Chi Kit Cheung, and William L Hamilton. 2020. Temp: Temporal message passing for temporal knowledge graph completion. arXiv preprint arXiv:2010.03526 (2020)."
+        },
+        {
+          "key": "e_1_3_2_1_52_1",
+          "volume-title": "V61, 3",
+          "author": "Xiao Yao",
+          "year": "2024",
+          "unstructured": "Yao Xiao, Guangyou Zhou, Zhiwen Xie, Jin Liu, and Jimmy Xiangji Huang. 2024. Learning dual disentangled representation with self-supervision for temporal knowledge graph reasoning. IPM, V61, 3 (2024)."
+        },
+        {
+          "key": "e_1_3_2_1_53_1",
+          "first-page": "2569",
+          "article-title": "Temporal knowledge graph completion using a linear temporal regularizer and multivector embeddings",
+          "author": "Xu Chengjin",
+          "year": "2021",
+          "unstructured": "Chengjin Xu, Yung-Yu Chen, Mojtaba Nayyeri, and Jens Lehmann. 2021. Temporal knowledge graph completion using a linear temporal regularizer and multivector embeddings. In NAACL. 2569-2578.",
+          "journal-title": "NAACL."
+        },
+        {
+          "key": "e_1_3_2_1_54_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-030-62419-4_37"
+        },
+        {
+          "key": "e_1_3_2_1_55_1",
+          "first-page": "1583",
+          "article-title": "TeRo: A Time-aware Knowledge Graph Embedding via Temporal Rotation",
+          "author": "Xu Chengjin",
+          "year": "2020",
+          "unstructured": "Chengjin Xu, Mojtaba Nayyeri, Fouad Alkhoury, Hamed Shariat Yazdi, and Jens Lehmann. 2020b. TeRo: A Time-aware Knowledge Graph Embedding via Temporal Rotation. In COLING. 1583-1593.",
+          "journal-title": "COLING."
+        },
+        {
+          "key": "e_1_3_2_1_56_1",
+          "volume-title": "V35, 5",
+          "author": "Xu Chengjin",
+          "year": "2022",
+          "unstructured": "Chengjin Xu, Mojtaba Nayyeri, Yung-Yu Chen, and Jens Lehmann. 2022. Geometric algebra based embeddings for static and temporal knowledge graph completion. TKDE, V35, 5 (2022), 4838-4851."
+        },
+        {
+          "key": "e_1_3_2_1_57_1",
+          "volume-title": "Embedding entities and relations for learning and inference in knowledge bases. arXiv preprint arXiv:1412.6575",
+          "author": "Yang Bishan",
+          "year": "2014",
+          "unstructured": "Bishan Yang, Wen-tau Yih, Xiaodong He, Jianfeng Gao, and Li Deng. 2014. Embedding entities and relations for learning and inference in knowledge bases. arXiv preprint arXiv:1412.6575 (2014)."
+        },
+        {
+          "key": "e_1_3_2_1_58_1",
+          "first-page": "2988",
+          "article-title": "Counterfactual learning on heterogeneous graphs with greedy perturbation",
+          "author": "Yang Qiang",
+          "year": "2023",
+          "unstructured": "Qiang Yang, Changsheng Ma, Qiannan Zhang, Xin Gao, Chuxu Zhang, and Xiangliang Zhang. 2023. Counterfactual learning on heterogeneous graphs with greedy perturbation. In KDD. 2988-2998.",
+          "journal-title": "KDD."
+        },
+        {
+          "key": "e_1_3_2_1_59_1",
+          "first-page": "1619",
+          "article-title": "Knowledge embedding based graph convolutional network",
+          "author": "Yu Donghan",
+          "year": "2021",
+          "unstructured": "Donghan Yu, Yiming Yang, Ruohong Zhang, and Yuexin Wu. 2021. Knowledge embedding based graph convolutional network. In WWW. 1619-1628.",
+          "journal-title": "WWW."
+        },
+        {
+          "key": "e_1_3_2_1_60_1",
+          "volume-title": "V32",
+          "author": "Zhang Shuai",
+          "year": "2019",
+          "unstructured": "Shuai Zhang, Yi Tay, Lina Yao, and Qi Liu. 2019. Quaternion knowledge graph embeddings. Advances in neural information processing systems, V32 (2019)."
+        },
+        {
+          "key": "e_1_3_2_1_61_1",
+          "first-page": "3561",
+          "article-title": "Tackling Sparse Facts for Temporal Knowledge Graph Completion",
+          "author": "Zhang Yuchao",
+          "year": "2025",
+          "unstructured": "Yuchao Zhang, Xiangjie Kong, Kailun Ye, Guojiang Shen, and Shangfei Zheng. 2025. Tackling Sparse Facts for Temporal Knowledge Graph Completion. In WWW. 3561-3570.",
+          "journal-title": "WWW."
+        }
+      ],
+      "event": {
+        "name": "KDD '26: The 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+        "location": "Jeju Island Republic of Korea",
+        "sponsor": [
+          "SIGMOD ACM Special Interest Group on Management of Data",
+          "SIGKDD ACM Special Interest Group on Knowledge Discovery in Data"
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2"
+      ],
+      "original-title": [],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            7
+          ]
+        ],
+        "date-time": "2026-08-07T01:32:54Z",
+        "timestamp": 1786066374000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/3770855.3817784"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            8
+          ]
+        ]
+      },
+      "references-count": 61,
+      "alternative-id": [
+        "10.1145/3770855.3817784",
+        "10.1145/3770855"
+      ],
+      "URL": "https://doi.org/10.1145/3770855.3817784",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            8
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2026-08-08",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

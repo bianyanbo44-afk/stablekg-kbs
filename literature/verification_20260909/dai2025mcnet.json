@@ -1,0 +1,516 @@
+{
+  "key": "dai2025mcnet",
+  "url": "https://api.crossref.org/works/10.1145%2F3696410.3714802",
+  "retrieved_utc": "2026-09-09T03:16:50.857722+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            29
+          ]
+        ],
+        "date-time": "2025-11-29T08:04:31Z",
+        "timestamp": 1764403471451,
+        "version": "3.41.0"
+      },
+      "publisher-location": "New York, NY, USA",
+      "reference-count": 35,
+      "publisher": "ACM",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                22
+              ]
+            ],
+            "date-time": "2025-04-22T00:00:00Z",
+            "timestamp": 1745280000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            28
+          ]
+        ]
+      },
+      "DOI": "10.1145/3696410.3714802",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            5
+          ]
+        ],
+        "date-time": "2025-05-05T16:42:02Z",
+        "timestamp": 1746463322000
+      },
+      "page": "4408-4419",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "MCNet: Monotonic Calibration Networks for Expressive Uncertainty Calibration in Online Advertising"
+      ],
+      "prefix": "10.1145",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7578-2738",
+          "authenticated-orcid": false,
+          "given": "Quanyu",
+          "family": "Dai",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Huawei Noah's Ark Lab, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7649-4682",
+          "authenticated-orcid": false,
+          "given": "Jiaren",
+          "family": "Xiao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The HK PolyU, Hong Kong, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1811-129X",
+          "authenticated-orcid": false,
+          "given": "Zhaocheng",
+          "family": "Du",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Huawei Noah's Ark Lab, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5666-8320",
+          "authenticated-orcid": false,
+          "given": "Jieming",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Huawei Noah's Ark Lab, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0003-6463-4045",
+          "authenticated-orcid": false,
+          "given": "Chengxiao",
+          "family": "Luo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Tsinghua University, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3130-0554",
+          "authenticated-orcid": false,
+          "given": "Xiao-Ming",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The HK PolyU, Hong Kong, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2231-4663",
+          "authenticated-orcid": false,
+          "given": "Zhenhua",
+          "family": "Dong",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Huawei Noah's Ark Lab, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            22
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_1_1_1",
+          "volume-title": "Davide Del Testa",
+          "author": "Bojarski Mariusz",
+          "year": "2016",
+          "unstructured": "Mariusz Bojarski, Davide Del Testa, Daniel Dworakowski, Bernhard Firner, Beat Flepp, Prasoon Goyal, Lawrence D Jackel, Mathew Monfort, Urs Muller, Jiakai Zhang, et al. 2016. End to end learning for self-driving cars. arXiv preprint arXiv:1604.07316 (2016)."
+        },
+        {
+          "key": "e_1_3_2_1_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2783258.2788613"
+        },
+        {
+          "key": "e_1_3_2_1_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3534678.3539270"
+        },
+        {
+          "key": "e_1_3_2_1_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3511808.3557625"
+        },
+        {
+          "key": "e_1_3_2_1_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TNN.2010.2044803"
+        },
+        {
+          "key": "e_1_3_2_1_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-030-67667-4_13"
+        },
+        {
+          "key": "e_1_3_2_1_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10462-023-10562-9"
+        },
+        {
+          "key": "e_1_3_2_1_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/355602.361310"
+        },
+        {
+          "key": "e_1_3_2_1_9_1",
+          "volume-title": "Thomas Borchert, and Ralf Herbrich.",
+          "author": "Graepel Thore",
+          "year": "2010",
+          "unstructured": "Thore Graepel, Joaquin Quinonero Candela, Thomas Borchert, and Ralf Herbrich. 2010. Web-scale bayesian click-through rate prediction for sponsored search advertising in microsoft's bing search engine. Omnipress."
+        },
+        {
+          "key": "e_1_3_2_1_10_1",
+          "volume-title": "International conference on machine learning. PMLR, 1321--1330",
+          "author": "Guo Chuan",
+          "year": "2017",
+          "unstructured": "Chuan Guo, Geoff Pleiss, Yu Sun, and Kilian Q Weinberger. 2017. On calibration of modern neural networks. In International conference on machine learning. PMLR, 1321--1330."
+        },
+        {
+          "key": "e_1_3_2_1_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2648584.2648589"
+        },
+        {
+          "key": "e_1_3_2_1_12_1",
+          "volume-title": "Multilayer feedforward networks are universal approximators. Neural networks",
+          "author": "Hornik Kurt",
+          "year": "1989",
+          "unstructured": "Kurt Hornik, Maxwell Stinchcombe, and Halbert White. 1989. Multilayer feedforward networks are universal approximators. Neural networks, Vol. 2, 5 (1989), 359--366."
+        },
+        {
+          "key": "e_1_3_2_1_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3485447.3512096"
+        },
+        {
+          "key": "e_1_3_2_1_14_1",
+          "volume-title": "Kingma and Jimmy Ba",
+          "author": "Diederik",
+          "year": "2015",
+          "unstructured": "Diederik P. Kingma and Jimmy Ba. 2015. Adam: A Method for Stochastic Optimization. In 3rd International Conference on Learning Representations, ICLR 2015, San Diego, CA, USA, May 7--9, 2015, Conference Track Proceedings, Yoshua Bengio and Yann LeCun (Eds.)."
+        },
+        {
+          "key": "e_1_3_2_1_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v36i4.20326"
+        },
+        {
+          "key": "e_1_3_2_1_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/2487575.2488200"
+        },
+        {
+          "key": "e_1_3_2_1_17_1",
+          "volume-title": "Proceedings of the AAAI conference on artificial intelligence",
+          "volume": "29",
+          "author": "Naeini Mahdi Pakdaman",
+          "year": "2015",
+          "unstructured": "Mahdi Pakdaman Naeini, Gregory Cooper, and Milos Hauskrecht. 2015. Obtaining well calibrated probabilities using bayesian binning. In Proceedings of the AAAI conference on artificial intelligence, Vol. 29."
+        },
+        {
+          "key": "e_1_3_2_1_18_1",
+          "volume-title": "Expressive Monotonic Neural Networks. In The Eleventh International Conference on Learning Representations, ICLR 2023",
+          "author": "Nolte Niklas",
+          "year": "2023",
+          "unstructured": "Niklas Nolte, Ouail Kitouni, and Mike Williams. 2023. Expressive Monotonic Neural Networks. In The Eleventh International Conference on Learning Representations, ICLR 2023, Kigali, Rwanda, May 1--5, 2023."
+        },
+        {
+          "key": "e_1_3_2_1_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3366423.3380154"
+        },
+        {
+          "key": "e_1_3_2_1_20_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "John Platt et al. 1999. Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods. Advances in large margin classifiers Vol. 10 3 (1999) 61--74.",
+          "DOI": "10.7551/mitpress/1113.003.0008"
+        },
+        {
+          "key": "e_1_3_2_1_21_1",
+          "volume-title": "International Conference on Machine Learning. PMLR, 29338--29353",
+          "author": "Runje Davor",
+          "year": "2023",
+          "unstructured": "Davor Runje and Sharath M Shankaranarayana. 2023. Constrained monotonic neural networks. In International Conference on Machine Learning. PMLR, 29338--29353."
+        },
+        {
+          "key": "e_1_3_2_1_22_1",
+          "volume-title": "Monotonic networks. Advances in neural information processing systems",
+          "author": "Sill Joseph",
+          "year": "1997",
+          "unstructured": "Joseph Sill. 1997. Monotonic networks. Advances in neural information processing systems, Vol. 10 (1997)."
+        },
+        {
+          "key": "e_1_3_2_1_23_1",
+          "volume-title": "Proceedings of the Twenty-Ninth International Conference on International Joint Conferences on Artificial Intelligence. 3522--3528",
+          "author": "Su Yumin",
+          "year": "2021",
+          "unstructured": "Yumin Su, Liang Zhang, Quanyu Dai, Bo Zhang, Jinyao Yan, Dan Wang, Yongjun Bao, Sulong Xu, Yang He, and Weipeng Yan. 2021. An attention-based model for conversion rate prediction with delayed feedback via post-click calibration. In Proceedings of the Twenty-Ninth International Conference on International Joint Conferences on Artificial Intelligence. 3522--3528."
+        },
+        {
+          "key": "e_1_3_2_1_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2172/1525811"
+        },
+        {
+          "key": "e_1_3_2_1_25_1",
+          "volume-title": "Fast Construction of the Fejér and Clenshaw-Curtis Quadrature Rules. Seminar for Applied Mathematics",
+          "author": "Waldvogel Jörg",
+          "year": "2006",
+          "unstructured": "Jörg Waldvogel. 2006. Fast Construction of the Fejér and Clenshaw-Curtis Quadrature Rules. Seminar for Applied Mathematics, Swiss Federal Institute of Technology ETH, CH-8092 Zurich (2006)."
+        },
+        {
+          "key": "e_1_3_2_1_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3124749.3124754"
+        },
+        {
+          "key": "e_1_3_2_1_27_1",
+          "volume-title": "Unconstrained monotonic neural networks. Advances in neural information processing systems",
+          "author": "Wehenkel Antoine",
+          "year": "2019",
+          "unstructured": "Antoine Wehenkel and Gilles Louppe. 2019. Unconstrained monotonic neural networks. Advances in neural information processing systems, Vol. 32 (2019)."
+        },
+        {
+          "key": "e_1_3_2_1_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3477495.3531911"
+        },
+        {
+          "key": "e_1_3_2_1_29_1",
+          "series-title": "Journal of physics: Conference series",
+          "volume-title": "An overview of overfitting and its solutions",
+          "author": "Ying Xue",
+          "year": "2022",
+          "unstructured": "Xue Ying. 2019. An overview of overfitting and its solutions. In Journal of physics: Conference series, Vol. 1168. IOP Publishing, 022022."
+        },
+        {
+          "key": "e_1_3_2_1_30_1",
+          "volume-title": "Deep lattice networks and partial monotonic functions. Advances in neural information processing systems",
+          "author": "You Seungil",
+          "year": "2017",
+          "unstructured": "Seungil You, David Ding, Kevin Canini, Jan Pfeifer, and Maya Gupta. 2017. Deep lattice networks and partial monotonic functions. Advances in neural information processing systems, Vol. 30 (2017)."
+        },
+        {
+          "key": "e_1_3_2_1_31_1",
+          "volume-title": "Proceedings of the Eighteenth International Conference on Machine Learning",
+          "volume": "1",
+          "author": "Zadrozny Bianca",
+          "year": "2001",
+          "unstructured": "Bianca Zadrozny and Charles Elkan. 2001. Obtaining calibrated probability estimates from decision trees and naive bayesian classifiers. In Proceedings of the Eighteenth International Conference on Machine Learning, Vol. 1. 609--616."
+        },
+        {
+          "key": "e_1_3_2_1_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/775047.775151"
+        },
+        {
+          "key": "e_1_3_2_1_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3477495.3531723"
+        },
+        {
+          "key": "e_1_3_2_1_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3539618.3591988"
+        },
+        {
+          "key": "e_1_3_2_1_35_1",
+          "volume-title": "Open Benchmarking for Click-Through Rate Prediction. In The 30th ACM International Conference on Information and Knowledge Management (CIKM). 2759--2769",
+          "author": "Zhu Jieming",
+          "year": "2021",
+          "unstructured": "Jieming Zhu, Jinyang Liu, Shuai Yang, Qi Zhang, and Xiuqiang He. 2021. Open Benchmarking for Click-Through Rate Prediction. In The 30th ACM International Conference on Information and Knowledge Management (CIKM). 2759--2769."
+        }
+      ],
+      "event": {
+        "name": "WWW '25: The ACM Web Conference 2025",
+        "sponsor": [
+          "SIGWEB ACM Special Interest Group on Hypertext, Hypermedia, and Web"
+        ],
+        "location": "Sydney NSW Australia",
+        "acronym": "WWW '25"
+      },
+      "container-title": [
+        "Proceedings of the ACM on Web Conference 2025"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/3696410.3714802",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3696410.3714802",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            19
+          ]
+        ],
+        "date-time": "2025-06-19T01:18:42Z",
+        "timestamp": 1750295922000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/3696410.3714802"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            22
+          ]
+        ]
+      },
+      "references-count": 35,
+      "alternative-id": [
+        "10.1145/3696410.3714802",
+        "10.1145/3696410"
+      ],
+      "URL": "https://doi.org/10.1145/3696410.3714802",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            22
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2025-04-22",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

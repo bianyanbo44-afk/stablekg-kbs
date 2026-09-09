@@ -1,0 +1,781 @@
+{
+  "key": "yu2025gmve",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.knosys.2025.114217",
+  "retrieved_utc": "2026-09-09T03:16:54.619565+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            16
+          ]
+        ],
+        "date-time": "2026-07-16T03:20:04Z",
+        "timestamp": 1784172004881,
+        "version": "3.55.0"
+      },
+      "reference-count": 43,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2025-10-01T00:00:00Z",
+            "timestamp": 1759276800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2025-10-01T00:00:00Z",
+            "timestamp": 1759276800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2025-10-01T00:00:00Z",
+            "timestamp": 1759276800000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2025-10-01T00:00:00Z",
+            "timestamp": 1759276800000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2025-10-01T00:00:00Z",
+            "timestamp": 1759276800000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2025-10-01T00:00:00Z",
+            "timestamp": 1759276800000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2025-10-01T00:00:00Z",
+            "timestamp": 1759276800000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62471162"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62471162"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Knowledge-Based Systems"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            10
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.knosys.2025.114217",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            5
+          ]
+        ],
+        "date-time": "2025-08-05T21:42:17Z",
+        "timestamp": 1754430137000
+      },
+      "page": "114217",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 5,
+      "special_numbering": "C",
+      "title": [
+        "GMVE: Graph-Mamba variational encoder for interpretable remaining useful life prediction with uncertainty quantification"
+      ],
+      "prefix": "10.1016",
+      "volume": "328",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0004-7297-9307",
+          "authenticated-orcid": false,
+          "given": "Bing",
+          "family": "Yu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhiming",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4669-934X",
+          "authenticated-orcid": false,
+          "given": "Yang",
+          "family": "Yu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gang",
+          "family": "Xiang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0001",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2024.112408",
+          "article-title": "Data-driven predictive maintenance framework considering the multi-source information fusion and uncertainty in remaining useful life prediction",
+          "volume": "303",
+          "author": "Xu",
+          "year": "2024",
+          "journal-title": "Knowl. Based Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0002",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ymssp.2024.111120",
+          "article-title": "A review on physics-informed data-driven remaining useful life prediction: Challenges and opportunities",
+          "volume": "209",
+          "author": "Li",
+          "year": "2024",
+          "journal-title": "Mech. Syst. Signal Process."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0003",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2022.109340",
+          "article-title": "A gated graph convolutional network with multi-sensor signals for remaining useful life prediction",
+          "volume": "252",
+          "author": "Wang",
+          "year": "2022",
+          "journal-title": "Knowl. Based Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0004",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2022.108958",
+          "article-title": "Temporal convolution-based sorting feature repeat-explore network combining with multi-band information for remaining useful life estimation of equipment",
+          "volume": "249",
+          "author": "Chang",
+          "year": "2022",
+          "journal-title": "Knowl. Based Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0005",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ymssp.2020.107378",
+          "article-title": "Two-stage physics-based wiener process models for online RUL prediction in field vibration data",
+          "volume": "152",
+          "author": "Yan",
+          "year": "2021",
+          "journal-title": "Mech. Syst. Signal Process."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0006",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ress.2023.109897",
+          "article-title": "Different methods for RUL prediction considering sensor degradation",
+          "volume": "243",
+          "author": "Hachem",
+          "year": "2024",
+          "journal-title": "Reliab. Eng. Syst. Saf."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0007",
+          "doi-asserted-by": "crossref",
+          "first-page": "444",
+          "DOI": "10.1016/j.isatra.2022.04.042",
+          "article-title": "A novel remaining useful life prediction method based on multi-support vector regression fusion and adaptive weight updating",
+          "volume": "131",
+          "author": "Li",
+          "year": "2022",
+          "journal-title": "ISA Trans."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.knosys.2025.114217_bib0008",
+          "doi-asserted-by": "crossref",
+          "first-page": "7771",
+          "DOI": "10.1109/TII.2022.3206339",
+          "article-title": "Optimized random forest model for remaining useful life prediction of experimental bearings",
+          "volume": "19",
+          "author": "Alfarizi",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Ind. Inf."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0009",
+          "series-title": "2018 21st International Conference on Intelligent Transportation Systems (ITSC)",
+          "first-page": "3562",
+          "article-title": "A light gradient boosting machine for remainning useful life estimation of aircraft engines",
+          "author": "Li",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0010",
+          "first-page": "1",
+          "article-title": "A parallel hybrid neural network with integration of spatial and temporal features for remaining useful life prediction in prognostics",
+          "volume": "72",
+          "author": "Zhang",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Instrum. Meas."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0011",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.engappai.2023.105860",
+          "article-title": "Multi-scale integrated deep self-attention network for predicting remaining useful life of aero-engine",
+          "volume": "120",
+          "author": "Zhao",
+          "year": "2023",
+          "journal-title": "Eng. Appl. Artif. Intell."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0012",
+          "article-title": "A sequence-to-sequence approach for remaining useful lifetime estimation using attention-augmented bidirectional LSTM",
+          "volume": "10",
+          "author": "Shah",
+          "year": "2021",
+          "journal-title": "Intell. Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0013",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ress.2023.109151",
+          "article-title": "Aero-engine remaining useful life prediction method with self-adaptive multimodal data fusion and cluster-ensemble transfer regression",
+          "volume": "234",
+          "author": "Chen",
+          "year": "2023",
+          "journal-title": "Reliab. Eng. Syst. Saf."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0014",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.inffus.2024.102462",
+          "article-title": "Mst-gat: A multi-perspective spatial-temporal graph attention network for multi-sensor equipment remaining useful life prediction",
+          "volume": "110",
+          "author": "Zhou",
+          "year": "2024",
+          "journal-title": "Inf. Fusion"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0015",
+          "first-page": "1",
+          "article-title": "Remaining useful life prediction method based on the spatiotemporal graph and GCN nested parallel route model",
+          "volume": "73",
+          "author": "Song",
+          "year": "2024",
+          "journal-title": "IEEE Trans. Instrum. Meas."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0016",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ress.2024.109950",
+          "article-title": "Multi-hop graph pooling adversarial network for cross-domain remaining useful life prediction: a distributed federated learning perspective",
+          "volume": "244",
+          "author": "Zhang",
+          "year": "2024",
+          "journal-title": "Reliab. Eng. Syst. Saf."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0017",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2023.121859",
+          "article-title": "Bayesian gated-transformer model for risk-aware prediction of aero-engine remaining useful life",
+          "volume": "238",
+          "author": "Xiang",
+          "year": "2024",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0018",
+          "doi-asserted-by": "crossref",
+          "first-page": "26",
+          "DOI": "10.1016/j.jmsy.2023.11.009",
+          "article-title": "Sensor-aware capsnet: towards trustworthy multisensory fusion for remaining useful life prediction",
+          "volume": "72",
+          "author": "Li",
+          "year": "2024",
+          "journal-title": "J. Manuf. Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0019",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ress.2022.108353",
+          "article-title": "Variational encoding approach for interpretable assessment of remaining useful life estimation",
+          "volume": "222",
+          "author": "Costa",
+          "year": "2022",
+          "journal-title": "Reliab. Eng. Syst. Saf."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0020",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.aei.2023.102316",
+          "article-title": "Variational encoding based on factorized temporal-channel fusion and feature fusion for interpretable remaining useful life prediction",
+          "volume": "59",
+          "author": "Chen",
+          "year": "2024",
+          "journal-title": "Adv. Eng. Inf."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.knosys.2025.114217_bib0021",
+          "doi-asserted-by": "crossref",
+          "first-page": "1640",
+          "DOI": "10.1109/JAS.2023.123369",
+          "article-title": "RGCNU: recurrent graph convolutional network with uncertainty estimation for remaining useful life prediction",
+          "volume": "10",
+          "author": "Zhu",
+          "year": "2023",
+          "journal-title": "IEEE/CAA J. Autom. Sin."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0022",
+          "first-page": "1",
+          "article-title": "Comprehensive dynamic structure graph neural network for aero-engine remaining useful life prediction",
+          "volume": "72",
+          "author": "Wang",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Instrum. Meas."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0023",
+          "first-page": "1",
+          "article-title": "Spatio-temporal fusion attention: a novel approach for remaining useful life prediction based on graph neural network",
+          "volume": "71",
+          "author": "Kong",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Instrum. Meas."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0024",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ijfatigue.2023.107722",
+          "article-title": "Remaining useful life prediction via a deep adaptive transformer framework enhanced by graph attention network",
+          "volume": "174",
+          "author": "Liang",
+          "year": "2023",
+          "journal-title": "Int. J. Fatigue"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0025",
+          "series-title": "Conference on Health, Inference, and Learning",
+          "first-page": "50",
+          "article-title": "Modeling multivariate biosignals with graph neural networks and structured state space models",
+          "author": "Tang",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0026",
+          "doi-asserted-by": "crossref",
+          "first-page": "550",
+          "DOI": "10.1016/j.jmsy.2022.05.010",
+          "article-title": "Remaining useful life prediction and challenges: a literature review on the use of machine learning methods",
+          "volume": "63",
+          "author": "Ferreira",
+          "year": "2022",
+          "journal-title": "J. Manuf. Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0027",
+          "series-title": "2018 17th IEEE International Conference on Machine Learning and Applications (ICMLA)",
+          "first-page": "1394",
+          "article-title": "A comparison of ARIMA and LSTM in forecasting time series",
+          "author": "Siami-Namini",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0028",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ymssp.2023.110935",
+          "article-title": "DVGTformer: a dual-view graph transformer to fuse multi-sensor signals for remaining useful life prediction",
+          "volume": "207",
+          "author": "Wang",
+          "year": "2024",
+          "journal-title": "Mech. Syst. Signal Process."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0029",
+          "unstructured": "A. Gu, K. Goel, C. Ré, Efficiently modeling long sequences with structured state spaces, arXiv preprint arXiv: 2111.00396(2021)."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0030",
+          "unstructured": "A. Gu, T. Dao, Mamba: Linear-time sequence modeling with selective state spaces, arXiv preprint arXiv: 2312.00752(2023)."
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.knosys.2025.114217_bib0031",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1002/stc.2811",
+          "article-title": "A probabilistic Bayesian recurrent neural network for remaining useful life prognostics considering epistemic and aleatory uncertainties",
+          "volume": "28",
+          "author": "Caceres",
+          "year": "2021",
+          "journal-title": "Struct. Control Health Monit."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.knosys.2025.114217_bib0032",
+          "doi-asserted-by": "crossref",
+          "first-page": "443",
+          "DOI": "10.1109/TR.2021.3124944",
+          "article-title": "Accurate remaining useful life prediction with uncertainty quantification: a deep learning and nonstationary gaussian process approach",
+          "volume": "71",
+          "author": "Xu",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Reliab."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.knosys.2025.114217_bib0033",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1088/1361-6501/ad3b2c",
+          "article-title": "An interpretable RUL prediction method of aircraft engines under complex operating conditions using spatio-temporal features",
+          "volume": "35",
+          "author": "Gao",
+          "year": "2024",
+          "journal-title": "Meas. Sci. Technol."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0034",
+          "first-page": "5998",
+          "article-title": "Attention is all you need",
+          "volume": "30",
+          "author": "Vaswani",
+          "year": "2017",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0035",
+          "series-title": "2008 International Conference on Prognostics and Health Management",
+          "first-page": "1",
+          "article-title": "Damage propagation modeling for aircraft engine run-to-failure simulation",
+          "author": "Saxena",
+          "year": "2008"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0036",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.aei.2022.101781",
+          "article-title": "Transformer-based hierarchical latent space VAE for interpretable remaining useful life prediction",
+          "volume": "54",
+          "author": "Jing",
+          "year": "2022",
+          "journal-title": "Adv. Eng. Inf."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0037",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.measurement.2020.108277",
+          "article-title": "A biGRU method for remaining useful life prediction of machinery",
+          "volume": "167",
+          "author": "She",
+          "year": "2021",
+          "journal-title": "Measurement"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0038",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ress.2023.109821",
+          "article-title": "A dual attention LSTM lightweight model based on exponential smoothing for remaining useful life prediction",
+          "volume": "243",
+          "author": "Shi",
+          "year": "2024",
+          "journal-title": "Reliab. Eng. Syst. Saf."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0039",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.aei.2023.101898",
+          "article-title": "Multi-task spatio-temporal augmented net for industry equipment remaining useful life prediction",
+          "volume": "55",
+          "author": "Li",
+          "year": "2023",
+          "journal-title": "Adv. Eng. Inf."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.knosys.2025.114217_bib0040",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.3390/data6010005",
+          "article-title": "Aircraft engine run-to-failure dataset under real flight conditions for prognostics and diagnostics",
+          "volume": "6",
+          "author": "Arias Chao",
+          "year": "2021",
+          "journal-title": "Data"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0041",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ress.2023.109602",
+          "article-title": "Incorporating prior knowledge into self-supervised representation learning for long PHM signal",
+          "volume": "241",
+          "author": "Wang",
+          "year": "2024",
+          "journal-title": "Reliab. Eng. Syst. Saf."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0042",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ress.2023.109182",
+          "article-title": "Aero-engine prognosis strategy based on multi-scale feature fusion and multi-task parallel learning",
+          "volume": "234",
+          "author": "Zhou",
+          "year": "2023",
+          "journal-title": "Reliab. Eng. Syst. Saf."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114217_bib0043",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ress.2021.107878",
+          "article-title": "Hierarchical attention graph convolutional network to fuse multi-sensor signals for remaining useful life prediction",
+          "volume": "215",
+          "author": "Li",
+          "year": "2021",
+          "journal-title": "Reliab. Eng. Syst. Saf."
+        }
+      ],
+      "container-title": [
+        "Knowledge-Based Systems"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0950705125012584?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0950705125012584?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            4
+          ]
+        ],
+        "date-time": "2025-11-04T15:45:52Z",
+        "timestamp": 1762271152000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950705125012584"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            10
+          ]
+        ]
+      },
+      "references-count": 43,
+      "alternative-id": [
+        "S0950705125012584"
+      ],
+      "URL": "https://doi.org/10.1016/j.knosys.2025.114217",
+      "relation": {},
+      "ISSN": [
+        "0950-7051"
+      ],
+      "issn-type": [
+        {
+          "value": "0950-7051",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "GMVE: Graph-Mamba variational encoder for interpretable remaining useful life prediction with uncertainty quantification",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Knowledge-Based Systems",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.knosys.2025.114217",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "114217"
+    }
+  }
+}

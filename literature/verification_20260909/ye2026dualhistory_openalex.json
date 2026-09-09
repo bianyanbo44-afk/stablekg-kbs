@@ -1,0 +1,1197 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1145/3774904.3792310",
+  "retrieved_utc": "2026-09-09T03:17:10.445665+00:00",
+  "response": {
+    "id": "https://openalex.org/W7152726812",
+    "doi": "https://doi.org/10.1145/3774904.3792310",
+    "title": "Dual History Enhancement with Hybrid Hypergraph-Graph Networks for Temporal Knowledge Graph Reasoning",
+    "display_name": "Dual History Enhancement with Hybrid Hypergraph-Graph Networks for Temporal Knowledge Graph Reasoning",
+    "publication_year": 2026,
+    "publication_date": "2026-04-09",
+    "ids": {
+      "openalex": "https://openalex.org/W7152726812",
+      "doi": "https://doi.org/10.1145/3774904.3792310"
+    },
+    "language": null,
+    "primary_location": {
+      "id": "doi:10.1145/3774904.3792310",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1145/3774904.3792310",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the ACM Web Conference 2026",
+      "raw_type": "proceedings-article"
+    },
+    "type": "conference-paper",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://ro.ecu.edu.au/cgi/viewcontent.cgi?article=9230&context=ecuworks2022-2026",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5125894918",
+          "display_name": "Kailun Ye",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I55712492",
+            "display_name": "Zhejiang University of Technology",
+            "ror": "https://ror.org/02djqfd08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kailun Ye",
+        "raw_affiliation_strings": [
+          "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, China"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0006-2109-487X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, China",
+            "institution_ids": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5133304629",
+          "display_name": "Xiangjie Kong",
+          "orcid": "https://orcid.org/0000-0003-2698-3319"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I55712492",
+            "display_name": "Zhejiang University of Technology",
+            "ror": "https://ror.org/02djqfd08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiangjie Kong",
+        "raw_affiliation_strings": [
+          "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-2698-3319",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, China",
+            "institution_ids": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5133254309",
+          "display_name": "Yuchao Zhang",
+          "orcid": "https://orcid.org/0009-0008-5499-6815"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I55712492",
+            "display_name": "Zhejiang University of Technology",
+            "ror": "https://ror.org/02djqfd08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yuchao Zhang",
+        "raw_affiliation_strings": [
+          "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, China"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0008-5499-6815",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, China",
+            "institution_ids": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5133311482",
+          "display_name": "Xuan Wang",
+          "orcid": "https://orcid.org/0009-0000-0133-000X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I63135867",
+            "display_name": "University of Cincinnati",
+            "ror": "https://ror.org/01e3m7079",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I63135867"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I92156820",
+            "display_name": "University of Cincinnati Medical Center",
+            "ror": "https://ror.org/02p72h367",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I92156820"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xuan Wang",
+        "raw_affiliation_strings": [
+          "College of Education Criminal Justice and Human Services, University of Cincinnati, Cincinnati, OH, USA"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0000-0133-000X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Education Criminal Justice and Human Services, University of Cincinnati, Cincinnati, OH, USA",
+            "institution_ids": [
+              "https://openalex.org/I63135867",
+              "https://openalex.org/I92156820"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5062800886",
+          "display_name": "Linan Zhu",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I55712492",
+            "display_name": "Zhejiang University of Technology",
+            "ror": "https://ror.org/02djqfd08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Linan Zhu",
+        "raw_affiliation_strings": [
+          "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-7451-4421",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, China",
+            "institution_ids": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100584342",
+          "display_name": "Jiaxin Du",
+          "orcid": "https://orcid.org/0000-0003-1776-9628"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I55712492",
+            "display_name": "Zhejiang University of Technology",
+            "ror": "https://ror.org/02djqfd08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiaxin Du",
+        "raw_affiliation_strings": [
+          "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-1776-9628",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, China",
+            "institution_ids": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5133294308",
+          "display_name": "Guojiang Shen",
+          "orcid": "https://orcid.org/0000-0003-1064-1250"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I55712492",
+            "display_name": "Zhejiang University of Technology",
+            "ror": "https://ror.org/02djqfd08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Guojiang Shen",
+        "raw_affiliation_strings": [
+          "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-1064-1250",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, China",
+            "institution_ids": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5133248735",
+          "display_name": "Jianxin Li",
+          "orcid": "https://orcid.org/0000-0002-9059-330X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I12079687",
+            "display_name": "Edith Cowan University",
+            "ror": "https://ror.org/05jhnwe22",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I12079687"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jianxin Li",
+        "raw_affiliation_strings": [
+          "School of Business and Law, Edith Cowan University, Joondalup, WA, Australia"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-9059-330X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Business and Law, Edith Cowan University, Joondalup, WA, Australia",
+            "institution_ids": [
+              "https://openalex.org/I12079687"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 4,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.30843956,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "3800",
+      "last_page": "3810"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11273",
+      "display_name": "Advanced Graph Neural Networks",
+      "score": 0.906000018119812,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11273",
+        "display_name": "Advanced Graph Neural Networks",
+        "score": 0.906000018119812,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12292",
+        "display_name": "Graph Theory and Algorithms",
+        "score": 0.016100000590085983,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13702",
+        "display_name": "Machine Learning in Healthcare",
+        "score": 0.009999999776482582,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/graph",
+        "display_name": "Graph",
+        "score": 0.46389999985694885
+      },
+      {
+        "id": "https://openalex.org/keywords/dual",
+        "display_name": "Dual (grammatical number)",
+        "score": 0.45730000734329224
+      },
+      {
+        "id": "https://openalex.org/keywords/knowledge-representation-and-reasoning",
+        "display_name": "Knowledge representation and reasoning",
+        "score": 0.3617999851703644
+      },
+      {
+        "id": "https://openalex.org/keywords/inference",
+        "display_name": "Inference",
+        "score": 0.29679998755455017
+      },
+      {
+        "id": "https://openalex.org/keywords/knowledge-based-systems",
+        "display_name": "Knowledge-based systems",
+        "score": 0.287200003862381
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6399999856948853
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.5388000011444092
+      },
+      {
+        "id": "https://openalex.org/C132525143",
+        "wikidata": "https://www.wikidata.org/wiki/Q141488",
+        "display_name": "Graph",
+        "level": 2,
+        "score": 0.46389999985694885
+      },
+      {
+        "id": "https://openalex.org/C2780980858",
+        "wikidata": "https://www.wikidata.org/wiki/Q110022",
+        "display_name": "Dual (grammatical number)",
+        "level": 2,
+        "score": 0.45730000734329224
+      },
+      {
+        "id": "https://openalex.org/C161301231",
+        "wikidata": "https://www.wikidata.org/wiki/Q3478658",
+        "display_name": "Knowledge representation and reasoning",
+        "level": 2,
+        "score": 0.3617999851703644
+      },
+      {
+        "id": "https://openalex.org/C80444323",
+        "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+        "display_name": "Theoretical computer science",
+        "level": 1,
+        "score": 0.31470000743865967
+      },
+      {
+        "id": "https://openalex.org/C2776214188",
+        "wikidata": "https://www.wikidata.org/wiki/Q408386",
+        "display_name": "Inference",
+        "level": 2,
+        "score": 0.29679998755455017
+      },
+      {
+        "id": "https://openalex.org/C115925183",
+        "wikidata": "https://www.wikidata.org/wiki/Q1412694",
+        "display_name": "Knowledge-based systems",
+        "level": 2,
+        "score": 0.287200003862381
+      },
+      {
+        "id": "https://openalex.org/C2987255567",
+        "wikidata": "https://www.wikidata.org/wiki/Q33002955",
+        "display_name": "Knowledge graph",
+        "level": 2,
+        "score": 0.2761000096797943
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.26589998602867126
+      },
+      {
+        "id": "https://openalex.org/C195344581",
+        "wikidata": "https://www.wikidata.org/wiki/Q2555318",
+        "display_name": "Automated reasoning",
+        "level": 2,
+        "score": 0.2538999915122986
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1145/3774904.3792310",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1145/3774904.3792310",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the ACM Web Conference 2026",
+        "raw_type": "proceedings-article"
+      },
+      {
+        "id": "pmh:oai:ro.ecu.edu.au:ecuworks2022-2026-9230",
+        "is_oa": true,
+        "landing_page_url": "https://ro.ecu.edu.au/ecuworks2022-2026/8230",
+        "pdf_url": "https://ro.ecu.edu.au/cgi/viewcontent.cgi?article=9230&context=ecuworks2022-2026",
+        "source": {
+          "id": "https://openalex.org/S2765015692",
+          "display_name": "Australasian Journal of Paramedicine",
+          "issn_l": "2202-7270",
+          "issn": [
+            "2202-7270"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Research outputs 2022 to 2026",
+        "raw_type": "text"
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:ro.ecu.edu.au:ecuworks2022-2026-9230",
+      "is_oa": true,
+      "landing_page_url": "https://ro.ecu.edu.au/ecuworks2022-2026/8230",
+      "pdf_url": "https://ro.ecu.edu.au/cgi/viewcontent.cgi?article=9230&context=ecuworks2022-2026",
+      "source": {
+        "id": "https://openalex.org/S2765015692",
+        "display_name": "Australasian Journal of Paramedicine",
+        "issn_l": "2202-7270",
+        "issn": [
+          "2202-7270"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Research outputs 2022 to 2026",
+      "raw_type": "text"
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G3267229679",
+        "display_name": null,
+        "funder_award_id": "LR21F020003",
+        "funder_id": "https://openalex.org/F4320338464",
+        "funder_display_name": "Natural Science Foundation of Zhejiang Province"
+      },
+      {
+        "id": "https://openalex.org/G375061258",
+        "display_name": null,
+        "funder_award_id": "2024C0-1214",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G3975811576",
+        "display_name": null,
+        "funder_award_id": "LR21F020003",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G4211196075",
+        "display_name": null,
+        "funder_award_id": "62073295",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G4794680191",
+        "display_name": null,
+        "funder_award_id": "62072409",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G5834871303",
+        "display_name": null,
+        "funder_award_id": "62476247",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G6414272459",
+        "display_name": null,
+        "funder_award_id": "62073295",
+        "funder_id": "https://openalex.org/F4320338464",
+        "funder_display_name": "Natural Science Foundation of Zhejiang Province"
+      },
+      {
+        "id": "https://openalex.org/G8779220306",
+        "display_name": null,
+        "funder_award_id": "62072409",
+        "funder_id": "https://openalex.org/F4320338464",
+        "funder_display_name": "Natural Science Foundation of Zhejiang Province"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320338464",
+        "display_name": "Natural Science Foundation of Zhejiang Province",
+        "ror": "https://ror.org/01h0zpd94"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7152726812.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7152726812.grobid-xml"
+    },
+    "referenced_works_count": 25,
+    "referenced_works": [
+      "https://openalex.org/W2728059831",
+      "https://openalex.org/W2740855839",
+      "https://openalex.org/W2774837955",
+      "https://openalex.org/W2889782235",
+      "https://openalex.org/W2950393809",
+      "https://openalex.org/W3097986917",
+      "https://openalex.org/W3158357923",
+      "https://openalex.org/W3174368915",
+      "https://openalex.org/W3182741322",
+      "https://openalex.org/W3187578449",
+      "https://openalex.org/W4210395897",
+      "https://openalex.org/W4285140697",
+      "https://openalex.org/W4289839702",
+      "https://openalex.org/W4297963447",
+      "https://openalex.org/W4323066511",
+      "https://openalex.org/W4382239895",
+      "https://openalex.org/W4385571579",
+      "https://openalex.org/W4385573535",
+      "https://openalex.org/W4396722687",
+      "https://openalex.org/W4400910165",
+      "https://openalex.org/W4401042265",
+      "https://openalex.org/W4401042319",
+      "https://openalex.org/W4402670756",
+      "https://openalex.org/W4409364652",
+      "https://openalex.org/W7131889703"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Temporal": [
+        0
+      ],
+      "Knowledge": [
+        1
+      ],
+      "Graph": [
+        2
+      ],
+      "(TKG)": [
+        3
+      ],
+      "reasoning": [
+        4,
+        185
+      ],
+      "seeks": [
+        5
+      ],
+      "to": [
+        6,
+        47,
+        50,
+        69,
+        138
+      ],
+      "predict": [
+        7
+      ],
+      "future": [
+        8
+      ],
+      "events": [
+        9
+      ],
+      "by": [
+        10,
+        44,
+        61
+      ],
+      "analyzing": [
+        11
+      ],
+      "historical": [
+        12,
+        23,
+        85,
+        159,
+        167
+      ],
+      "data,": [
+        13
+      ],
+      "where": [
+        14
+      ],
+      "the": [
+        15
+      ],
+      "effective": [
+        16
+      ],
+      "leverage": [
+        17
+      ],
+      "of": [
+        18,
+        165
+      ],
+      "both": [
+        19
+      ],
+      "local": [
+        20,
+        40,
+        110
+      ],
+      "and": [
+        21,
+        34,
+        128
+      ],
+      "global": [
+        22,
+        51,
+        78,
+        144
+      ],
+      "facts": [
+        24,
+        160
+      ],
+      "proves": [
+        25
+      ],
+      "crucial.": [
+        26
+      ],
+      "Existing": [
+        27
+      ],
+      "approaches": [
+        28,
+        81
+      ],
+      "employ": [
+        29
+      ],
+      "graph": [
+        30
+      ],
+      "neural": [
+        31,
+        36
+      ],
+      "networks": [
+        32,
+        37
+      ],
+      "(GNNs)": [
+        33
+      ],
+      "recurrent": [
+        35,
+        119
+      ],
+      "(RNNs)": [
+        38
+      ],
+      "for": [
+        39,
+        103,
+        109
+      ],
+      "evolution": [
+        41
+      ],
+      "patterns,": [
+        42
+      ],
+      "complemented": [
+        43
+      ],
+      "statistical": [
+        45
+      ],
+      "methods": [
+        46,
+        182
+      ],
+      "enhance": [
+        48
+      ],
+      "attention": [
+        49,
+        156
+      ],
+      "facts,": [
+        52
+      ],
+      "demonstrating": [
+        53
+      ],
+      "efficient": [
+        54
+      ],
+      "predictive": [
+        55
+      ],
+      "capabilities.": [
+        56
+      ],
+      "However,": [
+        57
+      ],
+      "traditional": [
+        58
+      ],
+      "GNNs,": [
+        59
+      ],
+      "constrained": [
+        60
+      ],
+      "their": [
+        62,
+        141
+      ],
+      "low-order": [
+        63,
+        125
+      ],
+      "neighborhood": [
+        64,
+        126
+      ],
+      "aggregation": [
+        65
+      ],
+      "design,": [
+        66
+      ],
+      "inherently": [
+        67
+      ],
+      "fail": [
+        68
+      ],
+      "model": [
+        70
+      ],
+      "potential": [
+        71
+      ],
+      "high-order": [
+        72,
+        129
+      ],
+      "dependencies": [
+        73
+      ],
+      "among": [
+        74,
+        132
+      ],
+      "facts.": [
+        75
+      ],
+      "Furthermore,": [
+        76
+      ],
+      "existing": [
+        77,
+        180
+      ],
+      "history": [
+        79,
+        111,
+        145,
+        151
+      ],
+      "modeling": [
+        80
+      ],
+      "may": [
+        82
+      ],
+      "introduce": [
+        83
+      ],
+      "irrelevant": [
+        84
+      ],
+      "information": [
+        86,
+        127
+      ],
+      "that": [
+        87,
+        122,
+        154,
+        176
+      ],
+      "interferes": [
+        88
+      ],
+      "with": [
+        89
+      ],
+      "prediction": [
+        90
+      ],
+      "tasks.": [
+        91,
+        186
+      ],
+      "To": [
+        92
+      ],
+      "address": [
+        93
+      ],
+      "these": [
+        94
+      ],
+      "limitations,": [
+        95
+      ],
+      "we": [
+        96,
+        113,
+        147
+      ],
+      "propose": [
+        97,
+        148
+      ],
+      "a": [
+        98,
+        115,
+        135,
+        149
+      ],
+      "Dual": [
+        99
+      ],
+      "History-aware": [
+        100
+      ],
+      "HyperGraph": [
+        101
+      ],
+      "Network": [
+        102
+      ],
+      "TKG": [
+        104,
+        184
+      ],
+      "reasoning,": [
+        105
+      ],
+      "namely": [
+        106
+      ],
+      "DHHGN.": [
+        107
+      ],
+      "Specifically,": [
+        108
+      ],
+      "modeling,": [
+        112,
+        146
+      ],
+      "design": [
+        114
+      ],
+      "hybrid": [
+        116
+      ],
+      "hypergraph-graph": [
+        117
+      ],
+      "joint": [
+        118
+      ],
+      "convolution": [
+        120
+      ],
+      "module": [
+        121,
+        153
+      ],
+      "simultaneously": [
+        123
+      ],
+      "captures": [
+        124
+      ],
+      "interaction": [
+        130
+      ],
+      "patterns": [
+        131
+      ],
+      "entities,": [
+        133
+      ],
+      "employing": [
+        134
+      ],
+      "gating": [
+        136
+      ],
+      "mechanism": [
+        137
+      ],
+      "adaptively": [
+        139
+      ],
+      "blend": [
+        140
+      ],
+      "contributions.": [
+        142
+      ],
+      "For": [
+        143
+      ],
+      "dual": [
+        150
+      ],
+      "enhancement": [
+        152
+      ],
+      "amplifies": [
+        155
+      ],
+      "on": [
+        157,
+        171
+      ],
+      "pivotal": [
+        158
+      ],
+      "while": [
+        161
+      ],
+      "ensuring": [
+        162
+      ],
+      "holistic": [
+        163
+      ],
+      "integration": [
+        164
+      ],
+      "all": [
+        166
+      ],
+      "contexts.": [
+        168
+      ],
+      "Extensive": [
+        169
+      ],
+      "experiments": [
+        170
+      ],
+      "four": [
+        172
+      ],
+      "public": [
+        173
+      ],
+      "benchmarks": [
+        174
+      ],
+      "validate": [
+        175
+      ],
+      "DualHist-HGN": [
+        177
+      ],
+      "consistently": [
+        178
+      ],
+      "outperforms": [
+        179
+      ],
+      "state-of-the-art": [
+        181
+      ],
+      "across": [
+        183
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-08-25T07:29:55.448023",
+    "created_date": "2026-04-10T00:00:00"
+  }
+}

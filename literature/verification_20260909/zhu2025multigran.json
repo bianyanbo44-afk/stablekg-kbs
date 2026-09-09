@@ -1,0 +1,726 @@
+{
+  "key": "zhu2025multigran",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.datak.2025.102496",
+  "retrieved_utc": "2026-09-09T03:16:47.460186+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            15
+          ]
+        ],
+        "date-time": "2026-07-15T19:11:43Z",
+        "timestamp": 1784142703542,
+        "version": "3.55.0"
+      },
+      "reference-count": 49,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100018525",
+          "name": "Key Research and Development Program of Sichuan Province",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "2024YFG0008"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2024YFG0008"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100018525",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Data &amp; Knowledge Engineering"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            11
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.datak.2025.102496",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            5
+          ]
+        ],
+        "date-time": "2025-08-05T07:39:43Z",
+        "timestamp": 1754379583000
+      },
+      "page": "102496",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 4,
+      "special_numbering": "C",
+      "title": [
+        "Multi-Granularity History Graph Network for temporal knowledge graph reasoning"
+      ],
+      "prefix": "10.1016",
+      "volume": "160",
+      "author": [
+        {
+          "given": "Jun",
+          "family": "Zhu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yan",
+          "family": "Fu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Junlin",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2239-3012",
+          "authenticated-orcid": false,
+          "given": "Duanbing",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "1",
+          "key": "10.1016/j.datak.2025.102496_b1",
+          "first-page": "20",
+          "article-title": "Preprogramming for mechanical translation",
+          "volume": "3",
+          "author": "Richens",
+          "year": "1956",
+          "journal-title": "Mech. Transl. Comput. Linguist."
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b2",
+          "series-title": "A Notation for Representing Conceptual Information: An Application to Semantics and Mechanical English Paraphrasing",
+          "author": "Quillan",
+          "year": "1963"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b3",
+          "doi-asserted-by": "crossref",
+          "first-page": "494",
+          "DOI": "10.1109/TNNLS.2021.3070843",
+          "article-title": "A survey on knowledge graphs: Representation, acquisition, and applications",
+          "volume": "33",
+          "author": "Ji",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b4",
+          "volume": "vol. 1",
+          "author": "Trompf",
+          "year": "1979"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b5",
+          "series-title": "The Cycles of American History",
+          "author": "Schlesinger",
+          "year": "1999"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "W. Jin, M. Qu, X. Jin, X. Ren, Recurrent Event Network: Autoregressive Structure Inferenceover Temporal Knowledge Graphs, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing, EMNLP, 2020, pp. 6669–6683.",
+          "DOI": "10.18653/v1/2020.emnlp-main.541"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b7",
+          "first-page": "4732",
+          "article-title": "Learning from history: Modeling temporal knowledge graphs with sequential copy-generation networks",
+          "volume": "vol. 35",
+          "author": "Zhu",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Z. Li, X. Jin, W. Li, S. Guan, J. Guo, H. Shen, Y. Wang, X. Cheng, Temporal knowledge graph reasoning based on evolutional representation learning, in: Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval, 2021, pp. 408–417.",
+          "DOI": "10.1145/3404835.3462963"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Z. Li, S. Guan, X. Jin, W. Peng, Y. Lyu, Y. Zhu, L. Bai, W. Li, J. Guo, X. Cheng, Complex Evolutional Pattern Learning for Temporal Knowledge Graph Reasoning, in: Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), 2022, pp. 290–296.",
+          "DOI": "10.18653/v1/2022.acl-short.32"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b10",
+          "series-title": "Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, IJCAI 2022, Vienna, Austria, 23-29 July 2022",
+          "first-page": "2152",
+          "article-title": "Tirgn: Time-guided recurrent graph network with local-global historical patterns for temporal knowledge graph reasoning",
+          "author": "Li",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Z. Chen, J. Liao, X. Zhao, Multi-granularity temporal question answering over knowledge graphs, in: Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2023, pp. 11378–11392.",
+          "DOI": "10.18653/v1/2023.acl-long.637"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b12",
+          "first-page": "3988",
+          "article-title": "Diachronic embedding for temporal knowledge graph completion",
+          "volume": "vol. 34",
+          "author": "Goel",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Wu, M. Cao, J.C.K. Cheung, W.L. Hamilton, TeMP: Temporal Message Passing for Temporal Knowledge Graph Completion, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing, EMNLP, 2020, pp. 5730–5746.",
+          "DOI": "10.18653/v1/2020.emnlp-main.462"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b14",
+          "series-title": "The Semantic Web - 14th International Conference, ESWC",
+          "first-page": "202",
+          "article-title": "Embedding learning for declarative memories",
+          "volume": "vol. 10249",
+          "author": "Tresp",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b15",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.websem.2018.12.008",
+          "article-title": "Embedding models for episodic knowledge graphs",
+          "volume": "59",
+          "author": "Ma",
+          "year": "2019",
+          "journal-title": "J. Web Semant."
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b16",
+          "series-title": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+          "first-page": "8104",
+          "article-title": "Time-dependent entity embedding is not all you need: A re-evaluation of temporal knowledge graph completion models under a unified framework",
+          "author": "Han",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. Jiang, T. Liu, T. Ge, L. Sha, S. Li, B. Chang, Z. Sui, Encoding temporal information for time-aware link prediction, in: Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing, 2016, pp. 2350–2354.",
+          "DOI": "10.18653/v1/D16-1260"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b18",
+          "article-title": "Translating embeddings for modeling multi-relational data",
+          "volume": "26",
+          "author": "Bordes",
+          "year": "2013",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b19",
+          "unstructured": "T. Lacroix, G. Obozinski, N. Usunier, Tensor Decompositions for Temporal Knowledge Base Completion, in: International Conference on Learning Representations, 2019, pp. 1–12."
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S.S. Dasgupta, S.N. Ray, P. Talukdar, Hyte: Hyperplane-based temporally aware knowledge graph embedding, in: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, 2018, pp. 2001–2011.",
+          "DOI": "10.18653/v1/D18-1225"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b21",
+          "first-page": "1",
+          "article-title": "Knowledge graph embedding by translating on hyperplanes",
+          "volume": "vol. 28",
+          "author": "Wang",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b22",
+          "first-page": "6471",
+          "article-title": "Chronor: rotation based temporal knowledge graph embedding",
+          "volume": "vol. 35",
+          "author": "Sadeghian",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "K. Chen, Y. Wang, Y. Li, A. Li, RotateQVS: Representing Temporal Information as Rotations in Quaternion Vector Space for Temporal Knowledge Graph Completion, in: Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2022, pp. 5843–5857.",
+          "DOI": "10.18653/v1/2022.acl-long.402"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b24",
+          "first-page": "7779",
+          "article-title": "Temporal knowledge graph completion using box embeddings",
+          "volume": "vol. 36",
+          "author": "Messner",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b25",
+          "series-title": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing",
+          "first-page": "7301",
+          "article-title": "Dyernie: Dynamic evolution of Riemannian manifold embeddings for temporal knowledge graph completion",
+          "author": "Han",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b26",
+          "first-page": "729",
+          "article-title": "A simple but powerful graph encoder for temporal knowledge graph completion",
+          "volume": "vol. 824",
+          "author": "Ding",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b27",
+          "series-title": "Proceedings of the Sixth Workshop on Structured Prediction for NLP",
+          "first-page": "22",
+          "article-title": "TempCaps: A capsule network-based embedding model for temporal knowledge graph completion",
+          "author": "Fu",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Z. Ding, H. Cai, J. Wu, Y. Ma, R. Liao, B. Xiong, V. Tresp, zrLLM: Zero-Shot Relational Learning on Temporal Knowledge Graphs with Large Language Models, in: Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, NAACL, 2024, pp. 1877–1895.",
+          "DOI": "10.18653/v1/2024.naacl-long.104"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b29",
+          "unstructured": "R. Trivedi, M. Farajtabar, P. Biswal, H. Zha, Dyrep: Learning representations over dynamic graphs, in: International Conference on Learning Representations, 2019, pp. 1–25."
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Deng, H. Rangwala, Y. Ning, Dynamic knowledge graph based multi-event forecasting, in: Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, 2020, pp. 1585–1595.",
+          "DOI": "10.1145/3394486.3403209"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Z. Han, Z. Ding, Y. Ma, Y. Gu, V. Tresp, Learning neural ordinary equations for forecasting future links on temporal knowledge graphs, in: Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, 2021, pp. 8352–8364.",
+          "DOI": "10.18653/v1/2021.emnlp-main.658"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Z. Li, X. Jin, S. Guan, W. Li, J. Guo, Y. Wang, X. Cheng, Search from History and Reason for Future: Two-stage Reasoning on Temporal Knowledge Graphs, in: Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), 2021, pp. 4732–4743.",
+          "DOI": "10.18653/v1/2021.acl-long.365"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "N. Park, F. Liu, P. Mehta, D. Cristofor, C. Faloutsos, Y. Dong, EvoKG: Jointly Modeling Event Time and Network Structure for Reasoning over Temporal Knowledge Graphs, in: Proceedings of the Fifteenth ACM International Conference on Web Search and Data Mining, 2022, pp. 794–803.",
+          "DOI": "10.1145/3488560.3498451"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b34",
+          "first-page": "4120",
+          "article-title": "Tlogic: Temporal logical rules for explainable link forecasting on temporal knowledge graphs",
+          "volume": "vol. 36",
+          "author": "Liu",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b35",
+          "series-title": "Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, IJCAI 2022, Vienna, Austria, 23-29 July 2022",
+          "first-page": "2044",
+          "article-title": "Modeling precursors for temporal knowledge graph reasoning via auto-encoder structure",
+          "author": "Gao",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Zhang, Y. Xia, Q. Liu, S. Wu, L. Wang, Learning Long- and Short-term Representations for Temporal Knowledge Graph Reasoning, in: Proceedings of the ACM Web Conference 2023, WWW 2023, Austin, TX, USA, 30 April 2023 - 4 May 2023, 2023, pp. 2412–2422.",
+          "DOI": "10.1145/3543507.3583242"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b37",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2024.112280",
+          "article-title": "Temporal knowledge graph reasoning based on relation graphs and time-guided attention mechanism",
+          "volume": "301",
+          "author": "Hu",
+          "year": "2024",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.datak.2025.102496_b38",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ipm.2024.103848",
+          "article-title": "TaReT: Temporal knowledge graph reasoning based on topology-aware dynamic relation graph and temporal fusion",
+          "volume": "61",
+          "author": "Ma",
+          "year": "2024",
+          "journal-title": "Inf. Process. Manage."
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b39",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.patcog.2024.110629",
+          "article-title": "MetaTKG++: Learning evolving factor enhanced meta-knowledge for temporal knowledge graph reasoning",
+          "volume": "155",
+          "author": "Xia",
+          "year": "2024",
+          "journal-title": "Pattern Recognit."
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b40",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2024.124561",
+          "article-title": "Learning multi-graph structure for temporal knowledge graph reasoning",
+          "volume": "255",
+          "author": "Zhang",
+          "year": "2024",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b41",
+          "series-title": "Findings of the Association for Computational Linguistics: NAACL",
+          "first-page": "4303",
+          "article-title": "GenTKG: Generative forecasting on temporal knowledge graph with large language models",
+          "author": "Liao",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b42",
+          "first-page": "3060",
+          "article-title": "End-to-end structure-aware convolutional networks for knowledge base completion",
+          "volume": "vol. 33",
+          "author": "Shang",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Garcia-Duran, S. Dumančić, M. Niepert, Learning Sequence Encoders for Temporal Knowledge Graph Completion, in: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, 2018, pp. 4816–4821.",
+          "DOI": "10.18653/v1/D18-1516"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Leblay, M.W. Chekol, Deriving validity time in knowledge graph, in: Companion Proceedings of the the Web Conference 2018, 2018, pp. 1771–1776.",
+          "DOI": "10.1145/3184558.3191639"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b45",
+          "unstructured": "F. Mahdisoltani, J. Biega, F. Suchanek, Yago3: A knowledge base from multilingual wikipedias, in: 7th Biennial Conference on Innovative Data Systems Research, in: CIDR Conference, 2014, pp. 1–11."
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b46",
+          "first-page": "1",
+          "article-title": "Gdelt: Global data on events, location, and tone, 1979–2012",
+          "volume": "vol. 2",
+          "author": "Leetaru",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b47",
+          "unstructured": "Z. Han, P. Chen, Y. Ma, V. Tresp, Explainable subgraph reasoning for forecasting on temporal knowledge graphs, in: International Conference on Learning Representations, 2021, pp. 1–24."
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H. Sun, J. Zhong, Y. Ma, Z. Han, K. He, TimeTraveler: Reinforcement learning for temporal knowledge graph forecasting, in: Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, EMNLP, 2021, pp. 8306–8319.",
+          "DOI": "10.18653/v1/2021.emnlp-main.655"
+        },
+        {
+          "key": "10.1016/j.datak.2025.102496_b49",
+          "series-title": "Adam: A method for stochastic optimization",
+          "author": "Kingma",
+          "year": "2014"
+        }
+      ],
+      "container-title": [
+        "Data &amp; Knowledge Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0169023X25000916?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0169023X25000916?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            6
+          ]
+        ],
+        "date-time": "2026-03-06T09:12:46Z",
+        "timestamp": 1772788366000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0169023X25000916"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11
+          ]
+        ]
+      },
+      "references-count": 49,
+      "alternative-id": [
+        "S0169023X25000916"
+      ],
+      "URL": "https://doi.org/10.1016/j.datak.2025.102496",
+      "relation": {},
+      "ISSN": [
+        "0169-023X"
+      ],
+      "issn-type": [
+        {
+          "value": "0169-023X",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Multi-Granularity History Graph Network for temporal knowledge graph reasoning",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Data & Knowledge Engineering",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.datak.2025.102496",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "102496"
+    }
+  }
+}

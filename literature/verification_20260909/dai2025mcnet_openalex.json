@@ -1,0 +1,1040 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1145/3696410.3714802",
+  "retrieved_utc": "2026-09-09T03:17:05.515924+00:00",
+  "response": {
+    "id": "https://openalex.org/W4410088776",
+    "doi": "https://doi.org/10.1145/3696410.3714802",
+    "title": "MCNet: Monotonic Calibration Networks for Expressive Uncertainty Calibration in Online Advertising",
+    "display_name": "MCNet: Monotonic Calibration Networks for Expressive Uncertainty Calibration in Online Advertising",
+    "publication_year": 2025,
+    "publication_date": "2025-04-22",
+    "ids": {
+      "openalex": "https://openalex.org/W4410088776",
+      "doi": "https://doi.org/10.1145/3696410.3714802"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1145/3696410.3714802",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1145/3696410.3714802",
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3696410.3714802",
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the ACM on Web Conference 2025",
+      "raw_type": "proceedings-article"
+    },
+    "type": "conference-paper",
+    "indexed_in": [
+      "arxiv",
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://dl.acm.org/doi/pdf/10.1145/3696410.3714802",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5048783161",
+          "display_name": "Quanyu Dai",
+          "orcid": "https://orcid.org/0000-0001-7578-2738"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2250955327",
+            "display_name": "Huawei Technologies (China)",
+            "ror": "https://ror.org/00cmhce21",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I2250955327"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Quanyu Dai",
+        "raw_affiliation_strings": [
+          "Huawei Noah's Ark Lab, Shenzhen, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-7578-2738",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Huawei Noah's Ark Lab, Shenzhen, China",
+            "institution_ids": [
+              "https://openalex.org/I2250955327"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5016406977",
+          "display_name": "Jiaren Xiao",
+          "orcid": "https://orcid.org/0000-0001-7649-4682"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I14243506",
+            "display_name": "Hong Kong Polytechnic University",
+            "ror": "https://ror.org/0030zas98",
+            "country_code": "HK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I14243506"
+            ]
+          }
+        ],
+        "countries": [
+          "HK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiaren Xiao",
+        "raw_affiliation_strings": [
+          "The HK PolyU, Hong Kong, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-7649-4682",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The HK PolyU, Hong Kong, China",
+            "institution_ids": [
+              "https://openalex.org/I14243506"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5040755010",
+          "display_name": "Zhaocheng Du",
+          "orcid": "https://orcid.org/0000-0002-1811-129X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2250955327",
+            "display_name": "Huawei Technologies (China)",
+            "ror": "https://ror.org/00cmhce21",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I2250955327"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhaocheng Du",
+        "raw_affiliation_strings": [
+          "Huawei Noah's Ark Lab, Shenzhen, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-1811-129X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Huawei Noah's Ark Lab, Shenzhen, China",
+            "institution_ids": [
+              "https://openalex.org/I2250955327"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5048669373",
+          "display_name": "Jieming Zhu",
+          "orcid": "https://orcid.org/0000-0002-5666-8320"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2250955327",
+            "display_name": "Huawei Technologies (China)",
+            "ror": "https://ror.org/00cmhce21",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I2250955327"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jieming Zhu",
+        "raw_affiliation_strings": [
+          "Huawei Noah's Ark Lab, Shenzhen, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-5666-8320",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Huawei Noah's Ark Lab, Shenzhen, China",
+            "institution_ids": [
+              "https://openalex.org/I2250955327"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5070085327",
+          "display_name": "Chengxiao Luo",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I99065089",
+            "display_name": "Tsinghua University",
+            "ror": "https://ror.org/03cve4549",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I99065089"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Chengxiao Luo",
+        "raw_affiliation_strings": [
+          "Tsinghua University, Shenzhen, China"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0003-6463-4045",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Tsinghua University, Shenzhen, China",
+            "institution_ids": [
+              "https://openalex.org/I99065089"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101981128",
+          "display_name": "Xiao-Ming Wu",
+          "orcid": "https://orcid.org/0000-0002-3130-0554"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I14243506",
+            "display_name": "Hong Kong Polytechnic University",
+            "ror": "https://ror.org/0030zas98",
+            "country_code": "HK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I14243506"
+            ]
+          }
+        ],
+        "countries": [
+          "HK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiao-Ming Wu",
+        "raw_affiliation_strings": [
+          "The HK PolyU, Hong Kong, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-3130-0554",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The HK PolyU, Hong Kong, China",
+            "institution_ids": [
+              "https://openalex.org/I14243506"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5021124418",
+          "display_name": "Zhenhua Dong",
+          "orcid": "https://orcid.org/0000-0002-2231-4663"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2250955327",
+            "display_name": "Huawei Technologies (China)",
+            "ror": "https://ror.org/00cmhce21",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I2250955327"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhenhua Dong",
+        "raw_affiliation_strings": [
+          "Huawei Noah's Ark Lab, Shenzhen, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-2231-4663",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Huawei Noah's Ark Lab, Shenzhen, China",
+            "institution_ids": [
+              "https://openalex.org/I2250955327"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 1.3985,
+    "has_fulltext": true,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.7766152,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 91,
+      "max": 94
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "4408",
+      "last_page": "4419"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12535",
+      "display_name": "Machine Learning and Data Classification",
+      "score": 0.9901999831199646,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12535",
+        "display_name": "Machine Learning and Data Classification",
+        "score": 0.9901999831199646,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10775",
+        "display_name": "Generative Adversarial Networks and Image Synthesis",
+        "score": 0.9822999835014343,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12026",
+        "display_name": "Explainable Artificial Intelligence (XAI)",
+        "score": 0.9789999723434448,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/calibration",
+        "display_name": "Calibration",
+        "score": 0.773650050163269
+      },
+      {
+        "id": "https://openalex.org/keywords/monotonic-function",
+        "display_name": "Monotonic function",
+        "score": 0.7576732039451599
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.6736505627632141
+      },
+      {
+        "id": "https://openalex.org/keywords/online-advertising",
+        "display_name": "Online advertising",
+        "score": 0.47697576880455017
+      },
+      {
+        "id": "https://openalex.org/keywords/the-internet",
+        "display_name": "The Internet",
+        "score": 0.22984230518341064
+      },
+      {
+        "id": "https://openalex.org/keywords/world-wide-web",
+        "display_name": "World Wide Web",
+        "score": 0.199901282787323
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.14825662970542908
+      },
+      {
+        "id": "https://openalex.org/keywords/statistics",
+        "display_name": "Statistics",
+        "score": 0.10509276390075684
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C165838908",
+        "wikidata": "https://www.wikidata.org/wiki/Q736777",
+        "display_name": "Calibration",
+        "level": 2,
+        "score": 0.773650050163269
+      },
+      {
+        "id": "https://openalex.org/C72169020",
+        "wikidata": "https://www.wikidata.org/wiki/Q194404",
+        "display_name": "Monotonic function",
+        "level": 2,
+        "score": 0.7576732039451599
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6736505627632141
+      },
+      {
+        "id": "https://openalex.org/C512338625",
+        "wikidata": "https://www.wikidata.org/wiki/Q624902",
+        "display_name": "Online advertising",
+        "level": 3,
+        "score": 0.47697576880455017
+      },
+      {
+        "id": "https://openalex.org/C110875604",
+        "wikidata": "https://www.wikidata.org/wiki/Q75",
+        "display_name": "The Internet",
+        "level": 2,
+        "score": 0.22984230518341064
+      },
+      {
+        "id": "https://openalex.org/C136764020",
+        "wikidata": "https://www.wikidata.org/wiki/Q466",
+        "display_name": "World Wide Web",
+        "level": 1,
+        "score": 0.199901282787323
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.14825662970542908
+      },
+      {
+        "id": "https://openalex.org/C105795698",
+        "wikidata": "https://www.wikidata.org/wiki/Q12483",
+        "display_name": "Statistics",
+        "level": 1,
+        "score": 0.10509276390075684
+      },
+      {
+        "id": "https://openalex.org/C134306372",
+        "wikidata": "https://www.wikidata.org/wiki/Q7754",
+        "display_name": "Mathematical analysis",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1145/3696410.3714802",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1145/3696410.3714802",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3696410.3714802",
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the ACM on Web Conference 2025",
+        "raw_type": "proceedings-article"
+      },
+      {
+        "id": "pmh:oai:arXiv.org:2503.00334",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2503.00334",
+        "pdf_url": "https://arxiv.org/pdf/2503.00334",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1145/3696410.3714802",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1145/3696410.3714802",
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3696410.3714802",
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the ACM on Web Conference 2025",
+      "raw_type": "proceedings-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4410088776.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4410088776.grobid-xml"
+    },
+    "referenced_works_count": 22,
+    "referenced_works": [
+      "https://openalex.org/W1528012351",
+      "https://openalex.org/W1968287817",
+      "https://openalex.org/W1996796871",
+      "https://openalex.org/W2012942264",
+      "https://openalex.org/W2074694452",
+      "https://openalex.org/W2076618162",
+      "https://openalex.org/W2125406789",
+      "https://openalex.org/W2548695521",
+      "https://openalex.org/W2964182926",
+      "https://openalex.org/W2970121940",
+      "https://openalex.org/W2990714382",
+      "https://openalex.org/W3001835520",
+      "https://openalex.org/W3102243698",
+      "https://openalex.org/W3132308722",
+      "https://openalex.org/W3183048323",
+      "https://openalex.org/W4200631330",
+      "https://openalex.org/W4221154425",
+      "https://openalex.org/W4284706321",
+      "https://openalex.org/W4284713552",
+      "https://openalex.org/W4290927708",
+      "https://openalex.org/W4306316946",
+      "https://openalex.org/W4384661020"
+    ],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2077314575",
+      "https://openalex.org/W4315701745",
+      "https://openalex.org/W1990290471",
+      "https://openalex.org/W4380682190",
+      "https://openalex.org/W2005710836",
+      "https://openalex.org/W2102386043",
+      "https://openalex.org/W2945307361"
+    ],
+    "abstract_inverted_index": {
+      "In": [
+        0
+      ],
+      "online": [
+        1
+      ],
+      "advertising,": [
+        2
+      ],
+      "uncertainty": [
+        3
+      ],
+      "calibration": [
+        4,
+        30,
+        72,
+        141
+      ],
+      "aims": [
+        5
+      ],
+      "to": [
+        6,
+        13,
+        36
+      ],
+      "adjust": [
+        7
+      ],
+      "a": [
+        8,
+        23,
+        26,
+        59,
+        70,
+        79,
+        118
+      ],
+      "ranking": [
+        9
+      ],
+      "model's": [
+        10
+      ],
+      "probability": [
+        11,
+        165
+      ],
+      "predictions": [
+        12,
+        98
+      ],
+      "better": [
+        14
+      ],
+      "approximate": [
+        15
+      ],
+      "the": [
+        16,
+        34,
+        93,
+        100,
+        132,
+        139,
+        156
+      ],
+      "true": [
+        17
+      ],
+      "likelihood": [
+        18
+      ],
+      "of": [
+        19,
+        87,
+        159
+      ],
+      "an": [
+        20,
+        75
+      ],
+      "event,": [
+        21
+      ],
+      "e.g.,": [
+        22
+      ],
+      "click": [
+        24
+      ],
+      "or": [
+        25
+      ],
+      "conversion.": [
+        27
+      ],
+      "However,": [
+        28
+      ],
+      "existing": [
+        29,
+        109
+      ],
+      "approaches": [
+        31
+      ],
+      "may": [
+        32
+      ],
+      "lack": [
+        33
+      ],
+      "ability": [
+        35
+      ],
+      "effectively": [
+        37
+      ],
+      "model": [
+        38,
+        61,
+        120
+      ],
+      "complex": [
+        39
+      ],
+      "nonlinear": [
+        40,
+        83
+      ],
+      "relations,": [
+        41
+      ],
+      "consider": [
+        42
+      ],
+      "context": [
+        43,
+        115,
+        124
+      ],
+      "features,": [
+        44
+      ],
+      "and": [
+        45,
+        78,
+        90,
+        99,
+        128,
+        138,
+        152
+      ],
+      "achieve": [
+        46
+      ],
+      "balanced": [
+        47,
+        140
+      ],
+      "performance": [
+        48,
+        142,
+        158
+      ],
+      "across": [
+        49
+      ],
+      "different": [
+        50
+      ],
+      "data": [
+        51,
+        144
+      ],
+      "subsets.": [
+        52
+      ],
+      "To": [
+        53
+      ],
+      "tackle": [
+        54
+      ],
+      "these": [
+        55
+      ],
+      "challenges,": [
+        56
+      ],
+      "we": [
+        57
+      ],
+      "introduce": [
+        58
+      ],
+      "novel": [
+        60
+      ],
+      "called": [
+        62
+      ],
+      "Monotonic": [
+        63
+      ],
+      "Calibration": [
+        64
+      ],
+      "Networks,": [
+        65
+      ],
+      "featuring": [
+        66
+      ],
+      "three": [
+        67
+      ],
+      "key": [
+        68
+      ],
+      "designs:": [
+        69
+      ],
+      "monotonic": [
+        71,
+        133
+      ],
+      "function": [
+        73
+      ],
+      "(MCF),": [
+        74
+      ],
+      "order-preserving": [
+        76,
+        127
+      ],
+      "regularizer,": [
+        77
+      ],
+      "field-balance": [
+        80,
+        129
+      ],
+      "regularizer.": [
+        81
+      ],
+      "The": [
+        82,
+        126
+      ],
+      "MCF": [
+        84,
+        111
+      ],
+      "is": [
+        85
+      ],
+      "capable": [
+        86
+      ],
+      "naturally": [
+        88
+      ],
+      "modeling": [
+        89
+      ],
+      "universally": [
+        91
+      ],
+      "approximating": [
+        92
+      ],
+      "intricate": [
+        94
+      ],
+      "relations": [
+        95
+      ],
+      "between": [
+        96,
+        135
+      ],
+      "uncalibrated": [
+        97
+      ],
+      "posterior": [
+        101
+      ],
+      "probabilities,": [
+        102
+      ],
+      "thus": [
+        103
+      ],
+      "being": [
+        104
+      ],
+      "much": [
+        105
+      ],
+      "more": [
+        106
+      ],
+      "expressive": [
+        107
+      ],
+      "than": [
+        108
+      ],
+      "methods.": [
+        110
+      ],
+      "can": [
+        112
+      ],
+      "also": [
+        113
+      ],
+      "integrate": [
+        114
+      ],
+      "features": [
+        116
+      ],
+      "using": [
+        117
+      ],
+      "flexible": [
+        119
+      ],
+      "architecture,": [
+        121
+      ],
+      "thereby": [
+        122
+      ],
+      "achieving": [
+        123
+      ],
+      "awareness.": [
+        125
+      ],
+      "regularizers": [
+        130
+      ],
+      "promote": [
+        131
+      ],
+      "relationship": [
+        134
+      ],
+      "adjacent": [
+        136
+      ],
+      "bins": [
+        137
+      ],
+      "on": [
+        143,
+        149
+      ],
+      "subsets,": [
+        145
+      ],
+      "respectively.": [
+        146
+      ],
+      "Experimental": [
+        147
+      ],
+      "results": [
+        148
+      ],
+      "both": [
+        150
+      ],
+      "public": [
+        151
+      ],
+      "industrial": [
+        153
+      ],
+      "datasets": [
+        154
+      ],
+      "demonstrate": [
+        155
+      ],
+      "superior": [
+        157
+      ],
+      "our": [
+        160
+      ],
+      "method": [
+        161
+      ],
+      "in": [
+        162
+      ],
+      "generating": [
+        163
+      ],
+      "well-calibrated": [
+        164
+      ],
+      "predictions.": [
+        166
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-26T07:47:46.906454",
+    "created_date": "2025-10-10T00:00:00"
+  }
+}

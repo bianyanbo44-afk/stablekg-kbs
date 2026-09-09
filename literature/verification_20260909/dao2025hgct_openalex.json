@@ -1,0 +1,700 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.knosys.2025.113358",
+  "retrieved_utc": "2026-09-09T03:17:01.035938+00:00",
+  "response": {
+    "id": "https://openalex.org/W4408490762",
+    "doi": "https://doi.org/10.1016/j.knosys.2025.113358",
+    "title": "HGCT: Enhancing temporal knowledge graph reasoning through extrapolated historical fact extraction",
+    "display_name": "HGCT: Enhancing temporal knowledge graph reasoning through extrapolated historical fact extraction",
+    "publication_year": 2025,
+    "publication_date": "2025-03-16",
+    "ids": {
+      "openalex": "https://openalex.org/W4408490762",
+      "doi": "https://doi.org/10.1016/j.knosys.2025.113358"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.knosys.2025.113358",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.knosys.2025.113358",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S10169007",
+        "display_name": "Knowledge-Based Systems",
+        "issn_l": "0950-7051",
+        "issn": [
+          "0950-7051",
+          "1872-7409"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Knowledge-Based Systems",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5108328558",
+          "display_name": "Hoa Ngoc Dao",
+          "orcid": "https://orcid.org/0009-0008-8873-3175"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I123565023",
+            "display_name": "Vietnam National University Ho Chi Minh City",
+            "ror": "https://ror.org/00waaqh38",
+            "country_code": "VN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I123565023"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I23582244",
+            "display_name": "Ho Chi Minh City University of Science",
+            "ror": "https://ror.org/05jfbgm49",
+            "country_code": "VN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I123565023",
+              "https://openalex.org/I23582244"
+            ]
+          }
+        ],
+        "countries": [
+          "VN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hoa Dao",
+        "raw_affiliation_strings": [
+          "Faculty of Information Technology, University of Science, Ho Chi Minh City, Vietnam",
+          "Vietnam National University, Ho Chi Minh City, Vietnam"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Information Technology, University of Science, Ho Chi Minh City, Vietnam",
+            "institution_ids": [
+              "https://openalex.org/I23582244"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Vietnam National University, Ho Chi Minh City, Vietnam",
+            "institution_ids": [
+              "https://openalex.org/I123565023"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5108934569",
+          "display_name": "Nguyen Phan",
+          "orcid": "https://orcid.org/0009-0007-5431-563X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I123565023",
+            "display_name": "Vietnam National University Ho Chi Minh City",
+            "ror": "https://ror.org/00waaqh38",
+            "country_code": "VN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I123565023"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I23582244",
+            "display_name": "Ho Chi Minh City University of Science",
+            "ror": "https://ror.org/05jfbgm49",
+            "country_code": "VN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I123565023",
+              "https://openalex.org/I23582244"
+            ]
+          }
+        ],
+        "countries": [
+          "VN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Nguyen Phan",
+        "raw_affiliation_strings": [
+          "Faculty of Information Technology, University of Science, Ho Chi Minh City, Vietnam",
+          "Vietnam National University, Ho Chi Minh City, Vietnam"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0007-5431-563X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Information Technology, University of Science, Ho Chi Minh City, Vietnam",
+            "institution_ids": [
+              "https://openalex.org/I23582244"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Vietnam National University, Ho Chi Minh City, Vietnam",
+            "institution_ids": [
+              "https://openalex.org/I123565023"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5064952452",
+          "display_name": "Thanh Le",
+          "orcid": "https://orcid.org/0000-0002-2180-4222"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I123565023",
+            "display_name": "Vietnam National University Ho Chi Minh City",
+            "ror": "https://ror.org/00waaqh38",
+            "country_code": "VN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I123565023"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I23582244",
+            "display_name": "Ho Chi Minh City University of Science",
+            "ror": "https://ror.org/05jfbgm49",
+            "country_code": "VN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I123565023",
+              "https://openalex.org/I23582244"
+            ]
+          }
+        ],
+        "countries": [
+          "VN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Thanh Le",
+        "raw_affiliation_strings": [
+          "Faculty of Information Technology, University of Science, Ho Chi Minh City, Vietnam",
+          "Vietnam National University, Ho Chi Minh City, Vietnam"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-2180-4222",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Information Technology, University of Science, Ho Chi Minh City, Vietnam",
+            "institution_ids": [
+              "https://openalex.org/I23582244"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Vietnam National University, Ho Chi Minh City, Vietnam",
+            "institution_ids": [
+              "https://openalex.org/I123565023"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5101408450",
+          "display_name": "Ngoc-Trung Nguyen",
+          "orcid": "https://orcid.org/0009-0003-6359-2998"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I123565023",
+            "display_name": "Vietnam National University Ho Chi Minh City",
+            "ror": "https://ror.org/00waaqh38",
+            "country_code": "VN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I123565023"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I23582244",
+            "display_name": "Ho Chi Minh City University of Science",
+            "ror": "https://ror.org/05jfbgm49",
+            "country_code": "VN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I123565023",
+              "https://openalex.org/I23582244"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210148201",
+            "display_name": "Ho Chi Minh City University of Technology and Engineering",
+            "ror": "https://ror.org/05hzn5427",
+            "country_code": "VN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210148201"
+            ]
+          }
+        ],
+        "countries": [
+          "VN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Ngoc-Trung Nguyen",
+        "raw_affiliation_strings": [
+          "Faculty of Information Technology, University of Education, Ho Chi Minh City, Vietnam",
+          "Faculty of Information Technology, University of Science, Ho Chi Minh City, Vietnam",
+          "Vietnam National University, Ho Chi Minh City, Vietnam"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0003-6359-2998",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Information Technology, University of Education, Ho Chi Minh City, Vietnam",
+            "institution_ids": [
+              "https://openalex.org/I4210148201"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Faculty of Information Technology, University of Science, Ho Chi Minh City, Vietnam",
+            "institution_ids": [
+              "https://openalex.org/I23582244"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Vietnam National University, Ho Chi Minh City, Vietnam",
+            "institution_ids": [
+              "https://openalex.org/I123565023"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5101408450"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I123565023",
+      "https://openalex.org/I23582244",
+      "https://openalex.org/I4210148201"
+    ],
+    "apc_list": {
+      "value": 3430,
+      "currency": "USD",
+      "value_usd": 3430
+    },
+    "apc_paid": null,
+    "fwci": 13.494,
+    "has_fulltext": false,
+    "cited_by_count": 12,
+    "citation_normalized_percentile": {
+      "value": 0.98545803,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 96,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "316",
+      "issue": null,
+      "first_page": "113358",
+      "last_page": "113358"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10028",
+      "display_name": "Topic Modeling",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10028",
+        "display_name": "Topic Modeling",
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11273",
+        "display_name": "Advanced Graph Neural Networks",
+        "score": 0.9994000196456909,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11719",
+        "display_name": "Data Quality and Management",
+        "score": 0.9958000183105469,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1803",
+          "display_name": "Management Science and Operations Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/knowledge-graph",
+        "display_name": "Knowledge graph",
+        "score": 0.6075694561004639
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.5538764595985413
+      },
+      {
+        "id": "https://openalex.org/keywords/graph",
+        "display_name": "Graph",
+        "score": 0.5054500102996826
+      },
+      {
+        "id": "https://openalex.org/keywords/extraction",
+        "display_name": "Extraction (chemistry)",
+        "score": 0.4256429970264435
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.3601197600364685
+      },
+      {
+        "id": "https://openalex.org/keywords/theoretical-computer-science",
+        "display_name": "Theoretical computer science",
+        "score": 0.24052122235298157
+      },
+      {
+        "id": "https://openalex.org/keywords/chemistry",
+        "display_name": "Chemistry",
+        "score": 0.11387860774993896
+      },
+      {
+        "id": "https://openalex.org/keywords/chromatography",
+        "display_name": "Chromatography",
+        "score": 0.0809546411037445
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2987255567",
+        "wikidata": "https://www.wikidata.org/wiki/Q33002955",
+        "display_name": "Knowledge graph",
+        "level": 2,
+        "score": 0.6075694561004639
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5538764595985413
+      },
+      {
+        "id": "https://openalex.org/C132525143",
+        "wikidata": "https://www.wikidata.org/wiki/Q141488",
+        "display_name": "Graph",
+        "level": 2,
+        "score": 0.5054500102996826
+      },
+      {
+        "id": "https://openalex.org/C4725764",
+        "wikidata": "https://www.wikidata.org/wiki/Q844704",
+        "display_name": "Extraction (chemistry)",
+        "level": 2,
+        "score": 0.4256429970264435
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.3601197600364685
+      },
+      {
+        "id": "https://openalex.org/C80444323",
+        "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+        "display_name": "Theoretical computer science",
+        "level": 1,
+        "score": 0.24052122235298157
+      },
+      {
+        "id": "https://openalex.org/C185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "level": 0,
+        "score": 0.11387860774993896
+      },
+      {
+        "id": "https://openalex.org/C43617362",
+        "wikidata": "https://www.wikidata.org/wiki/Q170050",
+        "display_name": "Chromatography",
+        "level": 1,
+        "score": 0.0809546411037445
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.knosys.2025.113358",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.knosys.2025.113358",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S10169007",
+          "display_name": "Knowledge-Based Systems",
+          "issn_l": "0950-7051",
+          "issn": [
+            "0950-7051",
+            "1872-7409"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Knowledge-Based Systems",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G2534310548",
+        "display_name": null,
+        "funder_award_id": "B2024-SPS-08",
+        "funder_id": "https://openalex.org/F4320323346",
+        "funder_display_name": "Bộ Giáo dục và Ðào tạo"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320323346",
+        "display_name": "Bộ Giáo dục và Ðào tạo",
+        "ror": "https://ror.org/00drv3378"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 103,
+    "referenced_works": [
+      "https://openalex.org/W128638292",
+      "https://openalex.org/W146900863",
+      "https://openalex.org/W1583837637",
+      "https://openalex.org/W1956885672",
+      "https://openalex.org/W2069065514",
+      "https://openalex.org/W2140948436",
+      "https://openalex.org/W2185599447",
+      "https://openalex.org/W2592076957",
+      "https://openalex.org/W2593581739",
+      "https://openalex.org/W2602856279",
+      "https://openalex.org/W2607303097",
+      "https://openalex.org/W2611972942",
+      "https://openalex.org/W2620949368",
+      "https://openalex.org/W2728059831",
+      "https://openalex.org/W2759136286",
+      "https://openalex.org/W2889782235",
+      "https://openalex.org/W2912083425",
+      "https://openalex.org/W2914874661",
+      "https://openalex.org/W2972535098",
+      "https://openalex.org/W3003265726",
+      "https://openalex.org/W3035580113",
+      "https://openalex.org/W3096932862",
+      "https://openalex.org/W3099845049",
+      "https://openalex.org/W3100254008",
+      "https://openalex.org/W3101118213",
+      "https://openalex.org/W3176251287",
+      "https://openalex.org/W3176946744",
+      "https://openalex.org/W3206509077",
+      "https://openalex.org/W4205807230",
+      "https://openalex.org/W4212764525",
+      "https://openalex.org/W4213059792",
+      "https://openalex.org/W4214926389",
+      "https://openalex.org/W4226445259",
+      "https://openalex.org/W4230489439",
+      "https://openalex.org/W4233735672",
+      "https://openalex.org/W4242771733",
+      "https://openalex.org/W4280528935",
+      "https://openalex.org/W4282974123",
+      "https://openalex.org/W4285306484",
+      "https://openalex.org/W4285600519",
+      "https://openalex.org/W4287755062",
+      "https://openalex.org/W4289333264",
+      "https://openalex.org/W4298426064",
+      "https://openalex.org/W4366607195",
+      "https://openalex.org/W4376597717",
+      "https://openalex.org/W4379034048",
+      "https://openalex.org/W4380344018",
+      "https://openalex.org/W4382239895",
+      "https://openalex.org/W4385767379",
+      "https://openalex.org/W4394994664",
+      "https://openalex.org/W4396758529",
+      "https://openalex.org/W4400020866",
+      "https://openalex.org/W6604148368",
+      "https://openalex.org/W6622957738",
+      "https://openalex.org/W6629163563",
+      "https://openalex.org/W6631190155",
+      "https://openalex.org/W6636400922",
+      "https://openalex.org/W6663328530",
+      "https://openalex.org/W6718112784",
+      "https://openalex.org/W6731714541",
+      "https://openalex.org/W6735632219",
+      "https://openalex.org/W6739733045",
+      "https://openalex.org/W6739901393",
+      "https://openalex.org/W6749843547",
+      "https://openalex.org/W6750650156",
+      "https://openalex.org/W6754076127",
+      "https://openalex.org/W6761150088",
+      "https://openalex.org/W6762922688",
+      "https://openalex.org/W6764386835",
+      "https://openalex.org/W6768005746",
+      "https://openalex.org/W6769589523",
+      "https://openalex.org/W6771929373",
+      "https://openalex.org/W6774057418",
+      "https://openalex.org/W6779860234",
+      "https://openalex.org/W6782117173",
+      "https://openalex.org/W6783641038",
+      "https://openalex.org/W6785151093",
+      "https://openalex.org/W6787861618",
+      "https://openalex.org/W6793948337",
+      "https://openalex.org/W6801300823",
+      "https://openalex.org/W6804136563",
+      "https://openalex.org/W6809313347",
+      "https://openalex.org/W6810054004",
+      "https://openalex.org/W6810458228",
+      "https://openalex.org/W6811173525",
+      "https://openalex.org/W6838586774",
+      "https://openalex.org/W6840218666",
+      "https://openalex.org/W6850341168",
+      "https://openalex.org/W6850528701",
+      "https://openalex.org/W6850689838",
+      "https://openalex.org/W6851742955",
+      "https://openalex.org/W6851769679",
+      "https://openalex.org/W6852046839",
+      "https://openalex.org/W6852442832",
+      "https://openalex.org/W6852735841",
+      "https://openalex.org/W6852830272",
+      "https://openalex.org/W6854555161",
+      "https://openalex.org/W6855449187",
+      "https://openalex.org/W6855585159",
+      "https://openalex.org/W6855994645",
+      "https://openalex.org/W6910561375",
+      "https://openalex.org/W6996114663",
+      "https://openalex.org/W7009330471"
+    ],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2390279801",
+      "https://openalex.org/W4391913857",
+      "https://openalex.org/W2358668433",
+      "https://openalex.org/W4396701345",
+      "https://openalex.org/W2376932109",
+      "https://openalex.org/W2001405890",
+      "https://openalex.org/W4396696052"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 3
+      }
+    ],
+    "updated_date": "2026-08-21T09:56:20.448147",
+    "created_date": "2025-10-10T00:00:00"
+  }
+}

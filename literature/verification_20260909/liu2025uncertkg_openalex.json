@@ -1,0 +1,694 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.neunet.2024.107103",
+  "retrieved_utc": "2026-09-09T03:17:04.597942+00:00",
+  "response": {
+    "id": "https://openalex.org/W4406105510",
+    "doi": "https://doi.org/10.1016/j.neunet.2024.107103",
+    "title": "Uncertainty modeling for inductive knowledge graph embedding",
+    "display_name": "Uncertainty modeling for inductive knowledge graph embedding",
+    "publication_year": 2025,
+    "publication_date": "2025-01-06",
+    "ids": {
+      "openalex": "https://openalex.org/W4406105510",
+      "doi": "https://doi.org/10.1016/j.neunet.2024.107103",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/39793489"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.neunet.2024.107103",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.neunet.2024.107103",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S123019304",
+        "display_name": "Neural Networks",
+        "issn_l": "0893-6080",
+        "issn": [
+          "0893-6080",
+          "1879-2782"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Neural Networks",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5100362919",
+          "display_name": "Chao Liu",
+          "orcid": "https://orcid.org/0000-0002-3879-1026"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I180726961",
+            "display_name": "Shenzhen University",
+            "ror": "https://ror.org/01vy4gh70",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I180726961"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Chao Liu",
+        "raw_affiliation_strings": [
+          "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, 518060, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, 518060, China",
+            "institution_ids": [
+              "https://openalex.org/I180726961"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5008386708",
+          "display_name": "Sam Kwong",
+          "orcid": "https://orcid.org/0000-0001-7484-7261"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165488957",
+            "display_name": "Lingnan University",
+            "ror": "https://ror.org/0563pg902",
+            "country_code": "HK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165488957"
+            ]
+          }
+        ],
+        "countries": [
+          "HK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Sam Kwong",
+        "raw_affiliation_strings": [
+          "Department of Computing and Decision Sciences, Lingnan University, 999077, Hong Kong, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computing and Decision Sciences, Lingnan University, 999077, Hong Kong, China",
+            "institution_ids": [
+              "https://openalex.org/I165488957"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5073006299",
+          "display_name": "Xizhao Wang",
+          "orcid": "https://orcid.org/0000-0001-6036-4728"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I180726961",
+            "display_name": "Shenzhen University",
+            "ror": "https://ror.org/01vy4gh70",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I180726961"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Xizhao Wang",
+        "raw_affiliation_strings": [
+          "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, 518060, China; Guangdong Key Laboratory of Intelligent Information Processing, Shenzhen University, Shenzhen, 518060, China. Electronic address: xizhaowang@ieee.org"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-6036-4728",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, 518060, China; Guangdong Key Laboratory of Intelligent Information Processing, Shenzhen University, Shenzhen, 518060, China. Electronic address: xizhaowang@ieee.org",
+            "institution_ids": [
+              "https://openalex.org/I180726961"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5073006299"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I180726961"
+    ],
+    "apc_list": {
+      "value": 3110,
+      "currency": "USD",
+      "value_usd": 3110
+    },
+    "apc_paid": null,
+    "fwci": 4.1239,
+    "has_fulltext": false,
+    "cited_by_count": 4,
+    "citation_normalized_percentile": {
+      "value": 0.93053295,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 91,
+      "max": 98
+    },
+    "biblio": {
+      "volume": "184",
+      "issue": null,
+      "first_page": "107103",
+      "last_page": "107103"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11273",
+      "display_name": "Advanced Graph Neural Networks",
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11273",
+        "display_name": "Advanced Graph Neural Networks",
+        "score": 0.9995999932289124,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10028",
+        "display_name": "Topic Modeling",
+        "score": 0.9980000257492065,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11303",
+        "display_name": "Bayesian Modeling and Causal Inference",
+        "score": 0.9887999892234802,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/embedding",
+        "display_name": "Embedding",
+        "score": 0.624668538570404
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.5943050384521484
+      },
+      {
+        "id": "https://openalex.org/keywords/graph",
+        "display_name": "Graph",
+        "score": 0.45725148916244507
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.4537723958492279
+      },
+      {
+        "id": "https://openalex.org/keywords/knowledge-graph",
+        "display_name": "Knowledge graph",
+        "score": 0.4422895014286041
+      },
+      {
+        "id": "https://openalex.org/keywords/theoretical-computer-science",
+        "display_name": "Theoretical computer science",
+        "score": 0.4062860608100891
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41608201",
+        "wikidata": "https://www.wikidata.org/wiki/Q980509",
+        "display_name": "Embedding",
+        "level": 2,
+        "score": 0.624668538570404
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5943050384521484
+      },
+      {
+        "id": "https://openalex.org/C132525143",
+        "wikidata": "https://www.wikidata.org/wiki/Q141488",
+        "display_name": "Graph",
+        "level": 2,
+        "score": 0.45725148916244507
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.4537723958492279
+      },
+      {
+        "id": "https://openalex.org/C2987255567",
+        "wikidata": "https://www.wikidata.org/wiki/Q33002955",
+        "display_name": "Knowledge graph",
+        "level": 2,
+        "score": 0.4422895014286041
+      },
+      {
+        "id": "https://openalex.org/C80444323",
+        "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+        "display_name": "Theoretical computer science",
+        "level": 1,
+        "score": 0.4062860608100891
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D000069550",
+        "descriptor_name": "Machine Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000069550",
+        "descriptor_name": "Machine Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000069550",
+        "descriptor_name": "Machine Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D016011",
+        "descriptor_name": "Normal Distribution",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D016011",
+        "descriptor_name": "Normal Distribution",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D016011",
+        "descriptor_name": "Normal Distribution",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D016571",
+        "descriptor_name": "Neural Networks, Computer",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D016571",
+        "descriptor_name": "Neural Networks, Computer",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D016571",
+        "descriptor_name": "Neural Networks, Computer",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D019359",
+        "descriptor_name": "Knowledge",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D035501",
+        "descriptor_name": "Uncertainty",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D035501",
+        "descriptor_name": "Uncertainty",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D035501",
+        "descriptor_name": "Uncertainty",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      }
+    ],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.neunet.2024.107103",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.neunet.2024.107103",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S123019304",
+          "display_name": "Neural Networks",
+          "issn_l": "0893-6080",
+          "issn": [
+            "0893-6080",
+            "1879-2782"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Neural Networks",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:39793489",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39793489",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Neural networks : the official journal of the International Neural Network Society",
+        "raw_type": "Journal Article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "display_name": "Gender equality",
+        "score": 0.46000000834465027,
+        "id": "https://metadata.un.org/sdg/5"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G2200434626",
+        "display_name": null,
+        "funder_award_id": "20231122124602001",
+        "funder_id": "https://openalex.org/F4320329174",
+        "funder_display_name": "Shenzhen Municipal Science and Technology Innovation Council"
+      },
+      {
+        "id": "https://openalex.org/G6831931306",
+        "display_name": null,
+        "funder_award_id": "62376161",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G8300354915",
+        "display_name": null,
+        "funder_award_id": "20231122124602001",
+        "funder_id": "https://openalex.org/F4320326705",
+        "funder_display_name": "Science, Technology and Innovation Commission of Shenzhen Municipality"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320326705",
+        "display_name": "Science, Technology and Innovation Commission of Shenzhen Municipality",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320329174",
+        "display_name": "Shenzhen Municipal Science and Technology Innovation Council",
+        "ror": "https://ror.org/017n8df75"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 54,
+    "referenced_works": [
+      "https://openalex.org/W1533230146",
+      "https://openalex.org/W2073587810",
+      "https://openalex.org/W2151502664",
+      "https://openalex.org/W2514852614",
+      "https://openalex.org/W2519887557",
+      "https://openalex.org/W2603777577",
+      "https://openalex.org/W2604272474",
+      "https://openalex.org/W2604314403",
+      "https://openalex.org/W2604763608",
+      "https://openalex.org/W2612690371",
+      "https://openalex.org/W2728059831",
+      "https://openalex.org/W2759136286",
+      "https://openalex.org/W2771035597",
+      "https://openalex.org/W2891112820",
+      "https://openalex.org/W2909137510",
+      "https://openalex.org/W2950393809",
+      "https://openalex.org/W2961295589",
+      "https://openalex.org/W2963149704",
+      "https://openalex.org/W2963571857",
+      "https://openalex.org/W2964030506",
+      "https://openalex.org/W2964262329",
+      "https://openalex.org/W2966298461",
+      "https://openalex.org/W2984902757",
+      "https://openalex.org/W2990138404",
+      "https://openalex.org/W3005091534",
+      "https://openalex.org/W3006053005",
+      "https://openalex.org/W3014596384",
+      "https://openalex.org/W3035376925",
+      "https://openalex.org/W3113170987",
+      "https://openalex.org/W3120491054",
+      "https://openalex.org/W3130909864",
+      "https://openalex.org/W3134774296",
+      "https://openalex.org/W3149813942",
+      "https://openalex.org/W3155001903",
+      "https://openalex.org/W3174905206",
+      "https://openalex.org/W3176376875",
+      "https://openalex.org/W3176984847",
+      "https://openalex.org/W4224312110",
+      "https://openalex.org/W4224797805",
+      "https://openalex.org/W4284687473",
+      "https://openalex.org/W4284713043",
+      "https://openalex.org/W4285300040",
+      "https://openalex.org/W4285605599",
+      "https://openalex.org/W4286251219",
+      "https://openalex.org/W4286909342",
+      "https://openalex.org/W4382240000",
+      "https://openalex.org/W4385571396",
+      "https://openalex.org/W4385763801",
+      "https://openalex.org/W4387704395",
+      "https://openalex.org/W4391473819",
+      "https://openalex.org/W6678830454",
+      "https://openalex.org/W6718112784",
+      "https://openalex.org/W6740570033",
+      "https://openalex.org/W6767364878"
+    ],
+    "related_works": [
+      "https://openalex.org/W2604454537",
+      "https://openalex.org/W2883748392",
+      "https://openalex.org/W2897702399",
+      "https://openalex.org/W4206028705",
+      "https://openalex.org/W2757431232",
+      "https://openalex.org/W2808284704",
+      "https://openalex.org/W2954554213",
+      "https://openalex.org/W2251363251",
+      "https://openalex.org/W4206547516",
+      "https://openalex.org/W4293236197"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-09-08T07:41:39.490200",
+    "created_date": "2025-10-10T00:00:00"
+  }
+}

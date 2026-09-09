@@ -1,0 +1,13 @@
+seed,drift_time,mode,recovery_lag,post_drift_accuracy
+0,10,static,10,0.0
+0,10,global_decay,10,0.0
+0,10,stability_aware,10,0.0
+0,20,static,10,0.0
+0,20,global_decay,10,0.0
+0,20,stability_aware,10,0.0
+1,10,static,10,0.0
+1,10,global_decay,10,0.0
+1,10,stability_aware,10,0.0
+1,20,static,10,0.0
+1,20,global_decay,10,0.0
+1,20,stability_aware,10,0.0

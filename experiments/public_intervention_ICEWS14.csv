@@ -1,0 +1,2 @@
+dataset,n_queries,overall_flip_rate,low_certificate_flip_rate,high_certificate_flip_rate,certificate_flip_corr,median_certificate,winner_accuracy,mean_bin_flip_rate
+ICEWS14,2641,0.6175691026126467,0.7909090909090909,0.44436033308099926,0.4171723052827339,0.3636296176652223,0.3404013631200303,0.4690996689422288

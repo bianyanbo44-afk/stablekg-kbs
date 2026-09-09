@@ -1,0 +1,1138 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.knosys.2025.113469",
+  "retrieved_utc": "2026-09-09T03:17:04.473903+00:00",
+  "response": {
+    "id": "https://openalex.org/W4409261429",
+    "doi": "https://doi.org/10.1016/j.knosys.2025.113469",
+    "title": "STSE: Spatio-temporal state embedding for knowledge graph completion",
+    "display_name": "STSE: Spatio-temporal state embedding for knowledge graph completion",
+    "publication_year": 2025,
+    "publication_date": "2025-04-08",
+    "ids": {
+      "openalex": "https://openalex.org/W4409261429",
+      "doi": "https://doi.org/10.1016/j.knosys.2025.113469"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.knosys.2025.113469",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.knosys.2025.113469",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S10169007",
+        "display_name": "Knowledge-Based Systems",
+        "issn_l": "0950-7051",
+        "issn": [
+          "0950-7051",
+          "1872-7409"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Knowledge-Based Systems",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1016/j.knosys.2025.113469",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5101920154",
+          "display_name": "Xiaoyu Ji",
+          "orcid": "https://orcid.org/0000-0002-9259-607X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I169689159",
+            "display_name": "PLA Information Engineering University",
+            "ror": "https://ror.org/00mm1qk40",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I169689159"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210092058",
+            "display_name": "Zhengzhou Normal University",
+            "ror": "https://ror.org/00cbts945",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210092058"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiaoyu Ji",
+        "raw_affiliation_strings": [
+          "Institute of Geographic Space Information, The PLA Information Engineering University, Zhengzhou 450000, China",
+          "School of Information Science and Technology, Zhengzhou Normal University, Zhengzhou 450000, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Geographic Space Information, The PLA Information Engineering University, Zhengzhou 450000, China",
+            "institution_ids": [
+              "https://openalex.org/I169689159"
+            ]
+          },
+          {
+            "raw_affiliation_string": "School of Information Science and Technology, Zhengzhou Normal University, Zhengzhou 450000, China",
+            "institution_ids": [
+              "https://openalex.org/I4210092058"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5117075753",
+          "display_name": "Cao Yibing",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I169689159",
+            "display_name": "PLA Information Engineering University",
+            "ror": "https://ror.org/00mm1qk40",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I169689159"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Yibing Cao",
+        "raw_affiliation_strings": [
+          "Institute of Geographic Space Information, The PLA Information Engineering University, Zhengzhou 450000, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Geographic Space Information, The PLA Information Engineering University, Zhengzhou 450000, China",
+            "institution_ids": [
+              "https://openalex.org/I169689159"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5115000515",
+          "display_name": "Zhang Jiangshui",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I169689159",
+            "display_name": "PLA Information Engineering University",
+            "ror": "https://ror.org/00mm1qk40",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I169689159"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiangshui Zhang",
+        "raw_affiliation_strings": [
+          "Institute of Geographic Space Information, The PLA Information Engineering University, Zhengzhou 450000, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Geographic Space Information, The PLA Information Engineering University, Zhengzhou 450000, China",
+            "institution_ids": [
+              "https://openalex.org/I169689159"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5103021124",
+          "display_name": "Xinke Zhao",
+          "orcid": "https://orcid.org/0000-0002-3460-7279"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I169689159",
+            "display_name": "PLA Information Engineering University",
+            "ror": "https://ror.org/00mm1qk40",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I169689159"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xinke Zhao",
+        "raw_affiliation_strings": [
+          "Institute of Geographic Space Information, The PLA Information Engineering University, Zhengzhou 450000, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Geographic Space Information, The PLA Information Engineering University, Zhengzhou 450000, China",
+            "institution_ids": [
+              "https://openalex.org/I169689159"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5117075753"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I169689159"
+    ],
+    "apc_list": {
+      "value": 3430,
+      "currency": "USD",
+      "value_usd": 3430
+    },
+    "apc_paid": {
+      "value": 3430,
+      "currency": "USD",
+      "value_usd": 3430
+    },
+    "fwci": 6.4483,
+    "has_fulltext": false,
+    "cited_by_count": 6,
+    "citation_normalized_percentile": {
+      "value": 0.96013577,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 91,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "317",
+      "issue": null,
+      "first_page": "113469",
+      "last_page": "113469"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11273",
+      "display_name": "Advanced Graph Neural Networks",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11273",
+        "display_name": "Advanced Graph Neural Networks",
+        "score": 0.9998000264167786,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11303",
+        "display_name": "Bayesian Modeling and Causal Inference",
+        "score": 0.9940000176429749,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10215",
+        "display_name": "Semantic Web and Ontologies",
+        "score": 0.9926999807357788,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/embedding",
+        "display_name": "Embedding",
+        "score": 0.6421976089477539
+      },
+      {
+        "id": "https://openalex.org/keywords/graph",
+        "display_name": "Graph",
+        "score": 0.5033013224601746
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.4709290862083435
+      },
+      {
+        "id": "https://openalex.org/keywords/knowledge-graph",
+        "display_name": "Knowledge graph",
+        "score": 0.4201255738735199
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.35373860597610474
+      },
+      {
+        "id": "https://openalex.org/keywords/theoretical-computer-science",
+        "display_name": "Theoretical computer science",
+        "score": 0.33442366123199463
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.32307177782058716
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41608201",
+        "wikidata": "https://www.wikidata.org/wiki/Q980509",
+        "display_name": "Embedding",
+        "level": 2,
+        "score": 0.6421976089477539
+      },
+      {
+        "id": "https://openalex.org/C132525143",
+        "wikidata": "https://www.wikidata.org/wiki/Q141488",
+        "display_name": "Graph",
+        "level": 2,
+        "score": 0.5033013224601746
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.4709290862083435
+      },
+      {
+        "id": "https://openalex.org/C2987255567",
+        "wikidata": "https://www.wikidata.org/wiki/Q33002955",
+        "display_name": "Knowledge graph",
+        "level": 2,
+        "score": 0.4201255738735199
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.35373860597610474
+      },
+      {
+        "id": "https://openalex.org/C80444323",
+        "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+        "display_name": "Theoretical computer science",
+        "level": 1,
+        "score": 0.33442366123199463
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.32307177782058716
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.knosys.2025.113469",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.knosys.2025.113469",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S10169007",
+          "display_name": "Knowledge-Based Systems",
+          "issn_l": "0950-7051",
+          "issn": [
+            "0950-7051",
+            "1872-7409"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Knowledge-Based Systems",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1016/j.knosys.2025.113469",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.knosys.2025.113469",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S10169007",
+        "display_name": "Knowledge-Based Systems",
+        "issn_l": "0950-7051",
+        "issn": [
+          "0950-7051",
+          "1872-7409"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Knowledge-Based Systems",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G822611081",
+        "display_name": null,
+        "funder_award_id": "2021YFB3900900",
+        "funder_id": "https://openalex.org/F4320335777",
+        "funder_display_name": "National Key Research and Development Program of China"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320321540",
+        "display_name": "Ministry of Science and Technology of the People's Republic of China",
+        "ror": "https://ror.org/027s68j25"
+      },
+      {
+        "id": "https://openalex.org/F4320335777",
+        "display_name": "National Key Research and Development Program of China",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 25,
+    "referenced_works": [
+      "https://openalex.org/W3003265726",
+      "https://openalex.org/W3043912265",
+      "https://openalex.org/W3094537309",
+      "https://openalex.org/W3100254008",
+      "https://openalex.org/W3138149011",
+      "https://openalex.org/W3187233122",
+      "https://openalex.org/W3211214398",
+      "https://openalex.org/W4200131106",
+      "https://openalex.org/W4206136286",
+      "https://openalex.org/W4285224608",
+      "https://openalex.org/W4291012579",
+      "https://openalex.org/W4361799030",
+      "https://openalex.org/W4365799947",
+      "https://openalex.org/W4379931835",
+      "https://openalex.org/W4385453366",
+      "https://openalex.org/W4387308927",
+      "https://openalex.org/W4387801301",
+      "https://openalex.org/W4388486515",
+      "https://openalex.org/W4389565844",
+      "https://openalex.org/W4391425775",
+      "https://openalex.org/W4392907537",
+      "https://openalex.org/W4397289415",
+      "https://openalex.org/W4399599394",
+      "https://openalex.org/W4401252484",
+      "https://openalex.org/W6727875242"
+    ],
+    "related_works": [
+      "https://openalex.org/W2604454537",
+      "https://openalex.org/W2883748392",
+      "https://openalex.org/W2897702399",
+      "https://openalex.org/W4206028705",
+      "https://openalex.org/W2757431232",
+      "https://openalex.org/W2808284704",
+      "https://openalex.org/W2954554213",
+      "https://openalex.org/W2251363251",
+      "https://openalex.org/W4206547516",
+      "https://openalex.org/W4293236197"
+    ],
+    "abstract_inverted_index": {
+      "The": [
+        0
+      ],
+      "explicit": [
+        1
+      ],
+      "integration": [
+        2
+      ],
+      "of": [
+        3,
+        15,
+        28
+      ],
+      "temporal": [
+        4,
+        19,
+        101
+      ],
+      "and": [
+        5,
+        20,
+        100,
+        127,
+        155
+      ],
+      "geospatial": [
+        6
+      ],
+      "features": [
+        7
+      ],
+      "into": [
+        8
+      ],
+      "knowledge": [
+        9,
+        16,
+        34
+      ],
+      "graphs": [
+        10,
+        35
+      ],
+      "enables": [
+        11
+      ],
+      "more": [
+        12
+      ],
+      "precise": [
+        13
+      ],
+      "characterization": [
+        14
+      ],
+      "dynamics": [
+        17
+      ],
+      "across": [
+        18,
+        132,
+        188
+      ],
+      "geographic": [
+        21
+      ],
+      "dimensions,": [
+        22
+      ],
+      "while": [
+        23
+      ],
+      "simultaneously": [
+        24
+      ],
+      "amplifying": [
+        25
+      ],
+      "the": [
+        26
+      ],
+      "complexity": [
+        27
+      ],
+      "inferring": [
+        29
+      ],
+      "missing": [
+        30
+      ],
+      "facts": [
+        31
+      ],
+      "in": [
+        32,
+        42,
+        88,
+        152,
+        160
+      ],
+      "spatio-temporal": [
+        33,
+        104,
+        119,
+        185
+      ],
+      "(STKGs).": [
+        36
+      ],
+      "To": [
+        37
+      ],
+      "address": [
+        38
+      ],
+      "these": [
+        39
+      ],
+      "dual": [
+        40
+      ],
+      "challenges": [
+        41
+      ],
+      "Spatio-Temporal": [
+        43
+      ],
+      "Knowledge": [
+        44
+      ],
+      "Graph": [
+        45
+      ],
+      "Completion": [
+        46
+      ],
+      "(STKGC),": [
+        47
+      ],
+      "we": [
+        48
+      ],
+      "present": [
+        49
+      ],
+      "STSE": [
+        50
+      ],
+      "(Spatio-Temporal": [
+        51
+      ],
+      "State": [
+        52
+      ],
+      "Embedder),": [
+        53
+      ],
+      "an": [
+        54
+      ],
+      "innovative": [
+        55
+      ],
+      "embedding": [
+        56,
+        93
+      ],
+      "framework": [
+        57
+      ],
+      "that": [
+        58,
+        80,
+        95,
+        116
+      ],
+      "systematically": [
+        59
+      ],
+      "coordinates": [
+        60
+      ],
+      "relational": [
+        61
+      ],
+      "semantics": [
+        62
+      ],
+      "with": [
+        63
+      ],
+      "spatial-temporal": [
+        64
+      ],
+      "continuum": [
+        65
+      ],
+      "modeling.": [
+        66
+      ],
+      "Our": [
+        67
+      ],
+      "technical": [
+        68
+      ],
+      "contributions": [
+        69
+      ],
+      "manifest": [
+        70
+      ],
+      "through": [
+        71,
+        103
+      ],
+      "three": [
+        72,
+        133,
+        172
+      ],
+      "key": [
+        73
+      ],
+      "innovations:": [
+        74
+      ],
+      "(1)": [
+        75,
+        177
+      ],
+      "A": [
+        76,
+        91
+      ],
+      "novel": [
+        77
+      ],
+      "descriptive": [
+        78
+      ],
+      "form": [
+        79
+      ],
+      "enhances": [
+        81
+      ],
+      "practicality": [
+        82
+      ],
+      "by": [
+        83
+      ],
+      "distinguishing": [
+        84
+      ],
+      "head/tail": [
+        85
+      ],
+      "entity": [
+        86
+      ],
+      "locations": [
+        87
+      ],
+      "tuples;": [
+        89
+      ],
+      "(2)": [
+        90,
+        184
+      ],
+      "geometry-aware": [
+        92
+      ],
+      "space": [
+        94
+      ],
+      "dynamically": [
+        96
+      ],
+      "fuses": [
+        97
+      ],
+      "spatial": [
+        98,
+        161
+      ],
+      "grids": [
+        99
+      ],
+      "slices": [
+        102
+      ],
+      "states,": [
+        105
+      ],
+      "enabling": [
+        106
+      ],
+      "robust": [
+        107
+      ],
+      "reasoning": [
+        108,
+        163
+      ],
+      "on": [
+        109
+      ],
+      "heterogeneous": [
+        110,
+        189
+      ],
+      "graphs;": [
+        111
+      ],
+      "(3)": [
+        112,
+        191
+      ],
+      "An": [
+        113
+      ],
+      "enhanced": [
+        114
+      ],
+      "encoder": [
+        115
+      ],
+      "captures": [
+        117
+      ],
+      "complex": [
+        118
+      ],
+      "contextual": [
+        120
+      ],
+      "relationships": [
+        121
+      ],
+      "between": [
+        122
+      ],
+      "entities": [
+        123
+      ],
+      "using": [
+        124
+      ],
+      "modified": [
+        125
+      ],
+      "Transformer": [
+        126
+      ],
+      "ResNet": [
+        128
+      ],
+      "architectures.": [
+        129
+      ],
+      "Experimental": [
+        130
+      ],
+      "validation": [
+        131
+      ],
+      "benchmark": [
+        134
+      ],
+      "datasets": [
+        135
+      ],
+      "(YAGO11k-ST,": [
+        136
+      ],
+      "Wikidata12k-ST,": [
+        137
+      ],
+      "ICEWS05-ST)": [
+        138
+      ],
+      "demonstrates": [
+        139
+      ],
+      "STSE's": [
+        140
+      ],
+      "superiority,": [
+        141
+      ],
+      "achieving": [
+        142
+      ],
+      "3.8": [
+        143
+      ],
+      "%": [
+        144,
+        157
+      ],
+      "Mean": [
+        145
+      ],
+      "Reciprocal": [
+        146
+      ],
+      "Rank": [
+        147
+      ],
+      "(": [
+        148
+      ],
+      "MRR": [
+        149
+      ],
+      ")": [
+        150
+      ],
+      "improvement": [
+        151
+      ],
+      "time": [
+        153
+      ],
+      "prediction": [
+        154,
+        198
+      ],
+      "7.1": [
+        156
+      ],
+      "Hits@10": [
+        158
+      ],
+      "enhancement": [
+        159
+      ],
+      "location": [
+        162
+      ],
+      "compared": [
+        164
+      ],
+      "to": [
+        165,
+        199
+      ],
+      "state-of-the-art": [
+        166
+      ],
+      "baselines.": [
+        167
+      ],
+      "This": [
+        168
+      ],
+      "methodological": [
+        169
+      ],
+      "breakthrough": [
+        170
+      ],
+      "establishes": [
+        171
+      ],
+      "implementable": [
+        173
+      ],
+      "principles": [
+        174
+      ],
+      "for": [
+        175
+      ],
+      "STKGC:": [
+        176
+      ],
+      "geometric": [
+        178
+      ],
+      "consistency": [
+        179
+      ],
+      "constraints": [
+        180
+      ],
+      "during": [
+        181
+      ],
+      "fusion": [
+        182
+      ],
+      "operations,": [
+        183
+      ],
+      "difference": [
+        186
+      ],
+      "capturing": [
+        187
+      ],
+      "relationships,": [
+        190
+      ],
+      "cross-domain": [
+        192
+      ],
+      "applications": [
+        193
+      ],
+      "ranging": [
+        194
+      ],
+      "from": [
+        195
+      ],
+      "epidemiological": [
+        196
+      ],
+      "spread": [
+        197
+      ],
+      "urban": [
+        200
+      ],
+      "mobility": [
+        201
+      ],
+      "pattern": [
+        202
+      ],
+      "mining.": [
+        203
+      ],
+      "©": [
+        204
+      ],
+      "2025": [
+        205
+      ],
+      "Elsevier": [
+        206
+      ],
+      "Science.": [
+        207
+      ],
+      "All": [
+        208
+      ],
+      "rights": [
+        209
+      ],
+      "reserved": [
+        210
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-26T07:47:46.906454",
+    "created_date": "2025-04-09T00:00:00"
+  }
+}

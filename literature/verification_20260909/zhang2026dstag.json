@@ -1,0 +1,585 @@
+{
+  "key": "zhang2026dstag",
+  "url": "https://api.crossref.org/works/10.1145%2F3774904.3792165",
+  "retrieved_utc": "2026-09-09T03:16:55.887242+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            4
+          ]
+        ],
+        "date-time": "2026-07-04T08:16:58Z",
+        "timestamp": 1783153018051,
+        "version": "3.54.6"
+      },
+      "publisher-location": "New York, NY, USA",
+      "reference-count": 42,
+      "publisher": "ACM",
+      "funder": [
+        {
+          "name": "National Natural Science Foundation of China",
+          "award": [
+            "62476247"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62476247"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "National Natural Science Foundation of China",
+          "award": [
+            "62402447"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62402447"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "National Natural Science Foundation of China",
+          "award": [
+            "62073295"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62073295"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "National Natural Science Foundation of China",
+          "award": [
+            "62072409"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62072409"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Zhejiang Provincial Natural Science Foundation of China",
+          "award": [
+            "LQN25F020005"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "LQN25F020005"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Zhejiang Provincial Natural Science Foundation of China",
+          "award": [
+            "LR21F020003"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "LR21F020003"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "&#x5c;&quot;Pioneer&#x5c;&quot; and &#x5c;&quot;Leading Goose&#x5c;&quot; R&#x5c;&#x5c;&D Program of Zhejiang",
+          "award": [
+            "2024C01214"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2024C01214"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            13
+          ]
+        ]
+      },
+      "DOI": "10.1145/3774904.3792165",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            27
+          ]
+        ],
+        "date-time": "2026-04-27T13:28:36Z",
+        "timestamp": 1777296516000
+      },
+      "page": "3645-3655",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "DSTAG: A Semantic Tag-Enhanced Dual-Graph Convolutional Network for Temporal Knowledge Graph Completion"
+      ],
+      "prefix": "10.1145",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0008-5499-6815",
+          "authenticated-orcid": false,
+          "given": "Yuchao",
+          "family": "Zhang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, Zhejiang, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, Zhejiang, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2698-3319",
+          "authenticated-orcid": false,
+          "given": "Xiangjie",
+          "family": "Kong",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, Zhejiang, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, Zhejiang, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0006-2109-487X",
+          "authenticated-orcid": false,
+          "given": "Kailun",
+          "family": "Ye",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, Zhejiang, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, Zhejiang, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7286-5631",
+          "authenticated-orcid": false,
+          "given": "Shangfei",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Computer Science and Technology, Zhejiang Sci-Tech University, Hangzhou, Zhejiang, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1064-1250",
+          "authenticated-orcid": false,
+          "given": "Guojiang",
+          "family": "Shen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, Zhejiang, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, Zhejiang, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_1_1_1",
+          "volume-title": "A survey on temporal knowledge graph embedding: Models and applications. Knowledge-Based Systems, page 112454",
+          "author": "Zhang Yuchao",
+          "year": "2024",
+          "unstructured": "Yuchao Zhang, Xiangjie Kong, Zhehui Shen, Jianxin Li, Qiuhua Yi, Guojiang Shen, and Bo Dong. A survey on temporal knowledge graph embedding: Models and applications. Knowledge-Based Systems, page 112454, 2024."
+        },
+        {
+          "key": "e_1_3_2_1_2_1",
+          "volume-title": "Context-aware adaptive reinforcement learning for multi-hop knowledge graph reasoning in few-shot scenarios. Knowledge-Based Systems, page 114799",
+          "author": "Zheng Shangfei",
+          "year": "2025",
+          "unstructured": "Shangfei Zheng, Xiaotong Nie, Wei Yuan, Liang Qu, Xiangjie Kong, Yuchao Zhang, and Jian Hou. Context-aware adaptive reinforcement learning for multi-hop knowledge graph reasoning in few-shot scenarios. Knowledge-Based Systems, page 114799, 2025."
+        },
+        {
+          "key": "e_1_3_2_1_3_1",
+          "article-title": "Topology-aware multi-hop reasoning on multi-modal knowledge graphs",
+          "author": "Zheng Shangfei",
+          "year": "2025",
+          "unstructured": "Shangfei Zheng, Hongzhi Yin, Tong Chen, Quoc Viet Hung Nguyen, Wei Chen, and Lei Zhao. Do as i can, not as i get: Topology-aware multi-hop reasoning on multi-modal knowledge graphs. IEEE Transactions on Knowledge and Data Engineering, 2025.",
+          "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+        },
+        {
+          "key": "e_1_3_2_1_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3653015"
+        },
+        {
+          "key": "e_1_3_2_1_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.knosys.2022.109951"
+        },
+        {
+          "key": "e_1_3_2_1_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3616855.3635762"
+        },
+        {
+          "key": "e_1_3_2_1_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/IJCNN60899.2024.10650423"
+        },
+        {
+          "key": "e_1_3_2_1_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2024.emnlp-main.394"
+        },
+        {
+          "key": "e_1_3_2_1_9_1",
+          "volume-title": "Two-stage generative question answering on temporal knowledge graph using large language models. arXiv preprint arXiv:2402.16568",
+          "author": "Gao Yifu",
+          "year": "2024",
+          "unstructured": "Yifu Gao, Linbo Qiao, Zhigang Kan, Zhihua Wen, Yongquan He, and Dongsheng Li. Two-stage generative question answering on temporal knowledge graph using large language models. arXiv preprint arXiv:2402.16568, 2024."
+        },
+        {
+          "key": "e_1_3_2_1_10_1",
+          "volume-title": "Transnet: Transfer knowledge for few-shot knowledge graph completion. arXiv preprint arXiv:2504.03720",
+          "author": "Liu Lihui",
+          "year": "2025",
+          "unstructured": "Lihui Liu, Zihao Wang, Dawei Zhou, Ruijie Wang, Yuchen Yan, Bo Xiong, Sihong He, Kai Shu, and Hanghang Tong. Transnet: Transfer knowledge for few-shot knowledge graph completion. arXiv preprint arXiv:2504.03720, 2025."
+        },
+        {
+          "key": "e_1_3_2_1_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/D19-1431"
+        },
+        {
+          "key": "e_1_3_2_1_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3696410.3714839"
+        },
+        {
+          "key": "e_1_3_2_1_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/D16-1260"
+        },
+        {
+          "key": "e_1_3_2_1_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v35i7.16802"
+        },
+        {
+          "key": "e_1_3_2_1_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICTAI50040.2020.00151"
+        },
+        {
+          "key": "e_1_3_2_1_16_1",
+          "volume-title": "Tensor decompositions for temporal knowledge base completion. arXiv preprint arXiv:2004.04926",
+          "author": "Lacroix Timothée",
+          "year": "2020",
+          "unstructured": "Timothée Lacroix, Guillaume Obozinski, and Nicolas Usunier. Tensor decompositions for temporal knowledge base completion. arXiv preprint arXiv:2004.04926, 2020."
+        },
+        {
+          "key": "e_1_3_2_1_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.naacl-main.202"
+        },
+        {
+          "key": "e_1_3_2_1_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3404835.3462963"
+        },
+        {
+          "key": "e_1_3_2_1_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE60146.2024.00062"
+        },
+        {
+          "key": "e_1_3_2_1_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2023.acl-long.705"
+        },
+        {
+          "key": "e_1_3_2_1_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TKDE.2023.3334165"
+        },
+        {
+          "key": "e_1_3_2_1_22_1",
+          "volume-title": "International conference on learning representations",
+          "author": "Han Zhen",
+          "year": "2020",
+          "unstructured": "Zhen Han, Peng Chen, Yunpu Ma, and Volker Tresp. Explainable subgraph reasoning for forecasting on temporal knowledge graphs. In International conference on learning representations, 2020."
+        },
+        {
+          "key": "e_1_3_2_1_23_1",
+          "volume-title": "Targat: A time-aware relational graph attention model for temporal knowledge graph embedding",
+          "author": "Xie Zhiwen",
+          "year": "2023",
+          "unstructured": "Zhiwen Xie, Runjie Zhu, Jin Liu, Guangyou Zhou, and Jimmy Xiangji Huang. Targat: A time-aware relational graph attention model for temporal knowledge graph embedding. IEEE/ACM Transactions on Audio, Speech, and Language Processing, 31:2246-2258, 2023."
+        },
+        {
+          "key": "e_1_3_2_1_24_1",
+          "volume-title": "Recurrent event network: Autoregressive structure inference over temporal knowledge graphs. arXiv preprint arXiv:1904.05530",
+          "author": "Jin Woojeong",
+          "year": "2019",
+          "unstructured": "Woojeong Jin, Meng Qu, Xisen Jin, and Xiang Ren. Recurrent event network: Autoregressive structure inference over temporal knowledge graphs. arXiv preprint arXiv:1904.05530, 2019."
+        },
+        {
+          "key": "e_1_3_2_1_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.24963/ijcai.2022/299"
+        },
+        {
+          "key": "e_1_3_2_1_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v36i4.20330"
+        },
+        {
+          "key": "e_1_3_2_1_27_1",
+          "volume-title": "Chain-of-history reasoning for temporal knowledge graph forecasting. arXiv preprint arXiv:2402.14382",
+          "author": "Xia Yuwei",
+          "year": "2024",
+          "unstructured": "Yuwei Xia, Ding Wang, Qiang Liu, Liang Wang, Shu Wu, and Xiaoyu Zhang. Chain-of-history reasoning for temporal knowledge graph forecasting. arXiv preprint arXiv:2402.14382, 2024."
+        },
+        {
+          "key": "e_1_3_2_1_28_1",
+          "volume-title": "Leveraging temporal validity of rules via llms for enhanced temporal knowledge graph reasoning. Knowledge-Based Systems, page 114094",
+          "author": "Pan Qihong",
+          "year": "2025",
+          "unstructured": "Qihong Pan, Limin Yao, Guojiang Shen, Xiao Han, Yichuan Chen, and Xiangjie Kong. Leveraging temporal validity of rules via llms for enhanced temporal knowledge graph reasoning. Knowledge-Based Systems, page 114094, 2025."
+        },
+        {
+          "key": "e_1_3_2_1_29_1",
+          "volume-title": "Few-shot inductive learning on temporal knowledge graphs using concept-aware information. arXiv preprint arXiv:2211.08169",
+          "author": "Ding Zifeng",
+          "year": "2022",
+          "unstructured": "Zifeng Ding, Jingpei Wu, Bailan He, Yunpu Ma, Zhen Han, and Volker Tresp. Few-shot inductive learning on temporal knowledge graphs using concept-aware information. arXiv preprint arXiv:2211.08169, 2022."
+        },
+        {
+          "key": "e_1_3_2_1_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3589335.3651565"
+        },
+        {
+          "key": "e_1_3_2_1_31_1",
+          "volume-title": "Dacha: A dual graph convolution based temporal knowledge graph representation learning method using historical relation. ACM Transactions on Knowledge Discovery from Data (TKDD), 16(3):1-18",
+          "author": "Chen Ling",
+          "year": "2021",
+          "unstructured": "Ling Chen, Xing Tang, Weiqi Chen, Yuntao Qian, Yansheng Li, and Yongjun Zhang. Dacha: A dual graph convolution based temporal knowledge graph representation learning method using historical relation. ACM Transactions on Knowledge Discovery from Data (TKDD), 16(3):1-18, 2021."
+        },
+        {
+          "key": "e_1_3_2_1_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICASSP48485.2024.10446430"
+        },
+        {
+          "key": "e_1_3_2_1_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE55515.2023.00138"
+        },
+        {
+          "key": "e_1_3_2_1_34_1",
+          "volume-title": "Hismatch: Historical structure matching based temporal knowledge graph reasoning. arXiv preprint arXiv:2210.09708",
+          "author": "Li Zixuan",
+          "year": "2022",
+          "unstructured": "Zixuan Li, Zhongni Hou, Saiping Guan, Xiaolong Jin, Weihua Peng, Long Bai, Yajuan Lyu, Wei Li, Jiafeng Guo, and Xueqi Cheng. Hismatch: Historical structure matching based temporal knowledge graph reasoning. arXiv preprint arXiv:2210.09708, 2022."
+        },
+        {
+          "key": "e_1_3_2_1_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v33i01.33013060"
+        },
+        {
+          "key": "e_1_3_2_1_36_1",
+          "first-page": "2071",
+          "volume-title": "International conference on machine learning",
+          "author": "Trouillon Théo",
+          "year": "2016",
+          "unstructured": "Théo Trouillon, Johannes Welbl, Sebastian Riedel, Éric Gaussier, and Guillaume Bouchard. Complex embeddings for simple link prediction. In International conference on machine learning, pages 2071-2080. PMLR, 2016."
+        },
+        {
+          "key": "e_1_3_2_1_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2020.emnlp-main.541"
+        },
+        {
+          "key": "e_1_3_2_1_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v37i4.25601"
+        },
+        {
+          "key": "e_1_3_2_1_39_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2024.naacl-long.225"
+        },
+        {
+          "key": "e_1_3_2_1_40_1",
+          "volume-title": "Proceedings of the AAAI conference on artificial intelligence",
+          "volume": "32",
+          "author": "Dettmers Tim",
+          "year": "2018",
+          "unstructured": "Tim Dettmers, Pasquale Minervini, Pontus Stenetorp, and Sebastian Riedel. Convolutional 2d knowledge graph embeddings. In Proceedings of the AAAI conference on artificial intelligence, volume 32, 2018."
+        },
+        {
+          "key": "e_1_3_2_1_41_1",
+          "first-page": "593",
+          "volume-title": "ESWC 2018, Heraklion, Crete, Greece, June 3-7, 2018, proceedings 15",
+          "author": "Schlichtkrull Michael",
+          "year": "2018",
+          "unstructured": "Michael Schlichtkrull, Thomas N Kipf, Peter Bloem, Rianne Van Den Berg, Ivan Titov, and Max Welling. Modeling relational data with graph convolutional networks. In The semantic web: 15th international conference, ESWC 2018, Heraklion, Crete, Greece, June 3-7, 2018, proceedings 15, pages 593-607. Springer, 2018."
+        },
+        {
+          "key": "e_1_3_2_1_42_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.52202/079017-0269"
+        }
+      ],
+      "event": {
+        "name": "WWW '26: The ACM Web Conference 2026",
+        "location": "Dubai United Arab Emirates",
+        "sponsor": [
+          "SIGWEB ACM Special Interest Group on Hypertext, Hypermedia, and Web"
+        ]
+      },
+      "container-title": [
+        "Proceedings of the ACM Web Conference 2026"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3774904.3792165",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            4
+          ]
+        ],
+        "date-time": "2026-07-04T07:33:53Z",
+        "timestamp": 1783150433000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/3774904.3792165"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ]
+      },
+      "references-count": 42,
+      "alternative-id": [
+        "10.1145/3774904.3792165",
+        "10.1145/3774904"
+      ],
+      "URL": "https://doi.org/10.1145/3774904.3792165",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2026-04-12",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

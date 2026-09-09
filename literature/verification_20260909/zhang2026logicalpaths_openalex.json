@@ -1,0 +1,814 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.neucom.2026.133049",
+  "retrieved_utc": "2026-09-09T03:17:11.826023+00:00",
+  "response": {
+    "id": "https://openalex.org/W7128765251",
+    "doi": "https://doi.org/10.1016/j.neucom.2026.133049",
+    "title": "A context-aware temporal knowledge graph completion method based on logical paths",
+    "display_name": "A context-aware temporal knowledge graph completion method based on logical paths",
+    "publication_year": 2026,
+    "publication_date": "2026-02-13",
+    "ids": {
+      "openalex": "https://openalex.org/W7128765251",
+      "doi": "https://doi.org/10.1016/j.neucom.2026.133049"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.neucom.2026.133049",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.neucom.2026.133049",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S45693802",
+        "display_name": "Neurocomputing",
+        "issn_l": "0925-2312",
+        "issn": [
+          "0925-2312",
+          "1872-8286"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Neurocomputing",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5125939029",
+          "display_name": "Yuchao Zhang",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210123185",
+            "display_name": "Zhejiang Lab",
+            "ror": "https://ror.org/02m2h7991",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210123185"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I55712492",
+            "display_name": "Zhejiang University of Technology",
+            "ror": "https://ror.org/02djqfd08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yuchao Zhang",
+        "raw_affiliation_strings": [
+          "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, 310023, Zhejiang, China",
+          "Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, 310023, Zhejiang, China"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0008-5499-6815",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, 310023, Zhejiang, China",
+            "institution_ids": [
+              "https://openalex.org/I55712492"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, 310023, Zhejiang, China",
+            "institution_ids": [
+              "https://openalex.org/I4210123185"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5125889436",
+          "display_name": "Xiangjie Kong",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210123185",
+            "display_name": "Zhejiang Lab",
+            "ror": "https://ror.org/02m2h7991",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210123185"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I55712492",
+            "display_name": "Zhejiang University of Technology",
+            "ror": "https://ror.org/02djqfd08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Xiangjie Kong",
+        "raw_affiliation_strings": [
+          "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, 310023, Zhejiang, China",
+          "Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, 310023, Zhejiang, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-2698-3319",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, 310023, Zhejiang, China",
+            "institution_ids": [
+              "https://openalex.org/I55712492"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, 310023, Zhejiang, China",
+            "institution_ids": [
+              "https://openalex.org/I4210123185"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5125894918",
+          "display_name": "Kailun Ye",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210123185",
+            "display_name": "Zhejiang Lab",
+            "ror": "https://ror.org/02m2h7991",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210123185"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I55712492",
+            "display_name": "Zhejiang University of Technology",
+            "ror": "https://ror.org/02djqfd08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kailun Ye",
+        "raw_affiliation_strings": [
+          "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, 310023, Zhejiang, China",
+          "Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, 310023, Zhejiang, China"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0006-2109-487X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, 310023, Zhejiang, China",
+            "institution_ids": [
+              "https://openalex.org/I55712492"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, 310023, Zhejiang, China",
+            "institution_ids": [
+              "https://openalex.org/I4210123185"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5125992391",
+          "display_name": "Shangfei Zheng",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1328775524",
+            "display_name": "Zhejiang Sci-Tech University",
+            "ror": "https://ror.org/03893we55",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I1328775524"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shangfei Zheng",
+        "raw_affiliation_strings": [
+          "School of Computer Science and Technology, Zhejiang Sci-Tech University, Hangzhou, 310018, Zhejiang, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-7286-5631",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science and Technology, Zhejiang Sci-Tech University, Hangzhou, 310018, Zhejiang, China",
+            "institution_ids": [
+              "https://openalex.org/I1328775524"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5005797577",
+          "display_name": "Qihong Pan",
+          "orcid": "https://orcid.org/0009-0004-2687-3042"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210123185",
+            "display_name": "Zhejiang Lab",
+            "ror": "https://ror.org/02m2h7991",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210123185"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I55712492",
+            "display_name": "Zhejiang University of Technology",
+            "ror": "https://ror.org/02djqfd08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qihong Pan",
+        "raw_affiliation_strings": [
+          "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, 310023, Zhejiang, China",
+          "Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, 310023, Zhejiang, China"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0004-2687-3042",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, 310023, Zhejiang, China",
+            "institution_ids": [
+              "https://openalex.org/I55712492"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, 310023, Zhejiang, China",
+            "institution_ids": [
+              "https://openalex.org/I4210123185"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5125903026",
+          "display_name": "Guojiang Shen",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210123185",
+            "display_name": "Zhejiang Lab",
+            "ror": "https://ror.org/02m2h7991",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210123185"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I55712492",
+            "display_name": "Zhejiang University of Technology",
+            "ror": "https://ror.org/02djqfd08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Guojiang Shen",
+        "raw_affiliation_strings": [
+          "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, 310023, Zhejiang, China",
+          "Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, 310023, Zhejiang, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-1064-1250",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, 310023, Zhejiang, China",
+            "institution_ids": [
+              "https://openalex.org/I55712492"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, 310023, Zhejiang, China",
+            "institution_ids": [
+              "https://openalex.org/I4210123185"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5125942146",
+          "display_name": "Jianxin Li",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I12079687",
+            "display_name": "Edith Cowan University",
+            "ror": "https://ror.org/05jhnwe22",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I12079687"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jianxin Li",
+        "raw_affiliation_strings": [
+          "School of Business and Law, Edith Cowan University, Perth, 6009, Western Australia, Australia"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-9059-330X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Business and Law, Edith Cowan University, Perth, 6009, Western Australia, Australia",
+            "institution_ids": [
+              "https://openalex.org/I12079687"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 4,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5125889436"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I4210123185",
+      "https://openalex.org/I55712492"
+    ],
+    "apc_list": {
+      "value": 2670,
+      "currency": "USD",
+      "value_usd": 2670
+    },
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.13211492,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "676",
+      "issue": null,
+      "first_page": "133049",
+      "last_page": "133049"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11273",
+      "display_name": "Advanced Graph Neural Networks",
+      "score": 0.8859000205993652,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11273",
+        "display_name": "Advanced Graph Neural Networks",
+        "score": 0.8859000205993652,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12292",
+        "display_name": "Graph Theory and Algorithms",
+        "score": 0.03229999914765358,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11719",
+        "display_name": "Data Quality and Management",
+        "score": 0.02590000070631504,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1803",
+          "display_name": "Management Science and Operations Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/graph",
+        "display_name": "Graph",
+        "score": 0.524399995803833
+      },
+      {
+        "id": "https://openalex.org/keywords/logical-data-model",
+        "display_name": "Logical data model",
+        "score": 0.5066999793052673
+      },
+      {
+        "id": "https://openalex.org/keywords/relevance",
+        "display_name": "Relevance (law)",
+        "score": 0.4781000018119812
+      },
+      {
+        "id": "https://openalex.org/keywords/adaptability",
+        "display_name": "Adaptability",
+        "score": 0.44350001215934753
+      },
+      {
+        "id": "https://openalex.org/keywords/benchmark",
+        "display_name": "Benchmark (surveying)",
+        "score": 0.4318000078201294
+      },
+      {
+        "id": "https://openalex.org/keywords/knowledge-graph",
+        "display_name": "Knowledge graph",
+        "score": 0.4189000129699707
+      },
+      {
+        "id": "https://openalex.org/keywords/logical-consequence",
+        "display_name": "Logical consequence",
+        "score": 0.3937999904155731
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7936999797821045
+      },
+      {
+        "id": "https://openalex.org/C132525143",
+        "wikidata": "https://www.wikidata.org/wiki/Q141488",
+        "display_name": "Graph",
+        "level": 2,
+        "score": 0.524399995803833
+      },
+      {
+        "id": "https://openalex.org/C203702819",
+        "wikidata": "https://www.wikidata.org/wiki/Q17146953",
+        "display_name": "Logical data model",
+        "level": 3,
+        "score": 0.5066999793052673
+      },
+      {
+        "id": "https://openalex.org/C158154518",
+        "wikidata": "https://www.wikidata.org/wiki/Q7310970",
+        "display_name": "Relevance (law)",
+        "level": 2,
+        "score": 0.4781000018119812
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.46700000762939453
+      },
+      {
+        "id": "https://openalex.org/C177606310",
+        "wikidata": "https://www.wikidata.org/wiki/Q5674297",
+        "display_name": "Adaptability",
+        "level": 2,
+        "score": 0.44350001215934753
+      },
+      {
+        "id": "https://openalex.org/C185798385",
+        "wikidata": "https://www.wikidata.org/wiki/Q1161707",
+        "display_name": "Benchmark (surveying)",
+        "level": 2,
+        "score": 0.4318000078201294
+      },
+      {
+        "id": "https://openalex.org/C2987255567",
+        "wikidata": "https://www.wikidata.org/wiki/Q33002955",
+        "display_name": "Knowledge graph",
+        "level": 2,
+        "score": 0.4189000129699707
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.40230000019073486
+      },
+      {
+        "id": "https://openalex.org/C134752490",
+        "wikidata": "https://www.wikidata.org/wiki/Q374182",
+        "display_name": "Logical consequence",
+        "level": 2,
+        "score": 0.3937999904155731
+      },
+      {
+        "id": "https://openalex.org/C41608201",
+        "wikidata": "https://www.wikidata.org/wiki/Q980509",
+        "display_name": "Embedding",
+        "level": 2,
+        "score": 0.37279999256134033
+      },
+      {
+        "id": "https://openalex.org/C80444323",
+        "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+        "display_name": "Theoretical computer science",
+        "level": 1,
+        "score": 0.36090001463890076
+      },
+      {
+        "id": "https://openalex.org/C2777735758",
+        "wikidata": "https://www.wikidata.org/wiki/Q817765",
+        "display_name": "Path (computing)",
+        "level": 2,
+        "score": 0.3508000075817108
+      },
+      {
+        "id": "https://openalex.org/C207685749",
+        "wikidata": "https://www.wikidata.org/wiki/Q2088941",
+        "display_name": "Domain knowledge",
+        "level": 2,
+        "score": 0.3407000005245209
+      },
+      {
+        "id": "https://openalex.org/C77277458",
+        "wikidata": "https://www.wikidata.org/wiki/Q1969246",
+        "display_name": "Temporal database",
+        "level": 2,
+        "score": 0.3395000100135803
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.3249000012874603
+      },
+      {
+        "id": "https://openalex.org/C21847791",
+        "wikidata": "https://www.wikidata.org/wiki/Q191081",
+        "display_name": "Logical conjunction",
+        "level": 2,
+        "score": 0.2937000095844269
+      },
+      {
+        "id": "https://openalex.org/C89611455",
+        "wikidata": "https://www.wikidata.org/wiki/Q6804646",
+        "display_name": "Mechanism (biology)",
+        "level": 2,
+        "score": 0.2847000062465668
+      },
+      {
+        "id": "https://openalex.org/C103593891",
+        "wikidata": "https://www.wikidata.org/wiki/Q624546",
+        "display_name": "Entity–relationship model",
+        "level": 3,
+        "score": 0.2802000045776367
+      },
+      {
+        "id": "https://openalex.org/C136886441",
+        "wikidata": "https://www.wikidata.org/wiki/Q926129",
+        "display_name": "Normalization (sociology)",
+        "level": 2,
+        "score": 0.26179999113082886
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.neucom.2026.133049",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.neucom.2026.133049",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S45693802",
+          "display_name": "Neurocomputing",
+          "issn_l": "0925-2312",
+          "issn": [
+            "0925-2312",
+            "1872-8286"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Neurocomputing",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G1291028582",
+        "display_name": null,
+        "funder_award_id": "62402447",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G3267229679",
+        "display_name": null,
+        "funder_award_id": "LR21F020003",
+        "funder_id": "https://openalex.org/F4320338464",
+        "funder_display_name": "Natural Science Foundation of Zhejiang Province"
+      },
+      {
+        "id": "https://openalex.org/G375061258",
+        "display_name": null,
+        "funder_award_id": "2024C0-1214",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G4211196075",
+        "display_name": null,
+        "funder_award_id": "62073295",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G4794680191",
+        "display_name": null,
+        "funder_award_id": "62072409",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G5834871303",
+        "display_name": null,
+        "funder_award_id": "62476247",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G6996883531",
+        "display_name": "面向陌生实体的时序知识图谱多跳推理技术研究",
+        "funder_award_id": "LQN25F020005",
+        "funder_id": "https://openalex.org/F4320338464",
+        "funder_display_name": "Natural Science Foundation of Zhejiang Province"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320338464",
+        "display_name": "Natural Science Foundation of Zhejiang Province",
+        "ror": "https://ror.org/01h0zpd94"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 8,
+    "referenced_works": [
+      "https://openalex.org/W4297963447",
+      "https://openalex.org/W4310016294",
+      "https://openalex.org/W4360999272",
+      "https://openalex.org/W4392303384",
+      "https://openalex.org/W4402332715",
+      "https://openalex.org/W4402579526",
+      "https://openalex.org/W4405808297",
+      "https://openalex.org/W4406522012"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": null,
+    "counts_by_year": [],
+    "updated_date": "2026-08-21T09:56:20.448147",
+    "created_date": "2026-02-14T00:00:00"
+  }
+}

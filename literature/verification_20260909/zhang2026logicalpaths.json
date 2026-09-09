@@ -1,0 +1,866 @@
+{
+  "key": "zhang2026logicalpaths",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.neucom.2026.133049",
+  "retrieved_utc": "2026-09-09T03:16:57.412810+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            12
+          ]
+        ],
+        "date-time": "2026-05-12T02:13:20Z",
+        "timestamp": 1778552000962,
+        "version": "3.51.4"
+      },
+      "reference-count": 41,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2026-05-01T00:00:00Z",
+            "timestamp": 1777593600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2026-05-01T00:00:00Z",
+            "timestamp": 1777593600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2026-05-01T00:00:00Z",
+            "timestamp": 1777593600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2026-05-01T00:00:00Z",
+            "timestamp": 1777593600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2026-05-01T00:00:00Z",
+            "timestamp": 1777593600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2026-05-01T00:00:00Z",
+            "timestamp": 1777593600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2026-05-01T00:00:00Z",
+            "timestamp": 1777593600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62073295"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62073295"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62072409"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62072409"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62476247"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62476247"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62402447"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62402447"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "2024C0-1214"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2024C0-1214"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100004731",
+          "name": "Natural Science Foundation of Zhejiang Province",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "LR21F020003"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "LR21F020003"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004731",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100004731",
+          "name": "Natural Science Foundation of Zhejiang Province",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "LQN25F020005"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "LQN25F020005"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004731",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Neurocomputing"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            5
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.neucom.2026.133049",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            13
+          ]
+        ],
+        "date-time": "2026-02-13T16:09:44Z",
+        "timestamp": 1770998984000
+      },
+      "page": "133049",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "special_numbering": "C",
+      "title": [
+        "A context-aware temporal knowledge graph completion method based on logical paths"
+      ],
+      "prefix": "10.1016",
+      "volume": "676",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0008-5499-6815",
+          "authenticated-orcid": false,
+          "given": "Yuchao",
+          "family": "Zhang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2698-3319",
+          "authenticated-orcid": false,
+          "given": "Xiangjie",
+          "family": "Kong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0006-2109-487X",
+          "authenticated-orcid": false,
+          "given": "Kailun",
+          "family": "Ye",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7286-5631",
+          "authenticated-orcid": false,
+          "given": "Shangfei",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0004-2687-3042",
+          "authenticated-orcid": false,
+          "given": "Qihong",
+          "family": "Pan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1064-1250",
+          "authenticated-orcid": false,
+          "given": "Guojiang",
+          "family": "Shen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9059-330X",
+          "authenticated-orcid": false,
+          "given": "Jianxin",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0005",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2023.110514",
+          "article-title": "Rlat: Multi-hop temporal knowledge graph reasoning based on reinforcement learning and attention mechanism",
+          "volume": "269",
+          "author": "Bai",
+          "year": "2023",
+          "journal-title": "Knowl. Based Syst."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0010",
+          "doi-asserted-by": "crossref",
+          "first-page": "22",
+          "DOI": "10.1016/j.ins.2022.11.096",
+          "article-title": "Temporal knowledge graphs reasoning with iterative guidance by temporal logical rules",
+          "volume": "621",
+          "author": "Bai",
+          "year": "2023",
+          "journal-title": "Inf. Sci."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0015",
+          "author": "Cai"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0020",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2024.126226",
+          "article-title": "Temporal knowledge graph extrapolation with subgraph information bottleneck",
+          "volume": "268",
+          "author": "Chen",
+          "year": "2025",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0025",
+          "series-title": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+          "first-page": "4056",
+          "article-title": "Htccn: temporal causal convolutional networks with hawkes process for extrapolation reasoning in temporal knowledge graphs",
+          "author": "Chen",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0030",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2022.109951",
+          "article-title": "Building and exploiting spatial–temporal knowledge graph for next poi recommendation",
+          "volume": "258",
+          "author": "Chen",
+          "year": "2022",
+          "journal-title": "Knowl. Based Syst."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0035",
+          "series-title": "2024 IEEE 40th International Conference on Data Engineering (ICDE)",
+          "first-page": "733",
+          "article-title": "Local-global history-aware contrastive learning for temporal knowledge graph reasoning",
+          "author": "Chen",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0040",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "first-page": "14815",
+          "article-title": "Cogntke: A cognitive temporal knowledge extrapolation framework",
+          "author": "Chen",
+          "year": "2025"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0045",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "article-title": "Convolutional 2d knowledge graph embeddings",
+          "author": "Dettmers",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0050",
+          "author": "Han"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0055",
+          "series-title": "Proceedings of the 17th ACM International Conference on Web Search and Data Mining",
+          "first-page": "266",
+          "article-title": "User behavior enriched temporal knowledge graphs for sequential recommendation",
+          "author": "Hu",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0060",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "first-page": "11799",
+          "article-title": "Bridging the user-side knowledge gap in knowledge-aware recommendations with large language models",
+          "author": "Hu",
+          "year": "2025"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0065",
+          "series-title": "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing",
+          "first-page": "2350",
+          "article-title": "Encoding temporal information for time-aware link prediction",
+          "author": "Jiang",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0070",
+          "series-title": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+          "first-page": "6669",
+          "article-title": "Recurrent event network: Autoregressive structure inferenceover temporal knowledge graphs",
+          "author": "Jin",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0075",
+          "author": "Lacroix"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0080",
+          "article-title": "Explainable reasoning over temporal knowledge graphs by pre-trained language model",
+          "volume": "62",
+          "author": "Li",
+          "year": "2025",
+          "journal-title": "Inf. Process. Manag."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0085",
+          "series-title": "IJCAI",
+          "first-page": "2152",
+          "article-title": "Tirgn: Time-guided recurrent graph network with local-global historical patterns for temporal knowledge graph reasoning",
+          "author": "Li",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0090",
+          "author": "Li"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0095",
+          "series-title": "Proceedings of the 44th international ACM SIGIR Conference on Research and Development in Information Retrieval",
+          "first-page": "408",
+          "article-title": "Temporal knowledge graph reasoning based on evolutional representation learning",
+          "author": "Li",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0100",
+          "series-title": "Proceedings of the ACM on Web Conference 2025",
+          "first-page": "98",
+          "article-title": "Symagent: A neural-symbolic self-learning agent framework for complex reasoning over knowledge graphs",
+          "author": "Liu",
+          "year": "2025"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0105",
+          "series-title": "2023 IEEE 39th International Conference on Data Engineering (ICDE)",
+          "first-page": "1761",
+          "article-title": "Retia: relation-entity twin-interact aggregation for temporal knowledge graph extrapolation",
+          "author": "Liu",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0110",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "first-page": "4120",
+          "article-title": "Tlogic: Temporal logical rules for explainable link forecasting on temporal knowledge graphs",
+          "author": "Liu",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0115",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2024.125366",
+          "article-title": "Historical trends and normalizing flow for one-shot temporal knowledge graph reasoning",
+          "volume": "260",
+          "author": "Ma",
+          "year": "2025",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0120",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.neunet.2024.106219",
+          "article-title": "An inductive reasoning model based on interpretable logical rules over temporal knowledge graph",
+          "volume": "174",
+          "author": "Mei",
+          "year": "2024",
+          "journal-title": "Neural Networks"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0125",
+          "author": "Meilicke"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0130",
+          "series-title": "The semantic web: 15th International Conference, ESWC 2018, Heraklion, Crete, Greece, June 3–7, 2018, Proceedings 15",
+          "first-page": "593",
+          "article-title": "Modeling relational data with graph convolutional networks",
+          "author": "Schlichtkrull",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0135",
+          "series-title": "Proceedings of the 32nd ACM International Conference on Multimedia",
+          "first-page": "7571",
+          "article-title": "Self-derived knowledge graph contrastive learning for recommendation",
+          "author": "Shi",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0140",
+          "series-title": "Proceedings of the ACM on Web Conference 2025",
+          "first-page": "3505",
+          "article-title": "Paths-over-graph: Knowledge graph empowered large language model reasoning",
+          "author": "Tan",
+          "year": "2025"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0145",
+          "first-page": "1",
+          "article-title": "Dhyper: a recurrent dual hypergraph neural network for event prediction in temporal knowledge graphs",
+          "volume": "42",
+          "author": "Tang",
+          "year": "2024",
+          "journal-title": "ACM Trans. Inf. Syst."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0150",
+          "series-title": "International Conference on Machine Learning",
+          "first-page": "2071",
+          "article-title": "Complex embeddings for simple link prediction",
+          "author": "Trouillon",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0155",
+          "series-title": "Proceedings of the 23rd International Conference on World Wide Web",
+          "first-page": "515",
+          "article-title": "Knowledge base completion via search-based question answering",
+          "author": "West",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0160",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "first-page": "25570",
+          "article-title": "Harnessing large language models for knowledge graph question answering via adaptive multi-aspect retrieval-augmentation",
+          "author": "Xu",
+          "year": "2025"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0165",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ipm.2024.104047",
+          "article-title": "Historical facts learning from long-short terms with language model for temporal knowledge graph reasoning",
+          "volume": "62",
+          "author": "Xu",
+          "year": "2025",
+          "journal-title": "Inf. Process. Manag."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0170",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "first-page": "4765",
+          "article-title": "Temporal knowledge graph reasoning with historical contrastive learning",
+          "author": "Xu",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0175",
+          "series-title": "Joint International Semantic Technology Conference",
+          "first-page": "13",
+          "article-title": "A temporal semantic search system for traditional chinese medicine based on temporal knowledge graphs",
+          "author": "Yang",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0180",
+          "series-title": "2024 International Joint Conference on Neural Networks (IJCNN)",
+          "first-page": "1",
+          "article-title": "Tkmbr: Temporal knowledge graph-based multi-behavior recommendation",
+          "author": "Zhang",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0185",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2024.112454",
+          "article-title": "A survey on temporal knowledge graph embedding: Models and applications",
+          "author": "Zhang",
+          "year": "2024",
+          "journal-title": "Knowl. Based Syst."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0190",
+          "series-title": "THE WEB CONFERENCE 2025",
+          "first-page": "3561",
+          "article-title": "Tackling sparse facts for temporal knowledge graph completion",
+          "author": "Zhang",
+          "year": "2025"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0195",
+          "article-title": "Context-aware adaptive reinforcement learning for multi-hop knowledge graph reasoning in few-shot scenarios",
+          "author": "Zheng",
+          "year": "2025",
+          "journal-title": "Knowl. Based Syst."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0200",
+          "series-title": "2023 IEEE 39th International Conference on Data Engineering (ICDE)",
+          "first-page": "96",
+          "article-title": "Mmkgr: Multi-hop multi-modal knowledge graph reasoning",
+          "author": "Zheng",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133049_bib0205",
+          "series-title": "Proceedings of the 46th International ACM SIGIR Conference on research and Development in Information Retrieval",
+          "first-page": "1578",
+          "article-title": "Dream: Adaptive reinforcement learning based on attention mechanism for temporal knowledge graph reasoning",
+          "author": "Zheng",
+          "year": "2023"
+        }
+      ],
+      "container-title": [
+        "Neurocomputing"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0925231226004467?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0925231226004467?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            12
+          ]
+        ],
+        "date-time": "2026-05-12T01:40:28Z",
+        "timestamp": 1778550028000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0925231226004467"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            5
+          ]
+        ]
+      },
+      "references-count": 41,
+      "alternative-id": [
+        "S0925231226004467"
+      ],
+      "URL": "https://doi.org/10.1016/j.neucom.2026.133049",
+      "relation": {},
+      "ISSN": [
+        "0925-2312"
+      ],
+      "issn-type": [
+        {
+          "value": "0925-2312",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "A context-aware temporal knowledge graph completion method based on logical paths",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Neurocomputing",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.neucom.2026.133049",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2026 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "133049"
+    }
+  }
+}

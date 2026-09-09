@@ -1,0 +1,219 @@
+\documentclass[preprint,12pt]{elsarticle}
+\usepackage{amsmath,amssymb,booktabs,longtable,graphicx,geometry,xurl}
+\usepackage[hidelinks]{hyperref}
+\geometry{margin=1in}
+\renewcommand{\thetable}{S\arabic{table}}
+\begin{document}
+\begin{center}\Large\bfseries Supplementary Information\\[0.4em]
+Stability certificates for selective reasoning over evolving knowledge graphs\end{center}
+\section*{Evaluation record}
+Public runs use 5,000 evenly sampled validation and test point queries, five validation permutations, a fixed ridge penalty of 0.01, half-life 35 timestamp units and bins of seven timestamp units. Neural results use three trained checkpoints. Chronological validation is split in time into calibration and threshold periods. All reported evidence diagnostics use the corrected full-mass deletion calculation. Original runs are preserved separately.
+\begin{table}[htbp]
+\centering
+\caption{Public results. B/S denotes baseline/StableKG. Coverage targets are set on validation data; realized test coverage can differ.}
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrrr}
+\toprule
+Dataset & MRR & Brier B/S & ECE B/S & AURC B/S & Risk20 B/S & Risk40 B/S\\
+\midrule
+ICEWS14 & 0.3153 & 0.1560/0.1426 & 0.0405/0.0158 & 0.5872/0.5494 & 0.5079/0.4350 & 0.5630/0.5308\\
+ICEWS05-15 & 0.4221 & 0.1889/0.1720 & 0.0410/0.0189 & 0.5011/0.4669 & 0.4039/0.3155 & 0.4850/0.4272\\
+GDELT & 0.2454 & 0.1134/0.1122 & 0.0159/0.0160 & 0.7694/0.7647 & 0.7077/0.7032 & 0.7587/0.7646\\
+\bottomrule
+\end{tabular}}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{Paired differences (StableKG minus baseline), seed 0, 1,000 resamples of contiguous timestamp blocks. Risk uses frozen validation thresholds separately for each method; these are not equal accepted-count comparisons.}
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llrrr}
+\toprule
+Dataset & Metric & Estimate & 2.5\% & 97.5\%\\
+\midrule
+ICEWS14 & risk\_delta@0.20 & -0.0420 & -0.0659 & -0.0171\\
+ICEWS14 & risk\_delta@0.40 & -0.0352 & -0.0523 & -0.0192\\
+ICEWS14 & aurc\_delta & -0.0365 & -0.0446 & -0.0287\\
+ICEWS05-15 & risk\_delta@0.20 & -0.0858 & -0.1110 & -0.0599\\
+ICEWS05-15 & risk\_delta@0.40 & -0.0514 & -0.0704 & -0.0308\\
+ICEWS05-15 & aurc\_delta & -0.0353 & -0.0438 & -0.0274\\
+GDELT & risk\_delta@0.20 & 0.0020 & -0.0184 & 0.0207\\
+GDELT & risk\_delta@0.40 & 0.0099 & 0.0017 & 0.0195\\
+GDELT & aurc\_delta & -0.0039 & -0.0093 & 0.0013\\
+\bottomrule
+\end{tabular}}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{Matched-control AURC over five validation permutations. B contains margin, log-support and recency. All configurations share the same calibration/operating splits and ridge penalty. The entire feature grid was retained.}
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrr}
+\toprule
+Features & ICEWS14 & ICEWS05-15 & GDELT\\
+\midrule
+Margin only & 0.5681 & 0.4960 & 0.7932\\
+B & 0.5872 & 0.5011 & 0.7694\\
+B + $c$ & 0.5666 & 0.4818 & 0.7703\\
+B + $z$ & 0.5503 & 0.4700 & 0.7657\\
+B + $f,d$ & 0.5641 & 0.4777 & 0.7687\\
+B + $z,f$ & 0.5504 & 0.4696 & 0.7657\\
+B + $z,d$ & 0.5490 & 0.4682 & 0.7648\\
+B + $z,f,d$ & 0.5487 & 0.4667 & 0.7648\\
+Full & 0.5494 & 0.4669 & 0.7647\\
+B + $k_*$ & 0.5745 & 0.4722 & 0.7692\\
+B + softmax, entropy & 0.5809 & 0.4932 & 0.7702\\
+\bottomrule
+\end{tabular}}
+\end{table}
+The full feature model contains a redundant linear combination because $c=(f+d)/2$. Its inclusion affects ridge geometry, not the information available. Paired block-bootstrap contrasts for each control are included in the source CSV files. These comparisons are diagnostic; no model was selected using the test results.
+\begin{table}[htbp]
+\centering
+\caption{Intervention flip rates in low/high diagnostic-score quartiles. The window spans seven timestamp units. Queries with no winner evidence are excluded, and tied quartiles can contain different counts.}
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+Dataset & Queries & Single event & Window & Counter-event\\
+\midrule
+ICEWS14 & 3653 & 0.8414/0.0011 & 0.9980/0.0011 & 0.8924/0.1171\\
+ICEWS05-15 & 4368 & 0.8566/0.0000 & 0.9978/0.0000 & 0.9158/0.1648\\
+GDELT & 4981 & 0.6100/0.0000 & 0.9997/0.0000 & 0.6615/0.0120\\
+\bottomrule
+\end{tabular}}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{Neural and chronological results. B/S denotes baseline/StableKG.}
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llrrr}
+\toprule
+Protocol & Dataset & AURC B/S & Risk20 B/S & Risk40 B/S\\
+\midrule
+Neural & ICEWS14 & 0.5954/0.5570 & 0.4897/0.4203 & 0.6006/0.5336\\
+Neural & ICEWS05-15 & 0.5437/0.4701 & 0.4346/0.2841 & 0.5382/0.4376\\
+Chronological & ICEWS14 & 0.4705/0.4411 & 0.3665/0.2686 & 0.4373/0.4203\\
+Chronological & ICEWS05-15 & 0.4254/0.3957 & 0.3222/0.2342 & 0.4106/0.3618\\
+\bottomrule
+\end{tabular}}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{Recent author-code TeRDy comparison. Metrics are from the completed GPU runs under the shared Pe panel.}
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrrr}
+\toprule
+Dataset & Rank & Epochs & MRR & AURC B & AURC S & Risk20 B/S\\
+\midrule
+ICEWS14 & 6000 & 12 & 0.6571 & 0.3801 & 0.2896 & 0.1880/0.1530\\
+ICEWS05-15 & 2000 & 8 & 0.5355 & 0.3801 & 0.3716 & 0.2330/0.2210\\
+\bottomrule
+\end{tabular}}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{Public update maintenance for ICEWS14. Means over 10 repetitions; all outputs matched the full refresh.}
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{rrrrrr}
+\toprule
+Events & Decisions & Batch & Full ms & Incremental ms & Refreshed\\
+\midrule
+72,827 & 21,667 & 100 & 136.3 & 1.3 & 98.2\\
+\bottomrule
+\end{tabular}}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{Public update maintenance for ICEWS05-15. Means over 10 repetitions; all outputs matched the full refresh.}
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{rrrrrr}
+\toprule
+Events & Decisions & Batch & Full ms & Incremental ms & Refreshed\\
+\midrule
+368,963 & 51,292 & 100 & 363.6 & 2.2 & 97.7\\
+\bottomrule
+\end{tabular}}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{Public update maintenance for GDELT. Means over 10 repetitions; all outputs matched the full refresh.}
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{rrrrrr}
+\toprule
+Events & Decisions & Batch & Full ms & Incremental ms & Refreshed\\
+\midrule
+2,308,166 & 9,741 & 100 & 223.0 & 4.5 & 98.7\\
+\bottomrule
+\end{tabular}}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{Controlled rule-DAG update study, 20 seeds. Runtime excludes closure discovery and measures propagation over a cached closure. Runtime and node counts use different changed-base samples.}
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrr}
+\toprule
+Metric & Mean & 2.5\% & 97.5\%\\
+\midrule
+Node reduction & 71.56\% & 70.73\% & 72.33\%\\
+Propagation-time reduction & 47.67\% & 42.22\% & 52.84\%\\
+Maximum output discrepancy & 0.0 & 0 & 0\\
+\bottomrule
+\end{tabular}}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{Intervention-survival AUROC for matched diagnostics. Higher is better. $c$ is the deletion diagnostic and $z$ the normalized margin; raw margin provides the control for a fixed injected event.}
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llrrrr}
+\toprule
+Dataset & Edit & $c$ & $z$ & Margin & Support\\
+\midrule
+ICEWS14 & event & 0.8767 & 0.6577 & 0.9373 & 0.9066\\
+ICEWS14 & window & 0.9977 & 0.6919 & 0.9193 & 0.8947\\
+ICEWS14 & counter & 0.8714 & 0.6480 & 0.9999 & 0.9092\\
+ICEWS05-15 & event & 0.9053 & 0.6273 & 0.8742 & 0.8527\\
+ICEWS05-15 & window & 0.9982 & 0.6747 & 0.8488 & 0.8421\\
+ICEWS05-15 & counter & 0.8795 & 0.5495 & 1.0000 & 0.8720\\
+GDELT & event & 0.8033 & 0.8946 & 0.9930 & 0.8318\\
+GDELT & window & 0.9997 & 0.9034 & 0.9579 & 0.8313\\
+GDELT & counter & 0.8124 & 0.8800 & 1.0000 & 0.8434\\
+\bottomrule
+\end{tabular}}
+\end{table}
+\begin{table}[htbp]
+\centering
+\caption{Exactly equal accepted-count comparison, calibration seed 0. Both frozen score orderings accept the same number of test queries. Coverage budgets (20\%, 40\%) are prespecified; ties retain fixed source order. Intervals use 1,000 paired timestamp-block resamples and recompute each ordering at that budget. This evaluates a fixed budget, separately from the deployable validation-threshold policy.}
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrrr}
+\toprule
+Dataset & Coverage & Risk B & Risk S & Difference & 2.5\% & 97.5\%\\
+\midrule
+ICEWS14 & 20\% & 0.5060 & 0.4390 & -0.0670 & -0.1036 & -0.0314\\
+ICEWS14 & 40\% & 0.5650 & 0.5325 & -0.0325 & -0.0501 & -0.0165\\
+ICEWS05-15 & 20\% & 0.4070 & 0.3230 & -0.0840 & -0.1069 & -0.0606\\
+ICEWS05-15 & 40\% & 0.4880 & 0.4410 & -0.0470 & -0.0678 & -0.0307\\
+GDELT & 20\% & 0.7070 & 0.7090 & 0.0020 & -0.0193 & 0.0212\\
+GDELT & 40\% & 0.7575 & 0.7635 & 0.0060 & -0.0025 & 0.0147\\
+\bottomrule
+\end{tabular}}
+\end{table}
+\clearpage
+\section*{Reproduction and interpretation}
+Run \texttt{run\_all.ps1 -RunSynthetic -RunNeural -CompilePaper} to regenerate the experiments, statistics, figures and manuscript. The local checkpoint refresh command is recorded in \texttt{scripts/refresh\_evidence.py}. Tests cover causal cutoffs, filtered ranking, actual predict-before-reveal replay, the discrete window-count guarantee, floating-point full-mass deletion and incremental/full agreement.
+
+The public interpolation-style split permits training events at the query timestamp. Chronological replay instead predicts before revealing that timestamp. Selective correctness means that the unfiltered top prediction belongs to the published query answer set; filtered MRR separately removes other known same-query answers. Thus selective correctness and filtered Hits@1 have different evaluation denominators. Timestamp units are dataset indices and are not assumed to be calendar days. The additive-scorer certificate does not certify neural-parameter robustness.
+
+The prefix attack minimizes the number of deleted windows, not their mass over arbitrary subsets. For masses $(6,4,3)$ and margin 7 it removes two windows with mass 10, whereas another two-window deletion has mass 7. This distinction fixes the interpretation of the guarantee without treating the continuous diagnostic as a universal robustness radius.
+
+\section*{Source files}
+Corrected public outputs are in \path{results_final_v5/}; interventions, neural inference and chronological replay have separate version-5 directories. Matched controls and raw feature caches are in \path{results_review_20260909/}. Each table here is generated from those files. Bibliographic metadata responses and retrieval errors are retained under \path{literature/verification_20260909/}.
+\end{document}

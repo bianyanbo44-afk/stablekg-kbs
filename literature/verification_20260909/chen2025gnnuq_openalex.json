@@ -1,0 +1,1067 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1038/s41467-025-58503-0",
+  "retrieved_utc": "2026-09-09T03:17:07.424673+00:00",
+  "response": {
+    "id": "https://openalex.org/W4409183464",
+    "doi": "https://doi.org/10.1038/s41467-025-58503-0",
+    "title": "Uncertainty quantification with graph neural networks for efficient molecular design",
+    "display_name": "Uncertainty quantification with graph neural networks for efficient molecular design",
+    "publication_year": 2025,
+    "publication_date": "2025-04-05",
+    "ids": {
+      "openalex": "https://openalex.org/W4409183464",
+      "doi": "https://doi.org/10.1038/s41467-025-58503-0",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/40188130"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1038/s41467-025-58503-0",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41467-025-58503-0",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-58503-0.pdf",
+      "source": {
+        "id": "https://openalex.org/S64187185",
+        "display_name": "Nature Communications",
+        "issn_l": "2041-1723",
+        "issn": [
+          "2041-1723"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nature Communications",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-025-58503-0.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5086345816",
+          "display_name": "Lung-Yi Chen",
+          "orcid": "https://orcid.org/0000-0002-9411-6404"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I16733864",
+            "display_name": "National Taiwan University",
+            "ror": "https://ror.org/05bqach95",
+            "country_code": "TW",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I16733864"
+            ]
+          }
+        ],
+        "countries": [
+          "TW"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lung-Yi Chen",
+        "raw_affiliation_strings": [
+          "Department of Chemical Engineering, National Taiwan University, Taipei, Taiwan, ROC"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-9411-6404",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Chemical Engineering, National Taiwan University, Taipei, Taiwan, ROC",
+            "institution_ids": [
+              "https://openalex.org/I16733864"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5003414479",
+          "display_name": "Yi‐Pei Li",
+          "orcid": "https://orcid.org/0000-0002-1314-3276"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I16733864",
+            "display_name": "National Taiwan University",
+            "ror": "https://ror.org/05bqach95",
+            "country_code": "TW",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I16733864"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210128167",
+            "display_name": "National Science and Technology Council",
+            "ror": "https://ror.org/02kv4zf79",
+            "country_code": "TW",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I4210128167"
+            ]
+          }
+        ],
+        "countries": [
+          "TW"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yi-Pei Li",
+        "raw_affiliation_strings": [
+          "Department of Chemical Engineering, National Taiwan University, Taipei, Taiwan, ROC. yipeili@ntu.edu.tw",
+          "Taiwan International Graduate Program on Sustainable Chemical Science and Technology (TIGP-SCST), Taipei, Taiwan, ROC. yipeili@ntu.edu.tw"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-1314-3276",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Chemical Engineering, National Taiwan University, Taipei, Taiwan, ROC. yipeili@ntu.edu.tw",
+            "institution_ids": [
+              "https://openalex.org/I16733864"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Taiwan International Graduate Program on Sustainable Chemical Science and Technology (TIGP-SCST), Taipei, Taiwan, ROC. yipeili@ntu.edu.tw",
+            "institution_ids": [
+              "https://openalex.org/I4210128167"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 6990,
+      "currency": "USD",
+      "value_usd": 6990
+    },
+    "apc_paid": {
+      "value": 6990,
+      "currency": "USD",
+      "value_usd": 6990
+    },
+    "fwci": 27.6299,
+    "has_fulltext": true,
+    "cited_by_count": 43,
+    "citation_normalized_percentile": {
+      "value": 0.99639781,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "16",
+      "issue": "1",
+      "first_page": "3262",
+      "last_page": "3262"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10211",
+      "display_name": "Computational Drug Discovery Methods",
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1703",
+        "display_name": "Computational Theory and Mathematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10211",
+        "display_name": "Computational Drug Discovery Methods",
+        "score": 0.9997000098228455,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1703",
+          "display_name": "Computational Theory and Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11948",
+        "display_name": "Machine Learning in Materials Science",
+        "score": 0.9987999796867371,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13180",
+        "display_name": "Chemistry and Chemical Engineering",
+        "score": 0.9912999868392944,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2304",
+          "display_name": "Environmental Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.6364709138870239
+      },
+      {
+        "id": "https://openalex.org/keywords/graph",
+        "display_name": "Graph",
+        "score": 0.4624069035053253
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-neural-network",
+        "display_name": "Artificial neural network",
+        "score": 0.4254534840583801
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.3621158301830292
+      },
+      {
+        "id": "https://openalex.org/keywords/computational-biology",
+        "display_name": "Computational biology",
+        "score": 0.35769525170326233
+      },
+      {
+        "id": "https://openalex.org/keywords/theoretical-computer-science",
+        "display_name": "Theoretical computer science",
+        "score": 0.2900542616844177
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.18424779176712036
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6364709138870239
+      },
+      {
+        "id": "https://openalex.org/C132525143",
+        "wikidata": "https://www.wikidata.org/wiki/Q141488",
+        "display_name": "Graph",
+        "level": 2,
+        "score": 0.4624069035053253
+      },
+      {
+        "id": "https://openalex.org/C50644808",
+        "wikidata": "https://www.wikidata.org/wiki/Q192776",
+        "display_name": "Artificial neural network",
+        "level": 2,
+        "score": 0.4254534840583801
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.3621158301830292
+      },
+      {
+        "id": "https://openalex.org/C70721500",
+        "wikidata": "https://www.wikidata.org/wiki/Q177005",
+        "display_name": "Computational biology",
+        "level": 1,
+        "score": 0.35769525170326233
+      },
+      {
+        "id": "https://openalex.org/C80444323",
+        "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+        "display_name": "Theoretical computer science",
+        "level": 1,
+        "score": 0.2900542616844177
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.18424779176712036
+      }
+    ],
+    "mesh": [],
+    "locations_count": 5,
+    "locations": [
+      {
+        "id": "doi:10.1038/s41467-025-58503-0",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41467-025-58503-0",
+        "pdf_url": "https://www.nature.com/articles/s41467-025-58503-0.pdf",
+        "source": {
+          "id": "https://openalex.org/S64187185",
+          "display_name": "Nature Communications",
+          "issn_l": "2041-1723",
+          "issn": [
+            "2041-1723"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature Communications",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:40188130",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/40188130",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature communications",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:europepmc.org:10785255",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11972353",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400806",
+          "display_name": "Europe PMC (PubMed Central)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1303153112",
+          "host_organization_name": "European Bioinformatics Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/I1303153112"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:RePEc:nat:natcom:v:16:y:2025:i:1:d:10.1038_s41467-025-58503-0",
+        "is_oa": false,
+        "landing_page_url": "https://www.nature.com/articles/s41467-025-58503-0",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401271",
+          "display_name": "RePEc: Research Papers in Economics",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I77793887",
+          "host_organization_name": "Federal Reserve Bank of St. Louis",
+          "host_organization_lineage": [
+            "https://openalex.org/I77793887"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:54cd9f78c9874a60919f3ab3d0945ab6",
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/54cd9f78c9874a60919f3ab3d0945ab6",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Nature Communications, Vol 16, Iss 1, Pp 1-15 (2025)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1038/s41467-025-58503-0",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41467-025-58503-0",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-58503-0.pdf",
+      "source": {
+        "id": "https://openalex.org/S64187185",
+        "display_name": "Nature Communications",
+        "issn_l": "2041-1723",
+        "issn": [
+          "2041-1723"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nature Communications",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G1094533190",
+        "display_name": null,
+        "funder_award_id": "113-2917-I-002-018",
+        "funder_id": "https://openalex.org/F4320331164",
+        "funder_display_name": "National Science and Technology Council"
+      },
+      {
+        "id": "https://openalex.org/G2167628606",
+        "display_name": null,
+        "funder_award_id": "113-2628-E-002-017-MY3",
+        "funder_id": "https://openalex.org/F4320322795",
+        "funder_display_name": "Ministry of Science and Technology, Taiwan"
+      },
+      {
+        "id": "https://openalex.org/G3469438873",
+        "display_name": null,
+        "funder_award_id": "113-2917-I-002-018",
+        "funder_id": "https://openalex.org/F4320322795",
+        "funder_display_name": "Ministry of Science and Technology, Taiwan"
+      },
+      {
+        "id": "https://openalex.org/G3907899856",
+        "display_name": null,
+        "funder_award_id": "114L7763",
+        "funder_id": "https://openalex.org/F4320311687",
+        "funder_display_name": "Ministry of Education"
+      },
+      {
+        "id": "https://openalex.org/G4436298828",
+        "display_name": null,
+        "funder_award_id": "113-2622-8-002-015-SB",
+        "funder_id": "https://openalex.org/F4320331164",
+        "funder_display_name": "National Science and Technology Council"
+      },
+      {
+        "id": "https://openalex.org/G5661698120",
+        "display_name": null,
+        "funder_award_id": "113-2628-E-002-017-MY3",
+        "funder_id": "https://openalex.org/F4320331164",
+        "funder_display_name": "National Science and Technology Council"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320311687",
+        "display_name": "Ministry of Education",
+        "ror": "https://ror.org/03m01yf64"
+      },
+      {
+        "id": "https://openalex.org/F4320322795",
+        "display_name": "Ministry of Science and Technology, Taiwan",
+        "ror": "https://ror.org/02kv4zf79"
+      },
+      {
+        "id": "https://openalex.org/F4320331164",
+        "display_name": "National Science and Technology Council",
+        "ror": "https://ror.org/00wnb9798"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4409183464.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4409183464.grobid-xml"
+    },
+    "referenced_works_count": 104,
+    "referenced_works": [
+      "https://openalex.org/W206483153",
+      "https://openalex.org/W1560021816",
+      "https://openalex.org/W1966855246",
+      "https://openalex.org/W1975147762",
+      "https://openalex.org/W1975447903",
+      "https://openalex.org/W1992956987",
+      "https://openalex.org/W2000614400",
+      "https://openalex.org/W2008499862",
+      "https://openalex.org/W2016366655",
+      "https://openalex.org/W2050985051",
+      "https://openalex.org/W2068128923",
+      "https://openalex.org/W2086957099",
+      "https://openalex.org/W2108389384",
+      "https://openalex.org/W2134967712",
+      "https://openalex.org/W2147421370",
+      "https://openalex.org/W2321882837",
+      "https://openalex.org/W2345888804",
+      "https://openalex.org/W2595840341",
+      "https://openalex.org/W2605801743",
+      "https://openalex.org/W2610148085",
+      "https://openalex.org/W2796306022",
+      "https://openalex.org/W2883583109",
+      "https://openalex.org/W2900694120",
+      "https://openalex.org/W2911528628",
+      "https://openalex.org/W2911789160",
+      "https://openalex.org/W2911997094",
+      "https://openalex.org/W2914542247",
+      "https://openalex.org/W2932297636",
+      "https://openalex.org/W2945551948",
+      "https://openalex.org/W2953128081",
+      "https://openalex.org/W2956961449",
+      "https://openalex.org/W2963613699",
+      "https://openalex.org/W2964931459",
+      "https://openalex.org/W2966357564",
+      "https://openalex.org/W2979619501",
+      "https://openalex.org/W2985931096",
+      "https://openalex.org/W2992965410",
+      "https://openalex.org/W3009321976",
+      "https://openalex.org/W3014339631",
+      "https://openalex.org/W3014596384",
+      "https://openalex.org/W3028032948",
+      "https://openalex.org/W3031187737",
+      "https://openalex.org/W3035711539",
+      "https://openalex.org/W3044724994",
+      "https://openalex.org/W3045928028",
+      "https://openalex.org/W3094686696",
+      "https://openalex.org/W3100839802",
+      "https://openalex.org/W3102100346",
+      "https://openalex.org/W3104757324",
+      "https://openalex.org/W3110901318",
+      "https://openalex.org/W3112474878",
+      "https://openalex.org/W3128346632",
+      "https://openalex.org/W3128426563",
+      "https://openalex.org/W3128474010",
+      "https://openalex.org/W3130218089",
+      "https://openalex.org/W3134774296",
+      "https://openalex.org/W3158331815",
+      "https://openalex.org/W3159598019",
+      "https://openalex.org/W3164731060",
+      "https://openalex.org/W3175014065",
+      "https://openalex.org/W3185456481",
+      "https://openalex.org/W3189164715",
+      "https://openalex.org/W3195161349",
+      "https://openalex.org/W3216733725",
+      "https://openalex.org/W4211049957",
+      "https://openalex.org/W4281654978",
+      "https://openalex.org/W4283654384",
+      "https://openalex.org/W4285121215",
+      "https://openalex.org/W4285179478",
+      "https://openalex.org/W4294238553",
+      "https://openalex.org/W4295736424",
+      "https://openalex.org/W4297434538",
+      "https://openalex.org/W4304184517",
+      "https://openalex.org/W4306179830",
+      "https://openalex.org/W4312627358",
+      "https://openalex.org/W4317792380",
+      "https://openalex.org/W4319074048",
+      "https://openalex.org/W4319986489",
+      "https://openalex.org/W4361989906",
+      "https://openalex.org/W4365442601",
+      "https://openalex.org/W4377820623",
+      "https://openalex.org/W4378212018",
+      "https://openalex.org/W4381308335",
+      "https://openalex.org/W4386451918",
+      "https://openalex.org/W4386718372",
+      "https://openalex.org/W4387114475",
+      "https://openalex.org/W4387220286",
+      "https://openalex.org/W4387237327",
+      "https://openalex.org/W4388488709",
+      "https://openalex.org/W4388928955",
+      "https://openalex.org/W4390221451",
+      "https://openalex.org/W4390724514",
+      "https://openalex.org/W4390886467",
+      "https://openalex.org/W4392102481",
+      "https://openalex.org/W4392553889",
+      "https://openalex.org/W4393207080",
+      "https://openalex.org/W4394683604",
+      "https://openalex.org/W4394840172",
+      "https://openalex.org/W4400008163",
+      "https://openalex.org/W4401608934",
+      "https://openalex.org/W4404758748",
+      "https://openalex.org/W6894123906",
+      "https://openalex.org/W6902291204",
+      "https://openalex.org/W6930682147"
+    ],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2390279801",
+      "https://openalex.org/W4391913857",
+      "https://openalex.org/W2358668433",
+      "https://openalex.org/W4396701345",
+      "https://openalex.org/W2376932109",
+      "https://openalex.org/W2001405890",
+      "https://openalex.org/W4396696052"
+    ],
+    "abstract_inverted_index": {
+      "Optimizing": [
+        0
+      ],
+      "molecular": [
+        1,
+        115
+      ],
+      "design": [
+        2,
+        116
+      ],
+      "across": [
+        3
+      ],
+      "expansive": [
+        4
+      ],
+      "chemical": [
+        5,
+        49
+      ],
+      "spaces": [
+        6,
+        50
+      ],
+      "presents": [
+        7
+      ],
+      "unique": [
+        8
+      ],
+      "challenges,": [
+        9
+      ],
+      "especially": [
+        10,
+        96
+      ],
+      "in": [
+        11,
+        80,
+        113
+      ],
+      "maintaining": [
+        12
+      ],
+      "predictive": [
+        13
+      ],
+      "accuracy": [
+        14
+      ],
+      "under": [
+        15
+      ],
+      "domain": [
+        16
+      ],
+      "shifts.": [
+        17
+      ],
+      "This": [
+        18,
+        105
+      ],
+      "study": [
+        19
+      ],
+      "integrates": [
+        20
+      ],
+      "uncertainty": [
+        21
+      ],
+      "quantification": [
+        22
+      ],
+      "(UQ),": [
+        23
+      ],
+      "directed": [
+        24
+      ],
+      "message": [
+        25
+      ],
+      "passing": [
+        26
+      ],
+      "neural": [
+        27
+      ],
+      "networks": [
+        28
+      ],
+      "(D-MPNNs),": [
+        29
+      ],
+      "and": [
+        30,
+        51,
+        63,
+        101
+      ],
+      "genetic": [
+        31
+      ],
+      "algorithms": [
+        32
+      ],
+      "(GAs)": [
+        33
+      ],
+      "to": [
+        34
+      ],
+      "address": [
+        35
+      ],
+      "these": [
+        36
+      ],
+      "challenges.": [
+        37
+      ],
+      "We": [
+        38
+      ],
+      "systematically": [
+        39
+      ],
+      "evaluate": [
+        40
+      ],
+      "whether": [
+        41
+      ],
+      "UQ-enhanced": [
+        42
+      ],
+      "D-MPNNs": [
+        43
+      ],
+      "can": [
+        44
+      ],
+      "effectively": [
+        45
+      ],
+      "optimize": [
+        46
+      ],
+      "broad,": [
+        47
+      ],
+      "open-ended": [
+        48
+      ],
+      "identify": [
+        52
+      ],
+      "the": [
+        53,
+        61
+      ],
+      "most": [
+        54,
+        81
+      ],
+      "effective": [
+        55
+      ],
+      "implementation": [
+        56
+      ],
+      "strategies.": [
+        57
+      ],
+      "Using": [
+        58
+      ],
+      "benchmarks": [
+        59
+      ],
+      "from": [
+        60
+      ],
+      "Tartarus": [
+        62
+      ],
+      "GuacaMol": [
+        64
+      ],
+      "platforms,": [
+        65
+      ],
+      "our": [
+        66
+      ],
+      "results": [
+        67
+      ],
+      "show": [
+        68
+      ],
+      "that": [
+        69
+      ],
+      "UQ": [
+        70,
+        112
+      ],
+      "integration": [
+        71
+      ],
+      "via": [
+        72
+      ],
+      "probabilistic": [
+        73
+      ],
+      "improvement": [
+        74
+      ],
+      "optimization": [
+        75,
+        78
+      ],
+      "(PIO)": [
+        76
+      ],
+      "enhances": [
+        77
+      ],
+      "success": [
+        79
+      ],
+      "cases,": [
+        82
+      ],
+      "supporting": [
+        83
+      ],
+      "more": [
+        84
+      ],
+      "reliable": [
+        85
+      ],
+      "exploration": [
+        86
+      ],
+      "of": [
+        87
+      ],
+      "chemically": [
+        88
+      ],
+      "diverse": [
+        89
+      ],
+      "regions.": [
+        90
+      ],
+      "In": [
+        91
+      ],
+      "multi-objective": [
+        92
+      ],
+      "tasks,": [
+        93
+      ],
+      "PIO": [
+        94
+      ],
+      "proves": [
+        95
+      ],
+      "advantageous,": [
+        97
+      ],
+      "balancing": [
+        98
+      ],
+      "competing": [
+        99
+      ],
+      "objectives": [
+        100
+      ],
+      "outperforming": [
+        102
+      ],
+      "uncertainty-agnostic": [
+        103
+      ],
+      "approaches.": [
+        104
+      ],
+      "work": [
+        106
+      ],
+      "provides": [
+        107
+      ],
+      "practical": [
+        108
+      ],
+      "guidelines": [
+        109
+      ],
+      "for": [
+        110
+      ],
+      "integrating": [
+        111
+      ],
+      "computational-aided": [
+        114
+      ],
+      "(CAMD).": [
+        117
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 24
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 19
+      }
+    ],
+    "updated_date": "2026-09-04T10:56:28.161419",
+    "created_date": "2025-10-10T00:00:00"
+  }
+}

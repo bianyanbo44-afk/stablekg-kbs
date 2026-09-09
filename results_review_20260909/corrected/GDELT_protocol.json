@@ -1,0 +1,89 @@
+{
+  "dataset": "GDELT",
+  "feature_sets": {
+    "margin_only": [
+      "margin"
+    ],
+    "matched_base": [
+      "margin",
+      "log_support",
+      "recency"
+    ],
+    "base_plus_c": [
+      "margin",
+      "log_support",
+      "recency",
+      "certificate"
+    ],
+    "base_plus_z": [
+      "margin",
+      "log_support",
+      "recency",
+      "counter_evidence_cost"
+    ],
+    "base_plus_fd": [
+      "margin",
+      "log_support",
+      "recency",
+      "fragility_cost",
+      "diversity"
+    ],
+    "without_diversity": [
+      "margin",
+      "log_support",
+      "recency",
+      "counter_evidence_cost",
+      "fragility_cost"
+    ],
+    "without_fragility": [
+      "margin",
+      "log_support",
+      "recency",
+      "counter_evidence_cost",
+      "diversity"
+    ],
+    "nonredundant": [
+      "margin",
+      "log_support",
+      "recency",
+      "counter_evidence_cost",
+      "fragility_cost",
+      "diversity"
+    ],
+    "full_original": [
+      "margin",
+      "log_support",
+      "recency",
+      "certificate",
+      "diversity",
+      "fragility_cost",
+      "counter_evidence_cost"
+    ],
+    "base_plus_window_count": [
+      "margin",
+      "log_support",
+      "recency",
+      "window_count"
+    ],
+    "base_plus_softmax_entropy": [
+      "margin",
+      "log_support",
+      "recency",
+      "score_softmax",
+      "negative_entropy"
+    ]
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "ridge": 0.01,
+  "half_life": 35,
+  "window_timestamp_units": 7,
+  "bootstrap_resamples": 1000,
+  "numerical_prefix_disagreements": 0,
+  "zero_support_fraction": 0.0038
+}

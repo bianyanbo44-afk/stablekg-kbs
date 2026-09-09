@@ -1,0 +1,632 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.knosys.2025.114394",
+  "retrieved_utc": "2026-09-09T03:17:04.522376+00:00",
+  "response": {
+    "id": "https://openalex.org/W4413943909",
+    "doi": "https://doi.org/10.1016/j.knosys.2025.114394",
+    "title": "Few-shot temporal knowledge graph completion based on query-adaptive Mamba-enhanced temporal relation learning",
+    "display_name": "Few-shot temporal knowledge graph completion based on query-adaptive Mamba-enhanced temporal relation learning",
+    "publication_year": 2025,
+    "publication_date": "2025-09-02",
+    "ids": {
+      "openalex": "https://openalex.org/W4413943909",
+      "doi": "https://doi.org/10.1016/j.knosys.2025.114394"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.knosys.2025.114394",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.knosys.2025.114394",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S10169007",
+        "display_name": "Knowledge-Based Systems",
+        "issn_l": "0950-7051",
+        "issn": [
+          "0950-7051",
+          "1872-7409"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Knowledge-Based Systems",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5111125885",
+          "display_name": "Xingyue Guo",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I205237279",
+            "display_name": "Nankai University",
+            "ror": "https://ror.org/01y1kjr75",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I205237279"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xingyue Guo",
+        "raw_affiliation_strings": [
+          "College of Computer Science, VCIP, TMCC, TBI Center Nankai University, Tianjin, 300350, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science, VCIP, TMCC, TBI Center Nankai University, Tianjin, 300350, China",
+            "institution_ids": [
+              "https://openalex.org/I205237279"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100386273",
+          "display_name": "Ying Zhang",
+          "orcid": "https://orcid.org/0000-0003-4906-5828"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I205237279",
+            "display_name": "Nankai University",
+            "ror": "https://ror.org/01y1kjr75",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I205237279"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Ying Zhang",
+        "raw_affiliation_strings": [
+          "College of Computer Science, VCIP, TMCC, TBI Center Nankai University, Tianjin, 300350, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-4906-5828",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science, VCIP, TMCC, TBI Center Nankai University, Tianjin, 300350, China",
+            "institution_ids": [
+              "https://openalex.org/I205237279"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100701157",
+          "display_name": "Yu Zhao",
+          "orcid": "https://orcid.org/0000-0002-0606-4676"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I205237279",
+            "display_name": "Nankai University",
+            "ror": "https://ror.org/01y1kjr75",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I205237279"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yu Zhao",
+        "raw_affiliation_strings": [
+          "College of Computer Science, VCIP, TMCC, TBI Center Nankai University, Tianjin, 300350, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science, VCIP, TMCC, TBI Center Nankai University, Tianjin, 300350, China",
+            "institution_ids": [
+              "https://openalex.org/I205237279"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5049796187",
+          "display_name": "Baohang Zhou",
+          "orcid": "https://orcid.org/0000-0002-7577-6204"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I205237279",
+            "display_name": "Nankai University",
+            "ror": "https://ror.org/01y1kjr75",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I205237279"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Baohang Zhou",
+        "raw_affiliation_strings": [
+          "College of Computer Science, VCIP, TMCC, TBI Center Nankai University, Tianjin, 300350, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science, VCIP, TMCC, TBI Center Nankai University, Tianjin, 300350, China",
+            "institution_ids": [
+              "https://openalex.org/I205237279"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5039273423",
+          "display_name": "Xuhui Sui",
+          "orcid": "https://orcid.org/0000-0001-5386-9912"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I205237279",
+            "display_name": "Nankai University",
+            "ror": "https://ror.org/01y1kjr75",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I205237279"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xuhui Sui",
+        "raw_affiliation_strings": [
+          "College of Computer Science, VCIP, TMCC, TBI Center Nankai University, Tianjin, 300350, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science, VCIP, TMCC, TBI Center Nankai University, Tianjin, 300350, China",
+            "institution_ids": [
+              "https://openalex.org/I205237279"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101393756",
+          "display_name": "Xinying Qian",
+          "orcid": "https://orcid.org/0009-0002-8299-8275"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I205237279",
+            "display_name": "Nankai University",
+            "ror": "https://ror.org/01y1kjr75",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I205237279"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xinying Qian",
+        "raw_affiliation_strings": [
+          "College of Computer Science, VCIP, TMCC, TBI Center Nankai University, Tianjin, 300350, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science, VCIP, TMCC, TBI Center Nankai University, Tianjin, 300350, China",
+            "institution_ids": [
+              "https://openalex.org/I205237279"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5062064974",
+          "display_name": "Xiaojie Yuan",
+          "orcid": "https://orcid.org/0000-0002-5876-6856"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I205237279",
+            "display_name": "Nankai University",
+            "ror": "https://ror.org/01y1kjr75",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I205237279"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiaojie Yuan",
+        "raw_affiliation_strings": [
+          "College of Computer Science, VCIP, TMCC, TBI Center Nankai University, Tianjin, 300350, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science, VCIP, TMCC, TBI Center Nankai University, Tianjin, 300350, China",
+            "institution_ids": [
+              "https://openalex.org/I205237279"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5100386273"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I205237279"
+    ],
+    "apc_list": {
+      "value": 3430,
+      "currency": "USD",
+      "value_usd": 3430
+    },
+    "apc_paid": null,
+    "fwci": 2.249,
+    "has_fulltext": false,
+    "cited_by_count": 2,
+    "citation_normalized_percentile": {
+      "value": 0.89863826,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 97,
+      "max": 98
+    },
+    "biblio": {
+      "volume": "329",
+      "issue": null,
+      "first_page": "114394",
+      "last_page": "114394"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11273",
+      "display_name": "Advanced Graph Neural Networks",
+      "score": 0.9991000294685364,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11273",
+        "display_name": "Advanced Graph Neural Networks",
+        "score": 0.9991000294685364,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11714",
+        "display_name": "Multimodal Machine Learning Applications",
+        "score": 0.9973000288009644,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10812",
+        "display_name": "Human Pose and Action Recognition",
+        "score": 0.9947999715805054,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/relation",
+        "display_name": "Relation (database)",
+        "score": 0.6227179169654846
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.6026212573051453
+      },
+      {
+        "id": "https://openalex.org/keywords/graph",
+        "display_name": "Graph",
+        "score": 0.5430040955543518
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.46061041951179504
+      },
+      {
+        "id": "https://openalex.org/keywords/knowledge-graph",
+        "display_name": "Knowledge graph",
+        "score": 0.4109388589859009
+      },
+      {
+        "id": "https://openalex.org/keywords/theoretical-computer-science",
+        "display_name": "Theoretical computer science",
+        "score": 0.14519664645195007
+      },
+      {
+        "id": "https://openalex.org/keywords/data-mining",
+        "display_name": "Data mining",
+        "score": 0.136644184589386
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C25343380",
+        "wikidata": "https://www.wikidata.org/wiki/Q277521",
+        "display_name": "Relation (database)",
+        "level": 2,
+        "score": 0.6227179169654846
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6026212573051453
+      },
+      {
+        "id": "https://openalex.org/C132525143",
+        "wikidata": "https://www.wikidata.org/wiki/Q141488",
+        "display_name": "Graph",
+        "level": 2,
+        "score": 0.5430040955543518
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.46061041951179504
+      },
+      {
+        "id": "https://openalex.org/C2987255567",
+        "wikidata": "https://www.wikidata.org/wiki/Q33002955",
+        "display_name": "Knowledge graph",
+        "level": 2,
+        "score": 0.4109388589859009
+      },
+      {
+        "id": "https://openalex.org/C80444323",
+        "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+        "display_name": "Theoretical computer science",
+        "level": 1,
+        "score": 0.14519664645195007
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.136644184589386
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.knosys.2025.114394",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.knosys.2025.114394",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S10169007",
+          "display_name": "Knowledge-Based Systems",
+          "issn_l": "0950-7051",
+          "issn": [
+            "0950-7051",
+            "1872-7409"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Knowledge-Based Systems",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G5625188348",
+        "display_name": null,
+        "funder_award_id": "62272250",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G7756913708",
+        "display_name": null,
+        "funder_award_id": "22JCJQJC00150",
+        "funder_id": "https://openalex.org/F4320323993",
+        "funder_display_name": "Natural Science Foundation of Tianjin City"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320323993",
+        "display_name": "Natural Science Foundation of Tianjin City",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 19,
+    "referenced_works": [
+      "https://openalex.org/W68132019",
+      "https://openalex.org/W2069065514",
+      "https://openalex.org/W2127795553",
+      "https://openalex.org/W2489487449",
+      "https://openalex.org/W2607303097",
+      "https://openalex.org/W3158357923",
+      "https://openalex.org/W3212492847",
+      "https://openalex.org/W4212937970",
+      "https://openalex.org/W4239019441",
+      "https://openalex.org/W4289839702",
+      "https://openalex.org/W4318833223",
+      "https://openalex.org/W4385245566",
+      "https://openalex.org/W4385486090",
+      "https://openalex.org/W4396758529",
+      "https://openalex.org/W4399849882",
+      "https://openalex.org/W4401856724",
+      "https://openalex.org/W4404888413",
+      "https://openalex.org/W4405139613",
+      "https://openalex.org/W4409683197"
+    ],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W4234874385",
+      "https://openalex.org/W2390279801",
+      "https://openalex.org/W2323648130",
+      "https://openalex.org/W4391913857",
+      "https://openalex.org/W2358668433",
+      "https://openalex.org/W4396701345",
+      "https://openalex.org/W2157140558"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2026-08-21T09:56:20.448147",
+    "created_date": "2025-10-10T00:00:00"
+  }
+}

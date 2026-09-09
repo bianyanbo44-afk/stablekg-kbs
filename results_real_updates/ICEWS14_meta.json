@@ -1,0 +1,15 @@
+{
+  "dataset": "ICEWS14",
+  "initial_events": 72826,
+  "registered_decisions": 21667,
+  "build_seconds": 0.34451260000059847,
+  "incremental_engine_resident_mb": 38.06640625,
+  "memory_measurement": "Process RSS delta for one engine; raw data and Python baseline excluded",
+  "oracle_max_feature_error": 4.440892098500626e-16,
+  "oracle_discrete_mismatches": 0,
+  "threshold": 0.4630335369024417,
+  "seed": 20260909,
+  "repeats": 10,
+  "clock_policy": "refresh all on global clock advance",
+  "scope": "Event writes, reverse lookup, affected-set construction, summary maintenance, candidate ranking, certificate, belief and acceptance; excludes file I/O and one-time build"
+}

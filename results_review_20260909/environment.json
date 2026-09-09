@@ -1,0 +1,15 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1",
+    "pillow": "10.2.0",
+    "torch": "2.13.0",
+    "pytest": "9.1.1",
+    "PyMuPDF": "1.27.2.3"
+  },
+  "meaning": "Direct dependency versions used for this run; not an isolated-environment install test."
+}

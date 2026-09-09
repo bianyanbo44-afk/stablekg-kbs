@@ -1,0 +1,692 @@
+{
+  "key": "liu2025uncertkg",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.neunet.2024.107103",
+  "retrieved_utc": "2026-09-09T03:16:49.757527+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            24
+          ]
+        ],
+        "date-time": "2026-07-24T15:25:15Z",
+        "timestamp": 1784906715228,
+        "version": "3.55.0"
+      },
+      "reference-count": 49,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2025-04-01T00:00:00Z",
+            "timestamp": 1743465600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2025-04-01T00:00:00Z",
+            "timestamp": 1743465600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2025-04-01T00:00:00Z",
+            "timestamp": 1743465600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2025-04-01T00:00:00Z",
+            "timestamp": 1743465600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2025-04-01T00:00:00Z",
+            "timestamp": 1743465600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2025-04-01T00:00:00Z",
+            "timestamp": 1743465600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                1
+              ]
+            ],
+            "date-time": "2025-04-01T00:00:00Z",
+            "timestamp": 1743465600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100010877",
+          "name": "Shenzhen Science and Technology Innovation Committee",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "20231122124602001"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "20231122124602001"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100010877",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62376161"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62376161"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Neural Networks"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            4
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.neunet.2024.107103",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            6
+          ]
+        ],
+        "date-time": "2025-01-06T12:17:58Z",
+        "timestamp": 1736165878000
+      },
+      "page": "107103",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 4,
+      "special_numbering": "C",
+      "title": [
+        "Uncertainty modeling for inductive knowledge graph embedding"
+      ],
+      "prefix": "10.1016",
+      "volume": "184",
+      "author": [
+        {
+          "given": "Chao",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sam",
+          "family": "Kwong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6036-4728",
+          "authenticated-orcid": false,
+          "given": "Xizhao",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.neunet.2024.107103_b1",
+          "unstructured": "Bojchevski, A., & Günnemann, S. (2018). Deep Gaussian Embedding of Graphs: Unsupervised Inductive Learning via Ranking. In International conference on learning representations."
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b2",
+          "series-title": "Advances in neural information processing systems",
+          "first-page": "2787",
+          "article-title": "Translating embeddings for modeling multi-relational data",
+          "author": "Bordes",
+          "year": "2013"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.neunet.2024.107103_b3",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1145/3643806",
+          "article-title": "Knowledge graph embedding: A survey from the perspective of representation spaces",
+          "volume": "56",
+          "author": "Cao",
+          "year": "2024",
+          "journal-title": "ACM Computing Surveys"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chang, J., Lan, Z., Cheng, C., & Wei, Y. (2020). Data uncertainty learning in face recognition. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition (pp. 5710–5719).",
+          "DOI": "10.1109/CVPR42600.2020.00575"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, X., Chen, M., Shi, W., Sun, Y., & Zaniolo, C. (2019). Embedding uncertain knowledge graphs. In Proceedings of the AAAI conference on artificial intelligence (pp. 3363–3370).",
+          "DOI": "10.1609/aaai.v33i01.33013363"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, J., He, H., Wu, F., & Wang, J. (2021). Topology-aware correlations between relations for inductive link prediction in knowledge graphs. In Proceedings of the AAAI conference on artificial intelligence (pp. 6271–6278).",
+          "DOI": "10.1609/aaai.v35i7.16779"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, Z.-M., Yeh, M.-Y., & Kuo, T.-W. (2021). PASSLEAF: a pool-based semi-supervised learning framework for uncertain knowledge graph embedding. In Proceedings of the AAAI conference on artificial intelligence (pp. 4019–4026).",
+          "DOI": "10.1609/aaai.v35i5.16522"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, M., Zhang, W., Geng, Y., Xu, Z., Pan, J. Z., & Chen, H. (2023). Generalizing to Unseen Elements: A Survey on Knowledge Extrapolation for Knowledge Graphs. In Proceedings of the thirty-second international joint conference on artificial intelligence (pp. 6574–6582).",
+          "DOI": "10.24963/ijcai.2023/737"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, M., Zhang, W., Zhu, Y., Zhou, H., Yuan, Z., Xu, C., & Chen, H. (2022). Meta-knowledge transfer for inductive knowledge graph embedding. In Proceedings of the 45th international ACM SIGIR conference on research and development in information retrieval (pp. 927–937).",
+          "DOI": "10.1145/3477495.3531757"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dettmers, T., Minervini, P., Stenetorp, P., & Riedel, S. (2018). Convolutional 2D knowledge graph embeddings. In Proceedings of the AAAI conference on artificial intelligence (pp. 1811–1818).",
+          "DOI": "10.1609/aaai.v32i1.11573"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b11",
+          "unstructured": "Finn, C., Abbeel, P., & Levine, S. (2017). Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks. In Proceedings of the 34th international conference on machine learning (pp. 1126–1135)."
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Galárraga, L. A., Teflioudi, C., Hose, K., & Suchanek, F. (2013). AMIE: association rule mining under incomplete evidence in ontological knowledge bases. In Proceedings of the 22nd international conference on world wide web (pp. 413–422).",
+          "DOI": "10.1145/2488388.2488425"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "He, S., Liu, K., Ji, G., & Zhao, J. (2015). Learning to Represent Knowledge Graphs with Gaussian Embedding. In Proceedings of the 24th ACM international on conference on information and knowledge management (pp. 623–632).",
+          "DOI": "10.1145/2806416.2806502"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Huang, X., & Belongie, S. (2017). Arbitrary style transfer in real-time with adaptive instance normalization. In Proceedings of the IEEE international conference on computer vision (pp. 1501–1510).",
+          "DOI": "10.1109/ICCV.2017.167"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.neunet.2024.107103_b15",
+          "doi-asserted-by": "crossref",
+          "first-page": "457",
+          "DOI": "10.1007/s10994-021-05946-3",
+          "article-title": "Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods",
+          "volume": "110",
+          "author": "Hüllermeier",
+          "year": "2021",
+          "journal-title": "Machine Learning"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kertkeidkachorn, N., Liu, X., & Ichise, R. (2020). Gtranse: Generalizing translation-based model on uncertain knowledge graph embedding. In Advances in artificial intelligence: selected papers from the annual conference of Japanese society of artificial intelligence (pp. 170–178).",
+          "DOI": "10.1007/978-3-030-39878-1_16"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b17",
+          "unstructured": "Kipf, T. N., & Welling, M. (2017). Semi-Supervised Classification with Graph Convolutional Networks. In International conference on learning representations."
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b18",
+          "unstructured": "Li, X., Dai, Y., Ge, Y., Liu, J., Shan, Y., & Duan, L. (2022). Uncertainty Modeling for Out-of-Distribution Generalization. In The tenth international conference on learning representations."
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, Q., Joty, S., Wang, D., Feng, S., Zhang, Y., & Qin, C. (2023). Contrastive Learning with Generated Representations for Inductive Knowledge Graph Embedding. In Findings of the association for computational linguistics (pp. 14273–14287).",
+          "DOI": "10.18653/v1/2023.findings-acl.900"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lin, Q., Liu, J., Xu, F., Pan, Y., Zhu, Y., Zhang, L., & Zhao, T. (2022). Incorporating context graph with logical reasoning for inductive relation prediction. In Proceedings of the 45th international ACM SIGIR conference on research and development in information retrieval (pp. 893–903).",
+          "DOI": "10.1145/3477495.3531996"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mai, S., Zheng, S., Yang, Y., & Hu, H. (2021). Communicative message passing for inductive relation reasoning. In Proceedings of the AAAI conference on artificial intelligence (pp. 4294–4302).",
+          "DOI": "10.1609/aaai.v35i5.16554"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Meilicke, C., Chekol, M. W., Ruffinelli, D., & Stuckenschmidt, H. (2019). Anytime Bottom-Up Rule Learning for Knowledge Graph Completion. In Proceedings of the 28th international joint conference on artificial intelligence (pp. 3137–3143).",
+          "DOI": "10.24963/ijcai.2019/435"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Meilicke, C., Fink, M., Wang, Y., Ruffinelli, D., Gemulla, R., & Stuckenschmidt, H. (2018). Fine-grained evaluation of rule-and embedding-based systems for knowledge graph completion. In The semantic web–ISWC 2018: 17th international semantic web conference (pp. 3–20).",
+          "DOI": "10.1007/978-3-030-00671-6_1"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.neunet.2024.107103_b24",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1145/3424672",
+          "article-title": "Knowledge graph embedding for link prediction: A comparative analysis",
+          "volume": "15",
+          "author": "Rossi",
+          "year": "2021",
+          "journal-title": "ACM Transactions on Knowledge Discovery from Data (TKDD)"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b25",
+          "series-title": "Advances in neural information processing systems",
+          "first-page": "15347",
+          "article-title": "DRUM: end-to-end differentiable rule mining on knowledge graphs",
+          "author": "Sadeghian",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schlichtkrull, M., Kipf, T. N., Bloem, P., Van Den Berg, R., Titov, I., & Welling, M. (2018). Modeling relational data with graph convolutional networks. In Proceedings of the 15th international semantic web conference (pp. 593–607).",
+          "DOI": "10.1007/978-3-319-93417-4_38"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shang, C., Tang, Y., Huang, J., Bi, J., He, X., & Zhou, B. (2019). End-to-end structure-aware convolutional networks for knowledge base completion. In Proceedings of the AAAI conference on artificial intelligence (pp. 3060–3067).",
+          "DOI": "10.1609/aaai.v33i01.33013060"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b28",
+          "unstructured": "Sun, Z., Deng, Z.-H., Nie, J.-Y., & Tang, J. (2018). RotatE: Knowledge Graph Embedding by Relational Rotation in Complex Space. In International conference on learning representations."
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b29",
+          "unstructured": "Teru, K., Denis, E., & Hamilton, W. (2020). Inductive relation prediction by subgraph reasoning. In International conference on machine learning (pp. 9448–9457)."
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b30",
+          "unstructured": "Trouillon, T., Welbl, J., Riedel, S., Gaussier, E., & Bouchard, G. (2016). Complex Embeddings for Simple Link Prediction. In Proceedings of the 33rd international conference on machine learning (pp. 2071–2080)."
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b31",
+          "unstructured": "Vashishth, S., Sanyal, S., Nitin, V., & Talukdar, P. (2020). Composition-based Multi-Relational Graph Convolutional Networks. In International conference on learning representations."
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, P., Han, J., Li, C., & Pan, R. (2019). Logic attention based neighborhood aggregation for inductive knowledge graph embedding. In Proceedings of the AAAI conference on artificial intelligence (pp. 7152–7159).",
+          "DOI": "10.1609/aaai.v33i01.33017152"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, Z., Li, Y., Guo, Y., Fang, L., & Wang, S. (2021). Data-uncertainty guided multi-phase learning for semi-supervised object detection. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition (pp. 4568–4577).",
+          "DOI": "10.1109/CVPR46437.2021.00454"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.neunet.2024.107103_b34",
+          "doi-asserted-by": "crossref",
+          "first-page": "2724",
+          "DOI": "10.1109/TKDE.2017.2754499",
+          "article-title": "Knowledge graph embedding: A survey of approaches and applications",
+          "volume": "29",
+          "author": "Wang",
+          "year": "2017",
+          "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, B., Shen, T., Long, G., Zhou, T., Wang, Y., & Chang, Y. (2021). Structure-augmented text representation learning for efficient knowledge graph completion. In Proceedings of the web conference 2021 (pp. 1737–1748).",
+          "DOI": "10.1145/3442381.3450043"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, F., Zhang, Z., Sun, L., Ye, J., & Yan, Y. (2022). DiriE: Knowledge Graph Embedding with Dirichlet Distribution. In Proceedings of the ACM web conference 2022 (pp. 3082–3091).",
+          "DOI": "10.1145/3485447.3512028"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xiao, C., He, X., & Cao, Y. (2023). Knowledge graph embedding by normalizing flows. In Proceedings of the AAAI conference on artificial intelligence (pp. 4756–4764).",
+          "DOI": "10.1609/aaai.v37i4.25600"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xiao, H., Huang, M., & Zhu, X. (2016). TransG: A Generative Model for Knowledge Graph Embedding. In Proceedings of the 54th annual meeting of the association for computational linguistics (pp. 2316–2325).",
+          "DOI": "10.18653/v1/P16-1219"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xiao, Y., & Wang, W. Y. (2019). Quantifying uncertainties in natural language processing tasks. In Proceedings of the AAAI conference on artificial intelligence (pp. 7322–7329).",
+          "DOI": "10.1609/aaai.v33i01.33017322"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xie, R., Liu, Z., Lin, F., & Lin, L. (2018). Does william shakespeare really write hamlet? knowledge representation learning with confidence. In Proceedings of the AAAI conference on artificial intelligence.",
+          "DOI": "10.1609/aaai.v32i1.11924"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xu, X., Zhang, P., He, Y., Chao, C., & Yan, C. (2022). Subgraph Neighboring Relations Infomax for Inductive Link Prediction on Knowledge Graphs. In Proceedings of the thirty-first international joint conference on artificial intelligence (pp. 2341–2347).",
+          "DOI": "10.24963/ijcai.2022/325"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b42",
+          "unstructured": "Yan, Z., Ma, T., Gao, L., Tang, Z., & Chen, C. (2022). Cycle representation learning for inductive relation prediction. In International conference on machine learning (pp. 24895–24910)."
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b43",
+          "series-title": "Advances in neural information processing systems",
+          "first-page": "2319",
+          "article-title": "Differentiable learning of logical rules for knowledge base reasoning",
+          "author": "Yang",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b44",
+          "unstructured": "Yang, B., Yih, S. W.-t., He, X., Gao, J., & Deng, L. (2015). Embedding Entities and Relations for Learning and Inference in Knowledge Bases. In Proceedings of the international conference on learning representations."
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b45",
+          "doi-asserted-by": "crossref",
+          "first-page": "679",
+          "DOI": "10.1016/j.ins.2022.07.098",
+          "article-title": "Approximate inferring with confidence predicting based on uncertain knowledge graph embedding",
+          "volume": "609",
+          "author": "Yang",
+          "year": "2022",
+          "journal-title": "Information Sciences"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b46",
+          "unstructured": "Zeng, H., Zhou, H., Srivastava, A., Kannan, R., & Prasanna, V. (2020). GraphSAINT: Graph Sampling Based Inductive Learning Method. In International conference on learning representations."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.neunet.2024.107103_b47",
+          "doi-asserted-by": "crossref",
+          "first-page": "835",
+          "DOI": "10.1109/TFUZZ.2022.3190633",
+          "article-title": "Fuzzy RDF knowledge graph embeddings through vector space model",
+          "volume": "31",
+          "author": "Zhang",
+          "year": "2023",
+          "journal-title": "IEEE Transactions on Fuzzy Systems"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.107103_b48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, J., Wu, T., & Qi, G. (2021). Gaussian metric learning for few-shot uncertain knowledge graph completion. In Database systems for advanced applications: 26th international conference, DASFAA 2021 (pp. 256–271).",
+          "DOI": "10.1007/978-3-030-73194-6_18"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.neunet.2024.107103_b49",
+          "doi-asserted-by": "crossref",
+          "first-page": "822",
+          "DOI": "10.1007/s11263-023-01913-8",
+          "article-title": "Mixstyle neural networks for domain generalization and adaptation",
+          "volume": "132",
+          "author": "Zhou",
+          "year": "2024",
+          "journal-title": "International Journal of Computer Vision"
+        }
+      ],
+      "container-title": [
+        "Neural Networks"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0893608024010323?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0893608024010323?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            5
+          ]
+        ],
+        "date-time": "2025-11-05T04:11:38Z",
+        "timestamp": 1762315898000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0893608024010323"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            4
+          ]
+        ]
+      },
+      "references-count": 49,
+      "alternative-id": [
+        "S0893608024010323"
+      ],
+      "URL": "https://doi.org/10.1016/j.neunet.2024.107103",
+      "relation": {},
+      "ISSN": [
+        "0893-6080"
+      ],
+      "issn-type": [
+        {
+          "value": "0893-6080",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            4
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Uncertainty modeling for inductive knowledge graph embedding",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Neural Networks",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.neunet.2024.107103",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "107103"
+    }
+  }
+}

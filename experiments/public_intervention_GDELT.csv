@@ -1,0 +1,2 @@
+dataset,n_queries,overall_flip_rate,low_certificate_flip_rate,high_certificate_flip_rate,certificate_flip_corr,median_certificate,winner_accuracy,mean_bin_flip_rate
+GDELT,2997,0.44544544544544545,0.4252336448598131,0.4656437625083389,0.14162690549983487,0.5951884844152974,0.19552886219552887,0.23747565445775454

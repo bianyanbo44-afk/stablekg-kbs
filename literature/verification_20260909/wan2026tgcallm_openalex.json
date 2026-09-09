@@ -1,0 +1,981 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1609/aaai.v40i18.38612",
+  "retrieved_utc": "2026-09-09T03:17:10.903167+00:00",
+  "response": {
+    "id": "https://openalex.org/W7137831594",
+    "doi": "https://doi.org/10.1609/aaai.v40i18.38612",
+    "title": "TGCA-LLM: Time-Aware Graph-Text Contrastive Alignment for Enhancing LLMs in Temporal Knowledge Graph Completion",
+    "display_name": "TGCA-LLM: Time-Aware Graph-Text Contrastive Alignment for Enhancing LLMs in Temporal Knowledge Graph Completion",
+    "publication_year": 2026,
+    "publication_date": "2026-03-14",
+    "ids": {
+      "openalex": "https://openalex.org/W7137831594",
+      "doi": "https://doi.org/10.1609/aaai.v40i18.38612"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1609/aaai.v40i18.38612",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1609/aaai.v40i18.38612",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210191458",
+        "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "issn_l": "2159-5399",
+        "issn": [
+          "2159-5399",
+          "2374-3468"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320058",
+        "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320058"
+        ],
+        "host_organization_lineage_names": [
+          "Association for the Advancement of Artificial Intelligence"
+        ],
+        "type": "conference"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "raw_type": "journal-article"
+    },
+    "type": "conference-paper",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://doi.org/10.1609/aaai.v40i18.38612",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5101389405",
+          "display_name": "Zexuan Wan",
+          "orcid": "https://orcid.org/0009-0009-0496-9656"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I139759216",
+            "display_name": "Beijing University of Posts and Telecommunications",
+            "ror": "https://ror.org/04w9fbh59",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I139759216"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zexuan Wan",
+        "raw_affiliation_strings": [
+          "Beijing Key Laboratory of Intelligent Telecommunications Software and Multimedia,\nSchool of Computer Science (National Pilot Software Engineering School),\nBeijing University of Posts and Telecommunications, Beijing 100876, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Beijing Key Laboratory of Intelligent Telecommunications Software and Multimedia,\nSchool of Computer Science (National Pilot Software Engineering School),\nBeijing University of Posts and Telecommunications, Beijing 100876, China",
+            "institution_ids": [
+              "https://openalex.org/I139759216"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5129647016",
+          "display_name": "Bo Wang",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I139759216",
+            "display_name": "Beijing University of Posts and Telecommunications",
+            "ror": "https://ror.org/04w9fbh59",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I139759216"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Bo Wang",
+        "raw_affiliation_strings": [
+          "Beijing Key Laboratory of Intelligent Telecommunications Software and Multimedia,\nSchool of Computer Science (National Pilot Software Engineering School),\nBeijing University of Posts and Telecommunications, Beijing 100876, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Beijing Key Laboratory of Intelligent Telecommunications Software and Multimedia,\nSchool of Computer Science (National Pilot Software Engineering School),\nBeijing University of Posts and Telecommunications, Beijing 100876, China",
+            "institution_ids": [
+              "https://openalex.org/I139759216"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5125742154",
+          "display_name": "Kuofei Fang",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I139759216",
+            "display_name": "Beijing University of Posts and Telecommunications",
+            "ror": "https://ror.org/04w9fbh59",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I139759216"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kuofei Fang",
+        "raw_affiliation_strings": [
+          "Beijing Key Laboratory of Intelligent Telecommunications Software and Multimedia,\nSchool of Computer Science (National Pilot Software Engineering School),\nBeijing University of Posts and Telecommunications, Beijing 100876, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Beijing Key Laboratory of Intelligent Telecommunications Software and Multimedia,\nSchool of Computer Science (National Pilot Software Engineering School),\nBeijing University of Posts and Telecommunications, Beijing 100876, China",
+            "institution_ids": [
+              "https://openalex.org/I139759216"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5129713363",
+          "display_name": "Bin Wu",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I139759216",
+            "display_name": "Beijing University of Posts and Telecommunications",
+            "ror": "https://ror.org/04w9fbh59",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I139759216"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Bin Wu",
+        "raw_affiliation_strings": [
+          "Beijing Key Laboratory of Intelligent Telecommunications Software and Multimedia,\nSchool of Computer Science (National Pilot Software Engineering School),\nBeijing University of Posts and Telecommunications, Beijing 100876, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Beijing Key Laboratory of Intelligent Telecommunications Software and Multimedia,\nSchool of Computer Science (National Pilot Software Engineering School),\nBeijing University of Posts and Telecommunications, Beijing 100876, China",
+            "institution_ids": [
+              "https://openalex.org/I139759216"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I139759216"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 11.1082,
+    "has_fulltext": false,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.9554354,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
+    "biblio": {
+      "volume": "40",
+      "issue": "18",
+      "first_page": "15806",
+      "last_page": "15814"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11273",
+      "display_name": "Advanced Graph Neural Networks",
+      "score": 0.9053999781608582,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11273",
+        "display_name": "Advanced Graph Neural Networks",
+        "score": 0.9053999781608582,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10028",
+        "display_name": "Topic Modeling",
+        "score": 0.027000000700354576,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11714",
+        "display_name": "Multimodal Machine Learning Applications",
+        "score": 0.020999999716877937,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/graph",
+        "display_name": "Graph",
+        "score": 0.6434000134468079
+      },
+      {
+        "id": "https://openalex.org/keywords/knowledge-graph",
+        "display_name": "Knowledge graph",
+        "score": 0.5741000175476074
+      },
+      {
+        "id": "https://openalex.org/keywords/knowledge-representation-and-reasoning",
+        "display_name": "Knowledge representation and reasoning",
+        "score": 0.2680000066757202
+      },
+      {
+        "id": "https://openalex.org/keywords/language-model",
+        "display_name": "Language model",
+        "score": 0.2418999969959259
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7117000222206116
+      },
+      {
+        "id": "https://openalex.org/C132525143",
+        "wikidata": "https://www.wikidata.org/wiki/Q141488",
+        "display_name": "Graph",
+        "level": 2,
+        "score": 0.6434000134468079
+      },
+      {
+        "id": "https://openalex.org/C2987255567",
+        "wikidata": "https://www.wikidata.org/wiki/Q33002955",
+        "display_name": "Knowledge graph",
+        "level": 2,
+        "score": 0.5741000175476074
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.5029000043869019
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.31369999051094055
+      },
+      {
+        "id": "https://openalex.org/C80444323",
+        "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+        "display_name": "Theoretical computer science",
+        "level": 1,
+        "score": 0.2994999885559082
+      },
+      {
+        "id": "https://openalex.org/C204321447",
+        "wikidata": "https://www.wikidata.org/wiki/Q30642",
+        "display_name": "Natural language processing",
+        "level": 1,
+        "score": 0.2892000079154968
+      },
+      {
+        "id": "https://openalex.org/C161301231",
+        "wikidata": "https://www.wikidata.org/wiki/Q3478658",
+        "display_name": "Knowledge representation and reasoning",
+        "level": 2,
+        "score": 0.2680000066757202
+      },
+      {
+        "id": "https://openalex.org/C137293760",
+        "wikidata": "https://www.wikidata.org/wiki/Q3621696",
+        "display_name": "Language model",
+        "level": 2,
+        "score": 0.2418999969959259
+      },
+      {
+        "id": "https://openalex.org/C88230418",
+        "wikidata": "https://www.wikidata.org/wiki/Q131476",
+        "display_name": "Graph theory",
+        "level": 2,
+        "score": 0.22450000047683716
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1609/aaai.v40i18.38612",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1609/aaai.v40i18.38612",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210191458",
+          "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "issn_l": "2159-5399",
+          "issn": [
+            "2159-5399",
+            "2374-3468"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310320058",
+          "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320058"
+          ],
+          "host_organization_lineage_names": [
+            "Association for the Advancement of Artificial Intelligence"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:ojs.aaai.org:article/38612",
+        "is_oa": false,
+        "landing_page_url": "https://ojs.aaai.org/index.php/AAAI/article/view/38612",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400155",
+          "display_name": "AAAI Publications (The Association for the Advancement of Artificial Intelligence (AAAI))",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I2801652627",
+          "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+          "host_organization_lineage": [
+            "https://openalex.org/I2801652627"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "2159-5399",
+        "raw_type": "info:eu-repo/semantics/article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1609/aaai.v40i18.38612",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1609/aaai.v40i18.38612",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210191458",
+        "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "issn_l": "2159-5399",
+        "issn": [
+          "2159-5399",
+          "2374-3468"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320058",
+        "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320058"
+        ],
+        "host_organization_lineage_names": [
+          "Association for the Advancement of Artificial Intelligence"
+        ],
+        "type": "conference"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Temporal": [
+        0,
+        19
+      ],
+      "Knowledge": [
+        1,
+        20
+      ],
+      "Graph": [
+        2
+      ],
+      "Completion": [
+        3
+      ],
+      "(TKGC)": [
+        4
+      ],
+      "aims": [
+        5
+      ],
+      "to": [
+        6,
+        65,
+        84,
+        114,
+        143
+      ],
+      "infer": [
+        7
+      ],
+      "missing": [
+        8
+      ],
+      "facts": [
+        9
+      ],
+      "by": [
+        10,
+        39,
+        60,
+        176
+      ],
+      "modeling": [
+        11
+      ],
+      "historical": [
+        12
+      ],
+      "events": [
+        13
+      ],
+      "and": [
+        14,
+        67,
+        73,
+        79,
+        89,
+        129,
+        147
+      ],
+      "latent": [
+        15
+      ],
+      "temporal": [
+        16,
+        88,
+        123,
+        148
+      ],
+      "dependencies": [
+        17
+      ],
+      "in": [
+        18,
+        70,
+        121,
+        159
+      ],
+      "Graphs": [
+        21
+      ],
+      "(TKGs).": [
+        22
+      ],
+      "Recently,": [
+        23
+      ],
+      "TKGC": [
+        24
+      ],
+      "methods": [
+        25,
+        57
+      ],
+      "that": [
+        26,
+        170
+      ],
+      "integrate": [
+        27
+      ],
+      "graph": [
+        28,
+        62,
+        78,
+        119,
+        127,
+        151
+      ],
+      "embeddings": [
+        29,
+        128,
+        152
+      ],
+      "into": [
+        30
+      ],
+      "Large": [
+        31
+      ],
+      "Language": [
+        32
+      ],
+      "Models": [
+        33
+      ],
+      "(LLMs)": [
+        34
+      ],
+      "have": [
+        35
+      ],
+      "shown": [
+        36
+      ],
+      "great": [
+        37
+      ],
+      "promise": [
+        38
+      ],
+      "leveraging": [
+        40
+      ],
+      "the": [
+        41,
+        48,
+        87,
+        122
+      ],
+      "structural": [
+        42,
+        90,
+        146
+      ],
+      "information": [
+        43,
+        91
+      ],
+      "of": [
+        44,
+        52,
+        92
+      ],
+      "TKGs": [
+        45
+      ],
+      "together": [
+        46
+      ],
+      "with": [
+        47,
+        118
+      ],
+      "powerful": [
+        49
+      ],
+      "reasoning": [
+        50,
+        157
+      ],
+      "capabilities": [
+        51,
+        158
+      ],
+      "LLMs.": [
+        53
+      ],
+      "However,": [
+        54
+      ],
+      "these": [
+        55,
+        96
+      ],
+      "embedding-based": [
+        56,
+        103
+      ],
+      "are": [
+        58
+      ],
+      "limited": [
+        59
+      ],
+      "suboptimal": [
+        61
+      ],
+      "representations": [
+        63
+      ],
+      "due": [
+        64
+      ],
+      "noise": [
+        66
+      ],
+      "long-tail": [
+        68
+      ],
+      "issues": [
+        69
+      ],
+      "real-world": [
+        71,
+        167
+      ],
+      "scenarios,": [
+        72
+      ],
+      "insufficient": [
+        74
+      ],
+      "cross-modal": [
+        75,
+        132,
+        156
+      ],
+      "alignment": [
+        76
+      ],
+      "between": [
+        77
+      ],
+      "language,": [
+        80
+      ],
+      "hindering": [
+        81
+      ],
+      "LLMs'": [
+        82
+      ],
+      "ability": [
+        83
+      ],
+      "fully": [
+        85
+      ],
+      "capture": [
+        86
+      ],
+      "TKGs.": [
+        93
+      ],
+      "To": [
+        94
+      ],
+      "address": [
+        95
+      ],
+      "issues,": [
+        97
+      ],
+      "we": [
+        98
+      ],
+      "propose": [
+        99
+      ],
+      "TGCA-LLM,": [
+        100
+      ],
+      "a": [
+        101,
+        136
+      ],
+      "novel": [
+        102
+      ],
+      "framework": [
+        104
+      ],
+      "for": [
+        105
+      ],
+      "TKGC.": [
+        106,
+        160
+      ],
+      "Specifically,": [
+        107
+      ],
+      "TGCA-LLM": [
+        108,
+        171
+      ],
+      "first": [
+        109
+      ],
+      "employs": [
+        110
+      ],
+      "time-aware": [
+        111
+      ],
+      "contrastive": [
+        112
+      ],
+      "learning": [
+        113
+      ],
+      "align": [
+        115
+      ],
+      "fact": [
+        116
+      ],
+      "texts": [
+        117
+      ],
+      "structures": [
+        120
+      ],
+      "dimension,": [
+        124
+      ],
+      "generating": [
+        125
+      ],
+      "robust": [
+        126
+      ],
+      "establishing": [
+        130
+      ],
+      "initial": [
+        131
+      ],
+      "alignment.": [
+        133
+      ],
+      "Then,": [
+        134
+      ],
+      "through": [
+        135
+      ],
+      "two-stage": [
+        137
+      ],
+      "tuning": [
+        138
+      ],
+      "process,": [
+        139
+      ],
+      "it": [
+        140
+      ],
+      "enables": [
+        141
+      ],
+      "LLMs": [
+        142
+      ],
+      "gradually": [
+        144
+      ],
+      "acquire": [
+        145
+      ],
+      "knowledge": [
+        149
+      ],
+      "from": [
+        150
+      ],
+      "while": [
+        153
+      ],
+      "enhancing": [
+        154
+      ],
+      "their": [
+        155
+      ],
+      "Extensive": [
+        161
+      ],
+      "experiments": [
+        162
+      ],
+      "on": [
+        163
+      ],
+      "three": [
+        164
+      ],
+      "widely": [
+        165
+      ],
+      "used": [
+        166
+      ],
+      "benchmarks": [
+        168
+      ],
+      "demonstrate": [
+        169
+      ],
+      "outperforms": [
+        172
+      ],
+      "state-of-the-art": [
+        173
+      ],
+      "(SOTA)": [
+        174
+      ],
+      "baselines": [
+        175
+      ],
+      "at": [
+        177
+      ],
+      "least": [
+        178
+      ],
+      "8.7%": [
+        179
+      ],
+      "MRR,": [
+        180
+      ],
+      "highlighting": [
+        181
+      ],
+      "its": [
+        182
+      ],
+      "effectiveness.": [
+        183
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-09-03T10:48:47.769340",
+    "created_date": "2026-03-18T00:00:00"
+  }
+}

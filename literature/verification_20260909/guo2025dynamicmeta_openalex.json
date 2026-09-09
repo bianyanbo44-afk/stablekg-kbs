@@ -1,0 +1,805 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.neunet.2024.106805",
+  "retrieved_utc": "2026-09-09T03:17:08.477041+00:00",
+  "response": {
+    "id": "https://openalex.org/W4403548140",
+    "doi": "https://doi.org/10.1016/j.neunet.2024.106805",
+    "title": "Dynamic meta-graph convolutional recurrent network for heterogeneous spatiotemporal graph forecasting",
+    "display_name": "Dynamic meta-graph convolutional recurrent network for heterogeneous spatiotemporal graph forecasting",
+    "publication_year": 2024,
+    "publication_date": "2024-10-18",
+    "ids": {
+      "openalex": "https://openalex.org/W4403548140",
+      "doi": "https://doi.org/10.1016/j.neunet.2024.106805",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/39454370"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.neunet.2024.106805",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.neunet.2024.106805",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S123019304",
+        "display_name": "Neural Networks",
+        "issn_l": "0893-6080",
+        "issn": [
+          "0893-6080",
+          "1879-2782"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Neural Networks",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5000252053",
+          "display_name": "Xianwei Guo",
+          "orcid": "https://orcid.org/0000-0002-8210-4094"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I80947539",
+            "display_name": "Fuzhou University",
+            "ror": "https://ror.org/011xvna82",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I80947539"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xianwei Guo",
+        "raw_affiliation_strings": [
+          "College of Computer and Data Science, Fuzhou University, WuLong Jiang North Avenue, University Town, Fuzhou, 350108, China; Engineering Research Center of Big Data Intelligence, Ministry of Education, Fuzhou University, WuLong Jiang North Avenue, University Town, Fuzhou, 350108, China. Electronic address: 210310007@fzu.edu.cn"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-8210-4094",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer and Data Science, Fuzhou University, WuLong Jiang North Avenue, University Town, Fuzhou, 350108, China; Engineering Research Center of Big Data Intelligence, Ministry of Education, Fuzhou University, WuLong Jiang North Avenue, University Town, Fuzhou, 350108, China. Electronic address: 210310007@fzu.edu.cn",
+            "institution_ids": [
+              "https://openalex.org/I80947539"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5010494139",
+          "display_name": "Zhiyong Yu",
+          "orcid": "https://orcid.org/0000-0002-2051-9462"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I80947539",
+            "display_name": "Fuzhou University",
+            "ror": "https://ror.org/011xvna82",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I80947539"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Zhiyong Yu",
+        "raw_affiliation_strings": [
+          "College of Computer and Data Science, Fuzhou University, WuLong Jiang North Avenue, University Town, Fuzhou, 350108, China; Engineering Research Center of Big Data Intelligence, Ministry of Education, Fuzhou University, WuLong Jiang North Avenue, University Town, Fuzhou, 350108, China. Electronic address: yuzhiyong@fzu.edu.cn"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-2051-9462",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer and Data Science, Fuzhou University, WuLong Jiang North Avenue, University Town, Fuzhou, 350108, China; Engineering Research Center of Big Data Intelligence, Ministry of Education, Fuzhou University, WuLong Jiang North Avenue, University Town, Fuzhou, 350108, China. Electronic address: yuzhiyong@fzu.edu.cn",
+            "institution_ids": [
+              "https://openalex.org/I80947539"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5075061661",
+          "display_name": "Fangwan Huang",
+          "orcid": "https://orcid.org/0000-0001-9878-1893"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I80947539",
+            "display_name": "Fuzhou University",
+            "ror": "https://ror.org/011xvna82",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I80947539"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Fangwan Huang",
+        "raw_affiliation_strings": [
+          "College of Computer and Data Science, Fuzhou University, WuLong Jiang North Avenue, University Town, Fuzhou, 350108, China; Engineering Research Center of Big Data Intelligence, Ministry of Education, Fuzhou University, WuLong Jiang North Avenue, University Town, Fuzhou, 350108, China. Electronic address: hfw@fzu.edu.cn"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-9878-1893",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer and Data Science, Fuzhou University, WuLong Jiang North Avenue, University Town, Fuzhou, 350108, China; Engineering Research Center of Big Data Intelligence, Ministry of Education, Fuzhou University, WuLong Jiang North Avenue, University Town, Fuzhou, 350108, China. Electronic address: hfw@fzu.edu.cn",
+            "institution_ids": [
+              "https://openalex.org/I80947539"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5103252544",
+          "display_name": "Xing Chen",
+          "orcid": "https://orcid.org/0000-0001-8570-4987"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I80947539",
+            "display_name": "Fuzhou University",
+            "ror": "https://ror.org/011xvna82",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I80947539"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xing Chen",
+        "raw_affiliation_strings": [
+          "College of Computer and Data Science, Fuzhou University, WuLong Jiang North Avenue, University Town, Fuzhou, 350108, China; Engineering Research Center of Big Data Intelligence, Ministry of Education, Fuzhou University, WuLong Jiang North Avenue, University Town, Fuzhou, 350108, China. Electronic address: chenxing@fzu.edu.cn"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer and Data Science, Fuzhou University, WuLong Jiang North Avenue, University Town, Fuzhou, 350108, China; Engineering Research Center of Big Data Intelligence, Ministry of Education, Fuzhou University, WuLong Jiang North Avenue, University Town, Fuzhou, 350108, China. Electronic address: chenxing@fzu.edu.cn",
+            "institution_ids": [
+              "https://openalex.org/I80947539"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5026625771",
+          "display_name": "Dingqi Yang",
+          "orcid": "https://orcid.org/0000-0002-6831-0422"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I204512498",
+            "display_name": "University of Macau",
+            "ror": "https://ror.org/01r4q9n85",
+            "country_code": "MO",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I204512498"
+            ]
+          }
+        ],
+        "countries": [
+          "MO"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Dingqi Yang",
+        "raw_affiliation_strings": [
+          "Department of Computer and Information Science, University of Macau, Avenida da Universidade, Taipa, Macao Special Administrative Region of China. Electronic address: dingqiyang@um.edu.mo"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-6831-0422",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer and Information Science, University of Macau, Avenida da Universidade, Taipa, Macao Special Administrative Region of China. Electronic address: dingqiyang@um.edu.mo",
+            "institution_ids": [
+              "https://openalex.org/I204512498"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5100682896",
+          "display_name": "Jiangtao Wang",
+          "orcid": "https://orcid.org/0000-0002-8704-502X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I73417466",
+            "display_name": "Coventry University",
+            "ror": "https://ror.org/01tgmhj36",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I73417466"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiangtao Wang",
+        "raw_affiliation_strings": [
+          "Research Centre for Intelligent Healthcare, Coventry University, Priory Street, Coventry, United Kingdom. Electronic address: jiangtao.wang@coventry.ac.uk"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-8704-502X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Research Centre for Intelligent Healthcare, Coventry University, Priory Street, Coventry, United Kingdom. Electronic address: jiangtao.wang@coventry.ac.uk",
+            "institution_ids": [
+              "https://openalex.org/I73417466"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5010494139"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I80947539"
+    ],
+    "apc_list": {
+      "value": 3350,
+      "currency": "USD",
+      "value_usd": 3350
+    },
+    "apc_paid": null,
+    "fwci": 3.3883,
+    "has_fulltext": false,
+    "cited_by_count": 17,
+    "citation_normalized_percentile": {
+      "value": 0.93709742,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 98,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "181",
+      "issue": null,
+      "first_page": "106805",
+      "last_page": "106805"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11106",
+      "display_name": "Data Management and Algorithms",
+      "score": 0.9984999895095825,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1711",
+        "display_name": "Signal Processing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11106",
+        "display_name": "Data Management and Algorithms",
+        "score": 0.9984999895095825,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1711",
+          "display_name": "Signal Processing"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11344",
+        "display_name": "Traffic Prediction and Management Techniques",
+        "score": 0.998199999332428,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2215",
+          "display_name": "Building and Construction"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10064",
+        "display_name": "Complex Network Analysis Techniques",
+        "score": 0.9836000204086304,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.7019252181053162
+      },
+      {
+        "id": "https://openalex.org/keywords/graph",
+        "display_name": "Graph",
+        "score": 0.6559500694274902
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.4176878035068512
+      },
+      {
+        "id": "https://openalex.org/keywords/theoretical-computer-science",
+        "display_name": "Theoretical computer science",
+        "score": 0.3282700777053833
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7019252181053162
+      },
+      {
+        "id": "https://openalex.org/C132525143",
+        "wikidata": "https://www.wikidata.org/wiki/Q141488",
+        "display_name": "Graph",
+        "level": 2,
+        "score": 0.6559500694274902
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.4176878035068512
+      },
+      {
+        "id": "https://openalex.org/C80444323",
+        "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+        "display_name": "Theoretical computer science",
+        "level": 1,
+        "score": 0.3282700777053833
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D000077321",
+        "descriptor_name": "Deep Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000077321",
+        "descriptor_name": "Deep Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000077321",
+        "descriptor_name": "Deep Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005544",
+        "descriptor_name": "Forecasting",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005544",
+        "descriptor_name": "Forecasting",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005544",
+        "descriptor_name": "Forecasting",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D016571",
+        "descriptor_name": "Neural Networks, Computer",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D016571",
+        "descriptor_name": "Neural Networks, Computer",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D016571",
+        "descriptor_name": "Neural Networks, Computer",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D057225",
+        "descriptor_name": "Data Mining",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D057225",
+        "descriptor_name": "Data Mining",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D057225",
+        "descriptor_name": "Data Mining",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D062211",
+        "descriptor_name": "Spatio-Temporal Analysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D062211",
+        "descriptor_name": "Spatio-Temporal Analysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D062211",
+        "descriptor_name": "Spatio-Temporal Analysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      }
+    ],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.neunet.2024.106805",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.neunet.2024.106805",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S123019304",
+          "display_name": "Neural Networks",
+          "issn_l": "0893-6080",
+          "issn": [
+            "0893-6080",
+            "1879-2782"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Neural Networks",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:39454370",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39454370",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Neural networks : the official journal of the International Neural Network Society",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:pure.atira.dk:publications/d137aad1-14e6-4331-8170-9216b4b7dfd7",
+        "is_oa": false,
+        "landing_page_url": "https://pureportal.coventry.ac.uk/en/publications/d137aad1-14e6-4331-8170-9216b4b7dfd7",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402411",
+          "display_name": "Pure (Coventry University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I73417466",
+          "host_organization_name": "Coventry University",
+          "host_organization_lineage": [
+            "https://openalex.org/I73417466"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Guo, X, Yu, Z, Huang, F, Chen, X, Yang, D & Wang, J 2025, 'Dynamic meta-graph convolutional recurrent network for heterogeneous spatiotemporal graph forecasting', Neural Networks, vol. 181, 106805. https://doi.org/10.1016/j.neunet.2024.106805",
+        "raw_type": "info:eu-repo/semantics/article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/13",
+        "score": 0.5199999809265137,
+        "display_name": "Climate action"
+      }
+    ],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320322841",
+        "display_name": "Universidade de Macau",
+        "ror": "https://ror.org/01r4q9n85"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 62,
+    "referenced_works": [
+      "https://openalex.org/W43001522",
+      "https://openalex.org/W648786980",
+      "https://openalex.org/W1485009520",
+      "https://openalex.org/W1522301498",
+      "https://openalex.org/W1662382123",
+      "https://openalex.org/W1973943669",
+      "https://openalex.org/W1983883318",
+      "https://openalex.org/W2101491865",
+      "https://openalex.org/W2130942839",
+      "https://openalex.org/W2157331557",
+      "https://openalex.org/W2315455726",
+      "https://openalex.org/W2519091744",
+      "https://openalex.org/W2528639018",
+      "https://openalex.org/W2768975186",
+      "https://openalex.org/W2903871660",
+      "https://openalex.org/W2904832339",
+      "https://openalex.org/W2963341924",
+      "https://openalex.org/W2963358464",
+      "https://openalex.org/W2963840672",
+      "https://openalex.org/W2964015378",
+      "https://openalex.org/W2964199361",
+      "https://openalex.org/W2964321699",
+      "https://openalex.org/W2965341826",
+      "https://openalex.org/W2980537499",
+      "https://openalex.org/W2987228832",
+      "https://openalex.org/W2996847713",
+      "https://openalex.org/W2997848713",
+      "https://openalex.org/W2998436408",
+      "https://openalex.org/W3000386982",
+      "https://openalex.org/W3007845852",
+      "https://openalex.org/W3038981236",
+      "https://openalex.org/W3080253043",
+      "https://openalex.org/W3088611441",
+      "https://openalex.org/W3103720336",
+      "https://openalex.org/W3108376771",
+      "https://openalex.org/W3115700835",
+      "https://openalex.org/W3128461917",
+      "https://openalex.org/W3135138557",
+      "https://openalex.org/W3139204882",
+      "https://openalex.org/W3158304688",
+      "https://openalex.org/W3207461654",
+      "https://openalex.org/W3210546159",
+      "https://openalex.org/W3213170289",
+      "https://openalex.org/W4306317966",
+      "https://openalex.org/W4312703862",
+      "https://openalex.org/W4382318973",
+      "https://openalex.org/W4382449675",
+      "https://openalex.org/W4385245566",
+      "https://openalex.org/W4387846860",
+      "https://openalex.org/W4388936714",
+      "https://openalex.org/W6621543089",
+      "https://openalex.org/W6628877408",
+      "https://openalex.org/W6679436768",
+      "https://openalex.org/W6717697761",
+      "https://openalex.org/W6720006811",
+      "https://openalex.org/W6739901393",
+      "https://openalex.org/W6745829810",
+      "https://openalex.org/W6768842840",
+      "https://openalex.org/W6780221082",
+      "https://openalex.org/W6786152982",
+      "https://openalex.org/W6794581564",
+      "https://openalex.org/W6851114962"
+    ],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2390279801",
+      "https://openalex.org/W4391913857",
+      "https://openalex.org/W2358668433",
+      "https://openalex.org/W4396701345",
+      "https://openalex.org/W2376932109",
+      "https://openalex.org/W2001405890",
+      "https://openalex.org/W4396696052"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 11
+      }
+    ],
+    "updated_date": "2026-08-29T07:29:34.045763",
+    "created_date": "2025-10-10T00:00:00"
+  }
+}

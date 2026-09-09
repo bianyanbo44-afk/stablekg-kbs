@@ -1,0 +1,537 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.neucom.2026.133496",
+  "retrieved_utc": "2026-09-09T03:17:12.858499+00:00",
+  "response": {
+    "id": "https://openalex.org/W7140987074",
+    "doi": "https://doi.org/10.1016/j.neucom.2026.133496",
+    "title": "Temporal knowledge graph reasoning based on multidimensional information interaction and dynamic frequency awareness",
+    "display_name": "Temporal knowledge graph reasoning based on multidimensional information interaction and dynamic frequency awareness",
+    "publication_year": 2026,
+    "publication_date": "2026-03-27",
+    "ids": {
+      "openalex": "https://openalex.org/W7140987074",
+      "doi": "https://doi.org/10.1016/j.neucom.2026.133496"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.neucom.2026.133496",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.neucom.2026.133496",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S45693802",
+        "display_name": "Neurocomputing",
+        "issn_l": "0925-2312",
+        "issn": [
+          "0925-2312",
+          "1872-8286"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Neurocomputing",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5123783729",
+          "display_name": "Jingbin Wang",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I80947539",
+            "display_name": "Fuzhou University",
+            "ror": "https://ror.org/011xvna82",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I80947539"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jingbin Wang",
+        "raw_affiliation_strings": [
+          "College of Computer and Data Science, Fuzhou University, Fuzhou, 350108, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer and Data Science, Fuzhou University, Fuzhou, 350108, China",
+            "institution_ids": [
+              "https://openalex.org/I80947539"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5130774759",
+          "display_name": "Jinfan Yuan",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I80947539",
+            "display_name": "Fuzhou University",
+            "ror": "https://ror.org/011xvna82",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I80947539"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jinfan Yuan",
+        "raw_affiliation_strings": [
+          "College of Computer and Data Science, Fuzhou University, Fuzhou, 350108, China"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0008-8114-3359",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer and Data Science, Fuzhou University, Fuzhou, 350108, China",
+            "institution_ids": [
+              "https://openalex.org/I80947539"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5113419775",
+          "display_name": "Jinsong Lai",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I80947539",
+            "display_name": "Fuzhou University",
+            "ror": "https://ror.org/011xvna82",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I80947539"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jinsong Lai",
+        "raw_affiliation_strings": [
+          "College of Computer and Data Science, Fuzhou University, Fuzhou, 350108, China"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0001-3944-4528",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer and Data Science, Fuzhou University, Fuzhou, 350108, China",
+            "institution_ids": [
+              "https://openalex.org/I80947539"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101905312",
+          "display_name": "Fuyuan Zhang",
+          "orcid": "https://orcid.org/0009-0001-6560-5102"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I80947539",
+            "display_name": "Fuzhou University",
+            "ror": "https://ror.org/011xvna82",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I80947539"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Fuyuan Zhang",
+        "raw_affiliation_strings": [
+          "College of Computer and Data Science, Fuzhou University, Fuzhou, 350108, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer and Data Science, Fuzhou University, Fuzhou, 350108, China",
+            "institution_ids": [
+              "https://openalex.org/I80947539"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5130804298",
+          "display_name": "Kun Guo",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I80947539",
+            "display_name": "Fuzhou University",
+            "ror": "https://ror.org/011xvna82",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I80947539"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Kun Guo",
+        "raw_affiliation_strings": [
+          "College of Computer and Data Science, Fuzhou University, Fuzhou, 350108, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-6270-2468",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer and Data Science, Fuzhou University, Fuzhou, 350108, China",
+            "institution_ids": [
+              "https://openalex.org/I80947539"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5130804298"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I80947539"
+    ],
+    "apc_list": {
+      "value": 2670,
+      "currency": "USD",
+      "value_usd": 2670
+    },
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.27018681,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "682",
+      "issue": null,
+      "first_page": "133496",
+      "last_page": "133496"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11273",
+      "display_name": "Advanced Graph Neural Networks",
+      "score": 0.7867000102996826,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11273",
+        "display_name": "Advanced Graph Neural Networks",
+        "score": 0.7867000102996826,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12292",
+        "display_name": "Graph Theory and Algorithms",
+        "score": 0.01860000006854534,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10028",
+        "display_name": "Topic Modeling",
+        "score": 0.016699999570846558,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/knowledge-graph",
+        "display_name": "Knowledge graph",
+        "score": 0.5652999877929688
+      },
+      {
+        "id": "https://openalex.org/keywords/graph",
+        "display_name": "Graph",
+        "score": 0.4936000108718872
+      },
+      {
+        "id": "https://openalex.org/keywords/knowledge-representation-and-reasoning",
+        "display_name": "Knowledge representation and reasoning",
+        "score": 0.3197000026702881
+      },
+      {
+        "id": "https://openalex.org/keywords/multidimensional-data",
+        "display_name": "Multidimensional data",
+        "score": 0.30489999055862427
+      },
+      {
+        "id": "https://openalex.org/keywords/graph-theory",
+        "display_name": "Graph theory",
+        "score": 0.25769999623298645
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7372000217437744
+      },
+      {
+        "id": "https://openalex.org/C2987255567",
+        "wikidata": "https://www.wikidata.org/wiki/Q33002955",
+        "display_name": "Knowledge graph",
+        "level": 2,
+        "score": 0.5652999877929688
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.5174000263214111
+      },
+      {
+        "id": "https://openalex.org/C132525143",
+        "wikidata": "https://www.wikidata.org/wiki/Q141488",
+        "display_name": "Graph",
+        "level": 2,
+        "score": 0.4936000108718872
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.36230000853538513
+      },
+      {
+        "id": "https://openalex.org/C161301231",
+        "wikidata": "https://www.wikidata.org/wiki/Q3478658",
+        "display_name": "Knowledge representation and reasoning",
+        "level": 2,
+        "score": 0.3197000026702881
+      },
+      {
+        "id": "https://openalex.org/C3019022308",
+        "wikidata": "https://www.wikidata.org/wiki/Q1418353",
+        "display_name": "Multidimensional data",
+        "level": 2,
+        "score": 0.30489999055862427
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.2694999873638153
+      },
+      {
+        "id": "https://openalex.org/C88230418",
+        "wikidata": "https://www.wikidata.org/wiki/Q131476",
+        "display_name": "Graph theory",
+        "level": 2,
+        "score": 0.25769999623298645
+      },
+      {
+        "id": "https://openalex.org/C2776291881",
+        "wikidata": "https://www.wikidata.org/wiki/Q6423378",
+        "display_name": "Knowledge level",
+        "level": 2,
+        "score": 0.25380000472068787
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.neucom.2026.133496",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.neucom.2026.133496",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S45693802",
+          "display_name": "Neurocomputing",
+          "issn_l": "0925-2312",
+          "issn": [
+            "0925-2312",
+            "1872-8286"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Neurocomputing",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G1321117299",
+        "display_name": "群智感知车联网的高效数据融合与交通流预测研究",
+        "funder_award_id": "61672159",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G3133988269",
+        "display_name": "融合多元信息的知识补全关键技术研究",
+        "funder_award_id": "2021J01619",
+        "funder_id": "https://openalex.org/F4320321878",
+        "funder_display_name": "Natural Science Foundation of Fujian Province"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320321878",
+        "display_name": "Natural Science Foundation of Fujian Province",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 6,
+    "referenced_works": [
+      "https://openalex.org/W2064675550",
+      "https://openalex.org/W3099845049",
+      "https://openalex.org/W3100254008",
+      "https://openalex.org/W4282974123",
+      "https://openalex.org/W4391951799",
+      "https://openalex.org/W4392505299"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": null,
+    "counts_by_year": [],
+    "updated_date": "2026-08-21T09:56:20.448147",
+    "created_date": "2026-03-28T00:00:00"
+  }
+}

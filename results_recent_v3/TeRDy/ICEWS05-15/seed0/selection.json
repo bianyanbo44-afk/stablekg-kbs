@@ -1,0 +1,51 @@
+{
+  "temperature": 0.9536923483896166,
+  "validation_roles": {
+    "checkpoint": [
+      0,
+      1000
+    ],
+    "fit": [
+      1000,
+      3000
+    ],
+    "tune": [
+      3000,
+      4000
+    ],
+    "operating": [
+      4000,
+      5000
+    ]
+  },
+  "Calibrated score": {
+    "l2": 0.01,
+    "features": [
+      "neural_margin",
+      "neural_max",
+      "neural_softmax"
+    ]
+  },
+  "Entropy": {
+    "l2": 0.01,
+    "features": [
+      "temperature_entropy"
+    ]
+  },
+  "StableKG": {
+    "l2": 0.01,
+    "features": [
+      "neural_margin",
+      "neural_max",
+      "neural_softmax",
+      "log_support",
+      "recency",
+      "certificate",
+      "diversity",
+      "fragility_cost",
+      "counter_evidence_cost",
+      "evidence_alignment"
+    ]
+  },
+  "best_comparator_on_validation": "Calibrated score"
+}

@@ -1,0 +1,625 @@
+{
+  "key": "ye2026dualhistory",
+  "url": "https://api.crossref.org/works/10.1145%2F3774904.3792310",
+  "retrieved_utc": "2026-09-09T03:16:56.066344+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            4
+          ]
+        ],
+        "date-time": "2026-07-04T08:15:04Z",
+        "timestamp": 1783152904977,
+        "version": "3.54.6"
+      },
+      "publisher-location": "New York, NY, USA",
+      "reference-count": 43,
+      "publisher": "ACM",
+      "funder": [
+        {
+          "name": "National Natural Science Foundation of China",
+          "award": [
+            "62476247"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62476247"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "National Natural Science Foundation of China",
+          "award": [
+            "62073295"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62073295"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "National Natural Science Foundation of China",
+          "award": [
+            "62072409"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62072409"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "&#x5c;&quot;Pioneer&#x5c;&quot; and &#x5c;&quot;Leading Goose&#x5c;&quot; R&D Program of Zhejiang",
+          "award": [
+            "2024C01214"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2024C01214"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Zhejiang Provincial Natural Science Foundation",
+          "award": [
+            "LR21F020003"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "LR21F020003"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            13
+          ]
+        ]
+      },
+      "DOI": "10.1145/3774904.3792310",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            9
+          ]
+        ],
+        "date-time": "2026-04-09T21:54:39Z",
+        "timestamp": 1775771679000
+      },
+      "page": "3800-3810",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Dual History Enhancement with Hybrid Hypergraph-Graph Networks for Temporal Knowledge Graph Reasoning"
+      ],
+      "prefix": "10.1145",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0006-2109-487X",
+          "authenticated-orcid": false,
+          "given": "Kailun",
+          "family": "Ye",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2698-3319",
+          "authenticated-orcid": false,
+          "given": "Xiangjie",
+          "family": "Kong",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0008-5499-6815",
+          "authenticated-orcid": false,
+          "given": "Yuchao",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0000-0133-000X",
+          "authenticated-orcid": false,
+          "given": "Xuan",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Education Criminal Justice and Human Services, University of Cincinnati, Cincinnati, OH, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7451-4421",
+          "authenticated-orcid": false,
+          "given": "Linan",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1776-9628",
+          "authenticated-orcid": false,
+          "given": "Jiaxin",
+          "family": "Du",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1064-1250",
+          "authenticated-orcid": false,
+          "given": "Guojiang",
+          "family": "Shen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Computer Science and Technology, Zhejiang University of Technology, Hangzhou, China and Zhejiang Key Laboratory of Visual Information Intelligent Processing, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9059-330X",
+          "authenticated-orcid": false,
+          "given": "Jianxin",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Business and Law, Edith Cowan University, Joondalup, WA, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_1_1_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11280-022-01091-6"
+        },
+        {
+          "key": "e_1_3_2_1_2_1",
+          "volume-title": "Translating embeddings for modeling multi-relational data. Advances in neural information processing systems",
+          "author": "Bordes Antoine",
+          "year": "2013",
+          "unstructured": "Antoine Bordes, Nicolas Usunier, Alberto Garcia-Duran, Jason Weston, and Oksana Yakhnenko. 2013. Translating embeddings for modeling multi-relational data. Advances in neural information processing systems, Vol. 26 (2013)."
+        },
+        {
+          "key": "e_1_3_2_1_3_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7910/DVN/28075)"
+        },
+        {
+          "key": "e_1_3_2_1_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2024.findings-acl.343"
+        },
+        {
+          "key": "e_1_3_2_1_5_1",
+          "first-page": "14806",
+          "volume-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "volume": "39",
+          "author": "Cao Yukun",
+          "year": "2025",
+          "unstructured": "Yukun Cao, Lisheng Wang, and Luobin Huang. 2025. Dpcl-diff: Temporal knowledge graph reasoning based on graph node diffusion model with dual-domain periodic contrastive learning. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 39. 14806-14814."
+        },
+        {
+          "key": "e_1_3_2_1_6_1",
+          "volume-title": "Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence. 3298-3306",
+          "author": "Chen Kai",
+          "year": "2024",
+          "unstructured": "Kai Chen, Ye Wang, Xin Song, Siwei Chen, Han Yu, and Aiping Li. 2024c. Temporal knowledge graph extrapolation via causal subhistory identification. In Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence. 3298-3306."
+        },
+        {
+          "key": "e_1_3_2_1_7_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2024.naacl-long.225"
+        },
+        {
+          "key": "e_1_3_2_1_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.trc.2022.103587"
+        },
+        {
+          "key": "e_1_3_2_1_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.knosys.2022.109951"
+        },
+        {
+          "key": "e_1_3_2_1_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE60146.2024.00062"
+        },
+        {
+          "key": "e_1_3_2_1_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v39i14.33624"
+        },
+        {
+          "key": "e_1_3_2_1_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.24963/ijcai.2017/510"
+        },
+        {
+          "key": "e_1_3_2_1_13_1",
+          "volume-title": "Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio.",
+          "author": "Cho Kyunghyun",
+          "year": "2014",
+          "unstructured": "Kyunghyun Cho, Bart Van Merriënboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio. 2014. Learning phrase representations using RNN encoder-decoder for statistical machine translation. arXiv preprint arXiv:1406.1078 (2014)."
+        },
+        {
+          "key": "e_1_3_2_1_14_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v32i1.11573"
+        },
+        {
+          "key": "e_1_3_2_1_15_1",
+          "first-page": "1",
+          "article-title": "Learning meta-representations of one-shot relations for temporal knowledge graph link prediction. In 2023 international joint conference on neural networks (IJCNN)",
+          "author": "Ding Zifeng",
+          "year": "2023",
+          "unstructured": "Zifeng Ding, Bailan He, Jingpei Wu, Yunpu Ma, Zhen Han, and Volker Tresp. 2023. Learning meta-representations of one-shot relations for temporal knowledge graph link prediction. In 2023 international joint conference on neural networks (IJCNN). IEEE, 1-10.",
+          "journal-title": "IEEE"
+        },
+        {
+          "key": "e_1_3_2_1_16_1",
+          "volume-title": "Human cognitive evolution: What we were, what we are becoming. Social Research",
+          "author": "Donald Merlin",
+          "year": "1993",
+          "unstructured": "Merlin Donald. 1993. Human cognitive evolution: What we were, what we are becoming. Social Research (1993), 143-170."
+        },
+        {
+          "key": "e_1_3_2_1_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/D18-1516"
+        },
+        {
+          "key": "e_1_3_2_1_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2020.emnlp-main.541"
+        },
+        {
+          "key": "e_1_3_2_1_19_1",
+          "first-page": "1",
+          "article-title": "Gdelt: Global data on events, location, and tone, 1979-2012. In ISA annual convention, Vol. 2",
+          "author": "Leetaru Kalev",
+          "year": "2013",
+          "unstructured": "Kalev Leetaru and Philip A Schrodt. 2013. Gdelt: Global data on events, location, and tone, 1979-2012. In ISA annual convention, Vol. 2. Citeseer, 1-49.",
+          "journal-title": "Citeseer"
+        },
+        {
+          "key": "e_1_3_2_1_20_1",
+          "first-page": "2152",
+          "article-title": "TiRGN: Time-Guided Recurrent Graph Network with Local-Global Historical Patterns for Temporal Knowledge Graph Reasoning",
+          "author": "Li Yujia",
+          "year": "2022",
+          "unstructured": "Yujia Li, Shiliang Sun, and Jing Zhao. 2022c. TiRGN: Time-Guided Recurrent Graph Network with Local-Global Historical Patterns for Temporal Knowledge Graph Reasoning.. In IJCAI. 2152-2158.",
+          "journal-title": "IJCAI."
+        },
+        {
+          "key": "e_1_3_2_1_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2022.acl-short.32"
+        },
+        {
+          "key": "e_1_3_2_1_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2022.findings-emnlp.542"
+        },
+        {
+          "key": "e_1_3_2_1_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.acl-long.365"
+        },
+        {
+          "key": "e_1_3_2_1_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3404835.3462963"
+        },
+        {
+          "key": "e_1_3_2_1_25_1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ruotong Liao Xu Jia Yangzhe Li Yunpu Ma and Volker Tresp. 2024. GenTKG: Generative Forecasting on Temporal Knowledge Graph with Large Language Models. In NAACL-HLT (Findings).",
+          "DOI": "10.18653/v1/2024.findings-naacl.268"
+        },
+        {
+          "key": "e_1_3_2_1_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.63317/58bxwv56fpmt"
+        },
+        {
+          "key": "e_1_3_2_1_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSC.2021.3075053"
+        },
+        {
+          "key": "e_1_3_2_1_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/N18-2053"
+        },
+        {
+          "key": "e_1_3_2_1_29_1",
+          "first-page": "3104482",
+          "article-title": "A three-way model for collective learning on multi-relational data",
+          "volume": "11",
+          "author": "Nickel Maximilian",
+          "year": "2011",
+          "unstructured": "Maximilian Nickel, Volker Tresp, Hans-Peter Kriegel, et al., 2011. A three-way model for collective learning on multi-relational data.. In Icml, Vol. 11. 3104482-3104584.",
+          "journal-title": "Icml"
+        },
+        {
+          "key": "e_1_3_2_1_30_1",
+          "first-page": "593",
+          "volume-title": "ESWC 2018, Heraklion, Crete, Greece, June 3-7, 2018, proceedings 15",
+          "author": "Schlichtkrull Michael",
+          "year": "2018",
+          "unstructured": "Michael Schlichtkrull, Thomas N Kipf, Peter Bloem, Rianne Van Den Berg, Ivan Titov, and Max Welling. 2018. Modeling relational data with graph convolutional networks. In The semantic web: 15th international conference, ESWC 2018, Heraklion, Crete, Greece, June 3-7, 2018, proceedings 15. Springer, 593-607."
+        },
+        {
+          "key": "e_1_3_2_1_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v33i01.33013060"
+        },
+        {
+          "key": "e_1_3_2_1_32_1",
+          "volume-title": "Rotate: Knowledge graph embedding by relational rotation in complex space. arXiv preprint arXiv:1902.10197",
+          "author": "Sun Zhiqing",
+          "year": "2019",
+          "unstructured": "Zhiqing Sun, Zhi-Hong Deng, Jian-Yun Nie, and Jian Tang. 2019. Rotate: Knowledge graph embedding by relational rotation in complex space. arXiv preprint arXiv:1902.10197 (2019)."
+        },
+        {
+          "key": "e_1_3_2_1_33_1",
+          "volume-title": "International conference on machine learning. PMLR",
+          "author": "Trouillon Théo",
+          "year": "2016",
+          "unstructured": "Théo Trouillon, Johannes Welbl, Sebastian Riedel, Éric Gaussier, and Guillaume Bouchard. 2016. Complex embeddings for simple link prediction. In International conference on machine learning. PMLR, 2071-2080."
+        },
+        {
+          "key": "e_1_3_2_1_34_1",
+          "volume-title": "Composition-based Multi-Relational Graph Convolutional Networks. In International Conference on Learning Representations.",
+          "author": "Vashishth Shikhar",
+          "year": "2020",
+          "unstructured": "Shikhar Vashishth, Soumya Sanyal, Vikram Nitin, and Partha Talukdar. 2020. Composition-based Multi-Relational Graph Convolutional Networks. In International Conference on Learning Representations."
+        },
+        {
+          "key": "e_1_3_2_1_35_1",
+          "volume-title": "Graph Attention Networks. In International Conference on Learning Representations.",
+          "author": "Veličković Petar",
+          "year": "2018",
+          "unstructured": "Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, and Yoshua Bengio. 2018. Graph Attention Networks. In International Conference on Learning Representations."
+        },
+        {
+          "key": "e_1_3_2_1_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.52202/079017-0269"
+        },
+        {
+          "key": "e_1_3_2_1_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v37i4.25601"
+        },
+        {
+          "key": "e_1_3_2_1_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3589334.3645376"
+        },
+        {
+          "key": "e_1_3_2_1_39_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2023.acl-long.705"
+        },
+        {
+          "key": "e_1_3_2_1_40_1",
+          "volume-title": "A survey on temporal knowledge graph embedding: Models and applications. Knowledge-Based Systems",
+          "author": "Zhang Yuchao",
+          "year": "2024",
+          "unstructured": "Yuchao Zhang, Xiangjie Kong, Zhehui Shen, Jianxin Li, Qiuhua Yi, Guojiang Shen, and Bo Dong. 2024. A survey on temporal knowledge graph embedding: Models and applications. Knowledge-Based Systems (2024), 112454."
+        },
+        {
+          "key": "e_1_3_2_1_41_1",
+          "volume-title": "Tackling Sparse Facts for Temporal Knowledge Graph Completion. In THE WEB CONFERENCE",
+          "author": "Zhang Yuchao",
+          "year": "2025",
+          "unstructured": "Yuchao Zhang, Xiangjie Kong, Kailun Ye, Guojiang Shen, and Shangfei Zheng. 2025. Tackling Sparse Facts for Temporal Knowledge Graph Completion. In THE WEB CONFERENCE 2025."
+        },
+        {
+          "key": "e_1_3_2_1_42_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v35i5.16604"
+        },
+        {
+          "key": "e_1_3_2_1_43_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/jcde/qwad016"
+        }
+      ],
+      "event": {
+        "name": "WWW '26: The ACM Web Conference 2026",
+        "location": "Dubai United Arab Emirates",
+        "sponsor": [
+          "SIGWEB ACM Special Interest Group on Hypertext, Hypermedia, and Web"
+        ]
+      },
+      "container-title": [
+        "Proceedings of the ACM Web Conference 2026"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3774904.3792310",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            4
+          ]
+        ],
+        "date-time": "2026-07-04T07:16:04Z",
+        "timestamp": 1783149364000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/3774904.3792310"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ]
+      },
+      "references-count": 43,
+      "alternative-id": [
+        "10.1145/3774904.3792310",
+        "10.1145/3774904"
+      ],
+      "URL": "https://doi.org/10.1145/3774904.3792310",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2026-04-12",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

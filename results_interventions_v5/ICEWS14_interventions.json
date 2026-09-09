@@ -1,0 +1,22 @@
+{
+  "dataset": "ICEWS14",
+  "n_queries": 3653,
+  "certificate_q25": 0.5,
+  "certificate_q75": 0.6416385204338644,
+  "event_flip_rate": 0.5737749794689296,
+  "low_certificate_event_flip": 0.8413654618473896,
+  "high_certificate_event_flip": 0.0010940919037199124,
+  "certificate_event_survival_spearman": 0.7675954819338418,
+  "certificate_event_survival_p": 0.0,
+  "window_flip_rate": 0.6805365453052286,
+  "low_certificate_window_flip": 0.9979919678714859,
+  "high_certificate_window_flip": 0.0010940919037199124,
+  "certificate_window_survival_spearman": 0.9561707814570153,
+  "certificate_window_survival_p": 0.0,
+  "counter_flip_rate": 0.6542567752532166,
+  "low_certificate_counter_flip": 0.8923694779116466,
+  "high_certificate_counter_flip": 0.11706783369803063,
+  "certificate_counter_survival_spearman": 0.7278212387492475,
+  "certificate_counter_survival_p": 0.0,
+  "winner_accuracy": 0.34191075828086503
+}

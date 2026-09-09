@@ -1,0 +1,821 @@
+{
+  "key": "guo2025mamba",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.knosys.2025.114394",
+  "retrieved_utc": "2026-09-09T03:16:49.751539+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            11
+          ]
+        ],
+        "date-time": "2026-07-11T04:38:48Z",
+        "timestamp": 1783744728203,
+        "version": "3.55.0"
+      },
+      "reference-count": 54,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62272250"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62272250"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100006606",
+          "name": "Natural Science Foundation of Tianjin Municipality",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "22JCJQJC00150"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "22JCJQJC00150"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100006606",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Knowledge-Based Systems"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            11
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.knosys.2025.114394",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            2
+          ]
+        ],
+        "date-time": "2025-09-02T23:45:33Z",
+        "timestamp": 1756856733000
+      },
+      "page": "114394",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "special_numbering": "PB",
+      "title": [
+        "Few-shot temporal knowledge graph completion based on query-adaptive Mamba-enhanced temporal relation learning"
+      ],
+      "prefix": "10.1016",
+      "volume": "329",
+      "author": [
+        {
+          "given": "Xingyue",
+          "family": "Guo",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4906-5828",
+          "authenticated-orcid": false,
+          "given": "Ying",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yu",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Baohang",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xuhui",
+          "family": "Sui",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xinying",
+          "family": "Qian",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaojie",
+          "family": "Yuan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0001",
+          "article-title": "Translating embeddings for modeling multi-relational data",
+          "volume": "26",
+          "author": "Bordes",
+          "year": "2013",
+          "journal-title": "Adv. Neural Inf.Process. Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0002",
+          "doi-asserted-by": "crossref",
+          "first-page": "233",
+          "DOI": "10.1007/s10994-013-5363-6",
+          "article-title": "A semantic matching energy function for learning with multi-relational data: application to word-sense disambiguation",
+          "volume": "94",
+          "author": "Bordes",
+          "year": "2014",
+          "journal-title": "Mach. Learn."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0003",
+          "series-title": "The Semantic Web: 15th International Conference, ESWC 2018, Heraklion, Crete, Greece, June 3–7, 2018, proceedings 15",
+          "first-page": "593",
+          "article-title": "Modeling relational data with graph convolutional networks",
+          "author": "Schlichtkrull",
+          "year": "2018"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.knosys.2025.114394_bib0004",
+          "doi-asserted-by": "crossref",
+          "first-page": "3077",
+          "DOI": "10.1109/TSC.2021.3075053",
+          "article-title": "Temporal knowledge graph embedding for effective service recommendation",
+          "volume": "15",
+          "author": "Mezni",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Serv. Comput."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0005",
+          "series-title": "Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+          "first-page": "1434",
+          "article-title": "Knowledge graph contrastive learning for recommendation",
+          "author": "Yang",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0006",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "first-page": "5825",
+          "article-title": "Tempoqr: temporal question reasoning over knowledge graphs",
+          "volume": "36",
+          "author": "Mavromatis",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0007",
+          "series-title": "ACL (Findings)",
+          "article-title": "Two-stage generative question answering on temporal knowledge graph using large language models",
+          "author": "Gao",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0008",
+          "series-title": "Companion Proceedings of the Web Conference 2018",
+          "first-page": "1771",
+          "article-title": "Deriving validity time in knowledge graph",
+          "author": "Leblay",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0009",
+          "series-title": "International Conference on Learning Representations",
+          "article-title": "Tensor decompositions for temporal knowledge base completion",
+          "author": "Lacroix",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0010",
+          "series-title": "Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+          "first-page": "408",
+          "article-title": "Temporal knowledge graph reasoning based on evolutional representation learning",
+          "author": "Li",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0011",
+          "series-title": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+          "first-page": "1980",
+          "article-title": "One-shot relational learning for knowledge graphs",
+          "author": "Xiong",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0012",
+          "series-title": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+          "first-page": "1681",
+          "article-title": "Adaptive attentional network for few-shot knowledge graph completion",
+          "author": "Sheng",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0013",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "first-page": "3041",
+          "article-title": "Few-shot knowledge graph completion",
+          "volume": "34",
+          "author": "Zhang",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0014",
+          "series-title": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+          "first-page": "4217",
+          "article-title": "Meta relational learning for few-shot link prediction in knowledge graphs",
+          "author": "Chen",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0015",
+          "series-title": "Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+          "first-page": "213",
+          "article-title": "Relational learning with gated and attentive neighbor aggregator for few-shot knowledge graph completion",
+          "author": "Niu",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0016",
+          "unstructured": "M. Mirtaheri, M. Rostami, X. Ren, F. Morstatter, A. Galstyan, One-shot learning for temporal knowledge graphs, in: 3rd Conference on Automated Knowledge Base Construction."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0017",
+          "series-title": "AKBC",
+          "article-title": "Few-shot inductive learning on temporal knowledge graphs using concept-aware information",
+          "author": "Ding",
+          "year": "2022"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.knosys.2025.114394_bib0018",
+          "doi-asserted-by": "crossref",
+          "first-page": "1243",
+          "DOI": "10.1007/s11280-022-01091-6",
+          "article-title": "FTMF: few-shot temporal knowledge graph completion based on meta-optimization and fault-tolerant mechanism",
+          "volume": "26",
+          "author": "Bai",
+          "year": "2023",
+          "journal-title": "World Wide Web"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0019",
+          "doi-asserted-by": "crossref",
+          "first-page": "371",
+          "DOI": "10.1016/j.neunet.2023.01.043",
+          "article-title": "Few-shot link prediction for temporal knowledge graphs based on time-aware translation and attention mechanism",
+          "volume": "161",
+          "author": "Zhang",
+          "year": "2023",
+          "journal-title": "Neural Netw."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0020",
+          "series-title": "International Conference on Knowledge Science, Engineering and Management",
+          "first-page": "234",
+          "article-title": "Twin graph attention network with evolution pattern learner for few-shot temporal knowledge graph completion",
+          "author": "Liang",
+          "year": "2023"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.knosys.2025.114394_bib0021",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ipm.2024.104001",
+          "article-title": "Few-shot multi-hop reasoning via reinforcement learning and path search strategy over temporal knowledge graphs",
+          "volume": "62",
+          "author": "Bai",
+          "year": "2025",
+          "journal-title": "Inform. Process. Manage."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0022",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "article-title": "Learning entity and relation embeddings for knowledge graph completion",
+          "volume": "29",
+          "author": "Lin",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0023",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "article-title": "Knowledge graph embedding by translating on hyperplanes",
+          "volume": "28",
+          "author": "Wang",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0024",
+          "series-title": "International Conference on Machine Learning",
+          "first-page": "2071",
+          "article-title": "Complex embeddings for simple link prediction",
+          "author": "Trouillon",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0025",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "first-page": "3060",
+          "article-title": "End-to-end structure-aware convolutional networks for knowledge base completion",
+          "volume": "33",
+          "author": "Shang",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0026",
+          "series-title": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+          "first-page": "2001",
+          "article-title": "Hyte: hyperplane-based temporally aware knowledge graph embedding",
+          "author": "Dasgupta",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0027",
+          "series-title": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+          "first-page": "7301",
+          "article-title": "DyERNIE: dynamic evolution of Riemannian manifold embeddings for temporal knowledge graph completion",
+          "author": "Han",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0028",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "first-page": "3988",
+          "article-title": "Diachronic embedding for temporal knowledge graph completion",
+          "volume": "34",
+          "author": "Goel",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0029",
+          "unstructured": "Z. Han, P. Chen, Y. Ma, V. Tresp, Explainable subgraph reasoning for forecasting on temporal knowledge graphs, in: International Conference on Learning Representations."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0030",
+          "series-title": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+          "first-page": "5730",
+          "article-title": "TeMP: temporal message passing for temporal knowledge graph completion",
+          "author": "Wu",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0031",
+          "series-title": "International Conference on Machine Learning",
+          "first-page": "1126",
+          "article-title": "Model-agnostic meta-learning for fast adaptation of deep networks",
+          "author": "Finn",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0032",
+          "series-title": "2023 International Joint Conference on Neural Networks (IJCNN)",
+          "first-page": "1",
+          "article-title": "Learning meta-representations of one-shot relations for temporal knowledge graph link prediction",
+          "author": "Ding",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0033",
+          "series-title": "Proceedings of the ACM Web Conference 2023",
+          "first-page": "2433",
+          "article-title": "Meta-learning based knowledge extrapolation for temporal knowledge graph",
+          "author": "Chen",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0034",
+          "article-title": "Attention is all you need",
+          "author": "Vaswani",
+          "year": "2017",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0035",
+          "series-title": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+          "first-page": "4171",
+          "article-title": "BERT: pre-training of deep bidirectional transformers for language understanding",
+          "author": "Devlin",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0036",
+          "series-title": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+          "first-page": "10012",
+          "article-title": "Swin transformer: hierarchical vision transformer using shifted windows",
+          "author": "Liu",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0037",
+          "unstructured": "A. Gu, T. Dao, Mamba: linear-time sequence modeling with selective state spaces, (2023). arXiv: 2312.00752."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0038",
+          "series-title": "International Conference on Learning Representations",
+          "article-title": "Efficiently modeling long sequences with structured state spaces",
+          "author": "Gu",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0039",
+          "first-page": "572",
+          "article-title": "Combining recurrent, convolutional, and continuous-time models with linear state space layers",
+          "volume": "34",
+          "author": "Gu",
+          "year": "2021",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0040",
+          "unstructured": "O. Lieber, B. Lenz, H. Bata, G. Cohen, J. Osin, I. Dalmedigos, E. Safahi, S. Meirom, Y. Belinkov, S. Shalev-Shwartz, et al., Jamba: a hybrid transformer-Mamba language model, (2024).arXiv: 2403.19887."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0041",
+          "unstructured": "R. Bhirangi, C. Wang, V. Pattabiraman, C. Majidi, A. Gupta, T. Hellebrekers, L. Pinto, Hierarchical state space models for continuous sequence-to-sequence modeling, (2024). arXiv: 2402.10211."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0042",
+          "doi-asserted-by": "crossref",
+          "unstructured": "W.-T. Lin, Y.-X. Lin, J.-W. Chen, K.-L. Hua, PixMamba: leveraging state space models in a dual-level architecture for underwater image enhancement, (2024). arXiv: 2406.08444.",
+          "DOI": "10.1007/978-981-96-0911-6_11"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0043",
+          "article-title": "Changemamba: remote sensing change detection with spatio-temporal state space model",
+          "author": "Chen",
+          "year": "2024",
+          "journal-title": "IEEE Trans. Geosci. Remote Sens."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0044",
+          "series-title": "European Conference on Computer Vision",
+          "first-page": "237",
+          "article-title": "Videomamba: state space model for efficient video understanding",
+          "author": "Li",
+          "year": "2025"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0045",
+          "unstructured": "Y. Yang, Z. Xing, L. Zhu, Vivim: a video vision mamba for medical video object segmentation, (2024).arXiv: 2401.14168."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0046",
+          "unstructured": "A. Liang, X. Jiang, Y. Sun, C. Lu, Bi-Mamba4TS: Bidirectional Mamba for Time Series Forecasting, (2024).arXiv: 2404.15772."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0047",
+          "unstructured": "K.S. Sanjid, M.T. Hossain, M.S.S. Junayed, M.M. Uddin, Integrating mamba sequence model and hierarchical upsampling network for accurate semantic segmentation of multiple sclerosis legion, (2024).arXiv: 2403.17432."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0048",
+          "series-title": "Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+          "first-page": "119",
+          "article-title": "Graph mamba: towards learning on graphs with state space models",
+          "author": "Behrouz",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0049",
+          "unstructured": "C. Liu, J. Lin, J. Wang, H. Liu, J. Caverlee, Mamba4rec: towards efficient sequential recommendation with selective state space models, (2024a).arXiv: 2403.03900."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0050",
+          "unstructured": "J. Liu, M. Liu, Z. Wang, L. Lee, K. Zhou, P. An, S. Yang, R. Zhang, Y. Guo, S. Zhang, Robomamba: multimodal state space model for efficient robot reasoning and manipulation, (2024b). arXiv: 2406.04339."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0051",
+          "unstructured": "Y. Qiao, Z. Yu, L. Guo, S. Chen, Z. Zhao, M. Sun, Q. Wu, J. Liu, Vl-mamba: exploring state space models for multimodal learning, (2024). arXiv: 2403.13600."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.knosys.2025.114394_bib0052",
+          "article-title": "ICEWS coded event data",
+          "volume": "12",
+          "author": "Boschee",
+          "year": "2015",
+          "journal-title": "Harvard Dataver."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0053",
+          "series-title": "ISA Annual Convention",
+          "first-page": "1",
+          "article-title": "Gdelt: global data on events, location, and tone, 1979–2012",
+          "volume": "2",
+          "author": "Leetaru",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114394_bib0054",
+          "unstructured": "D.P. Kingma, J. Ba, Adam: a method for stochastic optimization, (2014). arXiv: 1412.6980."
+        }
+      ],
+      "container-title": [
+        "Knowledge-Based Systems"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0950705125014339?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0950705125014339?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            7
+          ]
+        ],
+        "date-time": "2026-03-07T09:14:19Z",
+        "timestamp": 1772874859000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950705125014339"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11
+          ]
+        ]
+      },
+      "references-count": 54,
+      "alternative-id": [
+        "S0950705125014339"
+      ],
+      "URL": "https://doi.org/10.1016/j.knosys.2025.114394",
+      "relation": {},
+      "ISSN": [
+        "0950-7051"
+      ],
+      "issn-type": [
+        {
+          "value": "0950-7051",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Few-shot temporal knowledge graph completion based on query-adaptive Mamba-enhanced temporal relation learning",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Knowledge-Based Systems",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.knosys.2025.114394",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "114394"
+    }
+  }
+}

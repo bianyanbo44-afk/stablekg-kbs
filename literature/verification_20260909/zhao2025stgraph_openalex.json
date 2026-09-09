@@ -1,0 +1,1189 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1109/ICDM65498.2025.00184",
+  "retrieved_utc": "2026-09-09T03:17:07.118134+00:00",
+  "response": {
+    "id": "https://openalex.org/W7131373271",
+    "doi": "https://doi.org/10.1109/icdm65498.2025.00184",
+    "title": "Uncertainty Quantification of Conformalized Spatio-Temporal Graph Convolutional Network on Forecasting",
+    "display_name": "Uncertainty Quantification of Conformalized Spatio-Temporal Graph Convolutional Network on Forecasting",
+    "publication_year": 2025,
+    "publication_date": "2025-11-12",
+    "ids": {
+      "openalex": "https://openalex.org/W7131373271",
+      "doi": "https://doi.org/10.1109/icdm65498.2025.00184"
+    },
+    "language": null,
+    "primary_location": {
+      "id": "doi:10.1109/icdm65498.2025.00184",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/icdm65498.2025.00184",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2025 IEEE International Conference on Data Mining (ICDM)",
+      "raw_type": "proceedings-article"
+    },
+    "type": "conference-paper",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5126794944",
+          "display_name": "Yang Zhao",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2801004183",
+            "display_name": "Temple College",
+            "ror": "https://ror.org/038s1ax16",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I2801004183"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I84392919",
+            "display_name": "Temple University",
+            "ror": "https://ror.org/00kx1jb78",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I84392919"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yang Zhao",
+        "raw_affiliation_strings": [
+          "Temple University,Department of Computer and Information Science"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Temple University,Department of Computer and Information Science",
+            "institution_ids": [
+              "https://openalex.org/I2801004183",
+              "https://openalex.org/I84392919"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5126850040",
+          "display_name": "Yuzhou Chen",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I103635307",
+            "display_name": "University of California, Riverside",
+            "ror": "https://ror.org/03nawhv43",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I103635307"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yuzhou Chen",
+        "raw_affiliation_strings": [
+          "University of California,Department of Statistics,Riverside"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of California,Department of Statistics,Riverside",
+            "institution_ids": [
+              "https://openalex.org/I103635307"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5103054154",
+          "display_name": "Xinghua Shi",
+          "orcid": "https://orcid.org/0000-0003-4662-3177"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2801004183",
+            "display_name": "Temple College",
+            "ror": "https://ror.org/038s1ax16",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I2801004183"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I84392919",
+            "display_name": "Temple University",
+            "ror": "https://ror.org/00kx1jb78",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I84392919"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xinghua Shi",
+        "raw_affiliation_strings": [
+          "Temple University,Department of Computer and Information Science"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Temple University,Department of Computer and Information Science",
+            "institution_ids": [
+              "https://openalex.org/I2801004183",
+              "https://openalex.org/I84392919"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.69731338,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1712",
+      "last_page": "1721"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11273",
+      "display_name": "Advanced Graph Neural Networks",
+      "score": 0.2721000015735626,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11273",
+        "display_name": "Advanced Graph Neural Networks",
+        "score": 0.2721000015735626,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11344",
+        "display_name": "Traffic Prediction and Management Techniques",
+        "score": 0.0828000009059906,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2215",
+          "display_name": "Building and Construction"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12205",
+        "display_name": "Time Series Analysis and Forecasting",
+        "score": 0.043800000101327896,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1711",
+          "display_name": "Signal Processing"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/uncertainty-quantification",
+        "display_name": "Uncertainty quantification",
+        "score": 0.6295999884605408
+      },
+      {
+        "id": "https://openalex.org/keywords/calibration",
+        "display_name": "Calibration",
+        "score": 0.5863999724388123
+      },
+      {
+        "id": "https://openalex.org/keywords/graph",
+        "display_name": "Graph",
+        "score": 0.5340999960899353
+      },
+      {
+        "id": "https://openalex.org/keywords/set",
+        "display_name": "Set (abstract data type)",
+        "score": 0.47440001368522644
+      },
+      {
+        "id": "https://openalex.org/keywords/interval",
+        "display_name": "Interval (graph theory)",
+        "score": 0.4036000072956085
+      },
+      {
+        "id": "https://openalex.org/keywords/prediction-interval",
+        "display_name": "Prediction interval",
+        "score": 0.38440001010894775
+      },
+      {
+        "id": "https://openalex.org/keywords/data-set",
+        "display_name": "Data set",
+        "score": 0.3765999972820282
+      },
+      {
+        "id": "https://openalex.org/keywords/point",
+        "display_name": "Point (geometry)",
+        "score": 0.36329999566078186
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6802999973297119
+      },
+      {
+        "id": "https://openalex.org/C32230216",
+        "wikidata": "https://www.wikidata.org/wiki/Q7882499",
+        "display_name": "Uncertainty quantification",
+        "level": 2,
+        "score": 0.6295999884605408
+      },
+      {
+        "id": "https://openalex.org/C165838908",
+        "wikidata": "https://www.wikidata.org/wiki/Q736777",
+        "display_name": "Calibration",
+        "level": 2,
+        "score": 0.5863999724388123
+      },
+      {
+        "id": "https://openalex.org/C132525143",
+        "wikidata": "https://www.wikidata.org/wiki/Q141488",
+        "display_name": "Graph",
+        "level": 2,
+        "score": 0.5340999960899353
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.5020999908447266
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.5013999938964844
+      },
+      {
+        "id": "https://openalex.org/C177264268",
+        "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+        "display_name": "Set (abstract data type)",
+        "level": 2,
+        "score": 0.47440001368522644
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.41670000553131104
+      },
+      {
+        "id": "https://openalex.org/C2778067643",
+        "wikidata": "https://www.wikidata.org/wiki/Q166507",
+        "display_name": "Interval (graph theory)",
+        "level": 2,
+        "score": 0.4036000072956085
+      },
+      {
+        "id": "https://openalex.org/C103402496",
+        "wikidata": "https://www.wikidata.org/wiki/Q1106171",
+        "display_name": "Prediction interval",
+        "level": 2,
+        "score": 0.38440001010894775
+      },
+      {
+        "id": "https://openalex.org/C58489278",
+        "wikidata": "https://www.wikidata.org/wiki/Q1172284",
+        "display_name": "Data set",
+        "level": 2,
+        "score": 0.3765999972820282
+      },
+      {
+        "id": "https://openalex.org/C28719098",
+        "wikidata": "https://www.wikidata.org/wiki/Q44946",
+        "display_name": "Point (geometry)",
+        "level": 2,
+        "score": 0.36329999566078186
+      },
+      {
+        "id": "https://openalex.org/C123614077",
+        "wikidata": "https://www.wikidata.org/wiki/Q1364905",
+        "display_name": "Propagation of uncertainty",
+        "level": 2,
+        "score": 0.3564999997615814
+      },
+      {
+        "id": "https://openalex.org/C45804977",
+        "wikidata": "https://www.wikidata.org/wiki/Q7239673",
+        "display_name": "Predictive modelling",
+        "level": 2,
+        "score": 0.32499998807907104
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.31940001249313354
+      },
+      {
+        "id": "https://openalex.org/C177803969",
+        "wikidata": "https://www.wikidata.org/wiki/Q29205",
+        "display_name": "Uncertainty analysis",
+        "level": 2,
+        "score": 0.3172000050544739
+      },
+      {
+        "id": "https://openalex.org/C149441793",
+        "wikidata": "https://www.wikidata.org/wiki/Q200726",
+        "display_name": "Probability distribution",
+        "level": 2,
+        "score": 0.3167000114917755
+      },
+      {
+        "id": "https://openalex.org/C160920958",
+        "wikidata": "https://www.wikidata.org/wiki/Q7662746",
+        "display_name": "Synthetic data",
+        "level": 2,
+        "score": 0.3068999946117401
+      },
+      {
+        "id": "https://openalex.org/C137209882",
+        "wikidata": "https://www.wikidata.org/wiki/Q1403517",
+        "display_name": "Measurement uncertainty",
+        "level": 2,
+        "score": 0.3034000098705292
+      },
+      {
+        "id": "https://openalex.org/C114289077",
+        "wikidata": "https://www.wikidata.org/wiki/Q3284399",
+        "display_name": "Statistical model",
+        "level": 2,
+        "score": 0.28769999742507935
+      },
+      {
+        "id": "https://openalex.org/C176147448",
+        "wikidata": "https://www.wikidata.org/wiki/Q1889114",
+        "display_name": "Sensitivity analysis",
+        "level": 3,
+        "score": 0.2827000021934509
+      },
+      {
+        "id": "https://openalex.org/C41426520",
+        "wikidata": "https://www.wikidata.org/wiki/Q1192065",
+        "display_name": "Point estimation",
+        "level": 2,
+        "score": 0.2809999883174896
+      },
+      {
+        "id": "https://openalex.org/C88230418",
+        "wikidata": "https://www.wikidata.org/wiki/Q131476",
+        "display_name": "Graph theory",
+        "level": 2,
+        "score": 0.26600000262260437
+      },
+      {
+        "id": "https://openalex.org/C21080849",
+        "wikidata": "https://www.wikidata.org/wiki/Q13611879",
+        "display_name": "Data point",
+        "level": 2,
+        "score": 0.26339998841285706
+      },
+      {
+        "id": "https://openalex.org/C67186912",
+        "wikidata": "https://www.wikidata.org/wiki/Q367664",
+        "display_name": "Data modeling",
+        "level": 2,
+        "score": 0.25290000438690186
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/icdm65498.2025.00184",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/icdm65498.2025.00184",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2025 IEEE International Conference on Data Mining (ICDM)",
+        "raw_type": "proceedings-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "score": 0.7551100850105286,
+        "id": "https://metadata.un.org/sdg/13",
+        "display_name": "Climate action"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G2850261673",
+        "display_name": null,
+        "funder_award_id": "1R01NS140142",
+        "funder_id": "https://openalex.org/F4320332161",
+        "funder_display_name": "National Institutes of Health"
+      },
+      {
+        "id": "https://openalex.org/G5570644798",
+        "display_name": "Collaborative Research: Planning: FIRE-PLAN: Advancing Wildland Fire Analytics for Actuarial Applications and Beyond",
+        "funder_award_id": "2523484",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306076",
+        "display_name": "National Science Foundation",
+        "ror": "https://ror.org/021nxhr62"
+      },
+      {
+        "id": "https://openalex.org/F4320332161",
+        "display_name": "National Institutes of Health",
+        "ror": "https://ror.org/01cwqze88"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 20,
+    "referenced_works": [
+      "https://openalex.org/W2009842403",
+      "https://openalex.org/W2620584737",
+      "https://openalex.org/W2756203131",
+      "https://openalex.org/W2788134583",
+      "https://openalex.org/W2945976633",
+      "https://openalex.org/W2998618342",
+      "https://openalex.org/W3025031475",
+      "https://openalex.org/W3161561506",
+      "https://openalex.org/W3174686248",
+      "https://openalex.org/W4211049957",
+      "https://openalex.org/W4282934543",
+      "https://openalex.org/W4290945572",
+      "https://openalex.org/W4308080213",
+      "https://openalex.org/W4309764409",
+      "https://openalex.org/W4361012985",
+      "https://openalex.org/W4380490520",
+      "https://openalex.org/W4382318257",
+      "https://openalex.org/W4387846556",
+      "https://openalex.org/W4392523490",
+      "https://openalex.org/W4392600328"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Accurately": [
+        0
+      ],
+      "forecasting": [
+        1
+      ],
+      "spatio-temporal": [
+        2,
+        59,
+        243
+      ],
+      "dynamics": [
+        3
+      ],
+      "in": [
+        4,
+        14,
+        46,
+        64,
+        177,
+        220,
+        234,
+        241
+      ],
+      "high-resolution": [
+        5
+      ],
+      "and": [
+        6,
+        22,
+        42,
+        51,
+        79,
+        134,
+        188,
+        199,
+        207,
+        224,
+        238
+      ],
+      "sparsely": [
+        7
+      ],
+      "populated": [
+        8
+      ],
+      "datasets": [
+        9,
+        202
+      ],
+      "remains": [
+        10
+      ],
+      "a": [
+        11,
+        92,
+        120,
+        126
+      ],
+      "fundamental": [
+        12
+      ],
+      "challenge": [
+        13
+      ],
+      "many": [
+        15
+      ],
+      "real-world": [
+        16
+      ],
+      "applications": [
+        17
+      ],
+      "such": [
+        18
+      ],
+      "as": [
+        19
+      ],
+      "urban": [
+        20,
+        205
+      ],
+      "mobility": [
+        21
+      ],
+      "environmental": [
+        23
+      ],
+      "monitoring.": [
+        24
+      ],
+      "Traditional": [
+        25
+      ],
+      "deterministic": [
+        26
+      ],
+      "machine": [
+        27
+      ],
+      "learning": [
+        28
+      ],
+      "models": [
+        29,
+        117
+      ],
+      "often": [
+        30
+      ],
+      "rely": [
+        31,
+        74
+      ],
+      "on": [
+        32,
+        75,
+        173,
+        196
+      ],
+      "point": [
+        33,
+        161
+      ],
+      "estimates,": [
+        34
+      ],
+      "which": [
+        35,
+        124
+      ],
+      "inherently": [
+        36
+      ],
+      "lack": [
+        37
+      ],
+      "the": [
+        38,
+        131,
+        138,
+        145,
+        174,
+        178,
+        229
+      ],
+      "ability": [
+        39
+      ],
+      "to": [
+        40,
+        58,
+        81,
+        107,
+        130,
+        147
+      ],
+      "capture": [
+        41
+      ],
+      "quantify": [
+        43
+      ],
+      "predictive": [
+        44,
+        170,
+        226
+      ],
+      "uncertainty—particularly": [
+        45
+      ],
+      "settings": [
+        47
+      ],
+      "where": [
+        48
+      ],
+      "data": [
+        49,
+        66
+      ],
+      "sparsity": [
+        50
+      ],
+      "topological": [
+        52,
+        135
+      ],
+      "complexity": [
+        53
+      ],
+      "prevail.": [
+        54
+      ],
+      "While": [
+        55
+      ],
+      "existing": [
+        56
+      ],
+      "approaches": [
+        57
+      ],
+      "prediction": [
+        60,
+        151,
+        186
+      ],
+      "have": [
+        61
+      ],
+      "made": [
+        62
+      ],
+      "progress": [
+        63
+      ],
+      "modeling": [
+        65
+      ],
+      "distributions": [
+        67
+      ],
+      "or": [
+        68
+      ],
+      "estimating": [
+        69
+      ],
+      "model": [
+        70,
+        146
+      ],
+      "uncertainty,": [
+        71
+      ],
+      "they": [
+        72
+      ],
+      "typically": [
+        73
+      ],
+      "strong": [
+        76
+      ],
+      "statistical": [
+        77
+      ],
+      "assumptions": [
+        78
+      ],
+      "fail": [
+        80
+      ],
+      "provide": [
+        82
+      ],
+      "comprehensive,": [
+        83
+      ],
+      "distribution-free": [
+        84
+      ],
+      "uncertainty": [
+        85,
+        158,
+        213
+      ],
+      "quantification.": [
+        86,
+        214
+      ],
+      "In": [
+        87
+      ],
+      "this": [
+        88
+      ],
+      "work,": [
+        89
+      ],
+      "we": [
+        90
+      ],
+      "introduce": [
+        91
+      ],
+      "novel": [
+        93
+      ],
+      "hybrid": [
+        94
+      ],
+      "framework": [
+        95,
+        166
+      ],
+      "that": [
+        96,
+        209
+      ],
+      "integrates": [
+        97
+      ],
+      "Conformal": [
+        98
+      ],
+      "Prediction": [
+        99
+      ],
+      "(CP)": [
+        100
+      ],
+      "with": [
+        101
+      ],
+      "Spatio-Temporal": [
+        102
+      ],
+      "Graph": [
+        103
+      ],
+      "Convolutional": [
+        104
+      ],
+      "Networks": [
+        105
+      ],
+      "(STGCNs)": [
+        106
+      ],
+      "address": [
+        108
+      ],
+      "these": [
+        109
+      ],
+      "limitations.": [
+        110
+      ],
+      "Our": [
+        111
+      ],
+      "method": [
+        112,
+        233
+      ],
+      "builds": [
+        113
+      ],
+      "upon": [
+        114
+      ],
+      "pretrained": [
+        115
+      ],
+      "STGCN": [
+        116
+      ],
+      "by": [
+        118
+      ],
+      "incorporating": [
+        119
+      ],
+      "conformal": [
+        121
+      ],
+      "calibration": [
+        122,
+        127,
+        179
+      ],
+      "procedure,": [
+        123
+      ],
+      "constructs": [
+        125
+      ],
+      "set": [
+        128
+      ],
+      "tailored": [
+        129
+      ],
+      "graph's": [
+        132
+      ],
+      "temporal": [
+        133
+      ],
+      "structure": [
+        136
+      ],
+      "under": [
+        137
+      ],
+      "assumption": [
+        139
+      ],
+      "of": [
+        140,
+        231
+      ],
+      "sequential": [
+        141
+      ],
+      "exchangeability.": [
+        142
+      ],
+      "This": [
+        143
+      ],
+      "enables": [
+        144
+      ],
+      "produce": [
+        148
+      ],
+      "valid,": [
+        149
+      ],
+      "data-driven": [
+        150
+      ],
+      "intervals": [
+        152,
+        171
+      ],
+      "without": [
+        153
+      ],
+      "retraining,": [
+        154
+      ],
+      "offering": [
+        155
+      ],
+      "statistically": [
+        156
+      ],
+      "rigorous": [
+        157
+      ],
+      "estimates": [
+        159
+      ],
+      "alongside": [
+        160
+      ],
+      "predictions.": [
+        162
+      ],
+      "The": [
+        163,
+        215
+      ],
+      "proposed": [
+        164
+      ],
+      "CP-STGCN": [
+        165,
+        210
+      ],
+      "dynamically": [
+        167
+      ],
+      "adjusts": [
+        168
+      ],
+      "its": [
+        169
+      ],
+      "based": [
+        172
+      ],
+      "variability": [
+        175
+      ],
+      "observed": [
+        176
+      ],
+      "set,": [
+        180
+      ],
+      "ensuring": [
+        181
+      ],
+      "robust": [
+        182
+      ],
+      "coverage": [
+        183
+      ],
+      "across": [
+        184
+      ],
+      "multiple": [
+        185
+      ],
+      "horizons": [
+        187
+      ],
+      "spatial": [
+        189
+      ],
+      "resolutions.": [
+        190
+      ],
+      "We": [
+        191
+      ],
+      "empirically": [
+        192
+      ],
+      "evaluate": [
+        193
+      ],
+      "our": [
+        194,
+        232
+      ],
+      "approach": [
+        195
+      ],
+      "large-scale": [
+        197
+      ],
+      "ride-sharing": [
+        198
+      ],
+      "taxi": [
+        200
+      ],
+      "demand": [
+        201
+      ],
+      "spanning": [
+        203
+      ],
+      "diverse": [
+        204
+      ],
+      "regions": [
+        206
+      ],
+      "demonstrate": [
+        208
+      ],
+      "significantly": [
+        211
+      ],
+      "improves": [
+        212
+      ],
+      "results": [
+        216
+      ],
+      "show": [
+        217
+      ],
+      "consistent": [
+        218
+      ],
+      "improvements": [
+        219
+      ],
+      "interval": [
+        221
+      ],
+      "validity,": [
+        222
+      ],
+      "sharpness,": [
+        223
+      ],
+      "overall": [
+        225
+      ],
+      "accuracy,": [
+        227
+      ],
+      "confirming": [
+        228
+      ],
+      "efficacy": [
+        230
+      ],
+      "capturing": [
+        235
+      ],
+      "both": [
+        236
+      ],
+      "epistemic": [
+        237
+      ],
+      "aleatoric": [
+        239
+      ],
+      "uncertainties": [
+        240
+      ],
+      "complex": [
+        242
+      ],
+      "environments.": [
+        244
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-08-06T08:24:18.245995",
+    "created_date": "2026-02-26T00:00:00"
+  }
+}

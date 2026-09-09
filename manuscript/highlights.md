@@ -1,0 +1,5 @@
+- StableKG connects calibrated acceptance with explicit evidence dependence.
+- Window counts certify resistance to whole-window evidence deletion.
+- Matched controls distinguish correctness ordering from deletion sensitivity.
+- Selective gains transfer to learned predictions and chronological replay.
+- Dependency closure reduces exact recomputation in controlled rule graphs.

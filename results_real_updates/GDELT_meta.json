@@ -1,0 +1,15 @@
+{
+  "dataset": "GDELT",
+  "initial_events": 2308165,
+  "registered_decisions": 9741,
+  "build_seconds": 6.097945400004392,
+  "incremental_engine_resident_mb": 515.875,
+  "memory_measurement": "Process RSS delta for one engine; raw data and Python baseline excluded",
+  "oracle_max_feature_error": 9.769962616701378e-15,
+  "oracle_discrete_mismatches": 0,
+  "threshold": 0.1992841846754472,
+  "seed": 20260909,
+  "repeats": 10,
+  "clock_policy": "refresh all on global clock advance",
+  "scope": "Event writes, reverse lookup, affected-set construction, summary maintenance, candidate ranking, certificate, belief and acceptance; excludes file I/O and one-time build"
+}

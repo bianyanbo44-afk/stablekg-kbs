@@ -1,0 +1,3515 @@
+[
+  {
+    "key": "liu2025terdy",
+    "doi": "10.18653/v1/2025.acl-long.473",
+    "title": "TeRDy: Temporal Relation Dynamics through Frequency Decomposition for Temporal Knowledge Graph Completion",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025
+    ],
+    "authors": "Liu, Ziyang and Wang, Chaokun",
+    "author_similarity": 1.0,
+    "venue": [
+      "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+    ],
+    "page": "9611-9622",
+    "volume": null,
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "geng2025granularity",
+    "doi": "10.1038/s41598-025-00446-z",
+    "title": "Learning temporal granularity with quadruplet networks for temporal knowledge graph completion",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025,
+      5,
+      16
+    ],
+    "authors": "Geng, Rushan and Luo, Cuicui",
+    "author_similarity": 1.0,
+    "venue": [
+      "Scientific Reports"
+    ],
+    "page": "17065",
+    "volume": "15",
+    "issue": "1",
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2025-05-16T00:00:00Z",
+          "timestamp": 1747353600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2025-05-16T00:00:00Z",
+          "timestamp": 1747353600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "zhu2025multigran",
+    "doi": "10.1016/j.datak.2025.102496",
+    "title": "Multi-Granularity History Graph Network for temporal knowledge graph reasoning",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025,
+      11
+    ],
+    "authors": "Zhu, Jun and Fu, Yan and Zhou, Junlin and Chen, Duanbing",
+    "author_similarity": 1.0,
+    "venue": [
+      "Data &amp; Knowledge Engineering"
+    ],
+    "page": "102496",
+    "volume": "160",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "dao2025hgct",
+    "doi": "10.1016/j.knosys.2025.113358",
+    "title": "HGCT: Enhancing temporal knowledge graph reasoning through extrapolated historical fact extraction",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025,
+      5
+    ],
+    "authors": "Dao, Hoa and Phan, Nguyen and Le, Thanh and Nguyen, Ngoc-Trung",
+    "author_similarity": 1.0,
+    "venue": [
+      "Knowledge-Based Systems"
+    ],
+    "page": "113358",
+    "volume": "316",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2025-05-01T00:00:00Z",
+          "timestamp": 1746057600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2025-05-01T00:00:00Z",
+          "timestamp": 1746057600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2025-05-01T00:00:00Z",
+          "timestamp": 1746057600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2025-05-01T00:00:00Z",
+          "timestamp": 1746057600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2025-05-01T00:00:00Z",
+          "timestamp": 1746057600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2025-05-01T00:00:00Z",
+          "timestamp": 1746057600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2025-05-01T00:00:00Z",
+          "timestamp": 1746057600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "chen2025dualview",
+    "doi": "10.1016/j.knosys.2025.114330",
+    "title": "Dual-view temporal knowledge graph reasoning",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025,
+      11
+    ],
+    "authors": "Chen, Wei and Wu, Yuting and Guo, Shengnan and Wu, Shuhan and Jiang, Zhishu and Lin, Youfang and Wan, Huaiyu",
+    "author_similarity": 1.0,
+    "venue": [
+      "Knowledge-Based Systems"
+    ],
+    "page": "114330",
+    "volume": "329",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "pan2025validity",
+    "doi": "10.1016/j.knosys.2025.114094",
+    "title": "Leveraging temporal validity of rules via LLMs for enhanced temporal knowledge graph reasoning",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025,
+      10
+    ],
+    "authors": "Pan, Qihong and Yao, Limin and Shen, Guojiang and Han, Xiao and Chen, Yichuan and Kong, Xiangjie",
+    "author_similarity": 1.0,
+    "venue": [
+      "Knowledge-Based Systems"
+    ],
+    "page": "114094",
+    "volume": "327",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "fernando2025filtering",
+    "doi": "10.1109/ICKG66886.2025.00018",
+    "title": "Memory-Efficient Information Filtering in Contrastive Learning for Temporal Knowledge Graph Reasoning",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025,
+      11,
+      13
+    ],
+    "authors": "Fernando, Eshani K. and Adjeisah, Michael and Chang, Jian and Zhang, Jian Jun",
+    "author_similarity": 1.0,
+    "venue": [
+      "2025 IEEE International Conference on Knowledge Graph (ICKG)"
+    ],
+    "page": "82-89",
+    "volume": null,
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              13
+            ]
+          ],
+          "date-time": "2025-11-13T00:00:00Z",
+          "timestamp": 1762992000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              13
+            ]
+          ],
+          "date-time": "2025-11-13T00:00:00Z",
+          "timestamp": 1762992000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "ji2025stse",
+    "doi": "10.1016/j.knosys.2025.113469",
+    "title": "STSE: Spatio-temporal state embedding for knowledge graph completion",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025,
+      5
+    ],
+    "authors": "Ji, Xiaoyu and Cao, Yibing and Zhang, Jiangshui and Zhao, Xinke",
+    "author_similarity": 1.0,
+    "venue": [
+      "Knowledge-Based Systems"
+    ],
+    "page": "113469",
+    "volume": "317",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2025-05-01T00:00:00Z",
+          "timestamp": 1746057600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2025-05-01T00:00:00Z",
+          "timestamp": 1746057600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              6
+            ]
+          ],
+          "date-time": "2025-04-06T00:00:00Z",
+          "timestamp": 1743897600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "guo2025mamba",
+    "doi": "10.1016/j.knosys.2025.114394",
+    "title": "Few-shot temporal knowledge graph completion based on query-adaptive Mamba-enhanced temporal relation learning",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025,
+      11
+    ],
+    "authors": "Guo, Xingyue and Zhang, Ying and Zhao, Yu and Zhou, Baohang and Sui, Xuhui and Qian, Xinying and Yuan, Xiaojie",
+    "author_similarity": 1.0,
+    "venue": [
+      "Knowledge-Based Systems"
+    ],
+    "page": "114394",
+    "volume": "329",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T00:00:00Z",
+          "timestamp": 1761955200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "liu2025uncertkg",
+    "doi": "10.1016/j.neunet.2024.107103",
+    "title": "Uncertainty modeling for inductive knowledge graph embedding",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025,
+      4
+    ],
+    "authors": "Liu, Chao and Kwong, Sam and Wang, Xizhao",
+    "author_similarity": 1.0,
+    "venue": [
+      "Neural Networks"
+    ],
+    "page": "107103",
+    "volume": "184",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2025-04-01T00:00:00Z",
+          "timestamp": 1743465600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2025-04-01T00:00:00Z",
+          "timestamp": 1743465600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2025-04-01T00:00:00Z",
+          "timestamp": 1743465600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2025-04-01T00:00:00Z",
+          "timestamp": 1743465600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2025-04-01T00:00:00Z",
+          "timestamp": 1743465600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2025-04-01T00:00:00Z",
+          "timestamp": 1743465600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2025-04-01T00:00:00Z",
+          "timestamp": 1743465600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "li2025vicinal",
+    "doi": "10.52202/085713-3523",
+    "title": "Vicinal Label Supervision for Reliable Aleatoric and Epistemic Uncertainty Estimation",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025
+    ],
+    "authors": "Li, Linye and Chen, Yufei and Yue, Xiaodong",
+    "author_similarity": 1.0,
+    "venue": [
+      "Advances in Neural Information Processing Systems 38"
+    ],
+    "page": "116866-116895",
+    "volume": null,
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "dai2025mcnet",
+    "doi": "10.1145/3696410.3714802",
+    "title": "MCNet: Monotonic Calibration Networks for Expressive Uncertainty Calibration in Online Advertising",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025,
+      4,
+      22
+    ],
+    "authors": "Dai, Quanyu and Xiao, Jiaren and Du, Zhaocheng and Zhu, Jieming and Luo, Chengxiao and Wu, Xiao-Ming and Dong, Zhenhua",
+    "author_similarity": 1.0,
+    "venue": [
+      "Proceedings of the ACM on Web Conference 2025"
+    ],
+    "page": "4408-4419",
+    "volume": null,
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              22
+            ]
+          ],
+          "date-time": "2025-04-22T00:00:00Z",
+          "timestamp": 1745280000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "wang2025nonexchangeable",
+    "doi": "10.1145/3711896.3737064",
+    "title": "",
+    "title_similarity": 0.0,
+    "year": null,
+    "date": [
+      null
+    ],
+    "authors": "",
+    "author_similarity": 0.0,
+    "venue": [],
+    "page": null,
+    "volume": null,
+    "issue": null,
+    "status": "not found",
+    "has_abstract": false,
+    "license_metadata": [],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "shi2025uqconformal",
+    "doi": "10.1609/aaai.v39i28.35227",
+    "title": "Reliable Uncertainty Quantification in Machine Learning via Conformal Prediction",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025,
+      4,
+      11
+    ],
+    "authors": "Shi, Yuanjie",
+    "author_similarity": 1.0,
+    "venue": [
+      "Proceedings of the AAAI Conference on Artificial Intelligence"
+    ],
+    "page": "29299-29300",
+    "volume": "39",
+    "issue": "28",
+    "status": "found",
+    "has_abstract": true,
+    "license_metadata": [],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "sun2025uncertaintyupdate",
+    "doi": "10.1016/j.knosys.2025.113572",
+    "title": "An efficient uncertainty measure with dynamic update mechanisms",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025,
+      6
+    ],
+    "authors": "Sun, Yingying and Mi, Jusheng",
+    "author_similarity": 1.0,
+    "venue": [
+      "Knowledge-Based Systems"
+    ],
+    "page": "113572",
+    "volume": "318",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "yuan2025kguq",
+    "doi": "10.1145/3701716.3717660",
+    "title": "KG-UQ: Knowledge Graph-Based Uncertainty Quantification for Long Text in Large Language Models",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025,
+      5,
+      8
+    ],
+    "authors": "Yuan, Yingqing and Tao, Linwei and Lu, Haohui and Khushi, Matloob and Razzak, Imran and Dras, Mark and Yang, Jian and Naseem, Usman",
+    "author_similarity": 1.0,
+    "venue": [
+      "Companion Proceedings of the ACM on Web Conference 2025"
+    ],
+    "page": "2071-2077",
+    "volume": null,
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              8
+            ]
+          ],
+          "date-time": "2025-05-08T00:00:00Z",
+          "timestamp": 1746662400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "zhao2025stgraph",
+    "doi": "10.1109/ICDM65498.2025.00184",
+    "title": "Uncertainty Quantification of Conformalized Spatio-Temporal Graph Convolutional Network on Forecasting",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025,
+      11,
+      12
+    ],
+    "authors": "Zhao, Yang and Chen, Yuzhou and Shi, Xinghua",
+    "author_similarity": 1.0,
+    "venue": [
+      "2025 IEEE International Conference on Data Mining (ICDM)"
+    ],
+    "page": "1712-1721",
+    "volume": null,
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              12
+            ]
+          ],
+          "date-time": "2025-11-12T00:00:00Z",
+          "timestamp": 1762905600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              12
+            ]
+          ],
+          "date-time": "2025-11-12T00:00:00Z",
+          "timestamp": 1762905600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "chen2025gnnuq",
+    "doi": "10.1038/s41467-025-58503-0",
+    "title": "Uncertainty quantification with graph neural networks for efficient molecular design",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025,
+      4,
+      5
+    ],
+    "authors": "Chen, Lung-Yi and Li, Yi-Pei",
+    "author_similarity": 1.0,
+    "venue": [
+      "Nature Communications"
+    ],
+    "page": "3262",
+    "volume": "16",
+    "issue": "1",
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              5
+            ]
+          ],
+          "date-time": "2025-04-05T00:00:00Z",
+          "timestamp": 1743811200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              5
+            ]
+          ],
+          "date-time": "2025-04-05T00:00:00Z",
+          "timestamp": 1743811200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "szabadvary2025reject",
+    "doi": "10.1016/j.mlwa.2025.100664",
+    "title": "Classification with reject option: Distribution-free error guarantees via conformal prediction",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025,
+      6
+    ],
+    "authors": "Hallberg Szabadváry, Johan and Löfström, Tuwe and Johansson, Ulf and Sönströd, Cecilia and Ahlberg, Ernst and Carlsson, Lars",
+    "author_similarity": 0.9746192893401016,
+    "venue": [
+      "Machine Learning with Applications"
+    ],
+    "page": "100664",
+    "volume": "20",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              27
+            ]
+          ],
+          "date-time": "2025-04-27T00:00:00Z",
+          "timestamp": 1745712000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "jin2025memorywalk",
+    "doi": "10.1016/j.neucom.2025.129759",
+    "title": "Memory-based walk-enhanced dynamic graph neural network for temporal graph representation learning",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025,
+      6
+    ],
+    "authors": "Jin, Zhigang and Su, Renjun and Zhang, Hao and Zhao, Xiaofang",
+    "author_similarity": 1.0,
+    "venue": [
+      "Neurocomputing"
+    ],
+    "page": "129759",
+    "volume": "633",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "guo2025dynamicmeta",
+    "doi": "10.1016/j.neunet.2024.106805",
+    "title": "Dynamic meta-graph convolutional recurrent network for heterogeneous spatiotemporal graph forecasting",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025,
+      1
+    ],
+    "authors": "Guo, Xianwei and Yu, Zhiyong and Huang, Fangwan and Chen, Xing and Yang, Dingqi and Wang, Jiangtao",
+    "author_similarity": 1.0,
+    "venue": [
+      "Neural Networks"
+    ],
+    "page": "106805",
+    "volume": "181",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "vu2025tcrosse",
+    "doi": "10.1016/j.knosys.2025.113321",
+    "title": "TCrossE: Cross-space interaction of bicomplex and quaternion embeddings for temporal knowledge graph completion",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025,
+      4
+    ],
+    "authors": "Vu, Thanh and Le, Thanh",
+    "author_similarity": 1.0,
+    "venue": [
+      "Knowledge-Based Systems"
+    ],
+    "page": "113321",
+    "volume": "315",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2025-04-01T00:00:00Z",
+          "timestamp": 1743465600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2025-04-01T00:00:00Z",
+          "timestamp": 1743465600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2025-04-01T00:00:00Z",
+          "timestamp": 1743465600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2025-04-01T00:00:00Z",
+          "timestamp": 1743465600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2025-04-01T00:00:00Z",
+          "timestamp": 1743465600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2025-04-01T00:00:00Z",
+          "timestamp": 1743465600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2025-04-01T00:00:00Z",
+          "timestamp": 1743465600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "yu2025gmve",
+    "doi": "10.1016/j.knosys.2025.114217",
+    "title": "GMVE: Graph-Mamba variational encoder for interpretable remaining useful life prediction with uncertainty quantification",
+    "title_similarity": 1.0,
+    "year": 2025,
+    "date": [
+      2025,
+      10
+    ],
+    "authors": "Yu, Bing and Yang, Zhiming and Yu, Yang and Xiang, Gang",
+    "author_similarity": 1.0,
+    "venue": [
+      "Knowledge-Based Systems"
+    ],
+    "page": "114217",
+    "volume": "328",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "xu2026householder",
+    "doi": "10.1016/j.knosys.2026.115406",
+    "title": "Temporal householder transformation embedding for temporal knowledge graph completion",
+    "title_similarity": 1.0,
+    "year": 2026,
+    "date": [
+      2026,
+      3
+    ],
+    "authors": "Xu, Zhiyu and Lin, Kai and Qiu, Pengpeng and Shen, Tong and Zhang, Fu",
+    "author_similarity": 1.0,
+    "venue": [
+      "Knowledge-Based Systems"
+    ],
+    "page": "115406",
+    "volume": "337",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "zhu2026splices",
+    "doi": "10.1016/j.knosys.2026.115387",
+    "title": "Fact splices and entity aggregation networks for sparse temporal knowledge graph completion",
+    "title_similarity": 1.0,
+    "year": 2026,
+    "date": [
+      2026,
+      3
+    ],
+    "authors": "Zhu, Lin and Hu, Jiahui and Bai, Luyi",
+    "author_similarity": 1.0,
+    "venue": [
+      "Knowledge-Based Systems"
+    ],
+    "page": "115387",
+    "volume": "337",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "peng2026icpe",
+    "doi": "10.1016/j.knosys.2026.116268",
+    "title": "ICPE-STKG Reasoning: Sparse Temporal Knowledge Graph Reasoning via Inverse-Causal Prior Experience Completion",
+    "title_similarity": 1.0,
+    "year": 2026,
+    "date": [
+      2026,
+      7
+    ],
+    "authors": "Peng, Juncong and Zhang, Xiangliang and Dong, Ran and Yin, Jibin",
+    "author_similarity": 1.0,
+    "venue": [
+      "Knowledge-Based Systems"
+    ],
+    "page": "116268",
+    "volume": "347",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T00:00:00Z",
+          "timestamp": 1782864000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T00:00:00Z",
+          "timestamp": 1782864000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T00:00:00Z",
+          "timestamp": 1782864000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T00:00:00Z",
+          "timestamp": 1782864000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T00:00:00Z",
+          "timestamp": 1782864000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T00:00:00Z",
+          "timestamp": 1782864000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T00:00:00Z",
+          "timestamp": 1782864000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "zhang2026dstag",
+    "doi": "10.1145/3774904.3792165",
+    "title": "DSTAG: A Semantic Tag-Enhanced Dual-Graph Convolutional Network for Temporal Knowledge Graph Completion",
+    "title_similarity": 1.0,
+    "year": 2026,
+    "date": [
+      2026,
+      4,
+      12
+    ],
+    "authors": "Zhang, Yuchao and Kong, Xiangjie and Ye, Kailun and Zheng, Shangfei and Shen, Guojiang",
+    "author_similarity": 1.0,
+    "venue": [
+      "Proceedings of the ACM Web Conference 2026"
+    ],
+    "page": "3645-3655",
+    "volume": null,
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "ye2026dualhistory",
+    "doi": "10.1145/3774904.3792310",
+    "title": "Dual History Enhancement with Hybrid Hypergraph-Graph Networks for Temporal Knowledge Graph Reasoning",
+    "title_similarity": 1.0,
+    "year": 2026,
+    "date": [
+      2026,
+      4,
+      12
+    ],
+    "authors": "Ye, Kailun and Kong, Xiangjie and Zhang, Yuchao and Wang, Xuan and Zhu, Linan and Du, Jiaxin and Shen, Guojiang and Li, Jianxin",
+    "author_similarity": 1.0,
+    "venue": [
+      "Proceedings of the ACM Web Conference 2026"
+    ],
+    "page": "3800-3810",
+    "volume": null,
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "wan2026tgcallm",
+    "doi": "10.1609/aaai.v40i18.38612",
+    "title": "TGCA-LLM: Time-Aware Graph-Text Contrastive Alignment for Enhancing LLMs in Temporal Knowledge Graph Completion",
+    "title_similarity": 1.0,
+    "year": 2026,
+    "date": [
+      2026,
+      3,
+      14
+    ],
+    "authors": "Wan, Zexuan and Wang, Bo and Fang, Kuofei and Wu, Bin",
+    "author_similarity": 1.0,
+    "venue": [
+      "Proceedings of the AAAI Conference on Artificial Intelligence"
+    ],
+    "page": "15806-15814",
+    "volume": "40",
+    "issue": "18",
+    "status": "found",
+    "has_abstract": true,
+    "license_metadata": [],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "lee2026tirano",
+    "doi": "10.1145/3770855.3817784",
+    "title": "TiRano: Tensorized Relation-aware Temporal Reasoning for Accurate Knowledge Graph Completion",
+    "title_similarity": 1.0,
+    "year": 2026,
+    "date": [
+      2026,
+      8,
+      8
+    ],
+    "authors": "Lee, SeungJoo and Park, Yong-chan and Kang, U",
+    "author_similarity": 1.0,
+    "venue": [
+      "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2"
+    ],
+    "page": "2497-2508",
+    "volume": null,
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              8
+            ]
+          ],
+          "date-time": "2026-08-08T00:00:00Z",
+          "timestamp": 1786147200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "wang2026globalinteraction",
+    "doi": "10.1016/j.ins.2026.123139",
+    "title": "Temporal knowledge graph completion via global structural representation and deep interaction",
+    "title_similarity": 1.0,
+    "year": 2026,
+    "date": [
+      2026,
+      5
+    ],
+    "authors": "Wang, Jingbin and Zhang, Yumeng and Lin, Zeyuan and Lai, Jinsong and Guo, Kun",
+    "author_similarity": 1.0,
+    "venue": [
+      "Information Sciences"
+    ],
+    "page": "123139",
+    "volume": "739",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "zhang2026logicalpaths",
+    "doi": "10.1016/j.neucom.2026.133049",
+    "title": "A context-aware temporal knowledge graph completion method based on logical paths",
+    "title_similarity": 1.0,
+    "year": 2026,
+    "date": [
+      2026,
+      5
+    ],
+    "authors": "Zhang, Yuchao and Kong, Xiangjie and Ye, Kailun and Zheng, Shangfei and Pan, Qihong and Shen, Guojiang and Li, Jianxin",
+    "author_similarity": 1.0,
+    "venue": [
+      "Neurocomputing"
+    ],
+    "page": "133049",
+    "volume": "676",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "fan2026editing",
+    "doi": "10.1016/j.neunet.2026.108811",
+    "title": "Bridging graph structure and knowledge-guided editing for interpretable temporal knowledge graph reasoning",
+    "title_similarity": 1.0,
+    "year": 2026,
+    "date": [
+      2026,
+      8
+    ],
+    "authors": "Fan, Shiqi and Yao, Quanming and Nie, Hongyi and Ma, Wentao and Wang, Zhen and Hua, Wen",
+    "author_similarity": 1.0,
+    "venue": [
+      "Neural Networks"
+    ],
+    "page": "108811",
+    "volume": "200",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2026-08-01T00:00:00Z",
+          "timestamp": 1785542400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2026-08-01T00:00:00Z",
+          "timestamp": 1785542400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2026-08-01T00:00:00Z",
+          "timestamp": 1785542400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2026-08-01T00:00:00Z",
+          "timestamp": 1785542400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2026-08-01T00:00:00Z",
+          "timestamp": 1785542400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2026-08-01T00:00:00Z",
+          "timestamp": 1785542400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2026-08-01T00:00:00Z",
+          "timestamp": 1785542400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "bi2026globallocal",
+    "doi": "10.1016/j.patcog.2025.111828",
+    "title": "Global–local evolution modeling with cyclic patterns for temporal knowledge graph reasoning",
+    "title_similarity": 1.0,
+    "year": 2026,
+    "date": [
+      2026,
+      3
+    ],
+    "authors": "Bi, Xiaojun and Li, Longfei",
+    "author_similarity": 1.0,
+    "venue": [
+      "Pattern Recognition"
+    ],
+    "page": "111828",
+    "volume": "171",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "wang2026multidim",
+    "doi": "10.1016/j.neucom.2026.133496",
+    "title": "Temporal knowledge graph reasoning based on multidimensional information interaction and dynamic frequency awareness",
+    "title_similarity": 1.0,
+    "year": 2026,
+    "date": [
+      2026,
+      6
+    ],
+    "authors": "Wang, Jingbin and Yuan, Jinfan and Lai, Jinsong and Zhang, Fuyuan and Guo, Kun",
+    "author_similarity": 1.0,
+    "venue": [
+      "Neurocomputing"
+    ],
+    "page": "133496",
+    "volume": "682",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "yu2026dependency",
+    "doi": "10.1016/j.engappai.2026.114845",
+    "title": "Exploring semantic dependency for reasoning over temporal knowledge graph",
+    "title_similarity": 1.0,
+    "year": 2026,
+    "date": [
+      2026,
+      8
+    ],
+    "authors": "Yu, Hong and Chen, Meiqi and Tian, Ronghua and Xie, Yongfang",
+    "author_similarity": 1.0,
+    "venue": [
+      "Engineering Applications of Artificial Intelligence"
+    ],
+    "page": "114845",
+    "volume": "177",
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2026-08-01T00:00:00Z",
+          "timestamp": 1785542400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2026-08-01T00:00:00Z",
+          "timestamp": 1785542400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2026-08-01T00:00:00Z",
+          "timestamp": 1785542400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2026-08-01T00:00:00Z",
+          "timestamp": 1785542400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2026-08-01T00:00:00Z",
+          "timestamp": 1785542400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2026-08-01T00:00:00Z",
+          "timestamp": 1785542400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2026-08-01T00:00:00Z",
+          "timestamp": 1785542400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "li2026calendar",
+    "doi": "10.1007/s40747-026-02237-z",
+    "title": "CALENDAR+: in-context contrastive learning for temporal knowledge graph reasoning",
+    "title_similarity": 1.0,
+    "year": 2026,
+    "date": [
+      2026,
+      2,
+      26
+    ],
+    "authors": "Li, Xingyi and Wang, Jiapeng and Jia, Boyuan and Cheng, Xiang and Su, Sen",
+    "author_similarity": 1.0,
+    "venue": [
+      "Complex &amp; Intelligent Systems"
+    ],
+    "page": "124",
+    "volume": "12",
+    "issue": "4",
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              26
+            ]
+          ],
+          "date-time": "2026-02-26T00:00:00Z",
+          "timestamp": 1772064000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              11
+            ]
+          ],
+          "date-time": "2026-03-11T00:00:00Z",
+          "timestamp": 1773187200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 13,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "li2026entropyrobust",
+    "doi": "10.1007/s10618-026-01198-8",
+    "title": "Entropy-regularized multimodal fusion for robust and explainable knowledge graph completion",
+    "title_similarity": 1.0,
+    "year": 2026,
+    "date": [
+      2026,
+      3,
+      24
+    ],
+    "authors": "Li, Yongfang and Zhu, Chunhua and Wang, Xuemin and Zhang, Yuhong and Liu, Zhihua",
+    "author_similarity": 1.0,
+    "venue": [
+      "Data Mining and Knowledge Discovery"
+    ],
+    "page": "31",
+    "volume": "40",
+    "issue": "3",
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              24
+            ]
+          ],
+          "date-time": "2026-03-24T00:00:00Z",
+          "timestamp": 1774310400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              24
+            ]
+          ],
+          "date-time": "2026-03-24T00:00:00Z",
+          "timestamp": 1774310400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "claim_check": "not established by metadata verification"
+  },
+  {
+    "key": "moon2026sharpness",
+    "doi": "10.1145/3773966.3779401",
+    "title": "How Sharp and Bias-Robust is a Model? Dual Evaluation Perspectives on Knowledge Graph Completion",
+    "title_similarity": 1.0,
+    "year": 2026,
+    "date": [
+      2026,
+      2,
+      21
+    ],
+    "authors": "Moon, Sooho and Ko, Yunyong",
+    "author_similarity": 1.0,
+    "venue": [
+      "Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining"
+    ],
+    "page": "1211-1215",
+    "volume": null,
+    "issue": null,
+    "status": "found",
+    "has_abstract": false,
+    "license_metadata": [],
+    "claim_check": "not established by metadata verification"
+  }
+]

@@ -1,0 +1,852 @@
+{
+  "key": "xu2026householder",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.knosys.2026.115406",
+  "retrieved_utc": "2026-09-09T03:16:54.795021+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            17
+          ]
+        ],
+        "date-time": "2026-08-17T19:06:25Z",
+        "timestamp": 1786993585070,
+        "version": "build-2736575974"
+      },
+      "reference-count": 57,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2026-03-01T00:00:00Z",
+            "timestamp": 1772323200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2026-03-01T00:00:00Z",
+            "timestamp": 1772323200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2026-03-01T00:00:00Z",
+            "timestamp": 1772323200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2026-03-01T00:00:00Z",
+            "timestamp": 1772323200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2026-03-01T00:00:00Z",
+            "timestamp": 1772323200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2026-03-01T00:00:00Z",
+            "timestamp": 1772323200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2026-03-01T00:00:00Z",
+            "timestamp": 1772323200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100012166",
+          "name": "National Key Research and Development Program of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "2022YFC2405003"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2022YFC2405003"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100012166",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Knowledge-Based Systems"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            3
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.knosys.2026.115406",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            24
+          ]
+        ],
+        "date-time": "2026-01-24T16:15:24Z",
+        "timestamp": 1769271324000
+      },
+      "page": "115406",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "special_numbering": "C",
+      "title": [
+        "Temporal householder transformation embedding for temporal knowledge graph completion"
+      ],
+      "prefix": "10.1016",
+      "volume": "337",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0000-8286-167X",
+          "authenticated-orcid": false,
+          "given": "Zhiyu",
+          "family": "Xu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9529-4317",
+          "authenticated-orcid": false,
+          "given": "Kai",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7193-6584",
+          "authenticated-orcid": false,
+          "given": "Pengpeng",
+          "family": "Qiu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9958-1794",
+          "authenticated-orcid": false,
+          "given": "Tong",
+          "family": "Shen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3880-8086",
+          "authenticated-orcid": false,
+          "given": "Fu",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0001",
+          "article-title": "Session-oriented fairness-Aware recommendation via dual temporal convolutional networks",
+          "author": "Li",
+          "year": "2024",
+          "journal-title": "IEEE Trans. Knowl. Data. Eng."
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0002",
+          "series-title": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+          "first-page": "4498",
+          "article-title": "Improving multi-hop question answering over knowledge graphs using knowledge base embeddings",
+          "author": "Saxena",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0003",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2025.113288",
+          "article-title": "Knowledge-based natural answer generation via effective graph learning",
+          "volume": "316",
+          "author": "Liu",
+          "year": "2025",
+          "journal-title": "Knowl. Based. Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0004",
+          "series-title": "2018 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)",
+          "first-page": "1234",
+          "article-title": "Combining temporal aspects of dynamic networks with node2vec for a more efficient dynamic link prediction",
+          "author": "De Winter",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0005",
+          "series-title": "Proceedings of the 26Th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining",
+          "first-page": "1585",
+          "article-title": "Dynamic knowledge graph based multi-event forecasting",
+          "author": "Deng",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0006",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2023.110781",
+          "article-title": "Artificial intelligence enabled cyber security defense for smart cities: a novel attack detection framework based on the MDATA model",
+          "volume": "276",
+          "author": "Jia",
+          "year": "2023",
+          "journal-title": "Knowl. Based. Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0007",
+          "unstructured": "L. Yao, C. Mao, Y. Luo, KG-BERT: BERT for knowledge graph completion, arXiv: 1909.03193(2019)."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.knosys.2026.115406_bib0008",
+          "first-page": "4",
+          "article-title": "Knowledge graph embeddings: open challenges and opportunities",
+          "volume": "1",
+          "author": "Biswas",
+          "year": "2023",
+          "journal-title": "Trans. Graph Data Knowledge"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0009",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/ACCESS.2025.3564130",
+          "article-title": "Sime: a knowledge graph embedding model to encode self-Similar structures through algebraic and geometric transformations",
+          "author": "Amouzouvi",
+          "year": "2025",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0010",
+          "article-title": "Translating embeddings for modeling multi-relational data",
+          "volume": "26",
+          "author": "Bordes",
+          "year": "2013",
+          "journal-title": "Adv. Neural. Inf. Process Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0011",
+          "series-title": "Proceedings of the International Conference on Learning Representations (ICLR) 2015",
+          "article-title": "Embedding entities and relations for learning and inference in knowledge bases",
+          "author": "Yang",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0012",
+          "series-title": "International Conference on Machine Learning",
+          "first-page": "2071",
+          "article-title": "Complex embeddings for simple link prediction",
+          "author": "Trouillon",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0013",
+          "series-title": "Proceedings of the International Conference on Learning Representations (ICLR) 2019",
+          "article-title": "Rotate: knowledge graph embedding by relational rotation in complex space",
+          "author": "Sun",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0014",
+          "article-title": "Hycube: efficient knowledge hypergraph 3D circular convolutional embedding",
+          "author": "Li",
+          "year": "2025",
+          "journal-title": "IEEE Trans. Knowl. Data Eng."
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0015",
+          "series-title": "COLING 2016, 26Th International Conference on Computational Linguistics, Proceedings of the Conference: Technical Papers",
+          "first-page": "1715",
+          "article-title": "Towards time-aware knowledge graph completion",
+          "author": "Jiang",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0016",
+          "unstructured": "C. Xu, M. Nayyeri, F. Alkhoury, H.S. Yazdi, J. Lehmann, Temporal knowledge graph embedding model based on additive time series decomposition, arXiv: 1911.07893(2019)."
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0017",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "first-page": "3988",
+          "article-title": "Diachronic embedding for temporal knowledge graph completion",
+          "volume": "34",
+          "author": "Goel",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0018",
+          "article-title": "Tensor decompositions for temporal knowledge base completion",
+          "author": "Lacroix",
+          "year": "2020",
+          "journal-title": "Proceed. Int. Conf. Learn. Representations (ICLR) 2020"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0019",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "article-title": "Knowledge graph embedding by translating on hyperplanes",
+          "volume": "28",
+          "author": "Wang",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0020",
+          "series-title": "International Conference on Machine Learning",
+          "first-page": "13209",
+          "article-title": "House: knowledge graph embedding with householder parameterization",
+          "author": "Li",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0021",
+          "doi-asserted-by": "crossref",
+          "first-page": "56",
+          "DOI": "10.1016/j.ins.2022.12.019",
+          "article-title": "Temporal knowledge graph embedding via sparse transfer matrix",
+          "volume": "623",
+          "author": "Wang",
+          "year": "2023",
+          "journal-title": "Inf. Sci. (Ny)"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0022",
+          "series-title": "Proceedings of the 31St ACM International Conference on Information & Knowledge Management",
+          "first-page": "2529",
+          "article-title": "Along the time: timeline-traced embedding for temporal knowledge graph completion",
+          "author": "Zhang",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0023",
+          "unstructured": "B. Wang, Q. Meng, Z. Wang, H. Zhao, D. Wu, W. Che, S. Wang, Z. Chen, C. Liu, Interht: Knowledge graph embeddings by interaction between head and tail entities, arXiv: 2202.04897(2022)."
+        },
+        {
+          "issue": "1-4",
+          "key": "10.1016/j.knosys.2026.115406_bib0024",
+          "doi-asserted-by": "crossref",
+          "first-page": "164",
+          "DOI": "10.1002/sapm192761164",
+          "article-title": "The expression of a tensor or a polyadic as a sum of products",
+          "volume": "6",
+          "author": "Hitchcock",
+          "year": "1927",
+          "journal-title": "J. Math. Phys."
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0025",
+          "series-title": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9Th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+          "first-page": "5185",
+          "article-title": "TuckER: tensor factorization for knowledge graph completion",
+          "author": "Balažević",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0026",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "article-title": "Convolutional 2d knowledge graph embeddings",
+          "volume": "32",
+          "author": "Dettmers",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0027",
+          "series-title": "Proceedings of the 28Th International Conference on Computational Linguistics",
+          "first-page": "1532",
+          "article-title": "Knowledge graph embedding with atrous convolution and residual learning",
+          "author": "Ren",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0028",
+          "series-title": "The Semantic Web: 15th International Conference, ESWC 2018, Heraklion, Crete, Greece, June 3–7, 2018, Proceedings 15",
+          "first-page": "593",
+          "article-title": "Modeling relational data with graph convolutional networks",
+          "author": "Schlichtkrull",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0029",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2022.118737",
+          "article-title": "Link prediction approach combined graph neural network with capsule network",
+          "volume": "212",
+          "author": "Liu",
+          "year": "2023",
+          "journal-title": "Expert. Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0030",
+          "series-title": "Companion Proceedings of The Web Conference 2018",
+          "first-page": "1771",
+          "article-title": "Deriving validity time in knowledge graph",
+          "author": "Leblay",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0031",
+          "series-title": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+          "first-page": "4816",
+          "article-title": "Learning sequence encoders for temporal knowledge graph completion",
+          "author": "Garcia-Duran",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0032",
+          "series-title": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+          "first-page": "3733",
+          "article-title": "Temporal knowledge base completion: new algorithms and evaluation protocols",
+          "author": "Jain",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0033",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2021.107841",
+          "article-title": "Tucker decomposition-based temporal knowledge graph completion",
+          "volume": "238",
+          "author": "Shao",
+          "year": "2022",
+          "journal-title": "Knowl. Based Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0034",
+          "series-title": "The Semantic Web–ISWC 2020: 19th International Semantic Web Conference, Athens, Greece, November 2–6, 2020, Proceedings, Part I 19",
+          "first-page": "654",
+          "article-title": "Temporal knowledge graph completion based on time series gaussian embedding",
+          "author": "Xu",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0035",
+          "series-title": "2021 58Th ACM/IEEE Design Automation Conference (DAC)",
+          "first-page": "1201",
+          "article-title": "Dygnn: algorithm and architecture support of dynamic pruning for graph neural networks",
+          "author": "Chen",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0036",
+          "series-title": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+          "first-page": "5730",
+          "article-title": "TeMP: temporal message passing for temporal knowledge graph completion",
+          "author": "Wu",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0037",
+          "series-title": "Proceedings of the 13Th International Conference on Web Search and Data Mining",
+          "first-page": "519",
+          "article-title": "Dysat: deep neural representation learning on dynamic graphs via self-attention networks",
+          "author": "Sankar",
+          "year": "2020"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.knosys.2026.115406_bib0038",
+          "doi-asserted-by": "crossref",
+          "first-page": "339",
+          "DOI": "10.1145/320941.320947",
+          "article-title": "Unitary triangularization of a nonsymmetric matrix",
+          "volume": "5",
+          "author": "Householder",
+          "year": "1958",
+          "journal-title": "J. ACM (JACM)"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0039",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "article-title": "Learning entity and relation embeddings for knowledge graph completion",
+          "volume": "29",
+          "author": "Lin",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0040",
+          "series-title": "Proceedings of the 53Rd Annual Meeting of the Association for Computational Linguistics and the 7Th International Joint Conference on Natural Language Processing of the Asian Federation of Natural Language Processing (Volume 1: Long Papers)",
+          "first-page": "687",
+          "article-title": "Knowledge graph embedding via dynamic mapping matrix",
+          "author": "Ji",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0041",
+          "series-title": "Proceedings of the 2Nd Workshop on Representation Learning for NLP",
+          "first-page": "69",
+          "article-title": "Knowledge base completion: baselines strike back",
+          "author": "Kadlec",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0042",
+          "article-title": "ICEWS Coded event data",
+          "volume": "12",
+          "author": "Boschee",
+          "year": "2015",
+          "journal-title": "Harvard Dataverse"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0043",
+          "series-title": "The Semantic Web–ISWC 2014: 13th International Semantic Web Conference, Riva Del Garda, Italy, October 19–23, 2014. Proceedings, Part I 13",
+          "first-page": "50",
+          "article-title": "Introducing wikidata to the linked data web",
+          "author": "Erxleben",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0044",
+          "series-title": "7Th Biennial Conference on Innovative Data Systems Research",
+          "article-title": "Yago3: a knowledge base from multilingual wikipedias",
+          "author": "Mahdisoltani",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0045",
+          "series-title": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+          "first-page": "2001",
+          "article-title": "HyTE: hyperplane-based temporally aware knowledge graph embedding",
+          "author": "Dasgupta",
+          "year": "2018"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.knosys.2026.115406_bib0046",
+          "doi-asserted-by": "crossref",
+          "first-page": "11",
+          "DOI": "10.1109/JPROC.2015.2483592",
+          "article-title": "A review of relational machine learning for knowledge graphs",
+          "volume": "104",
+          "author": "Nickel",
+          "year": "2015",
+          "journal-title": "Proc. IEEE"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0047",
+          "article-title": "Simple embedding for link prediction in knowledge graphs",
+          "volume": "31",
+          "author": "Kazemi",
+          "year": "2018",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0048",
+          "series-title": "International Conference on Machine Learning",
+          "first-page": "2863",
+          "article-title": "Canonical tensor decomposition for knowledge base completion",
+          "author": "Lacroix",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0049",
+          "article-title": "Quaternion knowledge graph embeddings",
+          "volume": "32",
+          "author": "Zhang",
+          "year": "2019",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0050",
+          "series-title": "Proceedings of the 28Th International Conference on Computational Linguistics",
+          "first-page": "1583",
+          "article-title": "TeRo: a time-aware knowledge graph embedding via temporal rotation",
+          "author": "Xu",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0051",
+          "series-title": "Proceedings of the 60Th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+          "first-page": "5843",
+          "article-title": "RotateQVS: representing temporal information as rotations in quaternion vector space for temporal knowledge graph completion",
+          "author": "Chen",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0052",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "first-page": "7779",
+          "article-title": "Temporal knowledge graph completion using box embeddings",
+          "volume": "36",
+          "author": "Messner",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0053",
+          "first-page": "9649",
+          "article-title": "Boxe: a box embedding model for knowledge base completion",
+          "volume": "33",
+          "author": "Abboud",
+          "year": "2020",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0054",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.engappai.2023.106308",
+          "article-title": "RoAN: a relation-oriented attention network for temporal knowledge graph completion",
+          "volume": "123",
+          "author": "Bai",
+          "year": "2023",
+          "journal-title": "Eng. Appl. Artif. Intell."
+        },
+        {
+          "key": "10.1016/j.knosys.2026.115406_bib0055",
+          "unstructured": "A. Paszke, S. Gross, S. Chintala, G. Chanan, E. Yang, Z. DeVito, Z. Lin, A. Desmaison, L. Antiga, A. Lerer, Automatic differentiation in pytorch(2017)."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.knosys.2026.115406_bib0056",
+          "first-page": "1929",
+          "article-title": "Dropout: a simple way to prevent neural networks from overfitting",
+          "volume": "15",
+          "author": "Srivastava",
+          "year": "2014",
+          "journal-title": "J. Machine Learn. Res."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.knosys.2026.115406_bib0057",
+          "first-page": "1",
+          "article-title": "DuCape: dual quaternion and capsule network–Based temporal knowledge graph embedding",
+          "volume": "17",
+          "author": "Zhang",
+          "year": "2023",
+          "journal-title": "ACM Trans. Knowl. Discov. Data."
+        }
+      ],
+      "container-title": [
+        "Knowledge-Based Systems"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0950705126001498?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0950705126001498?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            21
+          ]
+        ],
+        "date-time": "2026-07-21T23:29:32Z",
+        "timestamp": 1784676572000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950705126001498"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            3
+          ]
+        ]
+      },
+      "references-count": 57,
+      "alternative-id": [
+        "S0950705126001498"
+      ],
+      "URL": "https://doi.org/10.1016/j.knosys.2026.115406",
+      "relation": {},
+      "ISSN": [
+        "0950-7051"
+      ],
+      "issn-type": [
+        {
+          "value": "0950-7051",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Temporal householder transformation embedding for temporal knowledge graph completion",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Knowledge-Based Systems",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.knosys.2026.115406",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2026 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "115406"
+    }
+  }
+}

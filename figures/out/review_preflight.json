@@ -1,0 +1,62 @@
+[
+  {
+    "figure": "fig1_concept.pdf",
+    "check": "fonts",
+    "exit_code": 0
+  },
+  {
+    "figure": "fig1_concept.pdf",
+    "check": "collisions",
+    "exit_code": 0
+  },
+  {
+    "figure": "fig2_risk_coverage.pdf",
+    "check": "fonts",
+    "exit_code": 0
+  },
+  {
+    "figure": "fig2_risk_coverage.pdf",
+    "check": "collisions",
+    "exit_code": 0
+  },
+  {
+    "figure": "fig3_interventions.pdf",
+    "check": "fonts",
+    "exit_code": 0
+  },
+  {
+    "figure": "fig3_interventions.pdf",
+    "check": "collisions",
+    "exit_code": 0
+  },
+  {
+    "figure": "fig4_temporal.pdf",
+    "check": "fonts",
+    "exit_code": 0
+  },
+  {
+    "figure": "fig4_temporal.pdf",
+    "check": "collisions",
+    "exit_code": 0
+  },
+  {
+    "figure": "fig5_efficiency.pdf",
+    "check": "fonts",
+    "exit_code": 0
+  },
+  {
+    "figure": "fig5_efficiency.pdf",
+    "check": "collisions",
+    "exit_code": 0
+  },
+  {
+    "figure": "fig6_reliability.pdf",
+    "check": "fonts",
+    "exit_code": 0
+  },
+  {
+    "figure": "fig6_reliability.pdf",
+    "check": "collisions",
+    "exit_code": 0
+  }
+]

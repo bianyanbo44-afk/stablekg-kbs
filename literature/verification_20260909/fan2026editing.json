@@ -1,0 +1,930 @@
+{
+  "key": "fan2026editing",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.neunet.2026.108811",
+  "retrieved_utc": "2026-09-09T03:16:57.813114+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            13
+          ]
+        ],
+        "date-time": "2026-08-13T16:06:49Z",
+        "timestamp": 1786637209153,
+        "version": "build-2736575974"
+      },
+      "reference-count": 64,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "U22B2036"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "U22B2036"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100017602",
+          "name": "Shaanxi Creative Talents Promotion Plan-Technological Innovation Team",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "2025RS-CXTD-009"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2025RS-CXTD-009"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100017602",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Neural Networks"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            8
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.neunet.2026.108811",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            5
+          ]
+        ],
+        "date-time": "2026-03-05T07:45:23Z",
+        "timestamp": 1772696723000
+      },
+      "page": "108811",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "special_numbering": "C",
+      "title": [
+        "Bridging graph structure and knowledge-guided editing for interpretable temporal knowledge graph reasoning"
+      ],
+      "prefix": "10.1016",
+      "volume": "200",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1654-3400",
+          "authenticated-orcid": false,
+          "given": "Shiqi",
+          "family": "Fan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8944-8618",
+          "authenticated-orcid": false,
+          "given": "Quanming",
+          "family": "Yao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1770-1589",
+          "authenticated-orcid": false,
+          "given": "Hongyi",
+          "family": "Nie",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1889-3201",
+          "authenticated-orcid": false,
+          "given": "Wentao",
+          "family": "Ma",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8182-2852",
+          "authenticated-orcid": false,
+          "given": "Zhen",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5456-7035",
+          "authenticated-orcid": false,
+          "given": "Wen",
+          "family": "Hua",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0001",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TITS.2025.3540852",
+          "article-title": "An attention-driven spatio-temporal deep hybrid neural networks for traffic flow prediction in transportation systems",
+          "author": "Ali",
+          "year": "2025",
+          "journal-title": "IEEE Transactions on Intelligent Transportation Systems"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0002",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TCE.2024.3439719",
+          "article-title": "A resource-aware multi-graph neural network for urban traffic flow prediction in multi-access edge computing systems",
+          "author": "Ali",
+          "year": "2024",
+          "journal-title": "IEEE Transactions on Consumer Electronics"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0003",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TCE.2025.3571035",
+          "article-title": "Attention-driven graph convolutional networks for deadline-constrained virtual machine task allocation in edge computing",
+          "author": "Ali",
+          "year": "2025",
+          "journal-title": "IEEE Transactions on Consumer Electronics"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.neunet.2026.108811_bib0004",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1155/int/1863025",
+          "article-title": "Energy-efficient resource allocation for urban traffic flow prediction in edge-cloud computing",
+          "volume": "2025",
+          "author": "Ali",
+          "year": "2025",
+          "journal-title": "International Journal of Intelligent Systems"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0005",
+          "doi-asserted-by": "crossref",
+          "first-page": "233",
+          "DOI": "10.1016/j.neunet.2021.10.021",
+          "article-title": "Exploiting dynamic spatio-temporal graph convolutional neural networks for citywide traffic flows prediction",
+          "volume": "145",
+          "author": "Ali",
+          "year": "2022",
+          "journal-title": "Neural Networks"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0006",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/ACCESS.2024.3477321",
+          "article-title": "Ph-GCN: Boosting human action recognition through multi-level granularity with pair-wise hyper GCN",
+          "author": "Alsarhan",
+          "year": "2024",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0007",
+          "unstructured": "Boschee, E., Lautenschlager, J., O’Brien, S., Shellman, S., Starz, J., & Ward, M. (2015). ICEWS Coded Event Data. 10.7910/DVN/28075."
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0008",
+          "unstructured": "Cai, L., Mao, X., Zhou, Y., Long, Z., Wu, C., & Lan, M. (2024). A survey on temporal knowledge graph: representation learning and applications. arXiv: 2403.04782."
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0009",
+          "unstructured": "Chai, Z., Zhang, T., Wu, L., Han, K., Hu, X., Huang, X., & Yang, Y. (2023). Graphllm: Boosting graph reasoning ability of large language model. arXiv: 2310.05845."
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0010",
+          "series-title": "Proceedings of the 62nd annual meeting of the association for computational linguistics (volume 1: long papers)",
+          "first-page": "1204",
+          "article-title": "Timebench: A comprehensive evaluation of temporal reasoning abilities in large language models",
+          "author": "Chu",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0011",
+          "doi-asserted-by": "crossref",
+          "first-page": "234",
+          "DOI": "10.1016/j.neunet.2022.07.014",
+          "article-title": "Mrgat: Multi-relational graph attention network for knowledge graph completion",
+          "volume": "154",
+          "author": "Dai",
+          "year": "2022",
+          "journal-title": "Neural Networks"
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.neunet.2026.108811_bib0012",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1145/3561048",
+          "article-title": "Explainable AI (XAI): Core ideas, techniques, and solutions",
+          "volume": "55",
+          "author": "Dwivedi",
+          "year": "2023",
+          "journal-title": "ACM Computing Surveys"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0013",
+          "article-title": "Flow to candidate: Temporal knowledge graph reasoning with candidate-oriented relational graph",
+          "author": "Fan",
+          "year": "2024",
+          "journal-title": "IEEE Transactions on Neural Networks and Learning Systems"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0014",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.neunet.2024.106833",
+          "article-title": "Retrieval in decoder benefits generative models for explainable complex question answering",
+          "volume": "181",
+          "author": "Feng",
+          "year": "2025",
+          "journal-title": "Neural Networks"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0015",
+          "unstructured": "Gao, Y., Xiong, Y., Gao, X., Jia, K., Pan, J., Bi, Y., Dai, Y., Sun, J., Wang, H., & Wang, H. (2023). Retrieval-augmented generation for large language models: a survey. 2. arXiv: 2312.10997."
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0016",
+          "article-title": "Semantic information-based attention mapping network for few-shot knowledge graph completion",
+          "author": "Guo",
+          "year": "2025",
+          "journal-title": "Neural Networks"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0017",
+          "unstructured": "Guo, J., Du, L., Liu, H., Zhou, M., He, X., & Han, S. (2023). Gpt4graph: Can large language models understand graph structured data? An empirical evaluation and benchmarking. arXiv: 2305.15066."
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0018",
+          "unstructured": "Guo, Z., Xia, L., Yu, Y., Wang, Y., Yang, Z., Wei, W., Pang, L., Chua, T.-S., & Huang, C. (2024). Graphedit: Large language models for graph structure learning. arXiv: 2402.15183."
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0019",
+          "series-title": "International conference on learning representations",
+          "article-title": "Explainable subgraph reasoning for forecasting on temporal knowledge graphs",
+          "author": "Han",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0020",
+          "series-title": "Proceedings of the 2021 conference on empirical methods in natural language processing",
+          "first-page": "8352",
+          "article-title": "Learning neural ordinary equations for forecasting future links on temporal knowledge graphs",
+          "author": "Han",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0021",
+          "series-title": "Proceedings of the 2021 conference on empirical methods in natural language processing",
+          "first-page": "8352",
+          "article-title": "Learning neural ordinary equations for forecasting future links on temporal knowledge graphs",
+          "author": "Han",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0022",
+          "unstructured": "Han, Z., Gao, C., Liu, J., Zhang, J., & Zhang, S. Q. (2024). Parameter-efficient fine-tuning for large models: a comprehensive survey. arXiv: 2403.14608."
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0023",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.neunet.2024.106601",
+          "article-title": "Knowledge graph confidence-aware embedding for recommendation",
+          "author": "Huang",
+          "year": "2024",
+          "journal-title": "Neural Networks"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.neunet.2026.108811_bib0024",
+          "doi-asserted-by": "crossref",
+          "first-page": "494",
+          "DOI": "10.1109/TNNLS.2021.3070843",
+          "article-title": "A survey on knowledge graphs: Representation, acquisition, and applications",
+          "volume": "33",
+          "author": "Ji",
+          "year": "2021",
+          "journal-title": "IEEE Transactions on Neural Networks and Learning Systems"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0025",
+          "series-title": "Proceedings of the 2023 conference on empirical methods in natural language processing",
+          "first-page": "9237",
+          "article-title": "StructGPT: A general framework for large language model to reason over structured data",
+          "author": "Jiang",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0026",
+          "series-title": "Proceedings of the 2020 conference on empirical methods in natural language processing (EMNLP)",
+          "first-page": "6669",
+          "article-title": "Recurrent event network: Autoregressive structure inferenceover temporal knowledge graphs",
+          "author": "Jin",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0027",
+          "series-title": "International conference on learning representations",
+          "article-title": "Tensor decompositions for temporal knowledge base completion",
+          "author": "Lacroix",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0028",
+          "series-title": "Companion proceedings of the web conference 2018",
+          "first-page": "1771",
+          "article-title": "Deriving validity time in knowledge graph",
+          "author": "Leblay",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0029",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lee, D.-H., Ahrabian, K., Jin, W., Morstatter, F., & Pujara, J. (2023a). Temporal knowledge graph forecasting without knowledge using in-context learning. arXiv: 2305.10613.",
+          "DOI": "10.18653/v1/2023.emnlp-main.36"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0030",
+          "series-title": "Proceedings of the 2023 conference on empirical methods in natural language processing",
+          "first-page": "544",
+          "article-title": "Temporal knowledge graph forecasting without knowledge using in-context learning",
+          "author": "Lee",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0031",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.neunet.2024.107108",
+          "article-title": "Temporal multi-modal knowledge graph generation for link prediction",
+          "volume": "185",
+          "author": "Li",
+          "year": "2025",
+          "journal-title": "Neural Networks"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0032",
+          "series-title": "Ijcai",
+          "first-page": "2152",
+          "article-title": "TiRGN: Time-guided recurrent graph network with local-global historical patterns for temporal knowledge graph reasoning",
+          "author": "Li",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0033",
+          "series-title": "Proceedings of the 44th international ACM SIGIR conference on research and development in information retrieval",
+          "first-page": "408",
+          "article-title": "Temporal knowledge graph reasoning based on evolutional representation learning",
+          "author": "Li",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0034",
+          "unstructured": "Liang, K. (n.d.). Better learning from graph structures: Research on representation learning for knowledge graph reasoning. Proceedings of the VLDB Endowment. ISSN, 2150, 8097."
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0035",
+          "series-title": "Proceedings of the 46th international ACM SIGIR conference on research and development in information retrieval",
+          "first-page": "1559",
+          "article-title": "Learn from relational correlations and periodic events for temporal knowledge graph reasoning",
+          "author": "Liang",
+          "year": "2023"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.neunet.2026.108811_bib0036",
+          "doi-asserted-by": "crossref",
+          "first-page": "9456",
+          "DOI": "10.1109/TPAMI.2024.3417451",
+          "article-title": "A survey of knowledge graph reasoning on graph types: static, dynamic, and multi-modal",
+          "volume": "46",
+          "author": "Liang",
+          "year": "2024",
+          "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0037",
+          "series-title": "Findings of the association for computational linguistics: NAACL 2024",
+          "first-page": "4303",
+          "article-title": "GenTKG: Generative forecasting on temporal knowledge graph with large language models",
+          "author": "Liao",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0038",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.comnet.2023.110014",
+          "article-title": "Prompt-WNQA: A prompt-based complex question answering for wireless network over knowledge graph",
+          "volume": "236",
+          "author": "Liu",
+          "year": "2023",
+          "journal-title": "Computer Networks"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0039",
+          "series-title": "Proceedings of the AAAI conference on artificial intelligence",
+          "first-page": "4120",
+          "article-title": "Tlogic: Temporal logical rules for explainable link forecasting on temporal knowledge graphs",
+          "volume": "vol. 36",
+          "author": "Liu",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0040",
+          "unstructured": "Luo, L., Ju, J., Xiong, B., Li, Y.-F., Haffari, G., & Pan, S. (2023). Chatrule: Mining logical rules with large language models for knowledge graph reasoning. arXiv: 2309.01538."
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0041",
+          "unstructured": "LUO, L., Li, Y.-F., Haf, R., & Pan, S. (b). Reasoning on graphs: Faithful and interpretable large language model reasoning. In The twelfth international conference on learning representations."
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0042",
+          "unstructured": "Luo, R., Gu, T., Li, H., Li, J., Lin, Z., Li, J., & Yang, Y. (2024). Chain of history: Learning and forecasting with llms for temporal knowledge graph completion. arXiv: 2401.06072."
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0043",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.neunet.2024.106651",
+          "article-title": "Harnessing collective structure knowledge in data augmentation for graph neural networks",
+          "volume": "180",
+          "author": "Ma",
+          "year": "2024",
+          "journal-title": "Neural Networks"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0044",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.neunet.2024.106550",
+          "article-title": "Arithmetic with language models: From memorization to computation",
+          "volume": "179",
+          "author": "Maltoni",
+          "year": "2024",
+          "journal-title": "Neural Networks"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.neunet.2026.108811_bib0045",
+          "doi-asserted-by": "crossref",
+          "first-page": "3580",
+          "DOI": "10.1109/TKDE.2024.3352100",
+          "article-title": "Unifying large language models and knowledge graphs: A roadmap",
+          "volume": "36",
+          "author": "Pan",
+          "year": "2024",
+          "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.neunet.2026.108811_bib0046",
+          "first-page": "1",
+          "article-title": "Learning from hierarchical structure of knowledge graph for recommendation",
+          "volume": "42",
+          "author": "Qin",
+          "year": "2023",
+          "journal-title": "ACM Transactions on Information Systems"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.neunet.2026.108811_bib0047",
+          "doi-asserted-by": "crossref",
+          "first-page": "297",
+          "DOI": "10.1007/s12083-023-01565-y",
+          "article-title": "Improvement of energy-efficient resources for cognitive internet of things using learning automata",
+          "volume": "17",
+          "author": "Rahmani",
+          "year": "2024",
+          "journal-title": "Peer-to-Peer Networking and Applications"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.neunet.2026.108811_bib0048",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1049/cmu2.70055",
+          "article-title": "Iot-RNNEI: An internet of things attack detection model leveraging random neural network and evolutionary intelligence",
+          "volume": "19",
+          "author": "Rahmani",
+          "year": "2025",
+          "journal-title": "IET Communications"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.neunet.2026.108811_bib0049",
+          "doi-asserted-by": "crossref",
+          "first-page": "6471",
+          "DOI": "10.1609/aaai.v35i7.16802",
+          "article-title": "Chronor: Rotation based temporal knowledge graph embedding",
+          "volume": "35",
+          "author": "Sadeghian",
+          "year": "2021",
+          "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.neunet.2026.108811_bib0050",
+          "first-page": "143",
+          "article-title": "Knowledge graph large language model (KG-LLM) for link prediction:(ACML)",
+          "volume": "260",
+          "author": "Shu",
+          "year": "2024",
+          "journal-title": "Proceedings of Machine Learning Research"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0051",
+          "series-title": "Findings of the association for computational linguistics ACL 2024",
+          "first-page": "3742",
+          "article-title": "Llm as prompter: Low-resource inductive reasoning on arbitrary knowledge graphs",
+          "author": "Wang",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0052",
+          "series-title": "Proceedings of the 2024 joint international conference on computational linguistics, language resources and evaluation (LREC-COLING 2024)",
+          "first-page": "9668",
+          "article-title": "Kc-genre: A knowledge-constrained generative re-ranking method based on large language models for knowledge graph completion",
+          "author": "Wang",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0053",
+          "series-title": "Findings of the association for computational linguistics: EMNLP 2023",
+          "first-page": "8667",
+          "article-title": "Kicgpt: Large language model with knowledge in context for knowledge graph completion",
+          "author": "Wei",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0054",
+          "series-title": "Findings of the association for computational linguistics ACL 2024",
+          "first-page": "16144",
+          "article-title": "Chain-of-history reasoning for temporal knowledge graph forecasting",
+          "author": "Xia",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0055",
+          "series-title": "Proceedings of the 2021 conference of the North American chapter of the Association for Computational Linguistics: Human language technologies",
+          "first-page": "2569",
+          "article-title": "Temporal knowledge graph completion using a linear temporal regularizer and multivector embeddings",
+          "author": "Xu",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0056",
+          "unstructured": "Xu, D., Ruan, C., Korpeoglu, E., Kumar, S., & Achan, K. (2020). Inductive representation learning on temporal graphs. arXiv: 2002.07962."
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0057",
+          "series-title": "Proceedings of the 2024 joint international conference on computational linguistics, language resources and evaluation (LREC-COLING 2024)",
+          "first-page": "11956",
+          "article-title": "Multi-perspective improvement of knowledge graph completion with large language models",
+          "author": "Xu",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0058",
+          "series-title": "Findings of the association for computational linguistics: ACL 2023",
+          "first-page": "7790",
+          "article-title": "Pre-trained language model with prompts for temporal knowledge graph completion",
+          "author": "Xu",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0059",
+          "series-title": "Proceedings of the 29th international conference on computational linguistics",
+          "first-page": "2551",
+          "article-title": "Ruleformer: Context-aware rule mining over knowledge graph",
+          "author": "Xu",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0060",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.neunet.2024.106816",
+          "article-title": "Language-based reasoning graph neural network for commonsense question answering",
+          "volume": "181",
+          "author": "Yang",
+          "year": "2025",
+          "journal-title": "Neural Networks"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0061",
+          "doi-asserted-by": "crossref",
+          "first-page": "371",
+          "DOI": "10.1016/j.neunet.2023.01.043",
+          "article-title": "Few-shot link prediction for temporal knowledge graphs based on time-aware translation and attention mechanism",
+          "volume": "161",
+          "author": "Zhang",
+          "year": "2023",
+          "journal-title": "Neural Networks"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0062",
+          "series-title": "Proceedings of the ACM web conference 2023",
+          "first-page": "2412",
+          "article-title": "Learning long-and short-term representations for temporal knowledge graph reasoning",
+          "author": "Zhang",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0063",
+          "unstructured": "Zhang, S., Dong, L., Li, X., Zhang, S., Sun, X., Wang, S., Li, J., Hu, R., Zhang, T., Wu, F. et al. (2023b). Instruction tuning for large language models: a survey. arXiv: 2308.10792."
+        },
+        {
+          "key": "10.1016/j.neunet.2026.108811_bib0064",
+          "unstructured": "Zhang, Z., Wang, X., Zhou, H., Yu, Y., Zhang, M., Yang, C., & Shi, C. (2024). Can large language models improve the adversarial robustness of graph neural networks?arXiv: 2408.08685."
+        }
+      ],
+      "container-title": [
+        "Neural Networks"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S089360802600273X?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S089360802600273X?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            13
+          ]
+        ],
+        "date-time": "2026-08-13T15:12:48Z",
+        "timestamp": 1786633968000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S089360802600273X"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            8
+          ]
+        ]
+      },
+      "references-count": 64,
+      "alternative-id": [
+        "S089360802600273X"
+      ],
+      "URL": "https://doi.org/10.1016/j.neunet.2026.108811",
+      "relation": {},
+      "ISSN": [
+        "0893-6080"
+      ],
+      "issn-type": [
+        {
+          "value": "0893-6080",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            8
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Bridging graph structure and knowledge-guided editing for interpretable temporal knowledge graph reasoning",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Neural Networks",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.neunet.2026.108811",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2026 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "108811"
+    }
+  }
+}

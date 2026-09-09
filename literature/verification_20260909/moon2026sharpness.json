@@ -1,0 +1,397 @@
+{
+  "key": "moon2026sharpness",
+  "url": "https://api.crossref.org/works/10.1145%2F3773966.3779401",
+  "retrieved_utc": "2026-09-09T03:16:59.921600+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            18
+          ]
+        ],
+        "date-time": "2026-07-18T16:07:53Z",
+        "timestamp": 1784390873844,
+        "version": "3.55.0"
+      },
+      "publisher-location": "New York, NY, USA",
+      "reference-count": 32,
+      "publisher": "ACM",
+      "funder": [
+        {
+          "name": "National Research Foundation of Korea",
+          "award": [
+            "RS-2024-00459301"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "RS-2024-00459301"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            22
+          ]
+        ]
+      },
+      "DOI": "10.1145/3773966.3779401",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            16
+          ]
+        ],
+        "date-time": "2026-02-16T17:50:01Z",
+        "timestamp": 1771264201000
+      },
+      "page": "1211-1215",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "How Sharp and Bias-Robust is a Model? Dual Evaluation Perspectives on Knowledge Graph Completion"
+      ],
+      "prefix": "10.1145",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0001-1765-7688",
+          "authenticated-orcid": false,
+          "given": "Sooho",
+          "family": "Moon",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Chung-Ang University, Seoul, Republic of Korea"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1283-4697",
+          "authenticated-orcid": false,
+          "given": "Yunyong",
+          "family": "Ko",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Chung-Ang University, Seoul, Republic of Korea"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            21
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_1_1_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/D19-1522"
+        },
+        {
+          "key": "e_1_3_2_1_2_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1376616.1376746"
+        },
+        {
+          "key": "e_1_3_2_1_3_1",
+          "volume-title": "Charles Tapley Hoyt, and William L Hamilton",
+          "author": "Bonner Stephen",
+          "year": "2022",
+          "unstructured": "Stephen Bonner, Ian P Barrett, Cheng Ye, Rowan Swiers, Ola Engkvist, Andreas Bender, Charles Tapley Hoyt, and William L Hamilton. 2022. A review of biomedical datasets relating to drug discovery: a knowledge graph perspective. Briefings in Bioinformatics, Vol. 23, 6 (2022), bbac404."
+        },
+        {
+          "key": "e_1_3_2_1_4_1",
+          "volume-title": "Advances in Neural Information Processing Systems",
+          "volume": "26",
+          "author": "Bordes Antoine",
+          "year": "2013",
+          "unstructured": "Antoine Bordes, Nicolas Usunier, Alberto Garcia-Duran, Jason Weston, and Oksana Yakhnenko. 2013. Translating embeddings for modeling multi-relational data. In Advances in Neural Information Processing Systems, Vol. 26."
+        },
+        {
+          "key": "e_1_3_2_1_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v24i1.7519"
+        },
+        {
+          "key": "e_1_3_2_1_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v32i1.11573"
+        },
+        {
+          "key": "e_1_3_2_1_7_1",
+          "volume-title": "Robert Osazuwa Ness, and Jonathan Larson",
+          "author": "Edge Darren",
+          "year": "2024",
+          "unstructured": "Darren Edge, Ha Trinh, Newman Cheng, Joshua Bradley, Alex Chao, Apurva Mody, Steven Truitt, Dasha Metropolitansky, Robert Osazuwa Ness, and Jonathan Larson. 2024. From local to global: A graph RAG approach to query-focused summarization. arXiv preprint arXiv:2404.16130 (2024)."
+        },
+        {
+          "key": "e_1_3_2_1_8_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TKDE.2020.3028705"
+        },
+        {
+          "key": "e_1_3_2_1_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/P17-1021"
+        },
+        {
+          "key": "e_1_3_2_1_10_1",
+          "volume-title": "A unified framework for rank-based evaluation metrics for link prediction in knowledge graphs. arXiv preprint arXiv:2203.07544",
+          "author": "Hoyt Charles Tapley",
+          "year": "2022",
+          "unstructured": "Charles Tapley Hoyt, Max Berrendorf, Mikhail Galkin, Volker Tresp, and Benjamin M Gyori. 2022. A unified framework for rank-based evaluation metrics for link prediction in knowledge graphs. arXiv preprint arXiv:2203.07544 (2022)."
+        },
+        {
+          "key": "e_1_3_2_1_11_1",
+          "volume-title": "Proceedings of the ACM International Conference on Information and Knowledge Management (CIKM). 923-933",
+          "author": "Jang Myung-Hwan",
+          "year": "2023",
+          "unstructured": "Myung-Hwan Jang, Yunyong Ko, Hyuck-Moo Gwon, Ikhyeon Jo, Yongjun Park, and Sang-Wook Kim. 2023. SAGE: A Storage-Based Approach for Scalable and Efficient Sparse Generalized Matrix-Matrix Multiplication. In Proceedings of the ACM International Conference on Information and Knowledge Management (CIKM). 923-933."
+        },
+        {
+          "key": "e_1_3_2_1_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3543507.3583300"
+        },
+        {
+          "key": "e_1_3_2_1_13_1",
+          "volume-title": "Proceedings of the IEEE International Conference on Data Mining (ICDM). IEEE, 290-299",
+          "author": "Ko Yunyong",
+          "year": "2021",
+          "unstructured": "Yunyong Ko, Jae-Seo Yu, Hong-Kyun Bae, Yongjun Park, Dongwon Lee, and Sang-Wook Kim. 2021. MASCOT: A Quantization Framework for Efficient Matrix Factorization in Recommender Systems. In Proceedings of the IEEE International Conference on Data Mining (ICDM). IEEE, 290-299."
+        },
+        {
+          "key": "e_1_3_2_1_14_1",
+          "volume-title": "International Conference on Machine Learning. PMLR, 13209-13224",
+          "author": "Li Rui",
+          "year": "2022",
+          "unstructured": "Rui Li, Jianan Zhao, Chaozhuo Li, Di He, Yiqi Wang, Yuming Liu, Hao Sun, Senzhang Wang, Weiwei Deng, Yanming Shen, et al., 2022. House: Knowledge graph embedding with householder parameterization. In International Conference on Machine Learning. PMLR, 13209-13224."
+        },
+        {
+          "key": "e_1_3_2_1_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/219717.219748"
+        },
+        {
+          "key": "e_1_3_2_1_16_1",
+          "volume-title": "Conference on Uncertainty in Artificial Intelligence. PMLR, 1059-1068",
+          "author": "Mohamed Aisha",
+          "year": "2020",
+          "unstructured": "Aisha Mohamed, Shameem Parambath, Zoi Kaoudi, and Ashraf Aboulnaga. 2020. Popularity agnostic evaluation of knowledge graph embeddings. In Conference on Uncertainty in Artificial Intelligence. PMLR, 1059-1068."
+        },
+        {
+          "key": "e_1_3_2_1_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TKDE.2024.3352100"
+        },
+        {
+          "key": "e_1_3_2_1_18_1",
+          "volume-title": "RNNLogic: Learning Logic Rules for Reasoning on Knowledge Graphs. In International Conference on Learning Representations (ICLR). https://openreview.net/forum?id=tGZu6DlbreV",
+          "author": "Qu Meng",
+          "year": "2021",
+          "unstructured": "Meng Qu, Junkun Chen, Louis-Pascal Xhonneux, Yoshua Bengio, and Jian Tang. 2021. RNNLogic: Learning Logic Rules for Reasoning on Knowledge Graphs. In International Conference on Learning Representations (ICLR). https://openreview.net/forum?id=tGZu6DlbreV"
+        },
+        {
+          "key": "e_1_3_2_1_19_1",
+          "volume-title": "Advances in Neural Information Processing Systems",
+          "volume": "32",
+          "author": "Qu Meng",
+          "year": "2019",
+          "unstructured": "Meng Qu and Jian Tang. 2019. Probabilistic logic neural networks for reasoning. In Advances in Neural Information Processing Systems, Vol. 32."
+        },
+        {
+          "key": "e_1_3_2_1_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1242572.1242667"
+        },
+        {
+          "key": "e_1_3_2_1_21_1",
+          "volume-title": "International Conference on Learning Representations (ICLR). https://openreview.net/forum?id=HkgEQnRqYQ",
+          "author": "Sun Zhiqing",
+          "year": "2019",
+          "unstructured": "Zhiqing Sun, Zhi-Hong Deng, Jian-Yun Nie, and Jian Tang. 2019. RotatE: Knowledge Graph Embedding by Relational Rotation in Complex Space. In International Conference on Learning Representations (ICLR). https://openreview.net/forum?id=HkgEQnRqYQ"
+        },
+        {
+          "key": "e_1_3_2_1_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2020.acl-main.489"
+        },
+        {
+          "key": "e_1_3_2_1_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/W15-4007"
+        },
+        {
+          "key": "e_1_3_2_1_24_1",
+          "volume-title": "Proceedings of International Conference on Machine Learning. PMLR",
+          "author": "Trouillon Théo",
+          "year": "2016",
+          "unstructured": "Théo Trouillon, Johannes Welbl, Sebastian Riedel, Éric Gaussier, and Guillaume Bouchard. 2016. Complex embeddings for simple link prediction. In Proceedings of International Conference on Machine Learning. PMLR, 2071-2080."
+        },
+        {
+          "key": "e_1_3_2_1_25_1",
+          "volume-title": "Proceedings of the Web Conference (WWW). 1835-1844",
+          "author": "Wang Hongwei",
+          "year": "2018",
+          "unstructured": "Hongwei Wang, Fuzheng Zhang, Xing Xie, and Minyi Guo. 2018. DKN: Deep knowledge-aware network for news recommendation. In Proceedings of the Web Conference (WWW). 1835-1844."
+        },
+        {
+          "key": "e_1_3_2_1_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/D19-1024"
+        },
+        {
+          "key": "e_1_3_2_1_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/D18-1223"
+        },
+        {
+          "key": "e_1_3_2_1_28_1",
+          "volume-title": "Proceedings of International Conference on Learning Representations (ICLR), Poster Track. https://arxiv.org/abs/1412",
+          "author": "Yang Bishan",
+          "year": "2015",
+          "unstructured": "Bishan Yang, Wen-tau Yih, Xiaodong He, Jianfeng Gao, and Li Deng. 2015. Embedding Entities and Relations for Learning and Inference in Knowledge Bases. In Proceedings of International Conference on Learning Representations (ICLR), Poster Track. https://arxiv.org/abs/1412.6575"
+        },
+        {
+          "key": "e_1_3_2_1_29_1",
+          "first-page": "8374",
+          "article-title": "Rethinking knowledge graph evaluation under the open-world assumption",
+          "volume": "35",
+          "author": "Yang Haotong",
+          "year": "2022",
+          "unstructured": "Haotong Yang, Zhouchen Lin, and Muhan Zhang. 2022. Rethinking knowledge graph evaluation under the open-world assumption. In Advances in Neural Information Processing Systems, Vol. 35. 8374-8385.",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "e_1_3_2_1_30_1",
+          "volume-title": "Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers). 643-648",
+          "author": "He Xiaodong",
+          "year": "2014",
+          "unstructured": "Wen-tau Yih, Xiaodong He, and Christopher Meek. 2014. Semantic parsing for single-relation question answering. In Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers). 643-648."
+        },
+        {
+          "key": "e_1_3_2_1_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2021.09.003"
+        },
+        {
+          "key": "e_1_3_2_1_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jbi.2021.103696"
+        }
+      ],
+      "event": {
+        "name": "WSDM '26:The Nineteenth ACM International Conference on Web Search and Data Mining",
+        "location": "Boise ID USA",
+        "sponsor": [
+          "SIGKDD ACM Special Interest Group on Knowledge Discovery in Data",
+          "SIGWEB ACM Special Interest Group on Hypertext, Hypermedia, and Web",
+          "SIGIR ACM Special Interest Group on Information Retrieval",
+          "SIGMOD ACM Special Interest Group on Management of Data"
+        ]
+      },
+      "container-title": [
+        "Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining"
+      ],
+      "original-title": [],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            16
+          ]
+        ],
+        "date-time": "2026-02-16T18:00:56Z",
+        "timestamp": 1771264856000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/3773966.3779401"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            21
+          ]
+        ]
+      },
+      "references-count": 32,
+      "alternative-id": [
+        "10.1145/3773966.3779401",
+        "10.1145/3773966"
+      ],
+      "URL": "https://doi.org/10.1145/3773966.3779401",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            21
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2026-02-21",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

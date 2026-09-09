@@ -1,0 +1,31 @@
+{
+  "args": {
+    "model": "TeRDy",
+    "dataset": "ICEWS14",
+    "seed": 0,
+    "epochs": 12,
+    "patience": 6,
+    "eval_every": 3,
+    "batch": 4096,
+    "eval_batch": 128,
+    "rank": 0,
+    "learning_rate": 0.0,
+    "device": "cuda",
+    "output": "results_recent_v2",
+    "evaluate_only": false
+  },
+  "model_config": {
+    "rank": 6000,
+    "alpha": 10
+  },
+  "parameters": 95436000,
+  "torch": "2.6.0+cu124",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "data_source": "data/processed_recent/ICEWS14",
+  "full_candidate_vocabulary": 7128,
+  "cap": 5000,
+  "best_validation_mrr": 0.6949298503112844,
+  "trained_epochs": 12,
+  "training_seconds": 180.48829199999454,
+  "learning_rate": 0.02
+}

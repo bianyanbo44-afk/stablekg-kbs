@@ -1,0 +1,569 @@
+{
+  "url": "https://api.crossref.org/works/10.1145/3711896.3737064",
+  "retrieved_utc": "2026-09-09T03:28:21.330183+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            23
+          ]
+        ],
+        "date-time": "2026-08-23T18:24:10Z",
+        "timestamp": 1787509450570,
+        "version": "build-2736575974"
+      },
+      "publisher-location": "New York, NY, USA",
+      "reference-count": 44,
+      "publisher": "ACM",
+      "funder": [
+        {
+          "DOI": "10.13039/501100006374",
+          "name": "National Science Foundation",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "IIS-2339989, 2406439"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "IIS-2339989, 2406439"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100006374",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100006374",
+          "name": "Defense Advanced Research Projects Agency",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "HR00112490370, HR001124S0013"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "HR00112490370, HR001124S0013"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100006374",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100006374",
+          "name": "U.S. Department of Homeland Security",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "17STCIN00001-08-00"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "17STCIN00001-08-00"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100006374",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            3
+          ]
+        ]
+      },
+      "DOI": "10.1145/3711896.3737064",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            3
+          ]
+        ],
+        "date-time": "2025-08-03T21:05:41Z",
+        "timestamp": 1754255141000
+      },
+      "page": "3031-3042",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 4,
+      "title": [
+        "Non-exchangeable Conformal Prediction for Temporal Graph Neural Networks"
+      ],
+      "prefix": "10.1145",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0009-2044-4040",
+          "authenticated-orcid": false,
+          "given": "Tuo",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Virginia Polytechnic Institute and State University, Blacksburg, VA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3902-7131",
+          "authenticated-orcid": false,
+          "given": "Jian",
+          "family": "Kang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Rochester, Rochester, NY, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3776-4293",
+          "authenticated-orcid": false,
+          "given": "Yujun",
+          "family": "Yan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dartmouth College, Lebanon, NH, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4625-4212",
+          "authenticated-orcid": false,
+          "given": "Adithya",
+          "family": "Kulkarni",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Virginia Polytechnic Institute and State University, Blacksburg, VA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7065-2990",
+          "authenticated-orcid": false,
+          "given": "Dawei",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Virginia Polytechnic Institute and State University, Blacksburg, VA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            3
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_2_1_1",
+          "volume-title": "Béni Egressy, Andreea Anghel, and Kubilay Atasu.",
+          "author": "Altman Erik",
+          "year": "2024",
+          "unstructured": "Erik Altman, Jovan Blanuša, Luc Von Niederhäusern, Béni Egressy, Andreea Anghel, and Kubilay Atasu. 2024. Realistic synthetic financial transactions for anti-money laundering models. Advances in Neural Information Processing Systems, Vol. 36 (2024)."
+        },
+        {
+          "key": "e_1_3_2_2_2_1",
+          "unstructured": "Anastasios Angelopoulos Stephen Bates Jitendra Malik and Michael I Jordan. 2020. Uncertainty sets for image classifiers using conformal prediction. arXiv preprint arXiv:2009.14193(2020)."
+        },
+        {
+          "key": "e_1_3_2_2_3_1",
+          "volume-title": "International Conference on Machine Learning. PMLR, 532-542",
+          "author": "Bahri Dara",
+          "year": "2021",
+          "unstructured": "Dara Bahri and Heinrich Jiang. 2021. Locally adaptive label smoothing improves predictive churn. In International Conference on Machine Learning. PMLR, 532-542."
+        },
+        {
+          "key": "e_1_3_2_2_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/23-AOS2276"
+        },
+        {
+          "key": "e_1_3_2_2_5_1",
+          "volume-title": "International Conference on Machine Learning. PMLR, 6268-6278",
+          "author": "Clarkson Jase",
+          "year": "2023",
+          "unstructured": "Jase Clarkson. 2023. Distribution free prediction sets for node classification. In International Conference on Machine Learning. PMLR, 6268-6278."
+        },
+        {
+          "key": "e_1_3_2_2_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1090/S0002-9947-1933-1501718-2"
+        },
+        {
+          "key": "e_1_3_2_2_7_1",
+          "unstructured": "Weilin Cong Si Zhang Jian Kang Baichuan Yuan Hao Wu Xin Zhou Hanghang Tong and Mehrdad Mahdavi. 2023. Do we really need complicated model architectures for temporal networks? arXiv preprint arXiv:2302.11636(2023)."
+        },
+        {
+          "key": "e_1_3_2_2_8_1",
+          "volume-title": "Daniel John Lawson, and Patrick Rubin-Delanchy",
+          "author": "Davis Ed",
+          "year": "2024",
+          "unstructured": "Ed Davis, Ian Gallagher, Daniel John Lawson, and Patrick Rubin-Delanchy. 2024. Valid Conformal Prediction for Dynamic GNNs. arXiv preprint arXiv:2405.19230(2024)."
+        },
+        {
+          "key": "e_1_3_2_2_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2204569119"
+        },
+        {
+          "key": "e_1_3_2_2_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3394486.3403081"
+        },
+        {
+          "key": "e_1_3_2_2_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v33i01.3301922"
+        },
+        {
+          "key": "e_1_3_2_2_12_1",
+          "volume-title": "Proceedings of the 40th International Conference on Machine Learning(Proceedings of Machine Learning Research",
+          "volume": "12318",
+          "author": "Zargarbashi Soroush H.",
+          "year": "2023",
+          "unstructured": "Soroush H. Zargarbashi, Simone Antonelli, and Aleksandar Bojchevski. 2023. Conformal Prediction Sets for Graph Neural Networks. In Proceedings of the 40th International Conference on Machine Learning(Proceedings of Machine Learning Research, Vol. 202), Andreas Krause, Emma Brunskill, Kyunghyun Cho, Barbara Engelhardt, Sivan Sabato, and Jonathan Scarlett(Eds.). PMLR, 12292-12318. https://proceedings.mlr.press/v202/h-zargarbashi23a.html"
+        },
+        {
+          "key": "e_1_3_2_2_13_1",
+          "unstructured": "Yichen Hu Qing Wang and Peter Christen. 2018. Developing a Temporal Bibliographic Data Set for Entity Resolution. arXiv preprint arXiv:1806.07524(2018)."
+        },
+        {
+          "key": "e_1_3_2_2_14_1",
+          "unstructured": "Kexin Huang Ying Jin Emmanuel Candès and Jure Leskovec. 2023. Uncertainty Quantification over Graph with Conformalized Graph Neural Networks. arXiv:2305.14535 [cs.LG]"
+        },
+        {
+          "key": "e_1_3_2_2_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPRW.2016.90"
+        },
+        {
+          "key": "e_1_3_2_2_16_1",
+          "volume-title": "International Conference on Artificial Intelligence and Statistics. PMLR, 10603-10621",
+          "author": "Kan Kelvin",
+          "year": "2022",
+          "unstructured": "Kelvin Kan, François-Xavier Aubet, Tim Januschowski, Youngsuk Park, Konstantinos Benidis, Lars Ruthotto, and Jan Gasthaus. 2022. Multivariate quantile function forecaster. In International Conference on Artificial Intelligence and Statistics. PMLR, 10603-10621."
+        },
+        {
+          "key": "e_1_3_2_2_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3292500.3330895"
+        },
+        {
+          "key": "e_1_3_2_2_18_1",
+          "volume-title": "Efficient graph generation with graph recurrent attention networks. Advances in neural information processing systems",
+          "author": "Liao Renjie",
+          "year": "2019",
+          "unstructured": "Renjie Liao, Yujia Li, Yang Song, Shenlong Wang, Will Hamilton, David K Duvenaud, Raquel Urtasun, and Richard Zemel. 2019. Efficient graph generation with graph recurrent attention networks. Advances in neural information processing systems, Vol. 32 (2019)."
+        },
+        {
+          "key": "e_1_3_2_2_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v36i11.21459"
+        },
+        {
+          "key": "e_1_3_2_2_20_1",
+          "volume-title": "International Conference on Machine Learning. PMLR, 16462-16479",
+          "author": "Ndiaye Eugene",
+          "year": "2022",
+          "unstructured": "Eugene Ndiaye. 2022. Stable conformal prediction sets. In International Conference on Machine Learning. PMLR, 16462-16479."
+        },
+        {
+          "key": "e_1_3_2_2_21_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v34i04.5984"
+        },
+        {
+          "key": "e_1_3_2_2_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICTAI52525.2021.00165"
+        },
+        {
+          "key": "e_1_3_2_2_23_1",
+          "first-page": "3581",
+          "article-title": "Classification with valid and adaptive coverage",
+          "volume": "33",
+          "author": "Romano Yaniv",
+          "year": "2020",
+          "unstructured": "Yaniv Romano, Matteo Sesia, and Emmanuel Candes. 2020. Classification with valid and adaptive coverage. Advances in Neural Information Processing Systems, Vol. 33 (2020), 3581-3591.",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "e_1_3_2_2_24_1",
+          "unstructured": "Emanuele Rossi Ben Chamberlain Fabrizio Frasca Davide Eynard Federico Monti and Michael Bronstein. 2020. Temporal graph networks for deep learning on dynamic graphs. arXiv preprint arXiv:2006.10637(2020)."
+        },
+        {
+          "key": "e_1_3_2_2_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/01621459.2017.1395341"
+        },
+        {
+          "key": "e_1_3_2_2_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3336191.3371845"
+        },
+        {
+          "key": "e_1_3_2_2_27_1",
+          "volume-title": "International Conference on Machine Learning. PMLR, 32633-32653",
+          "author": "Straitouri Eleni",
+          "year": "2023",
+          "unstructured": "Eleni Straitouri, Lequn Wang, Nastaran Okati, and Manuel Gomez Rodriguez. 2023. Improving expert predictions with conformal prediction. In International Conference on Machine Learning. PMLR, 32633-32653."
+        },
+        {
+          "key": "e_1_3_2_2_28_1",
+          "volume-title": "Emmanuel Candes, and Aaditya Ramdas.",
+          "author": "Tibshirani Ryan J",
+          "year": "2019",
+          "unstructured": "Ryan J Tibshirani, Rina Foygel Barber, Emmanuel Candes, and Aaditya Ramdas. 2019. Conformal prediction under covariate shift. Advances in neural information processing systems, Vol. 32 (2019)."
+        },
+        {
+          "key": "e_1_3_2_2_29_1",
+          "volume-title": "Mlp-mixer: An all-mlp architecture for vision. Advances in neural information processing systems",
+          "author": "Tolstikhin Ilya O",
+          "year": "2021",
+          "unstructured": "Ilya O Tolstikhin, Neil Houlsby, Alexander Kolesnikov, Lucas Beyer, Xiaohua Zhai, Thomas Unterthiner, Jessica Yung, Andreas Steiner, Daniel Keysers, Jakob Uszkoreit, et al., 2021. Mlp-mixer: An all-mlp architecture for vision. Advances in neural information processing systems, Vol. 34 (2021), 24261-24272."
+        },
+        {
+          "key": "e_1_3_2_2_30_1",
+          "volume-title": "Digress: Discrete denoising diffusion for graph generation. arXiv preprint arXiv:2209.14734(2022).",
+          "author": "Vignac Clement",
+          "year": "2022",
+          "unstructured": "Clement Vignac, Igor Krawczuk, Antoine Siraudin, Bohan Wang, Volkan Cevher, and Pascal Frossard. 2022. Digress: Discrete denoising diffusion for graph generation. arXiv preprint arXiv:2209.14734(2022)."
+        },
+        {
+          "key": "e_1_3_2_2_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/1062391"
+        },
+        {
+          "key": "e_1_3_2_2_32_1",
+          "first-page": "82",
+          "article-title": "Nonparametric predictive distributions based on conformal prediction. In Conformal and probabilistic prediction and applications",
+          "author": "Vovk Vladimir",
+          "year": "2017",
+          "unstructured": "Vladimir Vovk, Jieli Shen, Valery Manokhin, and Min-ge Xie. 2017. Nonparametric predictive distributions based on conformal prediction. In Conformal and probabilistic prediction and applications. PMLR, 82-102.",
+          "journal-title": "PMLR"
+        },
+        {
+          "key": "e_1_3_2_2_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDM.2019.00070"
+        },
+        {
+          "key": "e_1_3_2_2_34_1",
+          "volume-title": "Proceedings of the 41st International Conference on Machine Learning. 51105-51123",
+          "author": "Wang Haohui",
+          "year": "2024",
+          "unstructured": "Haohui Wang, Yuzhen Mao, Yujun Yan, Yaoqing Yang, Jianhui Sun, Kevin Choi, Balaji Veeramani, Alison Hu, Edward Bowen, Tyler Cody, et al., 2024. EvoluNet: advancing dynamic non-IID transfer learning on graphs. In Proceedings of the 41st International Conference on Machine Learning. 51105-51123."
+        },
+        {
+          "key": "e_1_3_2_2_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3447548.3467325"
+        },
+        {
+          "key": "e_1_3_2_2_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3696410.3714909"
+        },
+        {
+          "key": "e_1_3_2_2_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v33i01.33017322"
+        },
+        {
+          "key": "e_1_3_2_2_38_1",
+          "volume-title": "International Conference on Machine Learning. PMLR, 11559-11569",
+          "author": "Xu Chen",
+          "year": "2021",
+          "unstructured": "Chen Xu and Yao Xie. 2021. Conformal prediction interval for dynamic time-series. In International Conference on Machine Learning. PMLR, 11559-11569."
+        },
+        {
+          "key": "e_1_3_2_2_39_1",
+          "unstructured": "Da Xu Chuanwei Ruan Evren Korpeoglu Sushant Kumar and Kannan Achan. 2020. Inductive representation learning on temporal graphs. arXiv preprint arXiv:2002.07962(2020)."
+        },
+        {
+          "key": "e_1_3_2_2_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/WACV51458.2022.00367"
+        },
+        {
+          "key": "e_1_3_2_2_41_1",
+          "volume-title": "International Conference on Machine Learning. PMLR, 12292-12318",
+          "author": "Zargarbashi Soroush H",
+          "year": "2023",
+          "unstructured": "Soroush H Zargarbashi, Simone Antonelli, and Aleksandar Bojchevski. 2023. Conformal prediction sets for graph neural networks. In International Conference on Machine Learning. PMLR, 12292-12318."
+        },
+        {
+          "key": "e_1_3_2_2_42_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3511808.3557284"
+        },
+        {
+          "key": "e_1_3_2_2_43_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3394486.3403082"
+        },
+        {
+          "key": "e_1_3_2_2_44_1",
+          "volume-title": "TGL: A General Framework for Temporal GNN Training on Billion-Scale Graphs. arXiv:2203.14883 [cs.LG] endthebibl",
+          "author": "Zhou Hongkuan",
+          "year": "2022",
+          "unstructured": "Hongkuan Zhou, Da Zheng, Israt Nisa, Vasileios Ioannidis, Xiang Song, and George Karypis. 2022. TGL: A General Framework for Temporal GNN Training on Billion-Scale Graphs. arXiv:2203.14883 [cs.LG] endthebibl"
+        }
+      ],
+      "event": {
+        "name": "KDD '25: The 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+        "location": "Toronto ON Canada",
+        "acronym": "KDD '25",
+        "sponsor": [
+          "SIGKDD ACM Special Interest Group on Knowledge Discovery in Data",
+          "SIGMOD ACM Special Interest Group on Management of Data"
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3711896.3737064",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            30
+          ]
+        ],
+        "date-time": "2026-04-30T18:20:09Z",
+        "timestamp": 1777573209000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/3711896.3737064"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            3
+          ]
+        ]
+      },
+      "references-count": 44,
+      "alternative-id": [
+        "10.1145/3711896.3737064",
+        "10.1145/3711896"
+      ],
+      "URL": "https://doi.org/10.1145/3711896.3737064",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            3
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2025-08-03",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

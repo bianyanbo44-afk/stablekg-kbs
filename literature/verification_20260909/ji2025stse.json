@@ -1,0 +1,703 @@
+{
+  "key": "ji2025stse",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.knosys.2025.113469",
+  "retrieved_utc": "2026-09-09T03:16:49.707915+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            26
+          ]
+        ],
+        "date-time": "2026-08-26T06:49:19Z",
+        "timestamp": 1787726959359,
+        "version": "build-2784847793"
+      },
+      "reference-count": 42,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2025-05-01T00:00:00Z",
+            "timestamp": 1746057600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2025-05-01T00:00:00Z",
+            "timestamp": 1746057600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                6
+              ]
+            ],
+            "date-time": "2025-04-06T00:00:00Z",
+            "timestamp": 1743897600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100002855",
+          "name": "Ministry of Science and Technology of the People's Republic of China",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/501100002855",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100012166",
+          "name": "National Key Research and Development Program of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "2021YFB3900900"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2021YFB3900900"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100012166",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Knowledge-Based Systems"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            5
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.knosys.2025.113469",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            8
+          ]
+        ],
+        "date-time": "2025-04-08T13:48:32Z",
+        "timestamp": 1744120112000
+      },
+      "page": "113469",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 6,
+      "special_numbering": "C",
+      "title": [
+        "STSE: Spatio-temporal state embedding for knowledge graph completion"
+      ],
+      "prefix": "10.1016",
+      "volume": "317",
+      "author": [
+        {
+          "given": "Xiaoyu",
+          "family": "Ji",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yibing",
+          "family": "Cao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jiangshui",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xinke",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "2",
+          "key": "10.1016/j.knosys.2025.113469_bib0001",
+          "doi-asserted-by": "crossref",
+          "first-page": "494",
+          "DOI": "10.1109/TNNLS.2021.3070843",
+          "article-title": "A survey on knowledge graphs: representation, acquisition, and applications[J]",
+          "volume": "33",
+          "author": "Ji",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Neural. Netw. Learn. Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0002",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2022.109597",
+          "article-title": "A comprehensive overview of knowledge graph completion[J]",
+          "volume": "255",
+          "author": "Shen",
+          "year": "2022",
+          "journal-title": "Knowl. Based Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0003",
+          "series-title": "Proceedings of the AAAI conference on artificial intelligence",
+          "first-page": "4765",
+          "article-title": "Temporal knowledge graph reasoning with historical contrastive learning[C]",
+          "volume": "37",
+          "author": "Xu",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0004",
+          "article-title": "Spatio-temporal knowledge embedding method considering the lifecycle of geographical entities[J]",
+          "volume": "131",
+          "author": "Zhao",
+          "year": "2024",
+          "journal-title": "Int. J. Appl. Earth Obs. Geoinf."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0005",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2024.111929",
+          "article-title": "Link prediction method for social networks based on a hierarchical and progressive user interaction matrix[J]",
+          "volume": "297",
+          "author": "Wei",
+          "year": "2024",
+          "journal-title": "Knowl. Based Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0006",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ins.2024.120477",
+          "article-title": "Spatiotemporal knowledge graph completion via diachronic and transregional word embedding[J]",
+          "volume": "667",
+          "author": "Xu",
+          "year": "2024",
+          "journal-title": "Inf. Sci. (Ny)"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.knosys.2025.113469_bib0007",
+          "doi-asserted-by": "crossref",
+          "first-page": "4934",
+          "DOI": "10.1080/17538947.2023.2290569",
+          "article-title": "AugGKG: a grid-augmented geographic knowledge graph representation and spatio-temporal query model[J]",
+          "volume": "16",
+          "author": "Han",
+          "year": "2023",
+          "journal-title": "Int. J. Digit. Earth."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.knosys.2025.113469_bib0008",
+          "doi-asserted-by": "crossref",
+          "first-page": "674",
+          "DOI": "10.1080/13658816.2021.1962527",
+          "article-title": "A knowledge representation model based on the geographic spatiotemporal process[J]",
+          "volume": "36",
+          "author": "Zheng",
+          "year": "2022",
+          "journal-title": "Int. J. Geogr. Inf. Sci."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.knosys.2025.113469_bib0009",
+          "first-page": "1544",
+          "article-title": "Recent advance and challenge in geospatial big data mining[J]",
+          "volume": "51",
+          "author": "Yaolin",
+          "year": "2022",
+          "journal-title": "Acta Geod. et Cartogr. Sin."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0010",
+          "series-title": "Proceedings of the 29th International Conference on Computational Linguistics",
+          "first-page": "4918",
+          "article-title": "RotateCT: knowledge graph embedding by rotation and coordinate transformation in complex space[C]",
+          "author": "Dong",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0011",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2021.108100",
+          "article-title": "JointE: jointly utilizing 1D and 2D convolution for knowledge graph embedding[J]",
+          "volume": "240",
+          "author": "Zhou",
+          "year": "2022",
+          "journal-title": "Knowl. Based Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0012",
+          "series-title": "ddings[C]Proceedings of the AAAI conference on artificial intelligence",
+          "first-page": "5521",
+          "article-title": "Geometry interaction knowledge graph embe",
+          "volume": "36",
+          "author": "Cao",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0013",
+          "series-title": "ge graphs[C]Proceedings of the fifteenth ACM international conference on web search and data mining",
+          "first-page": "794",
+          "article-title": "Evokg: jointly modeling event time and network structure for reasoning over temporal knowled",
+          "author": "Park",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0014",
+          "series-title": "ing[C]Proceedings of the ACM web conference 2023",
+          "first-page": "2412",
+          "article-title": "Learning long-and short-term representations for temporal knowledge graph reason",
+          "author": "Zhang",
+          "year": "2023"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.knosys.2025.113469_bib0015",
+          "doi-asserted-by": "crossref",
+          "first-page": "435",
+          "DOI": "10.1109/TFUZZ.2023.3300295",
+          "article-title": "Fstre: fuzzy spatiotemporal RDF knowledge graph embedding using uncertain dynamic vector projection and rotation[J]",
+          "volume": "32",
+          "author": "Ji",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Fuzzy Sys."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0016",
+          "doi-asserted-by": "crossref",
+          "first-page": "386",
+          "DOI": "10.1109/TASLP.2023.3331121",
+          "article-title": "Multi-level interaction based knowledge graph completion[J]",
+          "volume": "32",
+          "author": "Wang",
+          "year": "2023",
+          "journal-title": "IEEE/ACM Trans. Audio Speech Lang. Process"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0017",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.artint.2024.104085",
+          "article-title": "Temporal inductive path neural network for temporal knowledge graph reasoning[J]",
+          "volume": "329",
+          "author": "Dong",
+          "year": "2024",
+          "journal-title": "Artif. Intell."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0018",
+          "series-title": "Dihedron algebraic embeddings for spatio-temporal knowledge graph completion[C]European Semantic Web Conference",
+          "first-page": "253",
+          "author": "Nayyeri",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0019",
+          "doi-asserted-by": "crossref",
+          "first-page": "240",
+          "DOI": "10.1016/j.future.2023.05.030",
+          "article-title": "Sub-entity embedding for inductive spatio-temporal knowledge graph completion[J]",
+          "volume": "148",
+          "author": "Wan",
+          "year": "2023",
+          "journal-title": "Future Gener. Comput. Syst."
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.knosys.2025.113469_bib0020",
+          "first-page": "1142",
+          "article-title": "Description frame of data model of multi-granularity spatio-temporal object for pan-spatial information system[J]",
+          "volume": "19",
+          "author": "Yixin",
+          "year": "2017",
+          "journal-title": "J. Geo-inf. Sci."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.knosys.2025.113469_bib0021",
+          "first-page": "10",
+          "article-title": "New paradigm of Geographic Information Systems research[J]",
+          "volume": "25",
+          "author": "Hua",
+          "year": "2023",
+          "journal-title": "J. Geo-inf. Sci."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0022",
+          "series-title": "Spatio-temporal object generation workflow technology for vector map data[J]",
+          "first-page": "32",
+          "volume": "31",
+          "author": "Zheng",
+          "year": "2024"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.knosys.2025.113469_bib0023",
+          "first-page": "1019",
+          "article-title": "Spatio-temporal features based geographical knowledge graph construction[J]",
+          "volume": "50",
+          "author": "Xueying",
+          "year": "2020",
+          "journal-title": "Sci. Sin. (Inform.)"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0024",
+          "first-page": "1091",
+          "article-title": "Spatiotemporal knowledge graph: advances and perspectives[J]",
+          "volume": "25",
+          "author": "Lu",
+          "year": "2023",
+          "journal-title": "J. Geo-Inf. Sci."
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.knosys.2025.113469_bib0025",
+          "doi-asserted-by": "crossref",
+          "first-page": "2563",
+          "DOI": "10.1007/s11430-022-1169-9",
+          "article-title": "An adaptive representation model for geoscience knowledge graphs considering complex spatiotemporal features and relationships[J]",
+          "volume": "66",
+          "author": "Zhu",
+          "year": "2023",
+          "journal-title": "Sci. China Earth. Sci."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0026",
+          "series-title": "Interactive visual analysis of COVID-19 epidemic situation using geographic knowledge graph[J]",
+          "first-page": "836",
+          "volume": "45",
+          "author": "Jiang",
+          "year": "2020"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.knosys.2025.113469_bib0027",
+          "doi-asserted-by": "crossref",
+          "first-page": "1992",
+          "DOI": "10.1111/tgis.13109",
+          "article-title": "A hierarchical spatio-temporal object knowledge graph model for dynamic scene representation[J]",
+          "volume": "27",
+          "author": "Zhao",
+          "year": "2023",
+          "journal-title": "Trans. GIS."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0028",
+          "first-page": "896",
+          "article-title": "Spatio-tem",
+          "author": "Yang",
+          "year": "2022"
+        },
+        {
+          "issue": "30",
+          "key": "10.1016/j.knosys.2025.113469_bib0029",
+          "doi-asserted-by": "crossref",
+          "first-page": "19075",
+          "DOI": "10.1007/s00521-024-10167-5",
+          "article-title": "Spatio-temporal knowledge embedding via circular correlation: insights into functional urban area travel pattern mining[J]",
+          "volume": "36",
+          "author": "Pan",
+          "year": "2024",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.knosys.2025.113469_bib0030",
+          "first-page": "617",
+          "article-title": "A survey on knowledge graph embeddings with literals: which model links better literal-ly?[J]",
+          "volume": "12",
+          "author": "Gesese",
+          "year": "2021",
+          "journal-title": "Semant. Web"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.knosys.2025.113469_bib0031",
+          "doi-asserted-by": "crossref",
+          "first-page": "485",
+          "DOI": "10.3390/sym13030485",
+          "article-title": "A survey on knowledge graph embeddings for link prediction[J]",
+          "volume": "13",
+          "author": "Wang",
+          "year": "2021",
+          "journal-title": "Symmetry (Basel)"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0032",
+          "unstructured": "Sun Z., Deng Z.H., Nie J.Y., et al. Rotate: knowledge graph embedding by relational rotation in complex space[J]. arXiv preprint arXiv:1902.10197, 2019."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.knosys.2025.113469_bib0033",
+          "first-page": "4838",
+          "article-title": "Geometric algebra based embeddings for static and temporal knowledge graph completion[J]",
+          "volume": "35",
+          "author": "Xu",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Knowl. Data Eng."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0034",
+          "first-page": "32",
+          "article-title": "Quaternion knowledge graph embeddings[J]",
+          "author": "Zhang",
+          "year": "2019",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0035",
+          "unstructured": "Yao L., Mao C., Luo Y. KG-BERT: BERT for knowledge graph completion[J]. arXiv preprint arXiv:1909.03193, 2019."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0036",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2021.107841",
+          "article-title": "Tucker decomposition-based temporal knowledge graph completion[J]",
+          "volume": "238",
+          "author": "Shao",
+          "year": "2022",
+          "journal-title": "Knowl. Based Syst."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.knosys.2025.113469_bib0037",
+          "first-page": "5457",
+          "article-title": "Hyperplane-based time-aware knowledge graph embedding for temporal knowledge graph completion[J]",
+          "volume": "42",
+          "author": "He",
+          "year": "2022",
+          "journal-title": "J. Intell. Fuzzy Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0038",
+          "unstructured": "Lacroix T., Obozinski G., Usunier N. Tensor decompositions for temporal knowledge base completion[J]. arXiv preprint arXiv:2004.04926, 2020."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0039",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen K., Wang Y., Li Y., et al. Rotateqvs: representing temporal information as rotations in quaternion vector space for temporal knowledge graph completion[J]. arXiv preprint arXiv:2203.07993, 2022.",
+          "DOI": "10.18653/v1/2022.acl-long.402"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.knosys.2025.113469_bib0040",
+          "first-page": "1",
+          "article-title": "DACHA: a dual graph convolution based temporal knowledge graph representation learning method using historical relation[J]",
+          "volume": "16",
+          "author": "Chen",
+          "year": "2021",
+          "journal-title": "ACM Trans. Knowl. Discov. Data (TKDD)"
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.knosys.2025.113469_bib0043",
+          "doi-asserted-by": "crossref",
+          "first-page": "10718",
+          "DOI": "10.1109/TPAMI.2023.3262608",
+          "article-title": "Caco: both positive and negative samples are directly learnable via cooperative-adversarial contrastive learning[J]",
+          "volume": "45",
+          "author": "Wang",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113469_bib0042",
+          "series-title": "Proceedings of the AAAI conference on artificial intelligence",
+          "first-page": "6471",
+          "article-title": "Chronor: rotation based temporal knowledge graph embedding[C]",
+          "volume": "35",
+          "author": "Sadeghian",
+          "year": "2021"
+        }
+      ],
+      "container-title": [
+        "Knowledge-Based Systems"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0950705125005167?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0950705125005167?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            29
+          ]
+        ],
+        "date-time": "2025-12-29T19:56:29Z",
+        "timestamp": 1767038189000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950705125005167"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            5
+          ]
+        ]
+      },
+      "references-count": 42,
+      "alternative-id": [
+        "S0950705125005167"
+      ],
+      "URL": "https://doi.org/10.1016/j.knosys.2025.113469",
+      "relation": {},
+      "ISSN": [
+        "0950-7051"
+      ],
+      "issn-type": [
+        {
+          "value": "0950-7051",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            5
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "STSE: Spatio-temporal state embedding for knowledge graph completion",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Knowledge-Based Systems",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.knosys.2025.113469",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2025 The Author(s). Published by Elsevier B.V.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "113469"
+    }
+  }
+}

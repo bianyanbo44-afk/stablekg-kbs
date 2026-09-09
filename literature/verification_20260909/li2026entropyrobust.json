@@ -1,0 +1,680 @@
+{
+  "key": "li2026entropyrobust",
+  "url": "https://api.crossref.org/works/10.1007%2Fs10618-026-01198-8",
+  "retrieved_utc": "2026-09-09T03:16:59.276512+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            20
+          ]
+        ],
+        "date-time": "2026-08-20T14:39:34Z",
+        "timestamp": 1787236774829,
+        "version": "build-2736575974"
+      },
+      "reference-count": 42,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "3",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                24
+              ]
+            ],
+            "date-time": "2026-03-24T00:00:00Z",
+            "timestamp": 1774310400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                24
+              ]
+            ],
+            "date-time": "2026-03-24T00:00:00Z",
+            "timestamp": 1774310400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "61871176"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "61871176"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Data Min Knowl Disc"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            5
+          ]
+        ]
+      },
+      "DOI": "10.1007/s10618-026-01198-8",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            24
+          ]
+        ],
+        "date-time": "2026-03-24T08:19:20Z",
+        "timestamp": 1774340360000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Entropy-regularized multimodal fusion for robust and explainable knowledge graph completion"
+      ],
+      "prefix": "10.1007",
+      "volume": "40",
+      "author": [
+        {
+          "given": "Yongfang",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chunhua",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xuemin",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yuhong",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhihua",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            24
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "1198_CR1",
+          "unstructured": "Bordes A, Usunier N, Garcia-Duran A, Weston J, Yakhnenko O (2013) Translating embeddings for modeling multi-relational data. Adv Neural Inf Process Syst 26"
+        },
+        {
+          "issue": "6",
+          "key": "1198_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1145/3643806",
+          "volume": "56",
+          "author": "J Cao",
+          "year": "2024",
+          "unstructured": "Cao J, Fang J, Meng Z, Liang S (2024) Knowledge graph embedding: a survey from the perspective of representation spaces. ACM Comput Surv 56(6):1–42",
+          "journal-title": "ACM Comput Surv"
+        },
+        {
+          "issue": "1",
+          "key": "1198_CR3",
+          "first-page": "17",
+          "volume": "43",
+          "author": "V Chaudhri",
+          "year": "2022",
+          "unstructured": "Chaudhri V, Baru C, Chittar N, Dong X, Genesereth M, Hendler J, Kalyanpur A, Lenat D, Sequeda J, Vrandečić D et al (2022) Knowledge graphs: introduction, history and perspectives. AI Mag 43(1):17–29",
+          "journal-title": "AI Mag"
+        },
+        {
+          "key": "1198_CR4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen X, Zhang N, Li L, Deng S, Tan C, Xu C, Huang F, Si L, Chen H (2022) Hybrid transformer with multi-level fusion for multimodal knowledge graph completion. In: Proceedings of the 45th international ACM SIGIR conference on research and development in information retrieval, pp 904–915",
+          "DOI": "10.1145/3477495.3531992"
+        },
+        {
+          "key": "1198_CR5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dettmers T, Minervini P, Stenetorp P, Riedel S (2018) Convolutional 2d knowledge graph embeddings. In: Proceedings of the AAAI conference on artificial intelligence, vol 32",
+          "DOI": "10.1609/aaai.v32i1.11573"
+        },
+        {
+          "key": "1198_CR6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Devlin J, Chang M-W, Lee K, Toutanova K (2019) Bert: pre-training of deep bidirectional transformers for language understanding. In: Proceedings of the 2019 conference of the north american chapter of the association for computational linguistics: human language technologies, Volume 1 (long and Short Papers), pp 4171–4186",
+          "DOI": "10.18653/v1/N19-1423"
+        },
+        {
+          "key": "1198_CR7",
+          "unstructured": "Dosovitskiy A, Beyer L, Kolesnikov A, Weissenborn D, Zhai X, Unterthiner T, Dehghani M, Minderer M, Heigold G, Gelly S et al (2020) An image is worth 16x16 words: transformers for image recognition at scale. arXiv:2010.11929"
+        },
+        {
+          "key": "1198_CR8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Galárraga LA, Teflioudi C, Hose K, Suchanek F (2013) Amie: association rule mining under incomplete evidence in ontological knowledge bases. In: Proceedings of the 22nd international conference on world wide web, pp. 413–422",
+          "DOI": "10.1145/2488388.2488425"
+        },
+        {
+          "issue": "16",
+          "key": "1198_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "3171",
+          "DOI": "10.3390/electronics13163171",
+          "volume": "13",
+          "author": "Y Li",
+          "year": "2024",
+          "unstructured": "Li Y, Zhu C (2024) Transe-mtp: a new representation learning method for knowledge graph embedding with multi-translation principles and transe. Electronics 13(16):3171",
+          "journal-title": "Electronics"
+        },
+        {
+          "key": "1198_CR9",
+          "unstructured": "Li LH, Yatskar M, Yin D, Hsieh C-J, Chang K-W (2019) Visualbert: a simple and performant baseline for vision and language. arXiv:1908.03557"
+        },
+        {
+          "issue": "8",
+          "key": "1198_CR11",
+          "doi-asserted-by": "publisher",
+          "first-page": "9289",
+          "DOI": "10.1007/s10489-021-02947-6",
+          "volume": "52",
+          "author": "W Li",
+          "year": "2022",
+          "unstructured": "Li W, Peng R, Li Z (2022) Improving knowledge graph completion via increasing embedding interactions. Appl Intell 52(8):9289–9307",
+          "journal-title": "Appl Intell"
+        },
+        {
+          "key": "1198_CR14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li L, He Y, Pun C-M (2025a) An adaptive framework for multi-view clustering leveraging conditional entropy optimization. In: ICASSP 2025-2025 IEEE International conference on acoustics, speech and signal processing (ICASSP). IEEE, pp 1–5",
+          "DOI": "10.1109/ICASSP49660.2025.10888088"
+        },
+        {
+          "key": "1198_CR15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li L, Jin Z, Zhang X, Duan H, Wang J, Tao Z, Zhao H, Zhu X (2025b) Multi-view riemannian manifolds fusion enhancement for knowledge graph completion. IEEE Trans Knowl Data Eng",
+          "DOI": "10.1109/TKDE.2025.3538110"
+        },
+        {
+          "issue": "10",
+          "key": "1198_CR12",
+          "first-page": "1",
+          "volume": "56",
+          "author": "PP Liang",
+          "year": "2024",
+          "unstructured": "Liang PP, Zadeh A, Morency L-P (2024a) Foundations & trends in multimodal machine learning: principles, challenges, and open questions. ACM Comput Surv 56(10):1–42",
+          "journal-title": "ACM Comput Surv"
+        },
+        {
+          "issue": "11",
+          "key": "1198_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1145/3656579",
+          "volume": "56",
+          "author": "W Liang",
+          "year": "2024",
+          "unstructured": "Liang W, Meo PD, Tang Y, Zhu J (2024b) A survey of multi-modal knowledge graphs: technologies and trends. ACM Comput Surv 56(11):1–41",
+          "journal-title": "ACM Comput Surv"
+        },
+        {
+          "key": "1198_CR16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lin Y, Liu Z, Sun M, Liu Y, Zhu X (2015) Learning entity and relation embeddings for knowledge graph completion. In: Proceedings of the AAAI conference on artificial intelligence, vol 29",
+          "DOI": "10.1609/aaai.v29i1.9491"
+        },
+        {
+          "key": "1198_CR17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu J, Zhong X, Yang R, Li P (2024) Crgat: contextualized relational graph attention network for knowledge graph completion. In: International conference on neural information processing. Springer, Berlin, pp 166–179",
+          "DOI": "10.1007/978-981-96-7008-6_12"
+        },
+        {
+          "key": "1198_CR18",
+          "doi-asserted-by": "publisher",
+          "first-page": "57244",
+          "DOI": "10.52202/075280-2501",
+          "volume": "36",
+          "author": "Z Lu",
+          "year": "2023",
+          "unstructured": "Lu Z (2023) A theory of multimodal learning. Adv Neural Inf Process Syst 36:57244–57255",
+          "journal-title": "Adv Neural Inf Process Syst"
+        },
+        {
+          "issue": "6",
+          "key": "1198_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "78",
+          "DOI": "10.1007/s10618-025-01150-2",
+          "volume": "39",
+          "author": "X Lu",
+          "year": "2025",
+          "unstructured": "Lu X, Li H, Lu W, Chang Y, Xue F (2025) Hrhe: hybrid relations-guided multi-modal knowledge graph completion using hierarchical embeddings. Data Min Knowl Disc 39(6):78",
+          "journal-title": "Data Min Knowl Disc"
+        },
+        {
+          "key": "1198_CR20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Luo P, Xu T, Wu, S, Zhu C, Xu L, Chen E (2023) Multi-grained multimodal interaction network for entity linking. In: Proceedings of the 29th ACM SIGKDD conference on knowledge discovery and data mining, pp 1583–1594",
+          "DOI": "10.1145/3580305.3599439"
+        },
+        {
+          "key": "1198_CR21",
+          "doi-asserted-by": "publisher",
+          "first-page": "100380",
+          "DOI": "10.1016/j.bdr.2023.100380",
+          "volume": "32",
+          "author": "J Peng",
+          "year": "2023",
+          "unstructured": "Peng J, Hu X, Huang W, Yang J (2023a) What is a multi-modal knowledge graph: a survey. Big Data Res 32:100380",
+          "journal-title": "Big Data Res"
+        },
+        {
+          "issue": "11",
+          "key": "1198_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "13071",
+          "DOI": "10.1007/s10462-023-10465-9",
+          "volume": "56",
+          "author": "C Peng",
+          "year": "2023",
+          "unstructured": "Peng C, Xia F, Naseriparsa M, Osborne F (2023b) Knowledge graphs: opportunities and challenges. Artif Intell Rev 56(11):13071–13102",
+          "journal-title": "Artif Intell Rev"
+        },
+        {
+          "issue": "6",
+          "key": "1198_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1007/s10618-025-01139-x",
+          "volume": "39",
+          "author": "J Peng",
+          "year": "2025",
+          "unstructured": "Peng J, Shan Y, Zha Y, Wang X (2025) Adaptive multimodal graph learning for knowledge graph completion. Data Min Knowl Disc 39(6):1–27",
+          "journal-title": "Data Min Knowl Disc"
+        },
+        {
+          "issue": "4",
+          "key": "1198_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "1019",
+          "DOI": "10.1177/01655515221112844",
+          "volume": "50",
+          "author": "E Rajabi",
+          "year": "2024",
+          "unstructured": "Rajabi E, Etminani K (2024) Knowledge-graph-based explainable ai: a systematic review. J Inf Sci 50(4):1019–1029",
+          "journal-title": "J Inf Sci"
+        },
+        {
+          "key": "1198_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "109597",
+          "DOI": "10.1016/j.knosys.2022.109597",
+          "volume": "255",
+          "author": "T Shen",
+          "year": "2022",
+          "unstructured": "Shen T, Zhang F, Cheng J (2022) A comprehensive overview of knowledge graph completion. Knowl-Based Syst 255:109597",
+          "journal-title": "Knowl-Based Syst"
+        },
+        {
+          "key": "1198_CR26",
+          "unstructured": "Sun Z, Deng Z-H, Nie J-Y, Tang J (2019) Rotate: knowledge graph embedding by relational rotation in complex space. arXiv:1902.10197"
+        },
+        {
+          "issue": "1",
+          "key": "1198_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1145/3522586",
+          "volume": "32",
+          "author": "G Tamašauskaitė",
+          "year": "2023",
+          "unstructured": "Tamašauskaitė G, Groth P (2023) Defining a knowledge graph development process through a systematic review. ACM Trans Softw Eng Methodol 32(1):1–40",
+          "journal-title": "ACM Trans Softw Eng Methodol"
+        },
+        {
+          "issue": "3",
+          "key": "1198_CR28",
+          "doi-asserted-by": "publisher",
+          "first-page": "1316",
+          "DOI": "10.1007/s10618-023-00998-6",
+          "volume": "38",
+          "author": "K Tang",
+          "year": "2024",
+          "unstructured": "Tang K, Li S, Tang J, Li D, Wang P, Wang T (2024) Fusing structural information with knowledge enhanced text representation for knowledge graph completion. Data Min Knowl Disc 38(3):1316–1333",
+          "journal-title": "Data Min Knowl Disc"
+        },
+        {
+          "key": "1198_CR29",
+          "unstructured": "Trouillon T, Welbl J, Riedel S, Gaussier É, Bouchard G (2016) Complex embeddings for simple link prediction. In: International conference on machine learning. PMLR, pp 2071–2080"
+        },
+        {
+          "key": "1198_CR30",
+          "unstructured": "Veličković P, Cucurull G, Casanova A, Romero A, Lio P, Bengio Y (2017) Graph attention networks. arXiv:1710.10903"
+        },
+        {
+          "key": "1198_CR33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang Z, Zhang J, Feng J, Chen Z (2014) Knowledge graph embedding by translating on hyperplanes. In: Proceedings of the AAAI conference on artificial intelligence, vol 28",
+          "DOI": "10.1609/aaai.v28i1.8870"
+        },
+        {
+          "key": "1198_CR32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang M, Wang S, Yang H, Zhang Z, Chen X, Qi G (2021) Is visual context really helpful for knowledge graph? a representation learning perspective. In: Proceedings of the 29th ACM international conference on multimedia, pp 2735–2743",
+          "DOI": "10.1145/3474085.3475470"
+        },
+        {
+          "key": "1198_CR31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang X, Meng B, Chen H, Meng Y, Lv K, Zhu W (2023) Tiva-kg: a multimodal knowledge graph with text, image, video and audio. In: Proceedings of the 31st ACM international conference on multimedia, pp 2391–2399",
+          "DOI": "10.1145/3581783.3612266"
+        },
+        {
+          "key": "1198_CR34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xie R, Liu Z, Jia J, Luan H, Sun M (2016a) Representation learning of knowledge graphs with entity descriptions. In: Proceedings of the AAAI conference on artificial intelligence, vol 30",
+          "DOI": "10.1609/aaai.v30i1.10329"
+        },
+        {
+          "key": "1198_CR35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xie R, Liu Z, Luan H, Sun M (2016b) Image-embodied knowledge representation learning. arXiv:1609.07028",
+          "DOI": "10.24963/ijcai.2017/438"
+        },
+        {
+          "key": "1198_CR36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xu Y, Ou J, Xu H, Fu L (2023) Temporal knowledge graph reasoning with historical contrastive learning. In: Proceedings of the AAAI conference on artificial intelligence, vol 37, pp 4765–4773",
+          "DOI": "10.1609/aaai.v37i4.25601"
+        },
+        {
+          "key": "1198_CR37",
+          "unstructured": "Yao L, Mao C, Luo Y (2019) Kg-bert: bert for knowledge graph completion. arXiv:1909.03193"
+        },
+        {
+          "issue": "2",
+          "key": "1198_CR38",
+          "doi-asserted-by": "publisher",
+          "first-page": "767",
+          "DOI": "10.1007/s10618-023-00918-8",
+          "volume": "37",
+          "author": "M Yu",
+          "year": "2023",
+          "unstructured": "Yu M, Guo J, Yu J, Xu T, Zhao M, Liu H, Li X, Yu R (2023) Bdri: block decomposition based on relational interaction for knowledge graph completion. Data Min Knowl Disc 37(2):767–787",
+          "journal-title": "Data Min Knowl Disc"
+        },
+        {
+          "key": "1198_CR39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yuan M, Xing L, Yuan J, Zhai K (2025) Knowledge graph completion based on asymmetric translation and automatic entity type representation: M. Yuan et al. Data Min Knowl Disc 39(4):37",
+          "DOI": "10.1007/s10618-025-01105-7"
+        },
+        {
+          "key": "1198_CR40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zheng C, Feng J, Fu Z, Cai Y, Li Q, Wang T (2021) Multimodal relation extraction with efficient graph alignment. In: Proceedings of the 29th ACM international conference on multimedia, pp 5298–5306",
+          "DOI": "10.1145/3474085.3476968"
+        },
+        {
+          "issue": "4",
+          "key": "1198_CR41",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1145/3618295",
+          "volume": "56",
+          "author": "L Zhong",
+          "year": "2023",
+          "unstructured": "Zhong L, Wu J, Li Q, Peng H, Wu X (2023) A comprehensive survey on automatic knowledge graph construction. ACM Comput Surv 56(4):1–62",
+          "journal-title": "ACM Comput Surv"
+        },
+        {
+          "issue": "2",
+          "key": "1198_CR42",
+          "doi-asserted-by": "publisher",
+          "first-page": "715",
+          "DOI": "10.1109/TKDE.2022.3224228",
+          "volume": "36",
+          "author": "X Zhu",
+          "year": "2022",
+          "unstructured": "Zhu X, Li Z, Wang X, Jiang X, Sun P, Wang X, Xiao Y, Yuan NJ (2022) Multi-modal knowledge graph construction and application: a survey. IEEE Trans Knowl Data Eng 36(2):715–735",
+          "journal-title": "IEEE Trans Knowl Data Eng"
+        }
+      ],
+      "container-title": [
+        "Data Mining and Knowledge Discovery"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s10618-026-01198-8.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s10618-026-01198-8",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s10618-026-01198-8.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            13
+          ]
+        ],
+        "date-time": "2026-05-13T19:02:11Z",
+        "timestamp": 1778698931000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s10618-026-01198-8"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            24
+          ]
+        ]
+      },
+      "references-count": 42,
+      "journal-issue": {
+        "issue": "3",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "1198"
+      ],
+      "URL": "https://doi.org/10.1007/s10618-026-01198-8",
+      "relation": {},
+      "ISSN": [
+        "1384-5810",
+        "1573-756X"
+      ],
+      "issn-type": [
+        {
+          "value": "1384-5810",
+          "type": "print"
+        },
+        {
+          "value": "1573-756X",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            24
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "26 October 2025",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "8 March 2026",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "24 March 2026",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "The authors declare no conflict of interest.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Conflict of interest"
+          }
+        }
+      ],
+      "article-number": "31"
+    }
+  }
+}

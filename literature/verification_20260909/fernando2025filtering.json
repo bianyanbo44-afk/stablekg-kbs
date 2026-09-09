@@ -1,0 +1,405 @@
+{
+  "key": "fernando2025filtering",
+  "url": "https://api.crossref.org/works/10.1109%2FICKG66886.2025.00018",
+  "retrieved_utc": "2026-09-09T03:16:48.767296+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            27
+          ]
+        ],
+        "date-time": "2026-02-27T08:14:46Z",
+        "timestamp": 1772180086156,
+        "version": "3.50.1"
+      },
+      "reference-count": 30,
+      "publisher": "IEEE",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                13
+              ]
+            ],
+            "date-time": "2025-11-13T00:00:00Z",
+            "timestamp": 1762992000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                13
+              ]
+            ],
+            "date-time": "2025-11-13T00:00:00Z",
+            "timestamp": 1762992000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            13
+          ]
+        ]
+      },
+      "DOI": "10.1109/ickg66886.2025.00018",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            26
+          ]
+        ],
+        "date-time": "2026-02-26T20:42:11Z",
+        "timestamp": 1772138531000
+      },
+      "page": "82-89",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Memory-Efficient Information Filtering in Contrastive Learning for Temporal Knowledge Graph Reasoning"
+      ],
+      "prefix": "10.1109",
+      "author": [
+        {
+          "given": "Eshani K.",
+          "family": "Fernando",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Bournemouth University,National Centre for Computer Animation,Bournemouth,UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "Adjeisah",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Bournemouth University,Centre for Applied Creative Technologies,Bournemouth,UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jian",
+          "family": "Chang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Bournemouth University,National Centre for Computer Animation,Bournemouth,UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jian Jun",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Bournemouth University,National Centre for Computer Animation,Bournemouth,UK"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "263",
+      "reference": [
+        {
+          "key": "ref1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3643806"
+        },
+        {
+          "key": "ref2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.knosys.2024.112454"
+        },
+        {
+          "key": "ref3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neucom.2024.127571"
+        },
+        {
+          "key": "ref4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2023.findings-emnlp.249"
+        },
+        {
+          "key": "ref5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cosrev.2022.100527"
+        },
+        {
+          "key": "ref6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v35i5.16604"
+        },
+        {
+          "key": "ref7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.24963/ijcai.2022/299"
+        },
+        {
+          "key": "ref8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE60146.2024.00062"
+        },
+        {
+          "key": "ref9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1081870.1081893"
+        },
+        {
+          "key": "ref10",
+          "article-title": "Explainable subgraph reasoning for forecasting on temporal knowledge graphs",
+          "volume-title": "International conference on learning representations",
+          "author": "Han",
+          "year": "2020"
+        },
+        {
+          "key": "ref11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v37i4.25601"
+        },
+        {
+          "key": "ref12",
+          "first-page": "3462",
+          "article-title": "Know-evolve: Deep temporal reasoning for dynamic knowledge graphs",
+          "volume-title": "international conference on machine learning",
+          "author": "Trivedi",
+          "year": "2017"
+        },
+        {
+          "key": "ref13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2020.emnlp-main.541"
+        },
+        {
+          "key": "ref14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3404835.3462963"
+        },
+        {
+          "key": "ref15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3543507.3583242"
+        },
+        {
+          "key": "ref16",
+          "author": "Ju",
+          "year": "2024",
+          "journal-title": "Towards graph contrastive learning: A survey and beyond"
+        },
+        {
+          "key": "ref17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.knosys.2024.112112"
+        },
+        {
+          "key": "ref18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1150402.1150479"
+        },
+        {
+          "key": "ref19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-319-93417-4_38"
+        },
+        {
+          "key": "ref20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2022.findings-emnlp.542"
+        },
+        {
+          "key": "ref21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neunet.2024.106516"
+        },
+        {
+          "key": "ref22",
+          "article-title": "A simple framework for contrastive learning of visual representations",
+          "volume-title": "Proceedings of the 37th International Conference on Machine Learning",
+          "author": "Chen",
+          "year": "2020"
+        },
+        {
+          "key": "ref23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v33i01.33013060"
+        },
+        {
+          "key": "ref24",
+          "volume-title": "Icews coded event data",
+          "author": "Boschee",
+          "year": "2015"
+        },
+        {
+          "issue": "4",
+          "key": "ref25",
+          "article-title": "Gdelt: Global data on events, location, and tone, 1979–2012",
+          "volume-title": "ISA annual convention",
+          "volume": "2",
+          "author": "Leetaru",
+          "year": "2013"
+        },
+        {
+          "key": "ref26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICDE55515.2023.00138"
+        },
+        {
+          "key": "ref27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1609/aaai.v36i4.20330"
+        },
+        {
+          "key": "ref28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.artint.2024.104085"
+        },
+        {
+          "key": "ref29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-031-43418-1_32"
+        },
+        {
+          "key": "ref30",
+          "first-page": "2787",
+          "article-title": "Translating embeddings for modeling multi-relational data",
+          "volume-title": "Proceedings of the 27th International Conference on Neural Information Processing Systems",
+          "volume": "2",
+          "author": "Bordes",
+          "year": "2013"
+        }
+      ],
+      "event": {
+        "name": "2025 IEEE International Conference on Knowledge Graph (ICKG)",
+        "location": "Limassol, Cyprus",
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              13
+            ]
+          ]
+        },
+        "end": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              14
+            ]
+          ]
+        }
+      },
+      "container-title": [
+        "2025 IEEE International Conference on Knowledge Graph (ICKG)"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx8/11391635/11391709/11391832.pdf?arnumber=11391832",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            27
+          ]
+        ],
+        "date-time": "2026-02-27T06:35:42Z",
+        "timestamp": 1772174142000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://ieeexplore.ieee.org/document/11391832/"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            13
+          ]
+        ]
+      },
+      "references-count": 30,
+      "URL": "https://doi.org/10.1109/ickg66886.2025.00018",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            13
+          ]
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,539 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.knosys.2025.113321",
+  "retrieved_utc": "2026-09-09T03:17:08.477041+00:00",
+  "response": {
+    "id": "https://openalex.org/W4408271214",
+    "doi": "https://doi.org/10.1016/j.knosys.2025.113321",
+    "title": "TCrossE: Cross-space interaction of bicomplex and quaternion embeddings for temporal knowledge graph completion",
+    "display_name": "TCrossE: Cross-space interaction of bicomplex and quaternion embeddings for temporal knowledge graph completion",
+    "publication_year": 2025,
+    "publication_date": "2025-03-09",
+    "ids": {
+      "openalex": "https://openalex.org/W4408271214",
+      "doi": "https://doi.org/10.1016/j.knosys.2025.113321"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.knosys.2025.113321",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.knosys.2025.113321",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S10169007",
+        "display_name": "Knowledge-Based Systems",
+        "issn_l": "0950-7051",
+        "issn": [
+          "0950-7051",
+          "1872-7409"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Knowledge-Based Systems",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5102711710",
+          "display_name": "Thanh Vu",
+          "orcid": "https://orcid.org/0009-0009-4565-4853"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I123565023",
+            "display_name": "Vietnam National University Ho Chi Minh City",
+            "ror": "https://ror.org/00waaqh38",
+            "country_code": "VN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I123565023"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I23582244",
+            "display_name": "Ho Chi Minh City University of Science",
+            "ror": "https://ror.org/05jfbgm49",
+            "country_code": "VN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I123565023",
+              "https://openalex.org/I23582244"
+            ]
+          }
+        ],
+        "countries": [
+          "VN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Thanh Vu",
+        "raw_affiliation_strings": [
+          "Faculty of Information Technology, University of Science, Ho Chi Minh city, Vietnam",
+          "Vietnam National University, Ho Chi Minh city, Vietnam"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0009-4565-4853",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Information Technology, University of Science, Ho Chi Minh city, Vietnam",
+            "institution_ids": [
+              "https://openalex.org/I23582244"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Vietnam National University, Ho Chi Minh city, Vietnam",
+            "institution_ids": [
+              "https://openalex.org/I123565023"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5064952452",
+          "display_name": "Thanh Le",
+          "orcid": "https://orcid.org/0000-0002-2180-4222"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I123565023",
+            "display_name": "Vietnam National University Ho Chi Minh City",
+            "ror": "https://ror.org/00waaqh38",
+            "country_code": "VN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I123565023"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I23582244",
+            "display_name": "Ho Chi Minh City University of Science",
+            "ror": "https://ror.org/05jfbgm49",
+            "country_code": "VN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I123565023",
+              "https://openalex.org/I23582244"
+            ]
+          }
+        ],
+        "countries": [
+          "VN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Thanh Le",
+        "raw_affiliation_strings": [
+          "Faculty of Information Technology, University of Science, Ho Chi Minh city, Vietnam",
+          "Vietnam National University, Ho Chi Minh city, Vietnam"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-2180-4222",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Information Technology, University of Science, Ho Chi Minh city, Vietnam",
+            "institution_ids": [
+              "https://openalex.org/I23582244"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Vietnam National University, Ho Chi Minh city, Vietnam",
+            "institution_ids": [
+              "https://openalex.org/I123565023"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5064952452"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I123565023",
+      "https://openalex.org/I23582244"
+    ],
+    "apc_list": {
+      "value": 3430,
+      "currency": "USD",
+      "value_usd": 3430
+    },
+    "apc_paid": null,
+    "fwci": 2.249,
+    "has_fulltext": false,
+    "cited_by_count": 2,
+    "citation_normalized_percentile": {
+      "value": 0.88478516,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 97,
+      "max": 98
+    },
+    "biblio": {
+      "volume": "315",
+      "issue": null,
+      "first_page": "113321",
+      "last_page": "113321"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11273",
+      "display_name": "Advanced Graph Neural Networks",
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11273",
+        "display_name": "Advanced Graph Neural Networks",
+        "score": 0.9994000196456909,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12292",
+        "display_name": "Graph Theory and Algorithms",
+        "score": 0.996999979019165,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10064",
+        "display_name": "Complex Network Analysis Techniques",
+        "score": 0.9735000133514404,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/quaternion",
+        "display_name": "Quaternion",
+        "score": 0.689998984336853
+      },
+      {
+        "id": "https://openalex.org/keywords/graph",
+        "display_name": "Graph",
+        "score": 0.5840656757354736
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.41528022289276123
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.3735073208808899
+      },
+      {
+        "id": "https://openalex.org/keywords/combinatorics",
+        "display_name": "Combinatorics",
+        "score": 0.32397782802581787
+      },
+      {
+        "id": "https://openalex.org/keywords/geometry",
+        "display_name": "Geometry",
+        "score": 0.1189151406288147
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C200127275",
+        "wikidata": "https://www.wikidata.org/wiki/Q173853",
+        "display_name": "Quaternion",
+        "level": 2,
+        "score": 0.689998984336853
+      },
+      {
+        "id": "https://openalex.org/C132525143",
+        "wikidata": "https://www.wikidata.org/wiki/Q141488",
+        "display_name": "Graph",
+        "level": 2,
+        "score": 0.5840656757354736
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.41528022289276123
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.3735073208808899
+      },
+      {
+        "id": "https://openalex.org/C114614502",
+        "wikidata": "https://www.wikidata.org/wiki/Q76592",
+        "display_name": "Combinatorics",
+        "level": 1,
+        "score": 0.32397782802581787
+      },
+      {
+        "id": "https://openalex.org/C2524010",
+        "wikidata": "https://www.wikidata.org/wiki/Q8087",
+        "display_name": "Geometry",
+        "level": 1,
+        "score": 0.1189151406288147
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.knosys.2025.113321",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.knosys.2025.113321",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S10169007",
+          "display_name": "Knowledge-Based Systems",
+          "issn_l": "0950-7051",
+          "issn": [
+            "0950-7051",
+            "1872-7409"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Knowledge-Based Systems",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G5189263617",
+        "display_name": null,
+        "funder_award_id": "C2024-18-27",
+        "funder_id": "https://openalex.org/F4320322809",
+        "funder_display_name": "University of Science Ho Chi Minh City"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320322809",
+        "display_name": "University of Science Ho Chi Minh City",
+        "ror": "https://ror.org/05jfbgm49"
+      },
+      {
+        "id": "https://openalex.org/F4320326592",
+        "display_name": "Viet Nam National University Ho Chi Minh City",
+        "ror": "https://ror.org/00waaqh38"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 93,
+    "referenced_works": [
+      "https://openalex.org/W128638292",
+      "https://openalex.org/W1583837637",
+      "https://openalex.org/W1994616650",
+      "https://openalex.org/W2107306718",
+      "https://openalex.org/W2140948436",
+      "https://openalex.org/W2146502635",
+      "https://openalex.org/W2489487449",
+      "https://openalex.org/W2599674900",
+      "https://openalex.org/W2602856279",
+      "https://openalex.org/W2606555609",
+      "https://openalex.org/W2607303097",
+      "https://openalex.org/W2610930722",
+      "https://openalex.org/W2612690371",
+      "https://openalex.org/W2620949368",
+      "https://openalex.org/W2750779823",
+      "https://openalex.org/W2889782235",
+      "https://openalex.org/W2902201493",
+      "https://openalex.org/W2913954081",
+      "https://openalex.org/W2914761779",
+      "https://openalex.org/W2915480215",
+      "https://openalex.org/W2990138404",
+      "https://openalex.org/W3100254008",
+      "https://openalex.org/W3163731277",
+      "https://openalex.org/W3175405178",
+      "https://openalex.org/W3183859557",
+      "https://openalex.org/W3199561489",
+      "https://openalex.org/W4223565507",
+      "https://openalex.org/W4226486654",
+      "https://openalex.org/W4230489439",
+      "https://openalex.org/W4236157893",
+      "https://openalex.org/W4239019441",
+      "https://openalex.org/W4280538145",
+      "https://openalex.org/W4285290601",
+      "https://openalex.org/W4286435951",
+      "https://openalex.org/W4289524991",
+      "https://openalex.org/W4292080208",
+      "https://openalex.org/W4310016294",
+      "https://openalex.org/W4312504137",
+      "https://openalex.org/W4312702703",
+      "https://openalex.org/W4321073091",
+      "https://openalex.org/W4360999272",
+      "https://openalex.org/W4365794597",
+      "https://openalex.org/W4366834312",
+      "https://openalex.org/W4378650929",
+      "https://openalex.org/W4380152815",
+      "https://openalex.org/W4380344018",
+      "https://openalex.org/W4380986083",
+      "https://openalex.org/W4382239641",
+      "https://openalex.org/W4386273799",
+      "https://openalex.org/W4386938613",
+      "https://openalex.org/W4388451996",
+      "https://openalex.org/W4393156643",
+      "https://openalex.org/W4393159514",
+      "https://openalex.org/W4394725694",
+      "https://openalex.org/W4396758529",
+      "https://openalex.org/W4398188136",
+      "https://openalex.org/W4400530533",
+      "https://openalex.org/W4401554440",
+      "https://openalex.org/W4404623641",
+      "https://openalex.org/W6631190155",
+      "https://openalex.org/W6678830454",
+      "https://openalex.org/W6681435938",
+      "https://openalex.org/W6722642508",
+      "https://openalex.org/W6739076403",
+      "https://openalex.org/W6743446608",
+      "https://openalex.org/W6750650156",
+      "https://openalex.org/W6751264767",
+      "https://openalex.org/W6751747387",
+      "https://openalex.org/W6753562260",
+      "https://openalex.org/W6754076127",
+      "https://openalex.org/W6758075616",
+      "https://openalex.org/W6761354026",
+      "https://openalex.org/W6761783306",
+      "https://openalex.org/W6771929373",
+      "https://openalex.org/W6776043802",
+      "https://openalex.org/W6778931495",
+      "https://openalex.org/W6780896692",
+      "https://openalex.org/W6783995323",
+      "https://openalex.org/W6785556622",
+      "https://openalex.org/W6785689659",
+      "https://openalex.org/W6796184169",
+      "https://openalex.org/W6810090169",
+      "https://openalex.org/W6810921653",
+      "https://openalex.org/W6811173525",
+      "https://openalex.org/W6839139190",
+      "https://openalex.org/W6850902258",
+      "https://openalex.org/W6851742955",
+      "https://openalex.org/W6854430508",
+      "https://openalex.org/W6856687205",
+      "https://openalex.org/W6858020266",
+      "https://openalex.org/W6861303969",
+      "https://openalex.org/W6867135738",
+      "https://openalex.org/W6871613857"
+    ],
+    "related_works": [
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W3127350447",
+      "https://openalex.org/W3108700312",
+      "https://openalex.org/W4225472102",
+      "https://openalex.org/W2382948573",
+      "https://openalex.org/W2887325221",
+      "https://openalex.org/W2084651007",
+      "https://openalex.org/W2184550115"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2026-08-21T09:56:20.448147",
+    "created_date": "2025-10-10T00:00:00"
+  }
+}

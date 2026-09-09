@@ -1,0 +1,1234 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.mlwa.2025.100664",
+  "retrieved_utc": "2026-09-09T03:17:07.489433+00:00",
+  "response": {
+    "id": "https://openalex.org/W4410219259",
+    "doi": "https://doi.org/10.1016/j.mlwa.2025.100664",
+    "title": "Classification with reject option: Distribution-free error guarantees via conformal prediction",
+    "display_name": "Classification with reject option: Distribution-free error guarantees via conformal prediction",
+    "publication_year": 2025,
+    "publication_date": "2025-05-09",
+    "ids": {
+      "openalex": "https://openalex.org/W4410219259",
+      "doi": "https://doi.org/10.1016/j.mlwa.2025.100664"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.mlwa.2025.100664",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.mlwa.2025.100664",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210201048",
+        "display_name": "Machine Learning with Applications",
+        "issn_l": "2666-8270",
+        "issn": [
+          "2666-8270"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Machine Learning with Applications",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "arxiv",
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1016/j.mlwa.2025.100664",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5053447197",
+          "display_name": "Johan Hallberg Szabadváry",
+          "orcid": "https://orcid.org/0000-0001-7240-8919"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I161593684",
+            "display_name": "Stockholm University",
+            "ror": "https://ror.org/05f0yaq80",
+            "country_code": "SE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I161593684"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I94616838",
+            "display_name": "Jönköping University",
+            "ror": "https://ror.org/03t54am93",
+            "country_code": "SE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I94616838"
+            ]
+          }
+        ],
+        "countries": [
+          "SE"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Johan Hallberg Szabadváry",
+        "raw_affiliation_strings": [
+          "Department of Computing, Jönköping University, Sweden",
+          "Department of Mathematics, Stockholm University, Sweden"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-7240-8919",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computing, Jönköping University, Sweden",
+            "institution_ids": [
+              "https://openalex.org/I94616838"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Mathematics, Stockholm University, Sweden",
+            "institution_ids": [
+              "https://openalex.org/I161593684"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5073489496",
+          "display_name": "Tuve Löfström",
+          "orcid": "https://orcid.org/0000-0003-0274-9026"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I94616838",
+            "display_name": "Jönköping University",
+            "ror": "https://ror.org/03t54am93",
+            "country_code": "SE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I94616838"
+            ]
+          }
+        ],
+        "countries": [
+          "SE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Tuwe Löfström",
+        "raw_affiliation_strings": [
+          "Department of Computing, Jönköping University, Sweden"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-0274-9026",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computing, Jönköping University, Sweden",
+            "institution_ids": [
+              "https://openalex.org/I94616838"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5103036745",
+          "display_name": "Ulf Johansson",
+          "orcid": "https://orcid.org/0000-0003-0412-6199"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I94616838",
+            "display_name": "Jönköping University",
+            "ror": "https://ror.org/03t54am93",
+            "country_code": "SE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I94616838"
+            ]
+          }
+        ],
+        "countries": [
+          "SE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ulf Johansson",
+        "raw_affiliation_strings": [
+          "Department of Computing, Jönköping University, Sweden"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-0412-6199",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computing, Jönköping University, Sweden",
+            "institution_ids": [
+              "https://openalex.org/I94616838"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5072426290",
+          "display_name": "Cecilia Sönströd",
+          "orcid": "https://orcid.org/0009-0009-0404-2586"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I94616838",
+            "display_name": "Jönköping University",
+            "ror": "https://ror.org/03t54am93",
+            "country_code": "SE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I94616838"
+            ]
+          }
+        ],
+        "countries": [
+          "SE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Cecilia Sönströd",
+        "raw_affiliation_strings": [
+          "Department of Computing, Jönköping University, Sweden"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0009-0404-2586",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computing, Jönköping University, Sweden",
+            "institution_ids": [
+              "https://openalex.org/I94616838"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5046035604",
+          "display_name": "Ernst Ahlberg",
+          "orcid": "https://orcid.org/0000-0003-2050-9069"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I184558857",
+            "display_name": "Royal Holloway University of London",
+            "ror": "https://ror.org/04g2vpn86",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I124357947",
+              "https://openalex.org/I184558857"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210106678",
+            "display_name": "Mölnlycke Health Care (Sweden)",
+            "ror": "https://ror.org/01pvzsz53",
+            "country_code": "SE",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210106678"
+            ]
+          }
+        ],
+        "countries": [
+          "GB",
+          "SE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ernst Ahlberg",
+        "raw_affiliation_strings": [
+          "Department of Computer Science, Royal Holloway, University of London, UK",
+          "Mölnlycke Health Care AB, Gothenburg, Sweden"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-2050-9069",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science, Royal Holloway, University of London, UK",
+            "institution_ids": [
+              "https://openalex.org/I184558857"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Mölnlycke Health Care AB, Gothenburg, Sweden",
+            "institution_ids": [
+              "https://openalex.org/I4210106678"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5072219201",
+          "display_name": "Lars Carlsson",
+          "orcid": "https://orcid.org/0000-0001-9491-4134"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I184558857",
+            "display_name": "Royal Holloway University of London",
+            "ror": "https://ror.org/04g2vpn86",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I124357947",
+              "https://openalex.org/I184558857"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I94616838",
+            "display_name": "Jönköping University",
+            "ror": "https://ror.org/03t54am93",
+            "country_code": "SE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I94616838"
+            ]
+          }
+        ],
+        "countries": [
+          "GB",
+          "SE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lars Carlsson",
+        "raw_affiliation_strings": [
+          "Department of Computer Science, Royal Holloway, University of London, UK",
+          "Department of Computing, Jönköping University, Sweden"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-9491-4134",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science, Royal Holloway, University of London, UK",
+            "institution_ids": [
+              "https://openalex.org/I184558857"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Computing, Jönköping University, Sweden",
+            "institution_ids": [
+              "https://openalex.org/I94616838"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 4,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5053447197"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I161593684",
+      "https://openalex.org/I94616838"
+    ],
+    "apc_list": {
+      "value": 2340,
+      "currency": "USD",
+      "value_usd": 2340
+    },
+    "apc_paid": {
+      "value": 2340,
+      "currency": "USD",
+      "value_usd": 2340
+    },
+    "fwci": 1.0747,
+    "has_fulltext": false,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.82386698,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "20",
+      "issue": null,
+      "first_page": "100664",
+      "last_page": "100664"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12072",
+      "display_name": "Machine Learning and Algorithms",
+      "score": 0.9979000091552734,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12072",
+        "display_name": "Machine Learning and Algorithms",
+        "score": 0.9979000091552734,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11652",
+        "display_name": "Imbalanced Data Classification Techniques",
+        "score": 0.9871000051498413,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10136",
+        "display_name": "Statistical Methods and Inference",
+        "score": 0.9854000210762024,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2613",
+          "display_name": "Statistics and Probability"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/conformal-map",
+        "display_name": "Conformal map",
+        "score": 0.6378319263458252
+      },
+      {
+        "id": "https://openalex.org/keywords/distribution",
+        "display_name": "Distribution (mathematics)",
+        "score": 0.4671114683151245
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.42723917961120605
+      },
+      {
+        "id": "https://openalex.org/keywords/econometrics",
+        "display_name": "Econometrics",
+        "score": 0.39262086153030396
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.3687317371368408
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematical-analysis",
+        "display_name": "Mathematical analysis",
+        "score": 0.10123911499977112
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C98214594",
+        "wikidata": "https://www.wikidata.org/wiki/Q850275",
+        "display_name": "Conformal map",
+        "level": 2,
+        "score": 0.6378319263458252
+      },
+      {
+        "id": "https://openalex.org/C110121322",
+        "wikidata": "https://www.wikidata.org/wiki/Q865811",
+        "display_name": "Distribution (mathematics)",
+        "level": 2,
+        "score": 0.4671114683151245
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.42723917961120605
+      },
+      {
+        "id": "https://openalex.org/C149782125",
+        "wikidata": "https://www.wikidata.org/wiki/Q160039",
+        "display_name": "Econometrics",
+        "level": 1,
+        "score": 0.39262086153030396
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.3687317371368408
+      },
+      {
+        "id": "https://openalex.org/C134306372",
+        "wikidata": "https://www.wikidata.org/wiki/Q7754",
+        "display_name": "Mathematical analysis",
+        "level": 1,
+        "score": 0.10123911499977112
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.mlwa.2025.100664",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.mlwa.2025.100664",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210201048",
+          "display_name": "Machine Learning with Applications",
+          "issn_l": "2666-8270",
+          "issn": [
+            "2666-8270"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Machine Learning with Applications",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:arXiv.org:2506.21802",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2506.21802",
+        "pdf_url": "https://arxiv.org/pdf/2506.21802",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:5589ef2e567543c2859ae0277c07b152",
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/5589ef2e567543c2859ae0277c07b152",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Machine Learning with Applications, Vol 20, Iss , Pp 100664- (2025)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1016/j.mlwa.2025.100664",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.mlwa.2025.100664",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210201048",
+        "display_name": "Machine Learning with Applications",
+        "issn_l": "2666-8270",
+        "issn": [
+          "2666-8270"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Machine Learning with Applications",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 28,
+    "referenced_works": [
+      "https://openalex.org/W1970036512",
+      "https://openalex.org/W2101234009",
+      "https://openalex.org/W2118377301",
+      "https://openalex.org/W2147947791",
+      "https://openalex.org/W2154775390",
+      "https://openalex.org/W2171585602",
+      "https://openalex.org/W2965848874",
+      "https://openalex.org/W2973676289",
+      "https://openalex.org/W2994424592",
+      "https://openalex.org/W2997267966",
+      "https://openalex.org/W3022474199",
+      "https://openalex.org/W3107799009",
+      "https://openalex.org/W3127462923",
+      "https://openalex.org/W3183516990",
+      "https://openalex.org/W4200452132",
+      "https://openalex.org/W4207027206",
+      "https://openalex.org/W4210741449",
+      "https://openalex.org/W4312294904",
+      "https://openalex.org/W4319999924",
+      "https://openalex.org/W4389001714",
+      "https://openalex.org/W6675354045",
+      "https://openalex.org/W6685112792",
+      "https://openalex.org/W6689685712",
+      "https://openalex.org/W6716713880",
+      "https://openalex.org/W6727356840",
+      "https://openalex.org/W6752741956",
+      "https://openalex.org/W6768293994",
+      "https://openalex.org/W6789982716"
+    ],
+    "related_works": [
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W1979597421",
+      "https://openalex.org/W2007980826",
+      "https://openalex.org/W2061531152",
+      "https://openalex.org/W3002753104",
+      "https://openalex.org/W2077600819",
+      "https://openalex.org/W2142036596",
+      "https://openalex.org/W2072657027"
+    ],
+    "abstract_inverted_index": {
+      "Machine": [
+        0
+      ],
+      "learning": [
+        1
+      ],
+      "(ML)": [
+        2
+      ],
+      "models": [
+        3
+      ],
+      "always": [
+        4
+      ],
+      "make": [
+        5
+      ],
+      "a": [
+        6,
+        31,
+        44,
+        116,
+        176,
+        216
+      ],
+      "prediction,": [
+        7
+      ],
+      "even": [
+        8
+      ],
+      "when": [
+        9
+      ],
+      "they": [
+        10
+      ],
+      "are": [
+        11
+      ],
+      "likely": [
+        12,
+        49
+      ],
+      "to": [
+        13,
+        50,
+        60,
+        167,
+        179,
+        214,
+        218
+      ],
+      "be": [
+        14,
+        51,
+        196
+      ],
+      "wrong.": [
+        15
+      ],
+      "This": [
+        16,
+        76
+      ],
+      "causes": [
+        17
+      ],
+      "problems": [
+        18
+      ],
+      "in": [
+        19,
+        65,
+        127,
+        189,
+        198,
+        227
+      ],
+      "practical": [
+        20
+      ],
+      "applications,": [
+        21
+      ],
+      "as": [
+        22
+      ],
+      "we": [
+        23,
+        28,
+        56,
+        112
+      ],
+      "do": [
+        24
+      ],
+      "not": [
+        25
+      ],
+      "know": [
+        26
+      ],
+      "if": [
+        27,
+        46
+      ],
+      "should": [
+        29
+      ],
+      "trust": [
+        30
+      ],
+      "prediction.": [
+        32,
+        172
+      ],
+      "ML": [
+        33,
+        61
+      ],
+      "with": [
+        34,
+        62,
+        87,
+        119,
+        132
+      ],
+      "reject": [
+        35,
+        63,
+        120,
+        133,
+        209,
+        225
+      ],
+      "option": [
+        36,
+        64
+      ],
+      "addresses": [
+        37
+      ],
+      "this": [
+        38,
+        54
+      ],
+      "issue": [
+        39
+      ],
+      "by": [
+        40
+      ],
+      "abstaining": [
+        41
+      ],
+      "from": [
+        42,
+        163
+      ],
+      "making": [
+        43
+      ],
+      "prediction": [
+        45,
+        81,
+        85,
+        97,
+        160,
+        166
+      ],
+      "it": [
+        47
+      ],
+      "is": [
+        48,
+        77,
+        124,
+        186
+      ],
+      "incorrect.": [
+        52
+      ],
+      "In": [
+        53,
+        91
+      ],
+      "work,": [
+        55
+      ],
+      "formalise": [
+        57
+      ],
+      "the": [
+        58,
+        72,
+        109,
+        128,
+        139,
+        184,
+        203
+      ],
+      "approach": [
+        59
+      ],
+      "binary": [
+        66,
+        92,
+        117
+      ],
+      "classification,": [
+        67,
+        93
+      ],
+      "deriving": [
+        68
+      ],
+      "theoretical": [
+        69
+      ],
+      "guarantees": [
+        70,
+        193
+      ],
+      "on": [
+        71
+      ],
+      "resulting": [
+        73,
+        140
+      ],
+      "error": [
+        74,
+        141,
+        154,
+        206,
+        222
+      ],
+      "rate.": [
+        75
+      ],
+      "achieved": [
+        78
+      ],
+      "through": [
+        79,
+        156
+      ],
+      "conformal": [
+        80,
+        159,
+        165,
+        171
+      ],
+      "(CP),": [
+        82
+      ],
+      "which": [
+        83
+      ],
+      "produce": [
+        84
+      ],
+      "sets": [
+        86,
+        98
+      ],
+      "distribution-free": [
+        88
+      ],
+      "validity": [
+        89,
+        181,
+        192
+      ],
+      "guarantees.": [
+        90
+      ],
+      "CP": [
+        94,
+        114,
+        123
+      ],
+      "can": [
+        95,
+        195,
+        212
+      ],
+      "output": [
+        96
+      ],
+      "containing": [
+        99
+      ],
+      "exactly": [
+        100
+      ],
+      "one,": [
+        101
+      ],
+      "two": [
+        102
+      ],
+      "or": [
+        103,
+        224
+      ],
+      "no": [
+        104
+      ],
+      "labels.": [
+        105
+      ],
+      "By": [
+        106
+      ],
+      "accepting": [
+        107
+      ],
+      "only": [
+        108
+      ],
+      "singleton": [
+        110
+      ],
+      "predictions,": [
+        111
+      ],
+      "turn": [
+        113
+      ],
+      "into": [
+        115
+      ],
+      "classifier": [
+        118
+      ],
+      "option.": [
+        121,
+        134
+      ],
+      "Here,": [
+        122
+      ],
+      "formally": [
+        125
+      ],
+      "put": [
+        126
+      ],
+      "framework": [
+        129
+      ],
+      "of": [
+        130,
+        152,
+        191
+      ],
+      "predicting": [
+        131
+      ],
+      "We": [
+        135
+      ],
+      "state": [
+        136
+      ],
+      "and": [
+        137,
+        143,
+        208,
+        211
+      ],
+      "prove": [
+        138
+      ],
+      "rate,": [
+        142,
+        210
+      ],
+      "give": [
+        144
+      ],
+      "finite": [
+        145
+      ],
+      "sample": [
+        146
+      ],
+      "estimates.": [
+        147
+      ],
+      "Numerical": [
+        148
+      ],
+      "examples": [
+        149
+      ],
+      "provide": [
+        150
+      ],
+      "illustrations": [
+        151
+      ],
+      "derived": [
+        153
+      ],
+      "rate": [
+        155,
+        207,
+        223,
+        226
+      ],
+      "several": [
+        157
+      ],
+      "different": [
+        158
+      ],
+      "settings,": [
+        161
+      ],
+      "ranging": [
+        162
+      ],
+      "full": [
+        164
+      ],
+      "offline": [
+        168
+      ],
+      "batch": [
+        169
+      ],
+      "inductive": [
+        170
+      ],
+      "The": [
+        173
+      ],
+      "former": [
+        174
+      ],
+      "has": [
+        175
+      ],
+      "direct": [
+        177
+      ],
+      "link": [
+        178
+      ],
+      "sharp": [
+        180
+      ],
+      "guarantees,": [
+        182
+      ],
+      "whereas": [
+        183
+      ],
+      "latter": [
+        185
+      ],
+      "more": [
+        187
+      ],
+      "fuzzy": [
+        188
+      ],
+      "terms": [
+        190
+      ],
+      "but": [
+        194
+      ],
+      "used": [
+        197
+      ],
+      "practice.": [
+        199,
+        228
+      ],
+      "Error-reject": [
+        200
+      ],
+      "curves": [
+        201
+      ],
+      "illustrate": [
+        202
+      ],
+      "trade-off": [
+        204
+      ],
+      "between": [
+        205
+      ],
+      "serve": [
+        213
+      ],
+      "aid": [
+        215
+      ],
+      "user": [
+        217
+      ],
+      "set": [
+        219
+      ],
+      "an": [
+        220
+      ],
+      "acceptable": [
+        221
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-26T07:47:46.906454",
+    "created_date": "2025-10-10T00:00:00"
+  }
+}

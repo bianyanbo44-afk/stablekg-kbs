@@ -1,0 +1,543 @@
+{
+  "key": "szabadvary2025reject",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.mlwa.2025.100664",
+  "retrieved_utc": "2026-09-09T03:16:52.862024+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            3
+          ]
+        ],
+        "date-time": "2026-07-03T16:20:53Z",
+        "timestamp": 1783095653441,
+        "version": "3.54.6"
+      },
+      "reference-count": 25,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2025-06-01T00:00:00Z",
+            "timestamp": 1748736000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2025-06-01T00:00:00Z",
+            "timestamp": 1748736000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                27
+              ]
+            ],
+            "date-time": "2025-04-27T00:00:00Z",
+            "timestamp": 1745712000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Machine Learning with Applications"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.mlwa.2025.100664",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            9
+          ]
+        ],
+        "date-time": "2025-05-09T19:28:35Z",
+        "timestamp": 1746818915000
+      },
+      "page": "100664",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "special_numbering": "C",
+      "title": [
+        "Classification with reject option: Distribution-free error guarantees via conformal prediction"
+      ],
+      "prefix": "10.1016",
+      "volume": "20",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7240-8919",
+          "authenticated-orcid": false,
+          "given": "Johan",
+          "family": "Hallberg Szabadváry",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0274-9026",
+          "authenticated-orcid": false,
+          "given": "Tuwe",
+          "family": "Löfström",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0412-6199",
+          "authenticated-orcid": false,
+          "given": "Ulf",
+          "family": "Johansson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-0404-2586",
+          "authenticated-orcid": false,
+          "given": "Cecilia",
+          "family": "Sönströd",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2050-9069",
+          "authenticated-orcid": false,
+          "given": "Ernst",
+          "family": "Ahlberg",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9491-4134",
+          "authenticated-orcid": false,
+          "given": "Lars",
+          "family": "Carlsson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.mlwa.2025.100664_b1",
+          "first-page": "225",
+          "article-title": "Conformal predictions for hybrid system state classification",
+          "author": "Bortolussi",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.mlwa.2025.100664_b2",
+          "article-title": "Crepes: a python package for generating conformal regressors and predictive systems",
+          "volume": "vol. 179",
+          "author": "Boström",
+          "year": "2022"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.mlwa.2025.100664_b3",
+          "doi-asserted-by": "crossref",
+          "first-page": "247",
+          "DOI": "10.1109/TEC.1957.5222035",
+          "article-title": "An optimum character recognition system using decision functions",
+          "author": "Chow",
+          "year": "1957",
+          "journal-title": "IRE Transactions on Electronic Computers"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.mlwa.2025.100664_b4",
+          "doi-asserted-by": "crossref",
+          "first-page": "41",
+          "DOI": "10.1109/TIT.1970.1054406",
+          "article-title": "On optimum recognition error and reject tradeoff",
+          "volume": "16",
+          "author": "Chow",
+          "year": "1970",
+          "journal-title": "Institute of Electrical and Electronics Engineers. Transactions on Information Theory"
+        },
+        {
+          "key": "10.1016/j.mlwa.2025.100664_b5",
+          "series-title": "Algorithmic learning theory: 27th international conference, ALT 2016, bari, Italy, October 19-21, 2016, proceedings 27",
+          "first-page": "67",
+          "article-title": "Learning with rejection",
+          "author": "Cortes",
+          "year": "2016"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.mlwa.2025.100664_b6",
+          "first-page": "1",
+          "article-title": "Optimal strategies for reject option classifiers",
+          "volume": "24",
+          "author": "Franc",
+          "year": "2023",
+          "journal-title": "Journal of Machine Learning Research"
+        },
+        {
+          "key": "10.1016/j.mlwa.2025.100664_b7",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.patcog.2022.108561",
+          "article-title": "Special issue on conformal and probabilistic prediction with applications: Preface",
+          "volume": "126",
+          "author": "Gammerman",
+          "year": "2022",
+          "journal-title": "Pattern Recognition"
+        },
+        {
+          "key": "10.1016/j.mlwa.2025.100664_b8",
+          "doi-asserted-by": "crossref",
+          "first-page": "264",
+          "DOI": "10.1016/j.neucom.2019.11.025",
+          "article-title": "Special issue on conformal and probabilistic prediction with applications",
+          "volume": "397",
+          "author": "Gammerman",
+          "year": "2020",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "10.1016/j.mlwa.2025.100664_b9",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.patcog.2019.106984",
+          "article-title": "Performance visualization spaces for classification with rejection option",
+          "volume": "96",
+          "author": "Hanczar",
+          "year": "2019",
+          "journal-title": "Pattern Recognition"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.mlwa.2025.100664_b10",
+          "doi-asserted-by": "crossref",
+          "first-page": "3073",
+          "DOI": "10.1007/s10994-024-06534-x",
+          "article-title": "Machine learning with a reject option: A survey",
+          "volume": "113",
+          "author": "Hendrickx",
+          "year": "2024",
+          "journal-title": "Machine Learning"
+        },
+        {
+          "key": "10.1016/j.mlwa.2025.100664_b11",
+          "article-title": "Confidence classifiers with guaranteed accuracy or precision",
+          "author": "Johansson",
+          "year": "2023",
+          "journal-title": "Proceedings of Machine Learning Research, Conformal and Probabilistic Prediction with Applications"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.mlwa.2025.100664_b12",
+          "doi-asserted-by": "crossref",
+          "first-page": "2",
+          "DOI": "10.1007/s00357-023-09455-x",
+          "article-title": "Classification under partial reject options",
+          "volume": "41",
+          "author": "Karlsson",
+          "year": "2024",
+          "journal-title": "Journal of Classification"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.mlwa.2025.100664_b13",
+          "doi-asserted-by": "crossref",
+          "first-page": "843",
+          "DOI": "10.1016/j.patcog.2013.07.020",
+          "article-title": "A unified view of class-selection with probabilistic classifiers",
+          "volume": "47",
+          "author": "Le Capitaine",
+          "year": "2014",
+          "journal-title": "Pattern Recognition"
+        },
+        {
+          "key": "10.1016/j.mlwa.2025.100664_b14",
+          "doi-asserted-by": "crossref",
+          "first-page": "3090",
+          "DOI": "10.1007/s10489-020-01642-2",
+          "article-title": "A new re-encoding ECOC using reject option",
+          "volume": "50",
+          "author": "Lei",
+          "year": "2020",
+          "journal-title": "Applied Intelligence: The International Journal of Artificial Intelligence, Neural Networks, and Complex Problem-Solving Technologies"
+        },
+        {
+          "key": "10.1016/j.mlwa.2025.100664_b15",
+          "series-title": "Pacific-Asia conference on knowledge discovery and data mining",
+          "first-page": "77",
+          "article-title": "Reliable confidence predictions using conformal prediction",
+          "author": "Linusson",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.mlwa.2025.100664_b16",
+          "series-title": "PAKDD",
+          "first-page": "94",
+          "article-title": "Classification with reject option using conformal prediction",
+          "author": "Linusson",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.mlwa.2025.100664_b17",
+          "first-page": "2825",
+          "article-title": "Scikit-learn: Machine learning in python",
+          "volume": "12",
+          "author": "Pedregosa",
+          "year": "2011",
+          "journal-title": "Journal of Machine Learning Research"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.mlwa.2025.100664_b18",
+          "doi-asserted-by": "crossref",
+          "first-page": "2256",
+          "DOI": "10.1016/j.patcog.2013.01.035",
+          "article-title": "Multi-label classification with a reject option",
+          "volume": "46",
+          "author": "Pillai",
+          "year": "2013",
+          "journal-title": "Pattern Recognition"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.mlwa.2025.100664_b19",
+          "article-title": "A tutorial on conformal prediction.",
+          "volume": "9",
+          "author": "Shafer",
+          "year": "2008",
+          "journal-title": "Journal of Machine Learning Research"
+        },
+        {
+          "key": "10.1016/j.mlwa.2025.100664_b20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shah, K., & Manwani, N. (2020). Online active learning of reject option classifiers. vol. 34, In Proceedings of the AAAI conference on artificial intelligence (pp. 5652–5659).",
+          "DOI": "10.1609/aaai.v34i04.6019"
+        },
+        {
+          "key": "10.1016/j.mlwa.2025.100664_b21",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.patcog.2021.108507",
+          "article-title": "Introduction to conformal predictors",
+          "volume": "124",
+          "author": "Toccaceli",
+          "year": "2022",
+          "journal-title": "Pattern Recognition"
+        },
+        {
+          "key": "10.1016/j.mlwa.2025.100664_b22",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.patcog.2022.108536",
+          "article-title": "Universal predictive systems",
+          "volume": "126",
+          "author": "Vovk",
+          "year": "2022",
+          "journal-title": "Pattern Recognition"
+        },
+        {
+          "key": "10.1016/j.mlwa.2025.100664_b23",
+          "series-title": "Algorithmic learning in a random world",
+          "author": "Vovk",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.mlwa.2025.100664_b24",
+          "unstructured": "Vovk, V., & Petej, I. (2014). Venn-Abers predictors. In Proceedings of the thirtieth conference on uncertainty in artificial intelligence (pp. 829–838)."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.mlwa.2025.100664_b25",
+          "doi-asserted-by": "crossref",
+          "first-page": "185",
+          "DOI": "10.1109/JPROC.2023.3238024",
+          "article-title": "A survey on learning to reject",
+          "volume": "111",
+          "author": "Zhang",
+          "year": "2023",
+          "journal-title": "Proceedings of the IEEE"
+        }
+      ],
+      "container-title": [
+        "Machine Learning with Applications"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2666827025000477?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2666827025000477?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            20
+          ]
+        ],
+        "date-time": "2025-11-20T17:40:16Z",
+        "timestamp": 1763660416000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2666827025000477"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      },
+      "references-count": 25,
+      "alternative-id": [
+        "S2666827025000477"
+      ],
+      "URL": "https://doi.org/10.1016/j.mlwa.2025.100664",
+      "relation": {},
+      "ISSN": [
+        "2666-8270"
+      ],
+      "issn-type": [
+        {
+          "value": "2666-8270",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Classification with reject option: Distribution-free error guarantees via conformal prediction",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Machine Learning with Applications",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.mlwa.2025.100664",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2025 The Authors. Published by Elsevier Ltd.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "100664"
+    }
+  }
+}

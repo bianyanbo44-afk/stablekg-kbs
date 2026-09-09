@@ -1,0 +1,60 @@
+# Raw archives and extracted benchmark data are downloaded from the manifest.
+data/raw/*.zip
+data/raw/*_all/*.jsonl
+
+# Large model checkpoints are reproducible artifacts, not source files.
+results_neural/*.pt
+
+# Local smoke outputs and LaTeX build files.
+*_smoke/
+neural_tune/
+neural_smoke/
+chronological_smoke/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+__pycache__/
+*.pyc
+
+# Local GPU environment, large recent-backbone weights and dense score caches.
+.venv-gpu/
+results_recent*/**/*.pt
+results_recent*/**/*.npy
+results_recent*/**/*_predictions.csv
+results_review_20260909/*_features.csv
+results_review_20260909/*_predictions.csv
+data/processed_recent/
+tmp/
+
+# External research checkouts are reproducible from their pinned upstream URLs.
+external/*
+!external/README.md
+
+# Historical and smoke-only outputs.
+results_smoke*/
+speed_smoke/
+gdelt_smoke/
+intervention_smoke/
+chronological_smoke/
+neural_smoke/
+neural_tune/
+results_final_v3/
+results_final_v4/
+results_final_full/
+results_final5/
+results_recent/
+results_neural_v5/**/*.pt
+
+# TIFF exports are local production copies; vector PDF/SVG and PNG are tracked.
+figures/out/*.tiff
+
+# Superseded experiment releases and pre-review archive.
+results_final/
+results_neural/
+results_chronological/
+manuscript/archive_before_review_20260909/

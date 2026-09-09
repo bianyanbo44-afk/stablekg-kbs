@@ -1,0 +1,8 @@
+numpy>=2.0
+pandas>=2.1
+scipy>=1.11
+matplotlib>=3.8
+pillow>=10.0
+torch>=2.0
+pytest>=8.0
+PyMuPDF>=1.23

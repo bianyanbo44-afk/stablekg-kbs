@@ -1,0 +1,10 @@
+dataset,metric,estimate,ci_low,ci_high,unit,bootstrap_unit
+ICEWS14,risk_delta@0.20,-0.04198757327903957,-0.06587765236481585,-0.017069454971536713,absolute risk,contiguous timestamp block
+ICEWS14,risk_delta@0.40,-0.03516474790270463,-0.05232062534073607,-0.019236639196943944,absolute risk,contiguous timestamp block
+ICEWS14,aurc_delta,-0.036500471590240946,-0.04457659414672009,-0.02866094257292,AURC,contiguous timestamp block
+ICEWS05-15,risk_delta@0.20,-0.08579059829059832,-0.1109587117083092,-0.059858566158053204,absolute risk,contiguous timestamp block
+ICEWS05-15,risk_delta@0.40,-0.05143001800827346,-0.07043575868112484,-0.03078849178431803,absolute risk,contiguous timestamp block
+ICEWS05-15,aurc_delta,-0.0352788765947481,-0.04377537902067161,-0.027362109849158194,AURC,contiguous timestamp block
+GDELT,risk_delta@0.20,0.001993309241299812,-0.018407739854455533,0.020742488550143306,absolute risk,contiguous timestamp block
+GDELT,risk_delta@0.40,0.009878503531372762,0.0016578333719652562,0.019466964667639697,absolute risk,contiguous timestamp block
+GDELT,aurc_delta,-0.00392766047236659,-0.009260036918180777,0.0012620044836523718,AURC,contiguous timestamp block

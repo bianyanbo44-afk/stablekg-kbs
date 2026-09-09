@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "auditable": false,
+  "verdict": "NOT AUDITABLE",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 0,
+    "exemptions": 0
+  },
+  "errors": [
+    "figure must be an object with width_pt and height_pt",
+    "figure width_pt and height_pt must be positive finite numbers",
+    "panels must be a list",
+    "at least one panel rectangle is required"
+  ],
+  "findings": []
+}

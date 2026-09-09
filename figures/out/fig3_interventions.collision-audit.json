@@ -1,0 +1,23 @@
+{
+  "pdf": "F:\\CCFA\\new_kbs_idea_20260907\\figures\\out\\fig3_interventions.pdf",
+  "auditable": true,
+  "verdict": "PASS",
+  "page_count": 1,
+  "visible_text_box_count": 96,
+  "text_trace_count": 96,
+  "stroke_path_count": 105,
+  "filled_region_count": 90,
+  "image_region_count": 3,
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "contained_fill_overlays": 27,
+    "contained_image_overlays": 27
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": []
+}

@@ -1,0 +1,766 @@
+{
+  "key": "pan2025validity",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.knosys.2025.114094",
+  "retrieved_utc": "2026-09-09T03:16:48.680808+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            8
+          ]
+        ],
+        "date-time": "2026-09-08T14:39:22Z",
+        "timestamp": 1788878362246,
+        "version": "build-2803163510"
+      },
+      "reference-count": 39,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2025-10-01T00:00:00Z",
+            "timestamp": 1759276800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2025-10-01T00:00:00Z",
+            "timestamp": 1759276800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2025-10-01T00:00:00Z",
+            "timestamp": 1759276800000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2025-10-01T00:00:00Z",
+            "timestamp": 1759276800000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2025-10-01T00:00:00Z",
+            "timestamp": 1759276800000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2025-10-01T00:00:00Z",
+            "timestamp": 1759276800000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2025-10-01T00:00:00Z",
+            "timestamp": 1759276800000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62073295"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62073295"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62072409"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62072409"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62476247"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62476247"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "2024C01214"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2024C01214"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100004731",
+          "name": "Natural Science Foundation of Zhejiang Province",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "LR21F020003"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "LR21F020003"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004731",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Knowledge-Based Systems"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            10
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.knosys.2025.114094",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            17
+          ]
+        ],
+        "date-time": "2025-07-17T06:43:52Z",
+        "timestamp": 1752734632000
+      },
+      "page": "114094",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 15,
+      "special_numbering": "C",
+      "title": [
+        "Leveraging temporal validity of rules via LLMs for enhanced temporal knowledge graph reasoning"
+      ],
+      "prefix": "10.1016",
+      "volume": "327",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0004-2687-3042",
+          "authenticated-orcid": false,
+          "given": "Qihong",
+          "family": "Pan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Limin",
+          "family": "Yao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Guojiang",
+          "family": "Shen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3478-964X",
+          "authenticated-orcid": false,
+          "given": "Xiao",
+          "family": "Han",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yichuan",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2698-3319",
+          "authenticated-orcid": false,
+          "given": "Xiangjie",
+          "family": "Kong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "2",
+          "key": "10.1016/j.knosys.2025.114094_bib0001",
+          "first-page": "494",
+          "article-title": "A survey on knowledge graphs: representation, acquisition, and applications",
+          "volume": "33",
+          "author": "Ji",
+          "year": "2021",
+          "journal-title": "IEEE TNNLS"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0002",
+          "unstructured": "L. Cai, X. Mao, Y. Zhou, Z. Long, C. Wu, M. Lan, A survey on temporal knowledge graph: representation learning and applications, arXiv (2024)."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0003",
+          "series-title": "Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & data mining",
+          "first-page": "1585",
+          "article-title": "Dynamic knowledge graph based multi-event forecasting",
+          "author": "Deng",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0004",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2022.109234",
+          "article-title": "Temporal knowledge graph representation learning with local and global evolutions",
+          "volume": "251",
+          "author": "Zhang",
+          "year": "2022",
+          "journal-title": "Knowl. Based Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0005",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Saxena, S. Chakrabarti, P. Talukdar, Question answering over temporal knowledge graphs, (2021). arXiv preprint arXiv:2106.01515.",
+          "DOI": "10.18653/v1/2021.acl-long.520"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0006",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2025.127276",
+          "article-title": "Broad information diffusion modelling for sharing link click prediction using knowledge graphs",
+          "volume": "277",
+          "author": "Kong",
+          "year": "2025",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0007",
+          "series-title": "AAAI",
+          "first-page": "4120",
+          "article-title": "Tlogic: temporal logical rules for explainable link forecasting on temporal knowledge graphs",
+          "volume": "volume 36",
+          "author": "Liu",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0008",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "first-page": "6471",
+          "article-title": "Chronor: rotation based temporal knowledge graph embedding",
+          "volume": "volume 35",
+          "author": "Sadeghian",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0009",
+          "first-page": "8384",
+          "article-title": "Large language models-guided dynamic adaptation for temporal knowledge graph reasoning",
+          "volume": "37",
+          "author": "Wang",
+          "year": "2024",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0010",
+          "series-title": "Anytime Bottom-up Rule Learning for Knowledge Graph Completion",
+          "author": "Christian",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0011",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "first-page": "3988",
+          "article-title": "Diachronic embedding for temporal knowledge graph completion",
+          "volume": "volume 34",
+          "author": "Goel",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0012",
+          "unstructured": "J. Wang, B. Wang, M. Qiu, S. Pan, B. Xiong, H. Liu, L. Luo, T. Liu, Y. Hu, B. Yin, et al., A survey on temporal knowledge graph completion: taxonomy, progress, and prospects, arXiv (2023)."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0013",
+          "series-title": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+          "first-page": "2001",
+          "article-title": "Hyte: Hyperplane-based temporally aware knowledge graph embedding",
+          "author": "Dasgupta",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0014",
+          "unstructured": "C. Xu, M. Nayyeri, F. Alkhoury, H.S. Yazdi, J. Lehmann, Temporal knowledge graph embedding model based on additive time series decomposition, (2019). arXiv preprint arXiv:1911.07893."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.knosys.2025.114094_bib0015",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1145/3641289",
+          "article-title": "A survey on evaluation of large language models",
+          "volume": "15",
+          "author": "Chang",
+          "year": "2024",
+          "journal-title": "ACM TIST"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0016",
+          "series-title": "NAACL",
+          "first-page": "4303",
+          "article-title": "GenTKG: generative forecasting on temporal knowledge graph with large language models",
+          "author": "Liao",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0017",
+          "series-title": "ACL Findings",
+          "first-page": "16144",
+          "article-title": "Chain-of-history reasoning for temporal knowledge graph forecasting",
+          "author": "Xia",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0018",
+          "series-title": "BDSC",
+          "first-page": "433",
+          "article-title": "Temporal knowledge graph reasoning: a review",
+          "author": "Yu",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0019",
+          "doi-asserted-by": "crossref",
+          "first-page": "22",
+          "DOI": "10.1016/j.ins.2022.11.096",
+          "article-title": "Temporal knowledge graphs reasoning with iterative guidance by temporal logical rules",
+          "volume": "621",
+          "author": "Bai",
+          "year": "2023",
+          "journal-title": "Inf. Sci."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0020",
+          "unstructured": "S. Xiong, Y. Yang, F. Fekri, J.C. Kerce, Tilp: differentiable learning of temporal logical rules on knowledge graphs, arXiv (2024)."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0021",
+          "article-title": "Tflex: temporal feature-logic embedding framework for complex reasoning over temporal knowledge graph",
+          "volume": "36",
+          "author": "Lin",
+          "year": "2024",
+          "journal-title": "NeurIPS"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0022",
+          "doi-asserted-by": "crossref",
+          "unstructured": "W. Jin, M. Qu, X. Jin, X. Ren, Recurrent event network: autoregressive structure inference over temporal knowledge graphs, arXiv (2019).",
+          "DOI": "10.18653/v1/2020.emnlp-main.541"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0023",
+          "series-title": "SIGIR",
+          "first-page": "408",
+          "article-title": "Temporal knowledge graph reasoning based on evolutional representation learning",
+          "author": "Li",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0024",
+          "series-title": "AAAI",
+          "first-page": "4732",
+          "article-title": "Learning from history: modeling temporal knowledge graphs with sequential copy-generation networks",
+          "volume": "volume 35",
+          "author": "Zhu",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0025",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Z. Chu, J. Chen, Q. Chen, W. Yu, H. Wang, M. Liu, B. Qin, Timebench: a comprehensive evaluation of temporal reasoning abilities in large language models, arXiv (2023).",
+          "DOI": "10.18653/v1/2024.acl-long.66"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0026",
+          "unstructured": "R. Luo, T. Gu, H. Li, J. Li, Z. Lin, J. Li, Y. Yang, Chain of history: learning and forecasting with LLMs for temporal knowledge graph completion, arXiv (2024)."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0027",
+          "doi-asserted-by": "crossref",
+          "unstructured": "W. Xu, B. Liu, M. Peng, X. Jia, M. Peng, Pre-trained language model with prompts for temporal knowledge graph completion, arXiv (2023).",
+          "DOI": "10.18653/v1/2023.findings-acl.493"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0028",
+          "doi-asserted-by": "crossref",
+          "unstructured": "D.-H. Lee, K. Ahrabian, W. Jin, F. Morstatter, J. Pujara, Temporal knowledge graph forecasting without knowledge using in-context learning, arXiv (2023).",
+          "DOI": "10.18653/v1/2023.emnlp-main.36"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0029",
+          "series-title": "EMNLP",
+          "first-page": "6942",
+          "article-title": "Timer4: time-aware retrieval-augmented large language models for temporal knowledge graph question answering",
+          "author": "Qian",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0030",
+          "series-title": "IJCAI",
+          "first-page": "2152",
+          "article-title": "TiRGN: time-guided recurrent graph network with local-global historical patterns for temporal knowledge graph reasoning",
+          "author": "Li",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0031",
+          "unstructured": "L. Yao, C. Mao, Y. Luo, Kg-bert: Bert for knowledge graph completion, arXiv (2019)."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0032",
+          "unstructured": "J. Zhang, H. Zhang, C. Xia, L. Sun, Graph-bert: Only attention is needed for learning graph representations, arXiv (2020)."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0033",
+          "series-title": "Proceedings of the 27th ACM International Conference on Multimedia",
+          "first-page": "1098",
+          "article-title": "Multimodal dialog system: generating responses via adaptive decoders",
+          "author": "Nie",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0034",
+          "series-title": "Proceedings of the 30th ACM International Conference on Multimedia",
+          "first-page": "3234",
+          "article-title": "Search-oriented micro-video captioning",
+          "author": "Nie",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0035",
+          "series-title": "ICML",
+          "first-page": "3462",
+          "article-title": "Know-evolve: deep temporal reasoning for dynamic knowledge graphs",
+          "author": "Trivedi",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0036",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. García-Durán, S. Dumančić, M. Niepert, Learning sequence encoders for temporal knowledge graph completion, arXiv (2018).",
+          "DOI": "10.18653/v1/D18-1516"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.knosys.2025.114094_bib0037",
+          "article-title": "Icews coded event data",
+          "volume": "12",
+          "author": "Boschee",
+          "year": "2015",
+          "journal-title": "Harvard Dataverse"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0038",
+          "series-title": "CIDR",
+          "article-title": "Yago3: a knowledge base from multilingual wikipedias",
+          "author": "Mahdisoltani",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.114094_bib0039",
+          "series-title": "ICLR",
+          "article-title": "Explainable subgraph reasoning for forecasting on temporal knowledge graphs",
+          "author": "Han",
+          "year": "2020"
+        }
+      ],
+      "container-title": [
+        "Knowledge-Based Systems"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0950705125011396?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0950705125011396?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            12
+          ]
+        ],
+        "date-time": "2026-05-12T05:02:52Z",
+        "timestamp": 1778562172000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950705125011396"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            10
+          ]
+        ]
+      },
+      "references-count": 39,
+      "alternative-id": [
+        "S0950705125011396"
+      ],
+      "URL": "https://doi.org/10.1016/j.knosys.2025.114094",
+      "relation": {},
+      "ISSN": [
+        "0950-7051"
+      ],
+      "issn-type": [
+        {
+          "value": "0950-7051",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Leveraging temporal validity of rules via LLMs for enhanced temporal knowledge graph reasoning",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Knowledge-Based Systems",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.knosys.2025.114094",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "114094"
+    }
+  }
+}

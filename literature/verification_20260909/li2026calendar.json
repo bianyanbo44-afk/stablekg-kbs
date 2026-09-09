@@ -1,0 +1,683 @@
+{
+  "key": "li2026calendar",
+  "url": "https://api.crossref.org/works/10.1007%2Fs40747-026-02237-z",
+  "retrieved_utc": "2026-09-09T03:16:58.957477+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            10
+          ]
+        ],
+        "date-time": "2026-04-10T08:09:35Z",
+        "timestamp": 1775808575304,
+        "version": "3.50.1"
+      },
+      "reference-count": 51,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "4",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                26
+              ]
+            ],
+            "date-time": "2026-02-26T00:00:00Z",
+            "timestamp": 1772064000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                11
+              ]
+            ],
+            "date-time": "2026-03-11T00:00:00Z",
+            "timestamp": 1773187200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 13,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "No. 62372051"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "No. 62372051"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Complex Intell. Syst."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            4
+          ]
+        ]
+      },
+      "DOI": "10.1007/s40747-026-02237-z",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            26
+          ]
+        ],
+        "date-time": "2026-02-26T13:49:38Z",
+        "timestamp": 1772113778000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "CALENDAR+: in-context contrastive learning for temporal knowledge graph reasoning"
+      ],
+      "prefix": "10.1007",
+      "volume": "12",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-7592-4326",
+          "authenticated-orcid": false,
+          "given": "Xingyi",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0008-3435-8197",
+          "authenticated-orcid": false,
+          "given": "Jiapeng",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-6780-1809",
+          "authenticated-orcid": false,
+          "given": "Boyuan",
+          "family": "Jia",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6556-2264",
+          "authenticated-orcid": false,
+          "given": "Xiang",
+          "family": "Cheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4266-7527",
+          "authenticated-orcid": false,
+          "given": "Sen",
+          "family": "Su",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            26
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "2237_CR1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Auer S, Bizer C, Kobilarov G, Lehmann J, Cyganiak R, Ives Z (2007) Dbpedia: A nucleus for a web of open data. In: Proceedings of ISWC, pp. 722–735",
+          "DOI": "10.1007/978-3-540-76298-0_52"
+        },
+        {
+          "issue": "1",
+          "key": "2237_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "25",
+          "DOI": "10.28991/ESJ-2025-09-01-03",
+          "volume": "9",
+          "author": "IR Alzahrani",
+          "year": "2025",
+          "unstructured": "Alzahrani IR (2025) Unlocking potential score insights of sentimental analysis with a deep learning revolutionizes. Emerg Sci J 9(1):25–44",
+          "journal-title": "Emerg Sci J"
+        },
+        {
+          "key": "2237_CR3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bollacker K, Evans C, Paritosh P, Sturge T, Taylor J (2008) Freebase: a collaboratively created graph database for structuring human knowledge. In: Proceedings of SIGMOD, pp. 1247–1250",
+          "DOI": "10.1145/1376616.1376746"
+        },
+        {
+          "key": "2237_CR4",
+          "unstructured": "Boschee E, Lautenschlager J, O’Brien S, Shellman S, Starz J, Ward M ICEWS Coded Event Data"
+        },
+        {
+          "key": "2237_CR5",
+          "unstructured": "Cheng Z, Xie T, Shi P, Li C, Nadkarni R, Hu Y, Xiong C, Radev D, Ostendorf M, Zettlemoyer L et al (2022) Binding language models in symbolic languages. arXiv preprint arXiv:2210.02875"
+        },
+        {
+          "key": "2237_CR6",
+          "unstructured": "Dunn A, Dagdelen J, Walker N, Lee S, Rosen AS, Ceder G, Persson K, Jain A (2022) Structured information extraction from complex scientific text with fine-tuned large language models. arXiv preprint arXiv:2212.05238"
+        },
+        {
+          "key": "2237_CR7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dasgupta SS, Ray SN, Talukdar PP (2018) Hyte: Hyperplane-based temporally aware knowledge graph embedding. In: Proceedings of EMNLP, pp. 2001–2011",
+          "DOI": "10.18653/v1/D18-1225"
+        },
+        {
+          "key": "2237_CR8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Deng Z, Wang W, Wang Z, Liu X, Song Y (2023) Gold: A global and local-aware denoising framework for commonsense knowledge graph noise detection. In: Findings of EMNLP, pp. 3591–3608",
+          "DOI": "10.18653/v1/2023.findings-emnlp.232"
+        },
+        {
+          "key": "2237_CR9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.artint.2024.104085",
+          "volume-title": "Temporal inductive path neural network for temporal knowledge graph reasoning",
+          "author": "H Dong",
+          "year": "2024",
+          "unstructured": "Dong H, Wang P, Xiao M, Ning Z, Wang P, Zhou Y (2024) Temporal inductive path neural network for temporal knowledge graph reasoning. Artif, Intell"
+        },
+        {
+          "key": "2237_CR10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "García-Durán A, Dumancic S, Niepert M (2018) Learning sequence encoders for temporal knowledge graph completion. In: Proceedings of EMNLP, pp. 4816–4821",
+          "DOI": "10.18653/v1/D18-1516"
+        },
+        {
+          "key": "2237_CR11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jiang T, Liu T, Ge T, Sha L, Li S, Chang B, Sui Z (2016) Encoding temporal information for time-aware link prediction. In: Proceedings of EMNLP, pp 2350–2354",
+          "DOI": "10.18653/v1/D16-1260"
+        },
+        {
+          "key": "2237_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "2450006",
+          "DOI": "10.1142/S2811034X24500060",
+          "volume": "1",
+          "author": "B Jin",
+          "year": "2024",
+          "unstructured": "Jin B, Xu X (2024) Forecasts of china mainland new energy index prices through gaussian process regressions. Journal of Clean Energy and Energy Storage 1:2450006",
+          "journal-title": "Journal of Clean Energy and Energy Storage"
+        },
+        {
+          "issue": "3",
+          "key": "2237_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "314",
+          "DOI": "10.1504/IJMME.2024.140697",
+          "volume": "15",
+          "author": "B Jin",
+          "year": "2024",
+          "unstructured": "Jin B, Xu X (2024) Regional steel price index predictions for north china through machine learning. International Journal of Mining and Mineral Engineering 15(3):314–350",
+          "journal-title": "International Journal of Mining and Mineral Engineering"
+        },
+        {
+          "key": "2237_CR14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jin B, Xu X (2025) China commodity price index (ccpi) forecasting via the neural network. International Journal of Financial Engineering",
+          "DOI": "10.1142/S2424786325500033"
+        },
+        {
+          "key": "2237_CR15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jin B, Xu X (2025) Contemporaneous causal orderings among prices of retail properties: evidence from chinese cities through vector error-correction modeling and directed acyclic graphs. Journal of Financial Management of Property and Construction",
+          "DOI": "10.1108/JFMPC-03-2024-0019"
+        },
+        {
+          "key": "2237_CR16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jin B, Xu X (2025) Forecasts of coking coal futures price indices through gaussian process regressions. Mineral Economics",
+          "DOI": "10.1142/S1793830925501241"
+        },
+        {
+          "key": "2237_CR17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jin B, Xu X (2025) High-frequency csi300 spot and futures price predictions via the neural network. Journal of Uncertain Systems",
+          "DOI": "10.1142/S1752890925500084"
+        },
+        {
+          "key": "2237_CR18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jin B, Xu X (2025) A study of contemporaneous residential real estate price causation across major jiangsu province cities: Methodology using vector error-correction models and directed acyclic graphs. Economics Open",
+          "DOI": "10.1142/S308284142550008X"
+        },
+        {
+          "key": "2237_CR19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jin B, Xu X, Zhang Y (2025) Peanut oil price change forecasts through the neural network. foresight",
+          "DOI": "10.1108/FS-01-2023-0016"
+        },
+        {
+          "key": "2237_CR20",
+          "unstructured": "Jin W, Zhang C, Szekely PA, Ren X (2019) Recurrent event network for reasoning over temporal knowledge graphs. CoRR"
+        },
+        {
+          "key": "2237_CR21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ke Q, Jing X, Woźniak M, Xu S, Liang Y, Zheng J (2024) Apgvae: Adaptive disentangled representation learning with the graph-based structure information. Information Sciences",
+          "DOI": "10.1016/j.ins.2023.119903"
+        },
+        {
+          "key": "2237_CR22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lewkowycz A, Andreassen A, Dohan D, Dyer E, Michalewski H, Ramasesh V, Slone A, Anil C, Schlag I, Gutman-Solo T et al (2022) Solving quantitative reasoning problems with language models. In: Proceedings of NIPS, pp. 3843–3857",
+          "DOI": "10.52202/068431-0278"
+        },
+        {
+          "key": "2237_CR23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lee D-H, Ahrabian K, Jin W, Morstatter F, Pujara J (2023) Temporal knowledge graph forecasting without knowledge using in-context learning. arXiv preprint arXiv:2305.10613",
+          "DOI": "10.18653/v1/2023.emnlp-main.36"
+        },
+        {
+          "key": "2237_CR24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Leblay J, Chekol MW (2018) Deriving validity time in knowledge graph. In: Companion of the The Web Conference 2018 on The Web Conference 2018, WWW, pp. 1771–1776",
+          "DOI": "10.1145/3184558.3191639"
+        },
+        {
+          "key": "2237_CR25",
+          "unstructured": "Luo R, Gu T, Li H, Li J, Lin Z, Li J, Yang Y (2024) Chain of history: Learning and forecasting with llms for temporal knowledge graph completion. arXiv preprint arXiv:2401.06072"
+        },
+        {
+          "key": "2237_CR26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li Z, Jin X, Li W, Guan S, Guo J, Shen H, Wang Y, Cheng X (2021) Temporal knowledge graph reasoning based on evolutional representation learning. In: Proceedings of SIGIR, pp. 408–417",
+          "DOI": "10.1145/3404835.3462963"
+        },
+        {
+          "key": "2237_CR27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li X, Jiapeng W, Boyuan J, Yiheng L, Xiang C, Sen S (2025) In-context contrastive learning for temporal knowledge graph reasoning. In: International conference on knowledge science, engineering and management, pp 174–185",
+          "DOI": "10.1007/978-981-95-3058-8_15"
+        },
+        {
+          "key": "2237_CR28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu Y, Ma Y, Hildebrandt M, Joblin M, Tresp V (2022) Tlogic: Temporal logical rules for explainable link forecasting on temporal knowledge graphs. In: Proceedings of AAAI, pp. 4120–4127",
+          "DOI": "10.1609/aaai.v36i4.20330"
+        },
+        {
+          "key": "2237_CR29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu P, Yuan W, Fu J, Jiang Z, Hayashi H, Neubig G (2023) Pre-train, prompt, and predict: A systematic survey of prompting methods in natural language processing. ACM Computing Surveys",
+          "DOI": "10.1145/3560815"
+        },
+        {
+          "key": "2237_CR30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mo Y, Yang J, Liu J, Wang Q, Chen R, Wang J, Li Z (2024) Mcl-ner: Cross-lingual named entity recognition via multi-view contrastive learning. In: Proceedings of AAAI, pp. 18789–18797",
+          "DOI": "10.1609/aaai.v38i17.29843"
+        },
+        {
+          "key": "2237_CR31",
+          "unstructured": "Ponkratov V, Kaldibayev N, Nikolaeva I, Pozdnyaev A, Shkalenko A, Philippov D, Dudnik O (2025) Effective model of knowledge-based transformation and sustainable development in brics-t countries. Emerging Science Journal"
+        },
+        {
+          "key": "2237_CR32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Polowczyk A, Polowczyk A, Woźniak M (2025) Heuristic optimization in classification atoms in molecules using gcn via uniform simulated annealing. Scientific Reports",
+          "DOI": "10.1038/s41598-025-00340-8"
+        },
+        {
+          "key": "2237_CR33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Radenovic F, Dubey A, Kadian A, Mihaylov T, Vandenhende S, Patel Y, Wen Y, Ramanathan V, Mahajan D (2023) Filtering, distillation, and hard negatives for vision-language pre-training. In: Proceedings of CVPR, pp. 6967–6977",
+          "DOI": "10.1109/CVPR52729.2023.00673"
+        },
+        {
+          "key": "2237_CR34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Seo Y, Defferrard M, Vandergheynst P, Bresson X (2018) Structured sequence modeling with graph convolutional recurrent networks. In: Proceedings of ICONIP, pp. 362–373",
+          "DOI": "10.1007/978-3-030-04167-0_33"
+        },
+        {
+          "key": "2237_CR35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Suchanek FM, Kasneci G, Weikum G (2007) Yago: a core of semantic knowledge. In: Proceedings of WWW, pp. 697–706",
+          "DOI": "10.1145/1242572.1242667"
+        },
+        {
+          "key": "2237_CR36",
+          "unstructured": "Trivedi R, Dai H, Wang Y, Song L (2017) Know-evolve: Deep temporal reasoning for dynamic knowledge graphs. In: Proceedings of ICML, pp. 3462–3471"
+        },
+        {
+          "key": "2237_CR37",
+          "unstructured": "Trivedi R, Farajtabar M, Biswal P, Zha H (2019) Dyrep: Learning representations over dynamic graphs. In: Proceedings of ICLR, pp. 1–25"
+        },
+        {
+          "issue": "6",
+          "key": "2237_CR38",
+          "doi-asserted-by": "publisher",
+          "first-page": "156",
+          "DOI": "10.1007/s44443-025-00173-5",
+          "volume": "37",
+          "author": "N Tiwary",
+          "year": "2025",
+          "unstructured": "Tiwary N, Mohd Noah SA, Fauzi F (2025) Prioritising explainable ai-driven recommendations with knowledge graphs and reinforcement learning. Journal of King Saud University Computer and Information Sciences 37(6):156",
+          "journal-title": "Journal of King Saud University Computer and Information Sciences"
+        },
+        {
+          "key": "2237_CR39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tutsoy O (2021) Covid-19 epidemic and opening of the schools: Artificial intelligence-based long-term adaptive policy making to control the pandemic diseases. Ieee Access",
+          "DOI": "10.1109/ACCESS.2021.3078080"
+        },
+        {
+          "key": "2237_CR40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tutsoy O (2023) Graph theory based large-scale machine learning with multi-dimensional constrained optimization approaches for exact epidemiological modeling of pandemic diseases. IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "DOI": "10.1109/TPAMI.2023.3256421"
+        },
+        {
+          "key": "2237_CR41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Vrandečić D, Krötzsch M (2014) Wikidata: a free collaborative knowledgebase. Communications of the ACM",
+          "DOI": "10.1145/2629489"
+        },
+        {
+          "key": "2237_CR42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wei J, Wang X, Schuurmans D, Bosma M, Ichter B, Xia F, Chi EH, Le QV, Zhou D (2022) Chain-of-thought prompting elicits reasoning in large language models. In: Proceedings of NIPS, pp. 24824–24837",
+          "DOI": "10.52202/068431-1800"
+        },
+        {
+          "key": "2237_CR43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang X, Zhang F, Cheng J, Chi Y, Peng J, Ning Y (2025) Dltkg: Denoising logic-based temporal knowledge graph reasoning. In: Findings of EMNLP, pp. 18730–18743",
+          "DOI": "10.18653/v1/2025.findings-emnlp.1017"
+        },
+        {
+          "key": "2237_CR44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xu W, Liu B, Peng M, Jia X, Peng M (2023) Pre-trained language model with prompts for temporal knowledge graph completion. In: Proceedings of ACL, pp. 7790–7803",
+          "DOI": "10.18653/v1/2023.findings-acl.493"
+        },
+        {
+          "key": "2237_CR45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xu X (2020) Corn cash price forecasting. American Journal of Agricultural Economics",
+          "DOI": "10.1002/ajae.12041"
+        },
+        {
+          "key": "2237_CR46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xia Y, Wang D, Liu Q, Wang L, Wu S, Zhang X (2024) Chain-of-history reasoning for temporal knowledge graph forecasting. In: Proceedings of ACL, pp. 16144–16159",
+          "DOI": "10.18653/v1/2024.findings-acl.955"
+        },
+        {
+          "key": "2237_CR47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xu X, Zhang Y (2021) Individual time series and composite forecasting of the chinese stock index. Machine Learning with Applications",
+          "DOI": "10.1016/j.mlwa.2021.100035"
+        },
+        {
+          "key": "2237_CR48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhu C, Chen M, Fan C, Cheng G, Zhang Y (2021) Learning from history: Modeling temporal knowledge graphs with sequential copy-generation networks. In: Proceedings of AAAI, pp. 4732–4740",
+          "DOI": "10.1609/aaai.v35i5.16604"
+        },
+        {
+          "key": "2237_CR49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang S, Fan X, Song B, Liang X, Zhang Q, Wang Z, Zhang B (2025) Research on rag-based cognitive large language model training method for power standard knowledge. HighTech and Innovation Journal",
+          "DOI": "10.28991/HIJ-2025-06-02-05"
+        },
+        {
+          "key": "2237_CR50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang F, Lin J, Cheng J (2024) SALMON: A structure-aware language model with logicality and densification strategy for temporal knowledge graph reasoning. In: Proceedings of EMNLP, pp. 8761–8774",
+          "DOI": "10.18653/v1/2024.findings-emnlp.511"
+        },
+        {
+          "key": "2237_CR51",
+          "unstructured": "Zhao Z, Wallace E, Feng S, Klein D, Singh S (2021) Calibrate before use: Improving few-shot performance of language models. In: Proceedings of ICML, pp. 12697–12706"
+        }
+      ],
+      "container-title": [
+        "Complex &amp; Intelligent Systems"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/article/10.1007/s40747-026-02237-z",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s40747-026-02237-z.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s40747-026-02237-z.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            10
+          ]
+        ],
+        "date-time": "2026-04-10T07:33:51Z",
+        "timestamp": 1775806431000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s40747-026-02237-z"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            26
+          ]
+        ]
+      },
+      "references-count": 51,
+      "journal-issue": {
+        "issue": "4",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              4
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "2237"
+      ],
+      "URL": "https://doi.org/10.1007/s40747-026-02237-z",
+      "relation": {},
+      "ISSN": [
+        "2199-4536",
+        "2198-6053"
+      ],
+      "issn-type": [
+        {
+          "value": "2199-4536",
+          "type": "print"
+        },
+        {
+          "value": "2198-6053",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            26
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "30 September 2025",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "18 January 2026",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "26 February 2026",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "The authors have no conflict of interest to declare that are relevant to the content of this article. The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Conflict of interest"
+          }
+        },
+        {
+          "value": "Ethical approval was not required for this paper as it did not involve human or animal subjects.",
+          "order": 3,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethics approval"
+          }
+        },
+        {
+          "value": "All authors agreed with the content, all gave explicit consent to submit, and they obtained consent from the responsible authorities at the institute/organization where the work has been carried out, before the work is submitted.",
+          "order": 4,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Informed consent"
+          }
+        }
+      ],
+      "article-number": "124"
+    }
+  }
+}

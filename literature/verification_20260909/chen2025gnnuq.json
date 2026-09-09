@@ -1,0 +1,1299 @@
+{
+  "key": "chen2025gnnuq",
+  "url": "https://api.crossref.org/works/10.1038%2Fs41467-025-58503-0",
+  "retrieved_utc": "2026-09-09T03:16:52.839712+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            3
+          ]
+        ],
+        "date-time": "2026-09-03T17:27:44Z",
+        "timestamp": 1788456464044,
+        "version": "build-2803163510"
+      },
+      "reference-count": 106,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                5
+              ]
+            ],
+            "date-time": "2025-04-05T00:00:00Z",
+            "timestamp": 1743811200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                5
+              ]
+            ],
+            "date-time": "2025-04-05T00:00:00Z",
+            "timestamp": 1743811200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100010002",
+          "name": "Ministry of Education (Ministry of Education, Republic of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "114L7763"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "114L7763"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100010002",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100004663",
+          "name": "Ministry of Science and Technology, Taiwan",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "113-2628-E-002-017-MY3"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "113-2628-E-002-017-MY3"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004663",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100004663",
+          "name": "Ministry of Science and Technology, Taiwan",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "113-2917-I-002-018"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "113-2917-I-002-018"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004663",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Nat Commun"
+      ],
+      "DOI": "10.1038/s41467-025-58503-0",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            5
+          ]
+        ],
+        "date-time": "2025-04-05T08:12:25Z",
+        "timestamp": 1743840745000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 47,
+      "title": [
+        "Uncertainty quantification with graph neural networks for efficient molecular design"
+      ],
+      "prefix": "10.1038",
+      "volume": "16",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-9411-6404",
+          "authenticated-orcid": false,
+          "given": "Lung-Yi",
+          "family": "Chen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1314-3276",
+          "authenticated-orcid": false,
+          "given": "Yi-Pei",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            5
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "58503_CR1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cheng, Y., Gong, Y., Liu, Y., Song, B. & Zou, Q. Molecular design in drug discovery: a comprehensive review of deep generative models. Brief. Bioinform. 22, bbab344 (2021).",
+          "DOI": "10.1093/bib/bbab344"
+        },
+        {
+          "key": "58503_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "849",
+          "DOI": "10.1021/acs.accounts.0c00785",
+          "volume": "54",
+          "author": "R Pollice",
+          "year": "2021",
+          "unstructured": "Pollice, R. et al. Data-driven strategies for accelerated materials design. Acc. Chem. Res. 54, 849–860 (2021).",
+          "journal-title": "Acc. Chem. Res."
+        },
+        {
+          "key": "58503_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "360",
+          "DOI": "10.1126/science.aat2663",
+          "volume": "361",
+          "author": "B Sanchez-Lengeling",
+          "year": "2018",
+          "unstructured": "Sanchez-Lengeling, B. & Aspuru-Guzik, A. Inverse molecular design using machine learning: generative models for matter engineering. Science 361, 360–365 (2018).",
+          "journal-title": "Science"
+        },
+        {
+          "key": "58503_CR4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schifferstein H. N., Wastiels L. Sensing materials: exploring the building blocks for experiential design. In: Materials Experience (Elsevier, 2014).",
+          "DOI": "10.1016/B978-0-08-099359-1.00002-3"
+        },
+        {
+          "key": "58503_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "787",
+          "DOI": "10.1016/j.chembiol.2003.09.002",
+          "volume": "10",
+          "author": "AC Anderson",
+          "year": "2003",
+          "unstructured": "Anderson, A. C. The process of structure-based drug design. Chem. Biol. 10, 787–797 (2003).",
+          "journal-title": "Chem. Biol."
+        },
+        {
+          "key": "58503_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "100074",
+          "DOI": "10.1016/j.mtadv.2020.100074",
+          "volume": "7",
+          "author": "X Zhang",
+          "year": "2020",
+          "unstructured": "Zhang, X., Guo, S.-X., Gandionco, K. A., Bond, A. M. & Zhang, J. Electrocatalytic carbon dioxide reduction: from fundamental principles to catalyst design. Mater. Today Adv. 7, 100074 (2020).",
+          "journal-title": "Mater. Today Adv."
+        },
+        {
+          "key": "58503_CR7",
+          "doi-asserted-by": "publisher",
+          "first-page": "37",
+          "DOI": "10.1038/nchem.121",
+          "volume": "1",
+          "author": "JK Nørskov",
+          "year": "2009",
+          "unstructured": "Nørskov, J. K., Bligaard, T., Rossmeisl, J. & Christensen, C. H. Towards the computational design of solid catalysts. Nat. Chem. 1, 37–46 (2009).",
+          "journal-title": "Nat. Chem."
+        },
+        {
+          "key": "58503_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "4277",
+          "DOI": "10.1021/acs.iecr.8b05040",
+          "volume": "58",
+          "author": "Y Chen",
+          "year": "2019",
+          "unstructured": "Chen, Y., Kontogeorgis, G. M. & Woodley, J. M. Group contribution based estimation method for properties of ionic liquids. Ind. Eng. Chem. Res. 58, 4277–4292 (2019).",
+          "journal-title": "Ind. Eng. Chem. Res."
+        },
+        {
+          "key": "58503_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "1318",
+          "DOI": "10.1002/aic.690370905",
+          "volume": "37",
+          "author": "R Gani",
+          "year": "1991",
+          "unstructured": "Gani, R., Nielsen, B. & Fredenslund, A. A group contribution approach to computer‐aided molecular design. AIChE J. 37, 1318–1332 (1991).",
+          "journal-title": "AIChE J."
+        },
+        {
+          "key": "58503_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "952",
+          "DOI": "10.1038/nchem.1755",
+          "volume": "5",
+          "author": "H Struebing",
+          "year": "2013",
+          "unstructured": "Struebing, H. et al. Computer-aided molecular design of solvents for accelerated reaction kinetics. Nat. Chem. 5, 952–957 (2013).",
+          "journal-title": "Nat. Chem."
+        },
+        {
+          "key": "58503_CR11",
+          "doi-asserted-by": "publisher",
+          "first-page": "107005",
+          "DOI": "10.1016/j.compchemeng.2020.107005",
+          "volume": "141",
+          "author": "AS Alshehri",
+          "year": "2020",
+          "unstructured": "Alshehri, A. S., Gani, R. & You, F. Deep learning and knowledge-based methods for computer-aided molecular design—toward a unified approach: state-of-the-art and future directions. Comput. Chem. Eng. 141, 107005 (2020).",
+          "journal-title": "Comput. Chem. Eng."
+        },
+        {
+          "key": "58503_CR12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen L.-Y., Li Y.-P. Machine learning applications in chemical kinetics and thermochemistry. In Proc. Machine Learning in Molecular Sciences (Springer, 2023).",
+          "DOI": "10.1007/978-3-031-37196-7_7"
+        },
+        {
+          "key": "58503_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1016/j.ddtec.2020.11.009",
+          "volume": "37",
+          "author": "O Wieder",
+          "year": "2020",
+          "unstructured": "Wieder, O. et al. A compact review of molecular property prediction with graph neural networks. Drug Discov. Today. Technol. 37, 1–12 (2020).",
+          "journal-title": "Drug Discov. Today. Technol."
+        },
+        {
+          "key": "58503_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "102769",
+          "DOI": "10.1016/j.sbi.2023.102769",
+          "volume": "84",
+          "author": "V Garg",
+          "year": "2024",
+          "unstructured": "Garg, V. Generative AI for graph-based drug design: recent advances and the way forward. Curr. Opin. Struct. Biol. 84, 102769 (2024).",
+          "journal-title": "Curr. Opin. Struct. Biol."
+        },
+        {
+          "key": "58503_CR15",
+          "doi-asserted-by": "publisher",
+          "first-page": "1382",
+          "DOI": "10.1016/j.drudis.2021.02.011",
+          "volume": "26",
+          "author": "J Xiong",
+          "year": "2021",
+          "unstructured": "Xiong, J., Xiong, Z., Chen, K., Jiang, H. & Zheng, M. Graph neural networks for automated de novo drug design. Drug Discov. Today 26, 1382–1393 (2021).",
+          "journal-title": "Drug Discov. Today"
+        },
+        {
+          "key": "58503_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "17",
+          "DOI": "10.1038/s43586-024-00294-7",
+          "volume": "4",
+          "author": "G Corso",
+          "year": "2024",
+          "unstructured": "Corso, G., Stark, H., Jegelka, S., Jaakkola, T. & Barzilay, R. Graph neural networks. Nat. Rev. Methods Prim. 4, 17 (2024).",
+          "journal-title": "Nat. Rev. Methods Prim."
+        },
+        {
+          "key": "58503_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "748",
+          "DOI": "10.1039/D3DD00012E",
+          "volume": "2",
+          "author": "AH Cheng",
+          "year": "2023",
+          "unstructured": "Cheng, A. H. et al. Group SELFIES: a robust fragment-based molecular string representation. Digit. Discov. 2, 748–758 (2023).",
+          "journal-title": "Digit. Discov."
+        },
+        {
+          "key": "58503_CR18",
+          "unstructured": "Jin W., Barzilay R. & Jaakkola T. Junction tree variational autoencoder for molecular graph generation. In Proc. International Conference on Machine Learning (PMLR, 2018)."
+        },
+        {
+          "key": "58503_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "14",
+          "DOI": "10.1109/MCI.2022.3155308",
+          "volume": "17",
+          "author": "K Grantham",
+          "year": "2022",
+          "unstructured": "Grantham, K. et al. Deep evolutionary learning for molecular design. IEEE Comput. Intell. Mag. 17, 14–28 (2022).",
+          "journal-title": "IEEE Comput. Intell. Mag."
+        },
+        {
+          "key": "58503_CR20",
+          "doi-asserted-by": "publisher",
+          "first-page": "2345",
+          "DOI": "10.1021/acs.jcim.3c00824",
+          "volume": "64",
+          "author": "Y Matsukiyo",
+          "year": "2023",
+          "unstructured": "Matsukiyo, Y., Yamanaka, C. & Yamanishi, Y. De novo generation of chemical structures of inhibitor and activator candidates for therapeutic target proteins by a transformer-based variational autoencoder and Bayesian optimization. J. Chem. Inf. Model. 64, 2345–2355 (2023).",
+          "journal-title": "J. Chem. Inf. Model."
+        },
+        {
+          "key": "58503_CR21",
+          "doi-asserted-by": "publisher",
+          "first-page": "8016",
+          "DOI": "10.1039/C9SC01928F",
+          "volume": "10",
+          "author": "R Winter",
+          "year": "2019",
+          "unstructured": "Winter, R. et al. Efficient multi-objective molecular optimization in a continuous latent space. Chem. Sci. 10, 8016–8024 (2019).",
+          "journal-title": "Chem. Sci."
+        },
+        {
+          "key": "58503_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "577",
+          "DOI": "10.1039/C9SC04026A",
+          "volume": "11",
+          "author": "R-R Griffiths",
+          "year": "2020",
+          "unstructured": "Griffiths, R.-R. & Hernández-Lobato, J. M. Constrained Bayesian optimization for automatic chemical design using variational autoencoders. Chem. Sci. 11, 577–586 (2020).",
+          "journal-title": "Chem. Sci."
+        },
+        {
+          "key": "58503_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "7392",
+          "DOI": "10.1021/acs.jcim.3c01220",
+          "volume": "63",
+          "author": "H Iwata",
+          "year": "2023",
+          "unstructured": "Iwata, H. et al. VGAE-MCTS: a new molecular generative model combining the variational graph Auto-Encoder and Monte Carlo Tree Search. J. Chem. Inf. Model. 63, 7392–7400 (2023).",
+          "journal-title": "J. Chem. Inf. Model."
+        },
+        {
+          "key": "58503_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "5918",
+          "DOI": "10.1021/acs.jcim.0c00915",
+          "volume": "60",
+          "author": "T Blaschke",
+          "year": "2020",
+          "unstructured": "Blaschke, T. et al. REINVENT 2.0: an AI tool for de novo drug design. J. Chem. Inf. Model. 60, 5918–5922 (2020).",
+          "journal-title": "J. Chem. Inf. Model."
+        },
+        {
+          "key": "58503_CR25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Guo, J., Schwaller, P. Augmented memory: sample-efficient generative molecular design with reinforcement learning. JACS Au 4, 2160–2172 (2024).",
+          "DOI": "10.1021/jacsau.4c00066"
+        },
+        {
+          "key": "58503_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1186/s13321-017-0235-x",
+          "volume": "9",
+          "author": "M Olivecrona",
+          "year": "2017",
+          "unstructured": "Olivecrona, M., Blaschke, T., Engkvist, O. & Chen, H. Molecular de-novo design through deep reinforcement learning. J. Cheminform. 9, 1–14 (2017).",
+          "journal-title": "J. Cheminform."
+        },
+        {
+          "key": "58503_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "8736",
+          "DOI": "10.1021/jacs.2c13467",
+          "volume": "145",
+          "author": "DM Anstine",
+          "year": "2023",
+          "unstructured": "Anstine, D. M. & Isayev, O. Generative models as an emerging paradigm in the chemical sciences. J. Am. Chem. Soc. 145, 8736–8750 (2023).",
+          "journal-title": "J. Am. Chem. Soc."
+        },
+        {
+          "key": "58503_CR28",
+          "doi-asserted-by": "publisher",
+          "first-page": "3567",
+          "DOI": "10.1039/C8SC05372C",
+          "volume": "10",
+          "author": "JH Jensen",
+          "year": "2019",
+          "unstructured": "Jensen, J. H. A graph-based genetic algorithm and generative model/Monte Carlo tree search for the exploration of chemical space. Chem. Sci. 10, 3567–3572 (2019).",
+          "journal-title": "Chem. Sci."
+        },
+        {
+          "key": "58503_CR29",
+          "doi-asserted-by": "publisher",
+          "first-page": "7526",
+          "DOI": "10.1039/D2SC00821A",
+          "volume": "13",
+          "author": "J Verhellen",
+          "year": "2022",
+          "unstructured": "Verhellen, J. Graph-based molecular Pareto optimisation. Chem. Sci. 13, 7526–7535 (2022).",
+          "journal-title": "Chem. Sci."
+        },
+        {
+          "key": "58503_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "108486",
+          "DOI": "10.1016/j.compbiomed.2024.108486",
+          "volume": "175",
+          "author": "D Alberga",
+          "year": "2024",
+          "unstructured": "Alberga, D. et al. DeLA-DrugSelf: empowering multi-objective de novo design through SELFIES molecular representation. Comput. Biol. Med. 175, 108486 (2024).",
+          "journal-title": "Comput. Biol. Med."
+        },
+        {
+          "key": "58503_CR31",
+          "doi-asserted-by": "publisher",
+          "first-page": "1431",
+          "DOI": "10.1246/cl.180665",
+          "volume": "47",
+          "author": "N Yoshikawa",
+          "year": "2018",
+          "unstructured": "Yoshikawa, N. et al. Population-based de novo molecule generation, using grammatical evolution. Chem. Lett. 47, 1431–1434 (2018).",
+          "journal-title": "Chem. Lett."
+        },
+        {
+          "key": "58503_CR32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yu, Q. et al. A survey on evolutionary computation based drug discovery. In Proc. IEEE Transactions on Evolutionary Computation (IEEE, 2024).",
+          "DOI": "10.1109/TEVC.2024.3382145"
+        },
+        {
+          "key": "58503_CR33",
+          "doi-asserted-by": "publisher",
+          "first-page": "1833",
+          "DOI": "10.1021/ci500110v",
+          "volume": "54",
+          "author": "AL Teixeira",
+          "year": "2014",
+          "unstructured": "Teixeira, A. L. & Falcao, A. O. Structural similarity based kriging for quantitative structure activity and property relationship modeling. J. Chem. Inf. Model. 54, 1833–1849 (2014).",
+          "journal-title": "J. Chem. Inf. Model."
+        },
+        {
+          "key": "58503_CR34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jiang, M., Pedrielli, G. & Ng, S. H. Gaussian processes for high-dimensional, large data sets: a review. In Proc. Winter Simulation Conference (WSC) (IEEE, 2022).",
+          "DOI": "10.1109/WSC57314.2022.10015416"
+        },
+        {
+          "key": "58503_CR35",
+          "doi-asserted-by": "publisher",
+          "first-page": "10073",
+          "DOI": "10.1021/acs.chemrev.1c00022",
+          "volume": "121",
+          "author": "VL Deringer",
+          "year": "2021",
+          "unstructured": "Deringer, V. L. et al. Gaussian process regression for materials and molecules. Chem. Rev. 121, 10073–10141 (2021).",
+          "journal-title": "Chem. Rev."
+        },
+        {
+          "key": "58503_CR36",
+          "unstructured": "Moss, H. B. & Griffiths, R.-R. Gaussian process molecule property prediction with flowmo. arXiv preprint arXiv:201001118, (2020)."
+        },
+        {
+          "key": "58503_CR37",
+          "unstructured": "Korovina, K. et al. Chembo: Bayesian optimization of small organic molecules with synthesizable recommendations. In Proc. International Conference on Artificial Intelligence and Statistics (PMLR, 2020)."
+        },
+        {
+          "key": "58503_CR38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Williams, C. K. & Rasmussen, C. E. Gaussian Processes for Machine Learning (MIT Press, 2006).",
+          "DOI": "10.7551/mitpress/3206.001.0001"
+        },
+        {
+          "key": "58503_CR39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fromer, J. C. & Graff, D. E., Coley, C. W. Pareto optimization to accelerate multi-objective virtual screening. Digit. Discov. 3, 467–481 (2024).",
+          "DOI": "10.1039/D3DD00227F"
+        },
+        {
+          "key": "58503_CR40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "van Tilborg, D. & Grisoni, F. Traversing chemical space with active deep learning for low-data drug discovery. Nat. Comput. Sci. 4, 1–11 (2024).",
+          "DOI": "10.26434/chemrxiv-2023-wgl32-v3"
+        },
+        {
+          "key": "58503_CR41",
+          "doi-asserted-by": "publisher",
+          "first-page": "2697",
+          "DOI": "10.1021/acs.jcim.9b00975",
+          "volume": "60",
+          "author": "G Scalia",
+          "year": "2020",
+          "unstructured": "Scalia, G., Grambow, C. A., Pernici, B., Li, Y.-P. & Green, W. H. Evaluating scalable uncertainty estimation methods for deep learning-based molecular property prediction. J. Chem. Inf. Model. 60, 2697–2717 (2020).",
+          "journal-title": "J. Chem. Inf. Model."
+        },
+        {
+          "key": "58503_CR42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-023-00753-5",
+          "volume": "15",
+          "author": "T Yin",
+          "year": "2023",
+          "unstructured": "Yin, T., Panapitiya, G., Coda, E. D. & Saldanha, E. G. Evaluating uncertainty-based active learning for accelerating the generalization of molecular property prediction. J. Cheminform. 15, 105 (2023).",
+          "journal-title": "J. Cheminform."
+        },
+        {
+          "key": "58503_CR43",
+          "doi-asserted-by": "publisher",
+          "first-page": "243",
+          "DOI": "10.1016/j.inffus.2021.05.008",
+          "volume": "76",
+          "author": "M Abdar",
+          "year": "2021",
+          "unstructured": "Abdar, M. et al. A review of uncertainty quantification in deep learning: techniques, applications and challenges. Inf. Fusion 76, 243–297 (2021).",
+          "journal-title": "Inf. Fusion"
+        },
+        {
+          "key": "58503_CR44",
+          "doi-asserted-by": "publisher",
+          "first-page": "3770",
+          "DOI": "10.1021/acs.jcim.0c00502",
+          "volume": "60",
+          "author": "L Hirschfeld",
+          "year": "2020",
+          "unstructured": "Hirschfeld, L., Swanson, K., Yang, K., Barzilay, R. & Coley, C. W. Uncertainty quantification using neural networks for molecular property prediction. J. Chem. Inf. Model. 60, 3770–3780 (2020).",
+          "journal-title": "J. Chem. Inf. Model."
+        },
+        {
+          "key": "58503_CR45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-023-00682-3",
+          "volume": "15",
+          "author": "C-I Yang",
+          "year": "2023",
+          "unstructured": "Yang, C.-I. & Li, Y.-P. Explainable uncertainty quantifications for deep learning-based molecular property prediction. J. Cheminform. 15, 13 (2023).",
+          "journal-title": "J. Cheminform."
+        },
+        {
+          "key": "58503_CR46",
+          "unstructured": "Frazier P. I. A tutorial on Bayesian optimization. arXiv preprint arXiv:180702811 (2018)."
+        },
+        {
+          "key": "58503_CR47",
+          "doi-asserted-by": "publisher",
+          "first-page": "828",
+          "DOI": "10.1039/C9ME00039A",
+          "volume": "4",
+          "author": "DC Elton",
+          "year": "2019",
+          "unstructured": "Elton, D. C., Boukouvalas, Z., Fuge, M. D. & Chung, P. W. Deep learning for molecular design—a review of the state of the art. Mol. Syst. Des. Eng. 4, 828–849 (2019).",
+          "journal-title": "Mol. Syst. Des. Eng."
+        },
+        {
+          "key": "58503_CR48",
+          "doi-asserted-by": "publisher",
+          "first-page": "1096",
+          "DOI": "10.1021/acs.jcim.8b00839",
+          "volume": "59",
+          "author": "N Brown",
+          "year": "2019",
+          "unstructured": "Brown, N., Fiscato, M., Segler, M. H. & Vaucher, A. C. GuacaMol: benchmarking models for de novo molecular design. J. Chem. Inf. Model. 59, 1096–1108 (2019).",
+          "journal-title": "J. Chem. Inf. Model."
+        },
+        {
+          "key": "58503_CR49",
+          "unstructured": "Nigam, A. K. et al. Tartarus: a benchmarking platform for realistic and practical inverse molecular design. Adv. Neural Inf. Process. Syst. 36, 3263–3306 (2023)."
+        },
+        {
+          "key": "58503_CR50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Heid, E. et al. Chemprop: a machine learning package for chemical property prediction. J. Chem. Inform. Model. 64, 9–17 (2023).",
+          "DOI": "10.1021/acs.jcim.3c01250"
+        },
+        {
+          "key": "58503_CR51",
+          "doi-asserted-by": "publisher",
+          "first-page": "2847",
+          "DOI": "10.1021/acs.jctc.9b00143",
+          "volume": "15",
+          "author": "S Grimme",
+          "year": "2019",
+          "unstructured": "Grimme, S. Exploration of chemical compound, conformer, and reaction space with meta-dynamics simulations based on tight-binding quantum chemical calculations. J. Chem. Theory Comput. 15, 2847–2862 (2019).",
+          "journal-title": "J. Chem. Theory Comput."
+        },
+        {
+          "key": "58503_CR52",
+          "doi-asserted-by": "publisher",
+          "first-page": "1652",
+          "DOI": "10.1021/acs.jctc.8b01176",
+          "volume": "15",
+          "author": "C Bannwarth",
+          "year": "2019",
+          "unstructured": "Bannwarth, C., Ehlert, S. & Grimme, S. GFN2-xTB—An accurate and broadly parametrized self-consistent tight-binding quantum chemical method with multipole electrostatics and density-dependent dispersion contributions. J. Chem. Theory Comput. 15, 1652–1671 (2019).",
+          "journal-title": "J. Chem. Theory Comput."
+        },
+        {
+          "key": "58503_CR53",
+          "doi-asserted-by": "publisher",
+          "first-page": "1989",
+          "DOI": "10.1021/acs.jctc.7b00118",
+          "volume": "13",
+          "author": "S Grimme",
+          "year": "2017",
+          "unstructured": "Grimme, S., Bannwarth, C. & Shushkov, P. A robust and accurate tight-binding quantum chemical method for structures, vibrational frequencies, and noncovalent interactions of large molecular systems parametrized for all spd-block elements (Z = 1–86). J. Chem. Theory Comput. 13, 1989–2009 (2017).",
+          "journal-title": "J. Chem. Theory Comput."
+        },
+        {
+          "key": "58503_CR54",
+          "doi-asserted-by": "publisher",
+          "first-page": "3098",
+          "DOI": "10.1103/PhysRevA.38.3098",
+          "volume": "38",
+          "author": "AD Becke",
+          "year": "1988",
+          "unstructured": "Becke, A. D. Density-functional exchange-energy approximation with correct asymptotic behavior. Phys. Rev. A 38, 3098 (1988).",
+          "journal-title": "Phys. Rev. A"
+        },
+        {
+          "key": "58503_CR55",
+          "doi-asserted-by": "publisher",
+          "first-page": "2214",
+          "DOI": "10.1093/bioinformatics/btv082",
+          "volume": "31",
+          "author": "A Alhossary",
+          "year": "2015",
+          "unstructured": "Alhossary, A., Handoko, S. D. & Mu, Y. Kwoh C-K. Fast, accurate, and reliable molecular docking with QuickVina 2. Bioinformatics 31, 2214–2216 (2015).",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "58503_CR56",
+          "doi-asserted-by": "publisher",
+          "first-page": "455",
+          "DOI": "10.1002/jcc.21334",
+          "volume": "31",
+          "author": "O Trott",
+          "year": "2010",
+          "unstructured": "Trott, O. & Olson, A. J. AutoDock Vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading. J. Comput. Chem. 31, 455–461 (2010).",
+          "journal-title": "J. Comput. Chem."
+        },
+        {
+          "key": "58503_CR57",
+          "doi-asserted-by": "publisher",
+          "first-page": "490",
+          "DOI": "10.1002/(SICI)1096-987X(199604)17:5/6<490::AID-JCC1>3.0.CO;2-P",
+          "volume": "17",
+          "author": "TA Halgren",
+          "year": "1996",
+          "unstructured": "Halgren, T. A. Merck molecular force field. I. Basis, form, scope, parameterization, and performance of MMFF94. J. Comput. Chem. 17, 490–519 (1996).",
+          "journal-title": "J. Comput. Chem."
+        },
+        {
+          "key": "58503_CR58",
+          "doi-asserted-by": "publisher",
+          "first-page": "1596",
+          "DOI": "10.1021/ja00031a009",
+          "volume": "114",
+          "author": "F Jensen",
+          "year": "1992",
+          "unstructured": "Jensen, F. Locating minima on seams of intersecting potential energy surface. An application to transition structure modeling. J. Am. Chem. Soc. 114, 1596–1603 (1992).",
+          "journal-title": "J. Am. Chem. Soc."
+        },
+        {
+          "key": "58503_CR59",
+          "first-page": "414",
+          "volume": "154",
+          "author": "RP Bell",
+          "year": "1936",
+          "unstructured": "Bell, R. P. The theory of reactions involving proton transfers. Proc. R. Soc. Lond. Ser. A Math. Phys. Sci. 154, 414–429 (1936).",
+          "journal-title": "Proc. R. Soc. Lond. Ser. A Math. Phys. Sci."
+        },
+        {
+          "key": "58503_CR60",
+          "doi-asserted-by": "publisher",
+          "first-page": "1333",
+          "DOI": "10.1039/tf9363201333",
+          "volume": "32",
+          "author": "M Evans",
+          "year": "1936",
+          "unstructured": "Evans, M. & Polanyi, M. Further considerations on the thermodynamics of chemical equilibria and reaction rates. Trans. Faraday Soc. 32, 1333–1360 (1936).",
+          "journal-title": "Trans. Faraday Soc."
+        },
+        {
+          "key": "58503_CR61",
+          "first-page": "7188",
+          "volume": "20",
+          "author": "JE Crivelli-Decker",
+          "year": "2024",
+          "unstructured": "Crivelli-Decker, J. E. et al. Machine learning guided aqfep: a fast and efficient absolute free energy perturbation solution for virtual screening. J. Chem. Theory Comput. 20, 7188–7198 (2024).",
+          "journal-title": "J. Chem. Theory Comput."
+        },
+        {
+          "key": "58503_CR62",
+          "doi-asserted-by": "publisher",
+          "first-page": "10203",
+          "DOI": "10.1039/D3SC03174H",
+          "volume": "14",
+          "author": "X Xu",
+          "year": "2023",
+          "unstructured": "Xu, X., Zhao, W., Wang, L., Lin, J. & Du, L. Efficient exploration of compositional space for high-performance copolymers via Bayesian optimization. Chem. Sci. 14, 10203–10211 (2023).",
+          "journal-title": "Chem. Sci."
+        },
+        {
+          "key": "58503_CR63",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kawagoe, R., Ando, T., Matsuzawa, N. N., Maeshima, H., Kaneko, H. Exploring molecular descriptors and acquisition functions in Bayesian optimization for designing molecules with low hole reorganization energy. ACS Omega 9, 49 (2024).",
+          "DOI": "10.1021/acsomega.4c09124"
+        },
+        {
+          "key": "58503_CR64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41524-023-01122-4",
+          "volume": "9",
+          "author": "C-N Li",
+          "year": "2023",
+          "unstructured": "Li, C.-N., Liang, H.-P., Zhang, X., Lin, Z. & Wei, S.-H. Graph deep learning accelerated efficient crystal structure search and feature extraction. NPJ Comput. Mater. 9, 176 (2023).",
+          "journal-title": "NPJ Comput. Mater."
+        },
+        {
+          "key": "58503_CR65",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fromer, J. C., Coley, C. W. Computer-aided multi-objective optimization in small molecule discovery. Patterns 4, 100678 (2023).",
+          "DOI": "10.1016/j.patter.2023.100678"
+        },
+        {
+          "key": "58503_CR66",
+          "doi-asserted-by": "publisher",
+          "first-page": "50",
+          "DOI": "10.1016/j.sbi.2019.11.005",
+          "volume": "60",
+          "author": "LS Bigman",
+          "year": "2020",
+          "unstructured": "Bigman, L. S. & Levy, Y. Proteins: molecules defined by their trade-offs. Curr. Opin. Struct. Biol. 60, 50–56 (2020).",
+          "journal-title": "Curr. Opin. Struct. Biol."
+        },
+        {
+          "key": "58503_CR67",
+          "doi-asserted-by": "publisher",
+          "first-page": "13616",
+          "DOI": "10.1021/ja301872s",
+          "volume": "134",
+          "author": "Y-H Chen",
+          "year": "2012",
+          "unstructured": "Chen, Y.-H. et al. Vacuum-deposited small-molecule organic solar cells with high power conversion efficiencies by judicious molecular design and device optimization. J. Am. Chem. Soc. 134, 13616–13623 (2012).",
+          "journal-title": "J. Am. Chem. Soc."
+        },
+        {
+          "key": "58503_CR68",
+          "doi-asserted-by": "publisher",
+          "first-page": "22214",
+          "DOI": "10.1039/D2TA05674G",
+          "volume": "10",
+          "author": "Q Zhang",
+          "year": "2022",
+          "unstructured": "Zhang, Q., Khetan, A., Sorkun, E. & Er, S. Discovery of aza-aromatic anolytes for aqueous redox flow batteries via high-throughput screening. J. Mater. Chem. A 10, 22214–22227 (2022).",
+          "journal-title": "J. Mater. Chem. A"
+        },
+        {
+          "key": "58503_CR69",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Miettinen, K. Nonlinear Multiobjective Optimization (Springer Science & Business Media, 1999).",
+          "DOI": "10.1007/978-1-4615-5563-6"
+        },
+        {
+          "key": "58503_CR70",
+          "doi-asserted-by": "publisher",
+          "first-page": "972",
+          "DOI": "10.1109/TEVC.2016.2564158",
+          "volume": "20",
+          "author": "W-Y Chiu",
+          "year": "2016",
+          "unstructured": "Chiu, W.-Y., Yen, G. G. & Juan, T.-K. Minimum Manhattan distance approach to multiple criteria decision making in multiobjective optimization problems. IEEE Trans. Evolut. Comput. 20, 972–985 (2016).",
+          "journal-title": "IEEE Trans. Evolut. Comput."
+        },
+        {
+          "key": "58503_CR71",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nix D. A., Weigend A. S. Estimating the mean and variance of the target probability distribution. In Proc. IEEE International Conference on Neural Networks (ICNN'94) (IEEE, 1994).",
+          "DOI": "10.1109/ICNN.1994.374138"
+        },
+        {
+          "key": "58503_CR72",
+          "doi-asserted-by": "publisher",
+          "first-page": "1356",
+          "DOI": "10.1021/acscentsci.1c00546",
+          "volume": "7",
+          "author": "AP Soleimany",
+          "year": "2021",
+          "unstructured": "Soleimany, A. P. et al. Evidential deep learning for guided molecular property prediction and discovery. ACS Cent. Sci. 7, 1356–1367 (2021).",
+          "journal-title": "ACS Cent. Sci."
+        },
+        {
+          "key": "58503_CR73",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gustafsson F. K., Danelljan M., Schon T. B. Evaluating scalable Bayesian deep learning methods for robust computer vision. In: Proc. IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops) (IEEE, 2020).",
+          "DOI": "10.1109/CVPRW50498.2020.00167"
+        },
+        {
+          "key": "58503_CR74",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Heid, E., McGill, C. J., Vermeire, F. H., Green, W. H. Characterizing uncertainty in machine learning for chemistry. J. Chem. Inform. Model. 13, 63 (2023).",
+          "DOI": "10.1021/acs.jcim.3c00373"
+        },
+        {
+          "key": "58503_CR75",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Laves, M.-H., Ihler, S., Fast, J. F., Kahrs, L. A. & Ortmaier, T. Recalibration of aleatoric and epistemic regression uncertainty in medical imaging. arXiv preprint arXiv:210412376 (2021).",
+          "DOI": "10.59275/j.melba.2021-a6fd"
+        },
+        {
+          "key": "58503_CR76",
+          "doi-asserted-by": "publisher",
+          "first-page": "1534",
+          "DOI": "10.1039/D4DD00088A",
+          "volume": "3",
+          "author": "S Jiang",
+          "year": "2024",
+          "unstructured": "Jiang, S., Qin, S., Van Lehn, R. C., Balaprakash, P. & Zavala, V. M. Uncertainty quantification for molecular property predictions with graph neural architecture search. Digit. Discov. 3, 1534–1553 (2024).",
+          "journal-title": "Digit. Discov."
+        },
+        {
+          "key": "58503_CR77",
+          "unstructured": "Huang, K., Jin, Y., Candes, E. & Leskovec, J. Uncertainty quantification over graph with conformalized graph neural networks. Adv. Neural Inform. Process. Syst. 36, 26699–26721 (2024)."
+        },
+        {
+          "key": "58503_CR78",
+          "unstructured": "Romano, Y., Patterson, E. & Candes, E. Conformalized quantile regression. In Advances in Neural Information Processing Systems, 32 (NIPS, 2019)."
+        },
+        {
+          "key": "58503_CR79",
+          "doi-asserted-by": "publisher",
+          "first-page": "6336",
+          "DOI": "10.1021/acs.jpca.2c05229",
+          "volume": "126",
+          "author": "T Ando",
+          "year": "2022",
+          "unstructured": "Ando, T. et al. Design of molecules with low hole and electron reorganization energy using DFT calculations and Bayesian optimization. J. Phys. Chem. A 126, 6336–6347 (2022).",
+          "journal-title": "J. Phys. Chem. A"
+        },
+        {
+          "key": "58503_CR80",
+          "doi-asserted-by": "publisher",
+          "first-page": "732",
+          "DOI": "10.1039/D2DD00028H",
+          "volume": "1",
+          "author": "RJ Hickman",
+          "year": "2022",
+          "unstructured": "Hickman, R. J., Aldeghi, M., Häse, F. & Aspuru-Guzik, A. Bayesian optimization with known experimental and design constraints for chemistry applications. Digit. Discov. 1, 732–744 (2022).",
+          "journal-title": "Digit. Discov."
+        },
+        {
+          "key": "58503_CR81",
+          "doi-asserted-by": "publisher",
+          "first-page": "825",
+          "DOI": "10.1021/acscentsci.2c00207",
+          "volume": "8",
+          "author": "AM Nambiar",
+          "year": "2022",
+          "unstructured": "Nambiar, A. M. et al. Bayesian optimization of computer-proposed multistep synthetic routes on an automated robotic flow platform. ACS Cent. Sci. 8, 825–836 (2022).",
+          "journal-title": "ACS Cent. Sci."
+        },
+        {
+          "key": "58503_CR82",
+          "doi-asserted-by": "publisher",
+          "first-page": "89",
+          "DOI": "10.1038/s41586-021-03213-y",
+          "volume": "590",
+          "author": "BJ Shields",
+          "year": "2021",
+          "unstructured": "Shields, B. J. et al. Bayesian reaction optimization as a tool for chemical synthesis. Nature 590, 89–96 (2021).",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "58503_CR83",
+          "doi-asserted-by": "publisher",
+          "first-page": "100728",
+          "DOI": "10.1016/j.coche.2021.100728",
+          "volume": "36",
+          "author": "K Wang",
+          "year": "2022",
+          "unstructured": "Wang, K. & Dowling, A. W. Bayesian optimization for chemical products and functional materials. Curr. Opin. Chem. Eng. 36, 100728 (2022).",
+          "journal-title": "Curr. Opin. Chem. Eng."
+        },
+        {
+          "key": "58503_CR84",
+          "doi-asserted-by": "publisher",
+          "first-page": "7548",
+          "DOI": "10.1021/acs.jpca.2c04848",
+          "volume": "126",
+          "author": "L-Y Chen",
+          "year": "2022",
+          "unstructured": "Chen, L.-Y., Hsu, T.-W., Hsiung, T.-C. & Li, Y.-P. Deep learning-based increment theory for formation enthalpy predictions. J. Phys. Chem. A 126, 7548–7556 (2022).",
+          "journal-title": "J. Phys. Chem. A"
+        },
+        {
+          "key": "58503_CR85",
+          "doi-asserted-by": "publisher",
+          "first-page": "7079",
+          "DOI": "10.1039/D1SC00231G",
+          "volume": "12",
+          "author": "A Nigam",
+          "year": "2021",
+          "unstructured": "Nigam, A., Pollice, R., Krenn, M., dos Passos Gomes, G. & Aspuru-Guzik, A. Beyond generative models: superfast traversal, optimization, novelty, exploration and discovery (STONED) algorithm for molecules using SELFIES. Chem. Sci. 12, 7079–7090 (2021).",
+          "journal-title": "Chem. Sci."
+        },
+        {
+          "key": "58503_CR86",
+          "doi-asserted-by": "publisher",
+          "first-page": "7866",
+          "DOI": "10.1039/D0SC06805E",
+          "volume": "12",
+          "author": "DE Graff",
+          "year": "2021",
+          "unstructured": "Graff, D. E., Shakhnovich, E. I. & Coley, C. W. Accelerating high-throughput virtual screening through molecular pool-based active learning. Chem. Sci. 12, 7866–7881 (2021).",
+          "journal-title": "Chem. Sci."
+        },
+        {
+          "key": "58503_CR87",
+          "doi-asserted-by": "publisher",
+          "first-page": "8438",
+          "DOI": "10.1039/C9SC01992H",
+          "volume": "10",
+          "author": "S Ryu",
+          "year": "2019",
+          "unstructured": "Ryu, S., Kwon, Y. & Kim, W. Y. A Bayesian graph convolutional network for reliable prediction of molecular properties with uncertainty quantification. Chem. Sci. 10, 8438–8446 (2019).",
+          "journal-title": "Chem. Sci."
+        },
+        {
+          "key": "58503_CR88",
+          "doi-asserted-by": "publisher",
+          "first-page": "3370",
+          "DOI": "10.1021/acs.jcim.9b00237",
+          "volume": "59",
+          "author": "K Yang",
+          "year": "2019",
+          "unstructured": "Yang, K. et al. Analyzing learned molecular representations for property prediction. J. Chem. Inf. Model. 59, 3370–3388 (2019).",
+          "journal-title": "J. Chem. Inf. Model."
+        },
+        {
+          "key": "58503_CR89",
+          "doi-asserted-by": "publisher",
+          "first-page": "6336",
+          "DOI": "10.1021/acs.jcim.2c00245",
+          "volume": "62",
+          "author": "MA Lim",
+          "year": "2022",
+          "unstructured": "Lim, M. A., Yang, S., Mai, H. & Cheng, A. C. Exploring deep learning of quantum chemical properties for absorption, distribution, metabolism, and excretion predictions. J. Chem. Inf. Model. 62, 6336–6341 (2022).",
+          "journal-title": "J. Chem. Inf. Model."
+        },
+        {
+          "key": "58503_CR90",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu, G., et al. Deep learning-guided discovery of an antibiotic targeting Acinetobacter baumannii. Nat. Chem. Biol. 19, 1–9 (2023).",
+          "DOI": "10.1038/s41589-023-01349-8"
+        },
+        {
+          "key": "58503_CR91",
+          "doi-asserted-by": "publisher",
+          "first-page": "105123",
+          "DOI": "10.1016/j.jtice.2023.105123",
+          "volume": "151",
+          "author": "B Muthiah",
+          "year": "2023",
+          "unstructured": "Muthiah, B., Li, S.-C. & Li, Y.-P. Developing machine learning models for accurate prediction of radiative efficiency of greenhouse gases. J. Taiwan Inst. Chem. Eng. 151, 105123 (2023).",
+          "journal-title": "J. Taiwan Inst. Chem. Eng."
+        },
+        {
+          "key": "58503_CR92",
+          "doi-asserted-by": "publisher",
+          "first-page": "8154",
+          "DOI": "10.1039/C9SC00616H",
+          "volume": "10",
+          "author": "Y Zhang",
+          "year": "2019",
+          "unstructured": "Zhang, Y. Bayesian semi-supervised learning for uncertainty-calibrated prediction of molecular properties and active learning. Chem. Sci. 10, 8154–8163 (2019).",
+          "journal-title": "Chem. Sci."
+        },
+        {
+          "key": "58503_CR93",
+          "unstructured": "Gal, Y. & Ghahramani Z. Dropout as a Bayesian approximation: representing model uncertainty in deep learning. In Proc. International Conference on Machine Learning (PMLR, 2016)."
+        },
+        {
+          "key": "58503_CR94",
+          "unstructured": "Lakshminarayanan, B., Pritzel, A. & Blundell, C. Simple and scalable predictive uncertainty estimation using deep ensembles. In Advances in Neural Information Processing Systems, 30 (NIPS, 2017)."
+        },
+        {
+          "key": "58503_CR95",
+          "unstructured": "Sensoy, M., Kaplan, L. & Kandemir, M. Evidential deep learning to quantify classification uncertainty. In Advances in Neural Information Processing Systems, 31 (NIPS, 2018)."
+        },
+        {
+          "key": "58503_CR96",
+          "doi-asserted-by": "publisher",
+          "first-page": "457",
+          "DOI": "10.1007/s10994-021-05946-3",
+          "volume": "110",
+          "author": "E Hüllermeier",
+          "year": "2021",
+          "unstructured": "Hüllermeier, E. & Waegeman, W. Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods. Mach. Learn. 110, 457–506 (2021).",
+          "journal-title": "Mach. Learn."
+        },
+        {
+          "key": "58503_CR97",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lambora, A., Gupta, K. & Chopra, K. Genetic algorithm—a literature review. In Proc. International Conference on Machine Learning, Big Data, Cloud and Parallel Computing (COMITCon) (IEEE, 2019).",
+          "DOI": "10.1109/COMITCon.2019.8862255"
+        },
+        {
+          "key": "58503_CR98",
+          "doi-asserted-by": "publisher",
+          "first-page": "390",
+          "DOI": "10.1039/D2DD00003B",
+          "volume": "1",
+          "author": "A Nigam",
+          "year": "2022",
+          "unstructured": "Nigam, A., Pollice, R. & Aspuru-Guzik, A. Parallel tempered genetic algorithm guided by deep neural networks for inverse molecular design. Digit. Discov. 1, 390–404 (2022).",
+          "journal-title": "Digit. Discov."
+        },
+        {
+          "key": "58503_CR99",
+          "doi-asserted-by": "publisher",
+          "first-page": "045024",
+          "DOI": "10.1088/2632-2153/aba947",
+          "volume": "1",
+          "author": "M Krenn",
+          "year": "2020",
+          "unstructured": "Krenn, M., Häse, F., Nigam, A., Friederich, P. & Aspuru-Guzik, A. Self-referencing embedded strings (SELFIES): a 100% robust molecular string representation. Mach. Learn. Sci. Technol. 1, 045024 (2020).",
+          "journal-title": "Mach. Learn. Sci. Technol."
+        },
+        {
+          "key": "58503_CR100",
+          "doi-asserted-by": "publisher",
+          "first-page": "31",
+          "DOI": "10.1021/ci00057a005",
+          "volume": "28",
+          "author": "D Weininger",
+          "year": "1988",
+          "unstructured": "Weininger, D. SMILES, a chemical language and information system. 1. Introduction to methodology and encoding rules. J. Chem. Inf. Comput. Sci. 28, 31–36 (1988).",
+          "journal-title": "J. Chem. Inf. Comput. Sci."
+        },
+        {
+          "key": "58503_CR101",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Krenn, M. et al. SELFIES and the future of molecular string representations. Patterns 3, 10 (2022).",
+          "DOI": "10.1016/j.patter.2022.100588"
+        },
+        {
+          "key": "58503_CR102",
+          "first-page": "21342",
+          "volume": "35",
+          "author": "W Gao",
+          "year": "2022",
+          "unstructured": "Gao, W., Fu, T., Sun, J. & Coley, C. Sample efficiency matters: a benchmark for practical molecular optimization. Adv. Neural Inf. Process. Syst. 35, 21342–21357 (2022).",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "58503_CR103",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Nigam, A., Tom, G. & Wille, J. aspuru-guzik-group/Tartarus: v0.1.0. https://doi.org/10.5281/zenodo.8072249 (2023).",
+          "DOI": "10.5281/zenodo.8072249"
+        },
+        {
+          "key": "58503_CR104",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Fiscato, M., Vaucher, A. C. & Segler, M. GuacaMol All SMILES. Figshare. Dataset. https://doi.org/10.6084/m9.figshare.7322252.v2 (2018).",
+          "DOI": "10.6084/m9.figshare.7322252.v2"
+        },
+        {
+          "key": "58503_CR105",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Chen, L.-Y. & Li, Y.-P. Uncertainty quantification with graph neural networks for efficient molecular design. Lung-Yi/uncmoo. https://doi.org/10.5281/zenodo.14729022 (2025).",
+          "DOI": "10.5281/zenodo.14729022"
+        },
+        {
+          "key": "58503_CR106",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Varivoda, D., Dong, R., Omee, S. S. & Hu, J. Materials property prediction with uncertainty quantification: a benchmark study. Appl. Phys. Rev. 10, 021409 (2023).",
+          "DOI": "10.1063/5.0133528"
+        }
+      ],
+      "container-title": [
+        "Nature Communications"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.nature.com/articles/s41467-025-58503-0.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41467-025-58503-0",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41467-025-58503-0.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            6
+          ]
+        ],
+        "date-time": "2025-04-06T17:12:09Z",
+        "timestamp": 1743959529000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.nature.com/articles/s41467-025-58503-0"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            5
+          ]
+        ]
+      },
+      "references-count": 106,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "58503"
+      ],
+      "URL": "https://doi.org/10.1038/s41467-025-58503-0",
+      "relation": {},
+      "ISSN": [
+        "2041-1723"
+      ],
+      "issn-type": [
+        {
+          "value": "2041-1723",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            5
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "17 July 2024",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "21 March 2025",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "5 April 2025",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ],
+      "article-number": "3262"
+    }
+  }
+}

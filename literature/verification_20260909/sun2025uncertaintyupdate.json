@@ -1,0 +1,693 @@
+{
+  "key": "sun2025uncertaintyupdate",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.knosys.2025.113572",
+  "retrieved_utc": "2026-09-09T03:16:51.772148+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            9
+          ]
+        ],
+        "date-time": "2026-06-09T20:41:22Z",
+        "timestamp": 1781037682717,
+        "version": "3.54.1"
+      },
+      "reference-count": 30,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2025-06-01T00:00:00Z",
+            "timestamp": 1748736000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2025-06-01T00:00:00Z",
+            "timestamp": 1748736000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2025-06-01T00:00:00Z",
+            "timestamp": 1748736000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2025-06-01T00:00:00Z",
+            "timestamp": 1748736000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2025-06-01T00:00:00Z",
+            "timestamp": 1748736000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2025-06-01T00:00:00Z",
+            "timestamp": 1748736000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2025-06-01T00:00:00Z",
+            "timestamp": 1748736000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100017696",
+          "name": "Hebei Province Graduate Innovation Funding Project",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "CXZZBS2025137"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "CXZZBS2025137"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100017696",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100003481",
+          "name": "Hebei Normal University",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "L2024ZD06"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "L2024ZD06"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100003481",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62476078"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62476078"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Knowledge-Based Systems"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.knosys.2025.113572",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            24
+          ]
+        ],
+        "date-time": "2025-04-24T03:58:24Z",
+        "timestamp": 1745467104000
+      },
+      "page": "113572",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "special_numbering": "C",
+      "title": [
+        "An efficient uncertainty measure with dynamic update mechanisms"
+      ],
+      "prefix": "10.1016",
+      "volume": "318",
+      "author": [
+        {
+          "given": "Yingying",
+          "family": "Sun",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jusheng",
+          "family": "Mi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.knosys.2025.113572_b1",
+          "doi-asserted-by": "crossref",
+          "first-page": "341",
+          "DOI": "10.1007/BF01001956",
+          "article-title": "Rough sets",
+          "volume": "11",
+          "author": "Pawlak",
+          "year": "1982",
+          "journal-title": "Int. J. Comput. Inf. Sci."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b2",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1016/j.ins.2006.06.003",
+          "article-title": "Rudiments of rough sets",
+          "volume": "177",
+          "author": "Pawlak",
+          "year": "2007",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b3",
+          "doi-asserted-by": "crossref",
+          "first-page": "12",
+          "DOI": "10.1109/TFUZZ.2023.3287834",
+          "article-title": "Data-driven interval granulation approach based on uncertainty principle for efficient classification",
+          "volume": "32",
+          "author": "Wu",
+          "year": "2024",
+          "journal-title": "IEEE Trans. Fuzzy Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b4",
+          "doi-asserted-by": "crossref",
+          "first-page": "1893",
+          "DOI": "10.1007/s00500-023-09540-8",
+          "article-title": "Attribute reduction based on interval-set rough sets",
+          "volume": "28",
+          "author": "Ren",
+          "year": "2024",
+          "journal-title": "Soft Comput."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b5",
+          "first-page": "10693",
+          "article-title": "Smart city design plan selection through single-valued neutrosophic probabilistic hesitant fuzzy rough aggregation information",
+          "volume": "45",
+          "author": "Kamran",
+          "year": "2023",
+          "journal-title": "J. Intell. Fuzzy Systems"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b6",
+          "doi-asserted-by": "crossref",
+          "first-page": "379",
+          "DOI": "10.1002/j.1538-7305.1948.tb01338.x",
+          "article-title": "A mathematical theory of communication",
+          "volume": "27",
+          "author": "Shannon",
+          "year": "1948",
+          "journal-title": "Bell Syst. Tech. J."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b7",
+          "doi-asserted-by": "crossref",
+          "first-page": "185",
+          "DOI": "10.1016/S0020-0255(98)00019-X",
+          "article-title": "Information-theoretic measures of uncertainty for rough sets and rough relational databases",
+          "volume": "109",
+          "author": "Beaubouef",
+          "year": "1998",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b8",
+          "doi-asserted-by": "crossref",
+          "first-page": "109",
+          "DOI": "10.1016/S0004-3702(98)00091-5",
+          "article-title": "Uncertainty measures of rough set prediction",
+          "volume": "106",
+          "author": "Düntsch",
+          "year": "1998",
+          "journal-title": "Artificial Intelligence"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b9",
+          "doi-asserted-by": "crossref",
+          "first-page": "283",
+          "DOI": "10.1080/03081079908935239",
+          "article-title": "Measuring uncertainty in rough set theory",
+          "volume": "28",
+          "author": "Wierman",
+          "year": "1999",
+          "journal-title": "Int. J. Gen. Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b10",
+          "series-title": "Rough Sets, Fuzzy Sets, Data Mining, and Granular Computing",
+          "first-page": "320",
+          "article-title": "The information entropy of rough relational databases",
+          "author": "Sui",
+          "year": "2003"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b11",
+          "doi-asserted-by": "crossref",
+          "first-page": "1244",
+          "DOI": "10.1016/j.asoc.2009.03.007",
+          "article-title": "Knowledge granulation, knowledge entropy and knowledge uncertainty measure in ordered information systems",
+          "volume": "9",
+          "author": "Xu",
+          "year": "2009",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b12",
+          "doi-asserted-by": "crossref",
+          "first-page": "1277",
+          "DOI": "10.1109/TSMCB.2012.2228480",
+          "article-title": "An uncertainty measure for incomplete decision tables and its applications",
+          "volume": "43",
+          "author": "Dai",
+          "year": "2013",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b13",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2024.111450",
+          "article-title": "A local rough set method for feature selection by variable precision composite measure",
+          "volume": "155",
+          "author": "Yuan",
+          "year": "2024",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b14",
+          "doi-asserted-by": "crossref",
+          "first-page": "4524",
+          "DOI": "10.1007/s10489-022-03760-5",
+          "article-title": "Feature selection using self-information uncertainty measures in neighborhood information systems",
+          "volume": "53",
+          "author": "Xu",
+          "year": "2023",
+          "journal-title": "Appl. Intell."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b15",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2021.106908",
+          "article-title": "A novel approach to attribute reduction based on weighted neighborhood rough sets",
+          "volume": "220",
+          "author": "Hu",
+          "year": "2021",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b16",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2023.110811",
+          "article-title": "A unified model of data uncertainty and data relation uncertainty",
+          "volume": "278",
+          "author": "Liao",
+          "year": "2023",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b17",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2024.111596",
+          "article-title": "Entropy-based concept drift detection in information systems",
+          "volume": "290",
+          "author": "Sun",
+          "year": "2024",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b18",
+          "doi-asserted-by": "crossref",
+          "first-page": "901",
+          "DOI": "10.1109/TFUZZ.2019.2959995",
+          "article-title": "Active incremental feature selection using a fuzzy-rough-set-based information entropy",
+          "volume": "28",
+          "author": "Zhang",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Fuzzy Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b19",
+          "doi-asserted-by": "crossref",
+          "first-page": "5309",
+          "DOI": "10.1007/s40747-022-00763-0",
+          "article-title": "Online group streaming feature selection using entropy-based uncertainty measures for fuzzy neighborhood rough sets",
+          "volume": "8",
+          "author": "Xu",
+          "year": "2022",
+          "journal-title": "Complex & Intell. Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b20",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2022.109329",
+          "article-title": "Fusing entropy measures for dynamic feature selection in incomplete approximation spaces",
+          "volume": "252",
+          "author": "Luo",
+          "year": "2022",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b21",
+          "doi-asserted-by": "crossref",
+          "first-page": "725",
+          "DOI": "10.1049/cje.2019.05.014",
+          "article-title": "Valid incremental attribute reduction algorithm based on attribute generalization for an incomplete information system",
+          "volume": "28",
+          "author": "Wang",
+          "year": "2019",
+          "journal-title": "Chin. J. Electron."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b22",
+          "doi-asserted-by": "crossref",
+          "first-page": "1453",
+          "DOI": "10.1007/s13042-023-01977-5",
+          "article-title": "Incremental feature selection based on uncertainty measure for dynamic interval-valued data",
+          "volume": "15",
+          "author": "Shu",
+          "year": "2024",
+          "journal-title": "Int. J. Mach. Learn. Cybern."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b23",
+          "doi-asserted-by": "crossref",
+          "first-page": "3619",
+          "DOI": "10.1007/s13042-024-02112-8",
+          "article-title": "An efficient multi-source information fusion approach for dynamic interval-valued data via fuzzy approximate conditional entropy",
+          "volume": "15",
+          "author": "Cai",
+          "year": "2024",
+          "journal-title": "Int. J. Mach. Learn. Cybern."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b24",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.engappai.2023.106339",
+          "article-title": "DBE: Dynamic belief entropy for evidence theory with its application in data fusion",
+          "volume": "123",
+          "author": "Deng",
+          "year": "2023",
+          "journal-title": "Eng. Appl. Artif. Intell."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b25",
+          "doi-asserted-by": "crossref",
+          "first-page": "401",
+          "DOI": "10.1016/j.ins.2023.01.041",
+          "article-title": "Incremental updating reduction for relation decision systems with dynamic conditional relation sets",
+          "volume": "625",
+          "author": "Su",
+          "year": "2023",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b26",
+          "doi-asserted-by": "crossref",
+          "first-page": "1563",
+          "DOI": "10.1016/j.camwa.2006.03.033",
+          "article-title": "Rough set-based clustering with refinement using Shannon’s entropy theory",
+          "volume": "52",
+          "author": "Chen",
+          "year": "2006",
+          "journal-title": "Comput. Math. Appl."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b27",
+          "series-title": "Elements of Information Theory",
+          "author": "Cover",
+          "year": "1991"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b28",
+          "doi-asserted-by": "crossref",
+          "first-page": "37",
+          "DOI": "10.1142/S0218488504002631",
+          "article-title": "The information entropy, rough entropy and knowledge granulation in rough set theory",
+          "volume": "12",
+          "author": "Liang",
+          "year": "2004",
+          "journal-title": "Internat. J. Uncertain. Fuzziness Knowledge-Based Systems"
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b29",
+          "first-page": "331",
+          "article-title": "The axiomatization of the rough set upper approximation operations",
+          "volume": "69",
+          "author": "Liu",
+          "year": "2006",
+          "journal-title": "Fund. Inform."
+        },
+        {
+          "key": "10.1016/j.knosys.2025.113572_b30",
+          "doi-asserted-by": "crossref",
+          "first-page": "62",
+          "DOI": "10.1016/j.ins.2012.02.032",
+          "article-title": "Approximations and uncertainty measures in incomplete information systems",
+          "volume": "198",
+          "author": "Dai",
+          "year": "2012",
+          "journal-title": "Inform. Sci."
+        }
+      ],
+      "container-title": [
+        "Knowledge-Based Systems"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0950705125006185?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0950705125006185?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            5
+          ]
+        ],
+        "date-time": "2025-11-05T09:43:24Z",
+        "timestamp": 1762335804000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950705125006185"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      },
+      "references-count": 30,
+      "alternative-id": [
+        "S0950705125006185"
+      ],
+      "URL": "https://doi.org/10.1016/j.knosys.2025.113572",
+      "relation": {},
+      "ISSN": [
+        "0950-7051"
+      ],
+      "issn-type": [
+        {
+          "value": "0950-7051",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "An efficient uncertainty measure with dynamic update mechanisms",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Knowledge-Based Systems",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.knosys.2025.113572",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "113572"
+    }
+  }
+}

@@ -1,0 +1,822 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.knosys.2025.114094",
+  "retrieved_utc": "2026-09-09T03:17:03.533279+00:00",
+  "response": {
+    "id": "https://openalex.org/W6921944778",
+    "doi": "https://doi.org/10.1016/j.knosys.2025.114094",
+    "title": "Leveraging temporal validity of rules via LLMs for enhanced temporal knowledge graph reasoning",
+    "display_name": "Leveraging temporal validity of rules via LLMs for enhanced temporal knowledge graph reasoning",
+    "publication_year": 2025,
+    "publication_date": "2025-07-17",
+    "ids": {
+      "openalex": "https://openalex.org/W6921944778",
+      "doi": "https://doi.org/10.1016/j.knosys.2025.114094"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.knosys.2025.114094",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.knosys.2025.114094",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S10169007",
+        "display_name": "Knowledge-Based Systems",
+        "issn_l": "0950-7051",
+        "issn": [
+          "0950-7051",
+          "1872-7409"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Knowledge-Based Systems",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": null,
+          "display_name": "Qihong Pan",
+          "orcid": "https://orcid.org/0009-0004-2687-3042"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I168879160",
+            "display_name": "Zhejiang University of Science and Technology",
+            "ror": "https://ror.org/05mx0wr29",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I168879160"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I55712492",
+            "display_name": "Zhejiang University of Technology",
+            "ror": "https://ror.org/02djqfd08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qihong Pan",
+        "raw_affiliation_strings": [
+          "School of Computer Science and Technology, zhejiang university of technology, HangZhou, 310000, China"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0004-2687-3042",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science and Technology, zhejiang university of technology, HangZhou, 310000, China",
+            "institution_ids": [
+              "https://openalex.org/I168879160",
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Limin Yao",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I168879160",
+            "display_name": "Zhejiang University of Science and Technology",
+            "ror": "https://ror.org/05mx0wr29",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I168879160"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I55712492",
+            "display_name": "Zhejiang University of Technology",
+            "ror": "https://ror.org/02djqfd08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Limin Yao",
+        "raw_affiliation_strings": [
+          "School of Computer Science and Technology, zhejiang university of technology, HangZhou, 310000, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science and Technology, zhejiang university of technology, HangZhou, 310000, China",
+            "institution_ids": [
+              "https://openalex.org/I168879160",
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Guojiang Shen",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I168879160",
+            "display_name": "Zhejiang University of Science and Technology",
+            "ror": "https://ror.org/05mx0wr29",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I168879160"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I55712492",
+            "display_name": "Zhejiang University of Technology",
+            "ror": "https://ror.org/02djqfd08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Guojiang Shen",
+        "raw_affiliation_strings": [
+          "School of Computer Science and Technology, zhejiang university of technology, HangZhou, 310000, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science and Technology, zhejiang university of technology, HangZhou, 310000, China",
+            "institution_ids": [
+              "https://openalex.org/I168879160",
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Xiao Han",
+          "orcid": "https://orcid.org/0000-0002-3478-964X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I168879160",
+            "display_name": "Zhejiang University of Science and Technology",
+            "ror": "https://ror.org/05mx0wr29",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I168879160"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I55712492",
+            "display_name": "Zhejiang University of Technology",
+            "ror": "https://ror.org/02djqfd08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiao Han",
+        "raw_affiliation_strings": [
+          "School of Computer Science and Technology, zhejiang university of technology, HangZhou, 310000, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-3478-964X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science and Technology, zhejiang university of technology, HangZhou, 310000, China",
+            "institution_ids": [
+              "https://openalex.org/I168879160",
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Yichuan Chen",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I168879160",
+            "display_name": "Zhejiang University of Science and Technology",
+            "ror": "https://ror.org/05mx0wr29",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I168879160"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I55712492",
+            "display_name": "Zhejiang University of Technology",
+            "ror": "https://ror.org/02djqfd08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yichuan Chen",
+        "raw_affiliation_strings": [
+          "School of Computer Science and Technology, zhejiang university of technology, HangZhou, 310000, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science and Technology, zhejiang university of technology, HangZhou, 310000, China",
+            "institution_ids": [
+              "https://openalex.org/I168879160",
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": null,
+          "display_name": "Xiangjie Kong",
+          "orcid": "https://orcid.org/0000-0003-2698-3319"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I168879160",
+            "display_name": "Zhejiang University of Science and Technology",
+            "ror": "https://ror.org/05mx0wr29",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I168879160"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I55712492",
+            "display_name": "Zhejiang University of Technology",
+            "ror": "https://ror.org/02djqfd08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Xiangjie Kong",
+        "raw_affiliation_strings": [
+          "School of Computer Science and Technology, zhejiang university of technology, HangZhou, 310000, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-2698-3319",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science and Technology, zhejiang university of technology, HangZhou, 310000, China",
+            "institution_ids": [
+              "https://openalex.org/I168879160",
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I168879160",
+      "https://openalex.org/I55712492"
+    ],
+    "apc_list": {
+      "value": 3430,
+      "currency": "USD",
+      "value_usd": 3430
+    },
+    "apc_paid": null,
+    "fwci": 10.8255,
+    "has_fulltext": false,
+    "cited_by_count": 15,
+    "citation_normalized_percentile": {
+      "value": 0.98152863,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 95,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "327",
+      "issue": null,
+      "first_page": "114094",
+      "last_page": "114094"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": true,
+    "primary_topic": {
+      "id": "https://openalex.org/T12797",
+      "display_name": "History of Computing Technologies",
+      "score": 0.04809999838471413,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1706",
+        "display_name": "Computer Science Applications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12797",
+        "display_name": "History of Computing Technologies",
+        "score": 0.04809999838471413,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1706",
+          "display_name": "Computer Science Applications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14335",
+        "display_name": "Educational Robotics and Engineering",
+        "score": 0.04320000112056732,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14002",
+        "display_name": "Art, Technology, and Culture",
+        "score": 0.021299999207258224,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1213",
+          "display_name": "Visual Arts and Performing Arts"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/temporal-database",
+        "display_name": "Temporal database",
+        "score": 0.6406999826431274
+      },
+      {
+        "id": "https://openalex.org/keywords/construct",
+        "display_name": "Construct (python library)",
+        "score": 0.5583000183105469
+      },
+      {
+        "id": "https://openalex.org/keywords/benchmark",
+        "display_name": "Benchmark (surveying)",
+        "score": 0.5065000057220459
+      },
+      {
+        "id": "https://openalex.org/keywords/temporal-logic",
+        "display_name": "Temporal logic",
+        "score": 0.5011000037193298
+      },
+      {
+        "id": "https://openalex.org/keywords/scalability",
+        "display_name": "Scalability",
+        "score": 0.49219998717308044
+      },
+      {
+        "id": "https://openalex.org/keywords/temporal-scales",
+        "display_name": "Temporal scales",
+        "score": 0.4223000109195709
+      },
+      {
+        "id": "https://openalex.org/keywords/graph",
+        "display_name": "Graph",
+        "score": 0.40799999237060547
+      },
+      {
+        "id": "https://openalex.org/keywords/mean-reciprocal-rank",
+        "display_name": "Mean reciprocal rank",
+        "score": 0.3813000023365021
+      },
+      {
+        "id": "https://openalex.org/keywords/interval-temporal-logic",
+        "display_name": "Interval temporal logic",
+        "score": 0.35409998893737793
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7411999702453613
+      },
+      {
+        "id": "https://openalex.org/C77277458",
+        "wikidata": "https://www.wikidata.org/wiki/Q1969246",
+        "display_name": "Temporal database",
+        "level": 2,
+        "score": 0.6406999826431274
+      },
+      {
+        "id": "https://openalex.org/C2780801425",
+        "wikidata": "https://www.wikidata.org/wiki/Q5164392",
+        "display_name": "Construct (python library)",
+        "level": 2,
+        "score": 0.5583000183105469
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.5536999702453613
+      },
+      {
+        "id": "https://openalex.org/C185798385",
+        "wikidata": "https://www.wikidata.org/wiki/Q1161707",
+        "display_name": "Benchmark (surveying)",
+        "level": 2,
+        "score": 0.5065000057220459
+      },
+      {
+        "id": "https://openalex.org/C25016198",
+        "wikidata": "https://www.wikidata.org/wiki/Q781833",
+        "display_name": "Temporal logic",
+        "level": 2,
+        "score": 0.5011000037193298
+      },
+      {
+        "id": "https://openalex.org/C48044578",
+        "wikidata": "https://www.wikidata.org/wiki/Q727490",
+        "display_name": "Scalability",
+        "level": 2,
+        "score": 0.49219998717308044
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.46970000863075256
+      },
+      {
+        "id": "https://openalex.org/C2777489503",
+        "wikidata": "https://www.wikidata.org/wiki/Q7698936",
+        "display_name": "Temporal scales",
+        "level": 2,
+        "score": 0.4223000109195709
+      },
+      {
+        "id": "https://openalex.org/C132525143",
+        "wikidata": "https://www.wikidata.org/wiki/Q141488",
+        "display_name": "Graph",
+        "level": 2,
+        "score": 0.40799999237060547
+      },
+      {
+        "id": "https://openalex.org/C44083865",
+        "wikidata": "https://www.wikidata.org/wiki/Q3853443",
+        "display_name": "Mean reciprocal rank",
+        "level": 2,
+        "score": 0.3813000023365021
+      },
+      {
+        "id": "https://openalex.org/C162670838",
+        "wikidata": "https://www.wikidata.org/wiki/Q6057295",
+        "display_name": "Interval temporal logic",
+        "level": 3,
+        "score": 0.35409998893737793
+      },
+      {
+        "id": "https://openalex.org/C164226766",
+        "wikidata": "https://www.wikidata.org/wiki/Q7293202",
+        "display_name": "Rank (graph theory)",
+        "level": 2,
+        "score": 0.34439998865127563
+      },
+      {
+        "id": "https://openalex.org/C4777664",
+        "wikidata": "https://www.wikidata.org/wiki/Q1536492",
+        "display_name": "Linear temporal logic",
+        "level": 2,
+        "score": 0.33169999718666077
+      },
+      {
+        "id": "https://openalex.org/C26517878",
+        "wikidata": "https://www.wikidata.org/wiki/Q228039",
+        "display_name": "Key (lock)",
+        "level": 2,
+        "score": 0.32429999113082886
+      },
+      {
+        "id": "https://openalex.org/C2987255567",
+        "wikidata": "https://www.wikidata.org/wiki/Q33002955",
+        "display_name": "Knowledge graph",
+        "level": 2,
+        "score": 0.30799999833106995
+      },
+      {
+        "id": "https://openalex.org/C2777742833",
+        "wikidata": "https://www.wikidata.org/wiki/Q1964083",
+        "display_name": "Reciprocal",
+        "level": 2,
+        "score": 0.29820001125335693
+      },
+      {
+        "id": "https://openalex.org/C2778755073",
+        "wikidata": "https://www.wikidata.org/wiki/Q10858537",
+        "display_name": "Scale (ratio)",
+        "level": 2,
+        "score": 0.28790000081062317
+      },
+      {
+        "id": "https://openalex.org/C83725634",
+        "wikidata": "https://www.wikidata.org/wiki/Q7268699",
+        "display_name": "Qualitative reasoning",
+        "level": 2,
+        "score": 0.28679999709129333
+      },
+      {
+        "id": "https://openalex.org/C2776214188",
+        "wikidata": "https://www.wikidata.org/wiki/Q408386",
+        "display_name": "Inference",
+        "level": 2,
+        "score": 0.2782999873161316
+      },
+      {
+        "id": "https://openalex.org/C161301231",
+        "wikidata": "https://www.wikidata.org/wiki/Q3478658",
+        "display_name": "Knowledge representation and reasoning",
+        "level": 2,
+        "score": 0.26339998841285706
+      },
+      {
+        "id": "https://openalex.org/C108583219",
+        "wikidata": "https://www.wikidata.org/wiki/Q197536",
+        "display_name": "Deep learning",
+        "level": 2,
+        "score": 0.2558000087738037
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.2542000114917755
+      },
+      {
+        "id": "https://openalex.org/C49453240",
+        "wikidata": "https://www.wikidata.org/wiki/Q1592163",
+        "display_name": "Construct validity",
+        "level": 3,
+        "score": 0.2540000081062317
+      },
+      {
+        "id": "https://openalex.org/C196340769",
+        "wikidata": "https://www.wikidata.org/wiki/Q7698910",
+        "display_name": "Temporal difference learning",
+        "level": 3,
+        "score": 0.2529999911785126
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.knosys.2025.114094",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.knosys.2025.114094",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S10169007",
+          "display_name": "Knowledge-Based Systems",
+          "issn_l": "0950-7051",
+          "issn": [
+            "0950-7051",
+            "1872-7409"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Knowledge-Based Systems",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G3267229679",
+        "display_name": null,
+        "funder_award_id": "LR21F020003",
+        "funder_id": "https://openalex.org/F4320338464",
+        "funder_display_name": "Natural Science Foundation of Zhejiang Province"
+      },
+      {
+        "id": "https://openalex.org/G375061258",
+        "display_name": null,
+        "funder_award_id": "2024C0-1214",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G4211196075",
+        "display_name": null,
+        "funder_award_id": "62073295",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G4794680191",
+        "display_name": null,
+        "funder_award_id": "62072409",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G5834871303",
+        "display_name": null,
+        "funder_award_id": "62476247",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320338464",
+        "display_name": "Natural Science Foundation of Zhejiang Province",
+        "ror": "https://ror.org/01h0zpd94"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 31,
+    "referenced_works": [
+      "https://openalex.org/W2889782235",
+      "https://openalex.org/W3097986917",
+      "https://openalex.org/W3176757281",
+      "https://openalex.org/W4282974123",
+      "https://openalex.org/W4310016294",
+      "https://openalex.org/W4385570457",
+      "https://openalex.org/W4389519294",
+      "https://openalex.org/W4391136507",
+      "https://openalex.org/W4402671909",
+      "https://openalex.org/W4408765390",
+      "https://openalex.org/W6601449391",
+      "https://openalex.org/W6622957738",
+      "https://openalex.org/W6739733045",
+      "https://openalex.org/W6754076127",
+      "https://openalex.org/W6764848847",
+      "https://openalex.org/W6773622464",
+      "https://openalex.org/W6782117173",
+      "https://openalex.org/W6787861618",
+      "https://openalex.org/W6788834500",
+      "https://openalex.org/W6791751402",
+      "https://openalex.org/W6793948337",
+      "https://openalex.org/W6811173525",
+      "https://openalex.org/W6838288372",
+      "https://openalex.org/W6840329665",
+      "https://openalex.org/W6846256610",
+      "https://openalex.org/W6867907617",
+      "https://openalex.org/W6867995541",
+      "https://openalex.org/W6870723699",
+      "https://openalex.org/W6871032344",
+      "https://openalex.org/W6872797552",
+      "https://openalex.org/W6874591273"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 13
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2026-09-04T10:56:28.161419",
+    "created_date": "2025-10-10T00:00:00"
+  }
+}

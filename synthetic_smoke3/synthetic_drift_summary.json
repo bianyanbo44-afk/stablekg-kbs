@@ -1,0 +1,17 @@
+{
+  "global_decay": {
+    "n": 4,
+    "mean_recovery_lag": 10.0,
+    "median_recovery_lag": 10.0
+  },
+  "stability_aware": {
+    "n": 4,
+    "mean_recovery_lag": 10.0,
+    "median_recovery_lag": 10.0
+  },
+  "static": {
+    "n": 4,
+    "mean_recovery_lag": 10.0,
+    "median_recovery_lag": 10.0
+  }
+}

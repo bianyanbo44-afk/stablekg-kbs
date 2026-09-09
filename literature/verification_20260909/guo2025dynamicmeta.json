@@ -1,0 +1,760 @@
+{
+  "key": "guo2025dynamicmeta",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.neunet.2024.106805",
+  "retrieved_utc": "2026-09-09T03:16:53.769303+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            29
+          ]
+        ],
+        "date-time": "2026-08-29T09:26:23Z",
+        "timestamp": 1787995583020,
+        "version": "build-2784847793"
+      },
+      "reference-count": 50,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2025-01-01T00:00:00Z",
+            "timestamp": 1735689600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2025-01-01T00:00:00Z",
+            "timestamp": 1735689600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2025-01-01T00:00:00Z",
+            "timestamp": 1735689600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2025-01-01T00:00:00Z",
+            "timestamp": 1735689600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2025-01-01T00:00:00Z",
+            "timestamp": 1735689600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2025-01-01T00:00:00Z",
+            "timestamp": 1735689600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2025-01-01T00:00:00Z",
+            "timestamp": 1735689600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100004733",
+          "name": "University of Macau",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/501100004733",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Neural Networks"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.neunet.2024.106805",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            18
+          ]
+        ],
+        "date-time": "2024-10-18T09:21:39Z",
+        "timestamp": 1729243299000
+      },
+      "page": "106805",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 17,
+      "special_numbering": "C",
+      "title": [
+        "Dynamic meta-graph convolutional recurrent network for heterogeneous spatiotemporal graph forecasting"
+      ],
+      "prefix": "10.1016",
+      "volume": "181",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8210-4094",
+          "authenticated-orcid": false,
+          "given": "Xianwei",
+          "family": "Guo",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2051-9462",
+          "authenticated-orcid": false,
+          "given": "Zhiyong",
+          "family": "Yu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9878-1893",
+          "authenticated-orcid": false,
+          "given": "Fangwan",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xing",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6831-0422",
+          "authenticated-orcid": false,
+          "given": "Dingqi",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8704-502X",
+          "authenticated-orcid": false,
+          "given": "Jiangtao",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.neunet.2024.106805_b1",
+          "first-page": "17804",
+          "article-title": "Adaptive graph convolutional recurrent network for traffic forecasting",
+          "volume": "33",
+          "author": "Bai",
+          "year": "2020",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b2",
+          "article-title": "Scheduled sampling for sequence prediction with recurrent neural networks",
+          "volume": "28",
+          "author": "Bengio",
+          "year": "2015",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b3",
+          "series-title": "Spectral networks and locally connected networks on graphs",
+          "author": "Bruna",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b4",
+          "first-page": "17766",
+          "article-title": "Spectral temporal graph neural network for multivariate time-series forecasting",
+          "volume": "33",
+          "author": "Cao",
+          "year": "2020",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.neunet.2024.106805_b5",
+          "doi-asserted-by": "crossref",
+          "first-page": "96",
+          "DOI": "10.3141/1748-12",
+          "article-title": "Freeway performance measurement system: mining loop detector data",
+          "volume": "1748",
+          "author": "Chen",
+          "year": "2001",
+          "journal-title": "Transportation Research Record"
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.neunet.2024.106805_b6",
+          "first-page": "4659",
+          "article-title": "Bayesian temporal factorization for multidimensional time series prediction",
+          "volume": "44",
+          "author": "Chen",
+          "year": "2021",
+          "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b7",
+          "series-title": "Learning phrase representations using RNN encoder-decoder for statistical machine translation",
+          "author": "Cho",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b8",
+          "series-title": "On the properties of neural machine translation: Encoder-decoder approaches",
+          "author": "Cho",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cui, Y., Xie, J., & Zheng, K. (2021). Historical inertia: A neglected but powerful baseline for long sequence time-series forecasting. In Proceedings of the 30th ACM international conference on information & knowledge management (pp. 2965–2969).",
+          "DOI": "10.1145/3459637.3482120"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b10",
+          "article-title": "Convolutional neural networks on graphs with fast localized spectral filtering",
+          "volume": "29",
+          "author": "Defferrard",
+          "year": "2016",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Geng, X., Li, Y., Wang, L., Zhang, L., Yang, Q., Ye, J., et al. (2019). Spatiotemporal multi-graph convolution network for ride-hailing demand forecasting. In Proceedings of the AAAI conference on artificial intelligence, vol. 33, no. 01 (pp. 3656–3663).",
+          "DOI": "10.1609/aaai.v33i01.33013656"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gong, D., Liu, L., Le, V., Saha, B., Mansour, M. R., Venkatesh, S., et al. (2019). Memorizing normality to detect anomaly: Memory-augmented deep autoencoder for unsupervised anomaly detection. In Proceedings of the IEEE/CVF international conference on computer vision (pp. 1705–1714).",
+          "DOI": "10.1109/ICCV.2019.00179"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Guo, S., Lin, Y., Feng, N., Song, C., & Wan, H. (2019). Attention based spatial-temporal graph convolutional networks for traffic flow forecasting. In Proceedings of the AAAI conference on artificial intelligence, vol. 33, no. 01 (pp. 922–929).",
+          "DOI": "10.1609/aaai.v33i01.3301922"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b14",
+          "series-title": "HyperNetworks",
+          "author": "Ha",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jiang, R., Wang, Z., Yong, J., Jeph, P., Chen, Q., Kobayashi, Y., et al. (2023). Spatio-temporal meta-graph learning for traffic forecasting. In Proceedings of the AAAI conference on artificial intelligence, vol. 37, no. 7 (pp. 8078–8086).",
+          "DOI": "10.1609/aaai.v37i7.25976"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b16",
+          "article-title": "Spatio-temporal graph neural networks for predictive learning in urban computing: A survey",
+          "author": "Jin",
+          "year": "2023",
+          "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b17",
+          "series-title": "Adam: A method for stochastic optimization",
+          "author": "Kingma",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b18",
+          "series-title": "Semi-supervised classification with graph convolutional networks",
+          "author": "Kipf",
+          "year": "2016"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.neunet.2024.106805_b19",
+          "first-page": "1",
+          "article-title": "Dynamic graph convolutional recurrent network for traffic prediction: Benchmark and solution",
+          "volume": "17",
+          "author": "Li",
+          "year": "2023",
+          "journal-title": "ACM Transactions on Knowledge Discovery from Data"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b20",
+          "series-title": "Diffusion convolutional recurrent neural network: Data-driven traffic forecasting",
+          "author": "Li",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liang, Y., Xia, Y., Ke, S., Wang, Y., Wen, Q., Zhang, J., et al. (2023). Airformer: Predicting nationwide air quality in china with transformers. In Proceedings of the AAAI conference on artificial intelligence, vol. 37, no. 12 (pp. 14329–14337).",
+          "DOI": "10.1609/aaai.v37i12.26676"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu, H., Dong, Z., Jiang, R., Deng, J., Deng, J., Chen, Q., et al. (2023). Spatio-temporal adaptive embedding makes vanilla transformer sota for traffic forecasting. In Proceedings of the 32nd ACM international conference on information and knowledge management (pp. 4125–4129).",
+          "DOI": "10.1145/3583780.3615160"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b23",
+          "series-title": "Wavenet: A generative model for raw audio",
+          "author": "Oord",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b24",
+          "series-title": "Discrete graph structure learning for forecasting multiple time series",
+          "author": "Shang",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shao, Z., Zhang, Z., Wang, F., Wei, W., & Xu, Y. (2022). Spatial-temporal identity: A simple yet effective baseline for multivariate time series forecasting. In Proceedings of the 31st ACM international conference on information & knowledge management (pp. 4454–4458).",
+          "DOI": "10.1145/3511808.3557702"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b26",
+          "series-title": "Decoupled dynamic spatial-temporal graph neural network for traffic forecasting",
+          "author": "Shao",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b27",
+          "article-title": "Convolutional LSTM network: A machine learning approach for precipitation nowcasting",
+          "volume": "28",
+          "author": "Shi",
+          "year": "2015",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.neunet.2024.106805_b28",
+          "doi-asserted-by": "crossref",
+          "first-page": "83",
+          "DOI": "10.1109/MSP.2012.2235192",
+          "article-title": "The emerging field of signal processing on graphs: Extending high-dimensional data analysis to networks and other irregular domains",
+          "volume": "30",
+          "author": "Shuman",
+          "year": "2013",
+          "journal-title": "IEEE Signal Processing Magazine"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Song, C., Lin, Y., Guo, S., & Wan, H. (2020). Spatial-temporal synchronous graph convolutional networks: A new framework for spatial-temporal network data forecasting. In Proceedings of the AAAI conference on artificial intelligence, vol. 34, no. 01 (pp. 914–921).",
+          "DOI": "10.1609/aaai.v34i01.5438"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.neunet.2024.106805_b30",
+          "doi-asserted-by": "crossref",
+          "first-page": "291",
+          "DOI": "10.1515/ijnsns-2012-0119",
+          "article-title": "Nonlinear air quality modeling using support vector machines in gijón urban area (Northern Spain) at local scale",
+          "volume": "14",
+          "author": "Suárez Sánchez",
+          "year": "2013",
+          "journal-title": "International Journal of Nonlinear Sciences and Numerical Simulation"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b31",
+          "article-title": "Sequence to sequence learning with neural networks",
+          "volume": "27",
+          "author": "Sutskever",
+          "year": "2014",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.neunet.2024.106805_b32",
+          "first-page": "22",
+          "article-title": "Short-term traffic and travel time prediction models",
+          "volume": "22",
+          "author": "Van Lint",
+          "year": "2012",
+          "journal-title": "Artificial Intelligence Applications to Critical Transportation Issues"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b33",
+          "article-title": "Attention is all you need",
+          "volume": "30",
+          "author": "Vaswani",
+          "year": "2017",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b34",
+          "article-title": "Matching networks for one shot learning",
+          "volume": "29",
+          "author": "Vinyals",
+          "year": "2016",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.neunet.2024.106805_b35",
+          "doi-asserted-by": "crossref",
+          "first-page": "3681",
+          "DOI": "10.1109/TKDE.2020.3025580",
+          "article-title": "Deep learning for spatio-temporal data mining: A survey",
+          "volume": "34",
+          "author": "Wang",
+          "year": "2020",
+          "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, J., Jiang, J., Jiang, W., Li, C., & Zhao, W. X. (2021). Libcity: An open library for traffic prediction. In Proceedings of the 29th international conference on advances in geographic information systems (pp. 145–148).",
+          "DOI": "10.1145/3474717.3483923"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, S., Li, Y., Zhang, J., Meng, Q., Meng, L., & Gao, F. (2020). PM2.5-GNN: A domain knowledge enhanced graph neural network for PM2.5 forecasting. In Proceedings of the 28th international conference on advances in geographic information systems (pp. 163–166).",
+          "DOI": "10.1145/3397536.3422208"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b38",
+          "article-title": "Predrnn: Recurrent neural networks for predictive learning using spatiotemporal lstms",
+          "volume": "30",
+          "author": "Wang",
+          "year": "2017",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, C., Zhu, Y., Zang, T., Liu, H., & Yu, J. (2021). Modeling inter-station relationships with attentive temporal graph convolutional network for air quality prediction. In Proceedings of the 14th ACM international conference on web search and data mining (pp. 616–634).",
+          "DOI": "10.1145/3437963.3441731"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.neunet.2024.106805_b40",
+          "doi-asserted-by": "crossref",
+          "first-page": "664",
+          "DOI": "10.1061/(ASCE)0733-947X(2003)129:6(664)",
+          "article-title": "Modeling and forecasting vehicular traffic flow as a seasonal ARIMA process: Theoretical basis and empirical results",
+          "volume": "129",
+          "author": "Williams",
+          "year": "2003",
+          "journal-title": "Journal of Transportation Engineering"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wu, Z., Pan, S., Long, G., Jiang, J., Chang, X., & Zhang, C. (2020). Connecting the dots: Multivariate time series forecasting with graph neural networks. In Proceedings of the 26th ACM SIGKDD international conference on knowledge discovery & data mining (pp. 753–763).",
+          "DOI": "10.1145/3394486.3403118"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b42",
+          "series-title": "Graph wavenet for deep spatial-temporal graph modeling",
+          "author": "Wu",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b43",
+          "series-title": "Spatial-temporal transformer networks for traffic flow forecasting",
+          "author": "Xu",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b44",
+          "series-title": "Multi-scale context aggregation by dilated convolutions",
+          "author": "Yu",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b45",
+          "series-title": "Spatio-temporal graph convolutional networks: A deep learning framework for traffic forecasting",
+          "author": "Yu",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, Q., Chang, J., Meng, G., Xiang, S., & Pan, C. (2020). Spatio-temporal graph structure learning for traffic forecasting. In Proceedings of the AAAI conference on artificial intelligence, vol. 34, no. 01 (pp. 1177–1185).",
+          "DOI": "10.1609/aaai.v34i01.5470"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, X., Huang, C., Xu, Y., Xia, L., Dai, P., Bo, L., et al. (2021). Traffic flow forecasting with spatial-temporal graph diffusion network. In Proceedings of the AAAI conference on artificial intelligence, vol. 35, no. 17 (pp. 15008–15015).",
+          "DOI": "10.1609/aaai.v35i17.17761"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, J., Zheng, Y., & Qi, D. (2017). Deep spatio-temporal residual networks for citywide crowd flows prediction. In Proceedings of the AAAI conference on artificial intelligence, vol. 31, no. 1.",
+          "DOI": "10.1609/aaai.v31i1.10735"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zheng, C., Fan, X., Wang, C., & Qi, J. (2020). Gman: A graph multi-attention network for traffic prediction. In Proceedings of the AAAI conference on artificial intelligence, vol. 34, no. 01 (pp. 1234–1241).",
+          "DOI": "10.1609/aaai.v34i01.5477"
+        },
+        {
+          "key": "10.1016/j.neunet.2024.106805_b50",
+          "series-title": "Deep graph structure learning for robust representations: A survey",
+          "author": "Zhu",
+          "year": "2021"
+        }
+      ],
+      "container-title": [
+        "Neural Networks"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0893608024007299?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0893608024007299?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            7
+          ]
+        ],
+        "date-time": "2025-01-07T02:59:36Z",
+        "timestamp": 1736218776000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0893608024007299"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            1
+          ]
+        ]
+      },
+      "references-count": 50,
+      "alternative-id": [
+        "S0893608024007299"
+      ],
+      "URL": "https://doi.org/10.1016/j.neunet.2024.106805",
+      "relation": {},
+      "ISSN": [
+        "0893-6080"
+      ],
+      "issn-type": [
+        {
+          "value": "0893-6080",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            1
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Dynamic meta-graph convolutional recurrent network for heterogeneous spatiotemporal graph forecasting",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Neural Networks",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.neunet.2024.106805",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "106805"
+    }
+  }
+}

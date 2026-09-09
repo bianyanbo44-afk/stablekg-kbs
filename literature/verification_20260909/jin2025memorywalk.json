@@ -1,0 +1,819 @@
+{
+  "key": "jin2025memorywalk",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.neucom.2025.129759",
+  "retrieved_utc": "2026-09-09T03:16:53.631517+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            26
+          ]
+        ],
+        "date-time": "2026-08-26T07:20:15Z",
+        "timestamp": 1787728815345,
+        "version": "build-2784847793"
+      },
+      "reference-count": 57,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2025-06-01T00:00:00Z",
+            "timestamp": 1748736000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2025-06-01T00:00:00Z",
+            "timestamp": 1748736000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2025-06-01T00:00:00Z",
+            "timestamp": 1748736000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2025-06-01T00:00:00Z",
+            "timestamp": 1748736000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2025-06-01T00:00:00Z",
+            "timestamp": 1748736000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2025-06-01T00:00:00Z",
+            "timestamp": 1748736000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2025-06-01T00:00:00Z",
+            "timestamp": 1748736000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "52171337"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "52171337"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "52471364"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "52471364"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Neurocomputing"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.neucom.2025.129759",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            22
+          ]
+        ],
+        "date-time": "2025-02-22T06:57:33Z",
+        "timestamp": 1740207453000
+      },
+      "page": "129759",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "special_numbering": "C",
+      "title": [
+        "Memory-based walk-enhanced dynamic graph neural network for temporal graph representation learning"
+      ],
+      "prefix": "10.1016",
+      "volume": "633",
+      "author": [
+        {
+          "given": "Zhigang",
+          "family": "Jin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Renjun",
+          "family": "Su",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hao",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaofang",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib1",
+          "first-page": "2628",
+          "article-title": "APAN: asynchronous propagation attention network for real-time temporal graph embedding",
+          "author": "Wang",
+          "year": "2021",
+          "journal-title": "Proc. 2021 Int. Conf. Manag. Data"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib2",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2023.120810",
+          "article-title": "Semantic-guided graph neural network for heterogeneous graph embedding",
+          "volume": "232",
+          "author": "Han",
+          "year": "2023",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib3",
+          "first-page": "1",
+          "article-title": "Status-aware signed heterogeneous network embedding with graph neural networks",
+          "author": "Lin",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib4",
+          "doi-asserted-by": "crossref",
+          "first-page": "276",
+          "DOI": "10.1016/j.neucom.2021.10.001",
+          "article-title": "Heterogeneous graph embedding by aggregating meta-path and meta-structure through attention mechanism",
+          "volume": "468",
+          "author": "Mei",
+          "year": "2022",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib5",
+          "series-title": "Proc. 27th ACM SIGKDD Conf. Knowl. Discov. Data Min.",
+          "first-page": "1975",
+          "article-title": "Discrete-time Temporal Network Embedding via Implicit Hierarchical Learning in Hyperbolic Space",
+          "author": "Yang",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib6",
+          "unstructured": "X. Li, J. Saude, P. Reddy, M. Veloso, Classifying and Understanding Financial Data Using Graph Neural Network, in: The AAAI-20 workshop on knowledge discovery from unstructured data in financial services. https://aaai-kdf2020.github.io/assets/pdfs/kdf2020_paper_21.pdf."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib7",
+          "series-title": "Proc. 28th ACM SIGKDD Conf. Knowl. Discov. Data Min.",
+          "first-page": "2009",
+          "article-title": "Disentangled Dynamic Heterogeneous Graph Learning for Opioid Overdose Prediction",
+          "author": "Wen",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "I. King, Eluer H.Huang, Detecting Network Lateral Movement via Scalable Temporal Link PredictionACM Transactions on Privacy and Security(2023). https://doi.org/10.1145/3588771.",
+          "DOI": "10.14722/ndss.2022.24107"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib9",
+          "first-page": "82",
+          "article-title": "Instant representation learning for recommendation over large dynamic graphs",
+          "volume": "2023",
+          "author": "Wu",
+          "year": "2023",
+          "journal-title": "IEEE 39th Int. Conf. Data Eng. ICDE"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Li, C. Zhang, C. Zhang, Heterogeneous Temporal Graph Neural Network Explainer, in: Proc. 32nd ACM Int. Conf. Inf. Knowl. Manag., Association for Computing Machinery, New York, NY, USA, 2023: pp. 1298–1307. https://doi.org/10.1145/3583780.3614909.",
+          "DOI": "10.1145/3583780.3614909"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "C. Yang, J. Tang, M. Sun, G. Cui, Z. Liu, Multi-scale Information Diffusion Prediction with Reinforced Recurrent Networks, in: Proc. Twenty-Eighth Int. Jt. Conf. Artif. Intell., International Joint Conferences on Artificial Intelligence Organization, Macao, China, 2019: pp. 4033–4039. https://doi.org/10.24963/ijcai.2019/560.",
+          "DOI": "10.24963/ijcai.2019/560"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib12",
+          "doi-asserted-by": "crossref",
+          "first-page": "97",
+          "DOI": "10.1016/j.physrep.2012.03.001",
+          "article-title": "Temporal networks",
+          "volume": "519",
+          "author": "Holme",
+          "year": "2012",
+          "journal-title": "Phys. Rep."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib13",
+          "doi-asserted-by": "crossref",
+          "first-page": "98",
+          "DOI": "10.1007/s41019-023-00207-w",
+          "article-title": "Memory-enhanced transformer for representation learning on temporal heterogeneous graphs",
+          "volume": "8",
+          "author": "Li",
+          "year": "2023",
+          "journal-title": "Data Sci. Eng."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib14",
+          "author": "Rossi",
+          "year": "2020",
+          "journal-title": "Tempo Graph Netw. Deep Learn. Dyn. Graphs"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Y. Lu, X. Wang, C. Shi, P.S. Yu, Y. Ye, Temporal Network Embedding with Micro- and Macro-dynamics, in: Proc. 28TH ACM Int. Conf. Inf. Knowl. Manag. CIKM 19, Assoc Computing Machinery, New York, 2019: pp. 469–478. https://doi.org/10.1145/3357384.3357943.",
+          "DOI": "10.1145/3357384.3357943"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib16",
+          "series-title": "World Wide Web Conf",
+          "first-page": "2022",
+          "article-title": "Heterogeneous Graph Attention Network",
+          "author": "Wang",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib17",
+          "series-title": "Proc. Web Conf. 2020",
+          "first-page": "2704",
+          "article-title": "Heterogeneous Graph Transformer",
+          "author": "Hu",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib18",
+          "author": "Fu",
+          "year": "2022",
+          "journal-title": "MECCH: Metapath Context Convolution-Based Heterog. Graph Neural Netw."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib19",
+          "author": "Pareja",
+          "year": "2019",
+          "journal-title": "EvolveGCN: Evol. Graph Convolutional Netw. Dyn. Graphs"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib20",
+          "author": "You",
+          "year": "2022",
+          "journal-title": "ROLAND: Graph Learn. Framew. Dyn. Graphs"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib21",
+          "author": "Sankar",
+          "year": "2019",
+          "journal-title": "Dyn. Graph Represent. Learn. via Self-Atten. Netw."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Kumar, X. Zhang, J. Leskovec, Predicting Dynamic Embedding Trajectory in Temporal Interaction Networks, in: Proc. 25th ACM SIGKDD Int. Conf. Knowl. Discov. Data Min., 2019: pp. 1269–1278. https://doi.org/10.1145/3292500.3330895.",
+          "DOI": "10.1145/3292500.3330895"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib23",
+          "author": "Xu",
+          "year": "2020",
+          "journal-title": "Inductive Represent. Learn. Tempo Graphs"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib24",
+          "author": "Wang",
+          "year": "2022",
+          "journal-title": "Inductive Represent. Learn. Tempo Netw. via Causal Anon. Walks"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib25",
+          "author": "Luo",
+          "year": "2022",
+          "journal-title": "Neighborhood-Aware. Scalable Tempo Netw. Represent. Learn."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "B. Perozzi, R. Al-Rfou, S. Skiena, DeepWalk: Online Learning of Social Representations, in: Proc. 20th ACM SIGKDD Int. Conf. Knowl. Discov. Data Min., 2014: pp. 701–710. https://doi.org/10.1145/2623330.2623732.",
+          "DOI": "10.1145/2623330.2623732"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Grover, J. Leskovec, node2vec: Scalable Feature Learning for Networks, in: Proc. 22nd ACM SIGKDD Int. Conf. Knowl. Discov. Data Min., ACM, San Francisco California USA, 2016: pp. 855–864. https://doi.org/10.1145/2939672.2939754.",
+          "DOI": "10.1145/2939672.2939754"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib28",
+          "doi-asserted-by": "crossref",
+          "first-page": "390",
+          "DOI": "10.1016/j.future.2023.07.038",
+          "article-title": "MIGTNet: Metapath Instance-based Graph Transformation Network for heterogeneous graph embedding",
+          "volume": "149",
+          "author": "Park",
+          "year": "2023",
+          "journal-title": "Future Gener. Comput. Syst."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib29",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2023.111119",
+          "article-title": "Metapath-guided multi-headed attention networks for trust prediction in heterogeneous social networks",
+          "volume": "282",
+          "author": "Xu",
+          "year": "2023",
+          "journal-title": "Knowl. -Based Syst."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib30",
+          "first-page": "6916",
+          "article-title": "Explicit Message-Passing Heterogeneous Graph Neural Network",
+          "volume": "35",
+          "author": "Xu",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Knowl. Data Eng."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib31",
+          "first-page": "4132",
+          "article-title": "An Attention-Based Graph Neural Network for Heterogeneous Structural Learning",
+          "volume": "34",
+          "author": "Hong",
+          "year": "2020",
+          "journal-title": "Proc. AAAI Conf. Artif. Intell."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib32",
+          "article-title": "Dynamic Graph Convolutional Networks",
+          "author": "Manessi",
+          "year": "2017",
+          "journal-title": "arXiv. Org."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib33",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.engappai.2024.108376",
+          "article-title": "TemporalHAN: Hierarchical attention-based heterogeneous temporal network embedding",
+          "volume": "133",
+          "author": "Mo",
+          "year": "2024",
+          "journal-title": "Eng. Appl. Artif. Intell."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib34",
+          "doi-asserted-by": "crossref",
+          "first-page": "47",
+          "DOI": "10.1016/j.neucom.2022.08.050",
+          "article-title": "DynHEN: A heterogeneous network model for dynamic bipartite graph representation learning",
+          "volume": "508",
+          "author": "Xing",
+          "year": "2022",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib35",
+          "author": "Zhou",
+          "year": "2023",
+          "journal-title": "HTNet: Dyn. WLAN Perform. Predict. Using Heterog. Tempo GNN"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib36",
+          "author": "Yuan",
+          "year": "2020",
+          "journal-title": "DyHGCN: A Dyn. Heterog. Graph Convolutional Netw. Learn Users’ Dyn. Prefer. Inf. Diffus. Predict."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib37",
+          "series-title": "Proc. 27th ACM SIGKDD Conf. Knowl. Discov. Data Min.",
+          "first-page": "2831",
+          "article-title": "Heterogeneous Temporal Graph Transformer: An Intelligent System for Evolving Android Malware Detection",
+          "author": "Fan",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib38",
+          "author": "Zheng",
+          "year": "2024",
+          "journal-title": "A Surv. Dyn. Graph Neural Netw."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H. Huang, R. Shi, W. Zhou, X. Wang, H. Jin, X. Fu, Temporal Heterogeneous Information Network Embedding, in: 2021: pp. 1470–1476. https://doi.org/10.24963/ijcai.2021/203.",
+          "DOI": "10.24963/ijcai.2021/203"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib40",
+          "doi-asserted-by": "crossref",
+          "first-page": "13031",
+          "DOI": "10.1109/TKDE.2023.3287260",
+          "article-title": "Temporal heterogeneous information network embedding via semantic evolution",
+          "volume": "35",
+          "author": "Zhou",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Knowl. Data Eng."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib41",
+          "author": "Frantzen",
+          "year": "2024",
+          "journal-title": "Learn. Simplicial Data Based Random Walks 1D Convolutions"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib42",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ins.2023.119596",
+          "article-title": "Learning continuous dynamic network representation with transformer-based temporal graph neural network",
+          "volume": "649",
+          "author": "Li",
+          "year": "2023",
+          "journal-title": "Inf. Sci."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib43",
+          "author": "Trivedi",
+          "year": "2018",
+          "journal-title": "Represent. Learn. Dyn. Graphs"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib44",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2023.120325",
+          "article-title": "Link prediction in heterogeneous networks based on metapath projection and aggregation",
+          "volume": "227",
+          "author": "Zhao",
+          "year": "2023",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib45",
+          "doi-asserted-by": "crossref",
+          "first-page": "1735",
+          "DOI": "10.1162/neco.1997.9.8.1735",
+          "article-title": "Long short-term memory",
+          "volume": "9",
+          "author": "Hochreiter",
+          "year": "1997",
+          "journal-title": "Neural Comput."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib46",
+          "author": "Cho",
+          "year": "2014",
+          "journal-title": "Learn. Phrase Represent. Using RNN Encoder-Decod. Stat. Mach. Transl."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib47",
+          "author": "Kazemi",
+          "year": "2020",
+          "journal-title": "Represent. Learn. Dyn. Graph. A Surv."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib48",
+          "author": "Bai",
+          "year": "2018",
+          "journal-title": "Empir. Eval. Generic Convolutional Recurr. Netw. Seq. Model."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib49",
+          "author": "van den Oord",
+          "year": "2016",
+          "journal-title": "Wave. A Gener. Model Raw Audio"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib50",
+          "doi-asserted-by": "crossref",
+          "first-page": "312",
+          "DOI": "10.3390/make1010019",
+          "article-title": "Causal discovery with attention-based convolutional neural networks",
+          "volume": "1",
+          "author": "Nauta",
+          "year": "2019",
+          "journal-title": "Mach. Learn. Knowl. Extr."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib51",
+          "author": "Mikolov",
+          "year": "2013",
+          "journal-title": "Distrib. Represent. Words Phrases their Compos."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib52",
+          "doi-asserted-by": "crossref",
+          "first-page": "46",
+          "DOI": "10.1016/j.neucom.2023.02.060",
+          "article-title": "Dynamic heterogeneous graph representation learning with neighborhood type modeling",
+          "volume": "533",
+          "author": "Zhang",
+          "year": "2023",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib53",
+          "doi-asserted-by": "crossref",
+          "first-page": "61",
+          "DOI": "10.1109/TNN.2008.2005605",
+          "article-title": "The Graph Neural Network Model",
+          "volume": "20",
+          "author": "Scarselli",
+          "year": "2009",
+          "journal-title": "IEEE Trans. Neural Netw."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib54",
+          "author": "Souza",
+          "year": "2022",
+          "journal-title": "Provably Express Tempo Graph Netw."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib55",
+          "author": "Trivedi",
+          "year": "2019",
+          "journal-title": "DYREP: Learn. REPRESENTATIONS Dyn. GRAPHS"
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib56",
+          "author": "Wang",
+          "year": "2021",
+          "journal-title": "Dyn. Graph Model. via Contrastive Learn."
+        },
+        {
+          "key": "10.1016/j.neucom.2025.129759_bib57",
+          "series-title": "Mach. Learn. Knowl. Discov. Databases Res. Track",
+          "first-page": "388",
+          "article-title": "Dynamic Heterogeneous Graph Embedding via Heterogeneous Hawkes Process",
+          "author": "Ji",
+          "year": "2021"
+        }
+      ],
+      "container-title": [
+        "Neurocomputing"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S092523122500431X?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S092523122500431X?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            30
+          ]
+        ],
+        "date-time": "2026-04-30T21:18:57Z",
+        "timestamp": 1777583937000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S092523122500431X"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      },
+      "references-count": 57,
+      "alternative-id": [
+        "S092523122500431X"
+      ],
+      "URL": "https://doi.org/10.1016/j.neucom.2025.129759",
+      "relation": {},
+      "ISSN": [
+        "0925-2312"
+      ],
+      "issn-type": [
+        {
+          "value": "0925-2312",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Memory-based walk-enhanced dynamic graph neural network for temporal graph representation learning",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Neurocomputing",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.neucom.2025.129759",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "129759"
+    }
+  }
+}

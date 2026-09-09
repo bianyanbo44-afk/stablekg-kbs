@@ -1,0 +1,22 @@
+{
+  "dataset": "GDELT",
+  "n_queries": 4981,
+  "certificate_q25": 0.5,
+  "certificate_q75": 0.6134853979451953,
+  "event_flip_rate": 0.3856655290102389,
+  "low_certificate_event_flip": 0.610034931724357,
+  "high_certificate_event_flip": 0.0,
+  "certificate_event_survival_spearman": 0.58807043511757,
+  "certificate_event_survival_p": 0.0,
+  "window_flip_rate": 0.6320016061031921,
+  "low_certificate_window_flip": 0.9996824388694824,
+  "high_certificate_window_flip": 0.0,
+  "certificate_window_survival_spearman": 0.959941257372822,
+  "certificate_window_survival_p": 0.0,
+  "counter_flip_rate": 0.4236097169243124,
+  "low_certificate_counter_flip": 0.6614798348682122,
+  "high_certificate_counter_flip": 0.012038523274478331,
+  "certificate_counter_survival_spearman": 0.6148191803505108,
+  "certificate_counter_survival_p": 0.0,
+  "winner_accuracy": 0.14113631800843204
+}

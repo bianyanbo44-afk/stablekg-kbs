@@ -1,0 +1,504 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.patcog.2025.111828",
+  "retrieved_utc": "2026-09-09T03:17:12.559361+00:00",
+  "response": {
+    "id": "https://openalex.org/W4414245456",
+    "doi": "https://doi.org/10.1016/j.patcog.2025.111828",
+    "title": "Global–local evolution modeling with cyclic patterns for temporal knowledge graph reasoning",
+    "display_name": "Global–local evolution modeling with cyclic patterns for temporal knowledge graph reasoning",
+    "publication_year": 2025,
+    "publication_date": "2025-09-16",
+    "ids": {
+      "openalex": "https://openalex.org/W4414245456",
+      "doi": "https://doi.org/10.1016/j.patcog.2025.111828"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.patcog.2025.111828",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.patcog.2025.111828",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S414566",
+        "display_name": "Pattern Recognition",
+        "issn_l": "0031-3203",
+        "issn": [
+          "0031-3203",
+          "1873-5142"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Pattern Recognition",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5069980045",
+          "display_name": "Xiaojun Bi",
+          "orcid": "https://orcid.org/0000-0002-5382-1000"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I145897649",
+            "display_name": "Minzu University of China",
+            "ror": "https://ror.org/0044e2g62",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I145897649"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Xiaojun Bi",
+        "raw_affiliation_strings": [
+          "Key Laboratory of Ethnic Language Intelligent Analysis and Security Governance of MOE, Minzu University of China, Beijing, China",
+          "School of Information Engineering, Minzu University of China, Beijing 100081, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-5382-1000",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Key Laboratory of Ethnic Language Intelligent Analysis and Security Governance of MOE, Minzu University of China, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I145897649"
+            ]
+          },
+          {
+            "raw_affiliation_string": "School of Information Engineering, Minzu University of China, Beijing 100081, China",
+            "institution_ids": [
+              "https://openalex.org/I145897649"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5084744971",
+          "display_name": "Longfei Li",
+          "orcid": "https://orcid.org/0009-0007-2222-0230"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I145897649",
+            "display_name": "Minzu University of China",
+            "ror": "https://ror.org/0044e2g62",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I145897649"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Longfei Li",
+        "raw_affiliation_strings": [
+          "School of Chinese Ethnic Minority Languages and Literatures, Minzu University of China, Beijing 100081, China"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0007-2222-0230",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Chinese Ethnic Minority Languages and Literatures, Minzu University of China, Beijing 100081, China",
+            "institution_ids": [
+              "https://openalex.org/I145897649"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5069980045"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I145897649"
+    ],
+    "apc_list": {
+      "value": 2590,
+      "currency": "USD",
+      "value_usd": 2590
+    },
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.08578343,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "171",
+      "issue": null,
+      "first_page": "111828",
+      "last_page": "111828"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11273",
+      "display_name": "Advanced Graph Neural Networks",
+      "score": 0.9993000030517578,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11273",
+        "display_name": "Advanced Graph Neural Networks",
+        "score": 0.9993000030517578,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10028",
+        "display_name": "Topic Modeling",
+        "score": 0.9972000122070312,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12292",
+        "display_name": "Graph Theory and Algorithms",
+        "score": 0.9972000122070312,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/timestamp",
+        "display_name": "Timestamp",
+        "score": 0.6444000005722046
+      },
+      {
+        "id": "https://openalex.org/keywords/graph",
+        "display_name": "Graph",
+        "score": 0.5814999938011169
+      },
+      {
+        "id": "https://openalex.org/keywords/knowledge-graph",
+        "display_name": "Knowledge graph",
+        "score": 0.5199999809265137
+      },
+      {
+        "id": "https://openalex.org/keywords/extrapolation",
+        "display_name": "Extrapolation",
+        "score": 0.4625999927520752
+      },
+      {
+        "id": "https://openalex.org/keywords/recurrent-neural-network",
+        "display_name": "Recurrent neural network",
+        "score": 0.45500001311302185
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-neural-network",
+        "display_name": "Artificial neural network",
+        "score": 0.4311000108718872
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7562000155448914
+      },
+      {
+        "id": "https://openalex.org/C113954288",
+        "wikidata": "https://www.wikidata.org/wiki/Q186885",
+        "display_name": "Timestamp",
+        "level": 2,
+        "score": 0.6444000005722046
+      },
+      {
+        "id": "https://openalex.org/C132525143",
+        "wikidata": "https://www.wikidata.org/wiki/Q141488",
+        "display_name": "Graph",
+        "level": 2,
+        "score": 0.5814999938011169
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.5267999768257141
+      },
+      {
+        "id": "https://openalex.org/C2987255567",
+        "wikidata": "https://www.wikidata.org/wiki/Q33002955",
+        "display_name": "Knowledge graph",
+        "level": 2,
+        "score": 0.5199999809265137
+      },
+      {
+        "id": "https://openalex.org/C132459708",
+        "wikidata": "https://www.wikidata.org/wiki/Q744069",
+        "display_name": "Extrapolation",
+        "level": 2,
+        "score": 0.4625999927520752
+      },
+      {
+        "id": "https://openalex.org/C147168706",
+        "wikidata": "https://www.wikidata.org/wiki/Q1457734",
+        "display_name": "Recurrent neural network",
+        "level": 3,
+        "score": 0.45500001311302185
+      },
+      {
+        "id": "https://openalex.org/C50644808",
+        "wikidata": "https://www.wikidata.org/wiki/Q192776",
+        "display_name": "Artificial neural network",
+        "level": 2,
+        "score": 0.4311000108718872
+      },
+      {
+        "id": "https://openalex.org/C197914299",
+        "wikidata": "https://www.wikidata.org/wiki/Q18650",
+        "display_name": "Semantic memory",
+        "level": 3,
+        "score": 0.3865000009536743
+      },
+      {
+        "id": "https://openalex.org/C80444323",
+        "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+        "display_name": "Theoretical computer science",
+        "level": 1,
+        "score": 0.3783000111579895
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.362199991941452
+      },
+      {
+        "id": "https://openalex.org/C184337299",
+        "wikidata": "https://www.wikidata.org/wiki/Q1437428",
+        "display_name": "Semantics (computer science)",
+        "level": 2,
+        "score": 0.2906000018119812
+      },
+      {
+        "id": "https://openalex.org/C2778112365",
+        "wikidata": "https://www.wikidata.org/wiki/Q3511065",
+        "display_name": "Sequence (biology)",
+        "level": 2,
+        "score": 0.2687999904155731
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.2687000036239624
+      },
+      {
+        "id": "https://openalex.org/C77277458",
+        "wikidata": "https://www.wikidata.org/wiki/Q1969246",
+        "display_name": "Temporal database",
+        "level": 2,
+        "score": 0.2603999972343445
+      },
+      {
+        "id": "https://openalex.org/C153180895",
+        "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+        "display_name": "Pattern recognition (psychology)",
+        "level": 2,
+        "score": 0.2563000023365021
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.patcog.2025.111828",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.patcog.2025.111828",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S414566",
+          "display_name": "Pattern Recognition",
+          "issn_l": "0031-3203",
+          "issn": [
+            "0031-3203",
+            "1873-5142"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Pattern Recognition",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G1681167796",
+        "display_name": null,
+        "funder_award_id": "62236011",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G840016979",
+        "display_name": null,
+        "funder_award_id": "20&ZD279",
+        "funder_id": "https://openalex.org/F4320335869",
+        "funder_display_name": "National Social Science Fund of China"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320335869",
+        "display_name": "National Social Science Fund of China",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 30,
+    "referenced_works": [
+      "https://openalex.org/W1533230146",
+      "https://openalex.org/W1924770834",
+      "https://openalex.org/W2053649033",
+      "https://openalex.org/W2728059831",
+      "https://openalex.org/W2792839191",
+      "https://openalex.org/W2889782235",
+      "https://openalex.org/W3080649566",
+      "https://openalex.org/W3081189998",
+      "https://openalex.org/W3097986917",
+      "https://openalex.org/W3098087397",
+      "https://openalex.org/W3156393901",
+      "https://openalex.org/W3174368915",
+      "https://openalex.org/W3182741322",
+      "https://openalex.org/W3187578449",
+      "https://openalex.org/W3196669501",
+      "https://openalex.org/W3211666987",
+      "https://openalex.org/W4248054079",
+      "https://openalex.org/W4283793506",
+      "https://openalex.org/W4285378361",
+      "https://openalex.org/W4306317334",
+      "https://openalex.org/W4323670020",
+      "https://openalex.org/W4360999272",
+      "https://openalex.org/W4367047514",
+      "https://openalex.org/W4382239895",
+      "https://openalex.org/W4384659456",
+      "https://openalex.org/W4391425775",
+      "https://openalex.org/W4398765413",
+      "https://openalex.org/W4400076876",
+      "https://openalex.org/W4400111732",
+      "https://openalex.org/W4401044252"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": null,
+    "counts_by_year": [],
+    "updated_date": "2026-08-21T09:56:20.448147",
+    "created_date": "2025-10-10T00:00:00"
+  }
+}

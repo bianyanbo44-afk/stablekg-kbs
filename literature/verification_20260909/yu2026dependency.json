@@ -1,0 +1,655 @@
+{
+  "key": "yu2026dependency",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.engappai.2026.114845",
+  "retrieved_utc": "2026-09-09T03:16:58.956478+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            18
+          ]
+        ],
+        "date-time": "2026-05-18T12:18:31Z",
+        "timestamp": 1779106711694,
+        "version": "3.51.4"
+      },
+      "reference-count": 35,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2026-08-01T00:00:00Z",
+            "timestamp": 1785542400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62233018"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62233018"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62136002"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62136002"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62221005"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62221005"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Engineering Applications of Artificial Intelligence"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            8
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.engappai.2026.114845",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            19
+          ]
+        ],
+        "date-time": "2026-04-19T06:10:23Z",
+        "timestamp": 1776579023000
+      },
+      "page": "114845",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "special_numbering": "P1",
+      "title": [
+        "Exploring semantic dependency for reasoning over temporal knowledge graph"
+      ],
+      "prefix": "10.1016",
+      "volume": "177",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-0667-8413",
+          "authenticated-orcid": false,
+          "given": "Hong",
+          "family": "Yu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Meiqi",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ronghua",
+          "family": "Tian",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2060-6574",
+          "authenticated-orcid": false,
+          "given": "Yongfang",
+          "family": "Xie",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.engappai.2026.114845_b1",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2025.113257",
+          "article-title": "Question answering over temporal knowledge graphs based on time sensitive graph neural network",
+          "volume": "177",
+          "author": "Bai",
+          "year": "2025",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b2",
+          "unstructured": "Bordes, A., Usunier, N., García-Durán, A., Weston, J., Yakhnenko, O., 2013. Translating embeddings for modeling multi-relational data. In: Proceedings of the 27th Annual Conference on Neural Information Processing Systems. Lake Tahoe, Nevada, United States, pp. 2787–2795."
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b3",
+          "unstructured": "Chen, Q., Zhang, J., Chen, L., 2026. Beyond Entity Correlations: Disentangling Event Causal Puzzles in Temporal Knowledge Graphs. In: Proceedings of the 14th International Conference on Learning Representations. Rio de Janeiro, Brazil, pp. 1–19, URL https://openreview.net/forum?id=RdoXks7VmJ."
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b4",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2025.113358",
+          "article-title": "HGCT: Enhancing temporal knowledge graph reasoning through extrapolated historical fact extraction",
+          "volume": "316",
+          "author": "Dao",
+          "year": "2025",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Deng, S., Rangwala, H., Ning, Y., 2020. Dynamic knowledge graph based multi-event forecasting. In: Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining. pp. 1585–1595.",
+          "DOI": "10.1145/3394486.3403209"
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b6",
+          "unstructured": "Du, Y., Liu, X., Liang, W., Zong, L., Zhang, X., 2025. Hawkes based Representation Learning for Reasoning over Scale-free Community-structured Temporal Knowledge Graphs. In: Proceedings of the 31st International Conference on Computational Linguistics. Abu Dhabi, UAE, pp. 2935–2946."
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b7",
+          "unstructured": "Ermolov, A., Siarohin, A., Sangineto, E., Sebe, N., 2021. Whitening for self-supervised representation learning. In: Proceedings of the 38th International Conference on Machine Learning, vol. 139, Online, pp. 3015–3024."
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Giraldo, J.H., Skianis, K., Bouwmans, T., Malliaros, F.D., 2023. On the trade-off between over-smoothing and over-squashing in deep graph neural networks. In: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management. Birmingham, United Kingdom, pp. 566–576.",
+          "DOI": "10.1145/3583780.3614997"
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b9",
+          "unstructured": "Guo, J., Zhao, M., Zhang, W., Xu, T., Xu, L., Yu, J., Yu, M., Yu, R., 2025. TeDS: Joint Learning of Diachronic and Synchronic Perspectives in Quaternion Space for Temporal Knowledge Graph Completion. In: Proceedings of the 42nd International Conference on Machine Learning. Vancouver, Canada, pp. 21232–21251."
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b10",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2024.112280",
+          "article-title": "Temporal knowledge graph reasoning based on relation graphs and time-guided attention mechanism",
+          "volume": "301",
+          "author": "Hu",
+          "year": "2024",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jiang, T., Liu, T., Ge, T., Sha, L., Li, S., Chang, B., Sui, Z., 2016. Encoding temporal information for time-aware link prediction. In: Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing. Austin, Texas, USA, pp. 2350–2354.",
+          "DOI": "10.18653/v1/D16-1260"
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jin, W., Qu, M., Jin, X., Ren, X., 2020. Recurrent event network: autoregressive structure inferenceover temporal knowledge graphs. In: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing. Online, pp. 6669–6683.",
+          "DOI": "10.18653/v1/2020.emnlp-main.541"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.engappai.2026.114845_b13",
+          "doi-asserted-by": "crossref",
+          "first-page": "59:1",
+          "DOI": "10.1145/3627158",
+          "article-title": "Contrastive self-supervised learning in recommender systems: a survey",
+          "volume": "42",
+          "author": "Jing",
+          "year": "2024",
+          "journal-title": "ACM Trans. Inf. Syst."
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b14",
+          "unstructured": "Kazemi, S.M., Poole, D., 2018. SimplE embedding for link prediction in knowledge graphs. In: Proceedings of the 32nd Conference on Neural Information Processing Systems. Montréal, Canada, pp. 4289–4300."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.engappai.2026.114845_b15",
+          "doi-asserted-by": "crossref",
+          "first-page": "sqae099",
+          "DOI": "10.1093/isq/sqae099",
+          "article-title": "Network context and the effectiveness of international agreements",
+          "volume": "68",
+          "author": "Kinne",
+          "year": "2024",
+          "journal-title": "Int. Stud. Q."
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b16",
+          "series-title": "ICEWS Event Aggregations",
+          "author": "Lautenschlager",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, Z., Jin, X., Li, W., Guan, S., Guo, J., Shen, H., Wang, Y., Cheng, X., 2021. Temporal knowledge graph reasoning based on evolutional representation learning. In: Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval. Online, pp. 408–417.",
+          "DOI": "10.1145/3404835.3462963"
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, Y., Sun, S., Zhao, J., 2022. TiRGN: time-guided recurrent graph network with local-global historical patterns for temporal knowledge graph reasoning. In: Proceedings of the 31st International Joint Conference on Artificial Intelligence. Vienna, Austria, pp. 2152–2158.",
+          "DOI": "10.24963/ijcai.2022/299"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.engappai.2026.114845_b19",
+          "doi-asserted-by": "crossref",
+          "first-page": "226",
+          "DOI": "10.1109/TKDE.2023.3282989",
+          "article-title": "Knowledge graph contrastive learning based on relation-symmetrical structure",
+          "volume": "36",
+          "author": "Liang",
+          "year": "2024",
+          "journal-title": "IEEE Trans. Knowl. Data Eng."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.engappai.2026.114845_b20",
+          "doi-asserted-by": "crossref",
+          "first-page": "11561",
+          "DOI": "10.1109/TPAMI.2025.3596609",
+          "article-title": "Deep temporal graph clustering: A comprehensive benchmark and datasetsy",
+          "volume": "47",
+          "author": "Liu",
+          "year": "2025",
+          "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b21",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.inffus.2025.103127",
+          "article-title": "Rethinking multi-level information fusion in temporal graphs: Pre-training then distilling for better embedding",
+          "volume": "121",
+          "author": "Liu",
+          "year": "2025",
+          "journal-title": "Inf. Fusion"
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu, Y., Ma, Y., Hildebrandt, M., Joblin, M., Tresp, V., 2022. TLogic: Temporal Logical Rules for Explainable Link Forecasting on Temporal Knowledge Graphs. In: Proceedings of the AAAI Conference on Artificial Intelligence. Online, pp. 4120–412.",
+          "DOI": "10.1609/aaai.v36i4.20330"
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu, K., Zhao, F., Xu, G., Wang, X., Jin, H., 2023. RETIA: relation-entity twin-interact aggregation for temporal knowledge graph extrapolation. In: Proceedings of the 39th IEEE International Conference on Data Engineering. Anaheim, CA, USA, pp. 1761–1774.",
+          "DOI": "10.1109/ICDE55515.2023.00138"
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Park, N., Liu, F., Mehta, P., Cristofor, D., Faloutsos, C., Dong, Y., 2022. EvoKG: jointly modeling event time and network structure for reasoning over temporal knowledge graphs. In: Proceedings of the 15th ACM International Conference on Web Search and Data Mining. Online, pp. 794–803.",
+          "DOI": "10.1145/3488560.3498451"
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sadeghian, A., Armandpour, M., Colas, A.M., Wang, D.Z., 2021. ChronoR: Rotation Based Temporal Knowledge Graph Embedding. In: Proceedings of the 35th AAAI Conference on Artificial Intelligence. pp. 6471–6479.",
+          "DOI": "10.1609/aaai.v35i7.16802"
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schlichtkrull, M., Kipf, T.N., Bloem, P., Van Den Berg, R., Titov, I., Welling, M., 2018. Modeling relational data with graph convolutional networks. In: Proceedings of the 15th European Semantic Web Conference. Heraklion, Crete, Greece, pp. 593–607.",
+          "DOI": "10.1007/978-3-319-93417-4_38"
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b27",
+          "unstructured": "Teru, K.K., Denis, E.G., Hamilton, W.L., 2020. Inductive Relation Prediction by Subgraph Reasoning. In: Proceedings of the 37th International Conference on Machine Learning. 119, Online, pp. 9448–9457."
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b28",
+          "unstructured": "Thakoor, S., Tallec, C., Azar, M.G., Azabou, M., Dyer, E.L., Munos, R., Velickovic, P., Valko, M., 2022. Large-scale representation learning on graphs via bootstrapping. In: Proceedings of the 10th International Conference on Learning Representations. Online, pp. 1–21."
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xu, Y., Ou, J., Xu, H., Fu, L., 2023. Temporal knowledge graph reasoning with historical contrastive learning. In: Proceedings of the 37th AAAI Conference on Artificial Intelligence. Washington, DC, USA, pp. 4765–4773.",
+          "DOI": "10.1609/aaai.v37i4.25601"
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b30",
+          "unstructured": "Yang, B., Yih, W., He, X., Gao, J., Deng, L., 2015. Embedding entities and relations for learning and inference in knowledge bases. In: Proceedings of the 3rd International Conference on Learning Representations. San Diego, CA, USA, pp. 1–12."
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b31",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2023.121267",
+          "article-title": "Tensor decompositions for temporal knowledge graph completion with time perspective",
+          "volume": "237",
+          "author": "Yang",
+          "year": "2024",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, Z., Chen, W., Lin, Y., Wan, H., 2025. A Generative Adaptive Replay Continual Learning Model for Temporal Knowledge Graph Reasoning. In: Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics. Vienna, Austria, pp. 10964–10977.",
+          "DOI": "10.18653/v1/2025.acl-long.537"
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b33",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2024.124561",
+          "article-title": "Learning multi-graph structure for temporal knowledge graph reasoning",
+          "volume": "255",
+          "author": "Zhang",
+          "year": "2024",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.engappai.2026.114845_b34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, M., Xia, Y., Liu, Q., Wu, S., Wang, L., 2023. Learning long- and short-term representations for temporal knowledge graph reasoning. In: Proceedings of the ACM Web Conference 2023. Austin, TX, USA, pp. 2412–2422.",
+          "DOI": "10.1145/3543507.3583242"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.engappai.2026.114845_b35",
+          "doi-asserted-by": "crossref",
+          "first-page": "2233",
+          "DOI": "10.1109/JBHI.2024.3503061",
+          "article-title": "Intradialytic hypotension frequency prediction using generalizable neighborhood reasoning on temporal patient knowledge graph",
+          "volume": "29",
+          "author": "Zhou",
+          "year": "2025",
+          "journal-title": "IEEE J. Biomed. Health Inform."
+        }
+      ],
+      "container-title": [
+        "Engineering Applications of Artificial Intelligence"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0952197626011279?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0952197626011279?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            18
+          ]
+        ],
+        "date-time": "2026-05-18T11:59:37Z",
+        "timestamp": 1779105577000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0952197626011279"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            8
+          ]
+        ]
+      },
+      "references-count": 35,
+      "alternative-id": [
+        "S0952197626011279"
+      ],
+      "URL": "https://doi.org/10.1016/j.engappai.2026.114845",
+      "relation": {},
+      "ISSN": [
+        "0952-1976"
+      ],
+      "issn-type": [
+        {
+          "value": "0952-1976",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            8
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Exploring semantic dependency for reasoning over temporal knowledge graph",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Engineering Applications of Artificial Intelligence",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.engappai.2026.114845",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2026 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "114845"
+    }
+  }
+}

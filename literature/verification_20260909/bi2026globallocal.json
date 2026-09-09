@@ -1,0 +1,617 @@
+{
+  "key": "bi2026globallocal",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.patcog.2025.111828",
+  "retrieved_utc": "2026-09-09T03:16:57.981067+00:00",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            27
+          ]
+        ],
+        "date-time": "2026-04-27T05:33:35Z",
+        "timestamp": 1777268015487,
+        "version": "3.51.4"
+      },
+      "reference-count": 35,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2026-03-01T00:00:00Z",
+            "timestamp": 1772323200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2026-03-01T00:00:00Z",
+            "timestamp": 1772323200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2026-03-01T00:00:00Z",
+            "timestamp": 1772323200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2026-03-01T00:00:00Z",
+            "timestamp": 1772323200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2026-03-01T00:00:00Z",
+            "timestamp": 1772323200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2026-03-01T00:00:00Z",
+            "timestamp": 1772323200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2026-03-01T00:00:00Z",
+            "timestamp": 1772323200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Natioinal Social Science Foundation of China"
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62236011"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62236011"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100012456",
+          "name": "National Social Science Fund of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "20&ZD279"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "20&ZD279"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100012456",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Pattern Recognition"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            3
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.patcog.2025.111828",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            16
+          ]
+        ],
+        "date-time": "2025-09-16T10:51:55Z",
+        "timestamp": 1758019915000
+      },
+      "page": "111828",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "special_numbering": "PA",
+      "title": [
+        "Global–local evolution modeling with cyclic patterns for temporal knowledge graph reasoning"
+      ],
+      "prefix": "10.1016",
+      "volume": "171",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5382-1000",
+          "authenticated-orcid": false,
+          "given": "Xiaojun",
+          "family": "Bi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-2222-0230",
+          "authenticated-orcid": false,
+          "given": "Longfei",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.patcog.2025.111828_b1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Deng, H. Rangwala, Y. Ning, Dynamic knowledge graph based multi-event forecasting, in: Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, 2020, pp. 1585–1595.",
+          "DOI": "10.1145/3394486.3403209"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.patcog.2025.111828_b2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1145/3443687",
+          "article-title": "Tpmod: A tendency-guided prediction model for temporal knowledge graph completion",
+          "volume": "15",
+          "author": "Bai",
+          "year": "2021",
+          "journal-title": "ACM Trans. Knowl. Discov. from Data"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "P. Wang, K. Liu, L. Jiang, X. Li, Y. Fu, Incremental mobile user profiling: Reinforcement learning with spatial knowledge graph for modeling event streams, in: Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, 2020, pp. 853–861.",
+          "DOI": "10.1145/3394486.3403128"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "C. Mavromatis, P.L. Subramanyam, V.N. Ioannidis, A. Adeshina, P.R. Howard, T. Grinberg, N. Hakim, G. Karypis, Tempoqr: temporal question reasoning over knowledge graphs, in: Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 36, 2022, pp. 5825–5833.",
+          "DOI": "10.1609/aaai.v36i5.20526"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H. Wang, F. Zhang, J. Wang, M. Zhao, W. Li, X. Xie, M. Guo, Ripplenet: Propagating user preferences on the knowledge graph for recommender systems, in: Proceedings of the 27th ACM International Conference on Information and Knowledge Management, 2018, pp. 417–426.",
+          "DOI": "10.1145/3269206.3271739"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "L. Wang, E.-P. Lim, Z. Liu, T. Zhao, Explanation guided contrastive learning for sequential recommendation, in: Proceedings of the 31st ACM International Conference on Information & Knowledge Management, 2022, pp. 2017–2027.",
+          "DOI": "10.1145/3511808.3557317"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b7",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TPAMI.2024.3417451",
+          "article-title": "A survey of knowledge graph reasoning on graph types: Static, dynamic, and multi-modal",
+          "author": "Liang",
+          "year": "2024",
+          "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b8",
+          "series-title": "The Idea of Historical Recurrence in Western Thought: from Antiquity to the Reformation",
+          "author": "Trompf",
+          "year": "1979"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b9",
+          "series-title": "The Cycles of American History",
+          "author": "Schlesinger",
+          "year": "1999"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b10",
+          "series-title": "Recurrent event network: Autoregressive structure inference over temporal knowledge graphs",
+          "author": "Jin",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Z. Li, X. Jin, W. Li, S. Guan, J. Guo, H. Shen, Y. Wang, X. Cheng, Temporal knowledge graph reasoning based on evolutional representation learning, in: Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval, 2021, pp. 408–417.",
+          "DOI": "10.1145/3404835.3462963"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "K. Liang, L. Meng, M. Liu, Y. Liu, W. Tu, S. Wang, S. Zhou, X. Liu, Learn from relational correlations and periodic events for temporal knowledge graph reasoning, in: Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval, 2023, pp. 1559–1568.",
+          "DOI": "10.1145/3539618.3591711"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b13",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2024.124561",
+          "article-title": "Learning multi-graph structure for temporal knowledge graph reasoning",
+          "volume": "255",
+          "author": "Zhang",
+          "year": "2024",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b14",
+          "series-title": "Search from history and reason for future: Two-stage reasoning on temporal knowledge graphs",
+          "author": "Li",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b15",
+          "series-title": "Timetraveler: Reinforcement learning for temporal knowledge graph forecasting",
+          "author": "Sun",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b16",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2023.119804",
+          "article-title": "Multi-hop temporal knowledge graph reasoning with temporal path rules guidance",
+          "volume": "223",
+          "author": "Bai",
+          "year": "2023",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b17",
+          "series-title": "International Conference on Machine Learning",
+          "first-page": "3462",
+          "article-title": "Know-evolve: Deep temporal reasoning for dynamic knowledge graphs",
+          "author": "Trivedi",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b18",
+          "unstructured": "Z. Han, P. Chen, Y. Ma, V. Tresp, Explainable subgraph reasoning for forecasting on temporal knowledge graphs, in: International Conference on Learning Representations, 2020."
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "C. Zhu, M. Chen, C. Fan, G. Cheng, Y. Zhang, Learning from history: Modeling temporal knowledge graphs with sequential copy-generation networks, in: Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 35, 2021, pp. 4732–4740.",
+          "DOI": "10.1609/aaai.v35i5.16604"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Z. Han, Z. Ding, Y. Ma, Y. Gu, V. Tresp, Learning neural ordinary equations for forecasting future links on temporal knowledge graphs, in: Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, 2021, pp. 8352–8364.",
+          "DOI": "10.18653/v1/2021.emnlp-main.658"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b21",
+          "series-title": "Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, IJCAI 2022, Vienna, Austria, 23-29 July 2022",
+          "first-page": "2152",
+          "article-title": "Tirgn: time-guided recurrent graph network with local-global historical patterns for temporal knowledge graph reasoning",
+          "author": "Li",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Zhang, Y. Xia, Q. Liu, S. Wu, L. Wang, Learning Long-and Short-term Representations for Temporal Knowledge Graph Reasoning, in: Proceedings of the ACM Web Conference 2023, 2023, pp. 2412–2422.",
+          "DOI": "10.1145/3543507.3583242"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Y. Xu, J. Ou, H. Xu, L. Fu, Temporal knowledge graph reasoning with historical contrastive learning, in: Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 37, 2023, pp. 4765–4773.",
+          "DOI": "10.1609/aaai.v37i4.25601"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b24",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.patcog.2024.110629",
+          "article-title": "MetaTKG++: Learning evolving factor enhanced meta-knowledge for temporal knowledge graph reasoning",
+          "author": "Xia",
+          "year": "2024",
+          "journal-title": "Pattern Recognit."
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b25",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2023.110514",
+          "article-title": "RLAT: Multi-hop temporal knowledge graph reasoning based on reinforcement learning and attention mechanism",
+          "volume": "269",
+          "author": "Bai",
+          "year": "2023",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b26",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.artint.2024.104085",
+          "article-title": "Temporal inductive path neural network for temporal knowledge graph reasoning",
+          "volume": "329",
+          "author": "Dong",
+          "year": "2024",
+          "journal-title": "Artificial Intelligence"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b27",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2024.112280",
+          "article-title": "Temporal knowledge graph reasoning based on relation graphs and time-guided attention mechanism",
+          "volume": "301",
+          "author": "Hu",
+          "year": "2024",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b28",
+          "series-title": "The Semantic Web: 15th International Conference, ESWC 2018, Heraklion, Crete, Greece, June 3–7, 2018, Proceedings 15",
+          "first-page": "593",
+          "article-title": "Modeling relational data with graph convolutional networks",
+          "author": "Schlichtkrull",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b29",
+          "series-title": "Empirical evaluation of gated recurrent neural networks on sequence modeling",
+          "author": "Chung",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Q. Lv, M. Ding, Q. Liu, Y. Chen, W. Feng, S. He, C. Zhou, J. Jiang, Y. Dong, J. Tang, Are we really making much progress? revisiting, benchmarking and refining heterogeneous graph neural networks, in: Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining, 2021, pp. 1150–1160.",
+          "DOI": "10.1145/3447548.3467350"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b31",
+          "series-title": "Learning sequence encoders for temporal knowledge graph completion",
+          "author": "García-Durán",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b32",
+          "series-title": "ISA Annual Convention",
+          "first-page": "1",
+          "article-title": "Gdelt: Global data on events, location, and tone, 1979–2012",
+          "volume": "Vol. 2",
+          "author": "Leetaru",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b33",
+          "series-title": "Embedding entities and relations for learning and inference in knowledge bases",
+          "author": "Yang",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b34",
+          "series-title": "International Conference on Machine Learning",
+          "first-page": "2071",
+          "article-title": "Complex embeddings for simple link prediction",
+          "author": "Trouillon",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.patcog.2025.111828_b35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. Dettmers, P. Minervini, P. Stenetorp, S. Riedel, Convolutional 2d knowledge graph embeddings, in: Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 32, 2018.",
+          "DOI": "10.1609/aaai.v32i1.11573"
+        }
+      ],
+      "container-title": [
+        "Pattern Recognition"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0031320325004881?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0031320325004881?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            27
+          ]
+        ],
+        "date-time": "2026-04-27T04:36:10Z",
+        "timestamp": 1777264570000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0031320325004881"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            3
+          ]
+        ]
+      },
+      "references-count": 35,
+      "alternative-id": [
+        "S0031320325004881"
+      ],
+      "URL": "https://doi.org/10.1016/j.patcog.2025.111828",
+      "relation": {},
+      "ISSN": [
+        "0031-3203"
+      ],
+      "issn-type": [
+        {
+          "value": "0031-3203",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Global–local evolution modeling with cyclic patterns for temporal knowledge graph reasoning",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Pattern Recognition",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.patcog.2025.111828",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "111828"
+    }
+  }
+}

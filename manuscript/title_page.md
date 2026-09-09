@@ -6,7 +6,7 @@
 **Keywords:** temporal knowledge graph; selective prediction; uncertainty calibration; evidence stability; incremental reasoning; abstention
 
 **Author:** Yanbo Bian  
-**Affiliation:** Computer Science and Technology, Beijing Jiaotong University Weihai International College, Weihai, China  
+**Affiliation:** Department of Computer Science, Weihai International College, Beijing Jiaotong University, Weihai, China  
 **Corresponding author:** Yanbo Bian (`24722081@bjtu.edu.cn`)
 
 **CRediT contribution:** Yanbo Bian: Conceptualization, Methodology, Software, Data curation, Formal analysis, Validation, Visualization, Writing - original draft, Writing - review and editing.

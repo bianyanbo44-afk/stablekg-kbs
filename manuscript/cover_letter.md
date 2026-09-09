@@ -13,6 +13,6 @@ Thank you for considering this work.
 Sincerely,
 
 Yanbo Bian  
-Computer Science and Technology  
-Beijing Jiaotong University Weihai International College  
+Department of Computer Science  
+Weihai International College, Beijing Jiaotong University  
 24722081@bjtu.edu.cn

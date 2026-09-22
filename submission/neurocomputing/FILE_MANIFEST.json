@@ -1,4 +1,8 @@
 {
+  "Abstract.pdf": {
+    "bytes": 62874,
+    "sha256": "1f8ad4559ea5367a767417033db04daff6f90d4ebb90fb4dd50f7c30a9d81265"
+  },
   "Manuscript.pdf": {
     "bytes": 759450,
     "sha256": "d78b4805e00c53f03a730a50b5cac3ee712b57cd1cb664b28be0913280122e13"
@@ -9,7 +13,7 @@
   },
   "Manuscript_sources.zip": {
     "bytes": 524990,
-    "sha256": "63f74cfc9229fd336280b720368c5d25b9eed9f0ba2cb913c069531e7e8c682f"
+    "sha256": "634576f3e3cf47fde920618a6dc731bb4f01f679158aa1ef76cc58a23185bed3"
   },
   "Title_page.docx": {
     "bytes": 37072,
@@ -28,7 +32,7 @@
     "sha256": "f15a12548c4146e7cacd01a61350fcab52e101b690ec9ec09eabfb33d063c719"
   },
   "投稿文件说明.md": {
-    "bytes": 1577,
-    "sha256": "b50124de83bc9e31b3da298587bd829fd8f8dec90e1d91314bb64d6945b2003b"
+    "bytes": 1985,
+    "sha256": "18b15ec8e88e250068a2eed742d7a5021140c92450c2abef9ca52fdaf42645e3"
   }
 }

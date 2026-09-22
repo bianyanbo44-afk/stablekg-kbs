@@ -1,0 +1,71 @@
+[
+  {
+    "dataset": "ICEWS14",
+    "events": 72826,
+    "unique_events": 72826,
+    "n_entities": 7128,
+    "n_relations": 230,
+    "n_times": 365,
+    "validation_queries": 5000,
+    "validation_answers": 5058,
+    "validation_training_overlap": 0,
+    "validation_timestamps": 365,
+    "test_queries": 5000,
+    "test_answers": 5057,
+    "test_training_overlap": 0,
+    "test_timestamps": 365,
+    "cache_sha256": {
+      "train.npy": "991eb1d7b76c09b23be129ab7b6d7a1ecf1f42812bd0f71c8418cc06ae2804f0",
+      "panel.json": "e7dcf69b5de75b56e52bfe08318cf0e72b338fc630734f0aaf7dbef02f45d3e9"
+    },
+    "strict_panel_sha256": "4b788e9cbe5f31c1617b5e47cf9204ece3ead7f14fa43b603ff06dc2730e470a",
+    "truth_protocol": "Validation: training plus validation only. Test: complete published known truth.",
+    "validation_removed_test_only_answers": 119
+  },
+  {
+    "dataset": "ICEWS05-15",
+    "events": 368962,
+    "unique_events": 368962,
+    "n_entities": 10488,
+    "n_relations": 251,
+    "n_times": 4017,
+    "validation_queries": 5000,
+    "validation_answers": 5051,
+    "validation_training_overlap": 0,
+    "validation_timestamps": 2756,
+    "test_queries": 5000,
+    "test_answers": 5052,
+    "test_training_overlap": 0,
+    "test_timestamps": 2718,
+    "cache_sha256": {
+      "train.npy": "f59e3d5381ab9f6c91c82ace4d9db2d27b6786cec89c56269d44475788ba1674",
+      "panel.json": "99266a10347d8e4eb81ca4e4d7f99e15e807def3173259a6ba3b7f67e3c8a571"
+    },
+    "strict_panel_sha256": "5e051b29c69feab6f0321c003cd8f60d50b7138b2c29f4edbae558389d42105a",
+    "truth_protocol": "Validation: training plus validation only. Test: complete published known truth.",
+    "validation_removed_test_only_answers": 111
+  },
+  {
+    "dataset": "GDELT",
+    "events": 2308165,
+    "unique_events": 2308165,
+    "n_entities": 500,
+    "n_relations": 20,
+    "n_times": 366,
+    "validation_queries": 5000,
+    "validation_answers": 6048,
+    "validation_training_overlap": 1432,
+    "validation_timestamps": 366,
+    "test_queries": 5000,
+    "test_answers": 6051,
+    "test_training_overlap": 1454,
+    "test_timestamps": 366,
+    "cache_sha256": {
+      "train.npy": "5508f88f1f1bcb113d8e2c4455071e9d26592e3d1ce5e7e334494d0ec7c50045",
+      "panel.json": "2f7126b321d598c2b122b4eee023fe5c93e7aaa6cba3d04187e49afe91880307"
+    },
+    "strict_panel_sha256": "d5b174d317650b844de16c960371f67ae1ffd4390b03bae426f3ffb4576d3a8a",
+    "truth_protocol": "Validation: training plus validation only. Test: complete published known truth.",
+    "validation_removed_test_only_answers": 1180
+  }
+]

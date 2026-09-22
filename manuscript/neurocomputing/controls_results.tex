@@ -1,0 +1,18 @@
+\subsection{Exact certification resolves the cost of conservative and sampled checks}
+Exact certification recovered admissible answers that a conservative bound rejected (Fig.~\ref{fig:controls}a). Among queries with nonempty memory, its one-window certified coverage exceeded the winner-only bound by 2.45 and 12.09 percentage points for TeRDy on ICEWS14 and ICEWS05-15, and by 2.28 and 2.49 points for CTF. The largest difference arose on TeRDy/ICEWS05-15, where coverage increased from 80.39\% to 92.48\%. Accounting for the competitor's simultaneous evidence loss therefore makes the guarantee more useful without relaxing the deletion budget.
+
+Finite deletion probes had a different limitation (Fig.~\ref{fig:controls}b). On CTF/ICEWS05-15, 31.93\% of nonempty-memory queries that passed eight probes were vulnerable to another allowed deletion. Increasing the probe count to 32 and 64 reduced this fraction to 18.60\% and 11.35\%, respectively. At 64 probes, the corresponding fractions were 0\%, 0.67\% and 1.57\% for TeRDy/ICEWS14, TeRDy/ICEWS05-15 and CTF/ICEWS14. The exact certificate resolves this residual uncertainty by covering every allowed subset analytically.
+
+The prespecified weight sweep explains why the predictive operating point is selected separately from the deletion budget (Fig.~\ref{fig:controls}c,d). Greater memory weight increased CTF MRR over its neural-only value throughout the grid, while the strongest TeRDy performance occurred at smaller weights. Certified capacity decreased as memory acquired more influence in these measurements. The complete sweep, including $\lambda=0$, is reported in the supplement. A fixed-denominator calculation disagreed with the renormalized one-window certificate on 0.14--8.22\% of all queries, demonstrating that the edited-score definition also matters.
+
+Sparse competitor reduction made the exact calculation practical. Over the 32-query microbenchmark, including empty-memory queries, median paired dense-to-sparse runtime ratios were 4.63--11.75 across the four combinations. On nonempty histories they were 7.50--17.52. These timings compare a sparse implementation returning certificates, radius and witnesses with a dense implementation returning certificate indicators; all-query and nonempty-history timings are reported separately in the supplement. Together, the controls distinguish exact certification from both conservative abstention and finite intervention sampling.
+
+\begin{figure*}[tbp]
+\centering
+\includegraphics[width=\textwidth]{fig05_controls.pdf}
+\caption{\textbf{Analytical exactness and the evidence-weight trade-off.}
+\textbf{a,} Exact and conservative one-window certificate coverage among queries with nonempty memory.
+\textbf{b,} The fraction of predictions passing all sampled deletion probes that are vulnerable to the exact one-window adversary, for 8, 32 and 64 probes.
+\textbf{c,d,} Filtered MRR and one-window certified coverage over the prespecified evidence-weight grid. These controls use seed 0 of every backbone--dataset combination and all 5,000 test queries; temperature is held at its validation-selected value.}
+\label{fig:controls}
+\end{figure*}

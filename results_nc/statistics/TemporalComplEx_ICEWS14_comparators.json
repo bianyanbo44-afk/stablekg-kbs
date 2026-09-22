@@ -1,0 +1,17 @@
+[
+  {
+    "seed": 0,
+    "baseline": "Ensemble calibration",
+    "belief": "Certificate calibration"
+  },
+  {
+    "seed": 1,
+    "baseline": "Ensemble calibration",
+    "belief": "Certificate calibration"
+  },
+  {
+    "seed": 2,
+    "baseline": "Ensemble calibration",
+    "belief": "Certificate calibration"
+  }
+]

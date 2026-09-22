@@ -12,6 +12,7 @@ from datetime import date, timedelta
 from pathlib import Path
 from types import SimpleNamespace
 os.environ.setdefault('CUBLAS_WORKSPACE_CONFIG',':4096:8')
+os.environ['OPENBLAS_NUM_THREADS']='2'
 import numpy as np
 import pandas as pd
 import torch
@@ -21,7 +22,7 @@ from scipy.special import logsumexp
 from threadpoolctl import threadpool_limits
 import stability_benchmark as b
 from neural_backbone import evidence_for_candidate, filtered_rank
-from prepare_public_cache import load
+from prepare_nc_cache import load
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE=['neural_margin','neural_max','neural_softmax']
@@ -89,7 +90,10 @@ def inference(model,kind,queries,mapping,batch,device):
 
 def ranks_metrics(matrix,queries):
     rr=[]
-    for scores,q in zip(matrix,queries):rr.extend(filtered_rank(scores,o,set(q[4])) for o in q[3])
+    for scores,q in zip(matrix,queries):
+        available=np.ones(len(scores),dtype=bool);available[q[4]]=False
+        background=scores[available]
+        rr.extend(1.+np.count_nonzero(background>scores[o])+.5*np.count_nonzero(background==scores[o]) for o in q[3])
     rr=np.asarray(rr)
     return {'mrr':float(np.mean(1/rr)),**{f'hits{k}':float(np.mean(rr<=k)) for k in (1,3,10)}}
 
@@ -110,7 +114,7 @@ def train(model,kind,events,panel,mapping,args,out):
     if kind=='LTGQ':
         for s,r,o,t in train:positives.setdefault((int(s),int(r),int(t)),set()).add(int(o))
     for epoch in range(1,args.epochs+1):
-        ts=time.perf_counter();model.train();permutation=torch.randperm(len(tensor));total=0.;seen=0
+        ts=time.perf_counter();model.train();permutation=torch.randperm(len(tensor));total=0.;seen=0;nonfinite_epoch=0
         for start in range(0,len(tensor),args.batch):
             x=tensor[permutation[start:start+args.batch]].to(args.device)
             if len(x)==1:continue
@@ -138,9 +142,10 @@ def train(model,kind,events,panel,mapping,args,out):
                     # retain a count in the training log for auditability.
                     nonfinite += int((~torch.isfinite(p.grad)).sum().item())
                     p.grad=torch.nan_to_num(p.grad)
+            nonfinite_epoch+=nonfinite
             opt.step();total+=loss.detach().item()*len(x);seen+=len(x)
         torch.cuda.synchronize() if args.device=='cuda' else None
-        row={'epoch':epoch,'loss':total/seen,'seconds':time.perf_counter()-ts,'nonfinite_gradient_values':nonfinite}
+        row={'epoch':epoch,'loss':total/seen,'seconds':time.perf_counter()-ts,'nonfinite_gradient_values':nonfinite_epoch}
         if epoch%args.eval_every==0 or epoch==args.epochs:
             matrix=inference(model,kind,selection,mapping,args.eval_batch,args.device)
             val=ranks_metrics(matrix,selection)['mrr'];row['validation_mrr']=val
@@ -205,6 +210,8 @@ def main():
     p.add_argument('--eval-every',type=int,default=5);p.add_argument('--batch',type=int,default=512);p.add_argument('--eval-batch',type=int,default=128)
     p.add_argument('--rank',type=int,default=0);p.add_argument('--learning-rate',type=float,default=0.)
     p.add_argument('--device',default='cuda');p.add_argument('--output',default='results_recent');p.add_argument('--evaluate-only',action='store_true')
+    p.add_argument('--validation-only',action='store_true',help='Export validation scores only; do not evaluate test.')
+    p.add_argument('--scores-only',action='store_true',help='Skip the legacy evidence-feature selector.')
     a=p.parse_args();torch.set_num_threads(4);torch.manual_seed(a.seed);np.random.seed(a.seed);random.seed(a.seed)
     if a.device=='cuda':
         assert torch.cuda.is_available();torch.cuda.manual_seed_all(a.seed);torch.backends.cudnn.deterministic=True;torch.backends.cudnn.benchmark=False
@@ -217,8 +224,10 @@ def main():
     if not a.evaluate_only:
         runmeta.update(train(model,a.model,events,panel,mapping,a,out));(out/'run.json').write_text(json.dumps(runmeta,indent=2))
     state=torch.load(out/'best.pt',map_location=a.device,weights_only=True);model.load_state_dict(state['state_dict'])
-    matrices={split:inference(model,a.model,panel[split],mapping,a.eval_batch,a.device) for split in ['validation','test']}
+    splits=['validation'] if a.validation_only else ['validation','test']
+    matrices={split:inference(model,a.model,panel[split],mapping,a.eval_batch,a.device) for split in splits}
     for split,scores in matrices.items():np.save(out/f'{split}_scores.npy',scores)
+    if a.validation_only or a.scores_only:return
     index={}
     for s,r,o,t in events:index.setdefault((int(s),int(r)),[]).append((int(t),int(o)))
     for v in index.values():v.sort()

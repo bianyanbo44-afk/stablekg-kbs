@@ -1,0 +1,71 @@
+{
+  "scope": "primary results",
+  "fitted_runs": 12,
+  "query_seed_rows": 60000,
+  "query_seed_budget_checks": 180000,
+  "certified_violations": 0,
+  "certificate_witness_mismatches": 0,
+  "verified_recent_references": 31,
+  "runs": {
+    "results_nc\\evaluation_renormalized\\TemporalComplEx\\ICEWS14\\seed0": {
+      "queries": 5000,
+      "violations": 0,
+      "mismatches": 0
+    },
+    "results_nc\\evaluation_renormalized\\TemporalComplEx\\ICEWS14\\seed1": {
+      "queries": 5000,
+      "violations": 0,
+      "mismatches": 0
+    },
+    "results_nc\\evaluation_renormalized\\TemporalComplEx\\ICEWS14\\seed2": {
+      "queries": 5000,
+      "violations": 0,
+      "mismatches": 0
+    },
+    "results_nc\\evaluation_renormalized\\TemporalComplEx\\ICEWS05-15\\seed0": {
+      "queries": 5000,
+      "violations": 0,
+      "mismatches": 0
+    },
+    "results_nc\\evaluation_renormalized\\TemporalComplEx\\ICEWS05-15\\seed1": {
+      "queries": 5000,
+      "violations": 0,
+      "mismatches": 0
+    },
+    "results_nc\\evaluation_renormalized\\TemporalComplEx\\ICEWS05-15\\seed2": {
+      "queries": 5000,
+      "violations": 0,
+      "mismatches": 0
+    },
+    "results_nc\\evaluation_renormalized\\TeRDy\\ICEWS14\\seed0": {
+      "queries": 5000,
+      "violations": 0,
+      "mismatches": 0
+    },
+    "results_nc\\evaluation_renormalized\\TeRDy\\ICEWS14\\seed1": {
+      "queries": 5000,
+      "violations": 0,
+      "mismatches": 0
+    },
+    "results_nc\\evaluation_renormalized\\TeRDy\\ICEWS14\\seed2": {
+      "queries": 5000,
+      "violations": 0,
+      "mismatches": 0
+    },
+    "results_nc\\evaluation_renormalized\\TeRDy\\ICEWS05-15\\seed0": {
+      "queries": 5000,
+      "violations": 0,
+      "mismatches": 0
+    },
+    "results_nc\\evaluation_renormalized\\TeRDy\\ICEWS05-15\\seed1": {
+      "queries": 5000,
+      "violations": 0,
+      "mismatches": 0
+    },
+    "results_nc\\evaluation_renormalized\\TeRDy\\ICEWS05-15\\seed2": {
+      "queries": 5000,
+      "violations": 0,
+      "mismatches": 0
+    }
+  }
+}

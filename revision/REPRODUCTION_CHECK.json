@@ -1,0 +1,140 @@
+{
+  "command": "./run_neurocomputing.ps1 -CompilePaper",
+  "layout_refresh": "Final table builders rerun after layout-only edits; statistical and figure source data unchanged. Final source ZIP is compiled separately.",
+  "scope": "clean directory, archived query outputs, no data/external junctions or model weights",
+  "statistics_and_figure_csv_files": 26,
+  "generated_tables_match": true,
+  "all_csv_match_at_tolerance": 1e-12,
+  "csv_files": [
+    {
+      "path": "results_nc\\statistics\\all_metrics.csv",
+      "rows": 180,
+      "columns": 32
+    },
+    {
+      "path": "results_nc\\statistics\\diagnostic_intervals.csv",
+      "rows": 16,
+      "columns": 11
+    },
+    {
+      "path": "results_nc\\statistics\\paired_intervals.csv",
+      "rows": 52,
+      "columns": 9
+    },
+    {
+      "path": "results_nc\\statistics\\seed_summary.csv",
+      "rows": 62,
+      "columns": 59
+    },
+    {
+      "path": "results_nc\\statistics\\TemporalComplEx_ICEWS05-15_all_metrics.csv",
+      "rows": 45,
+      "columns": 32
+    },
+    {
+      "path": "results_nc\\statistics\\TemporalComplEx_ICEWS05-15_diagnostic_intervals.csv",
+      "rows": 4,
+      "columns": 11
+    },
+    {
+      "path": "results_nc\\statistics\\TemporalComplEx_ICEWS05-15_paired_intervals.csv",
+      "rows": 13,
+      "columns": 9
+    },
+    {
+      "path": "results_nc\\statistics\\TemporalComplEx_ICEWS14_all_metrics.csv",
+      "rows": 45,
+      "columns": 32
+    },
+    {
+      "path": "results_nc\\statistics\\TemporalComplEx_ICEWS14_diagnostic_intervals.csv",
+      "rows": 4,
+      "columns": 11
+    },
+    {
+      "path": "results_nc\\statistics\\TemporalComplEx_ICEWS14_paired_intervals.csv",
+      "rows": 13,
+      "columns": 9
+    },
+    {
+      "path": "results_nc\\statistics\\TeRDy_ICEWS05-15_all_metrics.csv",
+      "rows": 45,
+      "columns": 32
+    },
+    {
+      "path": "results_nc\\statistics\\TeRDy_ICEWS05-15_diagnostic_intervals.csv",
+      "rows": 4,
+      "columns": 11
+    },
+    {
+      "path": "results_nc\\statistics\\TeRDy_ICEWS05-15_paired_intervals.csv",
+      "rows": 13,
+      "columns": 9
+    },
+    {
+      "path": "results_nc\\statistics\\TeRDy_ICEWS14_all_metrics.csv",
+      "rows": 45,
+      "columns": 32
+    },
+    {
+      "path": "results_nc\\statistics\\TeRDy_ICEWS14_diagnostic_intervals.csv",
+      "rows": 4,
+      "columns": 11
+    },
+    {
+      "path": "results_nc\\statistics\\TeRDy_ICEWS14_paired_intervals.csv",
+      "rows": 13,
+      "columns": 9
+    },
+    {
+      "path": "figures\\neurocomputing\\source_data\\fig01_histories.csv",
+      "rows": 12,
+      "columns": 5
+    },
+    {
+      "path": "figures\\neurocomputing\\source_data\\fig01_response.csv",
+      "rows": 8,
+      "columns": 4
+    },
+    {
+      "path": "figures\\neurocomputing\\source_data\\fig02_paired_gains.csv",
+      "rows": 4,
+      "columns": 9
+    },
+    {
+      "path": "figures\\neurocomputing\\source_data\\fig02_prediction.csv",
+      "rows": 12,
+      "columns": 5
+    },
+    {
+      "path": "figures\\neurocomputing\\source_data\\fig02_reliability.csv",
+      "rows": 80,
+      "columns": 7
+    },
+    {
+      "path": "figures\\neurocomputing\\source_data\\fig03_curves.csv",
+      "rows": 7128,
+      "columns": 7
+    },
+    {
+      "path": "figures\\neurocomputing\\source_data\\fig04_diagnostics.csv",
+      "rows": 16,
+      "columns": 11
+    },
+    {
+      "path": "figures\\neurocomputing\\source_data\\fig05_controls.csv",
+      "rows": 12,
+      "columns": 7
+    },
+    {
+      "path": "figures\\neurocomputing\\source_data\\fig05_weights.csv",
+      "rows": 20,
+      "columns": 5
+    },
+    {
+      "path": "figures\\neurocomputing\\source_data\\fig06_updates.csv",
+      "rows": 240,
+      "columns": 15
+    }
+  ]
+}

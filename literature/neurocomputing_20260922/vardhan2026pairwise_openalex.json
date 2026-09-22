@@ -1,0 +1,596 @@
+{
+  "id": "https://openalex.org/W7163195639",
+  "doi": "https://doi.org/10.1007/s10994-026-07078-y",
+  "title": "Improving Selective Classification with Pairwise Queries for Binary Classification",
+  "display_name": "Improving Selective Classification with Pairwise Queries for Binary Classification",
+  "publication_year": 2026,
+  "publication_date": "2026-06-16",
+  "ids": {
+    "openalex": "https://openalex.org/W7163195639",
+    "doi": "https://doi.org/10.1007/s10994-026-07078-y"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1007/s10994-026-07078-y",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1007/s10994-026-07078-y",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S62148650",
+      "display_name": "Machine Learning",
+      "issn_l": "0885-6125",
+      "issn": [
+        "0885-6125",
+        "1573-0565"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-3",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319900",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Science+Business Media",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Machine Learning",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "arxiv",
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://arxiv.org/pdf/2605.30615",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5137673407",
+        "display_name": "Harsh Vardhan",
+        "orcid": "https://orcid.org/0000-0002-4656-3162"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36258959",
+          "display_name": "University of California San Diego",
+          "ror": "https://ror.org/0168r3w48",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I36258959"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Harsh Vardhan",
+      "raw_affiliation_strings": [
+        "CSE, UCSD, 9500 Gilman Drive, La Jolla, CA, 92092, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-4656-3162",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "CSE, UCSD, 9500 Gilman Drive, La Jolla, CA, 92092, USA",
+          "institution_ids": [
+            "https://openalex.org/I36258959"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5064726544",
+        "display_name": "Sunav Choudhary",
+        "orcid": "https://orcid.org/0000-0002-7711-487X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1306409833",
+          "display_name": "Adobe Systems (United States)",
+          "ror": "https://ror.org/059tvcg64",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1306409833"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sunav Choudhary",
+      "raw_affiliation_strings": [
+        "Adobe Research, 345 Park Ave, San Jose, CA, 95110, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-7711-487X",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Adobe Research, 345 Park Ave, San Jose, CA, 95110, USA",
+          "institution_ids": [
+            "https://openalex.org/I1306409833"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5016869559",
+        "display_name": "Natwar Modani",
+        "orcid": "https://orcid.org/0009-0005-3105-1016"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1306409833",
+          "display_name": "Adobe Systems (United States)",
+          "ror": "https://ror.org/059tvcg64",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1306409833"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Natwar Modani",
+      "raw_affiliation_strings": [
+        "Adobe Research, Marathahalli, Bengaluru, Karnataka, 560087, India"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0005-3105-1016",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Adobe Research, Marathahalli, Bengaluru, Karnataka, 560087, India",
+          "institution_ids": [
+            "https://openalex.org/I1306409833"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5051046818",
+        "display_name": "Arya Mazumdar",
+        "orcid": "https://orcid.org/0000-0003-4605-7996"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36258959",
+          "display_name": "University of California San Diego",
+          "ror": "https://ror.org/0168r3w48",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I36258959"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Arya Mazumdar",
+      "raw_affiliation_strings": [
+        "HDSI, UCSD, 9500 Gilman Drive, La Jolla, CA, 92092, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-4605-7996",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "HDSI, UCSD, 9500 Gilman Drive, La Jolla, CA, 92092, USA",
+          "institution_ids": [
+            "https://openalex.org/I36258959"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5137673407"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I36258959"
+  ],
+  "apc_list": {
+    "value": 3290,
+    "currency": "USD",
+    "value_usd": 3290
+  },
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": true,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+    "value": 0.49249281,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": "115",
+    "issue": "7",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12072",
+    "display_name": "Machine Learning and Algorithms",
+    "score": 0.32749998569488525,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12072",
+      "display_name": "Machine Learning and Algorithms",
+      "score": 0.32749998569488525,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11652",
+      "display_name": "Imbalanced Data Classification Techniques",
+      "score": 0.20630000531673431,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12535",
+      "display_name": "Machine Learning and Data Classification",
+      "score": 0.1289999932050705,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/pairwise-comparison",
+      "display_name": "Pairwise comparison",
+      "score": 0.9235000014305115
+    },
+    {
+      "id": "https://openalex.org/keywords/binary-number",
+      "display_name": "Binary number",
+      "score": 0.607699990272522
+    },
+    {
+      "id": "https://openalex.org/keywords/pattern-recognition",
+      "display_name": "Pattern recognition (psychology)",
+      "score": 0.47510001063346863
+    },
+    {
+      "id": "https://openalex.org/keywords/binary-classification",
+      "display_name": "Binary classification",
+      "score": 0.4553999900817871
+    },
+    {
+      "id": "https://openalex.org/keywords/simple",
+      "display_name": "Simple (philosophy)",
+      "score": 0.362199991941452
+    },
+    {
+      "id": "https://openalex.org/keywords/binary-data",
+      "display_name": "Binary data",
+      "score": 0.29820001125335693
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C184898388",
+      "wikidata": "https://www.wikidata.org/wiki/Q1435712",
+      "display_name": "Pairwise comparison",
+      "level": 2,
+      "score": 0.9235000014305115
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.6305999755859375
+    },
+    {
+      "id": "https://openalex.org/C48372109",
+      "wikidata": "https://www.wikidata.org/wiki/Q3913",
+      "display_name": "Binary number",
+      "level": 2,
+      "score": 0.607699990272522
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.5213000178337097
+    },
+    {
+      "id": "https://openalex.org/C153180895",
+      "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+      "display_name": "Pattern recognition (psychology)",
+      "level": 2,
+      "score": 0.47510001063346863
+    },
+    {
+      "id": "https://openalex.org/C66905080",
+      "wikidata": "https://www.wikidata.org/wiki/Q17005494",
+      "display_name": "Binary classification",
+      "level": 3,
+      "score": 0.4553999900817871
+    },
+    {
+      "id": "https://openalex.org/C124101348",
+      "wikidata": "https://www.wikidata.org/wiki/Q172491",
+      "display_name": "Data mining",
+      "level": 1,
+      "score": 0.45019999146461487
+    },
+    {
+      "id": "https://openalex.org/C2780586882",
+      "wikidata": "https://www.wikidata.org/wiki/Q7520643",
+      "display_name": "Simple (philosophy)",
+      "level": 2,
+      "score": 0.362199991941452
+    },
+    {
+      "id": "https://openalex.org/C119857082",
+      "wikidata": "https://www.wikidata.org/wiki/Q2539",
+      "display_name": "Machine learning",
+      "level": 1,
+      "score": 0.3400999903678894
+    },
+    {
+      "id": "https://openalex.org/C2779190172",
+      "wikidata": "https://www.wikidata.org/wiki/Q4913888",
+      "display_name": "Binary data",
+      "level": 3,
+      "score": 0.29820001125335693
+    },
+    {
+      "id": "https://openalex.org/C167085575",
+      "wikidata": "https://www.wikidata.org/wiki/Q6803654",
+      "display_name": "Mean squared prediction error",
+      "level": 2,
+      "score": 0.26170000433921814
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.25940001010894775
+    },
+    {
+      "id": "https://openalex.org/C44249647",
+      "wikidata": "https://www.wikidata.org/wiki/Q208498",
+      "display_name": "Confidence interval",
+      "level": 2,
+      "score": 0.25929999351501465
+    },
+    {
+      "id": "https://openalex.org/C110083411",
+      "wikidata": "https://www.wikidata.org/wiki/Q1744628",
+      "display_name": "Statistical classification",
+      "level": 2,
+      "score": 0.25679999589920044
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1007/s10994-026-07078-y",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/s10994-026-07078-y",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S62148650",
+        "display_name": "Machine Learning",
+        "issn_l": "0885-6125",
+        "issn": [
+          "0885-6125",
+          "1573-0565"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-3",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319900",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Science+Business Media",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Machine Learning",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:arXiv.org:2605.30615",
+      "is_oa": true,
+      "landing_page_url": "https://arxiv.org/abs/2605.30615",
+      "pdf_url": "https://arxiv.org/pdf/2605.30615",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    }
+  ],
+  "best_oa_location": {
+    "id": "pmh:oai:arXiv.org:2605.30615",
+    "is_oa": true,
+    "landing_page_url": "https://arxiv.org/abs/2605.30615",
+    "pdf_url": "https://arxiv.org/pdf/2605.30615",
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": "2331-8422",
+      "issn": [
+        "2331-8422"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": "cc-by-nc-sa",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "text"
+  },
+  "sustainable_development_goals": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G3930916604",
+      "display_name": "Collaborative Research: EnCORE: Institute for Emerging CORE Methods in Data Science",
+      "funder_award_id": "2217058",
+      "funder_id": "https://openalex.org/F4320306076",
+      "funder_display_name": "National Science Foundation"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320306076",
+      "display_name": "National Science Foundation",
+      "ror": "https://ror.org/021nxhr62"
+    },
+    {
+      "id": "https://openalex.org/F7525545622",
+      "display_name": "Adobe Research",
+      "ror": null
+    }
+  ],
+  "has_content": {
+    "grobid_xml": true,
+    "pdf": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W7163195639.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W7163195639.grobid-xml"
+  },
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [],
+  "abstract_inverted_index": null,
+  "counts_by_year": [],
+  "updated_date": "2026-09-21T07:43:02.447757",
+  "created_date": "2026-06-03T00:00:00"
+}

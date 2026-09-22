@@ -1,0 +1,17 @@
+[
+  {
+    "seed": 0,
+    "baseline": "Temperature scaling",
+    "belief": "Probability calibration"
+  },
+  {
+    "seed": 1,
+    "baseline": "ensemble_probability",
+    "belief": "Score calibration"
+  },
+  {
+    "seed": 2,
+    "baseline": "ensemble_probability",
+    "belief": "Score calibration"
+  }
+]

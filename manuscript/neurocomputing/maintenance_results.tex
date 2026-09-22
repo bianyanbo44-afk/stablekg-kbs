@@ -1,0 +1,15 @@
+\subsection{Local maintenance restricts recomputation to affected answers}
+Local maintenance reduced the number of refreshed query states from 1,200,000 to 55,064 across all 240 transactions, a reduction of 95.41\% (Fig.~\ref{fig:maintenance}). The reductions were 95.59\%, 94.21\% and 96.44\% on ICEWS14, ICEWS05-15 and GDELT, respectively. Both implementations applied identical event writes and maintained identical window statistics; the difference was whether every registered query or only the affected set was refreshed. Their outputs agreed after every transaction, and independent raw-event rebuilds agreed on all discrete outputs for 128 queries per dataset, with maximum absolute numerical difference $2.22\times10^{-16}$.
+
+The benefit remained measurable at the largest transaction size. For 1,000 edited events, median local refresh times were 0.330, 2.407 and 0.504 seconds on the three datasets, compared with 1.367, 4.030 and 2.161 seconds for full refresh. The median paired speedups were 4.18, 1.67 and 4.29, respectively. Median affected sets contained 739, 973.5 and 631.5 of the 5,000 registered queries. Smaller transactions touched fewer answers and produced larger timing ratios. Uniformly sampled single-event edits affected no registered query in 80\%, 60\% and 20\% of transactions, respectively; the supplement reports these frequencies alongside every timing stratum.
+
+Initial cache construction took 2.20--5.46 seconds. Numeric arrays occupied 283, 700 and 275~MiB on ICEWS14, ICEWS05-15 and GDELT; measured process-memory increments, including container overhead, were 434, 951 and 305~MiB. These one-time costs are separated from transaction timings. The results show that explicit evidence dependencies support both the stability calculation and its efficient maintenance, including on the larger GDELT event history.
+
+\begin{figure*}[tbp]
+\centering
+\includegraphics[width=\textwidth]{fig06_maintenance.pdf}
+\caption{\textbf{Maintaining only affected answers reduces update work.}
+\textbf{a--c,} Full and local refresh times for 5,000 registered queries after transactions of 1, 10, 100 or 1,000 events. Points show medians and bands show interquartile ranges over ten sampled deletion/restoration pairs at each batch size, with alternating implementation order.
+\textbf{d--f,} The corresponding fraction of registered queries refreshed. The full control refreshes 100\% at every transaction. Timings include event writes and certificate maintenance; encoder inference and initial cache construction are excluded. GDELT uses a fixed training relation-frequency anchor and tests maintenance scaling.}
+\label{fig:maintenance}
+\end{figure*}

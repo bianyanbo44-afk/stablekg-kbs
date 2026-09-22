@@ -1,0 +1,3849 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 434494,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              4
+            ]
+          ],
+          "date-time": "2026-08-04T11:44:32Z",
+          "timestamp": 1785843872283,
+          "version": "3.56.0"
+        },
+        "posted": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "group-title": "SSRN",
+        "reference-count": 0,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2026-01-01T00:00:00Z",
+              "timestamp": 1767225600000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "abstract": "<jats:p>Deep neural language models often produce over-confident predictions, limiting their reliability in real-world decision-making, particularly under class imbalance. In this work, we investigate probability calibration and uncertainty-aware selective prediction for emotion classification using a Bidirectional Encoder Representations from Transformers (BERT)-based model. Experiments are conducted on the Emotions dataset, which exhibits natural class imbalance across six emotion categories. We adopt a multi-stage pipeline comprising dataset preparation, baseline fine-tuning, post-hoc probability calibration via temperature scaling, uncertainty estimation using probability-based metrics, and selective prediction based on uncertainty thresholds. Results show that temperature scaling further improves probability calibration, reducing expected calibration error from 0.0051 to 0.0035 (a relative reduction of approximately 31%) and tightening reliability diagrams, without degrading classification accuracy. Uncertainty measures such as predictive entropy and probability margin effectively distinguish correct from incorrect predictions, with misclassified samples exhibiting higher uncertainty. Leveraging these uncertainty estimates, selective prediction achieves a favorable risk-coverage trade-off: predictive risk decreases while accuracy on the accepted subset increases as coverage is reduced. At an operating point of approximately 90% coverage, the model attains substantially improved reliability with minimal loss in coverage. These findings demonstrate that calibrated uncertainty estimates enable robust selective prediction and provide a principled framework for deploying emotion classification systems in reliability-critical applications.</jats:p>",
+        "DOI": "10.2139/ssrn.7225999",
+        "type": "posted-content",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              4
+            ]
+          ],
+          "date-time": "2026-08-04T10:56:13Z",
+          "timestamp": 1785840973000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Reliability-aware BERT-based Emotion Classification via Probability Calibration and Selective Prediction"
+        ],
+        "prefix": "10.2139",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0000-9317-340X",
+            "authenticated-orcid": true,
+            "given": "Nisreen",
+            "family": "Albzour",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              4
+            ]
+          ],
+          "date-time": "2026-08-04T10:56:13Z",
+          "timestamp": 1785840973000
+        },
+        "score": 24.70559,
+        "resource": {
+          "primary": {
+            "URL": "https://www.ssrn.com/abstract=7225999"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.2139/ssrn.7225999",
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "subtype": "preprint"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              17
+            ]
+          ],
+          "date-time": "2026-06-17T05:52:41Z",
+          "timestamp": 1781675561296,
+          "version": "3.54.5"
+        },
+        "reference-count": 34,
+        "publisher": "Wiley",
+        "issue": "6",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  25
+                ]
+              ],
+              "date-time": "2026-05-25T00:00:00Z",
+              "timestamp": 1779667200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  25
+                ]
+              ],
+              "date-time": "2026-05-25T00:00:00Z",
+              "timestamp": 1779667200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "analyticalsciencejournals.onlinelibrary.wiley.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Journal of Chemometrics"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        },
+        "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>\n                    Electronic\u2010nose screening models degrade after deployment because sensor drift and environmental variability change both separability and confidence calibration, yet field datasets rarely allow controlled severity analysis. We study calibration\u2010aware selective classification on a synthetic 16\u2010channel MOX benchmark that parameterizes humidity, temperature, aging, device variability, and noise to create mild, moderate, and severe target domains, and includes calibration anchors. The proposed CAN\u2010OCS pipeline combines anchor normalization, nuisance suppression, CORAL covariance alignment using unlabeled target batches, and an uncertainty gate that defers low\u2010confidence samples to confirmatory testing while reporting coverage. At matched coverage, CAN\u2010OCS outperformed a standardized SVM baseline with severity\u2010dependent gains (Holm\u2010adjusted\n                    <jats:italic>p</jats:italic>\n                    \u2009=\u20090.0146 in the severe domain; borderline in moderate; not significant in mild). On a public one\u2010year drift dataset (24 temporal splits), fixed thresholding caused strong coverage contraction (median 0.439). Results emphasize that accepted\u2010sample accuracy must be interpreted jointly with coverage and anchor validity.\n                  </jats:p>",
+        "DOI": "10.1002/cem.70148",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              26
+            ]
+          ],
+          "date-time": "2026-05-26T03:36:18Z",
+          "timestamp": 1779766578000
+        },
+        "update-policy": "https://doi.org/10.1002/crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Coverage\u2010Aware Calibration and Selective Classification for Drifted Gas\u2010Sensor Arrays: A Controlled Shift Simulation Benchmark With Longitudinal Evaluation"
+        ],
+        "prefix": "10.1002",
+        "volume": "40",
+        "author": [
+          {
+            "given": "Shantao",
+            "family": "Du",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "China Tobacco Henan Industrial Co., Ltd.  Zhengzhou Henan China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xia",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "China Tobacco Henan Industrial Co., Ltd.  Zhengzhou Henan China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hui",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "China Tobacco Henan Industrial Co., Ltd.  Zhengzhou Henan China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yingbo",
+            "family": "Guo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "China Tobacco Henan Industrial Co., Ltd.  Zhengzhou Henan China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bin",
+            "family": "Ai",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Microelectronic and Communication Engineering Chongqing University  Chongqing China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "311",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              25
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "e_1_2_9_2_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.isci.2021.103622"
+          },
+          {
+            "key": "e_1_2_9_3_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/bios13070705"
+          },
+          {
+            "key": "e_1_2_9_4_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1186/s12889\u2010023\u201015511\u20103"
+          },
+          {
+            "key": "e_1_2_9_5_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.15199/13.2015.3.12"
+          },
+          {
+            "key": "e_1_2_9_6_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3389/fchem.2018.00433"
+          },
+          {
+            "key": "e_1_2_9_7_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/csac2021\u201010464"
+          },
+          {
+            "key": "e_1_2_9_8_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.chemolab.2009.10.002"
+          },
+          {
+            "key": "e_1_2_9_9_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.snb.2012.01.074"
+          },
+          {
+            "key": "e_1_2_9_10_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/s130709160"
+          },
+          {
+            "key": "e_1_2_9_11_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "P.Das A.Manna andS.Ghoshal \u201cGas Sensor Drift Compensation by Ensemble of Classifiers Using Extreme Learning Machine \u201d In: 2020 International Conference on Recent Trends on Electronics Information and Communication Technology. (2020) https://doi.org/10.1109/ICREISG49226.2020.9174554.",
+            "DOI": "10.1109/ICREISG49226.2020.9174554"
+          },
+          {
+            "key": "e_1_2_9_12_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "A.Manna \u201cDrift Compensation for Electronic Nose by Multiple Classifiers System With Genetic Algorithm Optimized Feature Subset \u201d In: 2020 International Conference on Computer Communication and Informatics (ICCCI). (2020) https://doi.org/10.1109/ICCCI48352.2020.9104208.",
+            "DOI": "10.1109/ICCCI48352.2020.9104208"
+          },
+          {
+            "key": "e_1_2_9_13_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JSEN.2018.2881745"
+          },
+          {
+            "key": "e_1_2_9_14_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1108/SR\u201006\u20102024\u20100554"
+          },
+          {
+            "key": "e_1_2_9_15_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TIM.2014.2367775"
+          },
+          {
+            "key": "e_1_2_9_16_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ACCESS.2020.3010711"
+          },
+          {
+            "key": "e_1_2_9_17_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.eswa.2022.118237"
+          },
+          {
+            "key": "e_1_2_9_18_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.knosys.2021.107664"
+          },
+          {
+            "key": "e_1_2_9_19_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Z.Liang L.Yang T.Guo andJ.Li \u201cA Novel Sparse Subspace Correlation Analysis\u2010Based Domain Adaptation Method for Sensor Drift Suppression in e\u2010Nose \u201d In: 2021 13th International Conference on Communication Software and Networks (ICCSN). (2021) https://doi.org/10.1109/ICCSN52437.2021.9463598.",
+            "DOI": "10.1109/ICCSN52437.2021.9463598"
+          },
+          {
+            "key": "e_1_2_9_20_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "T.Guo K.Yu X.Cheng andA. K.Bashir \u201cRobust Electronic Nose in Industrial Cyber Physical Systems Based on Domain Adaptive Subspace Transfer Model \u201d In: IEEE International Conference on Communications Workshops. (2021) https://doi.org/10.1109/ICCWorkshops50388.2021.9473765.",
+            "DOI": "10.1109/ICCWorkshops50388.2021.9473765"
+          },
+          {
+            "key": "e_1_2_9_21_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/s21103403"
+          },
+          {
+            "key": "e_1_2_9_22_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JSEN.2021.3081923"
+          },
+          {
+            "key": "e_1_2_9_23_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JSEN.2013.2285919"
+          },
+          {
+            "key": "e_1_2_9_24_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/s19173703"
+          },
+          {
+            "key": "e_1_2_9_25_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.eswa.2020.113238"
+          },
+          {
+            "key": "e_1_2_9_26_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ACCESS.2019.2943188"
+          },
+          {
+            "key": "e_1_2_9_27_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.chemolab.2023.105003"
+          },
+          {
+            "key": "e_1_2_9_28_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.snb.2026.139594"
+          },
+          {
+            "key": "e_1_2_9_29_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/s24041319"
+          },
+          {
+            "key": "e_1_2_9_30_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JSEN.2023.3305314"
+          },
+          {
+            "key": "e_1_2_9_31_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "D.Yi Z.Li Y.Chen andJ.Yan \u201cA Novel Orthogonal Constraint\u2010Based Subspace Learning Method for Electronic Nose Drift Compensation \u201d Proceedings of SPIE (2023). 12768:127680A https://doi.org/10.1117/12.2680198.",
+            "DOI": "10.1117/12.2680198"
+          },
+          {
+            "key": "e_1_2_9_32_1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "H.Cui X.Dong andK.Shang \u201cAn Improved Method for long\u2010Term Drift Compensation of Electronic Nose With Batch Control \u201d In: 2022 IEEE 12th International Conference on Electronics Information and Emergency Communication (ICEIEC). (2022) https://doi.org/10.1109/ICEIEC54567.2022.9835069.",
+            "DOI": "10.1109/ICEIEC54567.2022.9835069"
+          },
+          {
+            "key": "e_1_2_9_33_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ACCESS.2020.3006729"
+          },
+          {
+            "key": "e_1_2_9_34_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/s41597\u2010025\u201005993\u20108"
+          },
+          {
+            "key": "e_1_2_9_35_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.17762/ijritcc.v11i6.7343"
+          }
+        ],
+        "container-title": [
+          "Journal of Chemometrics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/pdf/10.1002/cem.70148",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/full-xml/10.1002/cem.70148",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/pdf/10.1002/cem.70148",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              17
+            ]
+          ],
+          "date-time": "2026-06-17T05:05:14Z",
+          "timestamp": 1781672714000
+        },
+        "score": 24.034094,
+        "resource": {
+          "primary": {
+            "URL": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/cem.70148"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              25
+            ]
+          ]
+        },
+        "references-count": 34,
+        "journal-issue": {
+          "issue": "6",
+          "published-print": {
+            "date-parts": [
+              [
+                2026,
+                6
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1002/cem.70148"
+        ],
+        "URL": "https://doi.org/10.1002/cem.70148",
+        "archive": [
+          "Portico"
+        ],
+        "ISSN": [
+          "0886-9383",
+          "1099-128X"
+        ],
+        "issn-type": [
+          {
+            "value": "0886-9383",
+            "type": "print"
+          },
+          {
+            "value": "1099-128X",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              25
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2026-03-10",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-05-15",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-05-25",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ],
+        "article-number": "e70148"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              18
+            ]
+          ],
+          "date-time": "2026-08-18T08:24:27Z",
+          "timestamp": 1787041467686,
+          "version": "build-2736575974"
+        },
+        "reference-count": 43,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  9,
+                  1
+                ]
+              ],
+              "date-time": "2026-09-01T00:00:00Z",
+              "timestamp": 1788220800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  9,
+                  1
+                ]
+              ],
+              "date-time": "2026-09-01T00:00:00Z",
+              "timestamp": 1788220800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  9,
+                  1
+                ]
+              ],
+              "date-time": "2026-09-01T00:00:00Z",
+              "timestamp": 1788220800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-017"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  9,
+                  1
+                ]
+              ],
+              "date-time": "2026-09-01T00:00:00Z",
+              "timestamp": 1788220800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  9,
+                  1
+                ]
+              ],
+              "date-time": "2026-09-01T00:00:00Z",
+              "timestamp": 1788220800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-012"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  9,
+                  1
+                ]
+              ],
+              "date-time": "2026-09-01T00:00:00Z",
+              "timestamp": 1788220800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  9,
+                  1
+                ]
+              ],
+              "date-time": "2026-09-01T00:00:00Z",
+              "timestamp": 1788220800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-004"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Journal of Biomedical Informatics"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              9
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.jbi.2026.105084",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              22
+            ]
+          ],
+          "date-time": "2026-07-22T15:55:41Z",
+          "timestamp": 1784735741000
+        },
+        "page": "105084",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "special_numbering": "C",
+        "title": [
+          "Selective classification under imbalance in multiclass settings: A novel metric for bias-aware risk\u2013coverage evaluation"
+        ],
+        "prefix": "10.1016",
+        "volume": "181",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-2084-2008",
+            "authenticated-orcid": false,
+            "given": "Fatih",
+            "family": "Sa\u011flam",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4896-7435",
+            "authenticated-orcid": false,
+            "given": "\u00dcnsal",
+            "family": "\u00d6zgen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9544-4098",
+            "authenticated-orcid": false,
+            "given": "Alper",
+            "family": "Uygun",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0407-5635",
+            "authenticated-orcid": false,
+            "given": "O\u011fuz Salih",
+            "family": "Din\u00e7er",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9912-9626",
+            "authenticated-orcid": false,
+            "given": "Canan",
+            "family": "Albayrak",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "issue": "1",
+            "key": "10.1016/j.jbi.2026.105084_b1",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1155/2009/203790",
+            "article-title": "Linear classifier with reject option for the detection of vocal fold paralysis and vocal fold edema",
+            "volume": "2009",
+            "author": "Kotropoulos",
+            "year": "2009",
+            "journal-title": "EURASIP J. Adv. Signal Process."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.jbi.2026.105084_b2",
+            "doi-asserted-by": "crossref",
+            "first-page": "77",
+            "DOI": "10.7763/IJCTE.2011.V3.286",
+            "article-title": "Cost-sensitive multi-class SVM with reject option: A method for steam turbine generator fault diagnosis",
+            "volume": "3",
+            "author": "Zou",
+            "year": "2011",
+            "journal-title": "Int. J. Comput. Theory Eng."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.jbi.2026.105084_b3",
+            "doi-asserted-by": "crossref",
+            "first-page": "41",
+            "DOI": "10.1109/TIT.1970.1054406",
+            "article-title": "On optimum recognition error and reject tradeoff",
+            "volume": "16",
+            "author": "Chow",
+            "year": "1970",
+            "journal-title": "IEEE Trans. Inform. Theory"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.jbi.2026.105084_b4",
+            "doi-asserted-by": "crossref",
+            "first-page": "179",
+            "DOI": "10.1109/TSSC.1970.300339",
+            "article-title": "The nearest neighbor classification rule with a reject option",
+            "volume": "6",
+            "author": "Hellman",
+            "year": "1970",
+            "journal-title": "IEEE Trans. Syst. Sci. Cybern."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.jbi.2026.105084_b5",
+            "article-title": "On the foundations of noise-free selective classification",
+            "volume": "11",
+            "author": "El-Yaniv",
+            "year": "2010",
+            "journal-title": "J. Mach. Learn. Res."
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b6",
+            "series-title": "International Conference on Machine Learning",
+            "first-page": "6076",
+            "article-title": "Fair selective classification via sufficiency",
+            "author": "Lee",
+            "year": "2021"
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b7",
+            "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+            "first-page": "15421",
+            "article-title": "Can we trust fair-ai?",
+            "volume": "vol. 37",
+            "author": "Ruggieri",
+            "year": "2023"
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.jbi.2026.105084_b8",
+            "doi-asserted-by": "crossref",
+            "first-page": "3073",
+            "DOI": "10.1007/s10994-024-06534-x",
+            "article-title": "Machine learning with a reject option: A survey",
+            "volume": "113",
+            "author": "Hendrickx",
+            "year": "2024",
+            "journal-title": "Mach. Learn."
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b9",
+            "series-title": "International Conference on Machine Learning",
+            "first-page": "2151",
+            "article-title": "Selectivenet: A deep neural network with an integrated reject option",
+            "author": "Geifman",
+            "year": "2019"
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b10",
+            "article-title": "Selective classification for deep neural networks",
+            "volume": "30",
+            "author": "Geifman",
+            "year": "2017",
+            "journal-title": "Adv. Neural Inf. Process. Syst."
+          },
+          {
+            "issue": "8",
+            "key": "10.1016/j.jbi.2026.105084_b11",
+            "article-title": "Classification with a reject option using a hinge loss",
+            "volume": "9",
+            "author": "Bartlett",
+            "year": "2008",
+            "journal-title": "J. Mach. Learn. Res."
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.jbi.2026.105084_b12",
+            "doi-asserted-by": "crossref",
+            "first-page": "3714",
+            "DOI": "10.1007/s11263-024-02029-3",
+            "article-title": "Augmenting the softmax with additional confidence scores for improved selective classification with out-of-distribution data",
+            "volume": "132",
+            "author": "Xia",
+            "year": "2024",
+            "journal-title": "Int. J. Comput. Vis."
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b13",
+            "series-title": "How to fix a broken confidence estimator: Evaluating post-hoc methods for selective classification with deep neural networks",
+            "author": "Cattelan",
+            "year": "2023"
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b14",
+            "series-title": "International Conference on Artificial Intelligence and Statistics",
+            "first-page": "2494",
+            "article-title": "AUC-based selective classification",
+            "author": "Pugnana",
+            "year": "2023"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.jbi.2026.105084_b15",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1115/1.4028165",
+            "article-title": "A selective multiclass support vector machine ensemble classifier for engineering surface classification using high definition metrology",
+            "volume": "137",
+            "author": "Du",
+            "year": "2015",
+            "journal-title": "J. Manuf. Sci. Eng."
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b16",
+            "doi-asserted-by": "crossref",
+            "unstructured": "A. Pugnana, S. Ruggieri, A model-agnostic heuristics for selective classification, in: Proceedings of the AAAI Conference on Artificial Intelligence, vol. 37, 2023, pp. 9461\u20139469.",
+            "DOI": "10.1609/aaai.v37i8.26133"
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b17",
+            "series-title": "Machine Learning in Systems Biology",
+            "first-page": "65",
+            "article-title": "Accuracy-rejection curves (ARCs) for comparing classification methods with a reject option",
+            "author": "Nadeem",
+            "year": "2009"
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b18",
+            "series-title": "Bias-reduced uncertainty estimation for deep neural classifiers",
+            "author": "Geifman",
+            "year": "2018"
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b19",
+            "doi-asserted-by": "crossref",
+            "first-page": "437",
+            "DOI": "10.1016/j.patcog.2016.10.011",
+            "article-title": "Performance measures for classification systems with rejection",
+            "volume": "63",
+            "author": "Condessa",
+            "year": "2017",
+            "journal-title": "Pattern Recognit."
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b20",
+            "doi-asserted-by": "crossref",
+            "first-page": "2323",
+            "DOI": "10.52202/079017-0076",
+            "article-title": "Overcoming common flaws in the evaluation of selective classification systems",
+            "volume": "37",
+            "author": "Traub",
+            "year": "2024",
+            "journal-title": "Adv. Neural Inf. Process. Syst."
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b21",
+            "series-title": "Selective classification under distribution shifts",
+            "author": "Liang",
+            "year": "2024"
+          },
+          {
+            "issue": "7",
+            "key": "10.1016/j.jbi.2026.105084_b22",
+            "first-page": "7497",
+            "article-title": "SCRIB: Set-classifier with class-specific risk bounds for blackbox models",
+            "volume": "36",
+            "author": "Lin",
+            "year": "2022",
+            "journal-title": "Proc. AAAI Conf. Artif. Intell."
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b23",
+            "series-title": "What can we learn from the selective prediction and uncertainty estimation performance of 523 imagenet classifiers",
+            "author": "Galil",
+            "year": "2023"
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b24",
+            "series-title": "International Conference on Machine Learning",
+            "first-page": "1050",
+            "article-title": "Dropout as a bayesian approximation: Representing model uncertainty in deep learning",
+            "author": "Gal",
+            "year": "2016"
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b25",
+            "series-title": "International Conference on Machine Learning",
+            "first-page": "1613",
+            "article-title": "Weight uncertainty in neural network",
+            "author": "Blundell",
+            "year": "2015"
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b26",
+            "article-title": "Simple and scalable predictive uncertainty estimation using deep ensembles",
+            "volume": "30",
+            "author": "Lakshminarayanan",
+            "year": "2017",
+            "journal-title": "Adv. Neural Inf. Process. Syst."
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b27",
+            "article-title": "Beyond temperature scaling: Obtaining well-calibrated multi-class probabilities with dirichlet calibration",
+            "volume": "32",
+            "author": "Kull",
+            "year": "2019",
+            "journal-title": "Adv. Neural Inf. Process. Syst."
+          },
+          {
+            "issue": "525",
+            "key": "10.1016/j.jbi.2026.105084_b28",
+            "doi-asserted-by": "crossref",
+            "first-page": "223",
+            "DOI": "10.1080/01621459.2017.1395341",
+            "article-title": "Least ambiguous set-valued classifiers with bounded error levels",
+            "volume": "114",
+            "author": "Sadinle",
+            "year": "2019",
+            "journal-title": "J. Amer. Statist. Assoc."
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b29",
+            "series-title": "A gentle introduction to conformal prediction and distribution-free uncertainty quantification",
+            "author": "Angelopoulos",
+            "year": "2021"
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.jbi.2026.105084_b30",
+            "doi-asserted-by": "crossref",
+            "first-page": "761",
+            "DOI": "10.1109/TAES.1984.310460",
+            "article-title": "Bayesian design of decision rules for failure detection",
+            "author": "Chow",
+            "year": "2007",
+            "journal-title": "IEEE Trans. Aerosp. Electron. Syst."
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b31",
+            "series-title": "BART: Bayesian additive regression trees",
+            "author": "Chipman",
+            "year": "2010"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.jbi.2026.105084_b32",
+            "doi-asserted-by": "crossref",
+            "first-page": "188",
+            "DOI": "10.1093/jamia/ocad182",
+            "article-title": "Selective prediction for extracting unstructured clinical data",
+            "volume": "31",
+            "author": "Swaminathan",
+            "year": "2024",
+            "journal-title": "J. Am. Med. Inform. Assoc."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.jbi.2026.105084_b33",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.2196/30587",
+            "article-title": "Selective prediction with long short-term memory using unit-wise batch standardization for time series health data sets: Algorithm development and validation",
+            "volume": "10",
+            "author": "Nam",
+            "year": "2022",
+            "journal-title": "JMIR Med. Inform."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.jbi.2026.105084_b34",
+            "doi-asserted-by": "crossref",
+            "first-page": "50",
+            "DOI": "10.1186/s12911-024-02437-y",
+            "article-title": "InsightSleepNet: The interpretable and uncertainty-aware deep learning network for sleep staging using continuous photoplethysmography",
+            "volume": "24",
+            "author": "Nam",
+            "year": "2024",
+            "journal-title": "BMC Med. Inform. Decis. Mak."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.jbi.2026.105084_b35",
+            "doi-asserted-by": "crossref",
+            "first-page": "190",
+            "DOI": "10.1186/s12911-023-02292-3",
+            "article-title": "SelANet: Decision-assisting selective sleep apnea detection based on confidence score",
+            "volume": "23",
+            "author": "Bark",
+            "year": "2023",
+            "journal-title": "BMC Med. Inform. Decis. Mak."
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b36",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.knosys.2020.106490",
+            "article-title": "Imbalance accuracy metric for model selection in multi-class imbalance classification problems",
+            "volume": "210",
+            "author": "Mortaz",
+            "year": "2020",
+            "journal-title": "Knowl.-Based Syst."
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b37",
+            "series-title": "Dermatology",
+            "author": "Ilter",
+            "year": "1998"
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b38",
+            "series-title": "Wine quality",
+            "author": "Cortez",
+            "year": "2009"
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b39",
+            "series-title": "Yeast",
+            "author": "Nakai",
+            "year": "1991"
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b40",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.18637/jss.v097.i01",
+            "article-title": "Nonparametric machine learning and efficient computation with Bayesian additive regression trees: The BART R package",
+            "volume": "97",
+            "author": "Sparapani",
+            "year": "2021",
+            "journal-title": "J. Stat. Softw."
+          },
+          {
+            "issue": "Jan",
+            "key": "10.1016/j.jbi.2026.105084_b41",
+            "first-page": "1",
+            "article-title": "Statistical comparisons of classifiers over multiple data sets",
+            "volume": "7",
+            "author": "Dem\u0161ar",
+            "year": "2006",
+            "journal-title": "J. Mach. Learn. Res."
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b42",
+            "doi-asserted-by": "crossref",
+            "first-page": "429",
+            "DOI": "10.1016/j.ins.2019.11.004",
+            "article-title": "Data imbalance in classification: Experimental evaluation",
+            "volume": "513",
+            "author": "Thabtah",
+            "year": "2020",
+            "journal-title": "Inform. Sci."
+          },
+          {
+            "key": "10.1016/j.jbi.2026.105084_b43",
+            "series-title": "Data Mining and Knowledge Discovery Handbook",
+            "first-page": "875",
+            "article-title": "Data mining for imbalanced datasets: An overview",
+            "author": "Chawla",
+            "year": "2010"
+          }
+        ],
+        "container-title": [
+          "Journal of Biomedical Informatics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1532046426001085?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1532046426001085?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              18
+            ]
+          ],
+          "date-time": "2026-08-18T07:28:57Z",
+          "timestamp": 1787038137000
+        },
+        "score": 22.47076,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1532046426001085"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              9
+            ]
+          ]
+        },
+        "references-count": 43,
+        "alternative-id": [
+          "S1532046426001085"
+        ],
+        "URL": "https://doi.org/10.1016/j.jbi.2026.105084",
+        "ISSN": [
+          "1532-0464"
+        ],
+        "issn-type": [
+          {
+            "value": "1532-0464",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Selective classification under imbalance in multiclass settings: A novel metric for bias-aware risk\u2013coverage evaluation",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Journal of Biomedical Informatics",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.jbi.2026.105084",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "\u00a9 2026 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "article-number": "105084"
+      },
+      {
+        "institution": [
+          {
+            "name": "Research Square"
+          }
+        ],
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              9
+            ]
+          ],
+          "date-time": "2026-09-09T08:06:57Z",
+          "timestamp": 1788941217345,
+          "version": "build-2803163510"
+        },
+        "posted": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              9
+            ]
+          ]
+        },
+        "group-title": "In Review",
+        "reference-count": 0,
+        "publisher": "Springer Science and Business Media LLC",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  9,
+                  9
+                ]
+              ],
+              "date-time": "2026-09-09T00:00:00Z",
+              "timestamp": 1788912000000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "accepted": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              21
+            ]
+          ]
+        },
+        "abstract": "<title>Abstract</title>\n                <p>Post-hoc calibration is often treated as a default step after training probabilistic classifiers, but that default is less clear when calibration labels are limited and the downstream objective includes abstention quality as well as probability accuracy. This paper studies a lightweight calibration-selection policy for selective classification on OpenML-style tabular tasks, where a probe calibration fit is used to decide whether calibration should be retained or skipped for a given model-condition case. The empirical record covers 15 datasets, 652 completed base evaluation cases, and 1,304 non-raw rows with both negative log-likelihood (NLL) and area under the risk-coverage curve (AURC) available. Within this benchmark, both tested calibrators improve mean NLL relative to raw predictions on average, yet calibration can also worsen mean AURC, so better probability fit does not imply better abstention behavior. The analysis therefore evaluates both row-level gates and a deployed case-level action selector that chooses exactly one action from \\{raw, temperature scaling, Dirichlet calibration\\}. The best joint case-level selector chooses a non-raw calibrator in 55.8\\% of completed cases, reaches mean \\(\\Delta\\)NLL \\(-0.0404\\), mean \\(\\Delta\\)AURC \\(-1.20\\times10^{-4}\\), and reduces NLL harm to 6.1\\%. Among the tested meta-models, logistic regression is the strongest candidate, outperforming a decision tree under NLL, AURC, and a joint selection criterion. The evidence supports framing calibration on small tabular validation splits as a conditional probe-and-select intervention rather than a universally beneficial or purely compute-saving post-processing step.</p>",
+        "DOI": "10.21203/rs.3.rs-10426790/v1",
+        "type": "posted-content",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              9
+            ]
+          ],
+          "date-time": "2026-09-09T07:33:37Z",
+          "timestamp": 1788939217000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "A Lightweight Calibration-Selection Policy After a Probe Fit for Selective Classification on OpenML Tabular Tasks"
+        ],
+        "prefix": "10.21203",
+        "author": [
+          {
+            "given": "Haolun",
+            "family": "Tang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Shanghai Dianji University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jingyi",
+            "family": "Zhan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Dianji University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yan",
+            "family": "Feng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Dianji University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhipeng",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Dianji University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "297",
+        "link": [
+          {
+            "URL": "https://www.researchsquare.com/article/rs-10426790/v1",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.researchsquare.com/article/rs-10426790/v1.html",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              9
+            ]
+          ],
+          "date-time": "2026-09-09T07:33:37Z",
+          "timestamp": 1788939217000
+        },
+        "score": 21.243559,
+        "resource": {
+          "primary": {
+            "URL": "https://www.researchsquare.com/article/rs-10426790/v1"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              9
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.21203/rs.3.rs-10426790/v1",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              9
+            ]
+          ]
+        },
+        "subtype": "preprint"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              27
+            ]
+          ],
+          "date-time": "2026-08-27T01:20:15Z",
+          "timestamp": 1787793615856,
+          "version": "build-2784847793"
+        },
+        "posted": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              31
+            ]
+          ]
+        },
+        "group-title": "Computer Science and Mathematics",
+        "reference-count": 0,
+        "publisher": "MDPI AG",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  7,
+                  31
+                ]
+              ],
+              "date-time": "2026-07-31T00:00:00Z",
+              "timestamp": 1785456000000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "accepted": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              31
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Emotion recognition in children\u2019s drawings is difficult because affect is carried by sparse strokes, symbolic objects, and overall composition rather than by the stable appearance statistics of photographs. Work in this area typically reports a single accuracy figure, which says little about which predictions can be trusted. We built a reproducible four-class benchmark (Angry, Fear, Happy, Sad) on an existing public corpus of 818 children\u2019s drawings and compared three transfer-learning regimes under identical stratified five-fold splits with nested model selection: ResNet-50, ViT-B/16, and an end-to-end fine-tuned SigLIP image encoder (SigLIP-FT). Reliability was assessed using top-1\u2013top-2 probability margins, expected calibration error (ECE), and margin-based selective prediction. Five annotators independently labeled all images under a pre-specified analysis plan, providing a human reference point on the same items. SigLIP-FT reached the highest macro-F1 (0.773\u00b10.028) ahead of ViT-B/16 (0.700\u00b10.040) and ResNet-50 (0.598\u00b10.038), and was the best calibrated (ECE 0.119). Margin-based abstention raised its macro-F1 to 0.818 at 73.0% coverage and 0.867 at 55.0%. Fear was also the least reliably judged category for annotators (Krippendorff\u2019s \u03b1=0.422), yet their majority vote recovered the corpus labels with macro-F1 0.960, well above the model. Coverage\u2013performance behavior, rather than a single full-coverage score, is therefore the appropriate reporting standard for ambiguous visual domains of this kind.</jats:p>",
+        "DOI": "10.20944/preprints202607.2392.v1",
+        "type": "posted-content",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              6
+            ]
+          ],
+          "date-time": "2026-08-06T01:32:22Z",
+          "timestamp": 1785979942000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "How Reliable Is Automatic Emotion Classification in Children\u2019s Drawings? A Reproducible Benchmark with Calibration and Selective Prediction"
+        ],
+        "prefix": "10.20944",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-5161-9477",
+            "authenticated-orcid": false,
+            "given": "Hoonhee",
+            "family": "Lee",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Minwoo",
+            "family": "Kim",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jaewon",
+            "family": "Kim",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jungsup",
+            "family": "Oh",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "1968",
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              27
+            ]
+          ],
+          "date-time": "2026-08-27T00:42:51Z",
+          "timestamp": 1787791371000
+        },
+        "score": 20.550278,
+        "resource": {
+          "primary": {
+            "URL": "https://www.preprints.org/manuscript/202607.2392/v1"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              31
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.20944/preprints202607.2392.v1",
+        "relation": {
+          "is-preprint-of": [
+            {
+              "id-type": "doi",
+              "id": "10.3390/app16168333",
+              "asserted-by": "subject"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              31
+            ]
+          ]
+        },
+        "subtype": "preprint"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ],
+          "date-time": "2026-05-06T07:18:17Z",
+          "timestamp": 1778051897134,
+          "version": "3.51.4"
+        },
+        "reference-count": 15,
+        "publisher": "IEEE",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  3,
+                  26
+                ]
+              ],
+              "date-time": "2026-03-26T00:00:00Z",
+              "timestamp": 1774483200000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  3,
+                  26
+                ]
+              ],
+              "date-time": "2026-03-26T00:00:00Z",
+              "timestamp": 1774483200000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              26
+            ]
+          ]
+        },
+        "DOI": "10.1109/aiei69164.2026.11497227",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              5
+            ]
+          ],
+          "date-time": "2026-05-05T20:00:49Z",
+          "timestamp": 1778011249000
+        },
+        "page": "1-5",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Learning to Decide When Not to Decide: Coverage-Constrained Selective Classification with Abstention"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "Janice Karen",
+            "family": "Petra K",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "St. Joseph&#x2019;s College of Engineering,Department of Artificial Intelligence and Machine Learning,Chennai,India"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jenavani",
+            "family": "D",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "St. Joseph&#x2019;s College of Engineering,Department of Artificial Intelligence and Machine Learning,Chennai,India"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Deepa",
+            "family": "R",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "St. Joseph&#x2019;s College of Engineering,Department of Artificial Intelligence and Machine Learning,Chennai,India"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-031-70368-3_25"
+          },
+          {
+            "key": "ref2",
+            "first-page": "1227",
+            "article-title": "Classification with abstention but without disparities",
+            "volume-title": "Uncertainty in artificial intelligence",
+            "author": "Schreuder"
+          },
+          {
+            "key": "ref3",
+            "article-title": "Confidence-aware contrastive learning for selective classification",
+            "author": "Wu",
+            "year": "2024"
+          },
+          {
+            "key": "ref4",
+            "article-title": "Calibrated selective classification",
+            "author": "Fisch",
+            "year": "2022"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tnnls.2025.3565159"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10462-024-10845-9"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tfuzz.2025.3536564"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.eswa.2024.125833"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1186/s12911-021-01655-y"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1029/2021ms002575"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-031-19842-7_15"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/wacv61041.2025.00522"
+          },
+          {
+            "key": "ref14",
+            "article-title": "Recent Advances in Out-of-Distribution Detection with CLIP-Like Models: A Survey",
+            "author": "Li",
+            "year": "2025"
+          },
+          {
+            "key": "ref15",
+            "author": "SAYYED",
+            "year": "2025",
+            "journal-title": "Out-of-Distribution Detection in Computer Vision: A Comprehensive Survey and Research Challenges"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-3-031-70368-3_25",
+            "article-title": "Interpretable and fair mechanisms for abstaining classifiers",
+            "volume-title": "Joint European Conference on Machine Learning and Knowledge Discovery in Databases (pp. 416-433)",
+            "author": "Lenders"
+          }
+        ],
+        "event": {
+          "name": "2026 IEEE International Conference on AI Engineering and Innovations (AIEI)",
+          "location": "NIT Jamshedpur, India",
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                26
+              ]
+            ]
+          },
+          "end": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                28
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2026 IEEE International Conference on AI Engineering and Innovations (AIEI)"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/11496636/11496656/11497227.pdf?arnumber=11497227",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ],
+          "date-time": "2026-05-06T06:33:08Z",
+          "timestamp": 1778049188000
+        },
+        "score": 19.872042,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/11497227/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              26
+            ]
+          ]
+        },
+        "references-count": 15,
+        "URL": "https://doi.org/10.1109/aiei69164.2026.11497227",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              26
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              19
+            ]
+          ],
+          "date-time": "2026-08-19T12:30:15Z",
+          "timestamp": 1787142615777,
+          "version": "build-2736575974"
+        },
+        "posted": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "group-title": "SSRN",
+        "reference-count": 0,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2026-01-01T00:00:00Z",
+              "timestamp": 1767225600000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "abstract": "<jats:p>High classification accuracy alone is insufficient for deploying deep learning models in clinical image analysis, where calibrated confidence and reliable uncertainty handling are essential. This study proposes a reliability-aware Hybrid-K ensemble selection framework for multiclass cervical cytology classification using the SIPaKMeD dataset. Nine candidate deep learning architectures were trained under a shared protocol using a fixed stratified five-fold partition, with training repeated under three independent training seeds. After post-hoc temperature scaling, models were evaluated using eight metrics spanning classification performance, calibration, probabilistic reliability, and selective prediction: macro-F1, accuracy, area under the receiver operating characteristic curve (AUROC), expected calibration error (ECE), worst-class ECE (WC-ECE), area under the risk-coverage curve (AURC), Brier score, and negative log-likelihood (NLL). Candidate models were ranked using an equal-weight reliability-aware composite score, and Hybrid-K ensembles were constructed from the top-ranked models using soft voting. Robustness was assessed using 5,000 Dirichlet-sampled metric-weight vectors, leave-one-metric-out sensitivity analysis, and corrected repeated cross-validation paired statistical testing across 15 foldby-seed evaluations (5 fixed folds \u00d7 3 training seeds). The final Hybrid-2 ensemble, composed of Swin-Tiny and TinyViT-5M, reduced AURC by 43%, NLL by 17%, and worst-class ECE by 36% compared with the best individual model. It was selected in 96.8% of random weighting scenarios, remained unchanged across all leave-one-metric-out ablations, and improved the full composite score. Those results demonstrate the value of the proposed Hybrid-K framework, although the permetric gains over the best individual model were not statistically significant under the corrected repeated cross-validation paired t-test with Holm-Bonferroni correction (all Holm-adjusted p \u2265 0.168). Because the post-hoc calibration procedure did not use a fully independent calibration set, the calibration-dependent quantities reported here should be interpreted as internal exploratory estimates. These results show that reliability-aware ensemble selection can identify a compact ensemble that is robust to alternative metric weightings and improves reliability point estimates for cervical cytology classification under internal validation on a single dataset.</jats:p>",
+        "DOI": "10.2139/ssrn.7302619",
+        "type": "posted-content",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              19
+            ]
+          ],
+          "date-time": "2026-08-19T11:48:40Z",
+          "timestamp": 1787140120000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "&lt;div&gt;\n Reliability-aware Hybrid-K Ensemble Selection for Cervical Cytology Classification:&amp;nbsp;\n&lt;/div&gt;\n&lt;div&gt;\n Integrating Discrimination, Calibration, and Selective Prediction\n&lt;/div&gt;"
+        ],
+        "prefix": "10.2139",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0000-9317-340X",
+            "authenticated-orcid": true,
+            "given": "Nisreen",
+            "family": "Albzour",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7726-6179",
+            "authenticated-orcid": true,
+            "given": "Sarah",
+            "family": "Lam",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              19
+            ]
+          ],
+          "date-time": "2026-08-19T11:48:41Z",
+          "timestamp": 1787140121000
+        },
+        "score": 19.092094,
+        "resource": {
+          "primary": {
+            "URL": "https://www.ssrn.com/abstract=7302619"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.2139/ssrn.7302619",
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "subtype": "preprint"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              13
+            ]
+          ],
+          "date-time": "2026-08-13T09:29:49Z",
+          "timestamp": 1786613389453,
+          "version": "build-2736575974"
+        },
+        "reference-count": 21,
+        "publisher": "MDPI AG",
+        "issue": "8",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  8,
+                  13
+                ]
+              ],
+              "date-time": "2026-08-13T00:00:00Z",
+              "timestamp": 1786579200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "J. Risk Financial Manag.",
+          "JRFM"
+        ],
+        "abstract": "<jats:p>This paper develops a six-component diagnostic protocol for evaluating confidence-based selective prediction on autocorrelated financial labels, demonstrating it on VIX regime classification across 5000 trading days (July 2006\u2013May 2026). The protocol combines coverage-matched baseline comparison, joint-coverage decomposition, regime-transition auditing, risk\u2013coverage analysis, feature attribution, and abstention confound testing. Applied to Random Forest, Histogram Gradient Boosting, and XGBoost classifiers with 36 features, the protocol indicates that headline selective accuracy of 90\u201394% largely reflects label persistence: on jointly covered days, the Random Forest and a persistence rule calibrated on training data make identical predictions at three of five horizons (McNemar b=c=0) and disagree on at most 3 of 708 days elsewhere. All three classifiers and a forecast-then-threshold HAR model achieve 0% covered accuracy on calm-to-high transitions\u2014across 16 distinct transition episodes at the shortest horizon\u2014and an LSTM performs below chance on the same days. The pattern is consistent with an informational constraint of the daily feature set rather than a model deficiency, and it replicates on S&amp;P 500 trend regimes. The protocol is modular and directly applicable to other selective prediction systems on serially correlated outcomes.</jats:p>",
+        "DOI": "10.3390/jrfm19080609",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              13
+            ]
+          ],
+          "date-time": "2026-08-13T08:06:16Z",
+          "timestamp": 1786608376000
+        },
+        "page": "609",
+        "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Selective Prediction and the Persistence Illusion: A Diagnostic Decomposition of VIX Regime Classification"
+        ],
+        "prefix": "10.3390",
+        "volume": "19",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0003-7993-1640",
+            "authenticated-orcid": false,
+            "given": "Akshat",
+            "family": "Gupta",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Texas Academy of Mathematics and Science, University of North Texas, Denton, TX 76203, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jianguo",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Mathematics, University of North Texas, Denton, TX 76203, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "1968",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              13
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "ref_1",
+            "doi-asserted-by": "crossref",
+            "first-page": "579",
+            "DOI": "10.1111/1468-0262.00418",
+            "article-title": "Modeling and forecasting realized volatility",
+            "volume": "71",
+            "author": "Andersen",
+            "year": "2003",
+            "journal-title": "Econometrica"
+          },
+          {
+            "key": "ref_2",
+            "first-page": "1823",
+            "article-title": "Classification with a reject option using a hinge loss",
+            "volume": "9",
+            "author": "Bartlett",
+            "year": "2008",
+            "journal-title": "Journal of Machine Learning Research"
+          },
+          {
+            "key": "ref_3",
+            "doi-asserted-by": "crossref",
+            "first-page": "181",
+            "DOI": "10.1016/j.jeconom.2014.05.008",
+            "article-title": "The VIX, the variance premium and stock market volatility",
+            "volume": "183",
+            "author": "Bekaert",
+            "year": "2014",
+            "journal-title": "Journal of Econometrics"
+          },
+          {
+            "key": "ref_4",
+            "doi-asserted-by": "crossref",
+            "first-page": "623",
+            "DOI": "10.3982/ECTA6248",
+            "article-title": "The impact of uncertainty shocks",
+            "volume": "77",
+            "author": "Bloom",
+            "year": "2009",
+            "journal-title": "Econometrica"
+          },
+          {
+            "key": "ref_5",
+            "doi-asserted-by": "crossref",
+            "first-page": "307",
+            "DOI": "10.1016/0304-4076(86)90063-1",
+            "article-title": "Generalized autoregressive conditional heteroskedasticity",
+            "volume": "31",
+            "author": "Bollerslev",
+            "year": "1986",
+            "journal-title": "Journal of Econometrics"
+          },
+          {
+            "key": "ref_6",
+            "doi-asserted-by": "crossref",
+            "first-page": "5",
+            "DOI": "10.1023/A:1010933404324",
+            "article-title": "Random forests",
+            "volume": "45",
+            "author": "Breiman",
+            "year": "2001",
+            "journal-title": "Machine Learning"
+          },
+          {
+            "key": "ref_7",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Chen, T., and Guestrin, C. (2016). XGBoost: A scalable tree boosting system. Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining, ACM.",
+            "DOI": "10.1145/2939672.2939785"
+          },
+          {
+            "key": "ref_8",
+            "doi-asserted-by": "crossref",
+            "first-page": "41",
+            "DOI": "10.1109/TIT.1970.1054406",
+            "article-title": "On optimum recognition error and reject tradeoff",
+            "volume": "16",
+            "author": "Chow",
+            "year": "1970",
+            "journal-title": "IEEE Transactions on Information Theory"
+          },
+          {
+            "key": "ref_9",
+            "first-page": "174",
+            "article-title": "A simple approximate long-memory model of realized volatility",
+            "volume": "7",
+            "author": "Corsi",
+            "year": "2009",
+            "journal-title": "Journal of Financial Economics"
+          },
+          {
+            "key": "ref_10",
+            "first-page": "1605",
+            "article-title": "On the foundations of noise-free selective classification",
+            "volume": "11",
+            "author": "Wiener",
+            "year": "2010",
+            "journal-title": "Journal of Machine Learning Research"
+          },
+          {
+            "key": "ref_11",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1016/j.jbankfin.2013.11.004",
+            "article-title": "Modeling and predicting the CBOE market volatility index",
+            "volume": "40",
+            "author": "Fernandes",
+            "year": "2014",
+            "journal-title": "Journal of Banking & Finance"
+          },
+          {
+            "key": "ref_12",
+            "unstructured": "Fisch, A., Jaakkola, T., and Barzilay, R. (2022). Calibrated selective classification. Transactions on Machine Learning Research."
+          },
+          {
+            "key": "ref_13",
+            "unstructured": "Geifman, Y., and El-Yaniv, R. (2017). Selective classification for deep neural networks. Advances in Neural Information Processing Systems, 30."
+          },
+          {
+            "key": "ref_14",
+            "unstructured": "Geifman, Y., Uziel, G., and El-Yaniv, R. (, January May). Bias-reduced uncertainty estimation for deep neural classifiers. International Conference on Learning Representations (ICLR), New Orleans, LA, USA."
+          },
+          {
+            "key": "ref_15",
+            "doi-asserted-by": "crossref",
+            "first-page": "2223",
+            "DOI": "10.1093/rfs/hhaa009",
+            "article-title": "Empirical asset pricing via machine learning",
+            "volume": "33",
+            "author": "Gu",
+            "year": "2020",
+            "journal-title": "The Review of Financial Studies"
+          },
+          {
+            "key": "ref_16",
+            "doi-asserted-by": "crossref",
+            "first-page": "3503",
+            "DOI": "10.1016/j.jedc.2006.12.004",
+            "article-title": "Asset allocation under multivariate regime switching",
+            "volume": "31",
+            "author": "Guidolin",
+            "year": "2007",
+            "journal-title": "Journal of Economic Dynamics and Control"
+          },
+          {
+            "key": "ref_17",
+            "doi-asserted-by": "crossref",
+            "first-page": "357",
+            "DOI": "10.2307/1912559",
+            "article-title": "A new approach to the economic analysis of nonstationary time series and the business cycle",
+            "volume": "57",
+            "author": "Hamilton",
+            "year": "1989",
+            "journal-title": "Econometrica"
+          },
+          {
+            "key": "ref_18",
+            "doi-asserted-by": "crossref",
+            "first-page": "1217",
+            "DOI": "10.1214/aos/1176347265",
+            "article-title": "The jackknife and the bootstrap for general stationary observations",
+            "volume": "17",
+            "author": "Kunsch",
+            "year": "1989",
+            "journal-title": "Annals of Statistics"
+          },
+          {
+            "key": "ref_19",
+            "unstructured": "Lundberg, S. M., and Lee, S. I. (2017). A unified approach to interpreting model predictions. Advances in Neural Information Processing Systems, 30."
+          },
+          {
+            "key": "ref_20",
+            "doi-asserted-by": "crossref",
+            "first-page": "527",
+            "DOI": "10.1016/j.jfineco.2012.06.005",
+            "article-title": "\u2018D\u00e9j\u00e0 vol\u2019: Predictive regressions for aggregate stock market volatility using macroeconomic variables",
+            "volume": "106",
+            "author": "Paye",
+            "year": "2012",
+            "journal-title": "Journal of Financial Economics"
+          },
+          {
+            "key": "ref_21",
+            "doi-asserted-by": "crossref",
+            "first-page": "98",
+            "DOI": "10.3905/JPM.2009.35.3.098",
+            "article-title": "Understanding the VIX",
+            "volume": "35",
+            "author": "Whaley",
+            "year": "2009",
+            "journal-title": "Junior Portfolio Manager"
+          }
+        ],
+        "container-title": [
+          "Journal of Risk and Financial Management"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://www.mdpi.com/1911-8074/19/8/609/pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              13
+            ]
+          ],
+          "date-time": "2026-08-13T09:06:16Z",
+          "timestamp": 1786611976000
+        },
+        "score": 18.34993,
+        "resource": {
+          "primary": {
+            "URL": "https://www.mdpi.com/1911-8074/19/8/609"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              13
+            ]
+          ]
+        },
+        "references-count": 21,
+        "journal-issue": {
+          "issue": "8",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                8
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "jrfm19080609"
+        ],
+        "URL": "https://doi.org/10.3390/jrfm19080609",
+        "ISSN": [
+          "1911-8074"
+        ],
+        "issn-type": [
+          {
+            "value": "1911-8074",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              13
+            ]
+          ]
+        }
+      },
+      {
+        "institution": [
+          {
+            "name": "medRxiv"
+          }
+        ],
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              5
+            ]
+          ],
+          "date-time": "2026-09-05T18:12:10Z",
+          "timestamp": 1788631930309,
+          "version": "build-2803163510"
+        },
+        "posted": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              2
+            ]
+          ]
+        },
+        "group-title": "Health Policy",
+        "reference-count": 24,
+        "publisher": "openRxiv",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  3,
+                  2
+                ]
+              ],
+              "date-time": "2026-03-02T00:00:00Z",
+              "timestamp": 1772409600000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+          }
+        ],
+        "funder": [
+          {
+            "award": [
+              "R37DA015612"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "R37DA015612"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "https://ror.org/00fq5cm18",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "award": [
+              "R01DA15612"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "R01DA15612"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "https://ror.org/00fq5cm18",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "award": [
+              "U01-CA253913"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "U01-CA253913"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "https://ror.org/040gcmg81",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "award": [
+              "U01-CA265750"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "U01-CA265750"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "https://ror.org/040gcmg81",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "accepted": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              3
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Purpose</jats:title>\n                  <jats:p>We introduce PRE-CISE, a pre-calibration workflow integrating coverage analysis, local sensitivity, and collinearity diagnostics to streamline model calibration. We demonstrate PRE-CISE\u2019s benefits using two testbeds (a Sick-Sicker Markov model and an SIR transmission model) and a COVID-19 case study.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>PRE-CISE uses coverage analysis to verify that model outputs generated from the prior distribution span calibration targets, followed by local sensitivities to quantify parameter influence, guiding the resizing of prior bounds to improve coverage. Identifiability is assessed via collinearity analysis; large indices indicate practical nonidentifiability. Bayesian calibration was used: for the testbed models (3 and 2 parameters, respectively) to match their targets; for the COVID-19 model (11 parameters) to match daily confirmed incident cases.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>Coverage analyses flagged initial misfits; local sensitivities identified that the Sick-to-Sicker transition probability has a greater effect on model outputs, and resizing its prior distribution bounds improved coverage. Collinearity analyses indicated that using multiple calibration targets over different time points enabled identification of all three parameters. For the SIR testbed, collinearity indices declined as target points accumulated, crossing the identifiability threshold once the data spanned the epidemic peak. In the COVID-19 model, local sensitivity analyses prioritized time-varying detection rates and contact-reduction effects, reducing the search space. Daily incident case calibration targets yielded collinearity indices below practical thresholds for all parameter combinations, whereas indices for weekly calibration targets were larger. PRE-CISE achieved greater calibration efficiency gains for denser posterior sampling and more complex models.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>PRE-CISE provides a practical, transparent pathway that helps modelers refine prior distribution bounds and calibration targets before intensive calibration, improving uncertainty reporting and strengthening the reliability of model-based health policy analyses.</jats:p>\n                </jats:sec>",
+        "DOI": "10.64898/2026.02.27.26346591",
+        "type": "posted-content",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              2
+            ]
+          ],
+          "date-time": "2026-03-02T15:00:26Z",
+          "timestamp": 1772463626000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "PRE-CISE: A PRE-calibration Coverage, Identifiability, and SEnsitivity analysis workflow to streamline model calibration"
+        ],
+        "prefix": "10.64898",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-4853-2922",
+            "authenticated-orcid": false,
+            "given": "Valeria",
+            "family": "Gracia",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Health Policy, Stanford University School of Medicine, Stanford, CA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4007-5192",
+            "authenticated-orcid": false,
+            "given": "Jeremy D.",
+            "family": "Goldhaber-Fiebert",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Health Policy, Stanford University School of Medicine, Stanford, CA, USA"
+              },
+              {
+                "name": "Center for Health Policy, Freeman Spogli Institute for International Studies, Stanford University, Stanford, CA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5076-1172",
+            "authenticated-orcid": false,
+            "given": "Fernando",
+            "family": "Alarid-Escudero",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Health Policy, Stanford University School of Medicine, Stanford, CA, USA"
+              },
+              {
+                "name": "Center for Health Policy, Freeman Spogli Institute for International Studies, Stanford University, Stanford, CA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "54368",
+        "reference": [
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1046/j.1524-4733.2003.00234.x"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Briggs A , Sculpher M , and Claxton K. Decision Modelling for Health Economic Evaluation. Oup Oxford, 2006",
+            "DOI": "10.1093/oso/9780198526629.001.0001"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0272989X12454577"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2165/11584600-000000000-00000"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s40273-017-0494-4"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0272989X18792283"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/hec.4681"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0272989x241255618"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1029/2000WR900350"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0304-3800(01)00257-5"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-1-4020-8624-3"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.18637/jss.v033.i01"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/23814683211049249"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.14",
+            "unstructured": "Caswell H. Matrix population models: construction, analysis, and interpretation. English. Massachusetts, United States: Sunderland, Mass.: Sinauer Associates, 2001"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0272989X14528382"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0272989X221103163"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/0272989X18754513"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1198/106186006X132358"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1111/j.1541-0420.2010.01399.x"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.20",
+            "first-page": "587",
+            "volume": "1",
+            "author": "Anonymous",
+            "year": "1978",
+            "journal-title": "Influenza in a boarding school. British Medical Journal"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.21",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Keeling MJ and Rohani P. Modeling Infectious Diseases in Humans and Animals. Princeton, NJ: Princeton University Press, 2008",
+            "DOI": "10.1515/9781400841035"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.22",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.chaos.2024.115041"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.23",
+            "unstructured": "Direcci\u00f3n General de Epidemiolog\u00eda. Datos Abiertos Direcci\u00f3n General de Epidemiolog\u00eda. Available from: https://www.gob.mx/salud/documentos/datos-abiertos-152127"
+          },
+          {
+            "key": "2026090510300806000_2026.02.27.26346591v2.24",
+            "first-page": "1",
+            "article-title": "Active learning for efficiently training emulators of computationally expensive mathematical models",
+            "year": "2020",
+            "journal-title": "Statistics in Medicine"
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.02.27.26346591",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              5
+            ]
+          ],
+          "date-time": "2026-09-05T17:30:12Z",
+          "timestamp": 1788629412000
+        },
+        "score": 18.093601,
+        "resource": {
+          "primary": {
+            "URL": "http://medrxiv.org/lookup/doi/10.64898/2026.02.27.26346591"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              2
+            ]
+          ]
+        },
+        "references-count": 24,
+        "URL": "https://doi.org/10.64898/2026.02.27.26346591",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              2
+            ]
+          ]
+        },
+        "subtype": "preprint"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              13
+            ]
+          ],
+          "date-time": "2026-06-13T04:59:24Z",
+          "timestamp": 1781326764507,
+          "version": "3.54.1"
+        },
+        "reference-count": 31,
+        "publisher": "IEEE",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  6
+                ]
+              ],
+              "date-time": "2026-05-06T00:00:00Z",
+              "timestamp": 1778025600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  6
+                ]
+              ],
+              "date-time": "2026-05-06T00:00:00Z",
+              "timestamp": 1778025600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1109/icetsis68266.2026.11549367",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              12
+            ]
+          ],
+          "date-time": "2026-06-12T19:40:44Z",
+          "timestamp": 1781293244000
+        },
+        "page": "1177-1182",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Risk-Aware Calibration and Interpretable Baselines for Mental Health Text Classification"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "Pulivarthi",
+            "family": "Bindumadhavi",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Vemu Institute of Technology,Department of Computer Science and Engineering,Chittoor District,Andhra Pradesh,517112"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Seeniappan",
+            "family": "Kaliappan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "KCG College of Technology,Department of Mechanical Engineering,Chennai,Tamil Nadu,India,600097"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kanegonda Ravi",
+            "family": "Chythanya",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Artificial Intelligence, SR University,Warangal,Telangana,India,506371"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ayush Singh",
+            "family": "Bangari",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Chitkara University Institute of Engineering and Technology, Chitkara University,Rajpura,Punjab,India,140401"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1287/isre.2021.0619"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s13278-024-01360-4"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00521-024-09642-w"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10994-023-06336-7"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.18653/v1/2022.findings-emnlp.198"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/DASA63652.2024.10836567"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICACCM61117.2024.11059038"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/NMITCON62075.2024.10698878"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICDICI62993.2024.10810855"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.63317/372jegsog7nt"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-030-86380-7_12"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jjimei.2024.100280"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11831-022-09863-z"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/info16020114"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.cogsys.2023.101186"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICICT57646.2023.10134332"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00500-021-05614-7"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.rineng.2025.105225"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2174/0115734056360199250227053012"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ACCESS.2025.3563256"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10341-025-01388-6"
+          },
+          {
+            "key": "ref22",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10341-025-01576-4"
+          },
+          {
+            "key": "ref23",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.knee.2026.104428"
+          },
+          {
+            "key": "ref24",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.63317/2d7umxifj8wz"
+          },
+          {
+            "key": "ref25",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.18653/v1/2022.findings-acl.290"
+          },
+          {
+            "key": "ref26",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.18653/v1/2023.findings-emnlp.654"
+          },
+          {
+            "key": "ref27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICOSEC51865.2021.9591887"
+          },
+          {
+            "key": "ref29",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICTBIG68706.2025.11323988"
+          },
+          {
+            "key": "ref30",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ACROSET66531.2025.11280784"
+          },
+          {
+            "key": "ref31",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ACROSET66531.2025.11281050"
+          },
+          {
+            "key": "ref32",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.29252/jafm.13.01.29881"
+          }
+        ],
+        "event": {
+          "name": "2026 ASU International Conference in Emerging Technologies for Sustainability and Intelligent Systems (ICETSIS)",
+          "location": "Manama, Bahrain",
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                6
+              ]
+            ]
+          },
+          "end": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                7
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2026 ASU International Conference in Emerging Technologies for Sustainability and Intelligent Systems (ICETSIS)"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/11548694/11548708/11549367.pdf?arnumber=11549367",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              13
+            ]
+          ],
+          "date-time": "2026-06-13T04:54:37Z",
+          "timestamp": 1781326477000
+        },
+        "score": 17.532125,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/11549367/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ]
+        },
+        "references-count": 31,
+        "URL": "https://doi.org/10.1109/icetsis68266.2026.11549367",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              17
+            ]
+          ],
+          "date-time": "2026-07-17T07:14:24Z",
+          "timestamp": 1784272464595,
+          "version": "3.55.0"
+        },
+        "posted": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              10
+            ]
+          ]
+        },
+        "group-title": "Computer Science and Mathematics",
+        "reference-count": 0,
+        "publisher": "MDPI AG",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  4,
+                  10
+                ]
+              ],
+              "date-time": "2026-04-10T00:00:00Z",
+              "timestamp": 1775779200000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "accepted": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              8
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Obesity represents a significant public health concern, attributable to its high preva-lence and its association with cardiometabolic comorbidities. This study compared a set of ensemble learning models\u2014including canonical ensembles, meta-ensembles, and base-lines for tabular data\u2014in a multiclass obesity status prediction task using the \u201cObesity Dataset\u201d (n = 1,610; 14 predictors; 4 classes). To ensure methodological rigor, a pipeline was implemented using ColumnTransformer, standardization, one-hot encoding, and re-balancing via SMOTENC applied exclusively to the training folds, thereby preventing data leakage. The performance of the system was evaluated using several evaluation metrics, including accuracy, F1-score, precision, recall, Cohen&amp;#039;s kappa, and Matthews correlation coefficient. This evaluation was supplemented by a computational cost analysis. Inferen-tial comparisons were executed using the Friedman test and the Nemenyi post-hoc test (\u03b1 = 0.05). The findings indicated a high level of overall performance (\u224889\u201390.5% precision), identifying a leading group of models that were statistically indistinguishable (Group A). This group included LightGBM (90.49% \u00b1 1.38), Random Forest (90.16% \u00b1 1.70), Stacking (90.21% \u00b1 1.70), and Extra Trees (89.69% \u00b1 1.55). It has been demonstrated that models such as XGBoost, Bagging, and CatBoost demonstrate competitive performance with par-tial statistical overlap. Conversely, Gradient Boosting and AdaBoost exhibited signifi-cantly lower performance. In summary, a single dominant model was not identified; ra-ther, a set of equivalent solutions was identified. The selection of a model should be based on a balance between accuracy, computational cost, and interpretability. Random Forest and Extra Trees are efficient options, and Stacking is a valid alternative when maximizing predictive performance is prioritized.</jats:p>",
+        "DOI": "10.20944/preprints202604.0697.v1",
+        "type": "posted-content",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              10
+            ]
+          ],
+          "date-time": "2026-04-10T07:54:29Z",
+          "timestamp": 1775807669000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Benchmarking of Ensembles and Meta\u2010Ensembles in the Multiclass Classification of Obesity Risk: Predictive Performance, Calibration and Interpretability"
+        ],
+        "prefix": "10.20944",
+        "author": [
+          {
+            "given": "Daniel",
+            "family": "Andrade-Gir\u00f3n",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0861-9663",
+            "authenticated-orcid": false,
+            "given": "William",
+            "family": "Marin-Rodriguez",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4026-9832",
+            "authenticated-orcid": false,
+            "given": "Am\u00e9rico",
+            "family": "Pe\u00f1a",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Elsa",
+            "family": "Oscuvilca-Tapia",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Fredy",
+            "family": "Bermejo-Sanchez",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "1968",
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2026-06-16T05:01:41Z",
+          "timestamp": 1781586101000
+        },
+        "score": 17.514013,
+        "resource": {
+          "primary": {
+            "URL": "https://www.preprints.org/manuscript/202604.0697/v1"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              10
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.20944/preprints202604.0697.v1",
+        "relation": {
+          "is-preprint-of": [
+            {
+              "id-type": "doi",
+              "id": "10.3390/informatics13060080",
+              "asserted-by": "subject"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              10
+            ]
+          ]
+        },
+        "subtype": "preprint"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              7
+            ]
+          ],
+          "date-time": "2026-05-07T05:11:22Z",
+          "timestamp": 1778130682805,
+          "version": "3.51.4"
+        },
+        "reference-count": 21,
+        "publisher": "IEEE",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  12,
+                  19
+                ]
+              ],
+              "date-time": "2025-12-19T00:00:00Z",
+              "timestamp": 1766102400000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  12,
+                  19
+                ]
+              ],
+              "date-time": "2025-12-19T00:00:00Z",
+              "timestamp": 1766102400000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              19
+            ]
+          ]
+        },
+        "DOI": "10.1109/iccit68739.2025.11491448",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ],
+          "date-time": "2026-05-06T19:37:56Z",
+          "timestamp": 1778096276000
+        },
+        "page": "5496-5501",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Trustworthy Smishing Detection in Code-Mixed Bangla-English SMS: Dual-View XLM-R With Calibration, Selective Classification, and Open-Set Detection"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "Ahammad Hossen",
+            "family": "Eazaz",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Patuakhali Sc. and Tech. University,Faculty of CSE,Patuakhali,Bangladesh,8602"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Md Intishar",
+            "family": "Ahmed",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Patuakhali Sc. and Tech. University,Faculty of CSE,Patuakhali,Bangladesh,8602"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Golam Md. Muradul",
+            "family": "Bashir",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Patuakhali Sc. and Tech. University,Faculty of CSE,Patuakhali,Bangladesh,8602"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "year": "2024",
+            "journal-title": "Consumer sentinel network data book 2024"
+          },
+          {
+            "key": "ref2",
+            "article-title": "A survey on nlp tasks, resources and techniques for lowresource code-mixed languages",
+            "author": "Author(s)",
+            "year": "2024",
+            "journal-title": "ACM Computing Surveys"
+          },
+          {
+            "key": "ref3",
+            "year": "2024",
+            "journal-title": "Bangladesh telecommunication regulatory commission (btrc) mobile subscriber report"
+          },
+          {
+            "key": "ref4",
+            "first-page": "6282",
+            "article-title": "The state and fate of linguistic diversity and inclusion in the NLP world",
+            "volume-title": "Proceedings of ACL",
+            "author": "Joshi"
+          },
+          {
+            "key": "ref5",
+            "article-title": "Sentiment analysis of code-mixed text: A comprehensive review",
+            "author": "Author(s)",
+            "year": "2024",
+            "journal-title": "International Journal of Computer Science and Network Security (IJCSNS)"
+          },
+          {
+            "key": "ref6",
+            "first-page": "4171",
+            "article-title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+            "volume-title": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+            "author": "Devlin"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.18653/v1/2020.acl-main.747",
+            "article-title": "Unsupervised cross-lingual representation learning at scale",
+            "volume-title": "Proceedings of ACL",
+            "author": "Conneau"
+          },
+          {
+            "key": "ref8",
+            "first-page": "1321",
+            "article-title": "On calibration of modern neural networks",
+            "volume-title": "Proceedings of ICML",
+            "author": "Guo"
+          },
+          {
+            "key": "ref9",
+            "article-title": "Energy-based out-ofdistribution detection",
+            "volume-title": "Proceedings of NeurIPS",
+            "author": "Liu"
+          },
+          {
+            "key": "ref10",
+            "article-title": "A simple unified framework for detecting out-of-distribution samples and adversarial attacks",
+            "volume-title": "Proceedings of NeurIPS",
+            "author": "Lee"
+          },
+          {
+            "key": "ref11",
+            "article-title": "A unified approach to interpreting model predictions",
+            "author": "Lundberg",
+            "year": "2017",
+            "journal-title": "Advances in Neural Information Processing Systems (NeurIPS)"
+          },
+          {
+            "key": "ref12",
+            "first-page": "221782",
+            "article-title": "Deep learning for phishing detection: A survey and research directions",
+            "volume": "8",
+            "author": "Basit",
+            "year": "2020",
+            "journal-title": "IEEE Access"
+          },
+          {
+            "key": "ref13",
+            "article-title": "Unsupervised cross-lingual representation learning at scale",
+            "volume-title": "Proc. ACL",
+            "author": "Conneau",
+            "year": "2019"
+          },
+          {
+            "issue": "47",
+            "key": "ref14",
+            "first-page": "1",
+            "article-title": "Benchmarking transformer models for bengali spam and smishing detection",
+            "volume": "185",
+            "author": "Saha",
+            "year": "2023",
+            "journal-title": "International Journal of Computer Applications"
+          },
+          {
+            "key": "ref15",
+            "article-title": "Selective classification for deep neural networks",
+            "volume-title": "Proc. NeurIPS",
+            "author": "Geifman",
+            "year": "2017"
+          },
+          {
+            "key": "ref16",
+            "article-title": "Bangla SMS Dataset for Smishing Detection",
+            "author": "Tanbhir",
+            "year": "2025",
+            "journal-title": "IEEE Dataport"
+          },
+          {
+            "key": "ref17",
+            "article-title": "Sms spam collection dataset",
+            "author": "Machine",
+            "year": "2017",
+            "journal-title": "Kaggle"
+          },
+          {
+            "key": "ref18",
+            "article-title": "Bangla sms spam detection using elmo embeddings",
+            "volume-title": "Proc. International Conference on Computer and Information Technology (ICCIT)",
+            "author": "Khan"
+          },
+          {
+            "key": "ref19",
+            "article-title": "Transformer-based approaches for bangla smishing detection",
+            "author": "Saha",
+            "year": "2023",
+            "journal-title": "arXiv preprint"
+          },
+          {
+            "key": "ref20",
+            "first-page": "103646",
+            "article-title": "Bilingual sms spam detection using stacking ensemble",
+            "volume": "78",
+            "author": "Sultana",
+            "year": "2024",
+            "journal-title": "Journal of Information Security and Applications"
+          },
+          {
+            "key": "ref21",
+            "author": "Tanbhir",
+            "year": "2025",
+            "journal-title": "Bangla sms dataset for smishing detection"
+          }
+        ],
+        "event": {
+          "name": "2025 28th International Conference on Computer and Information Technology (ICCIT)",
+          "location": "Cox's Bazar, Bangladesh",
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                19
+              ]
+            ]
+          },
+          "end": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                21
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2025 28th International Conference on Computer and Information Technology (ICCIT)"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/11489965/11490092/11491448.pdf?arnumber=11491448",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              7
+            ]
+          ],
+          "date-time": "2026-05-07T04:20:37Z",
+          "timestamp": 1778127637000
+        },
+        "score": 17.508991,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/11491448/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              19
+            ]
+          ]
+        },
+        "references-count": 21,
+        "URL": "https://doi.org/10.1109/iccit68739.2025.11491448",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              19
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 12,
+    "query": {
+      "start-index": 0,
+      "search-terms": "selective classification risk coverage calibration"
+    }
+  }
+}

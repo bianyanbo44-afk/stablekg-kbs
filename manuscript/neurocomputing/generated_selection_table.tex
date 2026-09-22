@@ -1,0 +1,9 @@
+\begin{table*}[tbp]\centering\small\caption{Calibrated belief and one-window certified selection on the same predictions. Error and edit-flip rates are percentages at exactly 20\% or 40\% query coverage. Values are three-seed mean $\pm$ SD. Certified capacity is the fraction of all queries passing the certificate. Unavailable coverage is denoted by a dash.}\label{tab:selection}\begin{tabular}{lllrrrr}\toprule Backbone & Dataset & Policy & Error at 20\% & Error at 40\% & Flips at 40\% & Capacity\\\midrule
+TeRDy & ICEWS14 & Belief & $8.93\pm3.27$ & $14.70\pm2.70$ & $0.00\pm0.00$ & --\\
+TeRDy & ICEWS14 & Certified & $8.93\pm3.27$ & $14.70\pm2.70$ & $0.00\pm0.00$ & $96.75\pm2.08$\\
+TeRDy & ICEWS05-15 & Belief & $10.07\pm1.22$ & $18.70\pm0.54$ & $0.03\pm0.06$ & --\\
+TeRDy & ICEWS05-15 & Certified & $10.07\pm1.22$ & $18.68\pm0.52$ & $0.00\pm0.00$ & $89.25\pm7.22$\\
+CTF & ICEWS14 & Belief & $30.90\pm0.61$ & $46.43\pm0.42$ & $32.15\pm1.66$ & --\\
+CTF & ICEWS14 & Certified & $30.97\pm0.81$ & $47.78\pm0.59$ & $0.00\pm0.00$ & $59.16\pm1.64$\\
+CTF & ICEWS05-15 & Belief & $21.43\pm0.83$ & $35.28\pm0.51$ & $10.70\pm3.71$ & --\\
+CTF & ICEWS05-15 & Certified & $21.43\pm0.83$ & $36.57\pm1.05$ & $0.00\pm0.00$ & $55.14\pm2.18$\\\bottomrule\end{tabular}\end{table*}

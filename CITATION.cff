@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using this software. The manuscript is a submission draft, not a published Neurocomputing article."
+title: "StableKG exact certificates for editable temporal evidence"
+type: software
+version: 1.0.0
+date-released: 2026-09-22
+authors:
+  - family-names: Bian
+    given-names: Yanbo
+    affiliation: "Weihai International College, Beijing Jiaotong University"
+    email: "24722081@bjtu.edu.cn"
+repository-code: "https://github.com/bianyanbo44-afk/stablekg-kbs"
+url: "https://github.com/bianyanbo44-afk/stablekg-kbs/tree/neurocomputing-v1"
+license: MIT

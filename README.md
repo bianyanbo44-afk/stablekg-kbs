@@ -1,93 +1,43 @@
 # StableKG
 
-StableKG connects calibrated acceptance with evidence-deletion diagnostics.
-The discrete certificate is the minimum number of whole winner-support windows
-whose deletion erases a positive margin in an additive temporal evidence scorer.
-Continuous descriptors support calibrated selection and intervention diagnosis.
-A separate controlled rule-DAG experiment evaluates exact dependency updates.
+**Exact stability certificates for neural temporal knowledge graph completion**
 
-The repository contains the transparent causal benchmark, a compact temporal
-ComplEx-style neural backbone, prequential chronological audits, intervention
-experiments, source-data tables, figure generation, and the KBS manuscript.
+StableKG combines a frozen neural predictor with an editable temporal memory.
+It computes exact guarantees for shared-window evidence deletion, uses those
+certificates alongside calibrated confidence, and refreshes affected answers
+locally after an event edit.
 
-## Reproduce the reported results
+This version accompanies the manuscript prepared for **Neurocomputing**.
 
-1. Install Python dependencies with `python -m pip install -r requirements.txt`.
-2. Download and verify the public archives with `python scripts/download_data.py --dataset all`.
-3. Run the public benchmark, interventions, chronological audits and analysis:
+- [Main manuscript](manuscript/neurocomputing/main.pdf)
+- [Supplementary Information](manuscript/neurocomputing/supplementary.pdf)
+- [Reproduction instructions](README_NEUROCOMPUTING.md)
+- [Editable figures and source data](figures/neurocomputing)
+- [Submission materials](submission/neurocomputing)
+- [Release assets](https://github.com/bianyanbo44-afk/stablekg-kbs/releases/tag/neurocomputing-v1)
 
-```powershell
-.\run_all.ps1
-```
+The experiments use TeRDy and a compact temporal factorization model on
+ICEWS14 and ICEWS05-15, with three fitted seeds per combination. GDELT provides
+a separate maintenance benchmark. Exact, conservative and sampled deletion
+checks are compared on the same predictions.
 
-4. Add `-RunSynthetic` to regenerate the 20-seed controlled audit. Add
-   `-RunNeural` to train the reported 3-seed neural backbones. Add
-   `-CompilePaper` to compile both the Elsevier `elsarticle` manuscript and
-   its supplementary information.
-
-The corrected public-data results are in `results_final_v5/`; `results.csv`,
-`public_ICEWS14.csv`, and earlier `results_final/` benchmark summaries are
-historical artifacts and are excluded from the manuscript. The combined
-statistics used by the figures are in `results_final_v5/analysis/`.
-
-`-BuildOnly -CompilePaper` regenerates statistics, six figures, the main PDF
-and supplementary PDF from the supplied experimental outputs. `-CompilePaper`
-alone compiles the current LaTeX without rerunning experiments. Every external
-process exit code is checked. For a complete run including model training:
+To rebuild the figures and paper from archived query outputs:
 
 ```powershell
-.\run_all.ps1 -RunSynthetic -RunNeural -CompilePaper
+python -m pip install -r requirements-neurocomputing.txt
+./run_neurocomputing.ps1 -CompilePaper
 ```
 
-The manuscript entry point uses the reported 5,000-query, five-seed protocol.
-Use individual experiment CLIs with separate output directories for smoke runs.
-LaTeX requires `elsarticle`, `latexmk`, `xurl` and `placeins` in addition to the
-math and graphics packages. Figure reproduction has a local geometry checker;
-the development-only figure skills are optional for reproduction.
+The source archive is downloaded from the release and verified by SHA-256.
+The full training route is documented in the reproduction instructions.
 
-The review release includes matched controls, intervention AUROC comparisons
-and equal accepted-count comparisons. `requirements-lock.txt` records tested
-direct package versions; `results_review_20260909/environment.json` records the
-Python/platform details. The earlier v4 results are preserved as historical
-outputs and are superseded by the corrected full-mass deletion calculation.
+Author: Yanbo Bian, Weihai International College, Beijing Jiaotong University.
+Contact: 24722081@bjtu.edu.cn.
 
-## Tests
+Original code is MIT licensed. Public datasets and external implementations
+retain their original terms; source URLs and hashes are in
+[data/DATA_MANIFEST.md](data/DATA_MANIFEST.md).
 
-```powershell
-python -m unittest discover -s tests -v
-```
-
-The tests cover the causal time cutoff, standard filtered average-tie ranking,
-multi-answer aggregation, validation-only threshold selection, and exact
-incremental/full recomputation agreement.
-
-## Reproducibility record
-
-All reported runs record dataset hashes, split counts, entity and time counts,
-random seeds, model dimensions, optimizer settings, calibration and operating
-sample sizes, thresholds, and source-data paths. Public benchmark figures use
-5 deterministic calibration seeds. Neural-backbone confirmation runs use 3
-training seeds. Controlled dependency-closure audits use 20 seeds in four
-five-seed batches to avoid long-process interruption on CPU-only machines.
-
-## Citation and license
-
-The dataset provenance, archive URLs, license metadata and SHA-256 values are
-listed in `data/DATA_MANIFEST.md`. Code in this repository is released under
-the MIT license in the accompanying submission package; the mirrored datasets
-remain subject to their source terms.
-
-## Recent backbone and public update extensions
-
-Completed author-code TeRDy runs are in `results_recent_v2/` (ICEWS14) and
-`results_recent_v3/` (ICEWS05-15). The public event-maintenance benchmark is in
-`results_real_updates/`. Reproduction commands are:
-
-The exact author-code checkouts are retained at commits `f3f47986adb97eee26ac2e59811dc0d02df570f4` (TeRDy) and `4617c8af7dfe1c12bc9f36f074923c2a73e3046b` (LTGQ adapter source).
-
-```powershell
-.\.venv-gpu\Scripts\python.exe experiments\recent_backbones.py --model TeRDy --dataset ICEWS14 --epochs 12 --eval-every 3 --batch 4096 --eval-batch 128 --device cuda --output results_recent_v2
-.\.venv-gpu\Scripts\python.exe experiments\recent_backbones.py --model TeRDy --dataset ICEWS05-15 --rank 2000 --epochs 8 --eval-every 2 --batch 6000 --eval-batch 128 --device cuda --output results_recent_v3
-python experiments\prepare_public_cache.py
-python experiments\real_incremental.py
-```
+The original KBS study is preserved at commit `18267a3` and described in the
+[historical README](revision/README_KBS_HISTORY.md). Its outputs are separate
+from the present renormalized-memory experiments.

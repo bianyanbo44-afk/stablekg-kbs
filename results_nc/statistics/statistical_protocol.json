@@ -1,0 +1,8 @@
+{
+  "replicates": 2000,
+  "blocks": 20,
+  "definition": "Contiguous, equal-count groups of observed query timestamps; block resampling is paired across all methods and all three fixed training seeds.",
+  "uncertainty": "Intervals describe timestamp-block sampling variation conditional on the three fitted models. Training variability is separately summarized as sample SD over three seeds.",
+  "multiplicity": "Predefined comparison family is reported completely; no significance-star or confirmatory familywise claim is made.",
+  "missing_coverage": "NA when the certified pool cannot reach the requested coverage; no silent replacement by a lower coverage."
+}

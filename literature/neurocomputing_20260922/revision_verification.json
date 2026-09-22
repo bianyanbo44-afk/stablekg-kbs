@@ -1,0 +1,715 @@
+[
+  {
+    "key": "liu2025terdy",
+    "doi": "10.18653/v1/2025.acl-long.473",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2025,
+    "venue": [
+      "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+    ],
+    "page": "9611-9622",
+    "volume": null,
+    "registry_record": "literature\\verification_20260909\\liu2025terdy.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "geng2025granularity",
+    "doi": "10.1038/s41598-025-00446-z",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2025,
+    "venue": [
+      "Scientific Reports"
+    ],
+    "page": "17065",
+    "volume": "15",
+    "registry_record": "literature\\verification_20260909\\geng2025granularity.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41598-025-00446-z.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "zhu2025multigran",
+    "doi": "10.1016/j.datak.2025.102496",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2025,
+    "venue": [
+      "Data &amp; Knowledge Engineering"
+    ],
+    "page": "102496",
+    "volume": "160",
+    "registry_record": "literature\\verification_20260909\\zhu2025multigran.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "dao2025hgct",
+    "doi": "10.1016/j.knosys.2025.113358",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2025,
+    "venue": [
+      "Knowledge-Based Systems"
+    ],
+    "page": "113358",
+    "volume": "316",
+    "registry_record": "literature\\verification_20260909\\dao2025hgct.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "chen2025dualview",
+    "doi": "10.1016/j.knosys.2025.114330",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2025,
+    "venue": [
+      "Knowledge-Based Systems"
+    ],
+    "page": "114330",
+    "volume": "329",
+    "registry_record": "literature\\verification_20260909\\chen2025dualview.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "pan2025validity",
+    "doi": "10.1016/j.knosys.2025.114094",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2025,
+    "venue": [
+      "Knowledge-Based Systems"
+    ],
+    "page": "114094",
+    "volume": "327",
+    "registry_record": "literature\\verification_20260909\\pan2025validity.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "ji2025stse",
+    "doi": "10.1016/j.knosys.2025.113469",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2025,
+    "venue": [
+      "Knowledge-Based Systems"
+    ],
+    "page": "113469",
+    "volume": "317",
+    "registry_record": "literature\\verification_20260909\\ji2025stse.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1016/j.knosys.2025.113469",
+      "any_repository_has_fulltext": false
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "liu2025uncertkg",
+    "doi": "10.1016/j.neunet.2024.107103",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2025,
+    "venue": [
+      "Neural Networks"
+    ],
+    "page": "107103",
+    "volume": "184",
+    "registry_record": "literature\\verification_20260909\\liu2025uncertkg.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "li2025vicinal",
+    "doi": "10.52202/085713-3523",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2025,
+    "venue": [
+      "Advances in Neural Information Processing Systems 38"
+    ],
+    "page": "116866-116895",
+    "volume": null,
+    "registry_record": "literature\\verification_20260909\\li2025vicinal.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "wang2025nonexchangeable",
+    "doi": "10.1145/3711896.3737064",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2025,
+    "venue": [
+      "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2"
+    ],
+    "page": "3031-3042",
+    "volume": null,
+    "registry_record": "literature\\verification_20260909\\wang2025nonexchangeable_crossref_retry.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1145/3711896.3737064",
+      "any_repository_has_fulltext": true
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "szabadvary2025reject",
+    "doi": "10.1016/j.mlwa.2025.100664",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 0.9746192893401016,
+    "year": 2025,
+    "venue": [
+      "Machine Learning with Applications"
+    ],
+    "page": "100664",
+    "volume": "20",
+    "registry_record": "literature\\verification_20260909\\szabadvary2025reject.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1016/j.mlwa.2025.100664",
+      "any_repository_has_fulltext": true
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "vu2025tcrosse",
+    "doi": "10.1016/j.knosys.2025.113321",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2025,
+    "venue": [
+      "Knowledge-Based Systems"
+    ],
+    "page": "113321",
+    "volume": "315",
+    "registry_record": "literature\\verification_20260909\\vu2025tcrosse.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "xu2026householder",
+    "doi": "10.1016/j.knosys.2026.115406",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2026,
+    "venue": [
+      "Knowledge-Based Systems"
+    ],
+    "page": "115406",
+    "volume": "337",
+    "registry_record": "literature\\verification_20260909\\xu2026householder.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "zhu2026splices",
+    "doi": "10.1016/j.knosys.2026.115387",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2026,
+    "venue": [
+      "Knowledge-Based Systems"
+    ],
+    "page": "115387",
+    "volume": "337",
+    "registry_record": "literature\\verification_20260909\\zhu2026splices.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "peng2026icpe",
+    "doi": "10.1016/j.knosys.2026.116268",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2026,
+    "venue": [
+      "Knowledge-Based Systems"
+    ],
+    "page": "116268",
+    "volume": "347",
+    "registry_record": "literature\\verification_20260909\\peng2026icpe.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "zhang2026dstag",
+    "doi": "10.1145/3774904.3792165",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2026,
+    "venue": [
+      "Proceedings of the ACM Web Conference 2026"
+    ],
+    "page": "3645-3655",
+    "volume": null,
+    "registry_record": "literature\\verification_20260909\\zhang2026dstag.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1145/3774904.3792165",
+      "any_repository_has_fulltext": null
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "ye2026dualhistory",
+    "doi": "10.1145/3774904.3792310",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2026,
+    "venue": [
+      "Proceedings of the ACM Web Conference 2026"
+    ],
+    "page": "3800-3810",
+    "volume": null,
+    "registry_record": "literature\\verification_20260909\\ye2026dualhistory.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://ro.ecu.edu.au/cgi/viewcontent.cgi?article=9230&context=ecuworks2022-2026",
+      "any_repository_has_fulltext": true
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "wan2026tgcallm",
+    "doi": "10.1609/aaai.v40i18.38612",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2026,
+    "venue": [
+      "Proceedings of the AAAI Conference on Artificial Intelligence"
+    ],
+    "page": "15806-15814",
+    "volume": "40",
+    "registry_record": "literature\\verification_20260909\\wan2026tgcallm.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://doi.org/10.1609/aaai.v40i18.38612",
+      "any_repository_has_fulltext": false
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "lee2026tirano",
+    "doi": "10.1145/3770855.3817784",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2026,
+    "venue": [
+      "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2"
+    ],
+    "page": "2497-2508",
+    "volume": null,
+    "registry_record": "literature\\verification_20260909\\lee2026tirano.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1145/3770855.3817784",
+      "any_repository_has_fulltext": null
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "wang2026globalinteraction",
+    "doi": "10.1016/j.ins.2026.123139",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2026,
+    "venue": [
+      "Information Sciences"
+    ],
+    "page": "123139",
+    "volume": "739",
+    "registry_record": "literature\\verification_20260909\\wang2026globalinteraction.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "zhang2026logicalpaths",
+    "doi": "10.1016/j.neucom.2026.133049",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2026,
+    "venue": [
+      "Neurocomputing"
+    ],
+    "page": "133049",
+    "volume": "676",
+    "registry_record": "literature\\verification_20260909\\zhang2026logicalpaths.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "fan2026editing",
+    "doi": "10.1016/j.neunet.2026.108811",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2026,
+    "venue": [
+      "Neural Networks"
+    ],
+    "page": "108811",
+    "volume": "200",
+    "registry_record": "literature\\neurocomputing_20260922\\fan2026editing_crossref.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "bi2026globallocal",
+    "doi": "10.1016/j.patcog.2025.111828",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2026,
+    "venue": [
+      "Pattern Recognition"
+    ],
+    "page": "111828",
+    "volume": "171",
+    "registry_record": "literature\\verification_20260909\\bi2026globallocal.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "wang2026multidim",
+    "doi": "10.1016/j.neucom.2026.133496",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2026,
+    "venue": [
+      "Neurocomputing"
+    ],
+    "page": "133496",
+    "volume": "682",
+    "registry_record": "literature\\verification_20260909\\wang2026multidim.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "yu2026dependency",
+    "doi": "10.1016/j.engappai.2026.114845",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2026,
+    "venue": [
+      "Engineering Applications of Artificial Intelligence"
+    ],
+    "page": "114845",
+    "volume": "177",
+    "registry_record": "literature\\verification_20260909\\yu2026dependency.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "li2026calendar",
+    "doi": "10.1007/s40747-026-02237-z",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2026,
+    "venue": [
+      "Complex &amp; Intelligent Systems"
+    ],
+    "page": "124",
+    "volume": "12",
+    "registry_record": "literature\\verification_20260909\\li2026calendar.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1007/s40747-026-02237-z",
+      "any_repository_has_fulltext": true
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "moon2026sharpness",
+    "doi": "10.1145/3773966.3779401",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2026,
+    "venue": [
+      "Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining"
+    ],
+    "page": "1211-1215",
+    "volume": null,
+    "registry_record": "literature\\verification_20260909\\moon2026sharpness.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2512.06296",
+      "any_repository_has_fulltext": true
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "yang2025graphprot",
+    "doi": "10.24963/ijcai.2025/70",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2025,
+    "venue": [
+      "Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence"
+    ],
+    "page": "619-627",
+    "volume": null,
+    "registry_record": "literature\\neurocomputing_20260922\\graphprot_crossref.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.ijcai.org/proceedings/2025/0070.pdf",
+      "any_repository_has_fulltext": null
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "huang2025adaptdel",
+    "doi": "10.52202/085713-1751",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2025,
+    "venue": [
+      "Advances in Neural Information Processing Systems 38"
+    ],
+    "page": "58486-58525",
+    "volume": null,
+    "registry_record": "literature\\neurocomputing_20260922\\adaptdel_crossref.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2511.09316",
+      "any_repository_has_fulltext": true
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "he2025conjunction",
+    "doi": "10.1016/j.ins.2025.122037",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2025,
+    "venue": [
+      "Information Sciences"
+    ],
+    "page": "122037",
+    "volume": "707",
+    "registry_record": "literature\\neurocomputing_20260922\\conjunction_crossref.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  },
+  {
+    "key": "vardhan2026pairwise",
+    "doi": "10.1007/s10994-026-07078-y",
+    "status": "found",
+    "title_similarity": 1.0,
+    "author_similarity": 1.0,
+    "year": 2026,
+    "venue": [
+      "Machine Learning"
+    ],
+    "page": "149",
+    "volume": "115",
+    "registry_record": "literature\\neurocomputing_20260922\\pairwise_crossref.json",
+    "openalex_found": true,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2605.30615",
+      "any_repository_has_fulltext": true
+    },
+    "oa_error": null,
+    "claim_verification": "Metadata verification does not establish every manuscript claim."
+  }
+]

@@ -23,6 +23,23 @@ recorded in the corresponding `*_meta.json` files.
 
 ## Data processing and leakage controls
 
+### Neurocomputing revision
+
+The revision uses the same immutable source archives with a distinct prediction
+and validation protocol documented in `revision/PROTOCOL.md`. All six TeRDy
+fits and all twelve revised selector configurations are recorded in `results_nc`.
+Training events are restricted by time only in the editable memory; the neural
+encoder uses the published interpolative training split. Candidates observed
+in training at exactly the query timestamp are excluded. Validation truth sets
+use training and validation facts only. Full known truth is used for final
+test correctness and filtering. Validation roles are disjoint
+fixed source-order slices, with configurations hashed before revised test
+inference. The exact processed-cache hashes, unique event counts and zero
+ICEWS panel target overlap are in `results_nc/provenance/data_record.json`.
+GDELT is a separate update-scaling experiment using a relation-frequency anchor.
+
+### Historical KBS protocol
+
 The public benchmark uses the training events as the evidence index and applies
 the causal condition `event_time <= query_time` before scoring a query. The
 validation split is randomly divided into calibration and operating halves

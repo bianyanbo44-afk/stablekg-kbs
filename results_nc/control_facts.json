@@ -1,0 +1,477 @@
+{
+  "controls": [
+    {
+      "model": "TeRDy",
+      "dataset": "ICEWS14",
+      "queries": 5000,
+      "supported_queries": 3556,
+      "exact_capacity_supported": 0.9881889763779528,
+      "conservative_capacity_supported": 0.9637232845894264,
+      "fixed_denominator_disagreement_all": 0.0014,
+      "probe8_passed": 3516,
+      "probe8_false_safe": 0.0005688282138794084,
+      "probe32_passed": 3515,
+      "probe32_false_safe": 0.0002844950213371266,
+      "probe64_passed": 3514,
+      "probe64_false_safe": 0.0,
+      "runtime": {
+        "All": {
+          "queries": 32,
+          "sparse_median_us": 164.04999769292772,
+          "dense_median_us": 1317.2499966458417,
+          "paired_speedup_median": 4.634380288272736,
+          "competitors_median": 2.5,
+          "candidates": 7128
+        },
+        "Nonempty": {
+          "queries": 22,
+          "sparse_median_us": 473.8999923574738,
+          "dense_median_us": 2576.849998149555,
+          "paired_speedup_median": 7.497708055281434,
+          "competitors_median": 4.5,
+          "candidates": 7128
+        }
+      },
+      "weights": [
+        {
+          "weight": 0.0,
+          "mrr": 0.6641440822679915,
+          "accuracy": 0.5846,
+          "robust1": 1.0,
+          "robust2": 1.0,
+          "changed_from_neural": 0.0
+        },
+        {
+          "weight": 0.1,
+          "mrr": 0.6628288268239448,
+          "accuracy": 0.5854,
+          "robust1": 0.9916,
+          "robust2": 0.9892,
+          "changed_from_neural": 0.0092
+        },
+        {
+          "weight": 0.25,
+          "mrr": 0.6604657087453072,
+          "accuracy": 0.5846,
+          "robust1": 0.971,
+          "robust2": 0.9632,
+          "changed_from_neural": 0.0232
+        },
+        {
+          "weight": 0.5,
+          "mrr": 0.6424579707817439,
+          "accuracy": 0.555,
+          "robust1": 0.827,
+          "robust2": 0.764,
+          "changed_from_neural": 0.1174
+        },
+        {
+          "weight": 0.75,
+          "mrr": 0.6035202863136222,
+          "accuracy": 0.4882,
+          "robust1": 0.6842,
+          "robust2": 0.6078,
+          "changed_from_neural": 0.2442
+        }
+      ]
+    },
+    {
+      "model": "TeRDy",
+      "dataset": "ICEWS05-15",
+      "queries": 5000,
+      "supported_queries": 4335,
+      "exact_capacity_supported": 0.92479815455594,
+      "conservative_capacity_supported": 0.803921568627451,
+      "fixed_denominator_disagreement_all": 0.0214,
+      "probe8_passed": 4118,
+      "probe8_false_safe": 0.02646915978630403,
+      "probe32_passed": 4059,
+      "probe32_false_safe": 0.01231830500123183,
+      "probe64_passed": 4036,
+      "probe64_false_safe": 0.006689791873141724,
+      "runtime": {
+        "All": {
+          "queries": 32,
+          "sparse_median_us": 335.24999889777973,
+          "dense_median_us": 3813.0499960971065,
+          "paired_speedup_median": 11.749843829985437,
+          "competitors_median": 4.0,
+          "candidates": 10488
+        },
+        "Nonempty": {
+          "queries": 25,
+          "sparse_median_us": 486.399992951192,
+          "dense_median_us": 8114.900003420189,
+          "paired_speedup_median": 17.520755499089336,
+          "competitors_median": 7.0,
+          "candidates": 10488
+        }
+      },
+      "weights": [
+        {
+          "weight": 0.0,
+          "mrr": 0.6364425761281394,
+          "accuracy": 0.5462,
+          "robust1": 1.0,
+          "robust2": 1.0,
+          "changed_from_neural": 0.0
+        },
+        {
+          "weight": 0.1,
+          "mrr": 0.6433523718494055,
+          "accuracy": 0.5524,
+          "robust1": 0.9348,
+          "robust2": 0.9128,
+          "changed_from_neural": 0.057
+        },
+        {
+          "weight": 0.25,
+          "mrr": 0.6356257635569271,
+          "accuracy": 0.539,
+          "robust1": 0.8114,
+          "robust2": 0.7636,
+          "changed_from_neural": 0.1636
+        },
+        {
+          "weight": 0.5,
+          "mrr": 0.6064721118860664,
+          "accuracy": 0.4906,
+          "robust1": 0.6332,
+          "robust2": 0.5488,
+          "changed_from_neural": 0.3038
+        },
+        {
+          "weight": 0.75,
+          "mrr": 0.5733997458793733,
+          "accuracy": 0.4478,
+          "robust1": 0.5574,
+          "robust2": 0.4524,
+          "changed_from_neural": 0.3964
+        }
+      ]
+    },
+    {
+      "model": "TemporalComplEx",
+      "dataset": "ICEWS14",
+      "queries": 5000,
+      "supported_queries": 3556,
+      "exact_capacity_supported": 0.406636670416198,
+      "conservative_capacity_supported": 0.3838582677165354,
+      "fixed_denominator_disagreement_all": 0.0082,
+      "probe8_passed": 1832,
+      "probe8_false_safe": 0.21069868995633187,
+      "probe32_passed": 1506,
+      "probe32_false_safe": 0.0398406374501992,
+      "probe64_passed": 1469,
+      "probe64_false_safe": 0.015656909462219197,
+      "runtime": {
+        "All": {
+          "queries": 32,
+          "sparse_median_us": 177.70000704331324,
+          "dense_median_us": 1374.999999825377,
+          "paired_speedup_median": 6.140853750352584,
+          "competitors_median": 2.0,
+          "candidates": 7128
+        },
+        "Nonempty": {
+          "queries": 22,
+          "sparse_median_us": 274.7999969869852,
+          "dense_median_us": 2415.3999984264374,
+          "paired_speedup_median": 7.6650937550999245,
+          "competitors_median": 4.5,
+          "candidates": 7128
+        }
+      },
+      "weights": [
+        {
+          "weight": 0.0,
+          "mrr": 0.3635697028492188,
+          "accuracy": 0.2676,
+          "robust1": 1.0,
+          "robust2": 1.0,
+          "changed_from_neural": 0.0
+        },
+        {
+          "weight": 0.1,
+          "mrr": 0.42553269934944,
+          "accuracy": 0.3252,
+          "robust1": 0.74,
+          "robust2": 0.6802,
+          "changed_from_neural": 0.2836
+        },
+        {
+          "weight": 0.25,
+          "mrr": 0.43030864845605654,
+          "accuracy": 0.3348,
+          "robust1": 0.6728,
+          "robust2": 0.6018,
+          "changed_from_neural": 0.3688
+        },
+        {
+          "weight": 0.5,
+          "mrr": 0.430065827084181,
+          "accuracy": 0.3386,
+          "robust1": 0.6098,
+          "robust2": 0.5296,
+          "changed_from_neural": 0.4378
+        },
+        {
+          "weight": 0.75,
+          "mrr": 0.4287596571054025,
+          "accuracy": 0.3398,
+          "robust1": 0.578,
+          "robust2": 0.497,
+          "changed_from_neural": 0.4852
+        }
+      ]
+    },
+    {
+      "model": "TemporalComplEx",
+      "dataset": "ICEWS05-15",
+      "queries": 5000,
+      "supported_queries": 4335,
+      "exact_capacity_supported": 0.4936562860438293,
+      "conservative_capacity_supported": 0.4687427912341407,
+      "fixed_denominator_disagreement_all": 0.0822,
+      "probe8_passed": 3144,
+      "probe8_false_safe": 0.3193384223918575,
+      "probe32_passed": 2629,
+      "probe32_false_safe": 0.18600228223659185,
+      "probe64_passed": 2414,
+      "probe64_false_safe": 0.11350455675227837,
+      "runtime": {
+        "All": {
+          "queries": 32,
+          "sparse_median_us": 246.35000590933487,
+          "dense_median_us": 3933.899999537971,
+          "paired_speedup_median": 11.606536784606458,
+          "competitors_median": 4.0,
+          "candidates": 10488
+        },
+        "Nonempty": {
+          "queries": 25,
+          "sparse_median_us": 444.4999940460548,
+          "dense_median_us": 11312.699993140996,
+          "paired_speedup_median": 15.796319828799243,
+          "competitors_median": 7.0,
+          "candidates": 10488
+        }
+      },
+      "weights": [
+        {
+          "weight": 0.0,
+          "mrr": 0.4548822753122919,
+          "accuracy": 0.33,
+          "robust1": 1.0,
+          "robust2": 1.0,
+          "changed_from_neural": 0.0
+        },
+        {
+          "weight": 0.1,
+          "mrr": 0.4741125524871858,
+          "accuracy": 0.3368,
+          "robust1": 0.983,
+          "robust2": 0.9764,
+          "changed_from_neural": 0.0188
+        },
+        {
+          "weight": 0.25,
+          "mrr": 0.48369274365523635,
+          "accuracy": 0.3498,
+          "robust1": 0.9228,
+          "robust2": 0.899,
+          "changed_from_neural": 0.073
+        },
+        {
+          "weight": 0.5,
+          "mrr": 0.49888927812879086,
+          "accuracy": 0.379,
+          "robust1": 0.6882,
+          "robust2": 0.6014,
+          "changed_from_neural": 0.2936
+        },
+        {
+          "weight": 0.75,
+          "mrr": 0.5033751977002157,
+          "accuracy": 0.3918,
+          "robust1": 0.561,
+          "robust2": 0.4544,
+          "changed_from_neural": 0.4622
+        }
+      ]
+    }
+  ],
+  "maintenance": [
+    {
+      "dataset": "ICEWS14",
+      "metadata": {
+        "dataset": "ICEWS14",
+        "events": 72826,
+        "registered_queries": 5000,
+        "build_seconds": 2.1986060999915935,
+        "one_cache_rss_mb": 434.453125,
+        "cache_numeric_arrays_mb": 283.35221099853516,
+        "cache_numeric_scope": "Probability, output, window, object, mass and multiplicity arrays; excludes Python containers and reverse-index objects.",
+        "anchor": "Validation-selected TeRDy seed 0.",
+        "oracle_max_abs_error": 2.220446049250313e-16,
+        "oracle_discrete_mismatches": 0,
+        "repeats": 10,
+        "control": "Both paths apply identical event writes and maintain identical cached window sufficient statistics.",
+        "timed_scope": "Event writes, reverse lookup, affected-query construction, probability fusion, winner and certificate refresh; encoder forward and cache construction excluded."
+      },
+      "batches": [
+        {
+          "batch": 1,
+          "full_median_ms": 1299.6777000007569,
+          "local_median_ms": 0.006649992428719951,
+          "paired_speedup_median": 203862.63578033773,
+          "affected_median": 0.0,
+          "affected_max": 1,
+          "zero_affected_fraction": 0.8
+        },
+        {
+          "batch": 10,
+          "full_median_ms": 1346.994800005632,
+          "local_median_ms": 2.4919499919633386,
+          "paired_speedup_median": 502.5656948004332,
+          "affected_median": 7.5,
+          "affected_max": 32,
+          "zero_affected_fraction": 0.0
+        },
+        {
+          "batch": 100,
+          "full_median_ms": 1381.9581999996444,
+          "local_median_ms": 48.992349999025464,
+          "paired_speedup_median": 25.910230203972944,
+          "affected_median": 120.5,
+          "affected_max": 148,
+          "zero_affected_fraction": 0.0
+        },
+        {
+          "batch": 1000,
+          "full_median_ms": 1367.3753999973997,
+          "local_median_ms": 329.94035000592703,
+          "paired_speedup_median": 4.183099351897759,
+          "affected_median": 739.0,
+          "affected_max": 820,
+          "zero_affected_fraction": 0.0
+        }
+      ],
+      "max_abs_local_full_error": 0.0
+    },
+    {
+      "dataset": "ICEWS05-15",
+      "metadata": {
+        "dataset": "ICEWS05-15",
+        "events": 368962,
+        "registered_queries": 5000,
+        "build_seconds": 5.023825299998862,
+        "one_cache_rss_mb": 950.5859375,
+        "cache_numeric_arrays_mb": 700.4768295288086,
+        "cache_numeric_scope": "Probability, output, window, object, mass and multiplicity arrays; excludes Python containers and reverse-index objects.",
+        "anchor": "Validation-selected TeRDy seed 0.",
+        "oracle_max_abs_error": 2.220446049250313e-16,
+        "oracle_discrete_mismatches": 0,
+        "repeats": 10,
+        "control": "Both paths apply identical event writes and maintain identical cached window sufficient statistics.",
+        "timed_scope": "Event writes, reverse lookup, affected-query construction, probability fusion, winner and certificate refresh; encoder forward and cache construction excluded."
+      },
+      "batches": [
+        {
+          "batch": 1,
+          "full_median_ms": 2830.926599999657,
+          "local_median_ms": 0.006249996658880199,
+          "paired_speedup_median": 457948.1112214784,
+          "affected_median": 0.0,
+          "affected_max": 3,
+          "zero_affected_fraction": 0.6
+        },
+        {
+          "batch": 10,
+          "full_median_ms": 2983.2752000002074,
+          "local_median_ms": 30.389899999136105,
+          "paired_speedup_median": 107.71836188225399,
+          "affected_median": 20.5,
+          "affected_max": 50,
+          "zero_affected_fraction": 0.0
+        },
+        {
+          "batch": 100,
+          "full_median_ms": 3260.8691500063287,
+          "local_median_ms": 612.9938999947626,
+          "paired_speedup_median": 5.4140719080272,
+          "affected_median": 145.5,
+          "affected_max": 206,
+          "zero_affected_fraction": 0.0
+        },
+        {
+          "batch": 1000,
+          "full_median_ms": 4030.254849996709,
+          "local_median_ms": 2406.9925000003423,
+          "paired_speedup_median": 1.6677542094025193,
+          "affected_median": 973.5,
+          "affected_max": 1021,
+          "zero_affected_fraction": 0.0
+        }
+      ],
+      "max_abs_local_full_error": 0.0
+    },
+    {
+      "dataset": "GDELT",
+      "metadata": {
+        "dataset": "GDELT",
+        "events": 2308165,
+        "registered_queries": 5000,
+        "build_seconds": 5.461715900004492,
+        "one_cache_rss_mb": 304.765625,
+        "cache_numeric_arrays_mb": 275.4143981933594,
+        "cache_numeric_scope": "Probability, output, window, object, mass and multiplicity arrays; excludes Python containers and reverse-index objects.",
+        "anchor": "Training relation-frequency prior; cache-scaling experiment only.",
+        "oracle_max_abs_error": 5.551115123125783e-17,
+        "oracle_discrete_mismatches": 0,
+        "repeats": 10,
+        "control": "Both paths apply identical event writes and maintain identical cached window sufficient statistics.",
+        "timed_scope": "Event writes, reverse lookup, affected-query construction, probability fusion, winner and certificate refresh; encoder forward and cache construction excluded."
+      },
+      "batches": [
+        {
+          "batch": 1,
+          "full_median_ms": 2071.068750003178,
+          "local_median_ms": 0.48519999836571515,
+          "paired_speedup_median": 4302.403288653491,
+          "affected_median": 1.0,
+          "affected_max": 3,
+          "zero_affected_fraction": 0.2
+        },
+        {
+          "batch": 10,
+          "full_median_ms": 2157.983899996907,
+          "local_median_ms": 4.78369999473216,
+          "paired_speedup_median": 467.2521386216408,
+          "affected_median": 6.0,
+          "affected_max": 9,
+          "zero_affected_fraction": 0.0
+        },
+        {
+          "batch": 100,
+          "full_median_ms": 2148.6563500002376,
+          "local_median_ms": 66.68064999394119,
+          "paired_speedup_median": 31.550928117533093,
+          "affected_median": 79.0,
+          "affected_max": 90,
+          "zero_affected_fraction": 0.0
+        },
+        {
+          "batch": 1000,
+          "full_median_ms": 2160.591100007878,
+          "local_median_ms": 503.69859999773325,
+          "paired_speedup_median": 4.286206796575118,
+          "affected_median": 631.5,
+          "affected_max": 671,
+          "zero_affected_fraction": 0.0
+        }
+      ],
+      "max_abs_local_full_error": 0.0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+\section{Analytical controls and computation}
+\begin{table}[H]\centering\small\caption{One-window controls on nonempty-memory test queries, seed 0. Exact and bound columns are certified percentages. Probe columns give the percentage of passed queries that fail the exact certificate, not the proportion of all queries.}\begin{tabular}{lrrrrrr}\toprule Group & $n$ & Exact & Bound & 8 probes & 32 probes & 64 probes\\\midrule
+TeRDy/ICEWS14 & 3556 & 98.82 & 96.37 & 0.06 & 0.03 & 0.00\\
+TeRDy/ICEWS05-15 & 4335 & 92.48 & 80.39 & 2.65 & 1.23 & 0.67\\
+CTF/ICEWS14 & 3556 & 40.66 & 38.39 & 21.07 & 3.98 & 1.57\\
+CTF/ICEWS05-15 & 4335 & 49.37 & 46.87 & 31.93 & 18.60 & 11.35\\
+\bottomrule\end{tabular}\end{table}
+\begin{table}[H]\centering\small\caption{Certificate microbenchmark. Times are microseconds; speedup is the median paired dense/sparse ratio over three repetitions per query. The sparse implementation returns budgets, radius and witnesses; the dense control returns budget indicators. Empty-memory queries are retained in the All stratum.}\begin{tabular}{llrrrr}\toprule Group & Memory & Queries & Sparse & Dense & Speedup\\\midrule
+TeRDy/ICEWS14 & All & 32 & 164.05 & 1317.25 & 4.63\\
+TeRDy/ICEWS14 & Nonempty & 22 & 473.90 & 2576.85 & 7.50\\
+TeRDy/ICEWS05-15 & All & 32 & 335.25 & 3813.05 & 11.75\\
+TeRDy/ICEWS05-15 & Nonempty & 25 & 486.40 & 8114.90 & 17.52\\
+CTF/ICEWS14 & All & 32 & 177.70 & 1375.00 & 6.14\\
+CTF/ICEWS14 & Nonempty & 22 & 274.80 & 2415.40 & 7.67\\
+CTF/ICEWS05-15 & All & 32 & 246.35 & 3933.90 & 11.61\\
+CTF/ICEWS05-15 & Nonempty & 25 & 444.50 & 11312.70 & 15.80\\
+\bottomrule\end{tabular}\end{table}
+\subsection{Complete evidence-weight response}
+All prespecified weights are reported for seed 0, with temperature held at its validation-selected value. Values other than $\lambda$ are percentages. Changed denotes disagreement with the neural-only answer.
+\small\begin{longtable}{lrrrrrr}\caption{Prediction and stability over the evidence-weight grid.}\\\toprule Group & $\lambda$ & MRR & Accuracy & Stable 1 & Stable 2 & Changed\\\midrule\endhead
+TeRDy/ICEWS14 & 0 & 66.41 & 58.46 & 100.00 & 100.00 & 0.00\\
+TeRDy/ICEWS14 & 0.1 & 66.28 & 58.54 & 99.16 & 98.92 & 0.92\\
+TeRDy/ICEWS14 & 0.25 & 66.05 & 58.46 & 97.10 & 96.32 & 2.32\\
+TeRDy/ICEWS14 & 0.5 & 64.25 & 55.50 & 82.70 & 76.40 & 11.74\\
+TeRDy/ICEWS14 & 0.75 & 60.35 & 48.82 & 68.42 & 60.78 & 24.42\\
+TeRDy/ICEWS05-15 & 0 & 63.64 & 54.62 & 100.00 & 100.00 & 0.00\\
+TeRDy/ICEWS05-15 & 0.1 & 64.34 & 55.24 & 93.48 & 91.28 & 5.70\\
+TeRDy/ICEWS05-15 & 0.25 & 63.56 & 53.90 & 81.14 & 76.36 & 16.36\\
+TeRDy/ICEWS05-15 & 0.5 & 60.65 & 49.06 & 63.32 & 54.88 & 30.38\\
+TeRDy/ICEWS05-15 & 0.75 & 57.34 & 44.78 & 55.74 & 45.24 & 39.64\\
+CTF/ICEWS14 & 0 & 36.36 & 26.76 & 100.00 & 100.00 & 0.00\\
+CTF/ICEWS14 & 0.1 & 42.55 & 32.52 & 74.00 & 68.02 & 28.36\\
+CTF/ICEWS14 & 0.25 & 43.03 & 33.48 & 67.28 & 60.18 & 36.88\\
+CTF/ICEWS14 & 0.5 & 43.01 & 33.86 & 60.98 & 52.96 & 43.78\\
+CTF/ICEWS14 & 0.75 & 42.88 & 33.98 & 57.80 & 49.70 & 48.52\\
+CTF/ICEWS05-15 & 0 & 45.49 & 33.00 & 100.00 & 100.00 & 0.00\\
+CTF/ICEWS05-15 & 0.1 & 47.41 & 33.68 & 98.30 & 97.64 & 1.88\\
+CTF/ICEWS05-15 & 0.25 & 48.37 & 34.98 & 92.28 & 89.90 & 7.30\\
+CTF/ICEWS05-15 & 0.5 & 49.89 & 37.90 & 68.82 & 60.14 & 29.36\\
+CTF/ICEWS05-15 & 0.75 & 50.34 & 39.18 & 56.10 & 45.44 & 46.22\\
+\bottomrule\end{longtable}\normalsize
+\clearpage\section{Complete maintenance measurements}
+The timing table contains 20 transactions per row, comprising ten deletion/restoration pairs. Affected is the median number of registered queries refreshed locally out of 5,000. Zero is the percentage of sampled transactions affecting no registered query. Times include event writes and refresh, and speedup is the median paired full/local ratio.
+\small\begin{longtable}{lrrrrrr}\caption{Full and local refresh for every transaction size.}\\\toprule Dataset & Events & Full (ms) & Local (ms) & Speedup & Affected & Zero (\%)\\\midrule\endhead
+ICEWS14 & 1 & 1299.68 & 0.01 & 203862.64 & 0 & 80\\
+ICEWS14 & 10 & 1346.99 & 2.49 & 502.57 & 7.5 & 0\\
+ICEWS14 & 100 & 1381.96 & 48.99 & 25.91 & 120.5 & 0\\
+ICEWS14 & 1000 & 1367.38 & 329.94 & 4.18 & 739 & 0\\
+ICEWS05-15 & 1 & 2830.93 & 0.01 & 457948.11 & 0 & 60\\
+ICEWS05-15 & 10 & 2983.28 & 30.39 & 107.72 & 20.5 & 0\\
+ICEWS05-15 & 100 & 3260.87 & 612.99 & 5.41 & 145.5 & 0\\
+ICEWS05-15 & 1000 & 4030.25 & 2406.99 & 1.67 & 973.5 & 0\\
+GDELT & 1 & 2071.07 & 0.49 & 4302.40 & 1 & 20\\
+GDELT & 10 & 2157.98 & 4.78 & 467.25 & 6 & 0\\
+GDELT & 100 & 2148.66 & 66.68 & 31.55 & 79 & 0\\
+GDELT & 1000 & 2160.59 & 503.70 & 4.29 & 631.5 & 0\\
+\bottomrule\end{longtable}\normalsize
+\begin{table}[H]\centering\small\caption{One-time cache construction and independent raw-event rebuild checks. Array memory is MiB for probabilities, outputs, object/window indices, masses and multiplicities; it excludes Python containers and the reverse index. RSS is the measured process-memory increment in MiB. The final column is the largest absolute difference across the 128 rebuilt queries; discrete outputs agree exactly.}\begin{tabular}{lrrrrr}\toprule Dataset & History entries & Build (s) & Arrays & RSS & Rebuild error\\\midrule
+ICEWS14 & 72,826 & 2.20 & 283.35 & 434.45 & 2.2e-16\\
+ICEWS05-15 & 368,962 & 5.02 & 700.48 & 950.59 & 2.2e-16\\
+GDELT & 2,308,165 & 5.46 & 275.41 & 304.77 & 5.6e-17\\
+\bottomrule\end{tabular}\end{table}
+\subsection{Fixed-denominator comparison}
+The historical fixed-denominator certificate is evaluated on the same unedited score. Its one-window decision differs from the renormalized certificate for 0.14\% (TeRDy, ICEWS14), 2.14\% (TeRDy, ICEWS05-15), 0.82\% (CTF, ICEWS14), 8.22\% (CTF, ICEWS05-15) of all test queries. These decisions refer to different edited-score definitions; the renormalized definition is the one used for every primary result.

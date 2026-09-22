@@ -1,0 +1,17 @@
+[
+  {
+    "seed": 0,
+    "baseline": "Ensemble calibration",
+    "belief": "Probability calibration"
+  },
+  {
+    "seed": 1,
+    "baseline": "Evidence calibration",
+    "belief": "Evidence calibration"
+  },
+  {
+    "seed": 2,
+    "baseline": "Evidence calibration",
+    "belief": "Evidence calibration"
+  }
+]

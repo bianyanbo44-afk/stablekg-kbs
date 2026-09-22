@@ -1,0 +1,46 @@
+\section{Results}
+\subsection{An editable interface supports distinct predictive regimes}
+Temporal memory improved the compact backbone on both datasets and the stronger TeRDy backbone on ICEWS05-15 (Table~\ref{tab:prediction}; Fig.~\ref{fig:prediction}a,b). For compact temporal factorization (CTF), mean filtered MRR increased from 0.3678 to 0.4311 on ICEWS14 and from 0.4546 to 0.5051 on ICEWS05-15. The paired gains were 6.32 percentage points (95\% interval 5.58--7.14) and 5.05 points (4.29--5.76), respectively. TeRDy achieved 0.6328 on ICEWS05-15, compared with 0.6285 for the neural anchor, a gain of 0.44 points (0.20--0.69). On ICEWS14, hybrid and neural MRR were 0.6616 and 0.6627, with a paired interval spanning zero. The interface therefore accommodates both substantial memory-driven gains and a predominantly neural predictive regime.
+
+Validation-fitted belief models improved the calibration of the exposed hybrid answer (Fig.~\ref{fig:prediction}c--f). Across the four backbone--dataset combinations, mean Brier scores decreased from 0.188, 0.188, 0.223 and 0.240 for the raw hybrid maximum to 0.170, 0.182, 0.185 and 0.184, respectively. Mean ECE decreased to 0.025, 0.032, 0.027 and 0.022. This calibration supplies the correctness component of the acceptance policy; the certificate supplies its edit-stability component.
+
+\input{generated_prediction_table}
+\begin{figure*}[tbp]
+\centering\includegraphics[width=\textwidth]{fig02_prediction.pdf}
+\caption{\textbf{Predictive effects and answer calibration across two backbones.}
+\textbf{a,} Neural and hybrid MRR on the fixed 5,000-query test panels. Points and bars show three-seed means and sample SD; connecting lines pair the two interfaces.
+\textbf{b,} Paired hybrid-minus-neural MRR with 95\% timestamp-block bootstrap intervals from 2,000 draws, conditional on the three fitted models.
+\textbf{c--f,} Reliability diagrams for the uncalibrated hybrid maximum and the validation-selected belief model. Each panel pools 15,000 query--seed predictions into ten equal-width probability bins; empty bins are omitted. The dashed diagonal denotes agreement between predicted probability and observed known-answer accuracy. CTF, compact temporal factorization.}
+\label{fig:prediction}
+\end{figure*}
+
+\subsection{Certified selection exposes an explicit tolerance to deletion}
+The exact one-window certificate retained a substantial pool of admissible predictions. Mean certified capacity was 96.75\% and 89.25\% for TeRDy on ICEWS14 and ICEWS05-15, and 59.16\% and 55.14\% for CTF. Some queries had no admissible history: 28.88\% on ICEWS14 and 13.30\% on ICEWS05-15. Restricting the calculation to queries with evidence still gave certified fractions of 95.43\%, 87.60\%, 42.58\% and 48.26\%, respectively. Certification therefore extended beyond the empty-memory fallback.
+
+Applying the certificate as a gate eliminated allowed worst-window flips among accepted answers (Fig.~\ref{fig:selection}; Table~\ref{tab:selection}). Across 60,000 query--seed cases and three deletion budgets, all 180,000 direct witness checks agreed with the certificate, with zero certified violations. At 40\% coverage, the CTF belief selector exposed answers with worst-window flip rates of 32.15\% on ICEWS14 and 10.70\% on ICEWS05-15; the certified policy reduced both rates to zero. Its answer-error rates were 47.78\% and 36.57\%, compared with 46.43\% and 35.28\% for belief alone. The joint rate of an incorrect initial answer or a worst-window flip decreased by 11.07 points (95\% interval 9.36--12.89) and 4.05 points (3.59--4.43). These results quantify the additional stability obtained at the selected coverage and its accompanying correctness trade-off.
+
+Confidence selection already retained almost entirely stable TeRDy answers at low coverage. Its value from the certificate became more visible as coverage increased: at 80\% coverage, joint error decreased by 0.28 points on ICEWS14 and 0.96 points on ICEWS05-15. For the latter interval, 1,748 of 2,000 bootstrap draws retained enough certified queries in every seed, as detailed in the supplement. At the same time, certificate-feature calibration alone had higher mean AURC than the strongest validation-selected control in all four combinations. The gate consequently serves as a defined stability requirement, with confidence and ensemble controls retained as the appropriate comparators for correctness ranking.
+
+\input{generated_selection_table}
+\begin{figure*}[tbp]
+\centering\includegraphics[width=\textwidth]{fig03_selection.pdf}
+\caption{\textbf{Correctness and resistance to evidence deletion are separate selection objectives.}
+\textbf{a--d,} Answer-error risk--coverage curves for the best validation-selected control, the one-encoder calibrated belief policy and its one-window certified gate.
+\textbf{e--h,} The corresponding worst-case one-window flip rates, evaluated on exactly the same selected predictions. Curves show three-seed means; bands show sample SD. A certified curve stops at the largest plotted coverage reachable by every seed. Controls include temperature scaling and a three-seed ensemble, and their identities are frozen on validation data. Each panel uses all 5,000 test queries per seed.}
+\label{fig:selection}
+\end{figure*}
+
+\subsection{Certificate surplus predicts vulnerability beyond the original partition}
+The surplus retained diagnostic value when the intervention changed (Fig.~\ref{fig:diagnostics}). For random two-window deletions, shifted window boundaries, doubled window width and single-event deletion, its AUROC exceeded that of the original hybrid margin in every backbone--dataset combination. The 16 paired gains ranged from 0.064 to 0.584, and every 95\% interval lay above zero. On TeRDy, where margin was already informative, the surplus reached AUROCs of 0.991--0.998 on ICEWS14 and 0.970--0.992 on ICEWS05-15. For CTF, the corresponding ranges were 0.903--0.969 and 0.847--0.982.
+
+This diagnostic comparison concerns direct interventions on the same fixed predictions. A large current score gap can arise from highly concentrated memory support, whereas the surplus accounts for how that gap changes when shared evidence is removed. The conceptual equal-score example in Fig.~\ref{fig:interface} isolates this distinction exactly, and the public-data perturbations show its empirical relevance across different evidence partitions. The formal guarantee remains tied to the declared window family; the alternative interventions measure how informative the score remains outside that exact family.
+
+\begin{figure*}[tbp]
+\centering\includegraphics[width=\textwidth]{fig04_diagnostics.pdf}
+\caption{\textbf{The certificate surplus identifies edit-sensitive answers more accurately than the original score margin.}
+\textbf{a--d,} AUROC differences between negative one-window surplus and negative hybrid margin for the four indicated backbone--dataset combinations. The outcomes are an answer change under at least one of eight random two-window deletions, a worst-case shifted seven-unit window deletion, a worst-case 14-unit window deletion, and removal of the latest winner-supporting event. Each comparison pools 15,000 query--seed predictions. Bars show paired 95\% intervals from 2,000 timestamp-block bootstrap draws, resampled jointly across the three fixed fits.}
+\label{fig:diagnostics}
+\end{figure*}
+
+\input{controls_results}
+\input{maintenance_results}

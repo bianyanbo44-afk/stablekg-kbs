@@ -1,0 +1,3266 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 372335,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              7
+            ]
+          ],
+          "date-time": "2026-08-07T15:52:49Z",
+          "timestamp": 1786117969168,
+          "version": "build-2736575974"
+        },
+        "publisher-location": "San Diego, California, USA",
+        "reference-count": 0,
+        "publisher": "Neural Information Processing Systems Foundation, Inc. (NeurIPS)",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "DOI": "10.52202/085713-1751",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              6
+            ]
+          ],
+          "date-time": "2026-08-06T14:44:29Z",
+          "timestamp": 1786027469000
+        },
+        "page": "58486-58525",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "AdaptDel: Adaptable Deletion Rate Randomized Smoothing for Certified Robustness"
+        ],
+        "prefix": "10.52202",
+        "author": [
+          {
+            "given": "Zhuoqun",
+            "family": "Huang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Melbourne"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Neil",
+            "family": "Marchant",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The University of Melbourne"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Olga",
+            "family": "Ohrimenko",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The University of Melbourne"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Benjamin",
+            "family": "Rubinstein",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Melbourne, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "29733",
+        "event": {
+          "name": "Advances in Neural Information Processing Systems 38",
+          "theme": "39th Conference on Neural Information Processing Systems (NeurIPS 2025)",
+          "location": "San Diego, California, USA and Mexico City, Mexico",
+          "acronym": "NeurIPS 2025",
+          "number": "38",
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                30
+              ]
+            ]
+          },
+          "end": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                7
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "Advances in Neural Information Processing Systems 38"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              6
+            ]
+          ],
+          "date-time": "2026-08-06T14:51:31Z",
+          "timestamp": 1786027891000
+        },
+        "score": 34.621933,
+        "resource": {
+          "primary": {
+            "URL": "http://www.proceedings.com/085713-1751.html"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.52202/085713-1751",
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              21
+            ]
+          ],
+          "date-time": "2025-03-21T13:40:19Z",
+          "timestamp": 1742564419373,
+          "version": "3.40.2"
+        },
+        "posted": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "group-title": "SSRN",
+        "reference-count": 0,
+        "publisher": "Elsevier BV",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.2139/ssrn.5188145",
+        "type": "posted-content",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              21
+            ]
+          ],
+          "date-time": "2025-03-21T12:41:50Z",
+          "timestamp": 1742560910000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Exploring Edge-Aware Graph Neural Networks"
+        ],
+        "prefix": "10.2139",
+        "author": [
+          {
+            "given": "Wagner",
+            "family": "de Almeida Junior",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              21
+            ]
+          ],
+          "date-time": "2025-03-21T12:41:51Z",
+          "timestamp": 1742560911000
+        },
+        "score": 32.176506,
+        "resource": {
+          "primary": {
+            "URL": "https://www.ssrn.com/abstract=5188145"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.2139/ssrn.5188145",
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "subtype": "preprint"
+      },
+      {
+        "institution": [
+          {
+            "name": "ScienceOpen"
+          }
+        ],
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              30
+            ]
+          ],
+          "date-time": "2026-07-30T15:43:02Z",
+          "timestamp": 1785426182221,
+          "version": "3.56.0"
+        },
+        "posted": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              21
+            ]
+          ]
+        },
+        "reference-count": 4,
+        "publisher": "ScienceOpen",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  7,
+                  21
+                ]
+              ],
+              "date-time": "2026-07-21T00:00:00Z",
+              "timestamp": 1784592000000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by/4.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "abstract": "<jats:p>The proliferation of 5G and Internet of Things (IoT) edge networks has exponentially increased the attack surface for covert exfiltration channels, with DNS tunneling remaining one of the most insidious due to its ability to bypass traditional firewall inspection. Existing detection mechanisms, predominantly rule-based or reliant on shallow machine learning, struggle to generalize against zero-day tunneling variants that exploit the high-throughput, low-latency characteristics of 5G and the resource-constrained heterogeneity of IoT devices. This research introduces a novel hybrid deep learning framework that synergizes Graph Neural Networks (GNNs) and Transformer architectures to detect novel DNS tunneling signatures in real-time at the network edge. The proposed model leverages GNNs to model the structural and temporal dependencies of DNS query-response interactions across distributed edge nodes, capturing relational patterns and anomalous propagation behaviors that are invisible to per-flow analyzers. Concurrently, a multi-head Transformer encoder is employed to process the sequential payload embeddings and query-name character distributions, enabling the capture of long-range semantic anomalies and obfuscation strategies characteristic of advanced tunneling tools. By fusing the relational reasoning of GNNs with the sequential context awareness of Transformers, our approach achieves a dual-faceted representation of both network topology dynamics and per-query syntactic deviations. Preliminary evaluations on a custom 5G-IoT edge testbed, incorporating both known and evolving zero-day tunneling payloads, demonstrate a significant improvement in detection accuracy and a marked reduction in false positive rates compared to isolated models. This framework not only addresses the limitations of signature-based systems but also provides an adaptive, explainable mechanism for securing next-generation edge infrastructures against sophisticated data exfiltration attacks.</jats:p>",
+        "DOI": "10.14293/pr2199.004139.v1",
+        "type": "posted-content",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              27
+            ]
+          ],
+          "date-time": "2026-07-27T06:45:18Z",
+          "timestamp": 1785134718000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Using Hybrid Neural Networks (Graph Neural Networks + Transformers) to Detect Novel DNS Tunneling Signatures in 5G and IoT Edge Networks"
+        ],
+        "prefix": "10.14293",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0009-1089-0880",
+            "authenticated-orcid": false,
+            "given": "Elizabeth",
+            "family": "Harrison",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/024mw5h28",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "University of Chicago"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "5403",
+        "reference": [
+          {
+            "key": "R1",
+            "doi-asserted-by": "publisher",
+            "first-page": "622",
+            "DOI": "10.1109/ICAC3N56670.2022.10074458",
+            "article-title": "Determining False Positive Analysis of Software Vulnerabilities with Predefined Scan Rules using Random Forest Classifier and Decision Tree Technique",
+            "author": "MahendraVardhan",
+            "year": "2022",
+            "journal-title": "2022 4th International Conference on Advances in Computing, Communication Control and Networking (ICAC3N)"
+          },
+          {
+            "issue": "1s",
+            "key": "R2",
+            "doi-asserted-by": "publisher",
+            "first-page": "34",
+            "DOI": "10.29284/7fjzk883",
+            "article-title": "Audit-Safe Agentic RAG Framework for Regulated Enterprise Systems: A Trustworthy AI Architecture for SAP, Finance, Healthcare, and Government Workflows",
+            "volume": "11",
+            "author": "Amilineni",
+            "year": "2025",
+            "journal-title": "INTERNATIONAL JOURNAL OF ADVANCES IN SIGNAL AND IMAGE SCIENCES"
+          },
+          {
+            "issue": "3",
+            "key": "R3",
+            "doi-asserted-by": "publisher",
+            "first-page": "459",
+            "DOI": "10.1365/s43439-024-00124-2",
+            "article-title": "VAT/GST harmonisation challenges for digital assets such as bitcoin and NFTs in the EU following Case\u00a0C-264/14 (Skatteverket\u00a0v David Hedqist)",
+            "volume": "5",
+            "author": "Ness",
+            "year": "2024",
+            "journal-title": "International Cybersecurity Law Review"
+          },
+          {
+            "key": "R4",
+            "doi-asserted-by": "publisher",
+            "first-page": "46697",
+            "DOI": "10.1109/ACCESS.2025.3550853",
+            "article-title": "Securing Networks Against Adversarial Domain Name System Tunneling Attacks Using Hybrid Neural Networks",
+            "volume": "13",
+            "author": "Ness",
+            "year": "2025",
+            "journal-title": "IEEE Access"
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://scienceopen.com/hosted-document?doi=10.14293/PR2199.004139.v1",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              27
+            ]
+          ],
+          "date-time": "2026-07-27T06:45:18Z",
+          "timestamp": 1785134718000
+        },
+        "score": 31.977007,
+        "resource": {
+          "primary": {
+            "URL": "https://scienceopen.com/hosted-document?doi=10.14293/PR2199.004139.v1"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              21
+            ]
+          ]
+        },
+        "references-count": 4,
+        "URL": "https://doi.org/10.14293/pr2199.004139.v1",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              21
+            ]
+          ]
+        },
+        "subtype": "preprint"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              27
+            ]
+          ],
+          "date-time": "2025-02-27T05:30:26Z",
+          "timestamp": 1740634226324,
+          "version": "3.38.0"
+        },
+        "reference-count": 0,
+        "publisher": "SCITEPRESS - Science and Technology Publications",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "DOI": "10.5220/0013188700003899",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              25
+            ]
+          ],
+          "date-time": "2025-02-25T06:22:45Z",
+          "timestamp": 1740464565000
+        },
+        "page": "552-563",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Flexible Noise Based Robustness Certification Against Backdoor Attacks in Graph Neural Networks"
+        ],
+        "prefix": "10.5220",
+        "author": [
+          {
+            "given": "Hiroya",
+            "family": "Kato",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "KDDI Research, Inc., Saitama, Japan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Ryo",
+            "family": "Meguro",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tohoku University, Miyagi, Japan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Seira",
+            "family": "Hidano",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "KDDI Research, Inc., Saitama, Japan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Takuo",
+            "family": "Suganuma",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tohoku University, Miyagi, Japan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Masahiro",
+            "family": "Hiji",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tohoku University, Miyagi, Japan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "3171",
+        "event": {
+          "name": "11th International Conference on Information Systems Security and Privacy",
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                20
+              ]
+            ]
+          },
+          "location": "Porto, Portugal",
+          "end": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                22
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "Proceedings of the 11th International Conference on Information Systems Security and Privacy"
+        ],
+        "original-title": [
+          "Flexible Noise Based Robustness Certification Against Backdoor Attacks in Graph Neural Networks"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              26
+            ]
+          ],
+          "date-time": "2025-02-26T20:10:35Z",
+          "timestamp": 1740600635000
+        },
+        "score": 31.69251,
+        "resource": {
+          "primary": {
+            "URL": "https://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0013188700003899"
+          }
+        },
+        "subtitle": [
+          ""
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.5220/0013188700003899",
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              24
+            ]
+          ],
+          "date-time": "2026-03-24T22:28:43Z",
+          "timestamp": 1774391323653,
+          "version": "3.50.1"
+        },
+        "posted": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "group-title": "SSRN",
+        "reference-count": 53,
+        "publisher": "Elsevier BV",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "abstract": "<jats:p>Recent research on graph neural networks (GNNs) has explored mechanisms for capturing local uncertainty and exploiting graph hierarchies to mitigate data sparsity and leverage structural properties. However, the synergistic integration of these two approaches remains underexplored. This work introduces a novel architecture, the Hierarchy- and Uncertainty-aware Graph Neural Networks (HUGNN), which unifies multi-scale representation learning, principled uncertainty estimation, and self-supervised embedding diversity within a single end-to-end framework. Specifically, HU-GNN adaptively forms node clusters and estimates uncertainty at multiple structural scales from individual nodes to higher levels. These uncertainty estimates guide a robust message-passing mechanism and attentionweighting, effectively mitigating noise and adversarial perturbations while preserving predictive accuracy on semi-supervised classification tasks. We provide key theoretical contributions, including a probabilistic formulation, rigorous uncertaintycalibration guarantees, and formal robustness bounds. Extensive experiments on standard benchmarks demonstrate that our model achieves state-of-the-art robustness and interpretability.</jats:p>",
+        "DOI": "10.2139/ssrn.6465237",
+        "type": "posted-content",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              24
+            ]
+          ],
+          "date-time": "2026-03-24T20:41:38Z",
+          "timestamp": 1774384898000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Hierarchical and Uncertainty-Aware Graph Neural Networks for Heterophily and Robustness"
+        ],
+        "prefix": "10.2139",
+        "author": [
+          {
+            "given": "Jiho",
+            "family": "Choi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0002-1912-7493",
+            "authenticated-orcid": true,
+            "given": "Yumin",
+            "family": "Lee",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Chanran",
+            "family": "Kim",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4359-5596",
+            "authenticated-orcid": true,
+            "given": "Yoonhyuk",
+            "family": "Choi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "ref1",
+            "author": "T N Kipf",
+            "year": "2016",
+            "journal-title": "Semi-supervised classification with graph convolutional networks"
+          },
+          {
+            "key": "ref2",
+            "article-title": "Graph attention networks",
+            "volume": "1050",
+            "author": "P Velickovic",
+            "year": "2017",
+            "journal-title": "stat"
+          },
+          {
+            "key": "ref3",
+            "author": "J Klicpera",
+            "year": "2018",
+            "journal-title": "Predict then propagate: Graph neural networks meet personalized pagerank"
+          },
+          {
+            "key": "ref4",
+            "first-page": "65",
+            "article-title": "Gemsec: Graph embedding with self clustering",
+            "author": "B Rozemberczki",
+            "year": "2019",
+            "journal-title": "Proceedings of the 2019 IEEE/ACM international conference on advances in social networks analysis and mining"
+          },
+          {
+            "key": "ref5",
+            "author": "H Pei",
+            "year": "2020",
+            "journal-title": "Geom-gcn: Geometric graph convolutional networks"
+          },
+          {
+            "key": "ref6",
+            "author": "Y Choi",
+            "year": "2023",
+            "journal-title": "Is signed message essential for graph neural networks"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "crossref",
+            "first-page": "7404",
+            "DOI": "10.1609/aaai.v35i8.16908",
+            "article-title": "Uag: Uncertainty-aware attention graph neural network for defending adversarial attacks",
+            "volume": "35",
+            "author": "B Feng",
+            "year": "2021",
+            "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+          },
+          {
+            "key": "ref8",
+            "author": "S Han",
+            "year": "2025",
+            "journal-title": "Uncertainty-aware graph structure learning"
+          },
+          {
+            "key": "ref9",
+            "first-page": "2515",
+            "article-title": "Lg-gnn: local-global adaptive graph neural network for modeling both homophily and heterophily",
+            "author": "Z Yu",
+            "year": "2024",
+            "journal-title": "Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence"
+          },
+          {
+            "key": "ref10",
+            "author": "B Neyshabur",
+            "year": "2017",
+            "journal-title": "A pac-bayesian approach to spectrally-normalized margin bounds for neural networks"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "crossref",
+            "first-page": "9524",
+            "DOI": "10.1609/aaai.v35i11.17147",
+            "article-title": "Uncertainty-matching graph neural networks to defend against poisoning attacks",
+            "volume": "35",
+            "author": "U S Shanthamallu",
+            "year": "2021",
+            "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+          },
+          {
+            "key": "ref12",
+            "author": "S Brody",
+            "year": "2021",
+            "journal-title": "How attentive are graph attention networks?"
+          },
+          {
+            "key": "ref13",
+            "first-page": "283",
+            "article-title": "Finding heterophilic neighbors via confidence-based subgraph matching for semi-supervised node classification",
+            "author": "Y Choi",
+            "year": "2022",
+            "journal-title": "Proceedings of the 31st ACM International Conference on Information & Knowledge Management"
+          },
+          {
+            "key": "ref14",
+            "author": "K Zhao",
+            "year": "2023",
+            "journal-title": "Graph neural convection-diffusion with heterophily"
+          },
+          {
+            "key": "ref15",
+            "first-page": "7793",
+            "article-title": "Beyond homophily in graph neural networks: Current limitations and effective designs",
+            "volume": "33",
+            "author": "J Zhu",
+            "year": "2020"
+          },
+          {
+            "key": "ref16",
+            "first-page": "11",
+            "article-title": "Graph neural networks with heterophily",
+            "volume": "35",
+            "author": "J Zhu",
+            "year": "2021",
+            "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "crossref",
+            "first-page": "4210",
+            "DOI": "10.1609/aaai.v36i4.20340",
+            "article-title": "Powerful graph convolutional networks with adaptive propagation mechanism for homophily and heterophily",
+            "volume": "36",
+            "author": "T Wang",
+            "year": "2022",
+            "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+          },
+          {
+            "key": "ref18",
+            "author": "X Zheng",
+            "year": "2023",
+            "journal-title": "Autoheg: Automated graph neural network on heterophilic graphs"
+          },
+          {
+            "key": "ref19",
+            "author": "E Chien",
+            "year": "2020",
+            "journal-title": "Adaptive universal generalized pagerank graph neural network"
+          },
+          {
+            "key": "ref20",
+            "author": "D Bo",
+            "year": "2021",
+            "journal-title": "Beyond low-frequency information in graph convolutional networks"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "crossref",
+            "first-page": "1404",
+            "DOI": "10.1145/3485447.3512187",
+            "article-title": "Polarized graph neural networks",
+            "author": "Z Fang",
+            "year": "2022",
+            "journal-title": "Proceedings of the ACM Web Conference 2022"
+          },
+          {
+            "key": "ref22",
+            "author": "Y Guo",
+            "year": "2022",
+            "journal-title": "Clenshaw graph neural networks"
+          },
+          {
+            "key": "ref23",
+            "doi-asserted-by": "crossref",
+            "first-page": "779",
+            "DOI": "10.1145/3437963.3441734",
+            "article-title": "Learning to drop: Robust graph neural network via topological denoising",
+            "author": "D Luo",
+            "year": "2021",
+            "journal-title": "Proceedings of the 14th ACM International Conference on Web Search and Data Mining"
+          },
+          {
+            "key": "ref24",
+            "first-page": "115",
+            "article-title": "Exploitation of a latent mechanism in graph contrastive learning: Representation scattering",
+            "volume": "37",
+            "author": "D He",
+            "year": "2024",
+            "journal-title": "Advances in Neural Information Processing Systems"
+          },
+          {
+            "key": "ref25",
+            "article-title": "Hierarchical graph representation learning with differentiable pooling",
+            "author": "R Ying",
+            "year": "2018",
+            "journal-title": "Advances in Neural Information Processing Systems (NeurIPS)"
+          },
+          {
+            "key": "ref26",
+            "doi-asserted-by": "crossref",
+            "first-page": "240",
+            "DOI": "10.1109/TCSVT.2021.3058098",
+            "article-title": "Hierarchical graph neural networks for few-shot learning",
+            "volume": "32",
+            "author": "C Chen",
+            "year": "2021",
+            "journal-title": "IEEE Transactions on Circuits and Systems for Video Technology"
+          },
+          {
+            "key": "ref27",
+            "doi-asserted-by": "crossref",
+            "first-page": "9612",
+            "DOI": "10.1609/aaai.v34i05.6508",
+            "article-title": "Relational graph neural network with hierarchical attention for knowledge graph completion",
+            "volume": "34",
+            "author": "Z Zhang",
+            "year": "2020",
+            "journal-title": "Proceedings of the AAAI conference on artificial intelligence"
+          },
+          {
+            "key": "ref28",
+            "doi-asserted-by": "crossref",
+            "first-page": "6",
+            "DOI": "10.1145/3394486.3403043",
+            "article-title": "Learning effective road network representation with hierarchical graph neural networks",
+            "author": "N Wu",
+            "year": "2020",
+            "journal-title": "Proceedings of the 26th ACM SIGKDD international conference on knowledge discovery & data mining"
+          },
+          {
+            "key": "ref29",
+            "article-title": "Cluster-gt: Hierarchical graph transformers with adaptive clustering",
+            "author": "X Huang",
+            "journal-title": "Proceedings of the 38th Conference on Neural Information Processing Systems (NeurIPS)"
+          },
+          {
+            "key": "ref30",
+            "first-page": "13",
+            "article-title": "What makes graph neural networks miscalibrated?",
+            "volume": "35",
+            "author": "H H",
+            "year": "2022",
+            "journal-title": "Advances in Neural Information Processing Systems"
+          },
+          {
+            "key": "ref31",
+            "first-page": "1131",
+            "article-title": "Ud-gnn: Uncertainty-aware debiased training on semi-homophilous graphs",
+            "author": "Y Liu",
+            "year": "2022",
+            "journal-title": "Proceedings of the 28th ACM SIGKDD conference on knowledge discovery and data mining"
+          },
+          {
+            "key": "ref32",
+            "first-page": "26",
+            "article-title": "Uncertainty quantification over graph with conformalized graph neural networks",
+            "volume": "36",
+            "author": "K Huang",
+            "year": "2023",
+            "journal-title": "Advances in Neural Information Processing Systems"
+          },
+          {
+            "key": "ref33",
+            "author": "P Trivedi",
+            "year": "2024",
+            "journal-title": "Accurate and scalable estimation of epistemic uncertainty for graph neural networks"
+          },
+          {
+            "key": "ref34",
+            "article-title": "Graph neural stochastic diffusion for estimating uncertainty in node classification",
+            "author": "X Lin",
+            "year": "2024",
+            "journal-title": "Forty-first International Conference on Machine Learning"
+          },
+          {
+            "key": "ref35",
+            "article-title": "Graph energy-based models for multi-scale uncertainty",
+            "author": "F Fuchsgruber",
+            "journal-title": "Proceedings of the 38th Conference on Neural Information Processing Systems (NeurIPS)"
+          },
+          {
+            "issue": "4",
+            "key": "ref36",
+            "article-title": "Variational message passing",
+            "volume": "6",
+            "author": "J Winn",
+            "year": "2005",
+            "journal-title": "Journal of Machine Learning Research"
+          },
+          {
+            "key": "ref37",
+            "first-page": "2270",
+            "article-title": "Calibrate graph neural networks under out-of-distribution nodes via deep q-learning",
+            "author": "W Shi",
+            "year": "2023",
+            "journal-title": "Proceedings of the 32nd ACM International Conference on Information and Knowledge Management"
+          },
+          {
+            "key": "ref38",
+            "author": "H Nt",
+            "year": "2019",
+            "journal-title": "Revisiting graph neural networks: All we have is lowpass filters"
+          },
+          {
+            "key": "ref39",
+            "article-title": "Extracting low-/high-frequency knowledge from graph neural networks and injecting it into mlps: An effective gnn-to-mlp distillation framework",
+            "volume": "37",
+            "author": "L Wu",
+            "year": "2023",
+            "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+          },
+          {
+            "key": "ref40",
+            "first-page": "17",
+            "article-title": "covariance neural networks",
+            "volume": "35",
+            "author": "S Sihag",
+            "year": "2022",
+            "journal-title": "Advances in neural information processing systems"
+          },
+          {
+            "key": "ref41",
+            "author": "E Jang",
+            "year": "2016",
+            "journal-title": "Categorical reparameterization with gumbelsoftmax"
+          },
+          {
+            "key": "ref42",
+            "author": "R Liao",
+            "year": "2020",
+            "journal-title": "A pac-bayesian approach to generalization bounds for graph neural networks"
+          },
+          {
+            "key": "ref43",
+            "doi-asserted-by": "crossref",
+            "first-page": "807",
+            "DOI": "10.1145/1557019.1557108",
+            "article-title": "Social influence analysis in large-scale networks",
+            "author": "J Tang",
+            "year": "2009",
+            "journal-title": "Proceedings of the 15th ACM SIGKDD international conference on Knowledge discovery and data mining"
+          },
+          {
+            "key": "ref44",
+            "author": "K Xu",
+            "year": "2018",
+            "journal-title": "How powerful are graph neural networks?"
+          },
+          {
+            "key": "ref45",
+            "first-page": "1725",
+            "article-title": "Simple and deep graph convolutional networks",
+            "author": "M Chen",
+            "year": "2020",
+            "journal-title": "International Conference on Machine Learning"
+          },
+          {
+            "key": "ref46",
+            "author": "S Luan",
+            "year": "2022",
+            "journal-title": "Revisiting heterophily for graph neural networks"
+          },
+          {
+            "key": "ref47",
+            "article-title": "How powerful are spectral graph neural networks",
+            "author": "X Wang",
+            "year": "2022",
+            "journal-title": "International Conference on Machine Learning"
+          },
+          {
+            "key": "ref48",
+            "article-title": "Towards deep attention in graph neural networks: Problems and remedies",
+            "volume": "18",
+            "author": "S Y Lee",
+            "year": "2023",
+            "journal-title": "International Conference on Machine Learning"
+          },
+          {
+            "key": "ref49",
+            "article-title": "Pc-conv: Unifying homophily and heterophily with two-fold filtering",
+            "volume": "38",
+            "author": "B Li",
+            "year": "2024",
+            "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+          },
+          {
+            "key": "ref50",
+            "article-title": "GNNGuard: Defending graph neural networks against adversarial attacks",
+            "author": "J Zhang",
+            "year": "2020",
+            "journal-title": "Advances in Neural Information Processing Systems (NeurIPS)"
+          },
+          {
+            "key": "ref51",
+            "article-title": "Rung: Robust unbiased gnn with adversarial attacks via irls aggregation",
+            "author": "Q Zhang",
+            "journal-title": "Proceedings of the 37th Conference on Neural Information Processing Systems (NeurIPS)"
+          },
+          {
+            "key": "ref52",
+            "author": "Y Rong",
+            "year": "2019",
+            "journal-title": "Dropedge: Towards deep graph convolutional networks on node classification"
+          },
+          {
+            "key": "ref53",
+            "article-title": "Calibrated and sharp uncertainties in deep learning via density estimation",
+            "author": "V Kuleshov",
+            "year": "2022",
+            "journal-title": "International Conference on Machine Learning"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              24
+            ]
+          ],
+          "date-time": "2026-03-24T20:46:04Z",
+          "timestamp": 1774385164000
+        },
+        "score": 30.374916,
+        "resource": {
+          "primary": {
+            "URL": "https://www.ssrn.com/abstract=6465237"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "references-count": 53,
+        "URL": "https://doi.org/10.2139/ssrn.6465237",
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "subtype": "preprint"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              9
+            ]
+          ],
+          "date-time": "2026-09-09T02:19:31Z",
+          "timestamp": 1788920371346,
+          "version": "build-2803163510"
+        },
+        "posted": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "group-title": "SSRN",
+        "reference-count": 74,
+        "publisher": "Elsevier BV",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.2139/ssrn.5821642",
+        "type": "posted-content",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              28
+            ]
+          ],
+          "date-time": "2025-11-28T11:36:38Z",
+          "timestamp": 1764329798000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 2,
+        "title": [
+          "Hierarchical and Uncertainty-Aware Graph Neural Networks for Heterophily and Robustness"
+        ],
+        "prefix": "10.2139",
+        "author": [
+          {
+            "given": "Yoonhyuk",
+            "family": "Choi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chanran",
+            "family": "Kim",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yumin",
+            "family": "Lee",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chong-Kwon",
+            "family": "Kim",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "ref1",
+            "first-page": "21",
+            "article-title": "Greg Ver Steeg, and Aram Galstyan. Mixhop: Higher-order graph convolutional architectures via sparsified neighborhood mixing",
+            "author": "Sami Abu-El-Haija",
+            "year": "2019",
+            "journal-title": "international conference on machine learning"
+          },
+          {
+            "key": "ref2",
+            "author": "Deyu Bo",
+            "year": "2021",
+            "journal-title": "Beyond lowfrequency information in graph convolutional networks"
+          },
+          {
+            "key": "ref3",
+            "author": "Shaked Brody",
+            "year": "2021",
+            "journal-title": "How attentive are graph attention networks"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "crossref",
+            "first-page": "240",
+            "DOI": "10.1109/TCSVT.2021.3058098",
+            "article-title": "Hierarchical graph neural networks for few-shot learning",
+            "volume": "32",
+            "author": "Cen Chen",
+            "year": "2021",
+            "journal-title": "IEEE Transactions on Circuits and Systems for Video Technology"
+          },
+          {
+            "key": "ref5",
+            "first-page": "1725",
+            "article-title": "Simple and deep graph convolutional networks",
+            "author": "Ming Chen",
+            "year": "2020",
+            "journal-title": "International Conference on Machine Learning"
+          },
+          {
+            "key": "ref6",
+            "author": "Yuhan Chen",
+            "year": "2023",
+            "journal-title": "Towards general graph neural network in node classification by local similarity"
+          },
+          {
+            "key": "ref7",
+            "author": "Eli Chien",
+            "year": "2020",
+            "journal-title": "Adaptive universal generalized pagerank graph neural network"
+          },
+          {
+            "key": "ref8",
+            "first-page": "283",
+            "article-title": "Finding heterophilic neighbors via confidence-based subgraph matching for semi-supervised node classification",
+            "author": "Yoonhyuk Choi",
+            "year": "2022",
+            "journal-title": "Proceedings of the 31st ACM International Conference on Information & Knowledge Management"
+          },
+          {
+            "key": "ref9",
+            "author": "Yoonhyuk Choi",
+            "year": "2023",
+            "journal-title": "Is signed message essential for graph neural networks"
+          },
+          {
+            "key": "ref10",
+            "volume": "29",
+            "author": "Micha\ufffdl Defferrard",
+            "year": "2016",
+            "journal-title": "Convolutional neural networks on graphs with fast localized spectral filtering. Advances in neural information processing systems"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "crossref",
+            "first-page": "929",
+            "DOI": "10.1109/ICDM.2018.00113",
+            "article-title": "Signed graph convolutional networks",
+            "author": "Tyler Derr",
+            "year": "2018",
+            "journal-title": "2018 IEEE International Conference on Data Mining (ICDM)"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "crossref",
+            "first-page": "1404",
+            "DOI": "10.1145/3485447.3512187",
+            "article-title": "Polarized graph neural networks",
+            "author": "Zheng Fang",
+            "year": "2022",
+            "journal-title": "Proceedings of the ACM Web Conference 2022"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "crossref",
+            "first-page": "7404",
+            "DOI": "10.1609/aaai.v35i8.16908",
+            "article-title": "Uag: Uncertainty-aware attention graph neural network for defending adversarial attacks",
+            "volume": "35",
+            "author": "Boyuan Feng",
+            "year": "2021",
+            "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+          },
+          {
+            "issue": "11",
+            "key": "ref14",
+            "doi-asserted-by": "crossref",
+            "first-page": "1421",
+            "DOI": "10.1109/TCSI.2003.818614",
+            "article-title": "Global convergence of neural networks with discontinuous neuron activations",
+            "volume": "50",
+            "author": "Mauro Forti",
+            "year": "2003",
+            "journal-title": "IEEE Transactions on Circuits and Systems I: Fundamental Theory and Applications"
+          },
+          {
+            "key": "ref15",
+            "article-title": "Graph energy-based models for multi-scale uncertainty",
+            "author": "F Fuchsgruber",
+            "journal-title": "Proceedings of the 38th Conference on Neural Information Processing Systems (NeurIPS)"
+          },
+          {
+            "key": "ref16",
+            "author": "Yuhe Guo",
+            "year": "2022",
+            "journal-title": "Clenshaw graph neural networks"
+          },
+          {
+            "key": "ref17",
+            "author": "Shen Han",
+            "year": "2025",
+            "journal-title": "Uncertainty-aware graph structure learning"
+          },
+          {
+            "key": "ref18",
+            "article-title": "Scattering graph representations: A unifying perspective on graph contrastive learning",
+            "author": "B He",
+            "journal-title": "Proceedings of the 38th Conference on Neural Information Processing Systems (NeurIPS)"
+          },
+          {
+            "key": "ref19",
+            "first-page": "115351",
+            "article-title": "Exploitation of a latent mechanism in graph contrastive learning: Representation scattering",
+            "volume": "37",
+            "author": "Dongxiao He",
+            "year": "2024",
+            "journal-title": "Advances in Neural Information Processing Systems"
+          },
+          {
+            "key": "ref20",
+            "author": "Mikael Henaff",
+            "year": "2015",
+            "journal-title": "Deep convolutional networks on graph-structured data"
+          },
+          {
+            "key": "ref21",
+            "first-page": "13775",
+            "article-title": "What makes graph neural networks miscalibrated?",
+            "volume": "35",
+            "author": "Hans Hao-Hsun",
+            "year": "2022",
+            "journal-title": "Advances in Neural Information Processing Systems"
+          },
+          {
+            "key": "ref22",
+            "first-page": "566",
+            "article-title": "Signed graph attention networks",
+            "author": "Junjie Huang",
+            "year": "2019",
+            "journal-title": "International Conference on Artificial Neural Networks"
+          },
+          {
+            "key": "ref23",
+            "first-page": "26699",
+            "article-title": "Uncertainty quantification over graph with conformalized graph neural networks",
+            "volume": "36",
+            "author": "Kexin Huang",
+            "year": "2023",
+            "journal-title": "Advances in Neural Information Processing Systems"
+          },
+          {
+            "key": "ref24",
+            "article-title": "Cluster-gt: Hierarchical graph transformers with adaptive clustering",
+            "author": "X Huang",
+            "journal-title": "Proceedings of the 38th Conference on Neural Information Processing Systems (NeurIPS)"
+          },
+          {
+            "key": "ref25",
+            "author": "Eric Jang",
+            "year": "2016",
+            "journal-title": "Categorical reparameterization with gumbel-softmax"
+          },
+          {
+            "key": "ref26",
+            "author": "N Thomas",
+            "year": "2016",
+            "journal-title": "Semi-supervised classification with graph convolutional networks"
+          },
+          {
+            "key": "ref27",
+            "author": "Johannes Klicpera",
+            "year": "2018",
+            "journal-title": "Predict then propagate: Graph neural networks meet personalized pagerank"
+          },
+          {
+            "key": "ref28",
+            "author": "Taewook Ko",
+            "year": "2023",
+            "journal-title": "Signed directed graph contrastive learning with laplacian augmentation"
+          },
+          {
+            "key": "ref29",
+            "first-page": "1098",
+            "article-title": "Universal graph contrastive learning with a novel laplacian perturbation",
+            "author": "Taewook Ko",
+            "year": "2023",
+            "journal-title": "Uncertainty in Artificial Intelligence"
+          },
+          {
+            "key": "ref30",
+            "first-page": "11683",
+            "article-title": "Calibrated and sharp uncertainties in deep learning via density estimation",
+            "author": "Volodymyr Kuleshov",
+            "year": "2022",
+            "journal-title": "International Conference on Machine Learning"
+          },
+          {
+            "key": "ref31",
+            "first-page": "18774",
+            "article-title": "Towards deep attention in graph neural networks: Problems and remedies",
+            "author": "Soo Yong",
+            "year": "2023",
+            "journal-title": "International Conference on Machine Learning"
+          },
+          {
+            "key": "ref32",
+            "author": "Runlin Lei",
+            "year": "2022",
+            "journal-title": "Evennet: Ignoring odd-hop neighbors improves robustness of graph neural networks"
+          },
+          {
+            "key": "ref33",
+            "doi-asserted-by": "crossref",
+            "first-page": "13437",
+            "DOI": "10.1609/aaai.v38i12.29246",
+            "article-title": "Pc-conv: Unifying homophily and heterophily with two-fold filtering",
+            "volume": "38",
+            "author": "Bingheng Li",
+            "year": "2024",
+            "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+          },
+          {
+            "key": "ref34",
+            "author": "Xiang Li",
+            "year": "2022",
+            "journal-title": "Finding global homophily in graph neural networks when meeting heterophily"
+          },
+          {
+            "key": "ref35",
+            "author": "Renjie Liao",
+            "year": "2020",
+            "journal-title": "A pac-bayesian approach to generalization bounds for graph neural networks"
+          },
+          {
+            "key": "ref36",
+            "article-title": "Graph neural stochastic diffusion for estimating uncertainty in node classification",
+            "author": "Xixun Lin",
+            "year": "2024",
+            "journal-title": "Forty-first International Conference on Machine Learning"
+          },
+          {
+            "key": "ref37",
+            "first-page": "1131",
+            "article-title": "Ud-gnn: Uncertainty-aware debiased training on semi-homophilous graphs",
+            "author": "Yang Liu",
+            "year": "2022",
+            "journal-title": "Proceedings of the 28th ACM SIGKDD conference on knowledge discovery and data mining"
+          },
+          {
+            "key": "ref38",
+            "author": "Sitao Luan",
+            "year": "2022",
+            "journal-title": "Revisiting heterophily for graph neural networks"
+          },
+          {
+            "key": "ref39",
+            "first-page": "779",
+            "article-title": "Learning to drop: Robust graph neural network via topological denoising",
+            "author": "Dongsheng Luo",
+            "year": "2021",
+            "journal-title": "Proceedings of the 14th ACM International Conference on Web Search and Data Mining"
+          },
+          {
+            "key": "ref40",
+            "author": "Srinadh Behnam Neyshabur",
+            "year": "2017",
+            "journal-title": "A pacbayesian approach to spectrally-normalized margin bounds for neural networks"
+          },
+          {
+            "key": "ref41",
+            "author": "Hoang Nt",
+            "year": "2019",
+            "journal-title": "Revisiting graph neural networks: All we have is low-pass filters"
+          },
+          {
+            "key": "ref42",
+            "author": "Hongbin Pei",
+            "year": "2020",
+            "journal-title": "Geom-gcn: Geometric graph convolutional networks"
+          },
+          {
+            "issue": "7",
+            "key": "ref43",
+            "first-page": "579",
+            "article-title": "Multilayer perceptron and neural networks",
+            "volume": "8",
+            "author": "Marius-Constantin Popescu",
+            "year": "2009",
+            "journal-title": "WSEAS Transactions on Circuits and Systems"
+          },
+          {
+            "key": "ref44",
+            "author": "Yu Rong",
+            "year": "2019",
+            "journal-title": "Towards deep graph convolutional networks on node classification"
+          },
+          {
+            "key": "ref45",
+            "first-page": "65",
+            "article-title": "Gemsec: Graph embedding with self clustering",
+            "author": "Ryan Benedek Rozemberczki",
+            "year": "2019",
+            "journal-title": "Proceedings of the 2019 IEEE/ACM international conference on advances in social networks analysis and mining"
+          },
+          {
+            "key": "ref46",
+            "doi-asserted-by": "crossref",
+            "first-page": "9524",
+            "DOI": "10.1609/aaai.v35i11.17147",
+            "article-title": "Uncertainty-matching graph neural networks to defend against poisoning attacks",
+            "volume": "35",
+            "author": "Uday Shankar Shanthamallu",
+            "year": "2021",
+            "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+          },
+          {
+            "key": "ref47",
+            "first-page": "2270",
+            "article-title": "Calibrate graph neural networks under out-of-distribution nodes via deep q-learning",
+            "author": "Weili Shi",
+            "year": "2023",
+            "journal-title": "Proceedings of the 32nd ACM International Conference on Information and Knowledge Management"
+          },
+          {
+            "key": "ref48",
+            "first-page": "17003",
+            "volume": "35",
+            "author": "Saurabh Sihag",
+            "year": "2022",
+            "journal-title": "Advances in neural information processing systems"
+          },
+          {
+            "key": "ref49",
+            "article-title": "Beyond homophily: Structure-aware path aggregation graph neural network",
+            "volume": "7",
+            "author": "Yifei Sun",
+            "journal-title": "Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, IJCAI-22"
+          },
+          {
+            "key": "ref50",
+            "doi-asserted-by": "crossref",
+            "first-page": "807",
+            "DOI": "10.1145/1557019.1557108",
+            "article-title": "Social influence analysis in large-scale networks",
+            "author": "Jie Tang",
+            "year": "2009",
+            "journal-title": "Proceedings of the 15th ACM SIGKDD international conference on Knowledge discovery and data mining"
+          },
+          {
+            "key": "ref51",
+            "author": "Puja Trivedi",
+            "year": "2024",
+            "journal-title": "Accurate and scalable estimation of epistemic uncertainty for graph neural networks"
+          },
+          {
+            "key": "ref52",
+            "author": "P Velickovic",
+            "year": "2019",
+            "journal-title": "Deep Graph Infomax. International Conference on Learning Representations (ICLR)"
+          },
+          {
+            "key": "ref53",
+            "article-title": "Graph attention networks",
+            "volume": "1050",
+            "author": "Petar Velickovic",
+            "year": "2017",
+            "journal-title": "stat"
+          },
+          {
+            "key": "ref54",
+            "doi-asserted-by": "crossref",
+            "first-page": "4210",
+            "DOI": "10.1609/aaai.v36i4.20340",
+            "article-title": "Powerful graph convolutional networks with adaptive propagation mechanism for homophily and heterophily",
+            "volume": "36",
+            "author": "Tao Wang",
+            "year": "2022",
+            "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+          },
+          {
+            "key": "ref55",
+            "first-page": "23341",
+            "article-title": "How powerful are spectral graph neural networks",
+            "author": "Xiyuan Wang",
+            "year": "2022",
+            "journal-title": "International Conference on Machine Learning"
+          },
+          {
+            "issue": "4",
+            "key": "ref56",
+            "article-title": "Variational message passing",
+            "volume": "6",
+            "author": "John Winn",
+            "year": "2005",
+            "journal-title": "Journal of Machine Learning Research"
+          },
+          {
+            "key": "ref57",
+            "doi-asserted-by": "crossref",
+            "first-page": "10351",
+            "DOI": "10.1609/aaai.v37i9.26232",
+            "article-title": "Extracting low-/high-frequency knowledge from graph neural networks and injecting it into mlps: An effective gnn-to-mlp distillation framework",
+            "volume": "37",
+            "author": "Lirong Wu",
+            "year": "2023",
+            "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+          },
+          {
+            "key": "ref58",
+            "first-page": "6",
+            "article-title": "Learning effective road network representation with hierarchical graph neural networks",
+            "author": "Ning Wu",
+            "year": "2020",
+            "journal-title": "Proceedings of the 26th ACM SIGKDD international conference on knowledge discovery & data mining"
+          },
+          {
+            "key": "ref59",
+            "article-title": "Adversarial examples on graph data: Deep insights into attack and defense",
+            "author": "X Wu",
+            "year": "2019",
+            "journal-title": "Proceedings of the 28th International Joint Conference on Artificial Intelligence (IJCAI)"
+          },
+          {
+            "key": "ref60",
+            "article-title": "A comprehensive benchmark for adversarial robustness of gnns",
+            "author": "B Xi",
+            "journal-title": "Proceedings of the 38th Conference on Neural Information Processing Systems (NeurIPS)"
+          },
+          {
+            "key": "ref61",
+            "author": "Keyulu Xu",
+            "year": "2018",
+            "journal-title": "How powerful are graph neural networks? arXiv preprint"
+          },
+          {
+            "key": "ref62",
+            "article-title": "From trainable negative depth to edge heterophily in graphs",
+            "volume": "36",
+            "author": "Yuchen Yan",
+            "year": "2024",
+            "journal-title": "Advances in Neural Information Processing Systems"
+          },
+          {
+            "key": "ref63",
+            "author": "Yujun Yan",
+            "year": "2021",
+            "journal-title": "Two sides of the same coin: Heterophily and oversmoothing in graph convolutional neural networks"
+          },
+          {
+            "key": "ref64",
+            "article-title": "Hierarchical graph representation learning with differentiable pooling",
+            "author": "R Ying",
+            "year": "2018",
+            "journal-title": "Advances in Neural Information Processing Systems (NeurIPS)"
+          },
+          {
+            "key": "ref65",
+            "first-page": "2515",
+            "article-title": "Lg-gnn: local-global adaptive graph neural network for modeling both homophily and heterophily",
+            "author": "Zhizhi Yu",
+            "year": "2024",
+            "journal-title": "Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence"
+          },
+          {
+            "key": "ref66",
+            "article-title": "GNNGuard: Defending graph neural networks against adversarial attacks",
+            "author": "J Zhang",
+            "year": "2020",
+            "journal-title": "Advances in Neural Information Processing Systems (NeurIPS)"
+          },
+          {
+            "key": "ref67",
+            "article-title": "Rung: Robust unbiased gnn with adversarial attacks via irls aggregation",
+            "author": "Q Zhang",
+            "journal-title": "Proceedings of the 37th Conference on Neural Information Processing Systems (NeurIPS)"
+          },
+          {
+            "key": "ref68",
+            "doi-asserted-by": "crossref",
+            "first-page": "9612",
+            "DOI": "10.1609/aaai.v34i05.6508",
+            "article-title": "Relational graph neural network with hierarchical attention for knowledge graph completion",
+            "volume": "34",
+            "author": "Zhao Zhang",
+            "year": "2020",
+            "journal-title": "Proceedings of the AAAI conference on artificial intelligence"
+          },
+          {
+            "key": "ref69",
+            "author": "Kai Zhao",
+            "year": "2023",
+            "journal-title": "Graph neural convection-diffusion with heterophily"
+          },
+          {
+            "key": "ref70",
+            "first-page": "12827",
+            "article-title": "Uncertainty aware semi-supervised learning on graph data",
+            "volume": "33",
+            "author": "Xujiang Zhao",
+            "year": "2020",
+            "journal-title": "Advances in Neural Information Processing Systems"
+          },
+          {
+            "key": "ref71",
+            "author": "Xin Zheng",
+            "year": "2023",
+            "journal-title": "Auto-heg: Automated graph neural network on heterophilic graphs"
+          },
+          {
+            "key": "ref72",
+            "first-page": "7793",
+            "article-title": "Beyond homophily in graph neural networks: Current limitations and effective designs",
+            "volume": "33",
+            "author": "Jiong Zhu",
+            "year": "2020",
+            "journal-title": "Advances in Neural Information Processing Systems"
+          },
+          {
+            "key": "ref73",
+            "doi-asserted-by": "crossref",
+            "first-page": "11168",
+            "DOI": "10.1609/aaai.v35i12.17332",
+            "article-title": "Graph neural networks with heterophily",
+            "volume": "35",
+            "author": "Jiong Zhu",
+            "year": "2021",
+            "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+          },
+          {
+            "key": "ref74",
+            "article-title": "Adversarial attacks on graph neural networks via meta learning",
+            "author": "D Z\ufffdgner",
+            "year": "2019",
+            "journal-title": "International Conference on Learning Representations (ICLR)"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              28
+            ]
+          ],
+          "date-time": "2025-11-28T11:40:17Z",
+          "timestamp": 1764330017000
+        },
+        "score": 29.964828,
+        "resource": {
+          "primary": {
+            "URL": "https://www.ssrn.com/abstract=5821642"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "references-count": 74,
+        "URL": "https://doi.org/10.2139/ssrn.5821642",
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "subtype": "preprint"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              8
+            ]
+          ],
+          "date-time": "2026-04-08T06:20:03Z",
+          "timestamp": 1775629203509,
+          "version": "3.50.1"
+        },
+        "reference-count": 9,
+        "publisher": "IEEE",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  1,
+                  23
+                ]
+              ],
+              "date-time": "2026-01-23T00:00:00Z",
+              "timestamp": 1769126400000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  1,
+                  23
+                ]
+              ],
+              "date-time": "2026-01-23T00:00:00Z",
+              "timestamp": 1769126400000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100001809",
+            "name": "National Natural Science Foundation of China",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100001809",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              23
+            ]
+          ]
+        },
+        "DOI": "10.1109/nnice68970.2026.11465566",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              7
+            ]
+          ],
+          "date-time": "2026-04-07T19:54:56Z",
+          "timestamp": 1775591696000
+        },
+        "page": "947-950",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "NoiseVis: A Visualized Robustness Analysis System for Heterogeneous Graph Neural Networks"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "Zhiwen",
+            "family": "He",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Yunnan University,School of Information Science and Engineering,Kunming,China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Lihua",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Yunnan University,School of Information Science and Engineering,Kunming,China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/nar/gkac833"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3511808.3557345"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TKDE.2016.2598561"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3534678.3539366"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/3447548.3467415"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TKDE.2024.3377431"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.inffus.2025.103246"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-030-02922-7_17"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ICDM.2018.00071"
+          }
+        ],
+        "event": {
+          "name": "2026 6th International Conference on Neural Networks, Information and Communication Engineering (NNICE)",
+          "location": "Hefei, China",
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                23
+              ]
+            ]
+          },
+          "end": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                25
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2026 6th International Conference on Neural Networks, Information and Communication Engineering (NNICE)"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/11465167/11465173/11465566.pdf?arnumber=11465566",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              8
+            ]
+          ],
+          "date-time": "2026-04-08T05:42:30Z",
+          "timestamp": 1775626950000
+        },
+        "score": 29.0188,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/11465566/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              23
+            ]
+          ]
+        },
+        "references-count": 9,
+        "URL": "https://doi.org/10.1109/nnice68970.2026.11465566",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              23
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              21
+            ]
+          ],
+          "date-time": "2026-04-21T12:03:14Z",
+          "timestamp": 1776772994533,
+          "version": "3.51.2"
+        },
+        "reference-count": 0,
+        "publisher": "Infopro Digital Services Limited",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "JRMV"
+        ],
+        "DOI": "10.21314/jrmv.2026.003",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              21
+            ]
+          ],
+          "date-time": "2026-04-21T11:34:41Z",
+          "timestamp": 1776771281000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Graph neural networks for credit default prediction: robustness and model evaluation"
+        ],
+        "prefix": "10.21314",
+        "author": [
+          {
+            "given": "Konstantinos",
+            "family": "Papalamprou",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Nikolaos",
+            "family": "Terzis",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "8934",
+        "published-online": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "container-title": [
+          "The Journal of Risk Model Validation"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              21
+            ]
+          ],
+          "date-time": "2026-04-21T11:34:42Z",
+          "timestamp": 1776771282000
+        },
+        "score": 28.788849,
+        "resource": {
+          "primary": {
+            "URL": "https://www.risk.net/node/7963405"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.21314/jrmv.2026.003",
+        "ISSN": [
+          "1753-9587"
+        ],
+        "issn-type": [
+          {
+            "value": "1753-9587",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        }
+      },
+      {
+        "institution": [
+          {
+            "name": "Research Square"
+          }
+        ],
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              21
+            ]
+          ],
+          "date-time": "2026-01-21T19:55:29Z",
+          "timestamp": 1769025329489,
+          "version": "3.49.0"
+        },
+        "posted": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              21
+            ]
+          ]
+        },
+        "group-title": "In Review",
+        "reference-count": 0,
+        "publisher": "Springer Science and Business Media LLC",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  1,
+                  21
+                ]
+              ],
+              "date-time": "2026-01-21T00:00:00Z",
+              "timestamp": 1768953600000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "accepted": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              20
+            ]
+          ]
+        },
+        "abstract": "<title>Abstract</title>\n                <p>Graph Neural Networks (GNNs) are increasingly used to model protein\u2013protein interaction networks in cancer biology but are commonly deployed using central ized, cloud-based GPU infrastructure. This study examines the computational feasibility and numerical stability of executing GNN training and inference on decentralized, GPU-accelerated edge computing platforms. Using a protein protein interaction network comprising 1,603 genes and transcriptomic data from TCGA breast and lung cancer cohorts, we evaluate convergence behavior, mem ory constraints, and inference latency on a Jetson-class Single Board Computer. To avoid conflating hardware validation with biological performance, experiments are explicitly separated into (i) synthetic graph signal stress tests for systems level evaluation and (ii) biologically unmodified TCGA benchmarks for baseline predictive assessment. Results demonstrate stable convergence, tightly bounded inference latency (\u02dc15 ms), and baseline predictive performance consistent with prior network-based oncology studies. These findings indicate that edge-based platforms can support graph neural network execution for molecular network analysis without reliance on centralized computing infrastructure.</p>",
+        "DOI": "10.21203/rs.3.rs-8645211/v1",
+        "type": "posted-content",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              21
+            ]
+          ],
+          "date-time": "2026-01-21T04:01:17Z",
+          "timestamp": 1768968077000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Edge-Based Execution of Graph Neural Networks for Protein Interaction Network Analysis in Clinical Oncology"
+        ],
+        "prefix": "10.21203",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0009-5758-3845",
+            "authenticated-orcid": false,
+            "given": "Swapin",
+            "family": "Vidya",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Independent Researcher"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "297",
+        "link": [
+          {
+            "URL": "https://www.researchsquare.com/article/rs-8645211/v1",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.researchsquare.com/article/rs-8645211/v1.html",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              21
+            ]
+          ],
+          "date-time": "2026-01-21T04:01:17Z",
+          "timestamp": 1768968077000
+        },
+        "score": 28.69468,
+        "resource": {
+          "primary": {
+            "URL": "https://www.researchsquare.com/article/rs-8645211/v1"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              21
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.21203/rs.3.rs-8645211/v1",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              21
+            ]
+          ]
+        },
+        "subtype": "preprint"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              16
+            ]
+          ],
+          "date-time": "2026-09-16T17:30:21Z",
+          "timestamp": 1789579821252,
+          "version": "build-2803163510"
+        },
+        "reference-count": 54,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2025-03-01T00:00:00Z",
+              "timestamp": 1740787200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2025-03-01T00:00:00Z",
+              "timestamp": 1740787200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2025-03-01T00:00:00Z",
+              "timestamp": 1740787200000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-017"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2025-03-01T00:00:00Z",
+              "timestamp": 1740787200000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2025-03-01T00:00:00Z",
+              "timestamp": 1740787200000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-012"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2025-03-01T00:00:00Z",
+              "timestamp": 1740787200000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2025-03-01T00:00:00Z",
+              "timestamp": 1740787200000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-004"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Neural Networks"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.neunet.2024.106965",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              3
+            ]
+          ],
+          "date-time": "2024-12-03T17:52:19Z",
+          "timestamp": 1733248339000
+        },
+        "page": "106965",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 18,
+        "special_numbering": "C",
+        "title": [
+          "Heterogeneous Graph Embedding with Dual Edge Differentiation"
+        ],
+        "prefix": "10.1016",
+        "volume": "183",
+        "author": [
+          {
+            "given": "Yuhong",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Fuhai",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5835-9903",
+            "authenticated-orcid": false,
+            "given": "Zhihao",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7832-908X",
+            "authenticated-orcid": false,
+            "given": "Zhaoliang",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7856-862X",
+            "authenticated-orcid": false,
+            "given": "Zhiling",
+            "family": "Cai",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3526-6859",
+            "authenticated-orcid": false,
+            "given": "Yanchao",
+            "family": "Tan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5195-9682",
+            "authenticated-orcid": false,
+            "given": "Shiping",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.neunet.2024.106965_b1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Cai, J., Wang, S., & Guo, W. (2019). Unsupervised deep feature representation using adversarial auto-encoder. In Proceedings of the 2019 IEEE international conference on industrial cyber physical systems (pp. 749\u2013754).",
+            "DOI": "10.1109/ICPHYS.2019.8780153"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Cao, Y., Peng, H., Wu, J., Dou, Y., Li, J., & Yu, P. S. (2021). Knowledge-preserving incremental social event detection via heterogeneous gnns. In Proceedings of the web conference (pp. 3383\u20133395).",
+            "DOI": "10.1145/3442381.3449834"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b3",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Cen, Y., Zou, X., Zhang, J., Yang, H., Zhou, J., & Tang, J. (2019). Representation learning for attributed multiplex heterogeneous network. In Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery & data mining (pp. 1358\u20131368).",
+            "DOI": "10.1145/3292500.3330964"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b4",
+            "doi-asserted-by": "crossref",
+            "first-page": "109",
+            "DOI": "10.1016/j.inffus.2023.02.013",
+            "article-title": "Learnable graph convolutional network and feature fusion for multi-view learning",
+            "volume": "95",
+            "author": "Chen",
+            "year": "2023",
+            "journal-title": "Information Fusion"
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.neunet.2024.106965_b5",
+            "doi-asserted-by": "crossref",
+            "first-page": "5076",
+            "DOI": "10.1109/TKDE.2022.3151861",
+            "article-title": "Low-rank tensor based proximity learning for multi-view clustering",
+            "volume": "35",
+            "author": "Chen",
+            "year": "2022",
+            "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b6",
+            "doi-asserted-by": "crossref",
+            "first-page": "161",
+            "DOI": "10.1016/j.neunet.2023.09.006",
+            "article-title": "Joint learning of feature and topology for multi-view graph convolutional network",
+            "volume": "168",
+            "author": "Chen",
+            "year": "2023",
+            "journal-title": "Neural Networks"
+          },
+          {
+            "issue": "10",
+            "key": "10.1016/j.neunet.2024.106965_b7",
+            "doi-asserted-by": "crossref",
+            "first-page": "13764",
+            "DOI": "10.1109/TNNLS.2023.3271623",
+            "article-title": "AGNN: Alternating graph-regularized neural networks to alleviate over-smoothing",
+            "volume": "35",
+            "author": "Chen",
+            "year": "2023",
+            "journal-title": "IEEE Transactions on Neural Networks and Learning Systems"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b8",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Chen, Z., Wu, Z., Wang, S., & Guo, W. (2023d). Dual Low-Rank Graph Autoencoder for Semantic and Topological Networks. In Proceedings of the thirty-seventh AAAI conference on artificial intelligence (pp. 4191\u20134198).",
+            "DOI": "10.1609/aaai.v37i4.25536"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b9",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.neunet.2024.106225",
+            "article-title": "Attributed multi-order graph convolutional network for heterogeneous graphs",
+            "volume": "174",
+            "author": "Chen",
+            "year": "2024",
+            "journal-title": "Neural Networks"
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.neunet.2024.106965_b10",
+            "doi-asserted-by": "crossref",
+            "first-page": "2033",
+            "DOI": "10.1109/TKDE.2020.3008732",
+            "article-title": "A graph neural network framework for social recommendations",
+            "volume": "34",
+            "author": "Fan",
+            "year": "2020",
+            "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b11",
+            "doi-asserted-by": "crossref",
+            "first-page": "877",
+            "DOI": "10.1016/j.ins.2022.05.091",
+            "article-title": "Low-rank tensor approximation with local structure for multi-view intrinsic subspace clustering",
+            "volume": "606",
+            "author": "Fu",
+            "year": "2022",
+            "journal-title": "Information Sciences"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b12",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Fu, X., Zhang, J., Meng, Z., & King, I. (2020). MAGNN: Metapath Aggregated Graph Neural Network for Heterogeneous Graph Embedding. In Proceedings of the web conference (pp. 2331\u20132341).",
+            "DOI": "10.1145/3366423.3380297"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b13",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Fu, C., Zheng, G., Huang, C., Yu, Y., & Dong, J. (2023). Multiplex Heterogeneous Graph Neural Network with Behavior Pattern Modeling. In Proceedings of the 29th ACM SIGKDD conference on knowledge discovery and data mining (pp. 482\u2013494).",
+            "DOI": "10.1145/3580305.3599441"
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.neunet.2024.106965_b14",
+            "doi-asserted-by": "crossref",
+            "first-page": "9448",
+            "DOI": "10.1109/TKDE.2023.3239842",
+            "article-title": "Hgnas++: efficient architecture search for heterogeneous graph neural networks",
+            "volume": "35",
+            "author": "Gao",
+            "year": "2023",
+            "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b15",
+            "first-page": "11984",
+            "article-title": "Implicit graph neural networks",
+            "volume": "33",
+            "author": "Gu",
+            "year": "2020",
+            "journal-title": "Advances in Neural Information Processing Systems"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b16",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Guan, Y., Zhang, J., Tian, K., Yang, S., Dong, P., Xiang, J., et al. (2022). Node-aligned graph convolutional network for whole-slide image representation and classification. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition (pp. 18813\u201318823).",
+            "DOI": "10.1109/CVPR52688.2022.01825"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b17",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Guo, X., Liu, X., Zhu, E., & Yin, J. (2017). Deep clustering with convolutional autoencoders. In Neural information processing: 24th international conference, ICONIP 2017, Guangzhou, China, November 14-18, 2017, Proceedings, Part II 24 (pp. 373\u2013382).",
+            "DOI": "10.1007/978-3-319-70096-0_39"
+          },
+          {
+            "issue": "8",
+            "key": "10.1016/j.neunet.2024.106965_b18",
+            "doi-asserted-by": "crossref",
+            "first-page": "3549",
+            "DOI": "10.1109/TKDE.2020.3028705",
+            "article-title": "A survey on knowledge graph-based recommender systems",
+            "volume": "34",
+            "author": "Guo",
+            "year": "2020",
+            "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b19",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Huang, Z., Li, X., Ye, Y., & Ng, M. K. (2020). MR-GCN: Multi-Relational Graph Convolutional Networks based on Generalized Tensor Product. In Proceedings of the twenty-ninth international joint conference on artificial intelligence (pp. 1258\u20131264).",
+            "DOI": "10.24963/ijcai.2020/175"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b20",
+            "unstructured": "Kipf, T. N., & Welling, M. (2017). Semi-supervised classification with graph convolutional networks. In Proceedings of the 5th international conference on learning representations."
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b21",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Li, Y., Jin, Y., Song, G., Zhu, Z., Shi, C., & Wang, Y. (2021a). GraphMSE: efficient meta-path selection in semantically aligned feature space for graph neural networks. In Proceedings of the AAAI conference on artificial intelligence (pp. 4206\u20134214).",
+            "DOI": "10.1609/aaai.v35i5.16544"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.neunet.2024.106965_b22",
+            "first-page": "560",
+            "article-title": "Higher-order attribute-enhancing heterogeneous graph neural networks",
+            "volume": "35",
+            "author": "Li",
+            "year": "2021",
+            "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.neunet.2024.106965_b23",
+            "doi-asserted-by": "crossref",
+            "first-page": "4580",
+            "DOI": "10.1109/TNNLS.2022.3151046",
+            "article-title": "Status-aware signed heterogeneous network embedding with graph neural networks",
+            "volume": "35",
+            "author": "Lin",
+            "year": "2024",
+            "journal-title": "IEEE Transactions on Neural Networks and Learning Systems"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b24",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Liu, M., Gao, H., & Ji, S. (2020). Towards deeper graph neural networks. In Proceedings of the 26th ACM SIGKDD international conference on knowledge discovery & data mining (pp. 338\u2013348).",
+            "DOI": "10.1145/3394486.3403076"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b25",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Mao, Q., Liu, Z., Liu, C., & Sun, J. (2023). HINormer: Representation Learning On Heterogeneous Information Networks with Graph Transformer. In Proceedings of the ACM web conference (pp. 599\u2013610).",
+            "DOI": "10.1145/3543507.3583493"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b26",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Mao, K., Xiao, X., Zhu, J., Lu, B., Tang, R., & He, X. (2020). Item tagging for information retrieval: A tripartite graph neural network based approach. In Proceedings of the 43rd international ACM SIGIR conference on research and development in information retrieval (pp. 2327\u20132336).",
+            "DOI": "10.1145/3397271.3401438"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b27",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Mitra, A., Vijayan, P., Sanasam, R., Goswami, D., Parthasarathy, S., & Ravindran, B. (2021). Semi-supervised deep learning for multiplex networks. In Proceedings of the 27th ACM SIGKDD conference on knowledge discovery & data mining (pp. 1234\u20131244).",
+            "DOI": "10.1145/3447548.3467443"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b28",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Mitra, A., Vijayan, P., Singh, S. R., Goswami, D., Parthasarathy, S., & Ravindran, B. (2022). Revisiting Link Prediction on Heterogeneous Graphs with a Multi-view Perspective. In Proceedings of the 2022 IEEE international conference on data mining (pp. 358\u2013367).",
+            "DOI": "10.1109/ICDM54844.2022.00046"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b29",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Myers, S. A., Sharma, A., Gupta, P., & Lin, J. (2014). Information network or social network? The structure of the Twitter follow graph. In Proceedings of the 23rd international conference on world wide web (pp. 493\u2013498).",
+            "DOI": "10.1145/2567948.2576939"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b30",
+            "series-title": "Proceedings of the AAAI conference on artificial intelligence",
+            "first-page": "5371",
+            "article-title": "Unsupervised attributed multiplex network embedding",
+            "author": "Park",
+            "year": "2020"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b31",
+            "unstructured": "Park, J., Song, J., & Yang, E. (2021). Graphens: Neighbor-aware ego network synthesis for class-imbalanced node classification. In Proceedings of the ninth international conference on learning representations."
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.neunet.2024.106965_b32",
+            "doi-asserted-by": "crossref",
+            "first-page": "3590",
+            "DOI": "10.1109/TIT.2019.2955053",
+            "article-title": "Private information retrieval in graph-based replication systems",
+            "volume": "66",
+            "author": "Raviv",
+            "year": "2019",
+            "journal-title": "Institute of Electrical and Electronics Engineers. Transactions on Information Theory"
+          },
+          {
+            "issue": "11",
+            "key": "10.1016/j.neunet.2024.106965_b33",
+            "doi-asserted-by": "crossref",
+            "first-page": "992",
+            "DOI": "10.14778/3402707.3402736",
+            "article-title": "Pathsim: Meta path-based top-k similarity search in heterogeneous information networks",
+            "volume": "4",
+            "author": "Sun",
+            "year": "2011",
+            "journal-title": "Proceedings of the VLDB Endowment"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b34",
+            "doi-asserted-by": "crossref",
+            "first-page": "824",
+            "DOI": "10.1109/TMM.2023.3272169",
+            "article-title": "Hierarchical consensus hashing for cross-modal retrieval",
+            "volume": "26",
+            "author": "Sun",
+            "year": "2023",
+            "journal-title": "IEEE Transactions on Multimedia"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b35",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Wang, S., Hu, L., Wang, Y., He, X., Sheng, Q. Z., Orgun, M. A., et al. (2021a). Graph learning based recommender systems: a review. In Proceedings of the 30th international joint conference on artificial intelligence (pp. 4644\u20134652).",
+            "DOI": "10.24963/ijcai.2021/630"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b36",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Wang, X., Ji, H., Shi, C., Wang, B., Ye, Y., Cui, P., et al. (2019). Heterogeneous graph attention network. In Proceedings of the world wide web conference (pp. 2022\u20132032).",
+            "DOI": "10.1145/3308558.3313562"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.neunet.2024.106965_b37",
+            "first-page": "1581",
+            "article-title": "Heterogeneous information network embedding with adversarial disentangler",
+            "volume": "35",
+            "author": "Wang",
+            "year": "2021",
+            "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.neunet.2024.106965_b38",
+            "doi-asserted-by": "crossref",
+            "first-page": "3938",
+            "DOI": "10.1109/TKDE.2021.3138788",
+            "article-title": "Hgate: heterogeneous graph attention auto-encoders",
+            "volume": "35",
+            "author": "Wang",
+            "year": "2021",
+            "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b39",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Wang, S., Wu, Z., Chen, Y., & Chen, Y. (2023). Beyond Graph Convolutional Network: An Interpretable Regularizer-Centered Optimization Framework. In Proceedings of the thirty-seventh AAAI conference on artificial intelligence (pp. 4693\u20134701).",
+            "DOI": "10.1609/aaai.v37i4.25593"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b40",
+            "doi-asserted-by": "crossref",
+            "first-page": "110364",
+            "DOI": "10.1016/j.patcog.2024.110364",
+            "article-title": "Graph convolutional network with elastic topology",
+            "volume": "151",
+            "author": "Wu",
+            "year": "2024",
+            "journal-title": "Pattern Recognition"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b41",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Wu, Z., Shu, L., Xu, Z., Chang, Y., Chen, C., & Zheng, Z. (2022). Robust Tensor Graph Convolutional Networks via T-SVD based Graph Augmentation. In Proceedings of the 28th ACM SIGKDD conference on knowledge discovery and data mining (pp. 2090\u20132099).",
+            "DOI": "10.1145/3534678.3539436"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b42",
+            "first-page": "19650",
+            "article-title": "Graph convolutional kernel versus graph convolutional networks",
+            "volume": "36",
+            "author": "Wu",
+            "year": "2023",
+            "journal-title": "Advances in Neural Information Processing Systems"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b43",
+            "doi-asserted-by": "crossref",
+            "first-page": "3182",
+            "DOI": "10.1109/TMM.2021.3094296",
+            "article-title": "Self-supervised graph convolutional network for multi-view clustering",
+            "volume": "24",
+            "author": "Xia",
+            "year": "2021",
+            "journal-title": "IEEE Transactions on Multimedia"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b44",
+            "doi-asserted-by": "crossref",
+            "first-page": "413",
+            "DOI": "10.1016/j.neunet.2022.07.028",
+            "article-title": "Latent neighborhood-based heterogeneous graph representation",
+            "volume": "154",
+            "author": "Xiao",
+            "year": "2022",
+            "journal-title": "Neural Networks"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b45",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Xu, M. (2023). Exploiting Homeostatic Synaptic Modulation in Spiking Neural Networks for Semi-Supervised Graph Learning. In Proceedings of the 32nd ACM international conference on information and knowledge management (pp. 5193\u20135195).",
+            "DOI": "10.1145/3583780.3616000"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b46",
+            "first-page": "16962",
+            "article-title": "Self-supervised heterogeneous graph pre-training based on structural clustering",
+            "volume": "35",
+            "author": "Yang",
+            "year": "2022",
+            "journal-title": "Advances in Neural Information Processing Systems"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b47",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Yu, P., Fu, C., Yu, Y., Huang, C., Zhao, Z., & Dong, J. (2022). Multiplex heterogeneous graph convolutional network. In Proceedings of the 28th ACM SIGKDD conference on knowledge discovery and data mining (pp. 2377\u20132387).",
+            "DOI": "10.1145/3534678.3539482"
+          },
+          {
+            "issue": "8",
+            "key": "10.1016/j.neunet.2024.106965_b48",
+            "doi-asserted-by": "crossref",
+            "first-page": "4296",
+            "DOI": "10.1109/TNNLS.2021.3116936",
+            "article-title": "SHNE: semantics and homophily preserving network embedding",
+            "volume": "34",
+            "author": "Zhang",
+            "year": "2023",
+            "journal-title": "IEEE Transactions on Neural Networks and Learning System"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b49",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1016/j.neunet.2023.09.042",
+            "article-title": "Beyond low-pass filtering on large-scale graphs via adaptive filtering graph neural networks",
+            "volume": "169",
+            "author": "Zhang",
+            "year": "2024",
+            "journal-title": "Neural Networks"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b50",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Zhang, C., Song, D., Huang, C., Swami, A., & Chawla, N. V. (2019). Heterogeneous Graph Neural Network. In Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery & data mining (pp. 793\u2013803).",
+            "DOI": "10.1145/3292500.3330961"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b51",
+            "doi-asserted-by": "crossref",
+            "first-page": "270",
+            "DOI": "10.1016/j.neunet.2021.03.038",
+            "article-title": "Learnable heterogeneous convolution: Learning both topology and strength",
+            "volume": "141",
+            "author": "Zhao",
+            "year": "2021",
+            "journal-title": "Neural Networks"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b52",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Zhu, M., Wang, X., Shi, C., Ji, H., & Cui, P. (2021). Interpreting and unifying graph neural networks with an optimization framework. In Proceedings of the web conference 2021 (pp. 1215\u20131226).",
+            "DOI": "10.1145/3442381.3449953"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b53",
+            "first-page": "7793",
+            "article-title": "Beyond homophily in graph neural networks: Current limitations and effective designs",
+            "volume": "33",
+            "author": "Zhu",
+            "year": "2020",
+            "journal-title": "Advances in Neural Information Processing Systems"
+          },
+          {
+            "key": "10.1016/j.neunet.2024.106965_b54",
+            "doi-asserted-by": "crossref",
+            "first-page": "496",
+            "DOI": "10.1016/j.neunet.2023.10.052",
+            "article-title": "Revisiting multi-view learning: A perspective of implicitly heterogeneous graph convolutional network",
+            "volume": "169",
+            "author": "Zou",
+            "year": "2024",
+            "journal-title": "Neural Networks"
+          }
+        ],
+        "container-title": [
+          "Neural Networks"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0893608024008943?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0893608024008943?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              19
+            ]
+          ],
+          "date-time": "2025-01-19T19:41:03Z",
+          "timestamp": 1737315663000
+        },
+        "score": 28.45869,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0893608024008943"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "references-count": 54,
+        "alternative-id": [
+          "S0893608024008943"
+        ],
+        "URL": "https://doi.org/10.1016/j.neunet.2024.106965",
+        "ISSN": [
+          "0893-6080"
+        ],
+        "issn-type": [
+          {
+            "value": "0893-6080",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Heterogeneous Graph Embedding with Dual Edge Differentiation",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Neural Networks",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.neunet.2024.106965",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "\u00a9 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "article-number": "106965"
+      }
+    ],
+    "items-per-page": 10,
+    "query": {
+      "start-index": 0,
+      "search-terms": "certified robustness graph neural networks edge deletion"
+    }
+  }
+}

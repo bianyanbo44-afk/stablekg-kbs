@@ -1,0 +1,4 @@
+dataset,events,unique_events,n_entities,n_relations,n_times,validation_queries,validation_answers,validation_training_overlap,validation_timestamps,test_queries,test_answers,test_training_overlap,test_timestamps,strict_panel_sha256,truth_protocol,validation_removed_test_only_answers
+ICEWS14,72826,72826,7128,230,365,5000,5058,0,365,5000,5057,0,365,4b788e9cbe5f31c1617b5e47cf9204ece3ead7f14fa43b603ff06dc2730e470a,Validation: training plus validation only. Test: complete published known truth.,119
+ICEWS05-15,368962,368962,10488,251,4017,5000,5051,0,2756,5000,5052,0,2718,5e051b29c69feab6f0321c003cd8f60d50b7138b2c29f4edbae558389d42105a,Validation: training plus validation only. Test: complete published known truth.,111
+GDELT,2308165,2308165,500,20,366,5000,6048,1432,366,5000,6051,1454,366,d5b174d317650b844de16c960371f67ae1ffd4390b03bae426f3ffb4576d3a8a,Validation: training plus validation only. Test: complete published known truth.,1180

@@ -1,0 +1,776 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          30
+        ]
+      ],
+      "date-time": "2026-07-30T11:07:09Z",
+      "timestamp": 1785409629705,
+      "version": "3.56.0"
+    },
+    "reference-count": 80,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "7",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2026-06-16T00:00:00Z",
+          "timestamp": 1781568000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2026-06-16T00:00:00Z",
+          "timestamp": 1781568000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100026024",
+        "name": "Adobe Research",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100026024",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2217058"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2217058"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Mach Learn"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1007/s10994-026-07078-y",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          16
+        ]
+      ],
+      "date-time": "2026-06-16T05:51:04Z",
+      "timestamp": 1781589064000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Improving Selective Classification with Pairwise Queries for Binary Classification"
+    ],
+    "prefix": "10.1007",
+    "volume": "115",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-4656-3162",
+        "authenticated-orcid": false,
+        "given": "Harsh",
+        "family": "Vardhan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7711-487X",
+        "authenticated-orcid": false,
+        "given": "Sunav",
+        "family": "Choudhary",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0005-3105-1016",
+        "authenticated-orcid": false,
+        "given": "Natwar",
+        "family": "Modani",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4605-7996",
+        "authenticated-orcid": false,
+        "given": "Arya",
+        "family": "Mazumdar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          16
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "7078_CR1",
+        "unstructured": "AI@Meta. (2024). Llama 3 model card."
+      },
+      {
+        "key": "7078_CR2",
+        "unstructured": "Bai, S. (2025). Qwen2.5-vl technical report arXiv:2502.13923."
+      },
+      {
+        "key": "7078_CR3",
+        "unstructured": "Bartlett, P.\u00a0L. & Wegkamp, M.\u00a0H. (2008). Classification with a reject option using a hinge loss. JMLR."
+      },
+      {
+        "issue": "1",
+        "key": "7078_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1177/0049124118782533",
+        "volume": "50",
+        "author": "R Berk",
+        "year": "2021",
+        "unstructured": "Berk, R., et al. (2021). Fairness in criminal justice risk assessments: The state of the art. Sociological Methods & Research., 50(1), 1\u201334.",
+        "journal-title": "Sociological Methods & Research."
+      },
+      {
+        "key": "7078_CR5",
+        "unstructured": "Cao, R. et al. (2023a). Astormer: An ast structure-aware transformer decoder for text-to-sql. arXiv: 2310.18662."
+      },
+      {
+        "issue": "11",
+        "key": "7078_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "13796",
+        "DOI": "10.1109/TPAMI.2023.3298895",
+        "volume": "45",
+        "author": "R Cao",
+        "year": "2023",
+        "unstructured": "Cao, R., et al. (2023). A heterogeneous graph to abstract syntax tree framework for text-to-sql. IEEE TPAMI, 45(11), 13796\u201313813.",
+        "journal-title": "IEEE TPAMI"
+      },
+      {
+        "key": "7078_CR7",
+        "unstructured": "Charles, P. (2024). Defog sqlcoder."
+      },
+      {
+        "key": "7078_CR8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, Y., Zhao, C., Yu, Z., McKeown, K., & He, H. (2023). On the relation between sensitivity and accuracy in in-context learning. In EMNLP.",
+        "DOI": "10.18653/v1/2023.findings-emnlp.12"
+      },
+      {
+        "key": "7078_CR9",
+        "unstructured": "Chizat, L., Oyallon, E., & Bach, F. (2019). On lazy training in differentiable programming In NeurIPS."
+      },
+      {
+        "key": "7078_CR10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.1970.1054406",
+        "volume-title": "On optimum recognition error and reject tradeoff",
+        "author": "C Chow",
+        "year": "1970",
+        "unstructured": "Chow, C. (1970). On optimum recognition error and reject tradeoff. Theory: IEEE Trans. on Info."
+      },
+      {
+        "key": "7078_CR11",
+        "unstructured": "Clark, C. (2019). Boolq: Exploring the surprising difficulty of natural yes/no questions. NAACL."
+      },
+      {
+        "key": "7078_CR12",
+        "unstructured": "Corbi\u00e8re, C., THOME, N., Bar-Hen, A., Cord, M., & P\u00e9rez, P. (2019). Addressing failure prediction by learning model confidence. In NeurIPS."
+      },
+      {
+        "key": "7078_CR13",
+        "unstructured": "Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). Introduction to Algorithms, Third Edition. The MIT Press. 3rd edition."
+      },
+      {
+        "key": "7078_CR14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cortes, C., DeSalvo, G., & Mohri, M. (2016). Learning with rejection. In ALT.",
+        "DOI": "10.1007/978-3-319-46379-7_5"
+      },
+      {
+        "issue": "2",
+        "key": "7078_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "277",
+        "DOI": "10.1007/s10472-023-09899-2",
+        "volume": "92",
+        "author": "C Cortes",
+        "year": "2023",
+        "unstructured": "Cortes, C., DeSalvo, G., & Mohri, M. (2023). Theory and algorithms for learning with rejection in binary classification. Annals of Mathematics and Artificial Intelligence, 92(2), 277\u2013315.",
+        "journal-title": "Annals of Mathematics and Artificial Intelligence"
+      },
+      {
+        "key": "7078_CR16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Craig, S. J. (2023). Constructing a polygenic risk score for childhood obesity using functional data analysis. Econometrics and Statistics.",
+        "DOI": "10.1016/j.ecosta.2021.10.014"
+      },
+      {
+        "key": "7078_CR17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dastile, X., Celik, T., & Potsane, M. (2020). Statistical and machine learning models in credit scoring: A systematic literature survey. Applied Soft Computing,",
+        "DOI": "10.1016/j.asoc.2020.106263"
+      },
+      {
+        "key": "7078_CR18",
+        "first-page": "35497",
+        "volume": "36",
+        "author": "Q Ding",
+        "year": "2023",
+        "unstructured": "Ding, Q., Cao, Y., & Luo, P. (2023). Top-ambiguity samples matter: Understanding why deep ensemble works in selective classification. NeurIPS, 36, 35497\u201335521.",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "7078_CR19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dong, Q., et al. (2024). A survey on in-context learning. arXiv,2301, 00234.",
+        "DOI": "10.18653/v1/2024.emnlp-main.64"
+      },
+      {
+        "key": "7078_CR20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Eghbali, A. & Pradel, M. (2023). Crystalbleu: Precisely and efficiently measuring the similarity of code. In ASE.",
+        "DOI": "10.1145/3551349.3556903"
+      },
+      {
+        "key": "7078_CR21",
+        "unstructured": "El-Yaniv, R. & Wiener, Y. (2010). On the foundations of noise-free selective classification. JMLR."
+      },
+      {
+        "key": "7078_CR22",
+        "unstructured": "El-Yaniv, R. & Wiener, Y. (2012). Active learning via perfect selective classification. JMLR."
+      },
+      {
+        "key": "7078_CR23",
+        "volume-title": "Fairness and bias in algorithmic hiring: A multidisciplinary survey",
+        "author": "A Fabris",
+        "year": "2025",
+        "unstructured": "Fabris, A., et al. (2025). Fairness and bias in algorithmic hiring: A multidisciplinary survey. Technol: ACM Trans. Intell. Syst."
+      },
+      {
+        "key": "7078_CR24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fischer, G., Lusiardi, J., & Wolff\u00a0von Gudenberg, J. (2007). Abstract syntax trees - and their role in model driven software development. In ICSEA.",
+        "DOI": "10.1109/ICSEA.2007.12"
+      },
+      {
+        "key": "7078_CR25",
+        "unstructured": "Fotakis, D., Kalavasis, A., Kontonis, V., & Tzamos, C. (2021). Efficient algorithms for learning from coarse labels arXiv:2108.09805 abs/2108.09805."
+      },
+      {
+        "key": "7078_CR26",
+        "unstructured": "Gal, Y. & Ghahramani, Z. (2016). Dropout as a bayesian approximation: Representing model uncertainty in deep learning. In ICML."
+      },
+      {
+        "key": "7078_CR27",
+        "unstructured": "Geifman, Y. & El-Yaniv, R. (2017). Selective classification for deep neural networks. In NeurIPS."
+      },
+      {
+        "key": "7078_CR28",
+        "unstructured": "Geifman, Y. & El-Yaniv, R. (2019). SelectiveNet: A deep neural network with an integrated reject option. In ICML."
+      },
+      {
+        "key": "7078_CR29",
+        "unstructured": "Gelbhart, R. & El-Yaniv, R. (2019). The relationship between agnostic selective classification, active learning and the disagreement coefficient. JMLR."
+      },
+      {
+        "key": "7078_CR30",
+        "unstructured": "Gilmer, J., Schoenholz, S. S., Riley, P. F., Vinyals, O., & Dahl, G. E. (2017). Neural message passing for quantum chemistry. ICML"
+      },
+      {
+        "key": "7078_CR31",
+        "unstructured": "Grandvalet, Y., Rakotomamonjy, A., Keshet, J., & Canu, S. (2008). Support vector machines with a reject option. NeurIPS"
+      },
+      {
+        "key": "7078_CR32",
+        "unstructured": "Han, Z., Hao, Y., Dong, L., Sun, Y., & Wei, F. (2023). Prototypical calibration for few-shot learning of language models. ICLR"
+      },
+      {
+        "key": "7078_CR33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hanneke, S. (2014). Theory of Disagreement-Based Active Learning",
+        "DOI": "10.1561/9781601988096"
+      },
+      {
+        "key": "7078_CR34",
+        "unstructured": "Hopkins, M., Kane, D., Lovett, S., & Mahajan, G. (2020). Noise-tolerant, reliable active classification with comparison queries. COLT"
+      },
+      {
+        "key": "7078_CR35",
+        "unstructured": "Hopkins, M., Kane, D., Lovett, S., & Moshkovitz, M. (2021). Bounded memory active learning through enriched queries. COLT"
+      },
+      {
+        "key": "7078_CR36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, S.-J., Chen, J.-L., Mu, X., & Zhou, Z.-H. (2017). Cost-effective active learning from diverse labelers. IJCAI",
+        "DOI": "10.24963/ijcai.2017/261"
+      },
+      {
+        "key": "7078_CR37",
+        "unstructured": "Jacot, A., Gabriel, F., & Hongler, C. (2018). Neural tangent kernel: Convergence and generalization in neural networks In NeurIPS."
+      },
+      {
+        "issue": "5",
+        "key": "7078_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "558",
+        "DOI": "10.1145/368996.369025",
+        "volume": "11",
+        "author": "AB Kahn",
+        "year": "1962",
+        "unstructured": "Kahn, A. B. (1962). Topological sorting of large networks. Commun. ACM, 11(5), 558\u2013562.",
+        "journal-title": "Commun. ACM"
+      },
+      {
+        "key": "7078_CR39",
+        "unstructured": "Kamoi\u00a0et al., R. (2025). Visonlyqa: Large vision language models still struggle with visual perception of geometric information. In COLM 2025."
+      },
+      {
+        "key": "7078_CR40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kane, D. M., Lovett, S., Moran, S., & Zhang, J. (2017). Active classification with comparison queries. FOCS",
+        "DOI": "10.1109/FOCS.2017.40"
+      },
+      {
+        "key": "7078_CR41",
+        "unstructured": "Labs, N. S. (2023). Nstext2sql: An open source text-to-sql dataset for foundation model training"
+      },
+      {
+        "key": "7078_CR42",
+        "unstructured": "Lakshminarayanan, B., Pritzel, A., & Blundell, C. (2017). Simple and scalable predictive uncertainty estimation using deep ensembles. NeurIPS"
+      },
+      {
+        "key": "7078_CR43",
+        "unstructured": "Lei, F. (2024). Spider 2.0: Evaluating language models on real-world enterprise text-to-sql workflows arXiv:2411.07763."
+      },
+      {
+        "key": "7078_CR44",
+        "first-page": "42330",
+        "volume": "36",
+        "author": "J Li",
+        "year": "2024",
+        "unstructured": "Li, J. (2024). Can llm already serve as a database interface? a big bench for large-scale database grounded text-to-sqls. NeurIPS, 36, 42330\u201342357.",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "7078_CR45",
+        "unstructured": "Li, Y., Gu, C., Dullien, T., Vinyals, O., & Kohli, P. (2019). Graph matching networks for learning the similarity of graph structured objects. ICML"
+      },
+      {
+        "key": "7078_CR46",
+        "unstructured": "Liu, X. (2024). A survey of nl2sql with large language models: Where are we, and where are we going? arXiv:2408.05109."
+      },
+      {
+        "key": "7078_CR47",
+        "first-page": "4309",
+        "volume": "36",
+        "author": "J Li",
+        "year": "2023",
+        "unstructured": "Li, J., Zhang, J., Schmidt, L., & Ratner, A. (2023). Characterizing the impacts of semi-supervised learning for weak supervision. NeurIPS, 36, 4309\u20134330.",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "7078_CR48",
+        "unstructured": "Mao, T. (2024). Sqlglot. https://github.com/tobymao/sqlglot."
+      },
+      {
+        "key": "7078_CR49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ni, J. (2022). Sentence-t5: Scalable sentence encoders from pre-trained text-to-text models. ACL",
+        "DOI": "10.18653/v1/2022.findings-acl.146"
+      },
+      {
+        "key": "7078_CR50",
+        "unstructured": "OpenAI (2023). Gpt-4 technical report. arXiv:2303.08774."
+      },
+      {
+        "key": "7078_CR51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ouyang, L. (2022). Training language models to follow instructions with human feedback In NeurIPS.",
+        "DOI": "10.52202/068431-2011"
+      },
+      {
+        "key": "7078_CR52",
+        "unstructured": "Pope, P., Zhu, C., Abdelkader, A., Goldblum, M., & Goldstein, T. (2021). The intrinsic dimension of images and its impact on learning. ICLR"
+      },
+      {
+        "key": "7078_CR53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pugnana, A. & Ruggieri, S. (2023). Auc-based selective classification. In AISTATS.",
+        "DOI": "10.1609/aaai.v37i13.26925"
+      },
+      {
+        "key": "7078_CR54",
+        "unstructured": "Pugnana, A., Perini, L., Davis, J., & Ruggieri, S. (2024). Deep neural network benchmarks for selective classification arXiv:2401.12708."
+      },
+      {
+        "key": "7078_CR55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Qin, Z. (2024). Large language models are effective text rankers with pairwise ranking prompting. NAACL",
+        "DOI": "10.18653/v1/2024.findings-naacl.97"
+      },
+      {
+        "key": "7078_CR56",
+        "unstructured": "Radford, A. (2021). Learning transferable visual models from natural language supervision arXiv:2103.00020."
+      },
+      {
+        "key": "7078_CR57",
+        "unstructured": "Raffel, C. (2020). Exploring the limits of transfer learning with a unified text-to-text transformer. JMLR."
+      },
+      {
+        "key": "7078_CR58",
+        "unstructured": "Ren, S. (2020). Codebleu: a method for automatic evaluation of code synthesis arXiv:2009.10297."
+      },
+      {
+        "issue": "9",
+        "key": "7078_CR59",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1145/3472291",
+        "volume": "54",
+        "author": "P Ren",
+        "year": "2021",
+        "unstructured": "Ren, P. (2021). A Survey of Deep Active Learning. ACM Computing Surveys, 54(9), 1\u201340.",
+        "journal-title": "ACM Computing Surveys"
+      },
+      {
+        "key": "7078_CR60",
+        "unstructured": "Salary.com (2024). Product manager hourly wages benchmark."
+      },
+      {
+        "key": "7078_CR61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Settles, B. (2012). Active Learning. Springer International Publishing.",
+        "DOI": "10.1007/978-3-031-01560-1"
+      },
+      {
+        "key": "7078_CR62",
+        "unstructured": "Settles, B., Craven, M. W., & Friedland, L. A. (2008). Active learning with real annotation costs"
+      },
+      {
+        "key": "7078_CR63",
+        "unstructured": "Team, G. (2025a). Gemma 3 technical report. arXiv:2503.19786."
+      },
+      {
+        "key": "7078_CR64",
+        "unstructured": "Team, V. (2025b). Glm-4.5v & glm-4.1v-thinking: Towards versatile multimodal reasoning with scalable reinforcement learning. arXiv:2507.01006."
+      },
+      {
+        "key": "7078_CR65",
+        "unstructured": "The llama 3 herd of models. (2024). Meta, arXiv:2407.21783."
+      },
+      {
+        "key": "7078_CR66",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tsagris, M., Beneki, C., & Hassani, H. (2014). On the folded normal distribution. Mathematics, 2(1).",
+        "DOI": "10.3390/math2010012"
+      },
+      {
+        "key": "7078_CR67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "van Engelen, J.\u00a0E. & Hoos, H.\u00a0H. (2019). A survey on semi-supervised learning. Springer Machine Learning.",
+        "DOI": "10.1007/s10994-019-05855-6"
+      },
+      {
+        "key": "7078_CR68",
+        "unstructured": "Veli\u010dkovi\u0107, P., Cucurull, G., Casanova, A., Romero, A., Li\u00f2, P., & Bengio, Y. (2018). Graph attention networks. ICLR"
+      },
+      {
+        "key": "7078_CR69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vishwakarma, H., Lin, H., Sala, F., Vinayak, K., & R. (2023). Promises and pitfalls of threshold-based auto-labeling. NeurIPS",
+        "DOI": "10.52202/075280-2263"
+      },
+      {
+        "key": "7078_CR70",
+        "unstructured": "Wang\u00a0et al., A. (2019). Superglue: A stickier benchmark for general-purpose language understanding systems. arXiv:1905.00537."
+      },
+      {
+        "key": "7078_CR71",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, B., Shin, R., Liu, X., Polozov, O., & Richardson, M. (2020). RAT-SQL: Relation-aware schema encoding and linking for text-to-SQL parsers. ACL",
+        "DOI": "10.18653/v1/2020.acl-main.677"
+      },
+      {
+        "key": "7078_CR72",
+        "unstructured": "Wei, J. et al. (2022). Finetuned language models are zero-shot learners. In ICLR."
+      },
+      {
+        "key": "7078_CR73",
+        "unstructured": "Wiener, Y. & El-Yaniv, R. (2011). Agnostic selective classification. In NeurIPS."
+      },
+      {
+        "key": "7078_CR74",
+        "unstructured": "Xia, Y. (2025). From selection to generation: A survey of LLM-based active learning. ACL"
+      },
+      {
+        "key": "7078_CR75",
+        "unstructured": "Yang, A. (2025). Qwen3 technical report arXiv:2505.09388."
+      },
+      {
+        "key": "7078_CR76",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yu, T. (2018). Spider: A large-scale human-labeled dataset for complex and cross-domain semantic parsing and text-to-SQL task. Empirical Methods in Natural Language Processing. EMNLP.",
+        "DOI": "10.18653/v1/D18-1425"
+      },
+      {
+        "key": "7078_CR77",
+        "unstructured": "Zhan, Y. (2024). Funcevalgmn: Evaluating functional correctness of sql via graph matching network arXiv:2407.14530."
+      },
+      {
+        "key": "7078_CR78",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, R., Li, Y., Ma, Y., Zhou, M., & Zou, L. (2023). Llmaaa: Making large language models as active annotators arXiv:2310.19596.",
+        "DOI": "10.18653/v1/2023.findings-emnlp.872"
+      },
+      {
+        "key": "7078_CR79",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Z., Strubell, E., & Hovy, E. (2022). A survey of active learning for natural language processing. EMNLP",
+        "DOI": "10.18653/v1/2022.emnlp-main.414"
+      },
+      {
+        "key": "7078_CR80",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhong, R., Yu, T., & Klein, D. (2020). Semantic evaluation for text-to-SQL with distilled test suites. EMNLP",
+        "DOI": "10.18653/v1/2020.emnlp-main.29"
+      }
+    ],
+    "container-title": [
+      "Machine Learning"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s10994-026-07078-y.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s10994-026-07078-y",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s10994-026-07078-y.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          30
+        ]
+      ],
+      "date-time": "2026-07-30T10:25:25Z",
+      "timestamp": 1785407125000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s10994-026-07078-y"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          16
+        ]
+      ]
+    },
+    "references-count": 80,
+    "journal-issue": {
+      "issue": "7",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            7
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "7078"
+    ],
+    "URL": "https://doi.org/10.1007/s10994-026-07078-y",
+    "relation": {},
+    "ISSN": [
+      "0885-6125",
+      "1573-0565"
+    ],
+    "issn-type": [
+      {
+        "value": "0885-6125",
+        "type": "print"
+      },
+      {
+        "value": "1573-0565",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          16
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "31 October 2025",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "8 May 2026",
+        "order": 2,
+        "name": "revised",
+        "label": "Revised",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "14 May 2026",
+        "order": 3,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "16 June 2026",
+        "order": 4,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no conflict of interest.",
+        "order": 1,
+        "name": "Ethics",
+        "label": "Conflict of interest",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      }
+    ],
+    "article-number": "149"
+  }
+}

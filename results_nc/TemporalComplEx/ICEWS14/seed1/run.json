@@ -1,0 +1,26 @@
+{
+  "config": {
+    "data_root": "data\\raw\\ICEWS14_all",
+    "dataset": "ICEWS14",
+    "output_dir": "results_neural_v5",
+    "checkpoint_dir": "results_neural",
+    "entity_count": 7128,
+    "cap": 5000,
+    "seeds": 3,
+    "seed_start": 0,
+    "epochs": 30,
+    "dim": 96,
+    "negatives": 32,
+    "batch_size": 2048,
+    "eval_batch_size": 128,
+    "learning_rate": 0.002,
+    "weight_decay": 1e-06,
+    "half_life": 35.0
+  },
+  "n_entities": 7128,
+  "n_relations": 230,
+  "n_times": 365,
+  "checkpoint_sha256": "66ffb37ea0dc44c03e19957891df5981ff21c04bb3135d6e7d6715d97fb96f2b",
+  "checkpoint_origin": "results_neural_v5/ICEWS14_seed1.pt",
+  "reuse": "Original fixed 30-epoch checkpoint; no new test-based model selection."
+}

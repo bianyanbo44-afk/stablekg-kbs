@@ -1,0 +1,15 @@
+{
+  "dataset": "ICEWS14",
+  "events": 72826,
+  "registered_queries": 5000,
+  "build_seconds": 2.1986060999915935,
+  "one_cache_rss_mb": 434.453125,
+  "cache_numeric_arrays_mb": 283.35221099853516,
+  "cache_numeric_scope": "Probability, output, window, object, mass and multiplicity arrays; excludes Python containers and reverse-index objects.",
+  "anchor": "Validation-selected TeRDy seed 0.",
+  "oracle_max_abs_error": 2.220446049250313e-16,
+  "oracle_discrete_mismatches": 0,
+  "repeats": 10,
+  "control": "Both paths apply identical event writes and maintain identical cached window sufficient statistics.",
+  "timed_scope": "Event writes, reverse lookup, affected-query construction, probability fusion, winner and certificate refresh; encoder forward and cache construction excluded."
+}

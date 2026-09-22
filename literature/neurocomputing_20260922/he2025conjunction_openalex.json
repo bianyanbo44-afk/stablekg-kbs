@@ -1,0 +1,679 @@
+{
+  "id": "https://openalex.org/W4408019910",
+  "doi": "https://doi.org/10.1016/j.ins.2025.122037",
+  "title": "Conjunction subspaces test for conformal and selective classification",
+  "display_name": "Conjunction subspaces test for conformal and selective classification",
+  "publication_year": 2025,
+  "publication_date": "2025-02-27",
+  "ids": {
+    "openalex": "https://openalex.org/W4408019910",
+    "doi": "https://doi.org/10.1016/j.ins.2025.122037"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/j.ins.2025.122037",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.ins.2025.122037",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S192650101",
+      "display_name": "Information Sciences",
+      "issn_l": "0020-0255",
+      "issn": [
+        "0020-0255",
+        "1872-6291"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Information Sciences",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5009588567",
+        "display_name": "Zengyou He",
+        "orcid": "https://orcid.org/0000-0001-9526-8816"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I27357992",
+          "display_name": "Dalian University of Technology",
+          "ror": "https://ror.org/023hj5876",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I27357992"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Zengyou He",
+      "raw_affiliation_strings": [
+        "School of Software, Dalian University of Technology, Dalian, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-9526-8816",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Software, Dalian University of Technology, Dalian, China",
+          "institution_ids": [
+            "https://openalex.org/I27357992"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5069146197",
+        "display_name": "Zerun Li",
+        "orcid": "https://orcid.org/0000-0002-7672-0667"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I27357992",
+          "display_name": "Dalian University of Technology",
+          "ror": "https://ror.org/023hj5876",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I27357992"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zerun Li",
+      "raw_affiliation_strings": [
+        "School of Software, Dalian University of Technology, Dalian, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Software, Dalian University of Technology, Dalian, China",
+          "institution_ids": [
+            "https://openalex.org/I27357992"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103351397",
+        "display_name": "Junjie Dong",
+        "orcid": "https://orcid.org/0000-0001-8267-9181"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I27357992",
+          "display_name": "Dalian University of Technology",
+          "ror": "https://ror.org/023hj5876",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I27357992"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Junjie Dong",
+      "raw_affiliation_strings": [
+        "School of Software, Dalian University of Technology, Dalian, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-8267-9181",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Software, Dalian University of Technology, Dalian, China",
+          "institution_ids": [
+            "https://openalex.org/I27357992"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103510584",
+        "display_name": "Xinying Liu",
+        "orcid": "https://orcid.org/0009-0009-4038-0590"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I27357992",
+          "display_name": "Dalian University of Technology",
+          "ror": "https://ror.org/023hj5876",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I27357992"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Xinying Liu",
+      "raw_affiliation_strings": [
+        "School of Software, Dalian University of Technology, Dalian, China"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0009-4038-0590",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Software, Dalian University of Technology, Dalian, China",
+          "institution_ids": [
+            "https://openalex.org/I27357992"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5087422170",
+        "display_name": "Mudi Jiang",
+        "orcid": "https://orcid.org/0000-0001-9474-8375"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I27357992",
+          "display_name": "Dalian University of Technology",
+          "ror": "https://ror.org/023hj5876",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I27357992"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mudi Jiang",
+      "raw_affiliation_strings": [
+        "School of Software, Dalian University of Technology, Dalian, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-9474-8375",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Software, Dalian University of Technology, Dalian, China",
+          "institution_ids": [
+            "https://openalex.org/I27357992"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5089849427",
+        "display_name": "Lianyu Hu",
+        "orcid": "https://orcid.org/0000-0001-7470-9395"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I27357992",
+          "display_name": "Dalian University of Technology",
+          "ror": "https://ror.org/023hj5876",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I27357992"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lianyu Hu",
+      "raw_affiliation_strings": [
+        "School of Software, Dalian University of Technology, Dalian, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-7470-9395",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Software, Dalian University of Technology, Dalian, China",
+          "institution_ids": [
+            "https://openalex.org/I27357992"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5009588567"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I27357992"
+  ],
+  "apc_list": {
+    "value": 3200,
+    "currency": "USD",
+    "value_usd": 3200
+  },
+  "apc_paid": null,
+  "fwci": 1.031,
+  "has_fulltext": false,
+  "cited_by_count": 1,
+  "citation_normalized_percentile": {
+    "value": 0.81214194,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 93,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "707",
+    "issue": null,
+    "first_page": "122037",
+    "last_page": "122037"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12535",
+    "display_name": "Machine Learning and Data Classification",
+    "score": 0.9819999933242798,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12535",
+      "display_name": "Machine Learning and Data Classification",
+      "score": 0.9819999933242798,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12549",
+      "display_name": "Image and Object Detection Techniques",
+      "score": 0.9814000129699707,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12111",
+      "display_name": "Industrial Vision Systems and Defect Detection",
+      "score": 0.9688000082969666,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/conjunction",
+      "display_name": "Conjunction (astronomy)",
+      "score": 0.827639102935791
+    },
+    {
+      "id": "https://openalex.org/keywords/linear-subspace",
+      "display_name": "Linear subspace",
+      "score": 0.7578001022338867
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.564842164516449
+    },
+    {
+      "id": "https://openalex.org/keywords/test",
+      "display_name": "Test (biology)",
+      "score": 0.5587970614433289
+    },
+    {
+      "id": "https://openalex.org/keywords/conformal-map",
+      "display_name": "Conformal map",
+      "score": 0.5081543922424316
+    },
+    {
+      "id": "https://openalex.org/keywords/information-retrieval",
+      "display_name": "Information retrieval",
+      "score": 0.38269349932670593
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.3556472659111023
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.2358318567276001
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.09797981381416321
+    },
+    {
+      "id": "https://openalex.org/keywords/pure-mathematics",
+      "display_name": "Pure mathematics",
+      "score": 0.07572075724601746
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.06556874513626099
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.055507779121398926
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C59656382",
+      "wikidata": "https://www.wikidata.org/wiki/Q191536",
+      "display_name": "Conjunction (astronomy)",
+      "level": 2,
+      "score": 0.827639102935791
+    },
+    {
+      "id": "https://openalex.org/C12362212",
+      "wikidata": "https://www.wikidata.org/wiki/Q728435",
+      "display_name": "Linear subspace",
+      "level": 2,
+      "score": 0.7578001022338867
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.564842164516449
+    },
+    {
+      "id": "https://openalex.org/C2777267654",
+      "wikidata": "https://www.wikidata.org/wiki/Q3519023",
+      "display_name": "Test (biology)",
+      "level": 2,
+      "score": 0.5587970614433289
+    },
+    {
+      "id": "https://openalex.org/C98214594",
+      "wikidata": "https://www.wikidata.org/wiki/Q850275",
+      "display_name": "Conformal map",
+      "level": 2,
+      "score": 0.5081543922424316
+    },
+    {
+      "id": "https://openalex.org/C23123220",
+      "wikidata": "https://www.wikidata.org/wiki/Q816826",
+      "display_name": "Information retrieval",
+      "level": 1,
+      "score": 0.38269349932670593
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.3556472659111023
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.2358318567276001
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.09797981381416321
+    },
+    {
+      "id": "https://openalex.org/C202444582",
+      "wikidata": "https://www.wikidata.org/wiki/Q837863",
+      "display_name": "Pure mathematics",
+      "level": 1,
+      "score": 0.07572075724601746
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.06556874513626099
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.055507779121398926
+    },
+    {
+      "id": "https://openalex.org/C1276947",
+      "wikidata": "https://www.wikidata.org/wiki/Q333",
+      "display_name": "Astronomy",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C151730666",
+      "wikidata": "https://www.wikidata.org/wiki/Q7205",
+      "display_name": "Paleontology",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1016/j.ins.2025.122037",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.ins.2025.122037",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S192650101",
+        "display_name": "Information Sciences",
+        "issn_l": "0020-0255",
+        "issn": [
+          "0020-0255",
+          "1872-6291"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Information Sciences",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Zero hunger",
+      "id": "https://metadata.un.org/sdg/2",
+      "score": 0.4099999964237213
+    }
+  ],
+  "awards": [
+    {
+      "id": "https://openalex.org/G4254997053",
+      "display_name": null,
+      "funder_award_id": "62472064",
+      "funder_id": "https://openalex.org/F4320321001",
+      "funder_display_name": "National Natural Science Foundation of China"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320321001",
+      "display_name": "National Natural Science Foundation of China",
+      "ror": "https://ror.org/01h0zpd94"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 39,
+  "referenced_works": [
+    "https://openalex.org/W71228264",
+    "https://openalex.org/W1160788859",
+    "https://openalex.org/W1978172027",
+    "https://openalex.org/W2020122318",
+    "https://openalex.org/W2026101380",
+    "https://openalex.org/W2067698084",
+    "https://openalex.org/W2105234758",
+    "https://openalex.org/W2110065044",
+    "https://openalex.org/W2113242816",
+    "https://openalex.org/W2122111042",
+    "https://openalex.org/W2152052718",
+    "https://openalex.org/W2182722412",
+    "https://openalex.org/W2253669274",
+    "https://openalex.org/W2307909705",
+    "https://openalex.org/W2577719032",
+    "https://openalex.org/W2886321085",
+    "https://openalex.org/W2888973467",
+    "https://openalex.org/W2911964244",
+    "https://openalex.org/W2953474747",
+    "https://openalex.org/W2990130002",
+    "https://openalex.org/W2998768810",
+    "https://openalex.org/W3092019212",
+    "https://openalex.org/W3104583603",
+    "https://openalex.org/W3125365826",
+    "https://openalex.org/W3197632833",
+    "https://openalex.org/W3204656437",
+    "https://openalex.org/W4200452132",
+    "https://openalex.org/W4282932497",
+    "https://openalex.org/W4386365320",
+    "https://openalex.org/W4389683263",
+    "https://openalex.org/W6675108834",
+    "https://openalex.org/W6675354045",
+    "https://openalex.org/W6680483772",
+    "https://openalex.org/W6685112792",
+    "https://openalex.org/W6740399569",
+    "https://openalex.org/W6769641947",
+    "https://openalex.org/W6779367721",
+    "https://openalex.org/W6801299459",
+    "https://openalex.org/W6839152623"
+  ],
+  "related_works": [
+    "https://openalex.org/W1573992054",
+    "https://openalex.org/W1599690842",
+    "https://openalex.org/W2753053412",
+    "https://openalex.org/W2665157442",
+    "https://openalex.org/W3108840034",
+    "https://openalex.org/W4388169484",
+    "https://openalex.org/W2363259562",
+    "https://openalex.org/W3036937347",
+    "https://openalex.org/W3149224203",
+    "https://openalex.org/W2914339338"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-06T09:10:53.072986",
+  "created_date": "2025-10-10T00:00:00"
+}

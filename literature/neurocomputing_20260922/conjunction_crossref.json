@@ -1,0 +1,819 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          5
+        ]
+      ],
+      "date-time": "2026-09-05T16:15:30Z",
+      "timestamp": 1788624930207,
+      "version": "build-2803163510"
+    },
+    "reference-count": 43,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2025-07-01T00:00:00Z",
+          "timestamp": 1751328000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2025-07-01T00:00:00Z",
+          "timestamp": 1751328000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2025-07-01T00:00:00Z",
+          "timestamp": 1751328000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2025-07-01T00:00:00Z",
+          "timestamp": 1751328000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2025-07-01T00:00:00Z",
+          "timestamp": 1751328000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2025-07-01T00:00:00Z",
+          "timestamp": 1751328000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2025-07-01T00:00:00Z",
+          "timestamp": 1751328000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62472064"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62472064"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Information Sciences"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.ins.2025.122037",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          27
+        ]
+      ],
+      "date-time": "2025-02-27T11:48:56Z",
+      "timestamp": 1740656936000
+    },
+    "page": "122037",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "special_numbering": "C",
+    "title": [
+      "Conjunction subspaces test for conformal and selective classification"
+    ],
+    "prefix": "10.1016",
+    "volume": "707",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9526-8816",
+        "authenticated-orcid": false,
+        "given": "Zengyou",
+        "family": "He",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zerun",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8267-9181",
+        "authenticated-orcid": false,
+        "given": "Junjie",
+        "family": "Dong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0009-4038-0590",
+        "authenticated-orcid": false,
+        "given": "Xinying",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9474-8375",
+        "authenticated-orcid": false,
+        "given": "Mudi",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7470-9395",
+        "authenticated-orcid": false,
+        "given": "Lianyu",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "1",
+        "key": "10.1016/j.ins.2025.122037_br0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "21",
+        "DOI": "10.1109/TIT.1967.1053964",
+        "article-title": "Nearest neighbor pattern classification",
+        "volume": "13",
+        "author": "Cover",
+        "year": "1967",
+        "journal-title": "IEEE Trans. Inf. Theory"
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.1023/A:1010933404324",
+        "article-title": "Random forests",
+        "volume": "45",
+        "author": "Breiman",
+        "year": "2001",
+        "journal-title": "Mach. Learn."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ins.2025.122037_br0030",
+        "first-page": "3133",
+        "article-title": "Do we need hundreds of classifiers to solve real world classification problems?",
+        "volume": "15",
+        "author": "Fern\u00e1ndez-Delgado",
+        "year": "2014",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.ins.2025.122037_br0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "1269",
+        "DOI": "10.1016/j.spl.2007.03.012",
+        "article-title": "Test-based classification: a linkage between classification and statistical testing",
+        "volume": "77",
+        "author": "Liao",
+        "year": "2007",
+        "journal-title": "Stat. Probab. Lett."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.ins.2025.122037_br0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "2273",
+        "DOI": "10.1016/j.csda.2012.01.005",
+        "article-title": "Classification of image pixels based on minimum distance and hypothesis testing",
+        "volume": "56",
+        "author": "Ghimire",
+        "year": "2012",
+        "journal-title": "Comput. Stat. Data Anal."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ins.2025.122037_br0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "191",
+        "DOI": "10.1111/insr.12281",
+        "article-title": "Interpoint distance classification of high dimensional discrete observations",
+        "volume": "87",
+        "author": "Guo",
+        "year": "2019",
+        "journal-title": "Int. Stat. Rev."
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "17485",
+        "DOI": "10.1109/ACCESS.2021.3053778",
+        "article-title": "Instance-based classification through hypothesis testing",
+        "volume": "9",
+        "author": "He",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ins.2025.122037_br0080",
+        "first-page": "371",
+        "article-title": "A tutorial on conformal prediction",
+        "volume": "9",
+        "author": "Shafer",
+        "year": "2008",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ins.2025.122037_br0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "475",
+        "DOI": "10.1007/s10994-018-5752-y",
+        "article-title": "Majority vote ensembles of conformal predictors",
+        "volume": "108",
+        "author": "Cherubin",
+        "year": "2019",
+        "journal-title": "Mach. Learn."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ins.2025.122037_br0100",
+        "first-page": "1605",
+        "article-title": "On the foundations of noise-free selective classification",
+        "volume": "11",
+        "author": "El-Yaniv",
+        "year": "2010",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "issue": "522",
+        "key": "10.1016/j.ins.2025.122037_br0110",
+        "doi-asserted-by": "crossref",
+        "first-page": "730",
+        "DOI": "10.1080/01621459.2017.1282372",
+        "article-title": "On reject and refine options in multicategory classification",
+        "volume": "113",
+        "author": "Zhang",
+        "year": "2018",
+        "journal-title": "J. Am. Stat. Assoc."
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0120",
+        "author": "Chzhen"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ins.2025.122037_br0130",
+        "doi-asserted-by": "crossref",
+        "first-page": "524",
+        "DOI": "10.1111/rssb.12443",
+        "article-title": "Prediction and outlier detection in classification problems",
+        "volume": "84",
+        "author": "Guan",
+        "year": "2022",
+        "journal-title": "J. R. Stat. Soc., Ser. B, Stat. Methodol."
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0140",
+        "series-title": "Introduction to Meta-Analysis",
+        "author": "Borenstein",
+        "year": "2021"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ins.2025.122037_br0150",
+        "doi-asserted-by": "crossref",
+        "first-page": "777",
+        "DOI": "10.1214/13-AOAS683",
+        "article-title": "Hypothesis setting and order statistic for robust genomic meta-analysis",
+        "volume": "8",
+        "author": "Song",
+        "year": "2014",
+        "journal-title": "Ann. Appl. Stat."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.ins.2025.122037_br0160",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.patter.2020.100115",
+        "article-title": "Statistical hypothesis testing versus machine learning binary classification: distinctions and guidelines",
+        "volume": "1",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Patterns"
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0170",
+        "doi-asserted-by": "crossref",
+        "first-page": "215",
+        "DOI": "10.1016/j.spl.2013.10.012",
+        "article-title": "On the interpoint distances of Bernoulli vectors",
+        "volume": "84",
+        "author": "Modarres",
+        "year": "2014",
+        "journal-title": "Stat. Probab. Lett."
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0180",
+        "doi-asserted-by": "crossref",
+        "first-page": "113",
+        "DOI": "10.1016/j.spl.2016.01.025",
+        "article-title": "Multivariate Poisson interpoint distances",
+        "volume": "112",
+        "author": "Modarres",
+        "year": "2016",
+        "journal-title": "Stat. Probab. Lett."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ins.2025.122037_br0190",
+        "doi-asserted-by": "crossref",
+        "first-page": "341",
+        "DOI": "10.1007/s00362-016-0766-7",
+        "article-title": "Multinomial interpoint distances",
+        "volume": "59",
+        "author": "Modarres",
+        "year": "2018",
+        "journal-title": "Stat. Pap."
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0200",
+        "first-page": "1",
+        "article-title": "Multi-class classification with reject option and performance guarantees using conformal prediction",
+        "volume": "230",
+        "author": "Garc\u00eda-Galindo",
+        "year": "2024",
+        "journal-title": "Proc. Mach. Learn. Res."
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0210",
+        "series-title": "Algorithmic Learning in a Random World, vol. 29",
+        "author": "Vovk",
+        "year": "2005"
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0220",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.patcog.2021.108507",
+        "article-title": "Introduction to conformal predictors",
+        "volume": "124",
+        "author": "Toccaceli",
+        "year": "2022",
+        "journal-title": "Pattern Recognit."
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0230",
+        "first-page": "39",
+        "article-title": "Combination of conformal predictors for classification",
+        "volume": "vol. 60",
+        "author": "Toccaceli",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0240",
+        "first-page": "66",
+        "article-title": "Conformal predictor combination using Neyman\u2013Pearson lemma",
+        "volume": "vol. 105",
+        "author": "Toccaceli",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0250",
+        "doi-asserted-by": "crossref",
+        "first-page": "266",
+        "DOI": "10.1016/j.neucom.2019.07.113",
+        "article-title": "Efficient conformal predictor ensembles",
+        "volume": "397",
+        "author": "Linusson",
+        "year": "2020",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "issue": "378",
+        "key": "10.1016/j.ins.2025.122037_br0260",
+        "first-page": "1",
+        "article-title": "Principled out-of-distribution detection via multiple testing",
+        "volume": "24",
+        "author": "Magesh",
+        "year": "2023",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0270",
+        "author": "Hendrickx"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ins.2025.122037_br0280",
+        "doi-asserted-by": "crossref",
+        "first-page": "277",
+        "DOI": "10.1007/s10472-023-09899-2",
+        "article-title": "Theory and algorithms for learning with rejection in binary classification",
+        "volume": "92",
+        "author": "Cortes",
+        "year": "2024",
+        "journal-title": "Ann. Math. Artif. Intell."
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0290",
+        "first-page": "1",
+        "article-title": "Set-valued support vector machine with bounded error rates",
+        "author": "Wang",
+        "year": "2022",
+        "journal-title": "J. Am. Stat. Assoc."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.ins.2025.122037_br0300",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3478535",
+        "article-title": "Distribution-free, risk-controlling prediction sets",
+        "volume": "68",
+        "author": "Bates",
+        "year": "2021",
+        "journal-title": "J. ACM"
+      },
+      {
+        "issue": "375",
+        "key": "10.1016/j.ins.2025.122037_br0310",
+        "first-page": "1",
+        "article-title": "Set-valued classification with out-of-distribution detection for many classes",
+        "volume": "24",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ins.2025.122037_br0320",
+        "doi-asserted-by": "crossref",
+        "first-page": "959",
+        "DOI": "10.1111/rssb.12228",
+        "article-title": "Random-projection ensemble classification",
+        "volume": "79",
+        "author": "Cannings",
+        "year": "2017",
+        "journal-title": "J. R. Stat. Soc., Ser. B, Stat. Methodol."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ins.2025.122037_br0330",
+        "first-page": "2019",
+        "article-title": "Rase: random subspace ensemble classification",
+        "volume": "22",
+        "author": "Tian",
+        "year": "2021",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.ins.2025.122037_br0340",
+        "doi-asserted-by": "crossref",
+        "first-page": "832",
+        "DOI": "10.1109/34.709601",
+        "article-title": "The random subspace method for constructing decision forests",
+        "volume": "20",
+        "author": "Ho",
+        "year": "1998",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0350",
+        "first-page": "1",
+        "article-title": "Optimizing model-agnostic random subspace ensembles",
+        "author": "Huynh-Thu",
+        "year": "2023",
+        "journal-title": "Mach. Learn."
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0360",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.saa.2023.123315",
+        "article-title": "Geographical origin identification of ginseng using near-infrared spectroscopy coupled with subspace-based ensemble classifiers",
+        "volume": "304",
+        "author": "Chen",
+        "year": "2024",
+        "journal-title": "Spectrochim. Acta, Part A, Mol. Biomol. Spectrosc."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ins.2025.122037_br0370",
+        "doi-asserted-by": "crossref",
+        "first-page": "289",
+        "DOI": "10.1111/j.2517-6161.1995.tb02031.x",
+        "article-title": "Controlling the false discovery rate: a practical and powerful approach to multiple testing",
+        "volume": "57",
+        "author": "Benjamini",
+        "year": "1995",
+        "journal-title": "J. R. Stat. Soc. B"
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0380",
+        "doi-asserted-by": "crossref",
+        "first-page": "469",
+        "DOI": "10.1016/j.csda.2015.08.002",
+        "article-title": "New upper bounds for tight and fast approximation of Fisher's exact test in dependency rule mining",
+        "volume": "93",
+        "author": "H\u00e4m\u00e4l\u00e4inen",
+        "year": "2016",
+        "journal-title": "Comput. Stat. Data Anal."
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0390",
+        "author": "Dua"
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0400",
+        "first-page": "255",
+        "article-title": "Keel data-mining software tool: data set repository, integration of algorithms and experimental analysis framework",
+        "volume": "17",
+        "author": "Derrac",
+        "year": "2015",
+        "journal-title": "J. Mult.-Valued Log. Soft Comput."
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0410",
+        "first-page": "2825",
+        "article-title": "Scikit-learn: machine learning in Python",
+        "volume": "12",
+        "author": "Pedregosa",
+        "year": "2011",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.ins.2025.122037_br0420",
+        "doi-asserted-by": "crossref",
+        "first-page": "1565",
+        "DOI": "10.1016/j.patrec.2008.03.010",
+        "article-title": "Growing a multi-class classifier with a reject option",
+        "volume": "29",
+        "author": "Tax",
+        "year": "2008",
+        "journal-title": "Pattern Recognit. Lett."
+      },
+      {
+        "key": "10.1016/j.ins.2025.122037_br0430",
+        "first-page": "2411",
+        "article-title": "Mulan: a Java library for multi-label learning",
+        "volume": "12",
+        "author": "Tsoumakas",
+        "year": "2011",
+        "journal-title": "J. Mach. Learn. Res."
+      }
+    ],
+    "container-title": [
+      "Information Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0020025525001690?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0020025525001690?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          15
+        ]
+      ],
+      "date-time": "2025-07-15T08:07:25Z",
+      "timestamp": 1752566845000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0020025525001690"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7
+        ]
+      ]
+    },
+    "references-count": 43,
+    "alternative-id": [
+      "S0020025525001690"
+    ],
+    "URL": "https://doi.org/10.1016/j.ins.2025.122037",
+    "relation": {},
+    "ISSN": [
+      "0020-0255"
+    ],
+    "issn-type": [
+      {
+        "value": "0020-0255",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Conjunction subspaces test for conformal and selective classification",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Information Sciences",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.ins.2025.122037",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "\u00a9 2025 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "122037"
+  }
+}

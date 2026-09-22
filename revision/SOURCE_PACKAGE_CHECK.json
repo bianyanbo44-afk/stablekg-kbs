@@ -1,0 +1,17 @@
+{
+  "documents": [
+    {
+      "document": "main",
+      "pages": 13,
+      "extracted_source_text_matches": true
+    },
+    {
+      "document": "supplementary",
+      "pages": 10,
+      "extracted_source_text_matches": true
+    }
+  ],
+  "archive_sha256": "618d29f7ab7550a14a4410eeae5a93c869d9ef05de0ad02677a983481f2d45c3",
+  "archive_integrity_passed": true,
+  "generated_at": "2026-09-22"
+}

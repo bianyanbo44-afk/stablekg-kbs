@@ -1,0 +1,14 @@
+{
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.5.3",
+  "pandas": "2.2.3",
+  "scipy": "1.18.1",
+  "torch": "2.6.0+cu124",
+  "matplotlib": "3.11.1",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "cpu": "Intel(R) Core(TM) i9-14900HX",
+  "physical_cores": 24,
+  "logical_processors": 32,
+  "ram_gb": 31.79674530029297
+}

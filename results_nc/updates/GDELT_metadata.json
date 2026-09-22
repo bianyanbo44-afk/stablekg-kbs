@@ -1,0 +1,15 @@
+{
+  "dataset": "GDELT",
+  "events": 2308165,
+  "registered_queries": 5000,
+  "build_seconds": 5.461715900004492,
+  "one_cache_rss_mb": 304.765625,
+  "cache_numeric_arrays_mb": 275.4143981933594,
+  "cache_numeric_scope": "Probability, output, window, object, mass and multiplicity arrays; excludes Python containers and reverse-index objects.",
+  "anchor": "Training relation-frequency prior; cache-scaling experiment only.",
+  "oracle_max_abs_error": 5.551115123125783e-17,
+  "oracle_discrete_mismatches": 0,
+  "repeats": 10,
+  "control": "Both paths apply identical event writes and maintain identical cached window sufficient statistics.",
+  "timed_scope": "Event writes, reverse lookup, affected-query construction, probability fusion, winner and certificate refresh; encoder forward and cache construction excluded."
+}

@@ -1,0 +1,178 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=24mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,longtable,array,graphicx,microtype,xurl}
+\usepackage{lmodern,float}
+\usepackage[colorlinks=true,allcolors=black]{hyperref}
+\hypersetup{pdftitle={Supplementary Information: Exact stability certificates for neural temporal knowledge graph completion},pdfauthor={Yanbo Bian}}
+\newtheorem{proposition}{Proposition}
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thetable}{S\arabic{table}}
+\setlength{\emergencystretch}{2em}
+\title{Supplementary Information\\[6pt]\large Exact stability certificates for neural temporal knowledge graph completion}
+\author{Yanbo Bian\\Weihai International College, Beijing Jiaotong University\\Weihai 264401, China\\\texttt{24722081@bjtu.edu.cn}}
+\date{}
+\begin{document}\maketitle
+\section{Full proof and numerical realization}
+For a fixed query, write $a_c=(1-\lambda)(p_w-p_c)$,
+$u_{bc}=\lambda(e_{bw}-e_{bc})/S$ and $v_b=m_b/S$.
+The original gap is $G_c=a_c+\sum_bu_{bc}$. For any proper subset $D$,
+\begin{align}
+(1-\textstyle\sum_Dv_b)(g_D(w)-g_D(c))
+ &=a_c(1-\textstyle\sum_Dv_b)+\textstyle\sum_{b\notin D}u_{bc}\\
+ &=G_c-\textstyle\sum_{b\in D}(u_{bc}+a_cv_b).
+\end{align}
+All retained windows have positive total mass, so the multiplier is positive.
+The winner remains ahead of competitor $c$ if this expression is positive,
+or if it is zero and $w<c$. A violation is witnessed by a negative expression,
+or by zero when $c<w$.
+
+Under a budget of at most $k$, deleting a negative contribution cannot reduce
+this expression, and deleting a zero contribution leaves it unchanged.
+Among proper subsets, an optimizer therefore consists of the largest
+$\min(k,B-1)$ positive contributions. This proves exactness for each competitor.
+A query is stable if and only if it is stable against every competitor because
+the winning entity is selected by the same deterministic total ordering before
+and after editing. For $k\ge B$, the all-deleted case is evaluated directly using
+$p$. With $B=0$, no nontrivial edit exists. With $B=1$, the only proper subset is
+the empty set. Both cases are included by this construction.
+
+The first violating prefix length, minimized over competitors and combined
+with the complete-deletion case, gives the minimum number of windows required
+to change the answer. If no deletion changes it, the implementation records
+$B+1$ as a sentinel and reports radius $B$. The certificate surplus is the
+minimum signed numerator for the requested budget. When complete deletion
+violates the answer, a negative neural fallback gap is also included. Surplus
+is used as a diagnostic feature; it is not asserted to equal the smallest
+unscaled post-edit margin.
+
+An unsupported candidate has $e_{bo}=0$ for every window. Every such candidate
+has score $(1-\lambda)p_o$ whenever memory remains, and score $p_o$ after complete
+deletion. Since $\lambda<1$, ordering the unsupported candidates by neural
+probability and then entity identifier gives one representative that dominates
+all others for every deletion. Checking all supported candidates and that
+representative therefore preserves the full-vocabulary guarantee.
+
+Long histories can have retained mass far smaller than the original total.
+Direct subtraction of the deleted mass from the total can round that mass to
+zero. The implementation sorts signed contributions, then sums retained masses
+from the end of the ordered array. It compares the directly reconstructed
+winner and competitor scores to resolve floating-point ties. All certificate
+arithmetic uses float64. Property tests compare the sparse result with a
+full-vocabulary implementation and independent exhaustive subset enumeration;
+they include empty histories, tied scores, shared support and masses as small
+as $10^{-35}$. The theorem is an exact-arithmetic statement, and the numerical
+implementation is checked against direct edited-score evaluation.
+
+\section{Calibration inputs and operating policy}
+The four nested feature groups are listed below. For every logistic fit, inputs
+are standardized on the 2,000-query calibration-fit subset. A constant feature
+uses unit scale. Ridge regularization is chosen from
+$\{10^{-4},10^{-3},10^{-2},10^{-1},1\}$ by negative log likelihood on the separate
+1,000-query tuning subset. The belief feature group is selected by tuning AURC.
+The exact fitted means, scales, coefficients, penalty and operating thresholds
+are supplied in each frozen configuration file.
+
+\begin{description}
+\item[Probability calibration] Hybrid maximum score.
+\item[Score calibration] Neural maximum probability, neural probability of the
+hybrid winner, neural top-two margin, negative neural entropy, hybrid maximum
+score and hybrid top-two margin.
+\item[Evidence calibration] The score group plus log event count, the winner's
+fraction of evidence mass, temporal-window diversity $1-\sum_b(m_b/S)^2$,
+neural--hybrid winner agreement, and the fraction of memory mass in the four
+latest occupied-window indices relative to the latest window.
+\item[Certificate calibration] The evidence group plus one- and two-window
+surpluses, one- and two-window certificate indicators, and certificate radius
+divided by $\max(1,B)$.
+\end{description}
+The last recency feature uses the latest window and the three preceding bin
+indices, including empty intervening bins. It does not select the four most
+recent nonempty windows. Empty-history descriptors use zero memory fractions.
+
+The three-seed ensemble is a selection control on the fixed hybrid winner of
+each evaluated seed. Inputs include its mean neural probability, probability
+variance, average-distribution entropy, vote fraction and mutual information.
+These five quantities augment the score feature group. Thus this comparator
+changes the confidence ranking, not the answer being judged. It uses three
+encoders, whereas the deployed certified-belief policy uses one.
+
+Temperature scaling is fitted on the same calibration-fit role. Its score is
+the temperature-adjusted neural probability of the current hybrid winner.
+Brier score and ten equal-width-bin ECE refer to known-answer correctness of
+that winner. They are binary correctness calibration metrics, not a claim that
+the full categorical distribution is a calibrated probability over all unknown
+facts.
+
+\section{Statistical definitions}
+For $n$ queries ordered by decreasing confidence, with binary error $e_i$,
+\[
+\mathrm{AURC}=\frac1n\sum_{j=1}^n\frac1j\sum_{i=1}^je_i.
+\]
+Risk at coverage $c$ uses the first $\lfloor cn\rfloor$ predictions. Ties in
+confidence preserve source order. For certified selection, the list contains
+only queries passing the requested certificate; risk is unavailable if it is
+shorter than $\lfloor cn\rfloor$. The requested coverage denominator always
+remains all $n$ queries. Deployment thresholds instead retain every query whose
+score reaches the frozen threshold, so ties may change realized coverage.
+
+For random-window deletion, the binary discrimination endpoint is whether at
+least one of eight independently sampled deletions changes the answer. The
+random-flip rate itself is the mean of those eight responses. Shifted-window,
+wide-window and single-event outcomes are binary. AUROC uses negative margin
+or negative surplus so that larger values indicate greater vulnerability.
+The target for joint error is the union of an incorrect initial answer and a
+worst-case one-window answer change.
+
+Unique observed query timestamps are sorted and divided into 20 contiguous
+blocks with approximately equal numbers of unique timestamps. Each bootstrap
+draw samples 20 blocks with replacement. The same block multiplicities are
+applied to both methods and all three fitted seeds. Ranking metrics retain
+answer-count weights, while correctness metrics weight queries equally. AURC
+is recomputed on the repeated-query population, including its altered prefix
+denominators. Intervals are percentile intervals from 2,000 draws. An interval
+for a gated operating point uses only draws in which every seed has enough
+certified queries; its valid-replicate count is archived. Training variation
+is separately reported as the sample standard deviation over three seeds.
+
+\section{Data provenance and implementation}
+The release includes \texttt{data/DATA\_MANIFEST.md} for immutable public archive
+URLs, SHA-256 values and source license metadata. The TFLEX distribution provides
+point-entity queries with multiple known answers. Training entries are expanded
+into events without deduplication; the recorded event entries are unique in all
+three processed caches. The two primary test panels contain 5,057 and 5,052
+designated held-out answers, respectively. No designated ICEWS panel target is
+observed in training at its query timestamp. GDELT is used only for maintenance
+scaling because its query-format target lists overlap with training.
+
+The TeRDy optimizer retains the author implementation's nonfinite-gradient
+sanitization. Each training log reports the number of corrected gradient
+elements per epoch; losses and exported prediction scores are finite. The
+learning rates are 0.02 for ICEWS14 and 0.008 for ICEWS05-15. The exact
+regularizers and their weights are specified in the pinned adapter and run
+records. The compact factorization fits reuse archived 30-epoch checkpoints whose
+hashes and original configurations are provided with the release. The revised
+query correctness and calibration protocol was applied to these fixed models.
+TeRDy was trained for this revision using the pinned author implementation,
+with validation-selected checkpoints and resource-adapted embedding ranks.
+Validation truth sets contain training and validation facts only. A development
+version had used the globally complete truth set for validation filtering;
+the final adapter removes test-only answers, and all TeRDy fits and validation
+decisions were recomputed with the unchanged parameter grids. The correction
+and superseded-output separation are recorded in the repository.
+Neither model is presented as a reproduction of a published leaderboard score.
+The primary revised results use renormalized memory. Historical additive and
+fixed-denominator pilots are excluded from every table in this manuscript.
+
+\input{generated_supplementary_tables}
+\input{generated_control_tables}
+
+\section{Reproduction entry points}
+From a clean checkout, the commands in \texttt{README\_NEUROCOMPUTING.md}
+reconstruct data, obtain the pinned author code, train or import the fixed
+backbones, freeze validation decisions, evaluate the test panels and regenerate
+the figures and PDFs. A separate build-only route starts from the archived
+query-level source data and needs no model training. No credentials are needed
+for the public archives. Full model training requires a CUDA-enabled PyTorch
+installation; certificate, statistics and figure reconstruction run on CPU.
+
+\end{document}

@@ -1,0 +1,126 @@
+\section{Method}
+\subsection{Task and editable evidence interface}
+A temporal fact is a quadruple $(s,r,o,t)$ containing a subject, relation, object and timestamp. For a query $q=(s,r,?,t_q)$, let $\mathcal A_q$ be the entity vocabulary excluding objects already observed in the training graph for exactly $(s,r,t_q)$. This exclusion is determined entirely by observed training facts. The candidate vocabulary remains fixed during an edit experiment.
+
+A trained temporal encoder produces logits $z_\theta(q,o)$. The neural anchor is
+\begin{equation}
+p_q(o)=\frac{\exp\{z_\theta(q,o)/T\}}{\sum_{v\in\mathcal A_q}\exp\{z_\theta(q,v)/T\}},\qquad o\in\mathcal A_q,
+\label{eq:anchor}
+\end{equation}
+where $T>0$ is selected on validation data. The editable memory contains training events $(s,r,o,t_e)$ with $t_e\le t_q$ and $o\in\mathcal A_q$. Each event receives weight $2^{-(t_q-t_e)/h}$, with half-life $h$. Events are grouped into shared windows $b=\lfloor t_e/\omega\rfloor$. Define
+\begin{equation}
+\begin{aligned}
+e_{bo}&=\sum_{e:\,o_e=o,\,b_e=b}2^{-(t_q-t_e)/h},\\
+E_o&=\sum_b e_{bo},\quad m_b=\sum_o e_{bo},\quad S=\sum_b m_b.
+\end{aligned}
+\label{eq:memory}
+\end{equation}
+Only nonempty windows are retained. The original prediction score is
+\begin{equation}
+g(o)=(1-\lambda)p_q(o)+\lambda E_o/S,\qquad 0\le\lambda<1.
+\label{eq:fusion}
+\end{equation}
+When $S=0$, the score is $p_q(o)$. Thus the interface is a mixture of two distributions over the same admissible candidates. It can change a neural answer when temporal evidence supplies a stronger alternative, and it reduces to the neural predictor when no admissible history is available.
+
+The published benchmark split is interpolative: the neural encoder learns from the full published training split. The temporal cutoff in Eq.~\eqref{eq:memory} governs the editable memory. Encoder parameters, query timestamps and the candidate vocabulary are fixed while that memory is edited.
+
+\subsection{Exact certification under shared-window deletion}
+Deleting a shared window removes its events for \emph{every} candidate. For a proper subset $D$ of the $B$ nonempty windows, the edited score is
+\begin{equation}
+g_D(o)=(1-\lambda)p_q(o)+\lambda\frac{E_o-\sum_{b\in D}e_{bo}}{S-\sum_{b\in D}m_b}.
+\label{eq:edited}
+\end{equation}
+Deleting all evidence returns the neural anchor. Let $w=\arg\max_o g(o)$, with ties resolved by the smallest entity identifier. For each competitor $c\ne w$, define the original gap $G_c=g(w)-g(c)$ and signed window contribution
+\begin{equation}
+d_{bc}=\lambda\frac{e_{bw}-e_{bc}}{S}
+ +(1-\lambda)\{p_q(w)-p_q(c)\}\frac{m_b}{S}.
+\label{eq:delta}
+\end{equation}
+The first term measures the evidence advantage lost when a window is deleted. The second accounts for renormalization relative to the neural anchor. Both the winner's support and the competitor's support therefore enter the same intervention.
+
+\begin{proposition}[Exact shared-window certificate]
+For any proper deleted subset $D$,
+\begin{equation}
+\left(1-\sum_{b\in D}\frac{m_b}{S}\right)\{g_D(w)-g_D(c)\}
+=G_c-\sum_{b\in D}d_{bc}.
+\label{eq:reduction}
+\end{equation}
+Consequently, the largest loss of the signed gap numerator over proper subsets with $|D|\le k$ is the sum of the largest $\min(k,B-1)$ positive values of $d_{bc}$. Checking this sum for every competitor, together with the neural fallback when $k\ge B$, determines exactly whether every allowed deletion preserves $w$.
+\label{prop:certificate}
+\end{proposition}
+
+Equation~\eqref{eq:reduction} follows by multiplying the score difference by the positive retained-mass fraction. A cardinality-bounded sum is maximized by choosing its largest positive terms. If its remaining numerator is negative, those windows provide a constructive deletion witness. A zero numerator is resolved by the fixed tie rule. The complete-deletion case is checked separately because its denominator is zero. These observations prove Proposition~\ref{prop:certificate}; Supplementary Information gives the full case analysis.
+
+We call the minimum signed gap numerator across competitors the \emph{certificate surplus}. If complete deletion is allowed and changes the answer, the minimum also includes its negative neural fallback gap. Together with the tie rule, the surplus sign determines stability; its magnitude is not the unscaled post-edit margin. The certificate radius is the largest budget that retains the answer, capped at $B$. Empty memory is stable because there is no editable evidence, and its frequency is reported separately. For long histories, implementation uses suffix sums of the retained masses after sorting, preserving small old contributions when recent mass is removed.
+
+\subsection{Sparse certification over the full vocabulary}
+\begin{proposition}[Sparse competitor reduction]
+Let $\mathcal C_q=\{o:E_o>0\}$ be the evidence support. It is sufficient to check competitors in $\mathcal C_q\setminus\{w\}$ and the highest-probability neural candidate outside $\mathcal C_q\cup\{w\}$.
+\label{prop:sparse}
+\end{proposition}
+Every unsupported candidate has zero memory mass before and after deletion. Their score ordering is therefore their neural ordering for all allowed edits, including the complete-deletion fallback. The best unsupported candidate dominates every other unsupported competitor, proving Proposition~\ref{prop:sparse}.
+
+After neural logits are available, finding the winner and unsupported representative takes $O(N)$ time for $N$ admissible candidates. With $C$ supported competitors and $B$ windows, sorting the signed contributions costs $O(CB\log B)$ and the window statistics occupy $O(CB)$ memory. This replaces subset enumeration and avoids sorting contributions for all $N$ candidates. Algorithm~\ref{alg:certificate} summarizes the procedure.
+
+\begin{algorithm}[t]
+\caption{Exact certification of a neural--memory prediction}
+\label{alg:certificate}
+\begin{algorithmic}[1]
+\Require Frozen anchor $p_q$, nonempty window masses $e_{bo}$, weight $\lambda$, budget $k$
+\State Form $g$ using Eq.~\eqref{eq:fusion}; select winner $w$
+\State Identify supported competitors and the best unsupported candidate
+\For{each retained competitor $c$}
+  \State Compute $d_{bc}$ using Eq.~\eqref{eq:delta}
+  \State Sort contributions; retain up to $\min(k,B-1)$ positive terms
+  \State Compute retained winner, competitor and total masses by suffix sums
+  \If{$c$ overtakes $w$, including the tie rule}
+    \State \Return uncertified, with the corresponding deletion witness
+  \EndIf
+\EndFor
+\If{$k\ge B$ and the neural fallback changes $w$}
+  \State \Return uncertified, with the complete-deletion witness
+\EndIf
+\State \Return certified
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{Confidence and certified selection}
+For each predicted answer, a ridge logistic model estimates its probability of belonging to the published known-answer set. Its inputs are fitted on validation data and then fixed. We compare score-only features, additional evidence descriptors, and additional certificate descriptors. The latter include the one- and two-window surpluses, their certificate indicators and the radius divided by the number of windows. A separate calibration control uses only the hybrid maximum score.
+
+The deployed belief model is selected among these one-encoder calibrators by validation area under the risk--coverage curve (AURC). For a belief threshold $\tau$ and deletion budget $k$, acceptance is
+\begin{equation}
+\begin{aligned}
+\mathrm{accept}(q)={}&\mathbf 1\{\widehat P(\mathrm{correct}\mid q)\ge\tau\}\\
+&\times\mathbf 1\{q\text{ is certified for budget }k\}.
+\end{aligned}
+\label{eq:accept}
+\end{equation}
+The two factors have different roles: calibration estimates empirical correctness, and the certificate guarantees invariance within the specified edit family. Exact-coverage comparisons sort the same predictions and select the requested number of certified candidates. If too few candidates are certified, that operating point is reported as unavailable. Deployment results instead use thresholds fixed on the operating-validation subset and report their realized test coverage.
+
+\subsection{Local maintenance after an event edit}
+Each registered query caches its frozen anchor, admissible vocabulary and window statistics. A reverse index maps $(s,r)$ to registered query identifiers. An edit to $(s,r,o,t_e)$ affects only queries with that key, $t_q\ge t_e$, and $o\in\mathcal A_q$. Updating the corresponding window cell and total mass is sufficient to refresh the query's score, winner and certificate. Queries outside this set remain unchanged by Eqs.~\eqref{eq:memory}--\eqref{eq:edited}. This establishes exact local maintenance for the inference interface. The benchmark compares it with a full refresh that maintains the same indexed statistics and recomputes every registered query.
+
+\section{Experimental design}
+\subsection{Public data and prediction protocol}
+We use ICEWS14 and ICEWS05-15 in the public TFLEX point-query distribution. Their training graphs contain 72,826 and 368,962 event entries and their vocabularies contain 7,128 and 10,488 entities, respectively. Each dataset supplies 5,000 validation queries and 5,000 test queries, selected at evenly spaced positions in the published source order without using labels. Every held-out target in these two panels is absent from the training facts at the query timestamp. The raw archives, immutable source revisions and SHA-256 hashes are recorded in the data manifest.
+
+For filtered ranking, each designated held-out answer is ranked after removing the other known true answers for that query. Equal scores receive average ranks. We report mean reciprocal rank (MRR) and Hits@1/3/10, averaging over designated answers. For selective prediction, the system chooses one admissible object without accessing held-out labels. Validation labels and filtering use training and validation facts only; test facts do not enter checkpoint, fusion or selector decisions. Final test correctness uses the complete published known-answer set, so another known true answer is not counted as an error merely because it occurs in a different split. Training-observed answers remain excluded from selection. Thus selective answer-set accuracy and target-wise filtered Hits@1 describe related but different outcomes.
+
+GDELT supplies a separate maintenance experiment with 2,308,165 training-event entries and 500 entities. Its prediction anchor is a fixed relation-frequency distribution estimated from training counts with unit pseudocounts. This experiment isolates cache scaling on a dense public history; neural completion results are reported on the two ICEWS datasets.
+
+\subsection{Backbones, training and validation roles}
+TeRDy uses the authors' model and regularizers at a pinned repository commit \citep{liu2025terdy}. The embedding ranks are 6,000 for ICEWS14 and 2,000 for ICEWS05-15. We train up to 36 and 24 epochs, respectively, with checkpoint evaluation every three and two epochs and patience of four validation checks. Optimization uses the published Adagrad learning rates and regularizers with reciprocal relations. A second backbone is a compact complex-valued temporal factorization model with 96-dimensional entity, relation and timestamp embeddings, reciprocal training, 32 sampled negatives and 30 fixed training epochs. Three training seeds, 0, 1 and 2, are used for each backbone--dataset combination. The workstation has an Intel Core i9-14900HX CPU, 32~GB system memory and an RTX 4060 Laptop GPU with 8~GB device memory. TeRDy training and inference use the GPU; compact factorization and certificate analyses use the CPU. Full configurations and training histories accompany the results.
+
+Validation roles are fixed by panel position: queries 1--1,000 select neural checkpoints and the memory-fusion configuration; 1,001--3,000 fit calibrators; 3,001--4,000 choose regularization and the belief model; and 4,001--5,000 set operating thresholds. Fusion candidates are $T\in\{0.5,1,2,4\}$ and $\lambda\in\{0.1,0.25,0.5,0.75\}$, selected by validation MRR, then answer-set accuracy and smaller $\lambda$ to resolve ties. The neural-only case $\lambda=0$ is a separate comparator and part of the sensitivity analysis. The memory half-life is 35 timestamp units and its window width is seven units. The complete calibrator feature sets and fitted coefficients are provided in the supplement and machine-readable configurations.
+
+The final comparison includes maximum probability, candidate probability, neural and hybrid margins, negative entropy, temperature scaling, score calibration, evidence calibration and certificate calibration. Temperature scaling minimizes held-out categorical negative log likelihood on the calibration-fit subset. The ensemble control uses all three independently trained seeds of the same backbone; its probability, disagreement, entropy and mutual-information features are calibrated for the \emph{same fixed hybrid predictions}. It therefore measures a stronger uncertainty selector without changing the answers in a matched selection comparison. All configurations are serialized and hashed before revised test inference.
+
+\subsection{Interventions and analytical controls}
+We evaluate worst-case deletion of up to one, two or three shared windows using the constructive witness. Complementary perturbations delete two randomly selected windows, shift seven-unit window boundaries by three units, double the width to 14 units, or delete the most recent event supporting the winner. Eight independent random deletions per query estimate the random-edit response. Surplus discrimination is evaluated against these distinct perturbation outcomes, alongside the unmodified hybrid margin.
+
+Two controls isolate what exact certification contributes. A conservative bound removes the winner's window mass while omitting the competitor's simultaneous evidence loss; it retains the neural renormalization term and checks the same complete-deletion fallback. Random-probe controls inspect 8, 32 or 64 sampled deletions and report whether all probes preserve the answer. Passing a finite probe set is evaluated against the exact adversary. A vectorized full-vocabulary implementation checks the sparse reduction independently. The fusion-weight analysis reports every prespecified weight with the selected temperature held fixed.
+
+\subsection{Maintenance, uncertainty and reproducibility}
+The maintenance benchmark registers 5,000 queries per dataset and measures event batches of 1, 10, 100 and 1,000 entries. Each sampled deletion batch is followed by restoration, with ten repetitions per batch size. Both implementations apply identical writes to identical window statistics; one refreshes all registered queries and the other refreshes only the affected set. The common refresh kernel vectorizes the sparse competitor calculations when at least 16 competitors are present. Execution order is alternated. Timings include writes, reverse lookup, affected-set construction, fusion, winner selection and certification, excluding encoder inference and one-time cache construction. An independent raw-event rebuild checks the final state. A separate certificate microbenchmark compares the witness-producing sparse implementation with a vectorized dense control on 32 evenly spaced queries, with three repetitions per query and alternating execution order.
+
+We report three-seed means and sample standard deviations. Paired 95\% confidence intervals use 2,000 bootstrap replicates of 20 contiguous blocks of observed timestamps, resampled jointly across compared methods and the three fixed model fits. These intervals describe temporal sampling variation conditional on the fitted models; seed variability is reported separately. The complete predefined comparison family is retained. AURC, Brier score, ten-bin expected calibration error (ECE), exact-coverage risk and validation-threshold deployment results are computed from archived query-level outputs. Correctness error, edit-induced answer changes and their union are reported as separate endpoints.

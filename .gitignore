@@ -53,6 +53,21 @@ results_neural_v5/**/*.pt
 # TIFF exports are local production copies; vector PDF/SVG and PNG are tracked.
 figures/out/*.tiff
 
+# Neurocomputing revision: rebuildable dense artifacts and local runtime logs.
+results_nc/**/*.pt
+results_nc/**/*.npy
+results_nc/**/*_queries.csv
+logs/
+results_nc/pilot*/
+results_nc/evaluation/
+results_nc_superseded_global_truth/
+data/processed_nc/
+submission/neurocomputing/Neurocomputing_submission_package.zip
+release/neurocomputing_source_data.zip
+release/*.part
+results_nc/extended/*.csv
+results_nc/updates/*_trials.csv
+
 # Superseded experiment releases and pre-review archive.
 results_final/
 results_neural/

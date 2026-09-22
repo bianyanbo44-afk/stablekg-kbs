@@ -1,0 +1,86 @@
+[
+  {
+    "model": "TemporalComplEx",
+    "dataset": "ICEWS14",
+    "seed": 0,
+    "configuration": "results_nc\\evaluation_renormalized\\TemporalComplEx\\ICEWS14\\seed0\\frozen_config.json",
+    "sha256": "f959bf8496c390579c329e7923501ac7307ade6d04788d482e725067f3c790f8"
+  },
+  {
+    "model": "TemporalComplEx",
+    "dataset": "ICEWS14",
+    "seed": 1,
+    "configuration": "results_nc\\evaluation_renormalized\\TemporalComplEx\\ICEWS14\\seed1\\frozen_config.json",
+    "sha256": "08027063de1ed7c125d39874b026ab4aa07967577013ec941e82cc485e2dc757"
+  },
+  {
+    "model": "TemporalComplEx",
+    "dataset": "ICEWS14",
+    "seed": 2,
+    "configuration": "results_nc\\evaluation_renormalized\\TemporalComplEx\\ICEWS14\\seed2\\frozen_config.json",
+    "sha256": "043820de3665f47f74a4460c4f01d030b4e29e240c251da44f897c71fd65b56b"
+  },
+  {
+    "model": "TemporalComplEx",
+    "dataset": "ICEWS05-15",
+    "seed": 0,
+    "configuration": "results_nc\\evaluation_renormalized\\TemporalComplEx\\ICEWS05-15\\seed0\\frozen_config.json",
+    "sha256": "b6251782fcb6b893adc3e80a60fd7a8d4c0dbd1306c559cca97f506abff59303"
+  },
+  {
+    "model": "TemporalComplEx",
+    "dataset": "ICEWS05-15",
+    "seed": 1,
+    "configuration": "results_nc\\evaluation_renormalized\\TemporalComplEx\\ICEWS05-15\\seed1\\frozen_config.json",
+    "sha256": "44444de61b5de4dc6ebfaf5bb37794a0f3feb3fac37e02c2910984dac08859b0"
+  },
+  {
+    "model": "TemporalComplEx",
+    "dataset": "ICEWS05-15",
+    "seed": 2,
+    "configuration": "results_nc\\evaluation_renormalized\\TemporalComplEx\\ICEWS05-15\\seed2\\frozen_config.json",
+    "sha256": "ab47058d35b829b148b0aadb14121bad90dcd14fdcf9ed6ce73d0cf0870f7a8e"
+  },
+  {
+    "model": "TeRDy",
+    "dataset": "ICEWS14",
+    "seed": 0,
+    "configuration": "results_nc\\evaluation_renormalized\\TeRDy\\ICEWS14\\seed0\\frozen_config.json",
+    "sha256": "d9341e110f20f53282e10c49da45b6239ff6f533f3e03cd27b5d8a1f1c2e78a3"
+  },
+  {
+    "model": "TeRDy",
+    "dataset": "ICEWS14",
+    "seed": 1,
+    "configuration": "results_nc\\evaluation_renormalized\\TeRDy\\ICEWS14\\seed1\\frozen_config.json",
+    "sha256": "97b18ae2663ae227d50c464f8545f2b159fb57bab723160ff7fc06f3206b0741"
+  },
+  {
+    "model": "TeRDy",
+    "dataset": "ICEWS14",
+    "seed": 2,
+    "configuration": "results_nc\\evaluation_renormalized\\TeRDy\\ICEWS14\\seed2\\frozen_config.json",
+    "sha256": "6e56c150fe151c2968dbfe8f0baaec3248dbaa9a9b8ba5f1e435f0b7f2bd209c"
+  },
+  {
+    "model": "TeRDy",
+    "dataset": "ICEWS05-15",
+    "seed": 0,
+    "configuration": "results_nc\\evaluation_renormalized\\TeRDy\\ICEWS05-15\\seed0\\frozen_config.json",
+    "sha256": "81187440e9e847d20ed2155e1bea72d0f12800ba058ea6c84b6b153214b83f98"
+  },
+  {
+    "model": "TeRDy",
+    "dataset": "ICEWS05-15",
+    "seed": 1,
+    "configuration": "results_nc\\evaluation_renormalized\\TeRDy\\ICEWS05-15\\seed1\\frozen_config.json",
+    "sha256": "35c5442af0b2c9de1cf3b3b97fd79fd080333a9211299619b6707bfc8ca9a99f"
+  },
+  {
+    "model": "TeRDy",
+    "dataset": "ICEWS05-15",
+    "seed": 2,
+    "configuration": "results_nc\\evaluation_renormalized\\TeRDy\\ICEWS05-15\\seed2\\frozen_config.json",
+    "sha256": "a4e49dabca86e16f717b98a6e51c1f378f2c6bc987a1a1d2c9c9574aa53a7c04"
+  }
+]

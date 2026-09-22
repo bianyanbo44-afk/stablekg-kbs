@@ -1,0 +1,9 @@
+\begin{table*}[tbp]\centering\small\caption{Predictive performance on the fixed public test panels. Values are mean $\pm$ sample SD over three training seeds, in percent. MRR and Hits average over designated held-out answers; accuracy evaluates the selected object against the complete known-answer set. CTF denotes compact temporal factorization.}\label{tab:prediction}\begin{tabular}{lllrrrrr}\toprule Backbone & Dataset & Interface & MRR & Hits@1 & Hits@3 & Hits@10 & Accuracy\\\midrule
+TeRDy & ICEWS14 & Neural & $66.27\pm0.14$ & $57.93\pm0.22$ & $71.49\pm0.26$ & $81.48\pm0.25$ & $58.28\pm0.20$\\
+TeRDy & ICEWS14 & Hybrid & $66.16\pm0.10$ & $57.92\pm0.26$ & $71.17\pm0.09$ & $81.38\pm0.13$ & $58.29\pm0.24$\\
+TeRDy & ICEWS05-15 & Neural & $62.85\pm0.70$ & $53.04\pm0.92$ & $68.96\pm0.63$ & $80.97\pm0.32$ & $53.47\pm1.00$\\
+TeRDy & ICEWS05-15 & Hybrid & $63.28\pm0.92$ & $53.44\pm1.25$ & $69.33\pm0.82$ & $81.64\pm0.29$ & $53.85\pm1.24$\\
+CTF & ICEWS14 & Neural & $36.78\pm0.42$ & $26.66\pm0.36$ & $41.83\pm0.81$ & $57.10\pm0.34$ & $27.05\pm0.30$\\
+CTF & ICEWS14 & Hybrid & $43.11\pm0.20$ & $33.58\pm0.07$ & $48.01\pm0.43$ & $61.93\pm0.48$ & $34.05\pm0.10$\\
+CTF & ICEWS05-15 & Neural & $45.46\pm0.08$ & $32.53\pm0.05$ & $51.98\pm0.51$ & $72.43\pm0.43$ & $32.98\pm0.03$\\
+CTF & ICEWS05-15 & Hybrid & $50.51\pm0.22$ & $38.81\pm0.17$ & $56.64\pm0.41$ & $74.21\pm0.65$ & $39.28\pm0.11$\\\bottomrule\end{tabular}\end{table*}

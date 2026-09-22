@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-22",
+  "status": "ready_with_author_checks",
+  "submission_files_hash_verified": 8,
+  "main_pages": 13,
+  "supplementary_pages": 10,
+  "recent_verified_references": 31,
+  "ai_disclosure_locations": [
+    "main declaration",
+    "Methods",
+    "Figure 1 caption",
+    "Declarations.docx",
+    "Cover_letter.docx"
+  ],
+  "publisher_ai_policy": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+  "policy_update": "June 2026",
+  "tool_version_at_final_preparation": "OpenAI Codex desktop 26.915.4065.0",
+  "scientific_results_unchanged": true,
+  "author_checks": [
+    "Critically review and approve the final manuscript and AI disclosure.",
+    "Confirm no simultaneous review elsewhere.",
+    "Follow current article-type and upload fields in Editorial Manager; full journal guide still presents a verification challenge."
+  ]
+}

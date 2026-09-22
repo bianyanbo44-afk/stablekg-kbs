@@ -54,7 +54,7 @@ def main():
                     'Compile main.tex and supplementary.tex using latexmk -pdf.\n'
                     'The Elsevier class and bibliography style retain their original licenses.\n'
                     'Vector figures are editable SVG/PDF; source_data contains their plotted values.\n'
-                    'Full experiment and figure code: https://github.com/bianyanbo44-afk/stablekg-kbs/tree/neurocomputing-v1\n')
+                    'Full experiment and figure code: https://github.com/bianyanbo44-afk/stablekg-kbs/tree/neurocomputing-v1.1\n')
 
     names = ['Manuscript.pdf', 'Supplementary_information.pdf', 'Manuscript_sources.zip',
              'Title_page.docx', 'Highlights.docx', 'Cover_letter.docx', 'Declarations.docx',

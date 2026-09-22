@@ -14,7 +14,8 @@ This version accompanies the manuscript prepared for **Neurocomputing**.
 - [Reproduction instructions](README_NEUROCOMPUTING.md)
 - [Editable figures and source data](figures/neurocomputing)
 - [Submission materials](submission/neurocomputing)
-- [Release assets](https://github.com/bianyanbo44-afk/stablekg-kbs/releases/tag/neurocomputing-v1)
+- [Current manuscript and submission package](https://github.com/bianyanbo44-afk/stablekg-kbs/releases/tag/neurocomputing-v1.1)
+- [Versioned experimental source-data archive](https://github.com/bianyanbo44-afk/stablekg-kbs/releases/tag/neurocomputing-v1)
 
 The experiments use TeRDy and a compact temporal factorization model on
 ICEWS14 and ICEWS05-15, with three fitted seeds per combination. GDELT provides

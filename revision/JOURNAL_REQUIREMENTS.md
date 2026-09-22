@@ -26,3 +26,19 @@ officially named department, so no department is invented.
 Funding: no external funding, explicitly confirmed by the author.
 Competing interests: the author explicitly confirmed no related financial or
 personal competing interests in this session (2026-09-22).
+
+AI-policy recheck (22 September 2026): the publisher's official page was fully
+accessible at https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals
+and identifies its latest update as June 2026. It requires disclosure of the tool,
+purpose and human oversight; research uses belong in Methods. Data visualizations
+must derive from reproducible analyses, with tool/developer/version recorded in
+Methods. AI-assisted explanatory diagrams additionally need caption disclosure.
+The revised manuscript addresses these locations. The installed Codex desktop
+build recorded at final preparation is 26.915.4065.0; this is a tool build, not
+a claim to a frozen model checkpoint across the entire research history.
+
+The revised wording records author-set objectives, scope and revision priorities;
+it does not assert that the author has already independently verified every AI
+output. Personal critical review and approval of the submitted version remain
+the author's final step. The Neurocomputing Editorial Manager portal responded
+successfully at https://www.editorialmanager.com/neucom/.
